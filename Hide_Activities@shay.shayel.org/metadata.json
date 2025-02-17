@@ -5,9 +5,10 @@
   "shell-version": [
     "45",
     "46",
-    "47"
+    "47",
+    "48"
   ],
   "url": "https://github.com/zeten30/HideActivities",
   "uuid": "Hide_Activities@shay.shayel.org",
-  "version": 20
+  "version": 21
 }
