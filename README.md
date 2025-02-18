@@ -6,9 +6,9 @@ Extensions are stored in ```~/.local/share/gnome-shell/extensions```.
 
 First install the **Extension Manager** from **Flathub** using `flatpak install flathub com.mattjakeman.ExtensionManager`. As this repo also contains the extensions with their configurations, just clone and copy all the contents into `~/.local/share/gnome-shell/extensions/` and restart the system or restart the session. 😺
 
-# Bash and other misc config
+#
 
-My WSL2, bash and other linux related configurations stored as a [Gist](https://gist.github.com/itsmetheearthianbuoy/c97c5678ea81b2334dd8de6829ef6f96.js).
+[Gist](https://gist.github.com/itsmetheearthianbuoy/c97c5678ea81b2334dd8de6829ef6f96) for WSL2, bash and other linux related configurations.
 
 #
 
