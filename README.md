@@ -2,7 +2,7 @@
 
 Extensions are stored in ```~/.local/share/gnome-shell/extensions```.
 
-# To install
+# 
 
 First install the **Extension Manager** from **Flathub** using `flatpak install flathub com.mattjakeman.ExtensionManager`. As this repo also contains the extensions with their configurations, just clone and copy all the contents into `~/.local/share/gnome-shell/extensions/` and restart the system or restart the session. 😺
 
