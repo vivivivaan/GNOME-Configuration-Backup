@@ -1,0 +1,292 @@
+[astra-monitor]
+gpu-indicators-order='["icon","activity bar","activity graph","activity percentage","memory bar","memory graph","memory percentage","memory value"]'
+headers-height=0
+headers-height-override=0
+memory-indicators-order='["icon","bar","graph","percentage","value","free"]'
+monitors-order='["processor","gpu","memory","storage","network","sensors"]'
+network-indicators-order='["icon","IO bar","IO graph","IO speed"]'
+processor-indicators-order='["icon","bar","graph","percentage","frequency"]'
+processor-menu-gpu-color=''
+profiles='{"default":{"panel-margin-left":0,"sensors-header-tooltip-sensor2-digits":-1,"memory-update":3,"gpu-header-memory-graph-color1":"rgba(29,172,214,1.0)","panel-box":"right","memory-header-show":true,"network-header-tooltip-io":true,"processor-header-bars-color2":"rgba(214,29,29,1.0)","processor-header-icon-size":18,"storage-menu-device-color":"rgba(29,172,214,1.0)","sensors-header-tooltip-sensor4-name":"","storage-header-icon-color":"","network-source-public-ipv4":"https://api.ipify.org","storage-header-io-graph-color2":"rgba(214,29,29,1.0)","processor-menu-top-processes-percentage-core":true,"sensors-header-sensor1":"\\"\\"","processor-header-graph":true,"storage-header-graph-width":30,"network-header-bars":false,"processor-source-load-avg":"auto","network-menu-arrow-color1":"rgba(29,172,214,1.0)","network-source-top-processes":"auto","gpu-header-icon":true,"processor-menu-graph-breakdown":true,"sensors-header-icon-custom":"","sensors-header-sensor2":"\\"\\"","network-header-icon-alert-color":"rgba(235, 64, 52, 1)","memory-header-tooltip-free":false,"storage-header-io-figures":2,"network-menu-arrow-color2":"rgba(214,29,29,1.0)","sensors-header-tooltip-sensor3-name":"","network-source-public-ipv6":"https://api6.ipify.org","monitors-order":"\\"\\"","network-header-graph":true,"network-indicators-order":"\\"\\"","memory-header-percentage":false,"gpu-data":"\\"\\"","storage-header-bars":true,"processor-header-tooltip":true,"memory-menu-swap-color":"rgba(29,172,214,1.0)","storage-io-unit":"kB/s","memory-header-graph-width":30,"processor-header-graph-color1":"rgba(29,172,214,1.0)","sensors-header-tooltip-sensor5-digits":-1,"gpu-header-icon-custom":"","processor-header-graph-breakdown":true,"panel-margin-right":0,"processor-header-frequency":false,"processor-source-cpu-usage":"auto","sensors-header-tooltip-sensor3-digits":-1,"gpu-header-icon-size":18,"memory-header-value-figures":3,"compact-mode":false,"processor-header-frequency-mode":"average","panel-box-order":0,"compact-mode-compact-icon-custom":"","network-header-graph-width":30,"gpu-header-tooltip":true,"sensors-header-icon":true,"gpu-header-activity-percentage-icon-alert-threshold":0,"sensors-header-sensor2-digits":-1,"processor-header-graph-color2":"rgba(214,29,29,1.0)","sensors-header-icon-alert-color":"rgba(235, 64, 52, 1)","sensors-update":3,"gpu-header-tooltip-memory-value":true,"processor-header-bars":false,"gpu-header-tooltip-memory-percentage":true,"gpu-header-memory-bar-color1":"rgba(29,172,214,1.0)","sensors-header-tooltip-sensor1":"\\"\\"","sensors-header-tooltip-sensor1-digits":-1,"storage-header-free-figures":3,"processor-header-percentage-core":false,"sensors-header-tooltip-sensor2-name":"","network-source-network-io":"auto","memory-header-bars":true,"processor-header-percentage":false,"processor-header-frequency-figures":3,"storage-header-io-threshold":0,"memory-header-graph-color1":"rgba(29,172,214,1.0)","compact-mode-activation":"both","storage-header-icon-size":18,"sensors-header-tooltip-sensor1-name":"","sensors-header-icon-size":18,"sensors-header-icon-color":"","explicit-zero":false,"sensors-source":"auto","storage-header-io-graph-color1":"rgba(29,172,214,1.0)","storage-header-percentage-icon-alert-threshold":0,"sensors-header-tooltip-sensor2":"\\"\\"","compact-mode-expanded-icon-custom":"","memory-header-graph-color2":"rgba(29,172,214,0.3)","processor-header-icon-alert-color":"rgba(235, 64, 52, 1)","processor-header-tooltip-percentage":true,"gpu-header-show":false,"network-update":1.5,"sensors-header-tooltip-sensor3":"\\"\\"","sensors-ignored-attribute-regex":"","memory-header-icon-custom":"","storage-header-tooltip-io":true,"sensors-header-tooltip-sensor4":"\\"\\"","storage-header-percentage":false,"sensors-temperature-unit":"celsius","storage-header-icon-alert-color":"rgba(235, 64, 52, 1)","storage-header-free-icon-alert-threshold":0,"memory-source-top-processes":"auto","storage-header-value-figures":3,"storage-header-io-bars-color1":"rgba(29,172,214,1.0)","storage-menu-arrow-color1":"rgba(29,172,214,1.0)","gpu-header-tooltip-activity-percentage":true,"network-header-icon-custom":"","processor-header-graph-width":30,"network-header-icon":true,"storage-menu-arrow-color2":"rgba(214,29,29,1.0)","sensors-header-sensor2-layout":"vertical","sensors-header-tooltip-sensor5":"\\"\\"","memory-header-bars-breakdown":true,"sensors-header-show":false,"sensors-header-tooltip":false,"storage-header-tooltip":true,"processor-header-bars-core":false,"storage-indicators-order":"\\"\\"","processor-menu-bars-breakdown":true,"storage-header-io-bars-color2":"rgba(214,29,29,1.0)","network-io-unit":"kB/s","storage-header-icon":true,"gpu-header-activity-graph-color1":"rgba(29,172,214,1.0)","memory-unit":"kB-KB","processor-menu-core-bars-breakdown":true,"sensors-header-sensor2-show":false,"network-header-tooltip":true,"storage-header-tooltip-free":true,"storage-header-bars-color1":"rgba(29,172,214,1.0)","theme-style":"dark","storage-source-storage-usage":"auto","network-header-io":false,"storage-header-tooltip-value":false,"storage-main":"[default]","storage-source-storage-io":"auto","memory-header-tooltip-percentage":true,"memory-indicators-order":"\\"\\"","memory-source-memory-usage":"auto","memory-header-graph-breakdown":false,"memory-header-tooltip-value":true,"memory-menu-graph-breakdown":true,"sensors-indicators-order":"\\"\\"","compact-mode-start-expanded":false,"startup-delay":2,"memory-header-percentage-icon-alert-threshold":0,"sensors-header-sensor1-show":false,"network-ignored-regex":"","storage-update":3,"memory-header-value":false,"network-header-io-graph-color1":"rgba(29,172,214,1.0)","gpu-header-memory-bar":true,"memory-used":"total-free-buffers-cached","memory-header-bars-color1":"rgba(29,172,214,1.0)","gpu-header-memory-graph-width":30,"gpu-header-memory-graph":false,"sensors-ignored-category-regex":"","headers-font-family":"","memory-header-icon":true,"memory-header-bars-color2":"rgba(29,172,214,0.3)","network-header-io-graph-color2":"rgba(214,29,29,1.0)","processor-gpu":true,"network-header-icon-color":"","storage-header-value":false,"gpu-header-icon-alert-color":"rgba(235, 64, 52, 1)","processor-header-icon":true,"headers-font-size":0,"network-header-io-figures":2,"network-header-show":true,"sensors-ignored-regex":"","network-header-io-bars-color1":"rgba(29,172,214,1.0)","processor-update":1.5,"network-source-wireless":"auto","processor-indicators-order":"\\"\\"","storage-header-icon-custom":"","gpu-header-activity-bar":true,"gpu-header-activity-bar-color1":"rgba(29,172,214,1.0)","shell-bar-position":"top","network-ignored":"\\"[]\\"","network-header-io-bars-color2":"rgba(214,29,29,1.0)","memory-header-icon-color":"","sensors-header-sensor1-digits":-1,"storage-header-io-layout":"vertical","memory-header-icon-size":18,"network-header-io-threshold":0,"storage-header-show":true,"sensors-header-tooltip-sensor4-digits":-1,"processor-header-percentage-icon-alert-threshold":0,"memory-header-tooltip":true,"headers-height-override":0,"memory-header-graph":false,"network-header-icon-size":18,"gpu-header-icon-color":"","memory-header-free-figures":3,"storage-header-io-bars":false,"processor-header-bars-breakdown":true,"gpu-header-activity-graph":false,"storage-ignored":"\\"[]\\"","memory-header-icon-alert-color":"rgba(235, 64, 52, 1)","storage-header-free":false,"processor-header-icon-custom":"","gpu-header-memory-percentage":false,"processor-header-tooltip-percentage-core":false,"processor-source-cpu-cores-usage":"auto","processor-source-top-processes":"auto","processor-header-icon-color":"","sensors-header-tooltip-sensor5-name":"","gpu-header-activity-graph-width":30,"gpu-header-activity-percentage":false,"gpu-indicators-order":"\\"\\"","processor-header-bars-color1":"rgba(29,172,214,1.0)","network-header-io-layout":"vertical","gpu-update":2,"memory-header-free":false,"gpu-header-memory-percentage-icon-alert-threshold":0,"processor-header-show":true,"memory-header-free-icon-alert-threshold":0,"storage-ignored-regex":"","storage-header-graph":false,"storage-header-tooltip-percentage":true,"storage-header-io":false,"storage-source-top-processes":"auto"}}'
+sensors-indicators-order='["icon","value"]'
+storage-indicators-order='["icon","bar","percentage","value","free","IO bar","IO graph","IO speed"]'
+storage-main='eui.002538bc11b6e85b-part6'
+
+[aztaskbar]
+main-panel-height=(true, 40)
+position-in-panel='CENTER'
+
+[battery-indicator-icon]
+icon-orientation='horizontal'
+icon-scale=1.0
+show-icon-text=0
+status-style='slim'
+
+[bedtime-mode]
+automatic-schedule=false
+bedtime-mode-active=false
+color-tone-preset='grayscale'
+ondemand-button-location='menu'
+ondemand-button-visibility='always'
+schedule-end-hours=0
+schedule-start-hours=0
+
+[bluetooth-quick-connect]
+refresh-button-on=true
+show-battery-value-on=true
+
+[blur-my-shell]
+settings-version=2
+
+[blur-my-shell/appfolder]
+brightness=0.59999999999999998
+sigma=30
+
+[blur-my-shell/coverflow-alt-tab]
+pipeline='pipeline_default_rounded'
+
+[blur-my-shell/dash-to-dock]
+blur=true
+brightness=0.59999999999999998
+pipeline='pipeline_default_rounded'
+sigma=30
+static-blur=true
+style-dash-to-dock=0
+
+[blur-my-shell/lockscreen]
+pipeline='pipeline_default'
+
+[blur-my-shell/overview]
+pipeline='pipeline_default'
+style-components=3
+
+[blur-my-shell/panel]
+brightness=0.59999999999999998
+pipeline='pipeline_default_rounded'
+sigma=30
+static-blur=true
+
+[blur-my-shell/screenshot]
+pipeline='pipeline_default'
+
+[blur-my-shell/window-list]
+brightness=0.59999999999999998
+sigma=30
+
+[clipboard-indicator]
+cache-size=30
+history-size=150
+keep-selected-on-clear=true
+move-item-first=true
+notify-on-copy=true
+pinned-on-bottom=true
+
+[custom-hot-corners-extended/misc]
+panel-menu-enable=false
+show-osd-monitor-indexes=false
+supported-active-extensions=@as []
+
+[custom-hot-corners-extended/monitor-0-bottom-left-0]
+action='toggle-overview'
+pressure-threshold=50
+
+[custom-hot-corners-extended/monitor-0-bottom-left-6]
+ctrl=true
+
+[custom-hot-corners-extended/monitor-0-bottom-right-0]
+action='toggle-overview'
+pressure-threshold=50
+
+[custom-hot-corners-extended/monitor-0-bottom-right-6]
+ctrl=true
+
+[custom-hot-corners-extended/monitor-0-top-left-0]
+action='toggle-overview'
+pressure-threshold=50
+
+[custom-hot-corners-extended/monitor-0-top-left-6]
+ctrl=true
+
+[custom-hot-corners-extended/monitor-0-top-right-0]
+action='toggle-overview'
+pressure-threshold=50
+
+[custom-hot-corners-extended/monitor-0-top-right-6]
+ctrl=true
+
+[dash-to-dock]
+apply-custom-theme=false
+autohide-in-fullscreen=true
+background-opacity=0.0
+custom-theme-shrink=false
+dash-max-icon-size=35
+disable-overview-on-startup=true
+dock-fixed=false
+dock-position='BOTTOM'
+extend-height=false
+height-fraction=0.84999999999999998
+hide-delay=0.15000000000000002
+icon-size-fixed=false
+intellihide-mode='FOCUS_APPLICATION_WINDOWS'
+middle-click-action='launch'
+preferred-monitor=-2
+preferred-monitor-by-connector='eDP-1'
+pressure-threshold=100.0
+preview-size-scale=0.0
+running-indicator-style='DOTS'
+scroll-action='cycle-windows'
+shift-click-action='minimize'
+shift-middle-click-action='launch'
+show-apps-at-top=false
+show-mounts=true
+show-mounts-network=false
+show-mounts-only-mounted=true
+transparency-mode='FIXED'
+
+[day-progress]
+height=5
+panel-position=1
+show-elapsed=false
+style=1
+width=15
+
+[desktop-cube]
+edge-switch-pressure=150
+mouse-rotation-speed=2.5000000000000004
+window-parallax=0.61904761904761907
+
+[dim-background-windows]
+dimming-enabled=true
+target-monitor='all'
+toggle-shortcut=['<Super>g']
+
+[ding]
+check-x11wayland=true
+icon-size='tiny'
+
+[disconnect-wifi]
+show-reconnect-always=true
+
+[dynamic-panel]
+auto-width=true
+background-mode=0
+detection-mode=0
+
+[freon]
+panel-box-index=0
+position-in-panel=2
+use-drive-smartctl=false
+use-gpu-nvidia=false
+
+[hidetopbar]
+keep-round-corners=true
+mouse-sensitive=true
+pressure-threshold=85
+pressure-timeout=1000
+
+[just-perfection]
+animation=4
+panel-icon-size=0
+panel-size=22
+startup-status=0
+support-notifier-showed-version=34
+support-notifier-type=0
+
+[one-thing]
+location-in-status-bar=2
+thing-value='unfuckwithable'
+
+[osd-volume-number]
+adapt-panel-menu=true
+icon-position='right'
+number-position='left'
+
+[quick-settings-tweaks]
+input-show-selected=false
+list-buttons='[{"name":"SystemItem","title":null,"visible":true},{"name":"OutputStreamSlider","title":null,"visible":true},{"name":"InputStreamSlider","title":null,"visible":false},{"name":"St_BoxLayout","title":null,"visible":true},{"name":"BrightnessItem","title":null,"visible":true},{"name":"NMWiredToggle","title":null,"visible":false},{"name":"NMWirelessToggle","title":"Wi-Fi","visible":true},{"name":"NMModemToggle","title":null,"visible":false},{"name":"NMBluetoothToggle","title":null,"visible":false},{"name":"NMVpnToggle","title":null,"visible":false},{"name":"BluetoothToggle","title":"Bluetooth","visible":true},{"name":"PowerProfilesToggle","title":"Power Mode","visible":true},{"name":"NightLightToggle","title":"Night Light","visible":true},{"name":"DarkModeToggle","title":"Dark Style","visible":true},{"name":"KeyboardBrightnessToggle","title":"Keyboard","visible":true},{"name":"RfkillToggle","title":"Aeroplane Mode","visible":true},{"name":"RotationToggle","title":"Auto Rotate","visible":false},{"name":"DndQuickToggle","title":"Do Not Disturb","visible":true},{"name":"BackgroundAppsToggle","title":"No Background Apps","visible":false},{"name":"MediaSection","title":null,"visible":false},{"name":"Notifications","title":null,"visible":false}]'
+notifications-max-height=220
+output-show-selected=false
+volume-mixer-position='top'
+volume-mixer-show-description=true
+volume-mixer-show-icon=true
+
+[runcat]
+displaying-items='character-and-percentage'
+
+[show-desktop-button]
+indicator-position='CENTER_RIGHT'
+
+[tiling-assistant]
+activate-layout0=@as []
+activate-layout1=@as []
+activate-layout2=@as []
+activate-layout3=@as []
+active-window-hint=1
+active-window-hint-color='rgb(218,52,80)'
+auto-tile=@as []
+center-window=@as []
+debugging-free-rects=@as []
+debugging-show-tiled-rects=@as []
+default-move-mode=0
+dynamic-keybinding-behavior=0
+import-layout-examples=false
+last-version-installed=46
+overridden-settings={'org.gnome.mutter.edge-tiling': <@mb nothing>, 'org.gnome.mutter.keybindings.toggle-tiled-left': <@mb nothing>, 'org.gnome.mutter.keybindings.toggle-tiled-right': <@mb nothing>}
+restore-window=['<Super>Down']
+search-popup-layout=@as []
+tile-bottom-half=['<Super>KP_2']
+tile-bottom-half-ignore-ta=@as []
+tile-bottomleft-quarter=['<Super>KP_1']
+tile-bottomleft-quarter-ignore-ta=@as []
+tile-bottomright-quarter=['<Super>KP_3']
+tile-bottomright-quarter-ignore-ta=@as []
+tile-edit-mode=@as []
+tile-left-half=['<Super>Left', '<Super>KP_4']
+tile-left-half-ignore-ta=@as []
+tile-maximize=['<Super>Up', '<Super>KP_5']
+tile-maximize-horizontally=@as []
+tile-maximize-vertically=@as []
+tile-right-half=['<Super>Right', '<Super>KP_6']
+tile-right-half-ignore-ta=@as []
+tile-top-half=['<Super>KP_8']
+tile-top-half-ignore-ta=@as []
+tile-topleft-quarter=['<Super>KP_7']
+tile-topleft-quarter-ignore-ta=@as []
+tile-topright-quarter=['<Super>KP_9']
+tile-topright-quarter-ignore-ta=@as []
+tiling-popup-all-workspace=true
+toggle-always-on-top=@as []
+toggle-tiling-popup=@as []
+
+[transparent-window-moving]
+transition-time=0.089999999999999997
+window-opacity=128
+
+[trayIconsReloaded]
+applications='[]'
+tray-position='right'
+
+[tweaks-system-menu]
+applications=['org.gnome.tweaks.desktop', 'com.mattjakeman.ExtensionManager.desktop']
+position=0
+
+[user-theme]
+name='Yaru-prussiangreen-dark'
+
+[visualizer]
+visualizer-color='rgb(26,95,180)'
+
+[vitals]
+hot-sensors=['__temperature_avg__', '_memory_allocated_', '_processor_usage_', '_system_uptime_']
+icon-style=1
+position-in-panel=0
+show-battery=false
+show-fan=false
+show-network=false
+show-storage=false
+show-voltage=false
+use-higher-precision=true
+
+[whoami-topbar]
+activate-custom-style=false
+button-position=0
