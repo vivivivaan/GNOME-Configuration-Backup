@@ -4,7 +4,7 @@ Extensions are stored in ```~/.local/share/gnome-shell/extensions```.
 
 # 
 
-First install the **Extension Manager** from **Flathub** using `flatpak install flathub com.mattjakeman.ExtensionManager`. As this repo also contains the extensions with their configurations, just clone and copy all the contents into `~/.local/share/gnome-shell/extensions/`. To apply the configurations, navigate to **Aaaa Extensions Configurations Backup** folder and run `dconf load /org/gnome/shell/extensions/ < gnome-shell-extensions-backup.dconf`. Restart the session or the system. 😺
+To install the extensions, first install **Extension Manager** from **Flathub** using `flatpak install flathub com.mattjakeman.ExtensionManager`. Clone and copy all the contents into `~/.local/share/gnome-shell/extensions/`. To apply the configurations, navigate to **Aaaa Extensions Configurations Backup** folder and run `dconf load /org/gnome/shell/extensions/ < gnome-shell-extensions-backup.dconf`. Restart the session or the system. 😺
 
 #
 
