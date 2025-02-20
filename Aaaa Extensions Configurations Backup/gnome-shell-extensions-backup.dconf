@@ -172,6 +172,9 @@ auto-width=true
 background-mode=0
 detection-mode=0
 
+[extension-list]
+ext-app='com.mattjakeman.ExtensionManager.desktop'
+
 [freon]
 panel-box-index=0
 position-in-panel=2
