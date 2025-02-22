@@ -119,7 +119,7 @@ apply-custom-theme=false
 autohide-in-fullscreen=true
 background-opacity=0.0
 custom-theme-shrink=false
-dash-max-icon-size=35
+dash-max-icon-size=34
 disable-overview-on-startup=true
 dock-fixed=false
 dock-position='BOTTOM'
@@ -197,7 +197,7 @@ support-notifier-type=0
 
 [one-thing]
 location-in-status-bar=2
-thing-value='unfuckwithable'
+thing-value='unfuckwithable!'
 
 [osd-volume-number]
 adapt-panel-menu=true
@@ -274,13 +274,13 @@ applications=['org.gnome.tweaks.desktop', 'com.mattjakeman.ExtensionManager.desk
 position=0
 
 [user-theme]
-name='Yaru-prussiangreen-dark'
+name='Yaru-blue'
 
 [visualizer]
 visualizer-color='rgb(26,95,180)'
 
 [vitals]
-hot-sensors=['__temperature_avg__', '_memory_allocated_', '_processor_usage_', '_system_uptime_']
+hot-sensors=['__temperature_avg__', '_memory_usage_', '_processor_usage_', '_system_uptime_']
 icon-style=1
 position-in-panel=0
 show-battery=false
