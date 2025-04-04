@@ -8,7 +8,7 @@ To install the extensions, first install **Extension Manager** from **Flathub** 
 
 #
 
-[Gist](https://gist.github.com/itsmetheearthianbuoy/c97c5678ea81b2334dd8de6829ef6f96) for WSL2, bash and other linux related configurations.
+[Gist](https://gist.github.com/prithvirajkshatriya/c97c5678ea81b2334dd8de6829ef6f96) for WSL2, bash and other linux related configurations.
 
 #
 
