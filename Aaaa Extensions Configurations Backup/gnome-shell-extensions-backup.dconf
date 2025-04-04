@@ -78,7 +78,7 @@ brightness=0.59999999999999998
 sigma=30
 
 [clipboard-indicator]
-cache-size=30
+cache-size=50
 history-size=150
 keep-selected-on-clear=true
 move-item-first=true
@@ -177,6 +177,7 @@ toggle-shortcut=['<Super>g']
 [ding]
 check-x11wayland=true
 icon-size='tiny'
+start-corner='top-left'
 
 [disconnect-wifi]
 show-reconnect-always=true
@@ -415,7 +416,7 @@ applications=['org.gnome.tweaks.desktop', 'com.mattjakeman.ExtensionManager.desk
 position=0
 
 [user-theme]
-name='Yaru-blue'
+name='Yaru-blue-dark'
 
 [visualizer]
 visualizer-color='rgb(26,95,180)'

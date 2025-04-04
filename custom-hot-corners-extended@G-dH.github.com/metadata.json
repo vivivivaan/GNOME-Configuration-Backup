@@ -10,10 +10,11 @@
   "shell-version": [
     "45",
     "46",
-    "47"
+    "47",
+    "48"
   ],
   "url": "https://github.com/G-dH/custom-hot-corners",
   "uuid": "custom-hot-corners-extended@G-dH.github.com",
-  "version": 42,
-  "version-name": "47.0"
+  "version": 44,
+  "version-name": "48.0"
 }

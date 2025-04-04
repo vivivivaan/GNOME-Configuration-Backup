@@ -8,9 +8,10 @@
   "shell-version": [
     "45",
     "46",
-    "47"
+    "47",
+    "48"
   ],
   "url": "https://github.com/Noobsai/transparent-window-moving",
   "uuid": "transparent-window-moving@noobsai.github.com",
-  "version": 18
+  "version": 19
 }
