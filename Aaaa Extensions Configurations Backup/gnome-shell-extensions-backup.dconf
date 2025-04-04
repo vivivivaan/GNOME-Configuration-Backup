@@ -28,7 +28,7 @@ status-style='slim'
 
 [bedtime-mode]
 automatic-schedule=false
-bedtime-mode-active=false
+bedtime-mode-active=true
 color-tone-preset='grayscale'
 ondemand-button-location='menu'
 ondemand-button-visibility='always'
@@ -340,6 +340,9 @@ trigger-autotheme=false
 trigger-reload=true
 vw-color=['0.149', '0.376', '0.706']
 winbcolor=['0.149', '0.376', '0.706']
+
+[openmeteoweather]
+position='left'
 
 [osd-volume-number]
 adapt-panel-menu=true
