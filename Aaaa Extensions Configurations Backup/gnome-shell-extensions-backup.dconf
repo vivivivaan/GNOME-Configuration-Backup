@@ -29,6 +29,7 @@ status-style='slim'
 [bedtime-mode]
 automatic-schedule=false
 bedtime-mode-active=false
+color-tone-factor=75
 color-tone-preset='grayscale'
 ondemand-button-location='menu'
 ondemand-button-visibility='always'
