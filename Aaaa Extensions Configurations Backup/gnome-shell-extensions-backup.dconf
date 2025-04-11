@@ -127,7 +127,7 @@ background-opacity=0.0
 custom-background-color=false
 custom-theme-shrink=false
 customize-alphas=true
-dash-max-icon-size=35
+dash-max-icon-size=34
 disable-overview-on-startup=true
 dock-fixed=false
 dock-position='LEFT'
@@ -350,6 +350,9 @@ adapt-panel-menu=true
 icon-position='right'
 number-position='left'
 
+[power-profile]
+colored-icon=true
+
 [quick-settings-tweaks]
 input-show-selected=false
 list-buttons='[{"name":"SystemItem","title":null,"visible":true},{"name":"OutputStreamSlider","title":null,"visible":true},{"name":"InputStreamSlider","title":null,"visible":false},{"name":"St_BoxLayout","title":null,"visible":true},{"name":"BrightnessItem","title":null,"visible":true},{"name":"NMWiredToggle","title":null,"visible":false},{"name":"NMWirelessToggle","title":"Wi-Fi","visible":true},{"name":"NMModemToggle","title":null,"visible":false},{"name":"NMBluetoothToggle","title":null,"visible":false},{"name":"NMVpnToggle","title":null,"visible":false},{"name":"BluetoothToggle","title":"Bluetooth","visible":true},{"name":"PowerProfilesToggle","title":"Power Mode","visible":true},{"name":"NightLightToggle","title":"Night Light","visible":true},{"name":"DarkModeToggle","title":"Dark Style","visible":true},{"name":"KeyboardBrightnessToggle","title":"Keyboard","visible":true},{"name":"RfkillToggle","title":"Aeroplane Mode","visible":true},{"name":"RotationToggle","title":"Auto Rotate","visible":false},{"name":"DndQuickToggle","title":"Do Not Disturb","visible":true},{"name":"BackgroundAppsToggle","title":"No Background Apps","visible":false},{"name":"MediaSection","title":null,"visible":false},{"name":"Notifications","title":null,"visible":false}]'
@@ -379,7 +382,7 @@ debugging-show-tiled-rects=@as []
 default-move-mode=0
 dynamic-keybinding-behavior=0
 import-layout-examples=false
-last-version-installed=46
+last-version-installed=48
 overridden-settings={'org.gnome.mutter.edge-tiling': <@mb nothing>, 'org.gnome.mutter.keybindings.toggle-tiled-left': <@mb nothing>, 'org.gnome.mutter.keybindings.toggle-tiled-right': <@mb nothing>}
 restore-window=['<Super>Down']
 search-popup-layout=@as []

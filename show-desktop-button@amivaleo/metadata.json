@@ -9,9 +9,10 @@
   "shell-version": [
     "45",
     "46",
-    "47"
+    "47",
+    "48"
   ],
   "url": "https://github.com/amivaleo/Show-Desktop-Button",
   "uuid": "show-desktop-button@amivaleo",
-  "version": 44
+  "version": 46
 }
