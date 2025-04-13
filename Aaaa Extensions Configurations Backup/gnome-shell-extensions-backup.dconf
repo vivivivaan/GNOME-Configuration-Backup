@@ -423,7 +423,7 @@ applications=['org.gnome.tweaks.desktop', 'com.mattjakeman.ExtensionManager.desk
 position=0
 
 [user-theme]
-name='Yaru-blue-dark'
+name='Yaru-wartybrown-dark'
 
 [visualizer]
 visualizer-color='rgb(26,95,180)'
