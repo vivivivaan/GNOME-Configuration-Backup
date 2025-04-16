@@ -93,28 +93,29 @@ supported-active-extensions=@as []
 
 [custom-hot-corners-extended/monitor-0-bottom-left-0]
 action='toggle-overview'
-pressure-threshold=50
+pressure-threshold=60
 
 [custom-hot-corners-extended/monitor-0-bottom-left-6]
 ctrl=true
 
 [custom-hot-corners-extended/monitor-0-bottom-right-0]
 action='toggle-overview'
-pressure-threshold=50
+pressure-threshold=60
 
 [custom-hot-corners-extended/monitor-0-bottom-right-6]
 ctrl=true
 
 [custom-hot-corners-extended/monitor-0-top-left-0]
 action='toggle-overview'
-pressure-threshold=50
+fullscreen=false
+pressure-threshold=60
 
 [custom-hot-corners-extended/monitor-0-top-left-6]
 ctrl=true
 
 [custom-hot-corners-extended/monitor-0-top-right-0]
 action='toggle-overview'
-pressure-threshold=50
+pressure-threshold=60
 
 [custom-hot-corners-extended/monitor-0-top-right-6]
 ctrl=true
