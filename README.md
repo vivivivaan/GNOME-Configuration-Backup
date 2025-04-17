@@ -24,6 +24,6 @@ Extensions are stored in ```~/.local/share/gnome-shell/extensions```.
 - Restore all Gnome-wide settings, including **Gnome-tweaks** configurations, using `dconf load -f / < complete_gnome_saved_settings.dconf`. All GNOME extensions configurations and GNOME-wide system and GNOME-tweaks tool configurations are stored inside **Aaaa Extensions Configurations Backup**.
 
 
-### If you use WSL, you can use [Gist](https://gist.github.com/prithvirajkshatriya/c97c5678ea81b2334dd8de6829ef6f96)
+# If you use WSL, you can use [Gist](https://gist.github.com/vivivivaan/22ea8ff06d2b3325cb34cb799a281e17)
 
 Open to contributions on a new branch 🤝🥂
