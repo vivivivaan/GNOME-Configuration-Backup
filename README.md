@@ -2,7 +2,7 @@
 
 # Info
 * Extensions are stored in ```~/.local/share/gnome-shell/extensions```.
-* All GNOME extensions and configurations and GNOME-wide system and GNOME-tweaks tool configurations are stored inside **`~/.local/share/gnome-shell/extensions/'Aaaa Extensions Configurations Backup'`**.
+* All GNOME extensions and their configurations, and GNOME-wide system and GNOME-tweaks tool configurations are stored inside **`~/.local/share/gnome-shell/extensions/`**.
 
 # Restore - Step by step
 - Install **Extension Manager** from **Flathub** with `flatpak install flathub com.mattjakeman.ExtensionManager`.
@@ -14,8 +14,8 @@
 - Restore all Gnome-wide settings, including **Gnome-tweaks** configurations using `dconf load -f / < complete_gnome_saved_settings.dconf` from **`~/.local/share/gnome-shell/extensions/'Aaaa Extensions Configurations Backup'`** 
 
 # Backup
-- To backup only gnome-shell extentions, navigate to `~/.local/share/gnome-shell/extensions/'Aaaa Extensions Configurations Backup'` and run `dconf dump /org/gnome/shell/extensions/ > gnome-shell-extensions-backup.dconf`.
-- To back up everything, run `dconf dump / > complete_gnome_saved_settings.dconf`.
+- To backup only gnome-shell extensions configurations, navigate to `~/.local/share/gnome-shell/extensions/'Aaaa Extensions Configurations Backup'` and run `dconf dump /org/gnome/shell/extensions/ > gnome-shell-extensions-backup.dconf`.
+- To back up everything, run `dconf dump / > complete_gnome_saved_settings.dconf` inside `~/.local/share/gnome-shell/extensions/'Aaaa Extensions Configurations Backup'`.
 
 # Alternative Backup using SaveDesktop flatpak app
 - Alternatively, you can backup everything using the **SaveDesktop** flatpak app that can be installed using `flatpak install flathub io.github.vikdevelop.SaveDesktop`. 
