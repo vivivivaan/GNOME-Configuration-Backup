@@ -1,4 +1,4 @@
-# Ubuntu (24.04-LTS/24.10) Gnome, Tweaks-tool and system-wide configurations backup
+# Ubuntu (25.04) Gnome, Tweaks tool and system-wide configurations backup
 
 # Info
 * Extensions are stored in ```~/.local/share/gnome-shell/extensions```.
@@ -17,8 +17,8 @@
 - To backup only gnome-shell extensions configurations, navigate to `~/.local/share/gnome-shell/extensions/'Aaaa Extensions Configurations Backup'` and run `dconf dump /org/gnome/shell/extensions/ > gnome-shell-extensions-backup.dconf`.
 - To back up everything, run `dconf dump / > complete_gnome_saved_settings.dconf` inside `~/.local/share/gnome-shell/extensions/'Aaaa Extensions Configurations Backup'`.
 
-# Alternative Backup using SaveDesktop flatpak app
-- Alternatively, you can backup everything using the **SaveDesktop** flatpak app that can be installed using `flatpak install flathub io.github.vikdevelop.SaveDesktop`. 
+<!-- # Alternative Backup using SaveDesktop flatpak app
+- Alternatively, you can backup everything using the **SaveDesktop** flatpak app that can be installed using `flatpak install flathub io.github.vikdevelop.SaveDesktop`. -->
 
 # If you use WSL, you can use [Gist](https://gist.github.com/vivivivaan/22ea8ff06d2b3325cb34cb799a281e17)
 
