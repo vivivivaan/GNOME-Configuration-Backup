@@ -12,5 +12,3 @@
 # Backup
 - To backup only gnome-shell extentions, run `dconf dump /org/gnome/shell/extensions/ > gnome-shell-extensions-backup.dconf` and for all system-wide configurations, run `dconf dump / > complete_gnome_saved_settings.dconf`.
 
-# WSL2
-- [Gist](https://gist.github.com/vivivivaan/22ea8ff06d2b3325cb34cb799a281e17)
