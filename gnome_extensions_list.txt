@@ -21,8 +21,8 @@ show-desktop-button@amivaleo
 power-profile@fthx
 user-theme@gnome-shell-extensions.gcampax.github.com
 blur-my-shell@aunetx
+notification-timeout@chlumskyvaclav.gmail.com
 ding@rastersoft.com
 tiling-assistant@ubuntu.com
 ubuntu-appindicators@ubuntu.com
 ubuntu-dock@ubuntu.com
-notification-timeout@chlumskyvaclav.gmail.com

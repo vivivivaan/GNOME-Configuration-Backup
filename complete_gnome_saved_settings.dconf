@@ -20,6 +20,27 @@ window-height=500
 window-is-maximized=false
 window-width=738
 
+[com/github/johnfactotum/Foliate/window]
+maximized=false
+
+[com/raggesilver/BlackBox]
+cursor-blink-mode=uint32 1
+cursor-shape=uint32 1
+delay-before-showing-floating-controls=uint32 200
+easy-copy-paste=true
+floating-controls=true
+font='MonaspiceNe Nerd Font 12'
+remember-window-size=true
+scrollback-lines=uint32 100000
+scrollback-mode=uint32 0
+show-scrollbars=true
+theme-bold-is-bright=true
+theme-dark='Adwaita Dark'
+theme-light='Pencil Light'
+window-height=uint32 859
+window-width=uint32 1326
+working-directory-mode=uint32 1
+
 [com/ubuntu/update-notifier]
 regular-auto-launch-interval=0
 release-check-time=uint32 1744997780
@@ -62,8 +83,8 @@ panel-id='world'
 size=(870, 690)
 
 [org/gnome/control-center]
-last-panel='display'
-window-state=(1165, 861, false)
+last-panel='keyboard'
+window-state=(1165, 861, true)
 
 [org/gnome/deja-dup]
 backend='google'
@@ -100,7 +121,7 @@ name='Customization'
 translate=false
 
 [org/gnome/desktop/app-folders/folders/6c9f89ad-9b8e-4517-a635-00544da8c9cd]
-apps=['libreoffice-startcenter.desktop', 'libreoffice-calc.desktop', 'libreoffice-draw.desktop', 'libreoffice-impress.desktop', 'libreoffice-math.desktop', 'simple-scan.desktop', 'org.gnome.Evince.desktop', 'libreoffice-writer.desktop', 'org.gnome.Papers.desktop']
+apps=['libreoffice-startcenter.desktop', 'libreoffice-calc.desktop', 'libreoffice-draw.desktop', 'libreoffice-impress.desktop', 'libreoffice-math.desktop', 'simple-scan.desktop', 'org.gnome.Evince.desktop', 'libreoffice-writer.desktop', 'org.gnome.Papers.desktop', 'com.github.johnfactotum.Foliate.desktop']
 name='Office'
 translate=false
 
@@ -148,8 +169,8 @@ name='Unnamed Folder'
 [org/gnome/desktop/background]
 color-shading-type='solid'
 picture-options='zoom'
-picture-uri='file:///usr/share/backgrounds/Ubuntu_tide_by_lost-cause-light.png'
-picture-uri-dark='file:///usr/share/backgrounds/Ubuntu_tide_by_lost-cause-dark.png'
+picture-uri='file:///home/prithvi/Wallpapers/dynamic-wang-Wjaf9ssSVts-unsplash.jpg'
+picture-uri-dark='file:///home/prithvi/Wallpapers/dynamic-wang-Wjaf9ssSVts-unsplash.jpg'
 primary-color='#000000'
 secondary-color='#000000'
 
@@ -183,7 +204,7 @@ enable-hot-corners=true
 font-antialiasing='grayscale'
 font-hinting='slight'
 font-name='Nimbus Sans 10'
-gtk-theme='Yaru-olive'
+gtk-theme='Yaru'
 icon-theme='Colloid-Dark'
 locate-pointer=true
 monospace-font-name='Roboto Mono 10'
@@ -248,7 +269,7 @@ recent-files-max-age=-1
 
 [org/gnome/desktop/screen-time-limits]
 daily-limit-enabled=true
-daily-limit-seconds=uint32 10800
+daily-limit-seconds=uint32 36000
 
 [org/gnome/desktop/screensaver]
 color-shading-type='solid'
@@ -360,7 +381,11 @@ show-delete-permanently=true
 [org/gnome/nautilus/window-state]
 initial-size=(1136, 741)
 initial-size-file-chooser=(1319, 748)
-maximized=true
+maximized=false
+
+[org/gnome/nm-applet/eap/4a60679c-a4ee-44e6-aa0d-727773fa8e84]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
 
 [org/gnome/nm-applet/eap/71168135-afe1-4749-bbe2-aecd2ffa6d3f]
 ignore-ca-cert=false
@@ -387,6 +412,9 @@ last-folder-path='/home/prithvi/Wallpapers'
 [org/gnome/portal/filechooser/google-chrome]
 last-folder-path='/home/prithvi/Downloads'
 
+[org/gnome/portal/filechooser/io.github.realmazharhussain.GdmSettings]
+last-folder-path='/home/prithvi/Wallpapers'
+
 [org/gnome/portal/filechooser/io.github.vikdevelop.SaveDesktop]
 last-folder-path='/home/prithvi/.local/share/gnome-shell/extensions/SaveDesktop_Backup'
 
@@ -410,11 +438,11 @@ sleep-inactive-ac-timeout=1500
 sleep-inactive-ac-type='suspend'
 
 [org/gnome/shell]
-app-picker-layout=[{'8bd07513-beb8-467b-8818-a4153670c714': <{'position': <0>}>, '625e7b1e-bf22-42ad-9256-17543e34fe17': <{'position': <1>}>, '6c9f89ad-9b8e-4517-a635-00544da8c9cd': <{'position': <2>}>, '6093395b-f0cf-41fa-aae2-4f7df761047c': <{'position': <3>}>, 'cc6d3b95-11db-44c6-81f2-f31a34e4e869': <{'position': <4>}>, '300deb63-5040-49a5-b580-15e7efbb22cb': <{'position': <5>}>, 'snap-store_snap-store.desktop': <{'position': <6>}>, 'Utilities': <{'position': <7>}>, 'transmission-gtk.desktop': <{'position': <8>}>, 'nvidia-settings.desktop': <{'position': <9>}>}]
+app-picker-layout=[{'8bd07513-beb8-467b-8818-a4153670c714': <{'position': <0>}>, '625e7b1e-bf22-42ad-9256-17543e34fe17': <{'position': <1>}>, '6c9f89ad-9b8e-4517-a635-00544da8c9cd': <{'position': <2>}>, '6093395b-f0cf-41fa-aae2-4f7df761047c': <{'position': <3>}>, 'cc6d3b95-11db-44c6-81f2-f31a34e4e869': <{'position': <4>}>, '300deb63-5040-49a5-b580-15e7efbb22cb': <{'position': <5>}>, 'snap-store_snap-store.desktop': <{'position': <6>}>, 'chrome-peakjllbnheicdhajmgfgafpndpjigng-Default.desktop': <{'position': <7>}>, 'transmission-gtk.desktop': <{'position': <8>}>, 'nvidia-settings.desktop': <{'position': <9>}>, 'torbrowser-settings.desktop': <{'position': <10>}>}]
 command-history=['sudo apt-get update', 'gnome-terminal']
 disabled-extensions=['ubuntu-dock@ubuntu.com', 'ding@rastersoft.com', 'fnlock-switch-tp-comp-usb-kb@goloshubov.github.io']
 enabled-extensions=['tiling-assistant@ubuntu.com', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'apps-menu@gnome-shell-extensions.gcampax.github.com', 'gnomebedtime@ionutbortis.gmail.com', 'bluetooth-quick-connect@bjarosze.gmail.com', 'blur-my-shell@aunetx', 'clipboard-indicator@tudmotu.com', 'custom-hot-corners-extended@G-dH.github.com', 'dash-to-dock@micxgx.gmail.com', 'day-progress@arcaege.github.io', 'dim-background-windows@stephane-13.github.com', 'fq@megh', 'Hide_Activities@shay.shayel.org', 'hidetopbar@mathieu.bidon.ca', 'just-perfection-desktop@just-perfection', 'notification-timeout@chlumskyvaclav.gmail.com', 'osd-volume-number@deminder', 'places-menu@gnome-shell-extensions.gcampax.github.com', 'power-profile-indicator@laux.wtf', 'quick-settings-tweaks@qwreey', 'drive-menu@gnome-shell-extensions.gcampax.github.com', 'screenshort-cut@pauloimon', 'show-desktop-button@amivaleo', 'sound-percentage@subashghimire.info.np', 'transparent-window-moving@noobsai.github.com', 'tweaks-system-menu@extensions.gnome-shell.fifi.org', 'Vitals@CoreCoding.com', 'weekend-o-meter@coffeverton.gmail.com', 'openmeteoweather@deezhizyu.github.io', 'currency-tracker@faymaz.github.com', 'power-profile@fthx', 'status-icons@gnome-shell-extensions.gcampax.github.com', 'snowy@exposedcat', 'aztaskbar@aztaskbar.gitlab.com', 'weatherornot@somepaulo.github.io', 'advanced-weather@sanjai.com', 'weatheroclock@CleoMenezesJr.github.io', 'battery-time@eetumos.github.com', 'disconnect-wifi@kgshank.net', 'notification-position@drugo.dev']
-favorite-apps=['org.gnome.Characters.desktop', 'synaptic.desktop', 'google-chrome.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.TextEditor.desktop', 'org.gnome.Terminal.desktop', 'code.desktop', 'org.gnome.clocks.desktop']
+favorite-apps=['org.gnome.Characters.desktop', 'synaptic.desktop', 'google-chrome.desktop', 'brave-browser.desktop', 'torbrowser.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.Terminal.desktop', 'code.desktop', 'org.gnome.TextEditor.desktop', 'org.gnome.clocks.desktop', 'chrome-hnpfjngllnobngcgfapefoaidbinmjnm-Default.desktop']
 welcome-dialog-last-shown-version='46.0'
 
 [org/gnome/shell/extensions/advanced-weather]
@@ -561,7 +589,7 @@ height-fraction=0.84999999999999998
 hide-delay=0.15000000000000002
 hide-tooltip=false
 icon-size-fixed=false
-intellihide-mode='FOCUS_APPLICATION_WINDOWS'
+intellihide-mode='ALL_WINDOWS'
 isolate-locations=true
 max-alpha=0.0
 middle-click-action='launch'
@@ -860,7 +888,7 @@ applications=['org.gnome.tweaks.desktop', 'com.mattjakeman.ExtensionManager.desk
 position=0
 
 [org/gnome/shell/extensions/user-theme]
-name=''
+name='Yaru'
 
 [org/gnome/shell/extensions/visualizer]
 visualizer-color='rgb(26,95,180)'
@@ -896,10 +924,11 @@ check-timestamp=int64 1745644277
 
 [org/gnome/terminal/legacy]
 mnemonics-enabled=true
+theme-variant='system'
 
 [org/gnome/terminal/legacy/profiles:]
-default='b0961077-d3f5-4797-b3af-1eef8aa55ea8'
-list=['fb1e7bb2-a057-46c0-9a93-82b6e7e3ae60', 'c2d01382-cfb5-476c-99fc-2acdbf0d3d35', 'e31bbae3-ff62-4a81-9d17-a19a1acb7434', 'b0961077-d3f5-4797-b3af-1eef8aa55ea8', '63bc7054-84ec-499b-9312-d777ebbcd4ae', '3574f9f0-a439-4567-a5d2-285814c61068', '091c14ed-3278-40bf-932e-2785d40336e4', '447b4aa4-2b4a-4a53-8ca3-5f536a71c0a1']
+default='8db575ee-1339-4cfe-a122-d20c71f8e9f6'
+list=['fb1e7bb2-a057-46c0-9a93-82b6e7e3ae60', 'c2d01382-cfb5-476c-99fc-2acdbf0d3d35', 'e31bbae3-ff62-4a81-9d17-a19a1acb7434', 'b0961077-d3f5-4797-b3af-1eef8aa55ea8', '63bc7054-84ec-499b-9312-d777ebbcd4ae', '3574f9f0-a439-4567-a5d2-285814c61068', '091c14ed-3278-40bf-932e-2785d40336e4', '447b4aa4-2b4a-4a53-8ca3-5f536a71c0a1', '8db575ee-1339-4cfe-a122-d20c71f8e9f6']
 
 [org/gnome/terminal/legacy/profiles:/:091c14ed-3278-40bf-932e-2785d40336e4]
 allow-bold=true
@@ -1006,6 +1035,32 @@ use-theme-transparency=false
 use-transparent-background=true
 visible-name='Gruvbox Material Dark'
 
+[org/gnome/terminal/legacy/profiles:/:8db575ee-1339-4cfe-a122-d20c71f8e9f6]
+allow-bold=true
+background-color='#D5D5CCCCBABA'
+background-transparency-percent=3
+bold-color='#454537373C3C'
+bold-color-same-as-fg=true
+bold-is-bright=true
+cursor-background-color='#454537373C3C'
+cursor-colors-set=true
+cursor-foreground-color='#D5D5CCCCBABA'
+cursor-shape='ibeam'
+default-size-columns=160
+default-size-rows=45
+font='MonaspiceNe Nerd Font Mono 12'
+foreground-color='#454537373C3C'
+highlight-colors-set=false
+palette=['#202011111B1B', '#BEBE10100E0E', '#858581816262', '#EAEAA5A54949', '#42426A6A7979', '#979752522C2C', '#98989A9A9C9C', '#96968C8C8383', '#5E5E52525252', '#BEBE10100E0E', '#858581816262', '#EAEAA5A54949', '#42426A6A7979', '#979752522C2C', '#98989A9A9C9C', '#D5D5CCCCBABA']
+scroll-on-output=true
+scrollback-lines=100000
+use-system-font=false
+use-theme-background=false
+use-theme-colors=false
+use-theme-transparency=false
+use-transparent-background=true
+visible-name='Belafonte Day'
+
 [org/gnome/terminal/legacy/profiles:/:b0961077-d3f5-4797-b3af-1eef8aa55ea8]
 allow-bold=true
 background-color='#282828282828'
@@ -1019,7 +1074,7 @@ cursor-foreground-color='#282828282828'
 cursor-shape='ibeam'
 default-size-columns=160
 default-size-rows=45
-font='GeistMono Nerd Font Mono 12'
+font='MonaspiceNe Nerd Font Mono 12'
 foreground-color='#EBEBDBDBB2B2'
 highlight-colors-set=false
 palette=['#282828282828', '#CCCC24241D1D', '#989897971A1A', '#D7D799992121', '#454585858888', '#B1B162628686', '#68689D9D6A6A', '#A8A899998484', '#929283837474', '#FBFB49493434', '#B8B8BBBB2626', '#FAFABDBD2F2F', '#8383A5A59898', '#D3D386869B9B', '#8E8EC0C07C7C', '#EBEBDBDBB2B2']

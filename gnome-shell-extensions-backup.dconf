@@ -142,7 +142,7 @@ height-fraction=0.84999999999999998
 hide-delay=0.15000000000000002
 hide-tooltip=false
 icon-size-fixed=false
-intellihide-mode='FOCUS_APPLICATION_WINDOWS'
+intellihide-mode='ALL_WINDOWS'
 isolate-locations=true
 max-alpha=0.0
 middle-click-action='launch'
@@ -441,7 +441,7 @@ applications=['org.gnome.tweaks.desktop', 'com.mattjakeman.ExtensionManager.desk
 position=0
 
 [user-theme]
-name=''
+name='Yaru'
 
 [visualizer]
 visualizer-color='rgb(26,95,180)'
