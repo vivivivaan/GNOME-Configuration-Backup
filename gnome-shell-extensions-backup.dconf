@@ -73,7 +73,7 @@ style-components=3
 brightness=0.59999999999999998
 pipeline='pipeline_default_rounded'
 sigma=30
-static-blur=true
+static-blur=false
 
 [blur-my-shell/screenshot]
 pipeline='pipeline_default'
@@ -84,7 +84,7 @@ sigma=30
 
 [clipboard-indicator]
 cache-size=50
-history-size=150
+history-size=160
 keep-selected-on-clear=true
 move-item-first=true
 notify-on-copy=true
@@ -125,6 +125,7 @@ pressure-threshold=60
 ctrl=true
 
 [dash-to-dock]
+animation-time=0.15000000000000002
 apply-custom-theme=false
 autohide-in-fullscreen=true
 background-color='rgb(255,255,255)'
@@ -132,19 +133,21 @@ background-opacity=0.0
 custom-background-color=false
 custom-theme-shrink=false
 customize-alphas=true
-dash-max-icon-size=34
+dash-max-icon-size=36
 disable-overview-on-startup=true
 dock-fixed=false
-dock-position='LEFT'
+dock-position='BOTTOM'
 extend-height=false
 height-fraction=0.84999999999999998
 hide-delay=0.15000000000000002
 hide-tooltip=false
 icon-size-fixed=false
 intellihide-mode='FOCUS_APPLICATION_WINDOWS'
+isolate-locations=true
 max-alpha=0.0
 middle-click-action='launch'
 min-alpha=0.0
+multi-monitor=true
 preferred-monitor=-2
 preferred-monitor-by-connector='eDP-1'
 pressure-threshold=100.0
@@ -165,6 +168,7 @@ workspace-agnostic-urgent-windows=true
 
 [day-progress]
 height=5
+panel-index=0
 panel-position=1
 show-elapsed=false
 style=1
@@ -215,6 +219,9 @@ panel-size=22
 startup-status=0
 support-notifier-showed-version=34
 support-notifier-type=0
+
+[notification-timeout]
+timeout=3000
 
 [one-thing]
 location-in-status-bar=2
@@ -434,12 +441,13 @@ applications=['org.gnome.tweaks.desktop', 'com.mattjakeman.ExtensionManager.desk
 position=0
 
 [user-theme]
-name='Yaru-wartybrown-dark'
+name=''
 
 [visualizer]
 visualizer-color='rgb(26,95,180)'
 
 [vitals]
+fixed-widths=true
 hot-sensors=['__temperature_avg__', '_memory_usage_', '_processor_usage_', '_system_uptime_']
 icon-style=1
 position-in-panel=0
@@ -448,6 +456,7 @@ show-fan=false
 show-network=false
 show-storage=false
 show-voltage=false
+update-time=5
 use-higher-precision=true
 
 [weather-oclock]
