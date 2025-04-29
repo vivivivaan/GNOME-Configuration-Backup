@@ -19,6 +19,7 @@ hidetopbar@mathieu.bidon.ca
 osd-volume-number@deminder
 show-desktop-button@amivaleo
 power-profile@fthx
+CoverflowAltTab@palatis.blogspot.com
 user-theme@gnome-shell-extensions.gcampax.github.com
 blur-my-shell@aunetx
 notification-timeout@chlumskyvaclav.gmail.com

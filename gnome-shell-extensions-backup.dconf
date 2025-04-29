@@ -90,6 +90,20 @@ move-item-first=true
 notify-on-copy=true
 pinned-on-bottom=true
 
+[coverflowalttab]
+animation-time=0.20000000000000001
+dim-factor=0.25
+easing-function='ease-out-quad'
+icon-add-remove-effects='Fade and Scale'
+icon-has-shadow=false
+icon-style='Overlay'
+overlay-icon-opacity=0.53700000000000003
+overlay-icon-size=115.0
+randomize-animation-times=true
+switcher-background-color=(0.93333333333333335, 0.93333333333333335, 0.92549019607843142)
+switcher-looping-method='Flip Stack'
+switcher-style='Coverflow'
+
 [custom-hot-corners-extended/misc]
 panel-menu-enable=false
 show-osd-monitor-indexes=false
@@ -219,6 +233,10 @@ panel-size=22
 startup-status=0
 support-notifier-showed-version=34
 support-notifier-type=0
+
+[notification-banner-reloaded]
+anchor-horizontal=0
+anchor-vertical=0
 
 [notification-timeout]
 timeout=3000
@@ -441,7 +459,7 @@ applications=['org.gnome.tweaks.desktop', 'com.mattjakeman.ExtensionManager.desk
 position=0
 
 [user-theme]
-name='Yaru'
+name='Yaru-dark'
 
 [visualizer]
 visualizer-color='rgb(26,95,180)'
@@ -461,6 +479,9 @@ use-higher-precision=true
 
 [weather-oclock]
 weather-after-clock=false
+
+[weatherornot]
+position='clock-right'
 
 [whoami-topbar]
 activate-custom-style=false
