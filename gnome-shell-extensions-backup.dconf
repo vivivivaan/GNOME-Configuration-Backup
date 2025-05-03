@@ -1,6 +1,9 @@
 [advanced-weather]
 panel-position='left'
 
+[alphabetical-app-grid]
+folder-order-position='start'
+
 [app_tabs]
 ellipsize-mode=true
 panel-max-width=199
@@ -92,13 +95,18 @@ pinned-on-bottom=true
 
 [coverflowalttab]
 animation-time=0.20000000000000001
+desaturate-factor=0.0
 dim-factor=0.25
-easing-function='ease-out-quad'
+easing-function='ease-in-out-quad'
+hide-panel=true
 icon-add-remove-effects='Fade and Scale'
-icon-has-shadow=false
-icon-style='Overlay'
-overlay-icon-opacity=0.53700000000000003
+icon-has-shadow=true
+icon-style='Classic'
+offset=0
+overlay-icon-opacity=0.5
 overlay-icon-size=115.0
+perspective-correction-method='Move Camera'
+position='Bottom'
 randomize-animation-times=true
 switcher-background-color=(0.93333333333333335, 0.93333333333333335, 0.92549019607843142)
 switcher-looping-method='Flip Stack'
@@ -111,29 +119,30 @@ supported-active-extensions=@as []
 
 [custom-hot-corners-extended/monitor-0-bottom-left-0]
 action='toggle-overview'
-pressure-threshold=60
+pressure-threshold=50
 
 [custom-hot-corners-extended/monitor-0-bottom-left-6]
 ctrl=true
 
 [custom-hot-corners-extended/monitor-0-bottom-right-0]
 action='toggle-overview'
-pressure-threshold=60
+pressure-threshold=50
 
 [custom-hot-corners-extended/monitor-0-bottom-right-6]
+action='disabled'
 ctrl=true
 
 [custom-hot-corners-extended/monitor-0-top-left-0]
 action='toggle-overview'
 fullscreen=false
-pressure-threshold=60
+pressure-threshold=50
 
 [custom-hot-corners-extended/monitor-0-top-left-6]
 ctrl=true
 
 [custom-hot-corners-extended/monitor-0-top-right-0]
 action='toggle-overview'
-pressure-threshold=60
+pressure-threshold=50
 
 [custom-hot-corners-extended/monitor-0-top-right-6]
 ctrl=true
@@ -391,6 +400,9 @@ output-show-selected=false
 volume-mixer-position='top'
 volume-mixer-show-description=true
 volume-mixer-show-icon=true
+
+[restartto]
+blacklist=@as []
 
 [runcat]
 displaying-items='character-and-percentage'

@@ -20,6 +20,8 @@ osd-volume-number@deminder
 show-desktop-button@amivaleo
 power-profile@fthx
 CoverflowAltTab@palatis.blogspot.com
+sound-percentage@subashghimire.info.np
+AlphabeticalAppGrid@stuarthayhurst
 user-theme@gnome-shell-extensions.gcampax.github.com
 blur-my-shell@aunetx
 notification-timeout@chlumskyvaclav.gmail.com
