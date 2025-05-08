@@ -22,7 +22,6 @@ bluetooth-quick-connect@bjarosze.gmail.com
 osd-volume-number@deminder
 show-desktop-button@amivaleo
 sound-percentage@subashghimire.info.np
-CoverflowAltTab@palatis.blogspot.com
 notification-timeout@chlumskyvaclav.gmail.com
 monitor@astraext.github.io
 ding@rastersoft.com
