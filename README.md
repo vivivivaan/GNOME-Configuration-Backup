@@ -13,3 +13,16 @@
 # Backup
 - To backup only gnome-shell extentions, run `dconf dump /org/gnome/shell/extensions/ > gnome-shell-extensions-backup.dconf` and for all system-wide configurations, run `dconf dump / > complete_gnome_saved_settings.dconf`.
 
+# Chromium browsers UI config
+
+- Enable `#fluent-overlay-scrollbars` `#fluent-scrollbars` `#ozone-platform-hint` `#wayland-ui-scaling` flags in `chrome://flags` or `brave://flags` and `edge://flags`
+- Copy browser files from `/usr/share/applications/` to `~/.local/share/applications/`
+
+| Browser | .desktop file |
+|:---|---:|
+| Google Chrome | `sudo cp /usr/share/applications/google-chrome.desktop ~/.local/share/applications/` |
+| Brave | `sudo cp /usr/share/applications/brave-browser.desktop ~/.local/share/applications/` |
+| Microsoft Edge | `sudo cp /usr/share/applications/microsoft-edge.desktop ~/.local/share/applications/` |
+
+For each of the copied files, jump to the line that begins with `Exec=` and ends with `%U` and append `--enable-features=MiddleClickAutoscroll,TouchpadOverscrollHistoryNavigation,UseOzonePlatform,WaylandWindowDecorations --ozone-platform=wayland --disable-features=GlobalShortcutsPortal` to it. Append the same to the line that begins with `Exec=` and ends with `--inprivate` or `--incognito`. Restart the system or session.
+
