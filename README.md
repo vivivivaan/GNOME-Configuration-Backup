@@ -26,5 +26,5 @@
 
 For each of the copied files, jump to the line that begins with `Exec=` and ends with `%U` and append `--enable-features=MiddleClickAutoscroll,TouchpadOverscrollHistoryNavigation,UseOzonePlatform,WaylandWindowDecorations --ozone-platform=wayland --disable-features=GlobalShortcutsPortal` to it. Append the same to the line that begins with `Exec=` and ends with `--inprivate` or `--incognito`. Alternatively, create `chrome-flags.conf`, `brave-flags.conf`, `edge-flags.conf` files in `~/.config` and add the flags to the ***-flags.conf** files. Restart the system or session.
 
-For GRUB configuration, install the GRUB theme but comment out the `GRUB_BACKGROUND` flag.
+For GRUB configuration, install the GRUB theme but comment out the `GRUB_BACKGROUND` flag to avoid any graphical/visual glitches.
 
