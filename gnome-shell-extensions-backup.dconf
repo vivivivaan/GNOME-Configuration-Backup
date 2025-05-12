@@ -29,6 +29,7 @@ gpu-header-show=false
 gpu-indicators-order='["icon","activity bar","activity graph","activity percentage","memory bar","memory graph","memory percentage","memory value"]'
 headers-height=0
 headers-height-override=0
+memory-header-show=true
 memory-indicators-order='["icon","bar","graph","percentage","value","free"]'
 monitors-order='["gpu","memory","processor","storage","network","sensors"]'
 network-header-show=false
