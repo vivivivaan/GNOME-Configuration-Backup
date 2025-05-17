@@ -15,14 +15,14 @@
 
 # Chromium browsers UI config
 
-- Enable `#fluent-overlay-scrollbars` `#fluent-scrollbars` `#ozone-platform-hint` `#wayland-ui-scaling` flags in `chrome://flags` or `brave://flags` and `edge://flags`
-- Copy browser files from `/usr/share/applications/` to `~/.local/share/applications/`
+- Enable flags in `chrome://flags`, `brave://flags` and `edge://flags`.
+- Copy browser files from `/usr/share/applications/` to `~/.local/share/applications/`.
 
-| Browser | .desktop file |
-|:---|---:|
-| Google Chrome | `sudo cp /usr/share/applications/google-chrome.desktop ~/.local/share/applications/` |
-| Brave | `sudo cp /usr/share/applications/brave-browser.desktop ~/.local/share/applications/` |
-| Microsoft Edge | `sudo cp /usr/share/applications/microsoft-edge.desktop ~/.local/share/applications/` |
+| Browser | .desktop file | Flags |
+|:---|---|---:|
+| Google Chrome | `sudo cp /usr/share/applications/google-chrome.desktop ~/.local/share/applications/` | `#fluent-overlay-scrollbars` `#fluent-scrollbars` `#ozone-platform-hint` `#wayland-ui-scaling` `#root-scrollbar-follows-browser-theme` `#link-preview` |
+| Brave | `sudo cp /usr/share/applications/brave-browser.desktop ~/.local/share/applications/` | `#fluent-overlay-scrollbars` `#fluent-scrollbars` `#ozone-platform-hint` `#wayland-ui-scaling` `#root-scrollbar-follows-browser-theme` `#linork-preview` `#middle-button-autoscroll` |
+| Microsoft Edge | `sudo cp /usr/share/applications/microsoft-edge.desktop ~/.local/share/applications/` | Almost same as Google Chrome but primarily, enabling flags in the `.desktop` file |
 
 For each of the copied files, jump to the line that begins with `Exec=` and ends with `%U` and append `--enable-features=MiddleClickAutoscroll,TouchpadOverscrollHistoryNavigation,UseOzonePlatform,WaylandWindowDecorations --ozone-platform=wayland --disable-features=GlobalShortcutsPortal` to it. Append the same to the line that begins with `Exec=` and ends with `--inprivate` or `--incognito`. Alternatively, create `chrome-flags.conf`, `brave-flags.conf`, `edge-flags.conf` files in `~/.config` and add the flags to the ***-flags.conf** files. Restart the system or session.
 
