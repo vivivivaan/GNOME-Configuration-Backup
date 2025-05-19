@@ -1,11 +1,8 @@
 /usr/share/fonts/opentype/:
-associate-sans/  CommitMono/  Hasklig/	      noto/
-CodeNewRoman/	 GeistMono/   helvetica-255/  urw-base35/
+CodeNewRoman/  CommitMono/  GeistMono/	Hasklig/  noto/  urw-base35/
 
 /usr/share/fonts/truetype:
-Arimo/		Inter/		 NerdFontsSymbolsOnly/	Roboto_Condensed/
-Cousine/	Inter_Tight/	 noto/			Roboto_Flex/
-DaddyTimeMono/	JetBrainsMono/	 Nova_Slim/		RobotoMono/
-dejavu/		liberation/	 Open_Sans/		Spline_Sans_Mono/
-droid/		LiberationMono/  pragmatica/		ubuntu/
-Helvetica-TTF/	libreoffice/	 Roboto/		Work_Sans/
+Cousine/	Inter/		 libreoffice/		RobotoMono/
+DaddyTimeMono/	JetBrainsMono/	 NerdFontsSymbolsOnly/	Spline_Sans_Mono/
+dejavu/		liberation/	 noto/			ubuntu/
+droid/		LiberationMono/  Roboto/		Work_Sans/

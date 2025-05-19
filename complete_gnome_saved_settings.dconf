@@ -95,13 +95,13 @@ window-height=640
 window-width=800
 
 [org/gnome/TextEditor]
-custom-font='RobotoMono Nerd Font Propo 11.5'
+custom-font='RobotoMono Nerd Font Mono 11.5'
 last-save-directory='file:///home/prithvi/Desktop'
 right-margin-position=uint32 80
 show-line-numbers=true
 show-map=true
 show-right-margin=false
-style-scheme='kate-dark'
+style-scheme='oblivion'
 use-system-font=false
 
 [org/gnome/Totem]
@@ -264,12 +264,12 @@ clock-show-weekday=true
 color-scheme='prefer-dark'
 cursor-blink-time=1005
 cursor-theme='capitaine-cursors-light'
-document-font-name='Pragmatica 9'
+document-font-name='Inter 9'
 enable-animations=true
 enable-hot-corners=true
 font-antialiasing='grayscale'
 font-hinting='slight'
-font-name='Inter Tight 9'
+font-name='Inter 9'
 gtk-theme='Yaru-wartybrown-dark'
 icon-theme='WhiteSur-dark'
 locate-pointer=true
