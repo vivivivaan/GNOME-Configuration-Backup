@@ -120,8 +120,8 @@ brightness=0.59999999999999998
 sigma=30
 
 [clipboard-indicator]
-cache-size=50
-history-size=160
+cache-size=75
+history-size=200
 keep-selected-on-clear=true
 move-item-first=true
 notify-on-copy=true
@@ -259,6 +259,7 @@ background-mode=0
 detection-mode=0
 
 [extension-list]
+button-icon=uint32 0
 ext-app='com.mattjakeman.ExtensionManager.desktop'
 
 [freon]
@@ -288,7 +289,7 @@ anchor-horizontal=0
 anchor-vertical=0
 
 [notification-timeout]
-timeout=3000
+timeout=2000
 
 [one-thing]
 location-in-status-bar=2
