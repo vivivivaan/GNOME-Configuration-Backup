@@ -11,6 +11,9 @@ color-80='#15c931'
 color-90='#15c931'
 swap-icon-text=false
 
+[SettingsCenter]
+items='Gnome Config Editor;gconf-editor.desktop;1;gconf-editor|Gnome Tweaks;gnome-tweaks.desktop;1;gnome-tweaks|Desktop Config Editor;dconf-editor.desktop;1;dconf-editor|Extensions Preferences;org.gnome.Extensions.desktop;1;gnome-extensions-app|NVidia Settings;nvidia-settings.desktop;0;nvidia-settings|Passwords and Keys;seahorse.desktop;0;seahorse|PulseAudio;pavucontrol.desktop;0;pavucontrol|Session Properties;session-properties.desktop;0;gnome-session-properties'
+
 [advanced-weather]
 panel-position='left'
 
@@ -199,7 +202,7 @@ disable-overview-on-startup=true
 dock-fixed=false
 dock-position='LEFT'
 extend-height=false
-height-fraction=0.84999999999999998
+height-fraction=0.90000000000000002
 hide-delay=0.15000000000000002
 hide-tooltip=false
 icon-size-fixed=false
@@ -275,21 +278,30 @@ pressure-threshold=85
 pressure-timeout=1000
 
 [just-perfection]
+alt-tab-window-preview-size=0
 animation=4
 notification-banner-position=1
+osd-position=0
 panel-icon-size=0
-panel-size=24
+panel-indicator-padding-size=0
+panel-size=23
 startup-status=0
 support-notifier-showed-version=34
 support-notifier-type=0
 top-panel-position=0
 
 [notification-banner-reloaded]
-anchor-horizontal=0
-anchor-vertical=0
+anchor-horizontal=1
+anchor-vertical=1
+animation-direction=0
 
 [notification-timeout]
-timeout=2000
+timeout=3000
+
+[notifications-alert]
+backgroundcolor='rgb(255,255,255)'
+blinkrate=500
+color='rgb(198,70,0)'
 
 [one-thing]
 location-in-status-bar=2
@@ -423,7 +435,7 @@ vw-color=['0.149', '0.376', '0.706']
 winbcolor=['0.149', '0.376', '0.706']
 
 [openmeteoweather]
-position='left'
+position='clock-left'
 
 [osd-volume-number]
 adapt-panel-menu=true
@@ -443,7 +455,12 @@ volume-mixer-show-description=true
 volume-mixer-show-icon=true
 
 [restartto]
-blacklist=@as []
+blacklist=['USB HDD', 'PXE BOOT', 'LENOVO CLOUD', 'ON-PREMISE', 'Other HDD', 'IDER BOOT CDROM', 'IDER BOOT Floppy', 'ATA HDD', 'ATAPI CD', 'Linux-Firmware-Updater', 'Ubuntu', 'Windows Boot Manager']
+
+[rounded-window-corners-reborn]
+enable-preferences-entry=false
+settings-version=uint32 7
+skip-libadwaita-app=true
 
 [runcat]
 displaying-items='character-and-percentage'
@@ -455,6 +472,9 @@ indicator-position='CENTER_RIGHT'
 max-size=20
 min-rotation-angle=10
 min-size=10
+
+[spotify-controls]
+position='leftmost-right'
 
 [tiling-assistant]
 activate-layout0=@as []
@@ -498,6 +518,9 @@ tile-topright-quarter-ignore-ta=@as []
 tiling-popup-all-workspace=true
 toggle-always-on-top=@as []
 toggle-tiling-popup=@as []
+
+[tracker]
+timers=['{"id":"settings","totalTimeSelected":true}']
 
 [transparent-window-moving]
 transition-time=0.089999999999999997

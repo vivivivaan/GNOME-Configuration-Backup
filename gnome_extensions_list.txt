@@ -24,6 +24,10 @@ bluetooth-quick-connect@bjarosze.gmail.com
 osd-volume-number@deminder
 sound-percentage@subashghimire.info.np
 show-desktop-button@amivaleo
-extension-list@tu.berry
+media-progress@krypion17
+reboottouefi@ubaygd.com
+fullscreen-notifications@sorrow.about.alice.pm.me
+NotificationCounter@coolllsk
 tiling-assistant@ubuntu.com
 ubuntu-appindicators@ubuntu.com
+rounded-window-corners@fxgn
