@@ -22,7 +22,7 @@ folder-order-position='start'
 
 [app_tabs]
 ellipsize-mode=true
-panel-max-width=199
+panel-max-width=99
 
 [astra-monitor]
 compact-mode=false
@@ -54,7 +54,8 @@ storage-main='eui.002538bc11b6e85b-part6'
 [aztaskbar]
 main-panel-height=(true, 40)
 position-in-panel='CENTER'
-update-notifier-project-version=28
+prefs-visible-page=''
+update-notifier-project-version=30
 
 [battery-indicator-icon]
 icon-orientation='horizontal'
