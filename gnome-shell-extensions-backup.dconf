@@ -230,6 +230,21 @@ show-windows-preview=true
 transparency-mode='DYNAMIC'
 workspace-agnostic-urgent-windows=true
 
+[dash-to-panel]
+animate-appicon-hover-animation-extent={'RIPPLE': 4, 'PLANK': 4, 'SIMPLE': 1}
+dot-position='BOTTOM'
+extension-version=68
+hotkeys-overlay-combo='TEMPORARILY'
+intellihide=true
+panel-anchors='{"CMN-0x00000000":"MIDDLE"}'
+panel-element-positions='{}'
+panel-lengths='{"CMN-0x00000000":90}'
+panel-positions='{"CMN-0x00000000":"BOTTOM"}'
+panel-sizes='{}'
+prefs-opened=false
+primary-monitor='CMN-0x00000000'
+window-preview-title-position='TOP'
+
 [day-progress]
 height=5
 panel-index=0
@@ -523,8 +538,8 @@ toggle-tiling-popup=@as []
 timers=['{"id":"settings","totalTimeSelected":true}']
 
 [transparent-window-moving]
-transition-time=0.089999999999999997
-window-opacity=128
+transition-time=0.070000000000000007
+window-opacity=160
 
 [trayIconsReloaded]
 applications='[]'

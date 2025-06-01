@@ -26,6 +26,7 @@ sound-percentage@subashghimire.info.np
 show-desktop-button@amivaleo
 rounded-window-corners@fxgn
 media-progress@krypion17
+waylandorx11@injcristianrojas.github.com
 reboottouefi@ubaygd.com
 fullscreen-notifications@sorrow.about.alice.pm.me
 NotificationCounter@coolllsk
