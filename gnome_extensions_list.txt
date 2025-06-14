@@ -29,6 +29,5 @@ media-progress@krypion17
 waylandorx11@injcristianrojas.github.com
 reboottouefi@ubaygd.com
 fullscreen-notifications@sorrow.about.alice.pm.me
-NotificationCounter@coolllsk
 tiling-assistant@ubuntu.com
 ubuntu-appindicators@ubuntu.com
