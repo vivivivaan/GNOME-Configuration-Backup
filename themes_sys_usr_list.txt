@@ -1,0 +1,96 @@
+/home/prithvi/.themes/:
+total 32K
+drwxrwxr-x  8 prithvi prithvi 4.0K Jun 14 16:00 .
+drwxr-x--- 40 prithvi prithvi 4.0K Jun 15 09:10 ..
+drwxrwxr-x  9 prithvi prithvi 4.0K Jun 14 12:25 Magnetic-Dark
+drwxrwxr-x  9 prithvi prithvi 4.0K Jun 14 12:25 Magnetic-Dark-Compact
+drwxrwxr-x  3 prithvi prithvi 4.0K Jun 14 12:25 Magnetic-Dark-Compact-hdpi
+drwxrwxr-x  3 prithvi prithvi 4.0K Jun 14 12:25 Magnetic-Dark-Compact-xhdpi
+drwxrwxr-x  3 prithvi prithvi 4.0K Jun 14 12:25 Magnetic-Dark-hdpi
+drwxrwxr-x  3 prithvi prithvi 4.0K Jun 14 12:25 Magnetic-Dark-xhdpi
+
+/usr/share/icons/:
+total 176K
+drwxr-xr-x  40 root    root    4.0K Jun  7 21:13 .
+drwxr-xr-x 291 root    root     12K Jun 14 16:30 ..
+drwxr-xr-x   6 root    root    4.0K Apr 15 18:18 Adwaita
+drwxr-xr-x   3 prithvi prithvi 4.0K Feb 19  2020 capitaine-cursors-light
+drwxr-xr-x   2 root    root    4.0K Jun  6 23:17 Colloid
+drwxr-xr-x  10 root    root    4.0K Jun  6 23:17 Colloid-Dark
+drwxr-xr-x  10 root    root    4.0K Jun  6 23:17 Colloid-Light
+drwxr-xr-x   2 root    root    4.0K Apr 15 18:17 default
+drwxr-xr-x   3 root    root    4.0K Apr 15 18:16 DMZ-Black
+drwxr-xr-x   3 root    root    4.0K Apr 15 18:16 DMZ-White
+-rw-r--r--   1 root    root    3.7K Apr 28 09:05 gnome-logo-text-dark.svg
+-rw-r--r--   1 root    root    3.5K Apr 28 09:05 gnome-logo-text.svg
+drwxr-xr-x   3 root    root    4.0K Apr 15 18:17 handhelds
+drwxr-xr-x  33 root    root    4.0K Jun 14 16:30 hicolor
+drwxr-xr-x   9 root    root    4.0K Apr 15 18:17 HighContrast
+drwxr-xr-x   4 root    root    4.0K Apr 15 18:15 locolor
+drwxr-xr-x   3 root    root    4.0K Apr 15 18:17 redglass
+drwxr-xr-x   3 prithvi prithvi 4.0K Jun 12  2020 Sweet-cursors
+drwxr-xr-x   3 root    root    4.0K Apr 15 18:17 whiteglass
+drwxr-xr-x  13 root    root    4.0K May 16 22:04 WhiteSur
+drwxr-xr-x  10 root    root    4.0K May 16 22:04 WhiteSur-dark
+drwxr-xr-x   3 root    root    4.0K May 16 22:04 WhiteSur-light
+drwxr-xr-x  19 root    root    4.0K Apr 15 18:17 Yaru
+drwxr-xr-x  17 root    root    4.0K Apr 15 18:17 Yaru-blue
+drwxr-xr-x   2 root    root    4.0K Apr 15 18:17 Yaru-blue-dark
+drwxr-xr-x   2 root    root    4.0K Apr 15 18:17 Yaru-dark
+drwxr-xr-x  17 root    root    4.0K Apr 15 18:17 Yaru-magenta
+drwxr-xr-x   2 root    root    4.0K Apr 15 18:17 Yaru-magenta-dark
+drwxr-xr-x  17 root    root    4.0K Apr 15 18:17 Yaru-olive
+drwxr-xr-x   2 root    root    4.0K Apr 15 18:17 Yaru-olive-dark
+drwxr-xr-x  17 root    root    4.0K Apr 15 18:17 Yaru-prussiangreen
+drwxr-xr-x   2 root    root    4.0K Apr 15 18:17 Yaru-prussiangreen-dark
+drwxr-xr-x  17 root    root    4.0K Apr 15 18:17 Yaru-purple
+drwxr-xr-x   2 root    root    4.0K Apr 15 18:17 Yaru-purple-dark
+drwxr-xr-x  17 root    root    4.0K Apr 15 18:17 Yaru-red
+drwxr-xr-x   2 root    root    4.0K Apr 15 18:17 Yaru-red-dark
+drwxr-xr-x  17 root    root    4.0K Apr 15 18:17 Yaru-sage
+drwxr-xr-x   2 root    root    4.0K Apr 15 18:17 Yaru-sage-dark
+drwxr-xr-x  17 root    root    4.0K Apr 15 18:17 Yaru-wartybrown
+drwxr-xr-x   2 root    root    4.0K Apr 15 18:17 Yaru-wartybrown-dark
+drwxr-xr-x  17 root    root    4.0K Apr 15 18:17 Yaru-yellow
+drwxr-xr-x   2 root    root    4.0K Apr 15 18:17 Yaru-yellow-dark
+
+/usr/share/themes/:
+total 160K
+drwxr-xr-x  38 root root 4.0K Jun 14 16:00 .
+drwxr-xr-x 291 root root  12K Jun 14 16:30 ..
+drwxr-xr-x   4 root root 4.0K Apr 15 18:17 Adwaita
+drwxr-xr-x   4 root root 4.0K Apr 15 18:17 Adwaita-dark
+drwxr-xr-x   4 root root 4.0K Apr 15 18:17 Default
+drwxr-xr-x   4 root root 4.0K Apr 15 18:17 Emacs
+drwxr-xr-x   4 root root 4.0K Apr 15 18:17 HighContrast
+drwxr-xr-x   9 root root 4.0K Jun 14 12:24 Magnetic-Dark
+drwxr-xr-x   9 root root 4.0K Jun 14 12:24 Magnetic-Dark-Compact
+drwxr-xr-x   3 root root 4.0K Jun 14 12:24 Magnetic-Dark-Compact-hdpi
+drwxr-xr-x   3 root root 4.0K Jun 14 12:24 Magnetic-Dark-Compact-xhdpi
+drwxr-xr-x   3 root root 4.0K Jun 14 12:24 Magnetic-Dark-hdpi
+drwxr-xr-x   3 root root 4.0K Jun 14 12:24 Magnetic-Dark-xhdpi
+drwxr-xr-x   3 root root 4.0K Apr 15 18:17 Raleigh
+drwxr-xr-x   7 root root 4.0K Apr 15 18:17 Yaru
+drwxr-xr-x   5 root root 4.0K Apr 15 18:17 Yaru-blue
+drwxr-xr-x   5 root root 4.0K Apr 15 18:17 Yaru-blue-dark
+drwxr-xr-x   7 root root 4.0K Apr 15 18:17 Yaru-dark
+drwxr-xr-x   3 root root 4.0K Apr 15 18:17 Yaru-dark-hdpi
+drwxr-xr-x   3 root root 4.0K Apr 15 18:17 Yaru-dark-xhdpi
+drwxr-xr-x   3 root root 4.0K Apr 15 18:17 Yaru-hdpi
+drwxr-xr-x   5 root root 4.0K Apr 15 18:17 Yaru-magenta
+drwxr-xr-x   5 root root 4.0K Apr 15 18:17 Yaru-magenta-dark
+drwxr-xr-x   5 root root 4.0K Apr 15 18:17 Yaru-olive
+drwxr-xr-x   5 root root 4.0K Apr 15 18:17 Yaru-olive-dark
+drwxr-xr-x   5 root root 4.0K Apr 15 18:17 Yaru-prussiangreen
+drwxr-xr-x   5 root root 4.0K Apr 15 18:17 Yaru-prussiangreen-dark
+drwxr-xr-x   5 root root 4.0K Apr 15 18:17 Yaru-purple
+drwxr-xr-x   5 root root 4.0K Apr 15 18:17 Yaru-purple-dark
+drwxr-xr-x   5 root root 4.0K Apr 15 18:17 Yaru-red
+drwxr-xr-x   5 root root 4.0K Apr 15 18:17 Yaru-red-dark
+drwxr-xr-x   5 root root 4.0K Apr 15 18:17 Yaru-sage
+drwxr-xr-x   5 root root 4.0K Apr 15 18:17 Yaru-sage-dark
+drwxr-xr-x   5 root root 4.0K Apr 15 18:17 Yaru-wartybrown
+drwxr-xr-x   5 root root 4.0K Apr 15 18:17 Yaru-wartybrown-dark
+drwxr-xr-x   3 root root 4.0K Apr 15 18:17 Yaru-xhdpi
+drwxr-xr-x   5 root root 4.0K Apr 15 18:17 Yaru-yellow
+drwxr-xr-x   5 root root 4.0K Apr 15 18:17 Yaru-yellow-dark

@@ -124,8 +124,8 @@ brightness=0.59999999999999998
 sigma=30
 
 [clipboard-indicator]
-cache-size=75
-history-size=200
+cache-size=100
+history-size=250
 keep-selected-on-clear=true
 move-item-first=true
 notify-on-copy=true
