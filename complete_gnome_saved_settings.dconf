@@ -7,8 +7,8 @@ width=904
 
 [apps/update-manager]
 first-run=false
-launch-count=32
-launch-time=int64 1749901202
+launch-count=35
+launch-time=int64 1750085753
 show-details=true
 window-height=457
 window-width=580
@@ -262,7 +262,7 @@ sources=[('xkb', 'us+alt-intl'), ('xkb', 'gb+extd')]
 xkb-options=@as []
 
 [org/gnome/desktop/interface]
-accent-color='slate'
+accent-color='blue'
 clock-format='24h'
 clock-show-seconds=true
 clock-show-weekday=true
@@ -275,7 +275,7 @@ enable-hot-corners=true
 font-antialiasing='grayscale'
 font-hinting='slight'
 font-name='SF Pro Display 9'
-gtk-theme='Magnetic-Dark'
+gtk-theme='Yaru-blue-dark'
 icon-theme='Colloid-Dark'
 locate-pointer=true
 monospace-font-name='SF Mono 9'
@@ -284,7 +284,7 @@ show-battery-percentage=true
 text-scaling-factor=1.0
 
 [org/gnome/desktop/notifications]
-application-children=['gnome-initial-setup', 'update-manager', 'org-gnome-tweaks', 'google-chrome', 'org-gnome-extensions', 'org-gnome-nautilus', 'app-zen-browser-zen', 'code-insiders', 'brave-browser', 'org-telegram-desktop-3e485da34fc040f9218e3891ecde1e6c', 'gnome-power-panel', 'gnome-wellbeing-panel', 'org-gnome-terminal-preferences', 'org-gnome-characters', 'spotify', 'org-gnome-shell-extensions', 'org-qbittorrent-qbittorrent', 'com-mattjakeman-extensionmanager', 'windscribe', 'jetbrains-pycharm-f3c2cc7c-77a9-4379-9519-8adb0dedc8fb', 'org-gnome-dejadup', 'org-gnome-settings', 'firefox', 'discord', 'org-gnome-clocks']
+application-children=['gnome-initial-setup', 'update-manager', 'org-gnome-tweaks', 'google-chrome', 'org-gnome-extensions', 'org-gnome-nautilus', 'app-zen-browser-zen', 'code-insiders', 'brave-browser', 'org-telegram-desktop-3e485da34fc040f9218e3891ecde1e6c', 'gnome-power-panel', 'gnome-wellbeing-panel', 'org-gnome-terminal-preferences', 'org-gnome-characters', 'spotify', 'org-gnome-shell-extensions', 'org-qbittorrent-qbittorrent', 'com-mattjakeman-extensionmanager', 'windscribe', 'jetbrains-pycharm-f3c2cc7c-77a9-4379-9519-8adb0dedc8fb', 'org-gnome-dejadup', 'org-gnome-settings', 'firefox', 'discord', 'org-gnome-clocks', 'snapd-desktop-integration-snapd-desktop-integration']
 
 [org/gnome/desktop/notifications/application/app-zen-browser-zen]
 application-id='app.zen_browser.zen.desktop'
@@ -354,6 +354,9 @@ application-id='org.qbittorrent.qBittorrent.desktop'
 
 [org/gnome/desktop/notifications/application/org-telegram-desktop-3e485da34fc040f9218e3891ecde1e6c]
 application-id='org.telegram.desktop._3e485da34fc040f9218e3891ecde1e6c.desktop'
+
+[org/gnome/desktop/notifications/application/snapd-desktop-integration-snapd-desktop-integration]
+application-id='snapd-desktop-integration_snapd-desktop-integration.desktop'
 
 [org/gnome/desktop/notifications/application/spotify]
 application-id='spotify.desktop'
@@ -427,10 +430,10 @@ transparency='checked'
 
 [org/gnome/epiphany]
 ask-for-default=false
-default-search-engine='Start Page'
-homepage-url='https://www.startpage.com'
+default-search-engine='Brave'
+homepage-url='https://search.brave.com'
 restore-session-policy='crashed'
-search-engine-providers=[{'url': <'https://www.bing.com/search?q=%s'>, 'bang': <'!b'>, 'name': <'Bing'>}, {'url': <'https://duckduckgo.com/?q=%s&t=epiphany&kd=-1'>, 'bang': <'!ddg'>, 'name': <'DuckDuckGo'>}, {'url': <'https://www.google.com/search?q=%s'>, 'bang': <'!g'>, 'name': <'Google'>}, {'url': <'https://www.startpage.com/search?q=%s'>, 'bang': <'!s'>, 'name': <'Start Page'>}]
+search-engine-providers=[{'url': <'https://www.bing.com/search?q=%s'>, 'bang': <'!b'>, 'name': <'Bing'>}, {'url': <'https://search.brave.com/search?q=%s'>, 'bang': <''>, 'name': <'Brave'>}, {'url': <'https://duckduckgo.com/?q=%s&t=epiphany&kd=-1'>, 'bang': <'!ddg'>, 'name': <'DuckDuckGo'>}, {'url': <'https://www.google.com/search?q=%s'>, 'bang': <'!g'>, 'name': <'Google'>}, {'url': <'https://www.startpage.com/search?q=%s'>, 'bang': <'!s'>, 'name': <'Start Page'>}]
 
 [org/gnome/epiphany/state]
 is-maximized=true
@@ -510,7 +513,7 @@ width=472
 
 [org/gnome/gnome-system-monitor]
 cpu-stacked-area-chart=false
-current-tab='resources'
+current-tab='disks'
 graph-update-interval=100
 maximized=false
 process-memory-in-iec=true
@@ -574,7 +577,7 @@ show-create-link=true
 show-delete-permanently=true
 
 [org/gnome/nautilus/window-state]
-initial-size=(1185, 790)
+initial-size=(1213, 808)
 initial-size-file-chooser=(1323, 776)
 maximized=false
 
@@ -611,7 +614,7 @@ zoom=0.55029019143838753
 last-folder-path='/home/prithvi/Documents'
 
 [org/gnome/portal/filechooser/code]
-last-folder-path='/home/prithvi/Documents'
+last-folder-path='/home/prithvi/micromamba/envs/keras-env/bin'
 
 [org/gnome/portal/filechooser/com.google.Chrome]
 last-folder-path='/home/prithvi/Downloads'
@@ -620,13 +623,13 @@ last-folder-path='/home/prithvi/Downloads'
 last-folder-path='/home/prithvi/Wallpapers'
 
 [org/gnome/portal/filechooser/google-chrome]
-last-folder-path='/home/prithvi'
+last-folder-path='/home/prithvi/Pictures/Screenshots'
 
 [org/gnome/portal/filechooser/io.github.realmazharhussain.GdmSettings]
 last-folder-path='/home/prithvi/Wallpapers'
 
 [org/gnome/portal/filechooser/io.github.vikdevelop.SaveDesktop]
-last-folder-path='/home/prithvi/Documents'
+last-folder-path='/home/prithvi/Documents/Ubuntu-GNOME-Configuration-Backup'
 
 [org/gnome/portal/filechooser/org.gnome.TextEditor]
 last-folder-path='/home/prithvi/Documents'
@@ -1229,7 +1232,7 @@ applications=['org.gnome.tweaks.desktop', 'com.mattjakeman.ExtensionManager.desk
 position=0
 
 [org/gnome/shell/extensions/user-theme]
-name='Magnetic-Dark'
+name='Yaru-dark'
 
 [org/gnome/shell/extensions/visualizer]
 visualizer-color='rgb(26,95,180)'

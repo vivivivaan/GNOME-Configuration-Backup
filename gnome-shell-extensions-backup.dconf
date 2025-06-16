@@ -568,7 +568,7 @@ applications=['org.gnome.tweaks.desktop', 'com.mattjakeman.ExtensionManager.desk
 position=0
 
 [user-theme]
-name='Magnetic-Dark'
+name='Yaru-dark'
 
 [visualizer]
 visualizer-color='rgb(26,95,180)'
