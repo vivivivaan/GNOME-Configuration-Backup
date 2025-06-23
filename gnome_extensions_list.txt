@@ -5,7 +5,6 @@ places-menu@gnome-shell-extensions.gcampax.github.com
 drive-menu@gnome-shell-extensions.gcampax.github.com
 screenshort-cut@pauloimon
 Hide_Activities@shay.shayel.org
-dash-to-dock@micxgx.gmail.com
 blur-my-shell@aunetx
 day-progress@arcaege.github.io
 tweaks-system-menu@extensions.gnome-shell.fifi.org
@@ -14,7 +13,6 @@ transparent-window-moving@noobsai.github.com
 hidetopbar@mathieu.bidon.ca
 gnomebedtime@ionutbortis.gmail.com
 monitor@astraext.github.io
-power-profile@fthx
 custom-hot-corners-extended@G-dH.github.com
 fq@megh
 just-perfection-desktop@just-perfection
@@ -25,9 +23,11 @@ osd-volume-number@deminder
 sound-percentage@subashghimire.info.np
 show-desktop-button@amivaleo
 rounded-window-corners@fxgn
+azwallpaper@azwallpaper.gitlab.com
 media-progress@krypion17
 waylandorx11@injcristianrojas.github.com
 reboottouefi@ubaygd.com
 fullscreen-notifications@sorrow.about.alice.pm.me
 tiling-assistant@ubuntu.com
 ubuntu-appindicators@ubuntu.com
+ubuntu-dock@ubuntu.com
