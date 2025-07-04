@@ -28,8 +28,10 @@ panel-max-width=99
 compact-mode=false
 compact-mode-activation='hover'
 experimental-features='[]'
+gpu-data='[{"domain":"0000:01","bus":"00","slot":"0","vendorId":"10de","productId":"25b8","monitor":true}]'
 gpu-header-show=false
 gpu-indicators-order='["icon","activity bar","activity graph","activity percentage","memory bar","memory graph","memory percentage","memory value"]'
+gpu-main='""'
 headers-height=0
 headers-height-override=0
 memory-header-show=true
@@ -60,12 +62,13 @@ update-notifier-project-version=30
 [azwallpaper]
 prefs-visible-page=''
 slideshow-change-slide-event=0
-slideshow-current-slide-index=0
-slideshow-current-wallpaper='jack-b-xDsmXRCE2Zw-unsplash.jpg'
+slideshow-current-slide-index=9
+slideshow-current-wallpaper='andrew-jephson-r4PbOL-LUbs-unsplash.jpg'
 slideshow-directory='/home/prithvi/Wallpapers'
-slideshow-queue=[{'name': 'jack-b-xDsmXRCE2Zw-unsplash.jpg', 'date': '1749974234'}, {'name': 'dorne-marting-WJJ3xP5Z_vw-unsplash.jpg', 'date': '1749123012'}, {'name': 'zoha-gohar-4cMl8yG0NnE-unsplash.jpg', 'date': '1749763180'}, {'name': 'engin-akyurt-Cx5AQKzuB7Y-unsplash.jpg', 'date': '1748994106'}, {'name': 'josh-bean-Gecsh_1GOz4-unsplash.jpg', 'date': '1749974287'}, {'name': 'aneta-voborilova-bbG9eRFBRdQ-unsplash.jpg', 'date': '1749974367'}, {'name': 'phatthanan-tuppocha-rJo9HurkumM-unsplash.jpg', 'date': '1749123024'}, {'name': 'andrew-jephson-r4PbOL-LUbs-unsplash.jpg', 'date': '1749974367'}, {'name': 'pawel-czerwinski-sxaYEsE12RM-unsplash.jpg', 'date': '1748994215'}, {'name': 'emiliano-bar-kheTI8pIywU-unsplash.jpg', 'date': '1749974367'}, {'name': 'henrique-ferreira-LpOAF6Tg86I-unsplash.jpg', 'date': '1750201006'}, {'name': 'jack-b-PHddAjnhwSI-unsplash.jpg', 'date': '1749974248'}, {'name': 'creatvise-9tx1nx8BwQ8-unsplash.jpg', 'date': '1749974367'}, {'name': 'sakura27-yZgOKq65mQk-unsplash.jpg', 'date': '1749123181'}, {'name': 'katlyn-boone-sRt3zQzLLKg-unsplash.jpg', 'date': '1749123139'}, {'name': 'john-price-m3lsz9j9J2I-unsplash.jpg', 'date': '1749123172'}, {'name': 'ruvim-noga-o0R4iqk1eRQ-unsplash.jpg', 'date': '1748994102'}, {'name': 'jorik-kleen-gEQKilqT6bU-unsplash.jpg', 'date': '1749974367'}, {'name': 'dhilan-dhruv-patel-fvjEwDPDLVk-unsplash.jpg', 'date': '1749974273'}, {'name': 'mo-0GLs0LoZBrc-unsplash.jpg', 'date': '1750664135'}, {'name': 'sim-kimhort-cs7WgCDqJVU-unsplash.jpg', 'date': '1750664150'}, {'name': 'frame-harirak-s0y0Tb7a60Y-unsplash.jpg', 'date': '1749123016'}, {'name': 'kelvin-zyteng-bqII05VYuCw-unsplash.jpg', 'date': '1750200874'}, {'name': 'zoha-gohar-oAul85J8fRs-unsplash.jpg', 'date': '1749763175'}, {'name': 'marek-piwnicki-VRjfWNwElkY-unsplash.jpg', 'date': '1749974367'}, {'name': 'pawel-czerwinski-SVVCP23JFyg-unsplash.jpg', 'date': '1748994122'}, {'name': 'dulcineia-dias-HQOA0LA91As-unsplash.jpg', 'date': '1749123075'}, {'name': 'evgeny-lazarenko-8HknSpvc1CU-unsplash.jpg', 'date': '1749123001'}, {'name': 'matteo-catanese-i0N6F1X_A88-unsplash.jpg', 'date': '1749974367'}, {'name': 'creatvise-NyToyWqboaM-unsplash.jpg', 'date': '1749974367'}, {'name': 'creatvise-XZpr4WiTW9c-unsplash.jpg', 'date': '1749974367'}, {'name': 'emiliano-bar-DitA7EZdgoM-unsplash.jpg', 'date': '1749974367'}, {'name': 'hayley-wild-ZgeMBHksh_Q-unsplash.jpg', 'date': '1749974281'}, {'name': 'katrina-julia-JEQVeS6R39k-unsplash.jpg', 'date': '1750201036'}, {'name': 'pawel-czerwinski-sXESiqE2gN0-unsplash.jpg', 'date': '1748994205'}, {'name': 'camille-villanueva-zsAPsRjzXRI-unsplash.jpg', 'date': '1749123063'}, {'name': 'pawel-czerwinski-dMSVp7QLl_A-unsplash.jpg', 'date': '1748994150'}, {'name': 'matteo-catanese-dVCGpKZB_E8-unsplash.jpg', 'date': '1749974367'}, {'name': 'willian-justen-de-vasconcellos-l6bompP2jsA-unsplash.jpg', 'date': '1750201024'}, {'name': 'sara-ruiz-lpzep4LZubY-unsplash.jpg', 'date': '1749123120'}, {'name': 'vishnu-vijayakumar-4A067LqrYWo-unsplash.jpg', 'date': '1749974292'}]
+slideshow-pause=true
+slideshow-queue=[{'name': 'hayley-wild-ZgeMBHksh_Q-unsplash.jpg', 'date': '1749974281'}, {'name': 'willow-xk-nl-1AVWC1RE-unsplash.jpg', 'date': '1751294192'}, {'name': 'daniele-levis-pelusi-Nqf8FpvS8iM-unsplash.jpg', 'date': '1750932700'}, {'name': 'dhilan-dhruv-patel-fvjEwDPDLVk-unsplash.jpg', 'date': '1749974273'}, {'name': 'milad-fakurian-DjjaZybYx4I-unsplash.jpg', 'date': '1751293867'}, {'name': 'dulcineia-dias-HQOA0LA91As-unsplash.jpg', 'date': '1749123075'}, {'name': 'jorik-kleen-gEQKilqT6bU-unsplash.jpg', 'date': '1749974367'}, {'name': 'alexander-nechunaev-BuXxoMsvB6g-unsplash.jpg', 'date': '1751293682'}, {'name': 'daniele-levis-pelusi-Vo6A7rwmAJk-unsplash.jpg', 'date': '1750932696'}, {'name': 'andrew-jephson-r4PbOL-LUbs-unsplash.jpg', 'date': '1749974367'}, {'name': 'pawel-czerwinski-GFqo8rVmH30-unsplash.jpg', 'date': '1751293935'}, {'name': 'frame-harirak-s0y0Tb7a60Y-unsplash.jpg', 'date': '1749123016'}, {'name': 'destiny-ayodele-0xdWoqxoF_Q-unsplash.jpg', 'date': '1751294185'}, {'name': 'john-price-m3lsz9j9J2I-unsplash.jpg', 'date': '1749123172'}, {'name': 'nenad-novakovic-L2QB-rG5NM0-unsplash.jpg', 'date': '1751293892'}, {'name': 'luke-chesser-tgrBcf7S_dY-unsplash.jpg', 'date': '1750932665'}, {'name': 'shubham-dhage-R5A_YlcSJwA-unsplash.jpg', 'date': '1751294111'}, {'name': 'milad-fakurian-seA-FPPXL-M-unsplash.jpg', 'date': '1751293982'}, {'name': 'ilgmyzin-aTGYWbi2jlQ-unsplash.jpg', 'date': '1751293974'}, {'name': 'steve-johnson-4Ymslk3Iihc-unsplash.jpg', 'date': '1750932687'}, {'name': 'luke-chesser-IGtutkXikuc-unsplash.jpg', 'date': '1750932658'}, {'name': 'sude-soyluturk-qCYrA9qg-_4-unsplash.jpg', 'date': '1750932782'}, {'name': 'emiliano-bar-DitA7EZdgoM-unsplash.jpg', 'date': '1749974367'}, {'name': 'ken-cheung-KonWFWUaAuk-unsplash.jpg', 'date': '1750932705'}, {'name': 'josh-bean-Gecsh_1GOz4-unsplash.jpg', 'date': '1749974287'}, {'name': 'anas-alshanti-feXpdV001o4-unsplash.jpg', 'date': '1750932709'}, {'name': 'matteo-catanese-i0N6F1X_A88-unsplash.jpg', 'date': '1749974367'}, {'name': 'emiliano-bar-kheTI8pIywU-unsplash.jpg', 'date': '1749974367'}, {'name': 'matteo-catanese-dVCGpKZB_E8-unsplash.jpg', 'date': '1749974367'}, {'name': 'luke-jones-e1Ua34O1PSM-unsplash.jpg', 'date': '1751294174'}, {'name': 'phatthanan-tuppocha-rJo9HurkumM-unsplash.jpg', 'date': '1749123024'}, {'name': 'willow-xk-89JrtpI9VqI-unsplash.jpg', 'date': '1751294204'}, {'name': 'mo-0GLs0LoZBrc-unsplash.jpg', 'date': '1750664135'}, {'name': 'sakura27-yZgOKq65mQk-unsplash.jpg', 'date': '1749123181'}, {'name': 'mike-enerio-yPbBYE1pkHo-unsplash.jpg', 'date': '1750932729'}, {'name': 'pawel-czerwinski-n6_MK8-xMP4-unsplash.jpg', 'date': '1751294178'}, {'name': 'cosmic-timetraveler-LNdKDxBx9tc-unsplash.jpg', 'date': '1750932749'}, {'name': 'vimal-s-J69ERsG93hI-unsplash.jpg', 'date': '1751294210'}, {'name': 'gabor-koszegi-wznOPSD6hfg-unsplash.jpg', 'date': '1750932772'}, {'name': 'luke-chesser-eICUFSeirc0-unsplash.jpg', 'date': '1750932651'}, {'name': 'willow-xk-3nuwfcPljP0-unsplash.jpg', 'date': '1751294201'}, {'name': 'shubham-dhage-XG4vGhzqh4c-unsplash.jpg', 'date': '1751294157'}, {'name': 'cosmic-timetraveler-8xXYqz5X7yo-unsplash.jpg', 'date': '1750932760'}]
 slideshow-slide-duration=(0, 5, 0)
-slideshow-time-of-slide-start=uint64 1750667853634
+slideshow-time-of-slide-start=uint64 1751634760458
 slideshow-timer-remaining=300
 update-notifier-project-version=13
 
@@ -98,9 +101,10 @@ sigma=30
 
 [blur-my-shell/applications]
 blur=false
+brightness=1.0
 dynamic-opacity=true
 enable-all=true
-opacity=240
+opacity=234
 
 [blur-my-shell/coverflow-alt-tab]
 pipeline='pipeline_default_rounded'
@@ -151,16 +155,17 @@ easing-function='ease-in-out-quint'
 hide-panel=true
 icon-add-remove-effects='Fade and Scale'
 icon-has-shadow=true
-icon-style='Attached'
+icon-style='Overlay'
 offset=0
-overlay-icon-opacity=0.5
+overlay-icon-opacity=0.25
 overlay-icon-size=100.0
 perspective-correction-method='Move Camera'
+position='Bottom'
 preview-scaling-factor=0.5
 preview-to-monitor-ratio=0.5
 randomize-animation-times=true
-switcher-background-color=(0.93333333333333335, 0.93333333333333335, 0.92549019607843142)
-switcher-looping-method='Flip Stack'
+switcher-background-color=(0.53725490196078429, 0.63921568627450975, 0.76078431372549016)
+switcher-looping-method='Carousel'
 switcher-style='Coverflow'
 tint-use-theme-color=true
 use-glitch-effect=false
@@ -210,13 +215,13 @@ background-color='rgb(255,255,255)'
 background-opacity=0.0
 custom-background-color=false
 custom-theme-shrink=false
-customize-alphas=true
-dash-max-icon-size=38
+customize-alphas=false
+dash-max-icon-size=37
 disable-overview-on-startup=true
 dock-fixed=false
 dock-position='BOTTOM'
 extend-height=false
-height-fraction=0.90000000000000002
+height-fraction=0.80000000000000004
 hide-delay=0.15000000000000002
 hide-tooltip=false
 icon-size-fixed=false
@@ -274,7 +279,12 @@ mouse-rotation-speed=2.5000000000000004
 window-parallax=0.61904761904761907
 
 [dim-background-windows]
+brightness-dark-style=0.90000000000000002
+brightness-dark-style-override=true
+dim-background=true
 dimming-enabled=true
+saturation-dark-style=0.94999999999999996
+saturation-dark-style-override=true
 target-monitor='all'
 toggle-shortcut=['<Super>g']
 
@@ -513,6 +523,23 @@ skip-libadwaita-app=true
 [runcat]
 displaying-items='character-and-percentage'
 
+[search-light]
+animation-speed=100.0
+blur-background=true
+blur-brightness=0.59999999999999998
+blur-sigma=30.0
+border-radius=7.0
+border-thickness=0
+entry-font-size=0
+monitor-count=1
+popup-at-cursor-monitor=false
+preferred-monitor=0
+scale-height=0.14999999999999999
+scale-width=0.14999999999999999
+shortcut-search=['<Shift>s']
+show-panel-icon=true
+window-effect=0
+
 [show-desktop-button]
 indicator-position='CENTER_RIGHT'
 
@@ -537,6 +564,7 @@ debugging-free-rects=@as []
 debugging-show-tiled-rects=@as []
 default-move-mode=0
 dynamic-keybinding-behavior=0
+focus-hint=0
 focus-hint-color='rgb(146,113,74)'
 import-layout-examples=false
 last-version-installed=51
@@ -583,7 +611,7 @@ applications=['org.gnome.tweaks.desktop', 'com.mattjakeman.ExtensionManager.desk
 position=0
 
 [user-theme]
-name='Graphite-Dark-nord'
+name='Graphite-blue-Dark-compact-nord'
 
 [visualizer]
 visualizer-color='rgb(26,95,180)'

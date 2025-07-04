@@ -10,7 +10,6 @@ day-progress@arcaege.github.io
 tweaks-system-menu@extensions.gnome-shell.fifi.org
 Vitals@CoreCoding.com
 transparent-window-moving@noobsai.github.com
-hidetopbar@mathieu.bidon.ca
 gnomebedtime@ionutbortis.gmail.com
 monitor@astraext.github.io
 custom-hot-corners-extended@G-dH.github.com
@@ -23,8 +22,9 @@ osd-volume-number@deminder
 sound-percentage@subashghimire.info.np
 show-desktop-button@amivaleo
 rounded-window-corners@fxgn
-azwallpaper@azwallpaper.gitlab.com
+open-desktop-location@laura.media
 media-progress@krypion17
+CoverflowAltTab@palatis.blogspot.com
 waylandorx11@injcristianrojas.github.com
 reboottouefi@ubaygd.com
 fullscreen-notifications@sorrow.about.alice.pm.me

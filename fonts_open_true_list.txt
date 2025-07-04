@@ -11,7 +11,7 @@ drwxr-xr-x 2 root    root    4.0K Apr 15 18:16 urw-base35
 
 /usr/share/fonts/truetype:
 total 116K
-drwxr-xr-x 23 root    root    4.0K Jun 19 04:58 .
+drwxr-xr-x 23 root    root    4.0K Jul  1 14:15 .
 drwxr-xr-x  8 root    root    4.0K Apr 15 18:16 ..
 drwxrwxr-x  2 root    root    4.0K Jan 31 14:39 Adwaita_Mono
 drwxrwxr-x  2 root    root    4.0K Jan 31 14:39 Adwaita_Sans
@@ -24,7 +24,7 @@ drwxrwxr-x  3 prithvi prithvi 4.0K May 17 08:11 Inter
 drwxrwxr-x  2 prithvi prithvi  12K May 16 16:11 JetBrainsMono
 drwxrwxr-x  2 prithvi prithvi 4.0K May 25 10:14 JuliaMono-ttf
 drwxr-xr-x  2 root    root    4.0K Apr 15 18:16 liberation
-drwxr-xr-x  2 root    root    4.0K Jun  6 15:16 libreoffice
+drwxr-xr-x  2 root    root    4.0K Jun 27 22:52 libreoffice
 drwxrwxr-x  2 prithvi prithvi 4.0K May 25 10:14 menlo
 drwxrwxr-x  2 prithvi prithvi 4.0K May 25 10:29 monaco
 drwxrwxr-x  2 prithvi prithvi 4.0K May 17 08:11 NerdFontsSymbolsOnly
