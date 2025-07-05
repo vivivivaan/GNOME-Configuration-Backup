@@ -320,17 +320,24 @@ pressure-threshold=85
 pressure-timeout=1000
 
 [just-perfection]
+accent-color-icon=false
 alt-tab-window-preview-size=0
 animation=4
+clock-menu-position=0
+clock-menu-position-offset=0
+invert-calendar-column-items=true
+max-displayed-search-results=10
 notification-banner-position=1
-osd-position=0
+osd-position=8
 panel-icon-size=0
 panel-indicator-padding-size=0
-panel-size=23
+panel-size=22
 startup-status=0
 support-notifier-showed-version=34
 support-notifier-type=0
 top-panel-position=0
+window-demands-attention-focus=true
+window-maximized-on-create=false
 
 [libpanel]
 alignment='right'
@@ -338,9 +345,10 @@ layout=[['gnome@main', 'quick-settings-audio-panel@rayzeq.github.io/main']]
 single-column=false
 
 [notification-banner-reloaded]
-anchor-horizontal=1
-anchor-vertical=1
-animation-direction=0
+anchor-horizontal=2
+anchor-vertical=0
+animation-direction=2
+animation-time=100
 
 [notification-timeout]
 timeout=3000
@@ -352,7 +360,7 @@ color='rgb(198,70,0)'
 
 [one-thing]
 location-in-status-bar=2
-thing-value='unfuckwithable!'
+thing-value="O'Reilly expiry date: 21/7/25"
 
 [openbar]
 autohg-bar=true
@@ -597,6 +605,10 @@ toggle-tiling-popup=@as []
 
 [tracker]
 timers=['{"id":"settings","totalTimeSelected":true}']
+
+[transparent-inactive-windows]
+apply-to-all-windows=false
+window-opacity=95
 
 [transparent-window-moving]
 transition-time=0.070000000000000007

@@ -1,7 +1,7 @@
 /home/prithvi/.icons/:
-total 104K
-drwxr-xr-x 26 prithvi prithvi 4.0K Jul  2 10:14 .
-drwxr-x--- 45 prithvi prithvi 4.0K Jul  2 10:21 ..
+total 156K
+drwxr-xr-x 39 prithvi prithvi 4.0K Jul  5 20:38 .
+drwxr-x--- 45 prithvi prithvi 4.0K Jul  5 20:22 ..
 drwxrwxr-x  2 prithvi prithvi 4.0K Jul  2 10:14 Colloid-Dracula
 drwxrwxr-x 10 prithvi prithvi 4.0K Jul  2 10:14 Colloid-Dracula-Dark
 drwxrwxr-x 10 prithvi prithvi 4.0K Jul  2 10:14 Colloid-Dracula-Light
@@ -14,30 +14,43 @@ drwxrwxr-x 10 prithvi prithvi 4.0K Jul  2 10:14 Colloid-Grey-Nord-Light
 drwxrwxr-x  2 prithvi prithvi 4.0K Jul  2 10:14 Colloid-Nord
 drwxrwxr-x 10 prithvi prithvi 4.0K Jul  2 10:14 Colloid-Nord-Dark
 drwxrwxr-x 10 prithvi prithvi 4.0K Jul  2 10:14 Colloid-Nord-Light
-drwxr-xr-x  8 root    root    4.0K Jun 18 17:07 Tela-circle-blue
-drwxr-xr-x  6 root    root    4.0K Jun 18 17:07 Tela-circle-blue-dark
-drwxr-xr-x  5 root    root    4.0K Jun 18 17:07 Tela-circle-blue-light
-drwxr-xr-x  8 prithvi prithvi 4.0K Jun 24 19:00 Tela-circle-dracula
-drwxr-xr-x  6 prithvi prithvi 4.0K Jun 24 19:00 Tela-circle-dracula-dark
-drwxr-xr-x  5 prithvi prithvi 4.0K Jun 24 19:00 Tela-circle-dracula-light
-drwxr-xr-x  8 prithvi prithvi 4.0K Jun 23 12:58 Tela-circle-green
-drwxr-xr-x  6 prithvi prithvi 4.0K Jun 23 12:58 Tela-circle-green-dark
-drwxr-xr-x  5 prithvi prithvi 4.0K Jun 23 12:58 Tela-circle-green-light
-drwxr-xr-x  8 prithvi prithvi 4.0K Jun 23 12:58 Tela-circle-nord
-drwxr-xr-x  6 prithvi prithvi 4.0K Jun 23 12:58 Tela-circle-nord-dark
-drwxr-xr-x  5 prithvi prithvi 4.0K Jun 23 12:58 Tela-circle-nord-light
+drwxrwxr-x 13 prithvi prithvi 4.0K Jul  5 20:26 Reversal-blue
+drwxrwxr-x 10 prithvi prithvi 4.0K Jul  5 20:26 Reversal-blue-dark
+drwxrwxr-x 13 prithvi prithvi 4.0K Jul  5 20:26 Reversal-grey
+drwxrwxr-x 10 prithvi prithvi 4.0K Jul  5 20:26 Reversal-grey-dark
+drwxr-xr-x  8 prithvi prithvi 4.0K Jul  5 20:38 Tela-circle-blue
+drwxr-xr-x  6 prithvi prithvi 4.0K Jul  5 20:38 Tela-circle-blue-dark
+drwxr-xr-x  5 prithvi prithvi 4.0K Jul  5 20:38 Tela-circle-blue-light
+drwxr-xr-x  8 prithvi prithvi 4.0K Jul  5 20:38 Tela-circle-C2A7CE
+drwxr-xr-x  6 prithvi prithvi 4.0K Jul  5 20:38 Tela-circle-C2A7CE-dark
+drwxr-xr-x  5 prithvi prithvi 4.0K Jul  5 20:38 Tela-circle-C2A7CE-light
+drwxr-xr-x  8 prithvi prithvi 4.0K Jul  5 20:38 Tela-circle-dracula
+drwxr-xr-x  6 prithvi prithvi 4.0K Jul  5 20:38 Tela-circle-dracula-dark
+drwxr-xr-x  5 prithvi prithvi 4.0K Jul  5 20:38 Tela-circle-dracula-light
+drwxr-xr-x  8 prithvi prithvi 4.0K Jul  5 20:38 Tela-circle-E7D6E7
+drwxr-xr-x  6 prithvi prithvi 4.0K Jul  5 20:38 Tela-circle-E7D6E7-dark
+drwxr-xr-x  5 prithvi prithvi 4.0K Jul  5 20:38 Tela-circle-E7D6E7-light
+drwxr-xr-x  8 prithvi prithvi 4.0K Jul  5 20:38 Tela-circle-grey
+drwxr-xr-x  6 prithvi prithvi 4.0K Jul  5 20:38 Tela-circle-grey-dark
+drwxr-xr-x  5 prithvi prithvi 4.0K Jul  5 20:38 Tela-circle-grey-light
+drwxr-xr-x  8 prithvi prithvi 4.0K Jul  5 20:38 Tela-circle-nord
+drwxr-xr-x  6 prithvi prithvi 4.0K Jul  5 20:38 Tela-circle-nord-dark
+drwxr-xr-x  5 prithvi prithvi 4.0K Jul  5 20:38 Tela-circle-nord-light
+drwxr-xr-x  8 prithvi prithvi 4.0K Jul  5 20:38 Tela-circle-ubuntu
+drwxr-xr-x  6 prithvi prithvi 4.0K Jul  5 20:38 Tela-circle-ubuntu-dark
+drwxr-xr-x  5 prithvi prithvi 4.0K Jul  5 20:38 Tela-circle-ubuntu-light
 
 /home/prithvi/.themes/:
 total 28K
 drwxrwxr-x  5 prithvi prithvi  12K Jul  4 14:11 .
-drwxr-x--- 45 prithvi prithvi 4.0K Jul  2 10:21 ..
+drwxr-x--- 45 prithvi prithvi 4.0K Jul  5 20:22 ..
 drwxrwxr-x 10 prithvi prithvi 4.0K Jul  4 14:11 Graphite-blue-Dark-compact-nord
 drwxrwxr-x  3 prithvi prithvi 4.0K Jul  4 14:11 Graphite-blue-Dark-compact-nord-hdpi
 drwxrwxr-x  3 prithvi prithvi 4.0K Jul  4 14:11 Graphite-blue-Dark-compact-nord-xhdpi
 
 /usr/share/icons/:
 total 228K
-drwxr-xr-x  53 root    root    4.0K Jul  2 10:14 .
+drwxr-xr-x  53 root    root    4.0K Jul  5 20:38 .
 drwxr-xr-x 291 root    root     12K Jun 30 16:06 ..
 drwxr-xr-x   6 root    root    4.0K Apr 15 18:18 Adwaita
 drwxr-xr-x   3 prithvi prithvi 4.0K Feb 19  2020 capitaine-cursors-light
@@ -63,10 +76,10 @@ drwxr-xr-x  31 root    root    4.0K Jul  2 05:45 hicolor
 drwxr-xr-x   9 root    root    4.0K Apr 15 18:17 HighContrast
 drwxr-xr-x   4 root    root    4.0K Apr 15 18:15 locolor
 drwxr-xr-x   3 root    root    4.0K Apr 15 18:17 redglass
-drwxr-xr-x   8 root    root    4.0K Jun 24 18:59 Tela-circle-dracula
-drwxr-xr-x   8 root    root    4.0K Jun 23 12:57 Tela-circle-nord
-drwxr-xr-x   6 root    root    4.0K Jun 23 12:57 Tela-circle-nord-dark
-drwxr-xr-x   5 root    root    4.0K Jun 23 12:57 Tela-circle-nord-light
+drwxr-xr-x  13 root    root    4.0K Jul  5 20:26 Reversal-blue
+drwxr-xr-x  10 root    root    4.0K Jul  5 20:26 Reversal-blue-dark
+drwxr-xr-x  13 root    root    4.0K Jul  5 20:26 Reversal-grey
+drwxr-xr-x  10 root    root    4.0K Jul  5 20:26 Reversal-grey-dark
 drwxr-xr-x   3 root    root    4.0K Apr 15 18:17 whiteglass
 drwxr-xr-x  13 root    root    4.0K May 16 22:04 WhiteSur
 drwxrwxr-x   4 prithvi prithvi 4.0K Jun 19 16:09 WhiteSur-cursors
