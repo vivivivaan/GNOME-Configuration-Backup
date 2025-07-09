@@ -10,8 +10,8 @@ drwxrwxr-x 2 root    root    4.0K Jun 11 18:52 sf-pro-display
 drwxr-xr-x 2 root    root    4.0K Apr 15 18:16 urw-base35
 
 /usr/share/fonts/truetype:
-total 120K
-drwxr-xr-x 24 root    root    4.0K Jul  5 19:57 .
+total 124K
+drwxr-xr-x 25 root    root    4.0K Jul  8 14:08 .
 drwxr-xr-x  8 root    root    4.0K Apr 15 18:16 ..
 drwxrwxr-x  2 root    root    4.0K Jan 31 14:39 Adwaita_Mono
 drwxrwxr-x  2 root    root    4.0K Jan 31 14:39 Adwaita_Sans
@@ -21,6 +21,7 @@ drwxrwxr-x  2 prithvi prithvi 4.0K May 17 08:18 DaddyTimeMono
 drwxr-xr-x  2 root    root    4.0K May 22 07:00 dejavu
 drwxr-xr-x  2 root    root    4.0K Apr 15 18:16 droid
 drwxr-xr-x  2 root    root    4.0K May 26 11:14 freefont
+drwxrwxr-x  2 prithvi prithvi 4.0K Jul  8 14:07 Imprima
 drwxrwxr-x  3 prithvi prithvi 4.0K May 17 08:11 Inter
 drwxrwxr-x  2 prithvi prithvi  12K May 16 16:11 JetBrainsMono
 drwxrwxr-x  2 prithvi prithvi 4.0K May 25 10:14 JuliaMono-ttf
