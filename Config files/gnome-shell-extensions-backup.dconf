@@ -167,7 +167,7 @@ position='Bottom'
 preview-scaling-factor=0.5
 preview-to-monitor-ratio=0.5
 randomize-animation-times=true
-switcher-background-color=(0.53725490196078429, 0.63921568627450975, 0.76078431372549016)
+switcher-background-color=(0.86274509803921573, 0.64313725490196083, 0.57647058823529407)
 switcher-looping-method='Carousel'
 switcher-style='Coverflow'
 tint-use-theme-color=true
@@ -338,7 +338,7 @@ panel=true
 panel-icon-size=0
 panel-in-overview=true
 panel-indicator-padding-size=0
-panel-size=23
+panel-size=22
 ripple-box=true
 search=true
 show-apps-button=true
@@ -347,7 +347,7 @@ support-notifier-showed-version=34
 support-notifier-type=0
 theme=false
 top-panel-position=0
-window-demands-attention-focus=false
+window-demands-attention-focus=true
 window-maximized-on-create=false
 window-picker-icon=true
 workspace=true
@@ -637,7 +637,7 @@ applications=['org.gnome.tweaks.desktop', 'com.mattjakeman.ExtensionManager.desk
 position=0
 
 [user-theme]
-name='Graphite-blue-Dark-compact-nord'
+name='Graphite-orange-Dark-compact-nord'
 
 [visualizer]
 visualizer-color='rgb(26,95,180)'

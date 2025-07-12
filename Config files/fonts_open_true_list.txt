@@ -1,17 +1,19 @@
 /usr/share/fonts/opentype/:
-total 32K
-drwxr-xr-x 8 root    root    4.0K Jun 11 19:23 .
-drwxr-xr-x 8 root    root    4.0K Apr 15 18:16 ..
-drwxrwxr-x 2 prithvi prithvi 4.0K Jun  5 10:27 CodeNewRoman
-drwxrwxr-x 2 prithvi prithvi 4.0K May 16 21:47 CommitMono
-drwxr-xr-x 2 root    root    4.0K Apr 15 18:16 noto
-drwxrwxr-x 2 prithvi prithvi 4.0K Jun 11 19:05 sf-mono
-drwxrwxr-x 2 root    root    4.0K Jun 11 18:52 sf-pro-display
-drwxr-xr-x 2 root    root    4.0K Apr 15 18:16 urw-base35
+total 40K
+drwxr-xr-x 10 root    root    4.0K Jul  9 15:29 .
+drwxr-xr-x  8 root    root    4.0K Apr 15 18:16 ..
+drwxrwxr-x  2 prithvi prithvi 4.0K Jun  5 10:27 CodeNewRoman
+drwxrwxr-x  2 prithvi prithvi 4.0K May 16 21:47 CommitMono
+drwxrwxr-x  2 root    root    4.0K Jul  8 13:58 helvetica-neue-5
+drwxrwxr-x  2 prithvi prithvi 4.0K Jul  9 15:22 JUST Sans OTF
+drwxr-xr-x  2 root    root    4.0K Apr 15 18:16 noto
+drwxrwxr-x  2 prithvi prithvi 4.0K Jun 11 19:05 sf-mono
+drwxrwxr-x  2 root    root    4.0K Jun 11 18:52 sf-pro-display
+drwxr-xr-x  2 root    root    4.0K Apr 15 18:16 urw-base35
 
 /usr/share/fonts/truetype:
 total 124K
-drwxr-xr-x 25 root    root    4.0K Jul  8 14:08 .
+drwxr-xr-x 25 root    root    4.0K Jul  9 15:27 .
 drwxr-xr-x  8 root    root    4.0K Apr 15 18:16 ..
 drwxrwxr-x  2 root    root    4.0K Jan 31 14:39 Adwaita_Mono
 drwxrwxr-x  2 root    root    4.0K Jan 31 14:39 Adwaita_Sans

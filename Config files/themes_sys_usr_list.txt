@@ -1,7 +1,7 @@
 /home/prithvi/.icons/:
 total 156K
-drwxr-xr-x 39 prithvi prithvi 4.0K Jul  5 20:38 .
-drwxr-x--- 45 prithvi prithvi 4.0K Jul  5 20:22 ..
+drwxr-xr-x 39 prithvi prithvi 4.0K Jul 11 16:04 .
+drwxr-x--- 45 prithvi prithvi 4.0K Jul 10 20:10 ..
 drwxrwxr-x  2 prithvi prithvi 4.0K Jul  2 10:14 Colloid-Dracula
 drwxrwxr-x 10 prithvi prithvi 4.0K Jul  2 10:14 Colloid-Dracula-Dark
 drwxrwxr-x 10 prithvi prithvi 4.0K Jul  2 10:14 Colloid-Dracula-Light
@@ -41,17 +41,20 @@ drwxr-xr-x  6 prithvi prithvi 4.0K Jul  5 20:38 Tela-circle-ubuntu-dark
 drwxr-xr-x  5 prithvi prithvi 4.0K Jul  5 20:38 Tela-circle-ubuntu-light
 
 /home/prithvi/.themes/:
-total 28K
-drwxrwxr-x  5 prithvi prithvi  12K Jul  7 13:10 .
-drwxr-x--- 45 prithvi prithvi 4.0K Jul  5 20:22 ..
+total 40K
+drwxrwxr-x  8 prithvi prithvi  12K Jul 11 09:14 .
+drwxr-x--- 45 prithvi prithvi 4.0K Jul 10 20:10 ..
 drwxrwxr-x 10 prithvi prithvi 4.0K Jul  7 13:10 Graphite-blue-Dark-compact-nord
 drwxrwxr-x  3 prithvi prithvi 4.0K Jul  7 13:10 Graphite-blue-Dark-compact-nord-hdpi
 drwxrwxr-x  3 prithvi prithvi 4.0K Jul  7 13:10 Graphite-blue-Dark-compact-nord-xhdpi
+drwxrwxr-x 10 prithvi prithvi 4.0K Jul 11 09:14 Graphite-orange-Dark-compact-nord
+drwxrwxr-x  3 prithvi prithvi 4.0K Jul 11 09:14 Graphite-orange-Dark-compact-nord-hdpi
+drwxrwxr-x  3 prithvi prithvi 4.0K Jul 11 09:14 Graphite-orange-Dark-compact-nord-xhdpi
 
 /usr/share/icons/:
-total 232K
-drwxr-xr-x  54 root    root    4.0K Jul  6 12:40 .
-drwxr-xr-x 290 root    root     12K Jul  6 12:31 ..
+total 316K
+drwxr-xr-x  75 root    root    4.0K Jul 11 15:30 .
+drwxr-xr-x 291 root    root     12K Jul  9 10:42 ..
 drwxr-xr-x   6 root    root    4.0K Apr 15 18:18 Adwaita
 drwxr-xr-x   3 prithvi prithvi 4.0K Feb 19  2020 capitaine-cursors
 drwxr-xr-x   3 prithvi prithvi 4.0K Feb 19  2020 capitaine-cursors-light
@@ -73,7 +76,7 @@ drwxr-xr-x   3 root    root    4.0K Apr 15 18:16 DMZ-White
 -rw-r--r--   1 root    root    3.7K Apr 28 09:05 gnome-logo-text-dark.svg
 -rw-r--r--   1 root    root    3.5K Apr 28 09:05 gnome-logo-text.svg
 drwxr-xr-x   3 root    root    4.0K Apr 15 18:17 handhelds
-drwxr-xr-x  31 root    root    4.0K Jul  8 18:12 hicolor
+drwxr-xr-x  31 root    root    4.0K Jul 10 09:07 hicolor
 drwxr-xr-x   9 root    root    4.0K Apr 15 18:17 HighContrast
 drwxr-xr-x   4 root    root    4.0K Apr 15 18:15 locolor
 drwxr-xr-x   3 root    root    4.0K Apr 15 18:17 redglass
@@ -81,6 +84,27 @@ drwxr-xr-x  13 root    root    4.0K Jul  5 20:26 Reversal-blue
 drwxr-xr-x  10 root    root    4.0K Jul  5 20:26 Reversal-blue-dark
 drwxr-xr-x  13 root    root    4.0K Jul  5 20:26 Reversal-grey
 drwxr-xr-x  10 root    root    4.0K Jul  5 20:26 Reversal-grey-dark
+drwxr-xr-x   8 root    root    4.0K Jul 11 09:17 Tela-circle-blue
+drwxr-xr-x   6 root    root    4.0K Jul 11 09:17 Tela-circle-blue-dark
+drwxr-xr-x   5 root    root    4.0K Jul 11 09:17 Tela-circle-blue-light
+drwxr-xr-x   8 root    root    4.0K Jul 11 09:17 Tela-circle-C2A7CE
+drwxr-xr-x   6 root    root    4.0K Jul 11 09:17 Tela-circle-C2A7CE-dark
+drwxr-xr-x   5 root    root    4.0K Jul 11 09:17 Tela-circle-C2A7CE-light
+drwxr-xr-x   8 root    root    4.0K Jul 11 09:17 Tela-circle-dracula
+drwxr-xr-x   6 root    root    4.0K Jul 11 09:17 Tela-circle-dracula-dark
+drwxr-xr-x   5 root    root    4.0K Jul 11 09:17 Tela-circle-dracula-light
+drwxr-xr-x   8 root    root    4.0K Jul 11 09:17 Tela-circle-E7D6E7
+drwxr-xr-x   6 root    root    4.0K Jul 11 09:17 Tela-circle-E7D6E7-dark
+drwxr-xr-x   5 root    root    4.0K Jul 11 09:17 Tela-circle-E7D6E7-light
+drwxr-xr-x   8 root    root    4.0K Jul 11 09:17 Tela-circle-grey
+drwxr-xr-x   6 root    root    4.0K Jul 11 09:17 Tela-circle-grey-dark
+drwxr-xr-x   5 root    root    4.0K Jul 11 09:17 Tela-circle-grey-light
+drwxr-xr-x   8 root    root    4.0K Jul 11 09:17 Tela-circle-nord
+drwxr-xr-x   6 root    root    4.0K Jul 11 09:17 Tela-circle-nord-dark
+drwxr-xr-x   5 root    root    4.0K Jul 11 09:17 Tela-circle-nord-light
+drwxr-xr-x   8 root    root    4.0K Jul 11 09:17 Tela-circle-ubuntu
+drwxr-xr-x   6 root    root    4.0K Jul 11 09:17 Tela-circle-ubuntu-dark
+drwxr-xr-x   5 root    root    4.0K Jul 11 09:17 Tela-circle-ubuntu-light
 drwxr-xr-x   3 root    root    4.0K Apr 15 18:17 whiteglass
 drwxr-xr-x  13 root    root    4.0K May 16 22:04 WhiteSur
 drwxrwxr-x   4 prithvi prithvi 4.0K Jul  6 12:39 WhiteSur-cursors
@@ -108,9 +132,9 @@ drwxr-xr-x  17 root    root    4.0K Apr 15 18:17 Yaru-yellow
 drwxr-xr-x   2 root    root    4.0K Apr 15 18:17 Yaru-yellow-dark
 
 /usr/share/themes/:
-total 160K
-drwxr-xr-x  36 root root  12K Jul  7 13:08 .
-drwxr-xr-x 290 root root  12K Jul  6 12:31 ..
+total 172K
+drwxr-xr-x  39 root root  12K Jul 11 09:13 .
+drwxr-xr-x 291 root root  12K Jul  9 10:42 ..
 drwxr-xr-x   4 root root 4.0K Apr 15 18:17 Adwaita
 drwxr-xr-x   4 root root 4.0K Apr 15 18:17 Adwaita-dark
 drwxr-xr-x   4 root root 4.0K Apr 15 18:17 Default
@@ -118,6 +142,9 @@ drwxr-xr-x   4 root root 4.0K Apr 15 18:17 Emacs
 drwxr-xr-x  10 root root 4.0K Jul  7 13:08 Graphite-blue-Dark-compact-nord
 drwxr-xr-x   3 root root 4.0K Jul  7 13:08 Graphite-blue-Dark-compact-nord-hdpi
 drwxr-xr-x   3 root root 4.0K Jul  7 13:08 Graphite-blue-Dark-compact-nord-xhdpi
+drwxr-xr-x  10 root root 4.0K Jul 11 09:13 Graphite-orange-Dark-compact-nord
+drwxr-xr-x   3 root root 4.0K Jul 11 09:13 Graphite-orange-Dark-compact-nord-hdpi
+drwxr-xr-x   3 root root 4.0K Jul 11 09:13 Graphite-orange-Dark-compact-nord-xhdpi
 drwxr-xr-x   4 root root 4.0K Apr 15 18:17 HighContrast
 drwxr-xr-x   2 root root 4.0K Jun 19 15:39 obsolete
 drwxr-xr-x   3 root root 4.0K Apr 15 18:17 Raleigh
