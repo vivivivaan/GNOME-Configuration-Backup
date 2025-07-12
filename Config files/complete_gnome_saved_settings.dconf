@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 [apps/seahorse]
 server-auto-publish=false
 
@@ -12,8 +10,8 @@ width=904
 
 [apps/update-manager]
 first-run=false
-launch-count=57
-launch-time=int64 1751994455
+launch-count=59
+launch-time=int64 1752134796
 show-details=true
 window-height=593
 window-width=983
@@ -262,8 +260,8 @@ name='Unnamed Folder'
 [org/gnome/desktop/background]
 color-shading-type='solid'
 picture-options='zoom'
-picture-uri='file:///home/prithvi/Wallpapers/dhilan-dhruv-patel-fvjEwDPDLVk-unsplash.jpg'
-picture-uri-dark='file:///home/prithvi/Wallpapers/dhilan-dhruv-patel-fvjEwDPDLVk-unsplash.jpg'
+picture-uri='file:///home/prithvi/Wallpapers/leonard-cotte-c1Jp-fo53U8-unsplash.jpg'
+picture-uri-dark='file:///home/prithvi/Wallpapers/leonard-cotte-c1Jp-fo53U8-unsplash.jpg'
 primary-color='#000000'
 secondary-color='#000000'
 
@@ -298,8 +296,8 @@ enable-hot-corners=true
 font-antialiasing='grayscale'
 font-hinting='slight'
 font-name='Imprima 9'
-gtk-theme='Graphite-blue-Dark-compact-nord'
-icon-theme='Tela-circle-blue'
+gtk-theme='Graphite-orange-Dark-compact-nord'
+icon-theme='Tela-circle-E7D6E7'
 locate-pointer=true
 monospace-font-name='SF Mono 9'
 overlay-scrolling=true
@@ -307,7 +305,7 @@ show-battery-percentage=true
 text-scaling-factor=1.0
 
 [org/gnome/desktop/notifications]
-application-children=['gnome-initial-setup', 'update-manager', 'org-gnome-tweaks', 'google-chrome', 'org-gnome-extensions', 'org-gnome-nautilus', 'app-zen-browser-zen', 'code-insiders', 'brave-browser', 'org-telegram-desktop-3e485da34fc040f9218e3891ecde1e6c', 'gnome-power-panel', 'gnome-wellbeing-panel', 'org-gnome-terminal-preferences', 'org-gnome-characters', 'spotify', 'org-gnome-shell-extensions', 'org-qbittorrent-qbittorrent', 'com-mattjakeman-extensionmanager', 'windscribe', 'jetbrains-pycharm-f3c2cc7c-77a9-4379-9519-8adb0dedc8fb', 'org-gnome-dejadup', 'org-gnome-settings', 'firefox', 'discord', 'org-gnome-clocks', 'snapd-desktop-integration-snapd-desktop-integration', 'org-gabmus-gfeeds', 'io-github-vikdevelop-savedesktop', 'chrome-peakjllbnheicdhajmgfgafpndpjigng-default', 'gnome-language-selector', 'gnome-printers-panel', 'hplip', 'chrome-hnpfjngllnobngcgfapefoaidbinmjnm-default']
+application-children=['gnome-initial-setup', 'update-manager', 'org-gnome-tweaks', 'google-chrome', 'org-gnome-extensions', 'org-gnome-nautilus', 'app-zen-browser-zen', 'code-insiders', 'brave-browser', 'org-telegram-desktop-3e485da34fc040f9218e3891ecde1e6c', 'gnome-power-panel', 'gnome-wellbeing-panel', 'org-gnome-terminal-preferences', 'org-gnome-characters', 'spotify', 'org-gnome-shell-extensions', 'org-qbittorrent-qbittorrent', 'com-mattjakeman-extensionmanager', 'windscribe', 'jetbrains-pycharm-f3c2cc7c-77a9-4379-9519-8adb0dedc8fb', 'org-gnome-dejadup', 'org-gnome-settings', 'firefox', 'discord', 'org-gnome-clocks', 'snapd-desktop-integration-snapd-desktop-integration', 'org-gabmus-gfeeds', 'io-github-vikdevelop-savedesktop', 'chrome-peakjllbnheicdhajmgfgafpndpjigng-default', 'gnome-language-selector', 'gnome-printers-panel', 'hplip', 'chrome-hnpfjngllnobngcgfapefoaidbinmjnm-default', 'zen']
 
 [org/gnome/desktop/notifications/application/app-zen-browser-zen]
 application-id='app.zen_browser.zen.desktop'
@@ -414,6 +412,9 @@ application-id='update-manager.desktop'
 [org/gnome/desktop/notifications/application/windscribe]
 application-id='windscribe.desktop'
 
+[org/gnome/desktop/notifications/application/zen]
+application-id='zen.desktop'
+
 [org/gnome/desktop/peripherals/keyboard]
 numlock-state=true
 
@@ -516,10 +517,10 @@ migrated=true
 
 [org/gnome/file-roller/listing]
 list-mode='as-folder'
-name-column-width=59
+name-column-width=353
 show-path=false
-sort-method='name'
-sort-type='ascending'
+sort-method='size'
+sort-type='descending'
 
 [org/gnome/file-roller/ui]
 sidebar-width=200
@@ -559,7 +560,7 @@ width=472
 
 [org/gnome/gnome-system-monitor]
 cpu-stacked-area-chart=false
-current-tab='resources'
+current-tab='disks'
 graph-update-interval=100
 maximized=false
 process-memory-in-iec=true
@@ -688,6 +689,7 @@ ignore-ca-cert=false
 ignore-phase2-ca-cert=false
 
 [org/gnome/papers]
+document-directory=@ms '/home/prithvi/Downloads'
 night-mode=false
 
 [org/gnome/papers/default]
@@ -698,11 +700,11 @@ dual-page-odd-left=true
 enable-spellchecking=true
 show-sidebar=true
 sidebar-page='links'
-sizing-mode='free'
+sizing-mode='automatic'
 window-height=862
 window-maximized=false
 window-width=1151
-zoom=0.47225273661911776
+zoom=0.69309843314063102
 
 [org/gnome/portal/filechooser/chrome-hnpfjngllnobngcgfapefoaidbinmjnm-Default]
 last-folder-path='/home/prithvi/Downloads'
@@ -725,6 +727,9 @@ last-folder-path='/home/prithvi/Wallpapers'
 [org/gnome/portal/filechooser/io.github.vikdevelop.SaveDesktop]
 last-folder-path='/home/prithvi/Documents/Ubuntu-GNOME-Configuration-Backup'
 
+[org/gnome/portal/filechooser/org.gnome.Papers]
+last-folder-path='/home/prithvi/Downloads'
+
 [org/gnome/portal/filechooser/org.gnome.TextEditor]
 last-folder-path='/home/prithvi/Documents/Resume-CV'
 
@@ -733,7 +738,7 @@ night-light-enabled=false
 night-light-schedule-automatic=false
 night-light-schedule-from=0.0
 night-light-schedule-to=0.0
-night-light-temperature=uint32 3032
+night-light-temperature=uint32 2904
 
 [org/gnome/settings-daemon/plugins/media-keys]
 control-center=['<Super>i']
@@ -753,7 +758,7 @@ command-history=['sudo apt-get update', 'gnome-terminal']
 disable-user-extensions=false
 disabled-extensions=['ding@rastersoft.com', 'fnlock-switch-tp-comp-usb-kb@goloshubov.github.io', 'dash-to-dock@micxgx.gmail.com', 'power-profile@fthx', 'hidetopbar@mathieu.bidon.ca', 'azwallpaper@azwallpaper.gitlab.com', 'dash-to-panel@jderose9.github.com']
 enabled-extensions=['tiling-assistant@ubuntu.com', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'apps-menu@gnome-shell-extensions.gcampax.github.com', 'gnomebedtime@ionutbortis.gmail.com', 'bluetooth-quick-connect@bjarosze.gmail.com', 'blur-my-shell@aunetx', 'clipboard-indicator@tudmotu.com', 'fq@megh', 'Hide_Activities@shay.shayel.org', 'just-perfection-desktop@just-perfection', 'notification-timeout@chlumskyvaclav.gmail.com', 'osd-volume-number@deminder', 'places-menu@gnome-shell-extensions.gcampax.github.com', 'power-profile-indicator@laux.wtf', 'quick-settings-tweaks@qwreey', 'drive-menu@gnome-shell-extensions.gcampax.github.com', 'screenshort-cut@pauloimon', 'show-desktop-button@amivaleo', 'sound-percentage@subashghimire.info.np', 'transparent-window-moving@noobsai.github.com', 'tweaks-system-menu@extensions.gnome-shell.fifi.org', 'Vitals@CoreCoding.com', 'weekend-o-meter@coffeverton.gmail.com', 'openmeteoweather@deezhizyu.github.io', 'currency-tracker@faymaz.github.com', 'status-icons@gnome-shell-extensions.gcampax.github.com', 'snowy@exposedcat', 'aztaskbar@aztaskbar.gitlab.com', 'weatherornot@somepaulo.github.io', 'advanced-weather@sanjai.com', 'weatheroclock@CleoMenezesJr.github.io', 'battery-time@eetumos.github.com', 'disconnect-wifi@kgshank.net', 'notification-position@drugo.dev', 'freon@UshakovVasilii_Github.yahoo.com', 'notification-banner-reloaded@marcinjakubowski.github.com', 'AlphabeticalAppGrid@stuarthayhurst', 'restartto@tiagoporsch.github.io', 'Bluetooth-Battery-Meter@maniacx.github.com', 'monitor@astraext.github.io', 'eepresetselector@ulville.github.io', 'CoverflowAltTab@palatis.blogspot.com', 'ubuntu-appindicators@ubuntu.com', 'custom-hot-corners-extended@G-dH.github.com', 'extension-list@tu.berry', 'tracker@aliakseiz.github.com', 'simple-timer@majortomvr.github.com', 'spotify-controls@Sonath21', 'notifications-alert-on-user-menu@hackedbellini.gmail.com', 'SettingsCenter@lauinger-clan.de', 'compact-quick-settings@gnome-shell-extensions.mariospr.org', 'dynamic-panel@velhlkj.com', 'reboottouefi@ubaygd.com', 'NotificationCounter@coolllsk', 'fullscreen-notifications@sorrow.about.alice.pm.me', 'timer@lbgracioso.net', 'thinkpad-red-led@juanmagd.dev', 'yks_timer@ysfsvm', 'rounded-window-corners@fxgn', 'quake-terminal@diegodario88.github.io', 'waylandorx11@injcristianrojas.github.com', 'flickernaut@imoize.github.io', 'huanghaohhoa@163.com', 'one-thing@github.com', 'quick-settings-audio-panel@rayzeq.github.io', 'media-progress@krypion17', 'trayIconsReloaded@selfmade.pl', 'vscode-workspaces@prometheontechnologies.com', 'cronomix@zagortenay333', 'ubuntu-dock@ubuntu.com', 'slinger@gfxmonk.net', 'quarterwindows@troyready.com', 'search-light@icedman.github.com', 'dim-background-windows@stephane-13.github.com', 'open-desktop-location@laura.media', 'CamPeek@gamalsherif1.github.io', 'task-widget@juozasmiskinis.gitlab.io', 'lockscreen-extension@pratap.fastmail.fm', 'transparent-inactive-windows@art-was-here.github.io', 'day-progress@arcaege.github.io', 'applications-overview-tooltip@RaphaelRochet']
-favorite-apps=['org.gnome.Characters.desktop', 'synaptic.desktop', 'org.gnome.Nautilus.desktop', 'start-tor-browser.desktop', 'brave-browser.desktop', 'google-chrome.desktop', 'org.gnome.TextEditor.desktop', 'org.gnome.Terminal.desktop', 'code.desktop', 'chrome-hnpfjngllnobngcgfapefoaidbinmjnm-Default.desktop', 'libreoffice-writer.desktop']
+favorite-apps=['org.gnome.Characters.desktop', 'synaptic.desktop', 'org.gnome.Nautilus.desktop', 'start-tor-browser.desktop', 'brave-browser.desktop', 'google-chrome.desktop', 'zen.desktop', 'org.gnome.TextEditor.desktop', 'org.gnome.Terminal.desktop', 'code.desktop', 'chrome-hnpfjngllnobngcgfapefoaidbinmjnm-Default.desktop', 'libreoffice-writer.desktop']
 last-selected-power-profile='power-saver'
 welcome-dialog-last-shown-version='46.0'
 
@@ -926,7 +931,7 @@ position='Bottom'
 preview-scaling-factor=0.5
 preview-to-monitor-ratio=0.5
 randomize-animation-times=true
-switcher-background-color=(0.53725490196078429, 0.63921568627450975, 0.76078431372549016)
+switcher-background-color=(0.86274509803921573, 0.64313725490196083, 0.57647058823529407)
 switcher-looping-method='Carousel'
 switcher-style='Coverflow'
 tint-use-theme-color=true
@@ -1106,7 +1111,7 @@ support-notifier-showed-version=34
 support-notifier-type=0
 theme=false
 top-panel-position=0
-window-demands-attention-focus=false
+window-demands-attention-focus=true
 window-maximized-on-create=false
 window-picker-icon=true
 workspace=true
@@ -1396,7 +1401,7 @@ applications=['org.gnome.tweaks.desktop', 'com.mattjakeman.ExtensionManager.desk
 position=0
 
 [org/gnome/shell/extensions/user-theme]
-name='Graphite-blue-Dark-compact-nord'
+name='Graphite-orange-Dark-compact-nord'
 
 [org/gnome/shell/extensions/visualizer]
 visualizer-color='rgb(26,95,180)'
@@ -1721,6 +1726,7 @@ use-transparent-background=true
 visible-name='Prithvi'
 
 [org/gnome/terminal/legacy/profiles:/:b5abdad7-2604-4cec-b21b-4f30da879ab5]
+audible-bell=true
 background-color='rgb(70,130,180)'
 background-transparency-percent=2
 bold-is-bright=true
@@ -1731,7 +1737,7 @@ default-size-rows=50
 font='Monaco 11'
 foreground-color='rgb(255,255,255)'
 login-shell=false
-palette=['rgb(23,20,33)', 'rgb(192,28,40)', 'rgb(38,162,105)', 'rgb(162,115,76)', 'rgb(18,72,139)', 'rgb(163,71,186)', 'rgb(42,161,179)', 'rgb(208,207,204)', 'rgb(94,92,100)', 'rgb(246,97,81)', 'rgb(51,209,122)', 'rgb(233,173,12)', 'rgb(42,123,222)', 'rgb(192,97,203)', 'rgb(51,199,222)', 'rgb(255,255,255)']
+palette=['rgb(7,54,66)', 'rgb(220,50,47)', 'rgb(133,153,0)', 'rgb(181,137,0)', 'rgb(38,139,210)', 'rgb(211,54,130)', 'rgb(42,161,152)', 'rgb(238,232,213)', 'rgb(0,43,54)', 'rgb(203,75,22)', 'rgb(88,110,117)', 'rgb(101,123,131)', 'rgb(131,148,150)', 'rgb(108,113,196)', 'rgb(147,161,161)', 'rgb(253,246,227)']
 scroll-on-output=true
 scrollback-lines=100000
 use-custom-command=false
@@ -1807,7 +1813,7 @@ use-theme-background=false
 
 [org/gtk/gtk4/settings/color-chooser]
 custom-colors=[(0.0, 0.0, 0.0, 0.25), (1.0, 1.0, 1.0, 0.0), (1.0, 0.0, 0.0, 1.0)]
-selected-color=(true, 0.0, 0.0, 0.0, 0.25)
+selected-color=(true, 0.87843137979507446, 0.10588235408067703, 0.14117647707462311, 1.0)
 
 [org/gtk/gtk4/settings/file-chooser]
 date-format='regular'
@@ -1822,8 +1828,8 @@ view-type='list'
 window-size=(815, 682)
 
 [org/gtk/settings/color-chooser]
-custom-colors=[(0.67450980392156867, 0.62745098039215685, 0.96862745098039216, 1.0), (0.56862745098039214, 0.56862745098039214, 0.56862745098039214, 1.0), (0.96078431372549022, 0.25882352941176473, 0.83921568627450982, 1.0), (0.67843137254901964, 0.45882352941176469, 0.95686274509803926, 1.0), (0.20392156862745098, 0.59607843137254901, 0.83921568627450982, 1.0), (0.18823529411764706, 0.62352941176470589, 0.65098039215686276, 1.0), (0.1803921568627451, 0.63529411764705879, 0.51372549019607838, 1.0), (0.33725490196078434, 0.63529411764705879, 0.16862745098039217, 1.0)]
-selected-color=(true, 0.20392156862745098, 0.59607843137254901, 0.83921568627450982, 1.0)
+custom-colors=[(0.56862745098039214, 0.56862745098039214, 0.56862745098039214, 1.0), (0.96078431372549022, 0.25882352941176473, 0.83921568627450982, 1.0), (0.67843137254901964, 0.45882352941176469, 0.95686274509803926, 1.0), (0.20392156862745098, 0.59607843137254901, 0.83921568627450982, 1.0), (0.18823529411764706, 0.62352941176470589, 0.65098039215686276, 1.0), (0.1803921568627451, 0.63529411764705879, 0.51372549019607838, 1.0), (0.33725490196078434, 0.63529411764705879, 0.16862745098039217, 1.0), (0.61176470588235299, 0.57647058823529407, 0.16862745098039217, 1.0)]
+selected-color=(true, 0.77647058823529413, 0.27450980392156865, 0.0, 1.0)
 
 [org/gtk/settings/file-chooser]
 clock-format='24h'
@@ -1856,4 +1862,3 @@ mode='auto'
 [system/proxy/socks]
 host='127.0.0.1'
 port=9052
->>>>>>> refs/remotes/origin/main
