@@ -249,6 +249,7 @@ show-favorites=true
 show-mounts=true
 show-mounts-network=false
 show-mounts-only-mounted=true
+show-trash=true
 show-windows-preview=true
 transparency-mode='DYNAMIC'
 workspace-agnostic-urgent-windows=true
@@ -564,6 +565,13 @@ window-effect=0
 
 [show-desktop-button]
 indicator-position='CENTER_RIGHT'
+
+[simple-weather]
+direction-unit='eight-point'
+is-activated=true
+main-location-index=int64 0
+show-suntime=true
+unit-preset='metric'
 
 [snowy]
 max-size=20
