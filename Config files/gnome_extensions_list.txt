@@ -35,3 +35,6 @@ fullscreen-notifications@sorrow.about.alice.pm.me
 tiling-assistant@ubuntu.com
 ubuntu-appindicators@ubuntu.com
 ubuntu-dock@ubuntu.com
+quick-settings-avatar@d-go
+quick-touchpad-toggle@kramo.hu
+night-light-slider-updated@vilsbeg.codeberg.org

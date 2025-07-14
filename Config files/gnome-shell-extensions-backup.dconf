@@ -11,6 +11,20 @@ color-80='#15c931'
 color-90='#15c931'
 swap-icon-text=false
 
+[IndicatorVisibilityTool]
+bluetooth-mode='default'
+camera-mode='default'
+location-mode='default'
+network-mode='default'
+night-light-mode='default'
+remote-access-mode='default'
+rfkill-mode='default'
+system-mode='default'
+thunderbolt-mode='default'
+unsafe-mode='default'
+volume-input-mode='default'
+volume-output-mode='default'
+
 [SettingsCenter]
 items='Gnome Config Editor;gconf-editor.desktop;1;gconf-editor|Gnome Tweaks;gnome-tweaks.desktop;1;gnome-tweaks|Desktop Config Editor;dconf-editor.desktop;1;dconf-editor|Extensions Preferences;org.gnome.Extensions.desktop;1;gnome-extensions-app|NVidia Settings;nvidia-settings.desktop;0;nvidia-settings|Passwords and Keys;seahorse.desktop;0;seahorse|PulseAudio;pavucontrol.desktop;0;pavucontrol|Session Properties;session-properties.desktop;0;gnome-session-properties'
 
@@ -524,6 +538,13 @@ move-input-volume-slider=false
 panel-type='merged-panel'
 remove-output-volume-slider=false
 version=2
+
+[quick-settings-avatar]
+avatar-nobackground=true
+avatar-position=1
+avatar-realname=false
+avatar-size=35
+avatar-username=false
 
 [quick-settings-tweaks]
 input-show-selected=false
