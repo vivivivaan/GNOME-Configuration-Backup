@@ -10,8 +10,8 @@ width=904
 
 [apps/update-manager]
 first-run=false
-launch-count=60
-launch-time=int64 1752352826
+launch-count=61
+launch-time=int64 1752475658
 show-details=true
 window-height=593
 window-width=983
@@ -60,7 +60,7 @@ bypass=false
 
 [com/mattjakeman/ExtensionManager]
 height=679
-is-maximized=false
+is-maximized=true
 sort-enabled-first=true
 width=675
 
@@ -166,7 +166,7 @@ panel-id='world'
 size=(728, 500)
 
 [org/gnome/control-center]
-last-panel='display'
+last-panel='background'
 window-state=(1104, 806, false)
 
 [org/gnome/deja-dup]
@@ -266,8 +266,8 @@ name='Unnamed Folder'
 [org/gnome/desktop/background]
 color-shading-type='solid'
 picture-options='zoom'
-picture-uri='file:///usr/share/backgrounds/Atlantic_wave_by_gulfie.png'
-picture-uri-dark='file:///usr/share/backgrounds/Atlantic_wave_by_gulfie.png'
+picture-uri='file:///usr/share/backgrounds/Northern_lights_by_matthieugo.png'
+picture-uri-dark='file:///usr/share/backgrounds/Northern_lights_by_matthieugo.png'
 primary-color='#000000'
 secondary-color='#000000'
 
@@ -448,7 +448,7 @@ daily-limit-seconds=uint32 36000
 [org/gnome/desktop/screensaver]
 color-shading-type='solid'
 picture-options='zoom'
-picture-uri='file:///usr/share/backgrounds/Atlantic_wave_by_gulfie.png'
+picture-uri='file:///usr/share/backgrounds/Northern_lights_by_matthieugo.png'
 primary-color='#000000'
 secondary-color='#000000'
 
@@ -569,7 +569,7 @@ width=472
 
 [org/gnome/gnome-system-monitor]
 cpu-stacked-area-chart=false
-current-tab='resources'
+current-tab='processes'
 graph-update-interval=100
 maximized=false
 process-memory-in-iec=true
@@ -626,7 +626,7 @@ default-zoom-level='small'
 use-tree-view=true
 
 [org/gnome/nautilus/preferences]
-default-folder-viewer='list-view'
+default-folder-viewer='icon-view'
 migrated-gtk-settings=true
 search-filter-time-type='last_modified'
 show-create-link=true
@@ -768,7 +768,7 @@ sleep-inactive-ac-timeout=1500
 sleep-inactive-ac-type='suspend'
 
 [org/gnome/shell]
-app-picker-layout=[{'6093395b-f0cf-41fa-aae2-4f7df761047c': <{'position': <0>}>, '625e7b1e-bf22-42ad-9256-17543e34fe17': <{'position': <1>}>, '6c9f89ad-9b8e-4517-a635-00544da8c9cd': <{'position': <2>}>, '300deb63-5040-49a5-b580-15e7efbb22cb': <{'position': <3>}>, '8bd07513-beb8-467b-8818-a4153670c714': <{'position': <4>}>, 'cc6d3b95-11db-44c6-81f2-f31a34e4e869': <{'position': <5>}>, 'snap-store_snap-store.desktop': <{'position': <6>}>, 'org.qbittorrent.qBittorrent.desktop': <{'position': <7>}>, 'org.telegram.desktop._3e485da34fc040f9218e3891ecde1e6c.desktop': <{'position': <8>}>, 'chrome-peakjllbnheicdhajmgfgafpndpjigng-Default.desktop': <{'position': <9>}>, 'spotify.desktop': <{'position': <10>}>, 'vlc.desktop': <{'position': <11>}>, 'windscribe.desktop': <{'position': <12>}>, 'org.gnome.clocks.desktop': <{'position': <13>}>, 'chrome-eigpmdhekjlgjgcppnanaanbdmnlnagl-Default.desktop': <{'position': <14>}>}]
+app-picker-layout=[{'6093395b-f0cf-41fa-aae2-4f7df761047c': <{'position': <0>}>, '625e7b1e-bf22-42ad-9256-17543e34fe17': <{'position': <1>}>, '6c9f89ad-9b8e-4517-a635-00544da8c9cd': <{'position': <2>}>, '300deb63-5040-49a5-b580-15e7efbb22cb': <{'position': <3>}>, '8bd07513-beb8-467b-8818-a4153670c714': <{'position': <4>}>, 'cc6d3b95-11db-44c6-81f2-f31a34e4e869': <{'position': <5>}>, 'snap-store_snap-store.desktop': <{'position': <6>}>, 'org.qbittorrent.qBittorrent.desktop': <{'position': <7>}>, 'org.telegram.desktop._3e485da34fc040f9218e3891ecde1e6c.desktop': <{'position': <8>}>, 'chrome-peakjllbnheicdhajmgfgafpndpjigng-Default.desktop': <{'position': <9>}>, 'spotify.desktop': <{'position': <10>}>, 'vlc.desktop': <{'position': <11>}>, 'windscribe.desktop': <{'position': <12>}>, 'org.gnome.clocks.desktop': <{'position': <13>}>, 'org.gnome.Weather.desktop': <{'position': <14>}>, 'chromium_chromium.desktop': <{'position': <15>}>}]
 command-history=['sudo apt-get update', 'gnome-terminal']
 disable-user-extensions=false
 disabled-extensions=['ding@rastersoft.com', 'fnlock-switch-tp-comp-usb-kb@goloshubov.github.io', 'dash-to-dock@micxgx.gmail.com', 'power-profile@fthx', 'hidetopbar@mathieu.bidon.ca', 'azwallpaper@azwallpaper.gitlab.com', 'dash-to-panel@jderose9.github.com']
