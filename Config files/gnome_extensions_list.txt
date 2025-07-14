@@ -30,11 +30,10 @@ CamPeek@gamalsherif1.github.io
 waylandorx11@injcristianrojas.github.com
 notification-banner-reloaded@marcinjakubowski.github.com
 one-thing@github.com
+quick-touchpad-toggle@kramo.hu
+night-light-slider-updated@vilsbeg.codeberg.org
 reboottouefi@ubaygd.com
 fullscreen-notifications@sorrow.about.alice.pm.me
 tiling-assistant@ubuntu.com
 ubuntu-appindicators@ubuntu.com
 ubuntu-dock@ubuntu.com
-quick-settings-avatar@d-go
-quick-touchpad-toggle@kramo.hu
-night-light-slider-updated@vilsbeg.codeberg.org
