@@ -673,7 +673,7 @@ visualizer-color='rgb(26,95,180)'
 
 [vitals]
 fixed-widths=true
-hot-sensors=['_temperature_acpi_thermal zone_', '_system_uptime_']
+hot-sensors=['__temperature_avg__', '_system_uptime_']
 icon-style=1
 menu-centered=false
 position-in-panel=3
