@@ -35,3 +35,96 @@
 
 For GRUB configuration, install the GRUB theme but comment out the `GRUB_BACKGROUND` flag to avoid any graphical glitches.
 
+# Important search terms for NVIDIA driver and Linux Kernel packages
+`linux-generic`, `linux-headers-generic`, `linux-image-generic`, `linux-objects or linux-objects-nvidia`, `linux-modules`, `linux-header`, `linux-signatures or linux-signatures-nvidia`
+
+## Common dependencies after a fresh install
+`gcc g++ git curl btop btm build-essential apt-transport-https wget ca-certificates zip unzip tree locate gnupg2 gpg binfmt-support clang clangd llvm`
+
+# Python Dependencies
+`liblzma-dev lzma-dev liblz-dev zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev libsqlite3-dev libbz2-dev`
+
+# Ubuntu bash aliases
+```bash
+# Package Management aliases.
+alias udg="sudo apt-get update && sudo apt-get upgrade && sudo apt-get dist-upgrade"
+alias ud="sudo apt-get update"
+alias ug="sudo apt-get upgrade"
+alias dg="sudo apt-get dist-upgrade"
+alias cache="sudo apt-get clean"
+alias get="sudo apt-get install"
+alias yget="sudo apt-get install -y"
+alias sget="sudo apt-get install --install-suggests"
+alias syget="sudo apt-get install --install-suggests -y"
+alias del="sudo apt-get remove"
+alias fdel="sudo apt-get remove --purge --autoremove"
+alias arem="sudo apt-get autoremove"
+alias search="apt-cache search"
+alias di="sudo dpkg -i"
+alias bi="sudo apt-get --fix-broken install"
+alias alt="sudo update-alternatives --config "
+alias lssrc="ls /etc/apt/sources.list.d"
+alias cdsrc="cd /etc/apt/sources.list.d"
+alias srcs="sudo nano /etc/apt/sources.list.d/ubuntu.sources"
+alias csrc="sudo cat /etc/apt/sources.list.d/ubuntu.sources"
+
+# Systemctl aliases.
+alias ver="cat /etc/debian_version"
+alias off="sudo systemctl poweroff"
+alias boot="sudo systemctl reboot"
+alias sus="sudo systemctl suspend"
+alias hib="sudo systemctl hibernate"
+alias sstop="sudo systemctl stop"
+alias srun="sudo systemctl start"
+alias sstat="sudo systemctl status"
+alias srest="sudo systemctl restart"
+alias son="sudo systemctl enable"
+alias soff="sudo systemctl disable"
+
+# Python aliases.
+alias python3=python
+alias pip3=pip
+
+# Bash Config Aliases.
+alias brc="nano ~/.bashrc"
+alias barc="nano ~/.bash_aliases"
+alias carc="cat ~/.bash_aliases"
+alias pro="nano ~/.profile"
+# Make Hist file values in brc to -1 for unlimited history.
+alias past="nano ~/.bash_history"
+alias q="exit"
+
+# Misc aliases.
+alias kver="uname -a"
+alias sv="sudo visudo"
+alias pd="passwd"
+alias spd="sudo passwd"
+alias shf="ls -ld .?*"
+alias size1="du -h -s"
+alias size2="du -h -s .*"
+
+# Basic Aliases
+alias cls="clear"
+alias wi="whereis"
+alias wh="which"
+alias shell="exec $SHELL -l"
+alias rem="sudo rm -rf"
+alias sun="sudo nano"
+
+# GRUB
+alias ngrub="sudo nano /etc/default/grub"
+alias ugrub="sudo update-grub"
+alias cgrub="cat /etc/default/grub"
+
+# Customisations
+alias cdf="cd /usr/share/fonts"
+alias cdft="cd /usr/share/fonts/truetype/"
+alias lsft="ls /usr/share/fonts/truetype/"
+alias cdfo="cd /usr/share/fonts/opentype/"
+alias lsfo="ls /usr/share/fonts/opentype/"
+alias fcache="sudo fc-cache -f -r -s"
+alias cdthm="cd /usr/share/themes"
+alias cdico="cd /usr/share/icons"
+alias lsthm="ls /usr/share/themes"
+alias lsico="ls /usr/share/icons"
+```
