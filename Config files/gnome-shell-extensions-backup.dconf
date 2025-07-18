@@ -230,6 +230,7 @@ apply-custom-theme=false
 autohide-in-fullscreen=true
 background-color='rgb(255,255,255)'
 background-opacity=0.0
+click-action='minimize-or-overview'
 custom-background-color=false
 custom-theme-shrink=false
 customize-alphas=false
@@ -549,9 +550,13 @@ avatar-username=false
 [quick-settings-tweaks]
 input-show-selected=false
 list-buttons='[{"name":"SystemItem","title":null,"visible":true},{"name":"OutputStreamSlider","title":null,"visible":true},{"name":"InputStreamSlider","title":null,"visible":false},{"name":"St_BoxLayout","title":null,"visible":true},{"name":"BrightnessItem","title":null,"visible":true},{"name":"NMWiredToggle","title":null,"visible":false},{"name":"NMWirelessToggle","title":"Wi-Fi","visible":true},{"name":"NMModemToggle","title":null,"visible":false},{"name":"NMBluetoothToggle","title":null,"visible":false},{"name":"NMVpnToggle","title":null,"visible":false},{"name":"BluetoothToggle","title":"Bluetooth","visible":true},{"name":"PowerProfilesToggle","title":"Power Mode","visible":true},{"name":"NightLightToggle","title":"Night Light","visible":true},{"name":"DarkModeToggle","title":"Dark Style","visible":true},{"name":"KeyboardBrightnessToggle","title":"Keyboard","visible":true},{"name":"RfkillToggle","title":"Aeroplane Mode","visible":true},{"name":"RotationToggle","title":"Auto Rotate","visible":false},{"name":"DndQuickToggle","title":"Do Not Disturb","visible":true},{"name":"BackgroundAppsToggle","title":"No Background Apps","visible":false},{"name":"MediaSection","title":null,"visible":false},{"name":"Notifications","title":null,"visible":false}]'
+media-contorl-opacity=180
+media-progress-height=0
 notifications-max-height=220
 output-show-selected=false
 overlay-menu-enabled=false
+system-indicator-privacy-indicator-style='default'
+system-indicator-screen-sharing-indicator-use-accent=false
 volume-mixer-position='top'
 volume-mixer-show-description=true
 volume-mixer-show-icon=true
@@ -646,6 +651,12 @@ tiling-popup-all-workspace=true
 toggle-always-on-top=@as []
 toggle-tiling-popup=@as []
 
+[tilingshell]
+last-version-name-installed='16.4'
+layouts-json='[{"id":"Layout 1","tiles":[{"x":0,"y":0,"width":0.22,"height":0.5,"groups":[1,2]},{"x":0,"y":0.5,"width":0.22,"height":0.5,"groups":[1,2]},{"x":0.22,"y":0,"width":0.56,"height":1,"groups":[2,3]},{"x":0.78,"y":0,"width":0.22,"height":0.5,"groups":[3,4]},{"x":0.78,"y":0.5,"width":0.22,"height":0.5,"groups":[3,4]}]},{"id":"Layout 2","tiles":[{"x":0,"y":0,"width":0.22,"height":1,"groups":[1]},{"x":0.22,"y":0,"width":0.56,"height":1,"groups":[1,2]},{"x":0.78,"y":0,"width":0.22,"height":1,"groups":[2]}]},{"id":"Layout 3","tiles":[{"x":0,"y":0,"width":0.33,"height":1,"groups":[1]},{"x":0.33,"y":0,"width":0.67,"height":1,"groups":[1]}]},{"id":"Layout 4","tiles":[{"x":0,"y":0,"width":0.67,"height":1,"groups":[1]},{"x":0.67,"y":0,"width":0.33,"height":1,"groups":[1]}]}]'
+overridden-settings='{}'
+selected-layouts=[['Layout 3'], ['Layout 3']]
+
 [tracker]
 timers=['{"id":"settings","totalTimeSelected":true}']
 
@@ -673,7 +684,7 @@ visualizer-color='rgb(26,95,180)'
 
 [vitals]
 fixed-widths=true
-hot-sensors=['__temperature_avg__', '_system_uptime_']
+hot-sensors=['_system_uptime_', '__temperature_avg__']
 icon-style=1
 menu-centered=false
 position-in-panel=3

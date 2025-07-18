@@ -21,14 +21,12 @@ bluetooth-quick-connect@bjarosze.gmail.com
 osd-volume-number@deminder
 sound-percentage@subashghimire.info.np
 show-desktop-button@amivaleo
+quick-settings-tweaks@qwreey
 rounded-window-corners@fxgn
 open-desktop-location@laura.media
-media-progress@krypion17
-CoverflowAltTab@palatis.blogspot.com
 applications-overview-tooltip@RaphaelRochet
 CamPeek@gamalsherif1.github.io
 waylandorx11@injcristianrojas.github.com
-notification-banner-reloaded@marcinjakubowski.github.com
 one-thing@github.com
 night-light-slider-updated@vilsbeg.codeberg.org
 reboottouefi@ubaygd.com
