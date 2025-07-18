@@ -1,77 +1,34 @@
 /home/prithvi/.icons/:
-total 156K
-drwxr-xr-x 39 prithvi prithvi 4.0K Jul 11 16:04 .
+total 44K
+drwxr-xr-x 11 prithvi prithvi 4.0K Jul 18 22:27 .
 drwxr-x--- 42 prithvi prithvi 4.0K Jul 18 21:35 ..
-drwxrwxr-x  2 prithvi prithvi 4.0K Jul  2 10:14 Colloid-Dracula
-drwxrwxr-x 10 prithvi prithvi 4.0K Jul  2 10:14 Colloid-Dracula-Dark
-drwxrwxr-x 10 prithvi prithvi 4.0K Jul  2 10:14 Colloid-Dracula-Light
-drwxrwxr-x  2 prithvi prithvi 4.0K Jul  2 10:14 Colloid-Grey-Dracula
-drwxrwxr-x 10 prithvi prithvi 4.0K Jul  2 10:14 Colloid-Grey-Dracula-Dark
-drwxrwxr-x 10 prithvi prithvi 4.0K Jul  2 10:14 Colloid-Grey-Dracula-Light
-drwxrwxr-x  2 prithvi prithvi 4.0K Jul  2 10:14 Colloid-Grey-Nord
-drwxrwxr-x 10 prithvi prithvi 4.0K Jul  2 10:14 Colloid-Grey-Nord-Dark
-drwxrwxr-x 10 prithvi prithvi 4.0K Jul  2 10:14 Colloid-Grey-Nord-Light
-drwxrwxr-x  2 prithvi prithvi 4.0K Jul  2 10:14 Colloid-Nord
-drwxrwxr-x 10 prithvi prithvi 4.0K Jul  2 10:14 Colloid-Nord-Dark
-drwxrwxr-x 10 prithvi prithvi 4.0K Jul  2 10:14 Colloid-Nord-Light
-drwxrwxr-x 13 prithvi prithvi 4.0K Jul  5 20:26 Reversal-blue
-drwxrwxr-x 10 prithvi prithvi 4.0K Jul  5 20:26 Reversal-blue-dark
-drwxrwxr-x 13 prithvi prithvi 4.0K Jul  5 20:26 Reversal-grey
-drwxrwxr-x 10 prithvi prithvi 4.0K Jul  5 20:26 Reversal-grey-dark
-drwxr-xr-x  8 prithvi prithvi 4.0K Jul  5 20:38 Tela-circle-blue
-drwxr-xr-x  6 prithvi prithvi 4.0K Jul  5 20:38 Tela-circle-blue-dark
-drwxr-xr-x  5 prithvi prithvi 4.0K Jul  5 20:38 Tela-circle-blue-light
-drwxr-xr-x  8 prithvi prithvi 4.0K Jul  5 20:38 Tela-circle-C2A7CE
-drwxr-xr-x  6 prithvi prithvi 4.0K Jul  5 20:38 Tela-circle-C2A7CE-dark
-drwxr-xr-x  5 prithvi prithvi 4.0K Jul  5 20:38 Tela-circle-C2A7CE-light
-drwxr-xr-x  8 prithvi prithvi 4.0K Jul  5 20:38 Tela-circle-dracula
-drwxr-xr-x  6 prithvi prithvi 4.0K Jul  5 20:38 Tela-circle-dracula-dark
-drwxr-xr-x  5 prithvi prithvi 4.0K Jul  5 20:38 Tela-circle-dracula-light
-drwxr-xr-x  8 prithvi prithvi 4.0K Jul  5 20:38 Tela-circle-E7D6E7
-drwxr-xr-x  6 prithvi prithvi 4.0K Jul  5 20:38 Tela-circle-E7D6E7-dark
-drwxr-xr-x  5 prithvi prithvi 4.0K Jul  5 20:38 Tela-circle-E7D6E7-light
-drwxr-xr-x  8 prithvi prithvi 4.0K Jul  5 20:38 Tela-circle-grey
-drwxr-xr-x  6 prithvi prithvi 4.0K Jul  5 20:38 Tela-circle-grey-dark
-drwxr-xr-x  5 prithvi prithvi 4.0K Jul  5 20:38 Tela-circle-grey-light
-drwxr-xr-x  8 prithvi prithvi 4.0K Jul  5 20:38 Tela-circle-nord
-drwxr-xr-x  6 prithvi prithvi 4.0K Jul  5 20:38 Tela-circle-nord-dark
-drwxr-xr-x  5 prithvi prithvi 4.0K Jul  5 20:38 Tela-circle-nord-light
-drwxr-xr-x  8 prithvi prithvi 4.0K Jul  5 20:38 Tela-circle-ubuntu
-drwxr-xr-x  6 prithvi prithvi 4.0K Jul  5 20:38 Tela-circle-ubuntu-dark
-drwxr-xr-x  5 prithvi prithvi 4.0K Jul  5 20:38 Tela-circle-ubuntu-light
+drwxr-xr-x  8 prithvi prithvi 4.0K Jul 18 22:27 Tela-circle-4a0a8a
+drwxr-xr-x  6 prithvi prithvi 4.0K Jul 18 22:27 Tela-circle-4a0a8a-dark
+drwxr-xr-x  5 prithvi prithvi 4.0K Jul 18 22:27 Tela-circle-4a0a8a-light
+drwxr-xr-x  8 prithvi prithvi 4.0K Jul 18 22:27 Tela-circle-8F87F1
+drwxr-xr-x  6 prithvi prithvi 4.0K Jul 18 22:27 Tela-circle-8F87F1-dark
+drwxr-xr-x  5 prithvi prithvi 4.0K Jul 18 22:27 Tela-circle-8F87F1-light
+drwxr-xr-x  8 prithvi prithvi 4.0K Jul 18 22:27 Tela-circle-B33791
+drwxr-xr-x  6 prithvi prithvi 4.0K Jul 18 22:27 Tela-circle-B33791-dark
+drwxr-xr-x  5 prithvi prithvi 4.0K Jul 18 22:27 Tela-circle-B33791-light
 
 /home/prithvi/.themes/:
-total 40K
-drwxrwxr-x  8 prithvi prithvi  12K Jul 11 09:14 .
+total 28K
+drwxrwxr-x  5 prithvi prithvi  12K Jul 18 22:01 .
 drwxr-x--- 42 prithvi prithvi 4.0K Jul 18 21:35 ..
-drwxrwxr-x 10 prithvi prithvi 4.0K Jul  7 13:10 Graphite-blue-Dark-compact-nord
-drwxrwxr-x  3 prithvi prithvi 4.0K Jul  7 13:10 Graphite-blue-Dark-compact-nord-hdpi
-drwxrwxr-x  3 prithvi prithvi 4.0K Jul  7 13:10 Graphite-blue-Dark-compact-nord-xhdpi
-drwxrwxr-x 10 prithvi prithvi 4.0K Jul 11 09:14 Graphite-orange-Dark-compact-nord
-drwxrwxr-x  3 prithvi prithvi 4.0K Jul 11 09:14 Graphite-orange-Dark-compact-nord-hdpi
-drwxrwxr-x  3 prithvi prithvi 4.0K Jul 11 09:14 Graphite-orange-Dark-compact-nord-xhdpi
+drwxrwxr-x 10 prithvi prithvi 4.0K Jul 18 22:01 Graphite-purple-Dark-compact-nord
+drwxrwxr-x  3 prithvi prithvi 4.0K Jul 18 22:01 Graphite-purple-Dark-compact-nord-hdpi
+drwxrwxr-x  3 prithvi prithvi 4.0K Jul 18 22:01 Graphite-purple-Dark-compact-nord-xhdpi
 
 /usr/share/icons/:
-total 324K
-drwxr-xr-x  75 root    root    4.0K Jul 17 12:53 .
+total 212K
+drwxr-xr-x  47 root    root    4.0K Jul 18 22:27 .
 drwxr-xr-x 299 root    root     12K Jul 17 14:05 ..
 drwxr-xr-x   6 root    root    4.0K Apr 15 18:18 Adwaita
 -rw-r--r--   1 root    root    1.2K Mar 31  2024 cab_extract.png
 -rw-r--r--   1 root    root     529 Mar 31  2024 cab_view.png
 drwxr-xr-x   3 prithvi prithvi 4.0K Feb 19  2020 capitaine-cursors
 drwxr-xr-x   3 prithvi prithvi 4.0K Feb 19  2020 capitaine-cursors-light
-drwxr-xr-x   2 root    root    4.0K Jul  2 10:14 Colloid-Dracula
-drwxr-xr-x  10 root    root    4.0K Jul  2 10:14 Colloid-Dracula-Dark
-drwxr-xr-x  10 root    root    4.0K Jul  2 10:14 Colloid-Dracula-Light
-drwxr-xr-x   2 root    root    4.0K Jul  2 10:14 Colloid-Grey-Dracula
-drwxr-xr-x  10 root    root    4.0K Jul  2 10:14 Colloid-Grey-Dracula-Dark
-drwxr-xr-x  10 root    root    4.0K Jul  2 10:14 Colloid-Grey-Dracula-Light
-drwxr-xr-x   2 root    root    4.0K Jul  2 10:14 Colloid-Grey-Nord
-drwxr-xr-x  10 root    root    4.0K Jul  2 10:14 Colloid-Grey-Nord-Dark
-drwxr-xr-x  10 root    root    4.0K Jul  2 10:14 Colloid-Grey-Nord-Light
-drwxr-xr-x   2 root    root    4.0K Jul  2 10:14 Colloid-Nord
-drwxr-xr-x  10 root    root    4.0K Jul  2 10:14 Colloid-Nord-Dark
-drwxr-xr-x  10 root    root    4.0K Jul  2 10:14 Colloid-Nord-Light
 drwxr-xr-x   2 root    root    4.0K Apr 15 18:17 default
 drwxr-xr-x   3 root    root    4.0K Apr 15 18:16 DMZ-Black
 drwxr-xr-x   3 root    root    4.0K Apr 15 18:16 DMZ-White
@@ -82,31 +39,15 @@ drwxr-xr-x  31 root    root    4.0K Jul 17 12:59 hicolor
 drwxr-xr-x   9 root    root    4.0K Apr 15 18:17 HighContrast
 drwxr-xr-x   4 root    root    4.0K Apr 15 18:15 locolor
 drwxr-xr-x   3 root    root    4.0K Apr 15 18:17 redglass
-drwxr-xr-x  13 root    root    4.0K Jul  5 20:26 Reversal-blue
-drwxr-xr-x  10 root    root    4.0K Jul  5 20:26 Reversal-blue-dark
-drwxr-xr-x  13 root    root    4.0K Jul  5 20:26 Reversal-grey
-drwxr-xr-x  10 root    root    4.0K Jul  5 20:26 Reversal-grey-dark
-drwxr-xr-x   8 root    root    4.0K Jul 11 09:17 Tela-circle-blue
-drwxr-xr-x   6 root    root    4.0K Jul 11 09:17 Tela-circle-blue-dark
-drwxr-xr-x   5 root    root    4.0K Jul 11 09:17 Tela-circle-blue-light
-drwxr-xr-x   8 root    root    4.0K Jul 11 09:17 Tela-circle-C2A7CE
-drwxr-xr-x   6 root    root    4.0K Jul 11 09:17 Tela-circle-C2A7CE-dark
-drwxr-xr-x   5 root    root    4.0K Jul 11 09:17 Tela-circle-C2A7CE-light
-drwxr-xr-x   8 root    root    4.0K Jul 11 09:17 Tela-circle-dracula
-drwxr-xr-x   6 root    root    4.0K Jul 11 09:17 Tela-circle-dracula-dark
-drwxr-xr-x   5 root    root    4.0K Jul 11 09:17 Tela-circle-dracula-light
-drwxr-xr-x   8 root    root    4.0K Jul 11 09:17 Tela-circle-E7D6E7
-drwxr-xr-x   6 root    root    4.0K Jul 11 09:17 Tela-circle-E7D6E7-dark
-drwxr-xr-x   5 root    root    4.0K Jul 11 09:17 Tela-circle-E7D6E7-light
-drwxr-xr-x   8 root    root    4.0K Jul 11 09:17 Tela-circle-grey
-drwxr-xr-x   6 root    root    4.0K Jul 11 09:17 Tela-circle-grey-dark
-drwxr-xr-x   5 root    root    4.0K Jul 11 09:17 Tela-circle-grey-light
-drwxr-xr-x   8 root    root    4.0K Jul 11 09:17 Tela-circle-nord
-drwxr-xr-x   6 root    root    4.0K Jul 11 09:17 Tela-circle-nord-dark
-drwxr-xr-x   5 root    root    4.0K Jul 11 09:17 Tela-circle-nord-light
-drwxr-xr-x   8 root    root    4.0K Jul 11 09:17 Tela-circle-ubuntu
-drwxr-xr-x   6 root    root    4.0K Jul 11 09:17 Tela-circle-ubuntu-dark
-drwxr-xr-x   5 root    root    4.0K Jul 11 09:17 Tela-circle-ubuntu-light
+drwxr-xr-x   8 root    root    4.0K Jul 18 22:26 Tela-circle-4a0a8a
+drwxr-xr-x   6 root    root    4.0K Jul 18 22:26 Tela-circle-4a0a8a-dark
+drwxr-xr-x   5 root    root    4.0K Jul 18 22:26 Tela-circle-4a0a8a-light
+drwxr-xr-x   8 root    root    4.0K Jul 18 22:26 Tela-circle-8F87F1
+drwxr-xr-x   6 root    root    4.0K Jul 18 22:27 Tela-circle-8F87F1-dark
+drwxr-xr-x   5 root    root    4.0K Jul 18 22:27 Tela-circle-8F87F1-light
+drwxr-xr-x   8 root    root    4.0K Jul 18 22:26 Tela-circle-B33791
+drwxr-xr-x   6 root    root    4.0K Jul 18 22:26 Tela-circle-B33791-dark
+drwxr-xr-x   5 root    root    4.0K Jul 18 22:26 Tela-circle-B33791-light
 drwxr-xr-x   3 root    root    4.0K Apr 15 18:17 whiteglass
 drwxr-xr-x  13 root    root    4.0K May 16 22:04 WhiteSur
 drwxrwxr-x   4 prithvi prithvi 4.0K Jul  6 12:39 WhiteSur-cursors
@@ -134,19 +75,16 @@ drwxr-xr-x  17 root    root    4.0K Apr 15 18:17 Yaru-yellow
 drwxr-xr-x   2 root    root    4.0K Apr 15 18:17 Yaru-yellow-dark
 
 /usr/share/themes/:
-total 172K
-drwxr-xr-x  39 root root  12K Jul 11 09:13 .
+total 160K
+drwxr-xr-x  36 root root  12K Jul 18 22:01 .
 drwxr-xr-x 299 root root  12K Jul 17 14:05 ..
 drwxr-xr-x   4 root root 4.0K Apr 15 18:17 Adwaita
 drwxr-xr-x   4 root root 4.0K Apr 15 18:17 Adwaita-dark
 drwxr-xr-x   4 root root 4.0K Apr 15 18:17 Default
 drwxr-xr-x   4 root root 4.0K Apr 15 18:17 Emacs
-drwxr-xr-x  10 root root 4.0K Jul  7 13:08 Graphite-blue-Dark-compact-nord
-drwxr-xr-x   3 root root 4.0K Jul  7 13:08 Graphite-blue-Dark-compact-nord-hdpi
-drwxr-xr-x   3 root root 4.0K Jul  7 13:08 Graphite-blue-Dark-compact-nord-xhdpi
-drwxr-xr-x  10 root root 4.0K Jul 11 09:13 Graphite-orange-Dark-compact-nord
-drwxr-xr-x   3 root root 4.0K Jul 11 09:13 Graphite-orange-Dark-compact-nord-hdpi
-drwxr-xr-x   3 root root 4.0K Jul 11 09:13 Graphite-orange-Dark-compact-nord-xhdpi
+drwxr-xr-x  10 root root 4.0K Jul 18 22:01 Graphite-purple-Dark-compact-nord
+drwxr-xr-x   3 root root 4.0K Jul 18 22:01 Graphite-purple-Dark-compact-nord-hdpi
+drwxr-xr-x   3 root root 4.0K Jul 18 22:01 Graphite-purple-Dark-compact-nord-xhdpi
 drwxr-xr-x   4 root root 4.0K Apr 15 18:17 HighContrast
 drwxr-xr-x   2 root root 4.0K Jun 19 15:39 obsolete
 drwxr-xr-x   3 root root 4.0K Apr 15 18:17 Raleigh

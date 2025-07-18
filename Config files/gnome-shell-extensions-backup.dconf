@@ -677,14 +677,14 @@ applications=['org.gnome.tweaks.desktop', 'com.mattjakeman.ExtensionManager.desk
 position=0
 
 [user-theme]
-name='Graphite-orange-Dark-compact-nord'
+name='Graphite-purple-Dark-compact-nord'
 
 [visualizer]
 visualizer-color='rgb(26,95,180)'
 
 [vitals]
 fixed-widths=true
-hot-sensors=['_system_uptime_', '__temperature_avg__']
+hot-sensors=['__temperature_avg__', '_system_uptime_']
 icon-style=1
 menu-centered=false
 position-in-panel=3
