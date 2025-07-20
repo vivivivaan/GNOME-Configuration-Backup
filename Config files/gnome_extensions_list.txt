@@ -16,6 +16,7 @@ custom-hot-corners-extended@G-dH.github.com
 fq@megh
 just-perfection-desktop@just-perfection
 dim-background-windows@stephane-13.github.com
+notification-timeout@chlumskyvaclav.gmail.com
 bluetooth-quick-connect@bjarosze.gmail.com
 osd-volume-number@deminder
 sound-percentage@subashghimire.info.np
@@ -23,6 +24,7 @@ show-desktop-button@amivaleo
 quick-settings-tweaks@qwreey
 rounded-window-corners@fxgn
 open-desktop-location@laura.media
+notification-banner-reloaded@marcinjakubowski.github.com
 one-thing@github.com
 reboottouefi@ubaygd.com
 fullscreen-notifications@sorrow.about.alice.pm.me

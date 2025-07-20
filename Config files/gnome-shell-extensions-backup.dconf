@@ -380,6 +380,11 @@ anchor-vertical=1
 animation-direction=1
 animation-time=100
 
+[notification-configurator]
+enable-fullscreen=true
+notification-threshold=3000
+notification-timeout=3000
+
 [notification-timeout]
 timeout=3000
 
@@ -560,6 +565,9 @@ system-indicator-screen-sharing-indicator-use-accent=false
 volume-mixer-position='top'
 volume-mixer-show-description=true
 volume-mixer-show-icon=true
+weather-compact=true
+weather-max-forecasts=5
+weather-show-location=true
 
 [restartto]
 blacklist=['USB HDD', 'PXE BOOT', 'LENOVO CLOUD', 'ON-PREMISE', 'Other HDD', 'IDER BOOT CDROM', 'IDER BOOT Floppy', 'ATA HDD', 'ATAPI CD', 'Linux-Firmware-Updater', 'Ubuntu', 'UEFI']

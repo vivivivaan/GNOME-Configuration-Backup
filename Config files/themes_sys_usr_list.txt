@@ -1,7 +1,7 @@
 /home/prithvi/.icons/:
 total 44K
 drwxr-xr-x 11 prithvi prithvi 4.0K Jul 18 22:27 .
-drwxr-x--- 42 prithvi prithvi 4.0K Jul 18 21:35 ..
+drwxr-x--- 42 prithvi prithvi 4.0K Jul 19 08:52 ..
 drwxr-xr-x  8 prithvi prithvi 4.0K Jul 18 22:27 Tela-circle-4a0a8a
 drwxr-xr-x  6 prithvi prithvi 4.0K Jul 18 22:27 Tela-circle-4a0a8a-dark
 drwxr-xr-x  5 prithvi prithvi 4.0K Jul 18 22:27 Tela-circle-4a0a8a-light
@@ -15,7 +15,7 @@ drwxr-xr-x  5 prithvi prithvi 4.0K Jul 18 22:27 Tela-circle-B33791-light
 /home/prithvi/.themes/:
 total 28K
 drwxrwxr-x  5 prithvi prithvi  12K Jul 18 22:01 .
-drwxr-x--- 42 prithvi prithvi 4.0K Jul 18 21:35 ..
+drwxr-x--- 42 prithvi prithvi 4.0K Jul 19 08:52 ..
 drwxrwxr-x 10 prithvi prithvi 4.0K Jul 18 22:01 Graphite-purple-Dark-compact-nord
 drwxrwxr-x  3 prithvi prithvi 4.0K Jul 18 22:01 Graphite-purple-Dark-compact-nord-hdpi
 drwxrwxr-x  3 prithvi prithvi 4.0K Jul 18 22:01 Graphite-purple-Dark-compact-nord-xhdpi
@@ -23,7 +23,7 @@ drwxrwxr-x  3 prithvi prithvi 4.0K Jul 18 22:01 Graphite-purple-Dark-compact-nor
 /usr/share/icons/:
 total 212K
 drwxr-xr-x  47 root    root    4.0K Jul 18 22:27 .
-drwxr-xr-x 299 root    root     12K Jul 17 14:05 ..
+drwxr-xr-x 300 root    root     12K Jul 19 08:58 ..
 drwxr-xr-x   6 root    root    4.0K Apr 15 18:18 Adwaita
 -rw-r--r--   1 root    root    1.2K Mar 31  2024 cab_extract.png
 -rw-r--r--   1 root    root     529 Mar 31  2024 cab_view.png
@@ -35,7 +35,7 @@ drwxr-xr-x   3 root    root    4.0K Apr 15 18:16 DMZ-White
 -rw-r--r--   1 root    root    3.7K Apr 28 09:05 gnome-logo-text-dark.svg
 -rw-r--r--   1 root    root    3.5K Apr 28 09:05 gnome-logo-text.svg
 drwxr-xr-x   3 root    root    4.0K Apr 15 18:17 handhelds
-drwxr-xr-x  31 root    root    4.0K Jul 17 12:59 hicolor
+drwxr-xr-x  31 root    root    4.0K Jul 19 08:58 hicolor
 drwxr-xr-x   9 root    root    4.0K Apr 15 18:17 HighContrast
 drwxr-xr-x   4 root    root    4.0K Apr 15 18:15 locolor
 drwxr-xr-x   3 root    root    4.0K Apr 15 18:17 redglass
@@ -77,7 +77,7 @@ drwxr-xr-x   2 root    root    4.0K Apr 15 18:17 Yaru-yellow-dark
 /usr/share/themes/:
 total 160K
 drwxr-xr-x  36 root root  12K Jul 18 22:01 .
-drwxr-xr-x 299 root root  12K Jul 17 14:05 ..
+drwxr-xr-x 300 root root  12K Jul 19 08:58 ..
 drwxr-xr-x   4 root root 4.0K Apr 15 18:17 Adwaita
 drwxr-xr-x   4 root root 4.0K Apr 15 18:17 Adwaita-dark
 drwxr-xr-x   4 root root 4.0K Apr 15 18:17 Default
