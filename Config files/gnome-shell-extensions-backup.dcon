@@ -149,7 +149,7 @@ force-light-text=true
 override-background=true
 pipeline='pipeline_default_rounded'
 sigma=75
-static-blur=false
+static-blur=true
 style-panel=0
 
 [blur-my-shell/screenshot]
