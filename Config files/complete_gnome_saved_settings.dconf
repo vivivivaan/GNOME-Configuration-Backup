@@ -177,7 +177,7 @@ panel-id='world'
 size=(728, 500)
 
 [org/gnome/control-center]
-last-panel='background'
+last-panel='wifi'
 window-state=(1104, 806, false)
 
 [org/gnome/deja-dup]
@@ -277,8 +277,8 @@ name='Unnamed Folder'
 [org/gnome/desktop/background]
 color-shading-type='solid'
 picture-options='zoom'
-picture-uri='file:///usr/share/backgrounds/Atlantic_wave_by_gulfie.png'
-picture-uri-dark='file:///usr/share/backgrounds/Atlantic_wave_by_gulfie.png'
+picture-uri='file:///home/prithvi/Wallpapers/neom-yUcH008GS6A-unsplash.jpg'
+picture-uri-dark='file:///home/prithvi/Wallpapers/neom-yUcH008GS6A-unsplash.jpg'
 primary-color='#000000'
 secondary-color='#000000'
 
@@ -307,16 +307,16 @@ clock-show-weekday=true
 color-scheme='prefer-dark'
 cursor-blink-time=1005
 cursor-theme='WhiteSur-cursors'
-document-font-name='Adwaita Sans 8.5'
+document-font-name='Adwaita Sans 9'
 enable-animations=true
 enable-hot-corners=true
 font-antialiasing='grayscale'
 font-hinting='slight'
-font-name='Adwaita Sans 8.5'
+font-name='Imprima 9'
 gtk-theme='Graphite-purple-Dark-compact-nord'
 icon-theme='Tela-circle-8F87F1-dark'
 locate-pointer=true
-monospace-font-name='Adwaita Mono 8.5'
+monospace-font-name='SF Mono 9'
 overlay-scrolling=true
 show-battery-percentage=true
 text-scaling-factor=1.0
@@ -664,7 +664,7 @@ show-delete-permanently=true
 [org/gnome/nautilus/window-state]
 initial-size=(1409, 834)
 initial-size-file-chooser=(1323, 776)
-maximized=true
+maximized=false
 
 [org/gnome/nm-applet/eap/1aaa4f14-d909-4749-9d3b-75e9bf3c070c]
 ignore-ca-cert=false
@@ -738,11 +738,11 @@ dual-page-odd-left=true
 enable-spellchecking=true
 show-sidebar=true
 sidebar-page='links'
-sizing-mode='automatic'
+sizing-mode='free'
 window-height=901
-window-maximized=false
+window-maximized=true
 window-width=1314
-zoom=0.62080857822516511
+zoom=0.54780102771874961
 
 [org/gnome/portal/filechooser/chrome-hnpfjngllnobngcgfapefoaidbinmjnm-Default]
 last-folder-path='/media/prithvi/C4A7-53C0/S9+ Data/s9+/Pictures/PicsArt'
@@ -1158,8 +1158,8 @@ animation=4
 clock-menu-position=0
 clock-menu-position-offset=0
 dash-icon-size=0
-invert-calendar-column-items=false
-max-displayed-search-results=10
+invert-calendar-column-items=true
+max-displayed-search-results=12
 notification-banner-position=1
 osd-position=8
 panel=true
