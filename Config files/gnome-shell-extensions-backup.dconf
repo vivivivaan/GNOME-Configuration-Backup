@@ -124,12 +124,13 @@ enable-all=true
 opacity=234
 
 [blur-my-shell/coverflow-alt-tab]
-blur=false
-pipeline='pipeline_default_rounded'
+blur=true
+pipeline='pipeline_default'
 
 [blur-my-shell/dash-to-dock]
 blur=true
 brightness=0.0
+override-background=true
 pipeline='pipeline_default_rounded'
 sigma=0
 static-blur=false
@@ -230,14 +231,17 @@ ctrl=true
 always-center-icons=false
 animation-time=0.15000000000000002
 apply-custom-theme=false
+apply-glossy-effect=false
 autohide-in-fullscreen=true
 background-color='rgb(255,255,255)'
 background-opacity=0.0
 click-action='minimize-or-overview'
 custom-background-color=false
+custom-theme-running-dots-border-color='rgb(255,255,255)'
+custom-theme-running-dots-color='rgb(255,255,255)'
 custom-theme-shrink=false
 customize-alphas=false
-dash-max-icon-size=38
+dash-max-icon-size=36
 disable-overview-on-startup=true
 dock-fixed=false
 dock-position='BOTTOM'
@@ -257,7 +261,8 @@ preferred-monitor-by-connector='eDP-1'
 pressure-threshold=100.0
 preview-size-scale=0.0
 require-pressure-to-show=true
-running-indicator-style='DOTS'
+running-indicator-dominant-color=false
+running-indicator-style='DASHES'
 scroll-action='cycle-windows'
 shift-click-action='minimize'
 shift-middle-click-action='launch'
@@ -270,6 +275,7 @@ show-mounts-only-mounted=true
 show-trash=true
 show-windows-preview=true
 transparency-mode='DYNAMIC'
+unity-backlit-items=false
 workspace-agnostic-urgent-windows=true
 
 [dash-to-panel]
@@ -599,6 +605,7 @@ blacklist=['USB HDD', 'PXE BOOT', 'LENOVO CLOUD', 'ON-PREMISE', 'Other HDD', 'ID
 
 [rounded-window-corners-reborn]
 enable-preferences-entry=false
+global-rounded-corner-settings={'padding': <{'left': uint32 1, 'right': 1, 'top': 1, 'bottom': 1}>, 'keepRoundedCorners': <{'maximized': false, 'fullscreen': false}>, 'borderRadius': <uint32 12>, 'smoothing': <0.0>, 'borderColor': <(0.5, 0.5, 0.5, 1.0)>, 'enabled': <true>}
 settings-version=uint32 7
 skip-libadwaita-app=true
 
