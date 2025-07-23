@@ -1444,6 +1444,7 @@ libsmbclient0:amd64				install
 libsnapd-glib-2-1:amd64				install
 libsnappy1v5:amd64				install
 libsndfile1:amd64				install
+libsndio7.0:amd64				install
 libsnmp-base					install
 libsnmp40t64:amd64				install
 libsocket6-perl					install
@@ -1623,9 +1624,12 @@ libwagon-file-java				install
 libwagon-http-java				install
 libwagon-provider-api-java			install
 libwavpack1:amd64				install
+libwayland-client++1:amd64			install
 libwayland-client0:amd64			install
 libwayland-client0:i386				install
+libwayland-cursor++1:amd64			install
 libwayland-cursor0:amd64			install
+libwayland-egl++1:amd64				install
 libwayland-egl1:amd64				install
 libwayland-server0:amd64			install
 libwayland-server0:i386				install
@@ -1791,6 +1795,7 @@ linux-modules-iwlwifi-6.14.0-26-generic		install
 linux-modules-iwlwifi-generic			install
 linux-modules-iwlwifi-generic-6.14		install
 linux-modules-nvidia-575-server-6.14.0-24-generic	install
+linux-modules-nvidia-575-server-generic		install
 linux-objects-nvidia-575-server-6.14.0-24-generic	install
 linux-perf					install
 linux-signatures-nvidia-6.14.0-24-generic	install
@@ -1828,6 +1833,8 @@ media-types					install
 memtest86+					install
 mesa-libgallium:amd64				install
 mesa-libgallium:i386				install
+mesa-utils					install
+mesa-utils-bin:amd64				install
 mesa-vdpau-drivers:amd64			install
 mesa-vulkan-drivers:amd64			install
 microcode-initrd				install

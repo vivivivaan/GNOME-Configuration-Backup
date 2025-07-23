@@ -125,8 +125,8 @@ hidetopbar@mathieu.bidon.ca
   Path: /home/prithvi/.local/share/gnome-shell/extensions/hidetopbar@mathieu.bidon.ca
   URL: https://gitlab.gnome.org/tuxor1337/hidetopbar
   Version: 120
-  Enabled: No
-  State: INACTIVE
+  Enabled: Yes
+  State: ACTIVE
 
 gnomebedtime@ionutbortis.gmail.com
   Name: Bedtime Mode

@@ -12,13 +12,15 @@ drwxrwxr-x  2 prithvi prithvi 4.0K Jul  8 13:58 sofia-pro
 drwxr-xr-x  2 root    root    4.0K Apr 15 18:16 urw-base35
 
 /usr/share/fonts/truetype:
-total 124K
-drwxr-xr-x 25 root    root    4.0K Jul 20 14:07 .
+total 152K
+drwxr-xr-x 32 root    root    4.0K Jul 23 15:18 .
 drwxr-xr-x  8 root    root    4.0K Apr 15 18:16 ..
 drwxrwxr-x  2 root    root    4.0K Jan 31 14:39 Adwaita_Mono
 drwxrwxr-x  2 root    root    4.0K Jan 31 14:39 Adwaita_Sans
+drwxrwxr-x  2 root    root    4.0K Jul 23 14:19 Amaranth
 drwxrwxr-x  2 prithvi prithvi 4.0K Jun 19 04:58 arial
 drwxrwxr-x  3 prithvi prithvi 4.0K Jul  5 19:56 Arimo
+drwxrwxr-x  3 root    root    4.0K Jul 23 14:19 Cabin
 drwxrwxr-x  2 prithvi prithvi 4.0K May 17 08:18 DaddyTimeMono
 drwxr-xr-x  2 root    root    4.0K May 22 07:00 dejavu
 drwxr-xr-x  2 root    root    4.0K Apr 15 18:16 droid
@@ -26,15 +28,20 @@ drwxrwxr-x  2 prithvi prithvi 4.0K Jul  8 14:07 Imprima
 drwxrwxr-x  3 prithvi prithvi 4.0K May 17 08:11 Inter
 drwxrwxr-x  2 prithvi prithvi  12K May 16 16:11 JetBrainsMono
 drwxrwxr-x  2 prithvi prithvi 4.0K May 25 10:14 JuliaMono-ttf
+drwxrwxr-x  2 root    root    4.0K Jul 23 14:19 Lato
 drwxr-xr-x  2 root    root    4.0K Apr 15 18:16 liberation
 drwxr-xr-x  2 root    root    4.0K Jun 27 22:52 libreoffice
+drwxrwxr-x  2 root    root    4.0K Jul 23 14:19 Livvic
 drwxr-xr-x  2 root    root    4.0K Jul 16 11:38 lyx
 drwxrwxr-x  2 prithvi prithvi 4.0K May 25 10:14 menlo
 drwxrwxr-x  2 prithvi prithvi 4.0K May 25 10:29 monaco
+drwxrwxr-x  2 root    root    4.0K Jul 23 14:19 Mooli
 drwxr-xr-x  2 root    root    4.0K Jul 17 12:54 msttcorefonts
 drwxrwxr-x  2 prithvi prithvi 4.0K May 17 08:11 NerdFontsSymbolsOnly
 drwxr-xr-x  2 root    root     20K Apr 15 18:16 noto
 drwxrwxr-x  3 prithvi prithvi 4.0K May 17 08:11 Roboto
 drwxrwxr-x  2 root    root    4.0K May 17 08:08 RobotoMono
+drwxrwxr-x  2 prithvi prithvi 4.0K May 16  2024 Segoe
+drwxrwxr-x  2 root    root    4.0K Jul 23 14:19 Shanti
 drwxrwxr-x  3 prithvi prithvi 4.0K May 17 07:56 Spline_Sans_Mono
 drwxr-xr-x  2 root    root    4.0K Apr 15 18:16 ubuntu
