@@ -125,8 +125,8 @@ hidetopbar@mathieu.bidon.ca
   Path: /home/prithvi/.local/share/gnome-shell/extensions/hidetopbar@mathieu.bidon.ca
   URL: https://gitlab.gnome.org/tuxor1337/hidetopbar
   Version: 120
-  Enabled: Yes
-  State: ACTIVE
+  Enabled: No
+  State: INITIALIZED
 
 gnomebedtime@ionutbortis.gmail.com
   Name: Bedtime Mode
@@ -245,6 +245,15 @@ show-desktop-button@amivaleo
   Path: /home/prithvi/.local/share/gnome-shell/extensions/show-desktop-button@amivaleo
   URL: https://github.com/amivaleo/Show-Desktop-Button
   Version: 46
+  Enabled: Yes
+  State: ACTIVE
+
+ufw-status-indicator@bittokazi.com
+  Name: UFW Status Indicator
+  Description: Shows UFW status in system indicator. If gufw is installed then clicking on status icon also opens it
+  Path: /home/prithvi/.local/share/gnome-shell/extensions/ufw-status-indicator@bittokazi.com
+  URL: https://github.com/bittokazi/ufw-status-indicator
+  Version: 2
   Enabled: Yes
   State: ACTIVE
 

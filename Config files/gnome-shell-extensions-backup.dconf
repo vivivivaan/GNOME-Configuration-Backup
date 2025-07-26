@@ -48,7 +48,7 @@ experimental-features='[]'
 gpu-data='[{"domain":"0000:01","bus":"00","slot":"0","vendorId":"10de","productId":"25b8","monitor":true}]'
 gpu-header-show=false
 gpu-indicators-order='["icon","activity bar","activity graph","activity percentage","memory bar","memory graph","memory percentage","memory value"]'
-gpu-main='""'
+gpu-main='{"domain":"0000:00","bus":"02","slot":"0","vendorId":"8086","productId":"9a60"}'
 headers-height=0
 headers-height-override=0
 memory-header-show=true
@@ -133,7 +133,7 @@ brightness=0.0
 override-background=true
 pipeline='pipeline_default_rounded'
 sigma=0
-static-blur=false
+static-blur=true
 style-dash-to-dock=0
 
 [blur-my-shell/lockscreen]
@@ -334,6 +334,11 @@ button-icon=uint32 0
 ext-app='com.mattjakeman.ExtensionManager.desktop'
 extension-appid='com.mattjakeman.ExtensionManager.desktop'
 filter-button=true
+
+[floating-mini-panel]
+aligned=false
+pos-x=0
+pos-y=0
 
 [freon]
 panel-box-index=0
@@ -717,7 +722,7 @@ applications=['org.gnome.tweaks.desktop', 'com.mattjakeman.ExtensionManager.desk
 position=0
 
 [user-theme]
-name='Graphite-purple-Dark-compact-nord'
+name='Graphite-yellow-Light-compact-nord'
 
 [visualizer]
 visualizer-color='rgb(26,95,180)'

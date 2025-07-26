@@ -12,8 +12,8 @@ drwxrwxr-x  2 prithvi prithvi 4.0K Jul  8 13:58 sofia-pro
 drwxr-xr-x  2 root    root    4.0K Apr 15 18:16 urw-base35
 
 /usr/share/fonts/truetype:
-total 152K
-drwxr-xr-x 32 root    root    4.0K Jul 23 15:18 .
+total 148K
+drwxr-xr-x 31 root    root    4.0K Jul 24 12:53 .
 drwxr-xr-x  8 root    root    4.0K Apr 15 18:16 ..
 drwxrwxr-x  2 root    root    4.0K Jan 31 14:39 Adwaita_Mono
 drwxrwxr-x  2 root    root    4.0K Jan 31 14:39 Adwaita_Sans
@@ -41,7 +41,6 @@ drwxrwxr-x  2 prithvi prithvi 4.0K May 17 08:11 NerdFontsSymbolsOnly
 drwxr-xr-x  2 root    root     20K Apr 15 18:16 noto
 drwxrwxr-x  3 prithvi prithvi 4.0K May 17 08:11 Roboto
 drwxrwxr-x  2 root    root    4.0K May 17 08:08 RobotoMono
-drwxrwxr-x  2 prithvi prithvi 4.0K May 16  2024 Segoe
 drwxrwxr-x  2 root    root    4.0K Jul 23 14:19 Shanti
 drwxrwxr-x  3 prithvi prithvi 4.0K May 17 07:56 Spline_Sans_Mono
 drwxr-xr-x  2 root    root    4.0K Apr 15 18:16 ubuntu
