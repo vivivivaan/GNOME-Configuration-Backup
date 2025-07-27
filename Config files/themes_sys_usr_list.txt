@@ -14,7 +14,7 @@ drwxrwxr-x  3 prithvi prithvi 4.0K Jul 25 12:17 Graphite-yellow-Light-compact-no
 /usr/share/icons/:
 total 188K
 drwxr-xr-x  41 root    root    4.0K Jul 25 12:39 .
-drwxr-xr-x 301 root    root     12K Jul 23 12:57 ..
+drwxr-xr-x 302 root    root     12K Jul 26 08:21 ..
 drwxr-xr-x   6 root    root    4.0K Apr 15 18:18 Adwaita
 -rw-r--r--   1 root    root    1.2K Mar 31  2024 cab_extract.png
 -rw-r--r--   1 root    root     529 Mar 31  2024 cab_view.png
@@ -62,7 +62,7 @@ drwxr-xr-x   2 root    root    4.0K Apr 15 18:17 Yaru-yellow-dark
 /usr/share/themes/:
 total 160K
 drwxr-xr-x  36 root root  12K Jul 25 12:17 .
-drwxr-xr-x 301 root root  12K Jul 23 12:57 ..
+drwxr-xr-x 302 root root  12K Jul 26 08:21 ..
 drwxr-xr-x   4 root root 4.0K Apr 15 18:17 Adwaita
 drwxr-xr-x   4 root root 4.0K Apr 15 18:17 Adwaita-dark
 drwxr-xr-x   4 root root 4.0K Apr 15 18:17 Default

@@ -161,8 +161,8 @@ brightness=0.59999999999999998
 sigma=30
 
 [clipboard-indicator]
-cache-size=100
-history-size=250
+cache-size=120
+history-size=300
 keep-selected-on-clear=true
 move-item-first=true
 notify-on-copy=true
@@ -609,10 +609,11 @@ weather-show-location=true
 blacklist=['USB HDD', 'PXE BOOT', 'LENOVO CLOUD', 'ON-PREMISE', 'Other HDD', 'IDER BOOT CDROM', 'IDER BOOT Floppy', 'ATA HDD', 'ATAPI CD', 'Linux-Firmware-Updater', 'Ubuntu', 'UEFI']
 
 [rounded-window-corners-reborn]
-enable-preferences-entry=false
-global-rounded-corner-settings={'padding': <{'left': uint32 1, 'right': 1, 'top': 1, 'bottom': 1}>, 'keepRoundedCorners': <{'maximized': false, 'fullscreen': false}>, 'borderRadius': <uint32 12>, 'smoothing': <0.0>, 'borderColor': <(0.5, 0.5, 0.5, 1.0)>, 'enabled': <true>}
+enable-preferences-entry=true
+global-rounded-corner-settings={'padding': <{'left': uint32 1, 'right': 1, 'top': 1, 'bottom': 1}>, 'keepRoundedCorners': <{'maximized': true, 'fullscreen': true}>, 'borderRadius': <uint32 15>, 'smoothing': <0.10000000000000001>, 'borderColor': <(0.5, 0.5, 0.5, 1.0)>, 'enabled': <true>}
 settings-version=uint32 7
-skip-libadwaita-app=true
+skip-libadwaita-app=false
+tweak-kitty-terminal=true
 
 [runcat]
 displaying-items='character-and-percentage'

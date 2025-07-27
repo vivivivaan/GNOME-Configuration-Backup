@@ -1,3 +1,4 @@
+aardvark-dns					install
 accountsservice					install
 acl						install
 adduser						install
@@ -61,6 +62,7 @@ btm						install
 btop						install
 bubblewrap					install
 build-essential					install
+buildah						install
 busybox-initramfs				install
 busybox-static					install
 bzip2						install
@@ -68,6 +70,7 @@ bzip2-doc					install
 ca-certificates					install
 ca-certificates-java				install
 cabextract					install
+catatonit					install
 cloud-guest-utils				install
 cloud-init					install
 cloud-init-base					install
@@ -75,9 +78,11 @@ code						install
 colord						install
 colord-data					install
 command-not-found				install
+conmon						install
 console-setup					install
 console-setup-linux				install
-containerd.io					install
+containernetworking-plugins			install
+containers-storage				install
 coreutils					install
 cpdb-backend-cups				install
 cpio						install
@@ -87,8 +92,10 @@ cpp-14-x86-64-linux-gnu				install
 cpp-x86-64-linux-gnu				install
 cracklib-runtime				install
 crash						install
+criu						install
 cron						install
 cron-daemon-common				install
+crun						install
 cups						install
 cups-browsed					install
 cups-bsd					install
@@ -134,11 +141,6 @@ dmz-cursor-theme				install
 dns-root-data					install
 dnsmasq-base					install
 docbook-xml					install
-docker-buildx-plugin				install
-docker-ce					install
-docker-ce-cli					install
-docker-ce-rootless-extras			install
-docker-compose-plugin				install
 dosfstools					install
 dpkg						install
 dpkg-dev					install
@@ -187,6 +189,7 @@ foomatic-db-compressed-ppds			install
 fprintd						install
 friendly-recovery				install
 ftp						install
+fuse-overlayfs					install
 fuse3						install
 fwupd						install
 fwupd-signed					install
@@ -327,6 +330,8 @@ gnupg						install
 gnupg-l10n					install
 gnupg-utils					install
 gnupg2						install
+golang-github-containers-common			install
+golang-github-containers-image			install
 google-chrome-stable				install
 gparted						install
 gparted-common					install
@@ -615,6 +620,7 @@ libcommons-io-java				install
 libcommons-lang3-java				install
 libcommons-logging-java				install
 libcommons-parent-java				install
+libcompel1:amd64				install
 libconfig-tiny-perl				install
 libconst-fast-perl				install
 libcpanel-json-xs-perl:amd64			install
@@ -622,6 +628,7 @@ libcpdb-frontend2t64:amd64			install
 libcpdb2t64:amd64				install
 libcpuinfo0:amd64				install
 libcrack2:amd64					install
+libcriu2:amd64					install
 libcrypt-dev:amd64				install
 libcrypt1:amd64					install
 libcryptsetup12:amd64				install
@@ -1127,6 +1134,7 @@ libnet-ipv6addr-perl				install
 libnet-netmask-perl				install
 libnet-smtp-ssl-perl				install
 libnet-ssleay-perl:amd64			install
+libnet1:amd64					install
 libnetaddr-ip-perl				install
 libnetfilter-conntrack3:amd64			install
 libnetplan1:amd64				install
@@ -1496,6 +1504,7 @@ libsub-identify-perl				install
 libsub-install-perl				install
 libsub-name-perl:amd64				install
 libsub-quote-perl				install
+libsubid5:amd64					install
 libsuitesparseconfig7:amd64			install
 libsvtav1enc2:amd64				install
 libswresample5:amd64				install
@@ -1858,6 +1867,7 @@ nautilus-sendto					install
 ncurses-base					install
 ncurses-bin					install
 net-tools					install
+netavark					install
 netbase						install
 netcat-openbsd					install
 netplan-generator				install
@@ -1899,6 +1909,7 @@ packagekit-tools				install
 papers						install
 papers-common					install
 parted						install
+passt						install
 passwd						install
 patch						install
 patchutils					install
@@ -1909,7 +1920,6 @@ perl						install
 perl-base					install
 perl-modules-5.40				install
 perl-openssl-defaults:amd64			install
-pigz						install
 pinentry-curses					install
 pinentry-gnome3					install
 pipewire:amd64					install
@@ -1927,6 +1937,7 @@ plymouth-theme-ubuntu-text			install
 plymouth-themes					install
 pnp.ids						install
 pocketsphinx-en-us				install
+podman						install
 policykit-desktop-privileges			install
 polkitd						install
 poppler-data					install
@@ -2041,8 +2052,10 @@ python3-pkg-resources				install
 python3-platformdirs				install
 python3-pooch					install
 python3-problem-report				install
+python3-protobuf				install
 python3-psutil					install
 python3-ptyprocess				install
+python3-pycriu					install
 python3-pygments				install
 python3-pyparsing				install
 python3-referencing				install
@@ -2208,6 +2221,7 @@ ucf						install
 udev						install
 udisks2						install
 ufw						install
+uidmap						install
 unattended-upgrades				install
 unicode-data					install
 uno-libs-private				install

@@ -332,6 +332,15 @@ one-thing@github.com
   Enabled: Yes
   State: ACTIVE
 
+right-click-next@derVedro
+  Name: Right Click Next
+  Description: Move windows to the next workspace by right-clicking them in the overview.
+  Path: /home/prithvi/.local/share/gnome-shell/extensions/right-click-next@derVedro
+  URL: https://github.com/derVedro/gnome-right-click-next
+  Version: 3
+  Enabled: Yes
+  State: ACTIVE
+
 reboottouefi@ubaygd.com
   Name: RebootToUEFI
   Description: Reboot system into UEFI
