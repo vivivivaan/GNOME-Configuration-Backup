@@ -10,11 +10,11 @@ width=904
 
 [apps/update-manager]
 first-run=false
-launch-count=82
-launch-time=int64 1753485953
+launch-count=89
+launch-time=int64 1753806165
 show-details=true
-window-height=593
-window-width=983
+window-height=541
+window-width=843
 
 [ca/desrt/dconf-editor]
 saved-pathbar-path='/org/gnome/terminal/legacy/profiles:/:eb2486e0-70e4-4a64-ac67-c87184145690/'
@@ -132,7 +132,7 @@ window-height=793
 window-width=1440
 
 [org/gnome/Characters]
-recent-characters=['👀', '🤨', '🌃', '🥂', '😂', '🌠']
+recent-characters=['🤟', '👌', '👀', '🤨', '🌃', '🥂', '😂', '🌠']
 
 [org/gnome/Console]
 custom-font='SF Mono 10'
@@ -153,12 +153,12 @@ window-width=800
 
 [org/gnome/TextEditor]
 custom-font='SF Mono 11.5'
-last-save-directory='file:///home/prithvi/Documents/Resume-CV'
+last-save-directory='file:///home/prithvi/Desktop'
 right-margin-position=uint32 80
 show-line-numbers=true
 show-map=true
 show-right-margin=false
-style-scheme='peninsula-dark'
+style-scheme='peninsula'
 use-system-font=false
 
 [org/gnome/Totem]
@@ -308,8 +308,8 @@ name='Unnamed Folder'
 [org/gnome/desktop/background]
 color-shading-type='solid'
 picture-options='zoom'
-picture-uri='file:///home/prithvi/Wallpapers/wengang-zhai-jcL9OrVa1Pc-unsplash.jpg'
-picture-uri-dark='file:///home/prithvi/Wallpapers/wengang-zhai-jcL9OrVa1Pc-unsplash.jpg'
+picture-uri='file:///home/prithvi/Wallpapers/boliviainteligente-JEjc-aOGZiU-unsplash.jpg'
+picture-uri-dark='file:///home/prithvi/Wallpapers/boliviainteligente-JEjc-aOGZiU-unsplash.jpg'
 primary-color='#000000'
 secondary-color='#000000'
 
@@ -344,8 +344,8 @@ enable-hot-corners=true
 font-antialiasing='rgba'
 font-hinting='slight'
 font-name='Livvic 9'
-gtk-theme='Graphite-yellow-Light-compact-nord'
-icon-theme='Tela-circle-yellow-light'
+gtk-theme='Graphite-purple-Light-compact-nord'
+icon-theme='Tela-circle-A56CC1-light'
 locate-pointer=true
 monospace-font-name='SF Mono 9'
 overlay-scrolling=true
@@ -488,7 +488,7 @@ natural-scroll=true
 speed=1.0
 
 [org/gnome/desktop/peripherals/touchpad]
-disable-while-typing=false
+disable-while-typing=true
 speed=1.0
 tap-to-click=true
 two-finger-scrolling-enabled=true
@@ -627,7 +627,7 @@ width=472
 
 [org/gnome/gnome-system-monitor]
 cpu-stacked-area-chart=false
-current-tab='disks'
+current-tab='processes'
 graph-update-interval=100
 maximized=false
 process-memory-in-iec=true
@@ -775,16 +775,16 @@ night-mode=false
 [org/gnome/papers/default]
 annot-color='yellow'
 continuous=true
-dual-page=false
+dual-page=true
 dual-page-odd-left=true
 enable-spellchecking=true
 show-sidebar=true
 sidebar-page='links'
-sizing-mode='free'
-window-height=965
-window-maximized=false
-window-width=1345
-zoom=0.53796140939597303
+sizing-mode='fit-page'
+window-height=993
+window-maximized=true
+window-width=1706
+zoom=0.65020789696456871
 
 [org/gnome/portal/filechooser/chrome-hnpfjngllnobngcgfapefoaidbinmjnm-Default]
 last-folder-path='/media/prithvi/C4A7-53C0/S9+ Data/s9+/Pictures/PicsArt'
@@ -817,7 +817,7 @@ last-folder-path='/home/prithvi/Documents/Ubuntu-GNOME-Configuration-Backup'
 last-folder-path='/home/prithvi/Downloads'
 
 [org/gnome/portal/filechooser/org.gnome.TextEditor]
-last-folder-path='/home/prithvi/Documents/Resume-CV'
+last-folder-path='/home/prithvi/Desktop'
 
 [org/gnome/settings-daemon/plugins/color]
 night-light-enabled=false
@@ -1448,6 +1448,7 @@ avatar-username=false
 input-show-selected=false
 list-buttons='[{"name":"SystemItem","title":null,"visible":true},{"name":"OutputStreamSlider","title":null,"visible":true},{"name":"InputStreamSlider","title":null,"visible":false},{"name":"St_BoxLayout","title":null,"visible":true},{"name":"BrightnessItem","title":null,"visible":true},{"name":"NMWiredToggle","title":null,"visible":false},{"name":"NMWirelessToggle","title":"Wi-Fi","visible":true},{"name":"NMModemToggle","title":null,"visible":false},{"name":"NMBluetoothToggle","title":null,"visible":false},{"name":"NMVpnToggle","title":null,"visible":false},{"name":"BluetoothToggle","title":"Bluetooth","visible":true},{"name":"PowerProfilesToggle","title":"Power Mode","visible":true},{"name":"NightLightToggle","title":"Night Light","visible":true},{"name":"DarkModeToggle","title":"Dark Style","visible":true},{"name":"KeyboardBrightnessToggle","title":"Keyboard","visible":true},{"name":"RfkillToggle","title":"Aeroplane Mode","visible":true},{"name":"RotationToggle","title":"Auto Rotate","visible":false},{"name":"DndQuickToggle","title":"Do Not Disturb","visible":true},{"name":"BackgroundAppsToggle","title":"No Background Apps","visible":false},{"name":"MediaSection","title":null,"visible":false},{"name":"Notifications","title":null,"visible":false}]'
 media-contorl-opacity=180
+media-enabled=true
 media-progress-height=0
 notifications-max-height=220
 output-show-selected=false
@@ -1579,7 +1580,7 @@ applications=['org.gnome.tweaks.desktop', 'com.mattjakeman.ExtensionManager.desk
 position=0
 
 [org/gnome/shell/extensions/user-theme]
-name='Graphite-yellow-Light-compact-nord'
+name='Graphite-purple-Light-compact-nord'
 
 [org/gnome/shell/extensions/visualizer]
 visualizer-color='rgb(26,95,180)'
@@ -1670,6 +1671,7 @@ update-notification-timestamp=int64 1752910467
 [org/gnome/terminal/legacy]
 always-check-default-terminal=true
 mnemonics-enabled=true
+new-terminal-mode='tab'
 theme-variant='system'
 
 [org/gnome/terminal/legacy/profiles:]
@@ -1788,6 +1790,10 @@ use-theme-background=false
 allow-bold=true
 use-theme-background=false
 
+[org/gnome/terminal/legacy/profiles:/:56ec90a6-d617-44b6-a6fb-1b89eaf358df]
+allow-bold=true
+use-theme-background=false
+
 [org/gnome/terminal/legacy/profiles:/:63bc7054-84ec-499b-9312-d777ebbcd4ae]
 allow-bold=true
 use-theme-background=false
@@ -1868,6 +1874,10 @@ use-theme-background=false
 allow-bold=true
 use-theme-background=false
 
+[org/gnome/terminal/legacy/profiles:/:99372a78-4919-45c4-a44f-0ea23ddd8021]
+allow-bold=true
+use-theme-background=false
+
 [org/gnome/terminal/legacy/profiles:/:9972fcc7-8279-4d07-a349-2f5e70bb67ec]
 allow-bold=true
 use-theme-background=false
@@ -1922,7 +1932,7 @@ cursor-shape='underline'
 custom-command=''
 default-size-columns=150
 default-size-rows=45
-font='SF Mono 11'
+font='CommitMono Nerd Font Mono 11'
 foreground-color='rgb(255,255,255)'
 login-shell=false
 palette=['rgb(23,20,33)', 'rgb(192,28,40)', 'rgb(38,162,105)', 'rgb(162,115,76)', 'rgb(18,72,139)', 'rgb(163,71,186)', 'rgb(42,161,179)', 'rgb(208,207,204)', 'rgb(94,92,100)', 'rgb(246,97,81)', 'rgb(51,209,122)', 'rgb(233,173,12)', 'rgb(42,123,222)', 'rgb(192,97,203)', 'rgb(51,199,222)', 'rgb(255,255,255)']
@@ -1952,6 +1962,10 @@ allow-bold=true
 use-theme-background=false
 
 [org/gnome/terminal/legacy/profiles:/:d27ca996-c61e-4b9e-a05f-495c60c60197]
+allow-bold=true
+use-theme-background=false
+
+[org/gnome/terminal/legacy/profiles:/:d49ea676-c72d-429e-9dd5-0e8ea320e8b1]
 allow-bold=true
 use-theme-background=false
 

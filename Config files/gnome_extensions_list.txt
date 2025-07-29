@@ -341,6 +341,15 @@ right-click-next@derVedro
   Enabled: Yes
   State: ACTIVE
 
+waylandorx11@injcristianrojas.github.com
+  Name: Wayland or X11
+  Description: Am I using Wayland or X11?
+  Path: /home/prithvi/.local/share/gnome-shell/extensions/waylandorx11@injcristianrojas.github.com
+  URL: https://github.com/injcristianrojas/waylandorx11
+  Version: 16
+  Enabled: Yes
+  State: ACTIVE
+
 reboottouefi@ubaygd.com
   Name: RebootToUEFI
   Description: Reboot system into UEFI
