@@ -52,6 +52,14 @@ window-height=700
 window-max=false
 window-width=900
 
+[com/github/johnfactotum/Foliate/viewer/font]
+default=uint32 0
+
+[com/github/johnfactotum/Foliate/viewer/view]
+override-font=false
+scrolled=false
+theme='default'
+
 [com/github/johnfactotum/Foliate/window]
 maximized=true
 
@@ -203,7 +211,7 @@ panel-id='world'
 size=(855, 577)
 
 [org/gnome/control-center]
-last-panel='system'
+last-panel='wifi'
 window-state=(1104, 806, false)
 
 [org/gnome/deja-dup]
@@ -247,7 +255,7 @@ name='Customization'
 translate=false
 
 [org/gnome/desktop/app-folders/folders/68df28d3-75d5-405b-99d0-790cc49e3935]
-apps=['calibre-gui.desktop', 'calibre-ebook-edit.desktop', 'calibre-ebook-viewer.desktop', 'calibre-lrfviewer.desktop', 'simple-scan.desktop', 'org.gnome.Papers.desktop']
+apps=['calibre-gui.desktop', 'calibre-ebook-edit.desktop', 'calibre-ebook-viewer.desktop', 'calibre-lrfviewer.desktop', 'simple-scan.desktop']
 name='Document Viewer'
 translate=false
 
@@ -262,7 +270,7 @@ name='Updates'
 translate=false
 
 [org/gnome/desktop/app-folders/folders/8bd07513-beb8-467b-8818-a4153670c714]
-apps=['software-properties-drivers.desktop', 'firmware-updater_firmware-updater.desktop', 'software-properties-gtk.desktop', 'update-manager.desktop', 'org.gnome.PackageUpdater.desktop']
+apps=['software-properties-drivers.desktop', 'firmware-updater_firmware-updater.desktop', 'software-properties-gtk.desktop', 'update-manager.desktop', 'org.gnome.PackageUpdater.desktop', 'org.gnome.Firmware.desktop']
 name='Updates'
 translate=false
 
@@ -308,8 +316,8 @@ name='Unnamed Folder'
 [org/gnome/desktop/background]
 color-shading-type='solid'
 picture-options='zoom'
-picture-uri='file:///home/prithvi/Wallpapers/boliviainteligente-JEjc-aOGZiU-unsplash.jpg'
-picture-uri-dark='file:///home/prithvi/Wallpapers/boliviainteligente-JEjc-aOGZiU-unsplash.jpg'
+picture-uri='file:///home/prithvi/Wallpapers/jack-harner-YVhH8GZIijA-unsplash.jpg'
+picture-uri-dark='file:///home/prithvi/Wallpapers/jack-harner-YVhH8GZIijA-unsplash.jpg'
 primary-color='#000000'
 secondary-color='#000000'
 
@@ -594,6 +602,9 @@ sidebar-width=200
 window-height=480
 window-width=600
 
+[org/gnome/firmware]
+report-device-list-timestamp=int64 1753811549
+
 [org/gnome/gedit/plugins]
 active-plugins=['docinfo', 'sort', 'time', 'quickhighlight', 'spell', 'textsize', 'modelines', 'filebrowser']
 
@@ -627,7 +638,7 @@ width=472
 
 [org/gnome/gnome-system-monitor]
 cpu-stacked-area-chart=false
-current-tab='processes'
+current-tab='resources'
 graph-update-interval=100
 maximized=false
 process-memory-in-iec=true
@@ -780,17 +791,17 @@ dual-page-odd-left=true
 enable-spellchecking=true
 show-sidebar=true
 sidebar-page='links'
-sizing-mode='fit-page'
+sizing-mode='free'
 window-height=993
 window-maximized=true
 window-width=1706
-zoom=0.65020789696456871
+zoom=0.5489420836886908
 
 [org/gnome/portal/filechooser/chrome-hnpfjngllnobngcgfapefoaidbinmjnm-Default]
 last-folder-path='/media/prithvi/C4A7-53C0/S9+ Data/s9+/Pictures/PicsArt'
 
 [org/gnome/portal/filechooser/code]
-last-folder-path='/home/prithvi/micromamba/envs/mlflow-env/bin'
+last-folder-path='/home/prithvi/Workspace/mlflow_for_ml_dev'
 
 [org/gnome/portal/filechooser/com.github.johnfactotum.Foliate]
 last-folder-path='/home/prithvi/Documents/Misc '
@@ -845,7 +856,7 @@ sleep-inactive-ac-timeout=1500
 sleep-inactive-ac-type='suspend'
 
 [org/gnome/shell]
-app-picker-layout=[{'6093395b-f0cf-41fa-aae2-4f7df761047c': <{'position': <0>}>, '625e7b1e-bf22-42ad-9256-17543e34fe17': <{'position': <1>}>, '6c9f89ad-9b8e-4517-a635-00544da8c9cd': <{'position': <2>}>, '300deb63-5040-49a5-b580-15e7efbb22cb': <{'position': <3>}>, '8bd07513-beb8-467b-8818-a4153670c714': <{'position': <4>}>, 'cc6d3b95-11db-44c6-81f2-f31a34e4e869': <{'position': <5>}>, '68df28d3-75d5-405b-99d0-790cc49e3935': <{'position': <6>}>, 'nvidia-settings.desktop': <{'position': <7>}>, 'snap-store_snap-store.desktop': <{'position': <8>}>, 'org.gnome.clocks.desktop': <{'position': <9>}>, 'org.qbittorrent.qBittorrent.desktop': <{'position': <10>}>, 'org.telegram.desktop._3e485da34fc040f9218e3891ecde1e6c.desktop': <{'position': <11>}>, 'org.bleachbit.BleachBit-root.desktop': <{'position': <12>}>, 'io.gitlab.news_flash.NewsFlash.desktop': <{'position': <13>}>, 'spotify.desktop': <{'position': <14>}>, 'windscribe.desktop': <{'position': <15>}>, 'vlc.desktop': <{'position': <16>}>, 'com.notesnook.Notesnook.desktop': <{'position': <17>}>}]
+app-picker-layout=[{'6093395b-f0cf-41fa-aae2-4f7df761047c': <{'position': <0>}>, '625e7b1e-bf22-42ad-9256-17543e34fe17': <{'position': <1>}>, '6c9f89ad-9b8e-4517-a635-00544da8c9cd': <{'position': <2>}>, '300deb63-5040-49a5-b580-15e7efbb22cb': <{'position': <3>}>, '8bd07513-beb8-467b-8818-a4153670c714': <{'position': <4>}>, 'cc6d3b95-11db-44c6-81f2-f31a34e4e869': <{'position': <5>}>, '68df28d3-75d5-405b-99d0-790cc49e3935': <{'position': <6>}>, 'nvidia-settings.desktop': <{'position': <7>}>, 'snap-store_snap-store.desktop': <{'position': <8>}>, 'org.gnome.clocks.desktop': <{'position': <9>}>, 'org.qbittorrent.qBittorrent.desktop': <{'position': <10>}>, 'org.telegram.desktop._3e485da34fc040f9218e3891ecde1e6c.desktop': <{'position': <11>}>, 'org.bleachbit.BleachBit-root.desktop': <{'position': <12>}>, 'spotify.desktop': <{'position': <13>}>, 'windscribe.desktop': <{'position': <14>}>, 'vlc.desktop': <{'position': <15>}>, 'io.github.flattool.Warehouse.desktop': <{'position': <16>}>, 'com.notesnook.Notesnook.desktop': <{'position': <17>}>, 'com.github.johnfactotum.Foliate.desktop': <{'position': <18>}>, 'org.gnome.Papers.desktop': <{'position': <19>}>}]
 command-history=['sudo apt-get update', 'gnome-terminal']
 disable-user-extensions=false
 disabled-extensions=['ding@rastersoft.com', 'dash-to-dock@micxgx.gmail.com', 'power-profile@fthx', 'azwallpaper@azwallpaper.gitlab.com', 'dash-to-panel@jderose9.github.com', 'CoverflowAltTab@palatis.blogspot.com', 'add-to-desktop@tommimon.github.com', 'media-progress@krypion17', 'hidetopbar@mathieu.bidon.ca']

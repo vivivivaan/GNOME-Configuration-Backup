@@ -168,6 +168,7 @@ file-roller					install
 findutils					install
 firmware-sof-signed				install
 flatpak						install
+foliate						install
 fontconfig					install
 fontconfig-config				install
 fonts-dejavu-core				install
@@ -251,6 +252,7 @@ gir1.2-handy-1:amd64				install
 gir1.2-harfbuzz-0.0:amd64			install
 gir1.2-ibus-1.0:amd64				install
 gir1.2-javascriptcoregtk-4.1:amd64		install
+gir1.2-javascriptcoregtk-6.0:amd64		install
 gir1.2-mutter-16:amd64				install
 gir1.2-nm-1.0:amd64				install
 gir1.2-nma4-1.0:amd64				install
@@ -269,6 +271,7 @@ gir1.2-udisks-2.0:amd64				install
 gir1.2-unity-7.0:amd64				install
 gir1.2-upowerglib-1.0:amd64			install
 gir1.2-vte-2.91:amd64				install
+gir1.2-webkit-6.0:amd64				install
 gir1.2-webkit2-4.1:amd64			install
 gir1.2-wnck-3.0:amd64				install
 girepository-tools:amd64			install
@@ -291,6 +294,7 @@ gnome-control-center-data			install
 gnome-control-center-faces			install
 gnome-desktop3-data				install
 gnome-disk-utility				install
+gnome-epub-thumbnailer				install
 gnome-font-viewer				install
 gnome-initial-setup				install
 gnome-keyring					install
