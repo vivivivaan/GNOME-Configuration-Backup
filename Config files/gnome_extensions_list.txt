@@ -150,8 +150,8 @@ bash -c 'schema_id=org.gnome.shell.extensions.bedtime-mode; schema_dir=~/.local/
   Path: /home/prithvi/.local/share/gnome-shell/extensions/gnomebedtime@ionutbortis.gmail.com
   URL: https://github.com/ionutbortis/gnome-bedtime-mode
   Version: 22
-  Enabled: Yes
-  State: ACTIVE
+  Enabled: No
+  State: INITIALIZED
 
 monitor@astraext.github.io
   Name: Astra Monitor
@@ -329,8 +329,8 @@ one-thing@github.com
   Path: /home/prithvi/.local/share/gnome-shell/extensions/one-thing@github.com
   URL: https://github.com/dantehemerson/one-thing
   Version: 26
-  Enabled: Yes
-  State: ACTIVE
+  Enabled: No
+  State: INITIALIZED
 
 right-click-next@derVedro
   Name: Right Click Next
@@ -338,6 +338,15 @@ right-click-next@derVedro
   Path: /home/prithvi/.local/share/gnome-shell/extensions/right-click-next@derVedro
   URL: https://github.com/derVedro/gnome-right-click-next
   Version: 3
+  Enabled: Yes
+  State: ACTIVE
+
+wellbeingtoggle@m51.io
+  Name: Wellbeing Toggle
+  Description: Toggle wellbeing reminders from the quick settings menu.
+  Path: /home/prithvi/.local/share/gnome-shell/extensions/wellbeingtoggle@m51.io
+  URL: https://github.com/Fingel/gnome-ext-wellbeing-toggle
+  Version: 2
   Enabled: Yes
   State: ACTIVE
 

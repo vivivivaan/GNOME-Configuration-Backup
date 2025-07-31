@@ -2270,6 +2270,7 @@ vlc-plugin-video-output:amd64			install
 vlc-plugin-video-splitter:amd64			install
 vlc-plugin-visualization:amd64			install
 wamerican					install
+wayland-protocols				install
 wbritish					install
 webp-pixbuf-loader:amd64			install
 wget						install
