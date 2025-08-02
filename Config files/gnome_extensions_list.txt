@@ -299,8 +299,8 @@ CoverflowAltTab@palatis.blogspot.com
   Path: /home/prithvi/.local/share/gnome-shell/extensions/CoverflowAltTab@palatis.blogspot.com
   URL: https://github.com/dsheeler/CoverflowAltTab
   Version: 78
-  Enabled: No
-  State: INITIALIZED
+  Enabled: Yes
+  State: ACTIVE
 
 azwallpaper@azwallpaper.gitlab.com
   Name: Wallpaper Slideshow
@@ -409,5 +409,16 @@ ubuntu-dock@ubuntu.com
   URL: https://micheleg.github.io/dash-to-dock/
   Original author: micxgx@gmail.com
   Version: 100
+  Enabled: Yes
+  State: ACTIVE
+
+logowidget@github.com.howbea
+  Name: Desktop Logo
+  Description: Add a logo to the desktop. 
+ This is a fork of Background Logo extension 
+ https://extensions.gnome.org/extension/889/background-logo/
+  Path: /home/prithvi/.local/share/gnome-shell/extensions/logowidget@github.com.howbea
+  URL: https://github.com/howbea/logo-widget
+  Version: 19
   Enabled: Yes
   State: ACTIVE

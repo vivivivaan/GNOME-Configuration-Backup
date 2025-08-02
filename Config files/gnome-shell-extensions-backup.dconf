@@ -185,7 +185,7 @@ position='Bottom'
 preview-scaling-factor=0.5
 preview-to-monitor-ratio=0.5
 randomize-animation-times=true
-switcher-background-color=(0.86274509803921573, 0.64313725490196083, 0.57647058823529407)
+switcher-background-color=(0.50980392156862742, 0.67450980392156867, 0.36470588235294116)
 switcher-looping-method='Carousel'
 switcher-style='Coverflow'
 tint-use-theme-color=true
@@ -388,6 +388,13 @@ workspaces-in-app-grid=true
 alignment='right'
 layout=[['gnome@main', 'quick-settings-audio-panel@rayzeq.github.io/main']]
 single-column=false
+
+[logo-widget]
+logo-file='/home/prithvi/Pictures/ubuntu-logo-svgrepo-com.png'
+logo-file-dark='/home/prithvi/Pictures/ubuntu-logo-svgrepo-com.png'
+logo-opacity=uint32 103
+logo-position='bottom-right'
+overview-visible=true
 
 [notification-banner-reloaded]
 anchor-horizontal=1

@@ -12,8 +12,8 @@ drwxr-xr-x 2 root    root    4.0K Apr 15 18:16 urw-base35
 total 120K
 drwxr-xr-x 24 root    root    4.0K Jul 31 20:56 .
 drwxr-xr-x  8 root    root    4.0K Apr 15 18:16 ..
-drwxrwxr-x  2 root    root    4.0K Jan 31 14:39 Adwaita_Mono
-drwxrwxr-x  2 root    root    4.0K Jan 31 14:39 Adwaita_Sans
+drwxrwxr-x  2 root    root    4.0K Jan 31  2025 Adwaita_Mono
+drwxrwxr-x  2 root    root    4.0K Jan 31  2025 Adwaita_Sans
 drwxrwxr-x  2 prithvi prithvi 4.0K Jun 19 04:58 arial
 drwxrwxr-x  3 prithvi prithvi 4.0K Jul  5 19:56 Arimo
 drwxr-xr-x  2 root    root    4.0K May 22 07:00 dejavu

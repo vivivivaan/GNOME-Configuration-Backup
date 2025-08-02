@@ -1,7 +1,7 @@
 /home/prithvi/.icons/:
 total 20K
 drwxr-xr-x  5 prithvi prithvi 4.0K Jul 31 16:41 .
-drwxr-x--- 45 prithvi prithvi 4.0K Jul 29 17:34 ..
+drwxr-x--- 45 prithvi prithvi 4.0K Aug  2 10:39 ..
 drwxr-xr-x  8 prithvi prithvi 4.0K Jul 31 16:38 Tela-circle-819067
 drwxr-xr-x  6 prithvi prithvi 4.0K Jul 31 16:38 Tela-circle-819067-dark
 drwxr-xr-x  5 prithvi prithvi 4.0K Jul 31 16:38 Tela-circle-819067-light
@@ -9,7 +9,7 @@ drwxr-xr-x  5 prithvi prithvi 4.0K Jul 31 16:38 Tela-circle-819067-light
 /home/prithvi/.themes/:
 total 28K
 drwxrwxr-x  5 prithvi prithvi  12K Jul 31 16:55 .
-drwxr-x--- 45 prithvi prithvi 4.0K Jul 29 17:34 ..
+drwxr-x--- 45 prithvi prithvi 4.0K Aug  2 10:39 ..
 drwxrwxr-x 10 prithvi prithvi 4.0K Jul 31 16:55 Graphite-green-Light-compact-nord
 drwxrwxr-x  3 prithvi prithvi 4.0K Jul 31 16:31 Graphite-green-Light-compact-nord-hdpi
 drwxrwxr-x  3 prithvi prithvi 4.0K Jul 31 16:31 Graphite-green-Light-compact-nord-xhdpi
