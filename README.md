@@ -39,7 +39,7 @@ For GRUB configuration, install the GRUB theme but comment out the `GRUB_BACKGRO
 `linux-generic`, `linux-headers-generic`, `linux-image-generic`, `linux-objects or linux-objects-nvidia`, `linux-modules`, `linux-header`, `linux-signatures or linux-signatures-nvidia`
 
 ## Common dependencies after a fresh install
-`gcc g++ git curl btop btm build-essential apt-transport-https wget ca-certificates zip unzip tree locate gnupg2 gpg binfmt-support clang clangd llvm`
+`gcc g++ git tldr curl btop btm build-essential apt-transport-https wget ca-certificates zip unzip tree locate gnupg2 gpg binfmt-support clang clangd llvm`
 
 # Python Dependencies
 `liblzma-dev lzma-dev liblz-dev zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev libsqlite3-dev libbz2-dev`
