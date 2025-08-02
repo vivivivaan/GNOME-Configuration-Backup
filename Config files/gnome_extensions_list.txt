@@ -275,6 +275,15 @@ rounded-window-corners@fxgn
   Enabled: Yes
   State: ACTIVE
 
+battery-indicator-icon@Deminder
+  Name: Battery Indicator Icon
+  Description: Replace the battery indicator icon with a circle or portrait.
+  Path: /home/prithvi/.local/share/gnome-shell/extensions/battery-indicator-icon@Deminder
+  URL: https://github.com/Deminder/battery-indicator-icon
+  Version: 16
+  Enabled: Yes
+  State: ACTIVE
+
 open-desktop-location@laura.media
   Name: Open .desktop file location
   Description: Opens the location of the applications .desktop file
@@ -332,6 +341,17 @@ one-thing@github.com
   Enabled: No
   State: INITIALIZED
 
+logowidget@github.com.howbea
+  Name: Desktop Logo
+  Description: Add a logo to the desktop. 
+ This is a fork of Background Logo extension 
+ https://extensions.gnome.org/extension/889/background-logo/
+  Path: /home/prithvi/.local/share/gnome-shell/extensions/logowidget@github.com.howbea
+  URL: https://github.com/howbea/logo-widget
+  Version: 19
+  Enabled: Yes
+  State: ACTIVE
+
 right-click-next@derVedro
   Name: Right Click Next
   Description: Move windows to the next workspace by right-clicking them in the overview.
@@ -377,6 +397,18 @@ fullscreen-notifications@sorrow.about.alice.pm.me
   Enabled: Yes
   State: ACTIVE
 
+volume_scroller@francislavoie.github.io
+  Name: Volume Scroller
+  Description: Scroll up or down in the Top Bar to adjust volume. Supports configuring granularity (default step of 5%)
+
+This is a fork of https://extensions.gnome.org/extension/4109/volume-scroller/ which is now unfortunately unmaintained/archived.
+  Path: /home/prithvi/.local/share/gnome-shell/extensions/volume_scroller@francislavoie.github.io
+  URL: https://github.com/francislavoie/gnome-shell-volume-scroller
+  Original author: francislavoie
+  Version: 12
+  Enabled: Yes
+  State: ACTIVE
+
 ding@rastersoft.com
   Name: Desktop Icons NG (DING)
   Description: Adds icons to the desktop. Fork of the original Desktop Icons extension, with several enhancements .
@@ -409,16 +441,5 @@ ubuntu-dock@ubuntu.com
   URL: https://micheleg.github.io/dash-to-dock/
   Original author: micxgx@gmail.com
   Version: 100
-  Enabled: Yes
-  State: ACTIVE
-
-logowidget@github.com.howbea
-  Name: Desktop Logo
-  Description: Add a logo to the desktop. 
- This is a fork of Background Logo extension 
- https://extensions.gnome.org/extension/889/background-logo/
-  Path: /home/prithvi/.local/share/gnome-shell/extensions/logowidget@github.com.howbea
-  URL: https://github.com/howbea/logo-widget
-  Version: 19
   Enabled: Yes
   State: ACTIVE

@@ -93,7 +93,7 @@ update-notifier-project-version=13
 icon-orientation='horizontal'
 icon-scale=1.0
 show-icon-text=0
-status-style='slim'
+status-style='circle'
 
 [bedtime-mode]
 automatic-schedule=false
@@ -185,7 +185,7 @@ position='Bottom'
 preview-scaling-factor=0.5
 preview-to-monitor-ratio=0.5
 randomize-animation-times=true
-switcher-background-color=(0.50980392156862742, 0.67450980392156867, 0.36470588235294116)
+switcher-background-color=(0.62745098039215685, 0.75294117647058822, 0.50980392156862742)
 switcher-looping-method='Carousel'
 switcher-style='Coverflow'
 tint-use-theme-color=true
@@ -731,7 +731,7 @@ applications=['org.gnome.tweaks.desktop', 'com.mattjakeman.ExtensionManager.desk
 position=0
 
 [user-theme]
-name='Graphite-green-Light-compact-nord'
+name='Graphite-green-Dark-compact-nord'
 
 [visualizer]
 visualizer-color='rgb(26,95,180)'

@@ -10,7 +10,7 @@ drwxr-xr-x 2 root    root    4.0K Apr 15 18:16 urw-base35
 
 /usr/share/fonts/truetype:
 total 120K
-drwxr-xr-x 24 root    root    4.0K Jul 31 20:56 .
+drwxr-xr-x 24 root    root    4.0K Aug  2 16:10 .
 drwxr-xr-x  8 root    root    4.0K Apr 15 18:16 ..
 drwxrwxr-x  2 root    root    4.0K Jan 31  2025 Adwaita_Mono
 drwxrwxr-x  2 root    root    4.0K Jan 31  2025 Adwaita_Sans
