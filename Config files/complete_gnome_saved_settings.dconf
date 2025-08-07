@@ -10,8 +10,8 @@ width=904
 
 [apps/update-manager]
 first-run=false
-launch-count=90
-launch-time=int64 1753992214
+launch-count=95
+launch-time=int64 1754533109
 show-details=true
 window-height=541
 window-width=843
@@ -81,10 +81,10 @@ plugins=@as []
 bypass=false
 
 [com/mattjakeman/ExtensionManager]
-height=679
+height=882
 is-maximized=false
 sort-enabled-first=true
-width=654
+width=761
 
 [com/raggesilver/BlackBox]
 cursor-blink-mode=uint32 1
@@ -176,10 +176,10 @@ repeat=true
 subtitle-encoding='UTF-8'
 
 [org/gnome/Weather]
-locations=[<(uint32 2, <('Hyderabad', 'VOHY', true, [(0.30455995447301049, 1.3695016922159813)], [(0.30325580954933529, 1.3696374264719091)])>)>, <(uint32 2, <('Chicago', 'KMDW', true, [(0.72927128935316143, -1.5316185371029443)], [(0.73042086791828009, -1.529781996944241)])>)>, <(uint32 2, <('New York', 'KNYC', true, [(0.71180344078725644, -1.2909618758762367)], [(0.71059804659265924, -1.2916478949920254)])>)>, <(uint32 2, <('San Francisco', 'KOAK', false, [(0.65832848982162007, -2.133408063190589)], [(0.65832848982162007, -2.133408063190589)])>)>, <(uint32 2, <('Boston', 'KBOS', true, [(0.73933117517543911, -1.2393680058718144)], [(0.73929408692883414, -1.2402270045697685)])>)>, <(uint32 2, <('London', 'EGWU', false, [(0.89971722940307675, -0.007272211034407213)], [(0.89971722940307675, -0.007272211034407213)])>)>]
-window-height=528
+locations=[<(uint32 2, <('New York', 'KNYC', true, [(0.71180344078725644, -1.2909618758762367)], [(0.71059804659265924, -1.2916478949920254)])>)>]
+window-height=664
 window-maximized=false
-window-width=495
+window-width=619
 
 [org/gnome/baobab/ui]
 is-maximized=false
@@ -213,7 +213,7 @@ size=(855, 577)
 
 [org/gnome/control-center]
 last-panel='wifi'
-window-state=(1104, 806, false)
+window-state=(1103, 806, false)
 
 [org/gnome/deja-dup]
 backend='google'
@@ -317,13 +317,13 @@ name='Unnamed Folder'
 [org/gnome/desktop/background]
 color-shading-type='solid'
 picture-options='zoom'
-picture-uri='file:///home/prithvi/Wallpapers/macos-monterey-stock-pink-light-layers-5k-8k-3840x2160-5892.jpg'
-picture-uri-dark='file:///home/prithvi/Wallpapers/macos-monterey-stock-pink-light-layers-5k-8k-3840x2160-5892.jpg'
+picture-uri='file:///home/prithvi/Wallpapers/macos-monterey-stock-blue-light-layers-5k-3840x2160-5898.jpg'
+picture-uri-dark='file:///home/prithvi/Wallpapers/macos-monterey-stock-blue-light-layers-5k-3840x2160-5898.jpg'
 primary-color='#000000'
 secondary-color='#000000'
 
 [org/gnome/desktop/break-reminders]
-selected-breaks=['eyesight', 'movement']
+selected-breaks=@as []
 
 [org/gnome/desktop/break-reminders/eyesight]
 play-sound=true
@@ -353,8 +353,8 @@ enable-hot-corners=true
 font-antialiasing='rgba'
 font-hinting='slight'
 font-name='Livvic 10'
-gtk-theme='Graphite-green-Dark-compact-nord'
-icon-theme='Tela-circle-819067-dark'
+gtk-theme='Graphite-blue-Dark-compact'
+icon-theme='Fluent-dark'
 locate-pointer=true
 monospace-font-name='SF Mono 10'
 overlay-scrolling=true
@@ -796,16 +796,16 @@ enable-spellchecking=true
 show-sidebar=true
 sidebar-page='links'
 sizing-mode='free'
-window-height=940
+window-height=986
 window-maximized=true
-window-width=1154
-zoom=0.56959670923434469
+window-width=1318
+zoom=0.51339381230670911
 
 [org/gnome/portal/filechooser/chrome-hnpfjngllnobngcgfapefoaidbinmjnm-Default]
 last-folder-path='/media/prithvi/C4A7-53C0/S9+ Data/s9+/Pictures/PicsArt'
 
 [org/gnome/portal/filechooser/code]
-last-folder-path='/home/prithvi/Workspace/mlflow_for_ml_dev'
+last-folder-path='/home/prithvi/Workspace'
 
 [org/gnome/portal/filechooser/com.github.johnfactotum.Foliate]
 last-folder-path='/home/prithvi/Documents/Misc '
@@ -820,7 +820,7 @@ last-folder-path='/home/prithvi/Documents/Notesnook/backups'
 last-folder-path='/home/prithvi/Wallpapers'
 
 [org/gnome/portal/filechooser/google-chrome]
-last-folder-path='/home/prithvi/Documents/Job Application Docs'
+last-folder-path='/home/prithvi/Desktop'
 
 [org/gnome/portal/filechooser/io.github.realmazharhussain.GdmSettings]
 last-folder-path='/home/prithvi/Wallpapers'
@@ -854,7 +854,7 @@ www=['<Super>b']
 
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0]
 binding='<Shift><Control>Escape'
-command='gnome-system-monitor'
+command='flatpak run io.missioncenter.MissionCenter'
 name='System Monitor'
 
 [org/gnome/settings-daemon/plugins/power]
@@ -866,9 +866,9 @@ sleep-inactive-ac-type='suspend'
 app-picker-layout=[{'6093395b-f0cf-41fa-aae2-4f7df761047c': <{'position': <0>}>, '625e7b1e-bf22-42ad-9256-17543e34fe17': <{'position': <1>}>, '6c9f89ad-9b8e-4517-a635-00544da8c9cd': <{'position': <2>}>, '300deb63-5040-49a5-b580-15e7efbb22cb': <{'position': <3>}>, '8bd07513-beb8-467b-8818-a4153670c714': <{'position': <4>}>, 'cc6d3b95-11db-44c6-81f2-f31a34e4e869': <{'position': <5>}>, '68df28d3-75d5-405b-99d0-790cc49e3935': <{'position': <6>}>, 'nvidia-settings.desktop': <{'position': <7>}>, 'snap-store_snap-store.desktop': <{'position': <8>}>, 'org.gnome.clocks.desktop': <{'position': <9>}>, 'org.qbittorrent.qBittorrent.desktop': <{'position': <10>}>, 'org.telegram.desktop._3e485da34fc040f9218e3891ecde1e6c.desktop': <{'position': <11>}>, 'org.bleachbit.BleachBit-root.desktop': <{'position': <12>}>, 'spotify.desktop': <{'position': <13>}>, 'windscribe.desktop': <{'position': <14>}>, 'vlc.desktop': <{'position': <15>}>, 'io.github.flattool.Warehouse.desktop': <{'position': <16>}>, 'com.notesnook.Notesnook.desktop': <{'position': <17>}>, 'com.github.johnfactotum.Foliate.desktop': <{'position': <18>}>, 'org.gnome.Papers.desktop': <{'position': <19>}>}]
 command-history=['sudo apt-get update', 'gnome-terminal']
 disable-user-extensions=false
-disabled-extensions=['ding@rastersoft.com', 'dash-to-dock@micxgx.gmail.com', 'power-profile@fthx', 'azwallpaper@azwallpaper.gitlab.com', 'dash-to-panel@jderose9.github.com', 'add-to-desktop@tommimon.github.com', 'media-progress@krypion17', 'gnomebedtime@ionutbortis.gmail.com', 'one-thing@github.com', 'hidetopbar@mathieu.bidon.ca']
-enabled-extensions=['tiling-assistant@ubuntu.com', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'apps-menu@gnome-shell-extensions.gcampax.github.com', 'bluetooth-quick-connect@bjarosze.gmail.com', 'blur-my-shell@aunetx', 'clipboard-indicator@tudmotu.com', 'fq@megh', 'Hide_Activities@shay.shayel.org', 'just-perfection-desktop@just-perfection', 'osd-volume-number@deminder', 'places-menu@gnome-shell-extensions.gcampax.github.com', 'power-profile-indicator@laux.wtf', 'quick-settings-tweaks@qwreey', 'drive-menu@gnome-shell-extensions.gcampax.github.com', 'screenshort-cut@pauloimon', 'show-desktop-button@amivaleo', 'sound-percentage@subashghimire.info.np', 'transparent-window-moving@noobsai.github.com', 'tweaks-system-menu@extensions.gnome-shell.fifi.org', 'Vitals@CoreCoding.com', 'weekend-o-meter@coffeverton.gmail.com', 'openmeteoweather@deezhizyu.github.io', 'currency-tracker@faymaz.github.com', 'status-icons@gnome-shell-extensions.gcampax.github.com', 'snowy@exposedcat', 'aztaskbar@aztaskbar.gitlab.com', 'weatherornot@somepaulo.github.io', 'advanced-weather@sanjai.com', 'weatheroclock@CleoMenezesJr.github.io', 'battery-time@eetumos.github.com', 'disconnect-wifi@kgshank.net', 'notification-position@drugo.dev', 'freon@UshakovVasilii_Github.yahoo.com', 'AlphabeticalAppGrid@stuarthayhurst', 'restartto@tiagoporsch.github.io', 'Bluetooth-Battery-Meter@maniacx.github.com', 'monitor@astraext.github.io', 'eepresetselector@ulville.github.io', 'ubuntu-appindicators@ubuntu.com', 'custom-hot-corners-extended@G-dH.github.com', 'extension-list@tu.berry', 'tracker@aliakseiz.github.com', 'simple-timer@majortomvr.github.com', 'spotify-controls@Sonath21', 'notifications-alert-on-user-menu@hackedbellini.gmail.com', 'SettingsCenter@lauinger-clan.de', 'compact-quick-settings@gnome-shell-extensions.mariospr.org', 'dynamic-panel@velhlkj.com', 'reboottouefi@ubaygd.com', 'NotificationCounter@coolllsk', 'fullscreen-notifications@sorrow.about.alice.pm.me', 'timer@lbgracioso.net', 'thinkpad-red-led@juanmagd.dev', 'yks_timer@ysfsvm', 'rounded-window-corners@fxgn', 'quake-terminal@diegodario88.github.io', 'waylandorx11@injcristianrojas.github.com', 'flickernaut@imoize.github.io', 'huanghaohhoa@163.com', 'quick-settings-audio-panel@rayzeq.github.io', 'trayIconsReloaded@selfmade.pl', 'vscode-workspaces@prometheontechnologies.com', 'cronomix@zagortenay333', 'ubuntu-dock@ubuntu.com', 'slinger@gfxmonk.net', 'quarterwindows@troyready.com', 'search-light@icedman.github.com', 'dim-background-windows@stephane-13.github.com', 'open-desktop-location@laura.media', 'CamPeek@gamalsherif1.github.io', 'task-widget@juozasmiskinis.gitlab.io', 'lockscreen-extension@pratap.fastmail.fm', 'transparent-inactive-windows@art-was-here.github.io', 'day-progress@arcaege.github.io', 'applications-overview-tooltip@RaphaelRochet', 'simple-weather@romanlefler.com', 'quick-settings-avatar@d-go', 'quick-touchpad-toggle@kramo.hu', 'IndicatorVisibilityTool@VirlesFelyard', 'night-light-slider-updated@vilsbeg.codeberg.org', 'pinit@cankurttekin', 'wifiqrcode@glerro.pm.me', 'notification-configurator@exposedcat', 'tilingshell@ferrarodomenico.com', 'fnlock-switch-tp-comp-usb-kb@goloshubov.github.io', 'notification-timeout@chlumskyvaclav.gmail.com', 'notification-banner-reloaded@marcinjakubowski.github.com', 'openbar@neuromorph', 'ufw-status-indicator@bittokazi.com', 'xwayland-indicator@swsnr.de', 'battery-drop@khisrav', 'floating-mini-panel@ghi59.github.com', 'right-click-next@derVedro', 'wellbeingtoggle@m51.io', 'logowidget@github.com.howbea', 'CoverflowAltTab@palatis.blogspot.com', 'battery-indicator-icon@Deminder', 'volume_scroller@francislavoie.github.io', 'always-indicator@martin.zurowietz.de']
-favorite-apps=['org.gnome.Characters.desktop', 'synaptic.desktop', 'org.gnome.Nautilus.desktop', 'start-tor-browser.desktop', 'brave-browser.desktop', 'google-chrome.desktop', 'zen.desktop', 'org.gnome.TextEditor.desktop', 'org.gnome.Terminal.desktop', 'code.desktop', 'chrome-hnpfjngllnobngcgfapefoaidbinmjnm-Default.desktop', 'libreoffice-writer.desktop', 'io.github.amit9838.mousam.desktop', 'io.missioncenter.MissionCenter.desktop']
+disabled-extensions=['ding@rastersoft.com', 'dash-to-dock@micxgx.gmail.com', 'power-profile@fthx', 'azwallpaper@azwallpaper.gitlab.com', 'dash-to-panel@jderose9.github.com', 'add-to-desktop@tommimon.github.com', 'media-progress@krypion17', 'hidetopbar@mathieu.bidon.ca', 'wellbeingtoggle@m51.io', 'gnomebedtime@ionutbortis.gmail.com', 'desktop-cube@schneegans.github.com', 'one-thing@github.com']
+enabled-extensions=['tiling-assistant@ubuntu.com', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'apps-menu@gnome-shell-extensions.gcampax.github.com', 'bluetooth-quick-connect@bjarosze.gmail.com', 'blur-my-shell@aunetx', 'clipboard-indicator@tudmotu.com', 'fq@megh', 'Hide_Activities@shay.shayel.org', 'just-perfection-desktop@just-perfection', 'osd-volume-number@deminder', 'places-menu@gnome-shell-extensions.gcampax.github.com', 'power-profile-indicator@laux.wtf', 'quick-settings-tweaks@qwreey', 'drive-menu@gnome-shell-extensions.gcampax.github.com', 'screenshort-cut@pauloimon', 'show-desktop-button@amivaleo', 'sound-percentage@subashghimire.info.np', 'transparent-window-moving@noobsai.github.com', 'tweaks-system-menu@extensions.gnome-shell.fifi.org', 'Vitals@CoreCoding.com', 'weekend-o-meter@coffeverton.gmail.com', 'openmeteoweather@deezhizyu.github.io', 'currency-tracker@faymaz.github.com', 'status-icons@gnome-shell-extensions.gcampax.github.com', 'snowy@exposedcat', 'aztaskbar@aztaskbar.gitlab.com', 'weatherornot@somepaulo.github.io', 'advanced-weather@sanjai.com', 'weatheroclock@CleoMenezesJr.github.io', 'battery-time@eetumos.github.com', 'disconnect-wifi@kgshank.net', 'notification-position@drugo.dev', 'freon@UshakovVasilii_Github.yahoo.com', 'AlphabeticalAppGrid@stuarthayhurst', 'restartto@tiagoporsch.github.io', 'Bluetooth-Battery-Meter@maniacx.github.com', 'monitor@astraext.github.io', 'eepresetselector@ulville.github.io', 'ubuntu-appindicators@ubuntu.com', 'custom-hot-corners-extended@G-dH.github.com', 'extension-list@tu.berry', 'tracker@aliakseiz.github.com', 'simple-timer@majortomvr.github.com', 'spotify-controls@Sonath21', 'notifications-alert-on-user-menu@hackedbellini.gmail.com', 'SettingsCenter@lauinger-clan.de', 'compact-quick-settings@gnome-shell-extensions.mariospr.org', 'dynamic-panel@velhlkj.com', 'reboottouefi@ubaygd.com', 'NotificationCounter@coolllsk', 'fullscreen-notifications@sorrow.about.alice.pm.me', 'timer@lbgracioso.net', 'thinkpad-red-led@juanmagd.dev', 'yks_timer@ysfsvm', 'rounded-window-corners@fxgn', 'quake-terminal@diegodario88.github.io', 'waylandorx11@injcristianrojas.github.com', 'flickernaut@imoize.github.io', 'huanghaohhoa@163.com', 'quick-settings-audio-panel@rayzeq.github.io', 'trayIconsReloaded@selfmade.pl', 'vscode-workspaces@prometheontechnologies.com', 'cronomix@zagortenay333', 'ubuntu-dock@ubuntu.com', 'slinger@gfxmonk.net', 'quarterwindows@troyready.com', 'search-light@icedman.github.com', 'dim-background-windows@stephane-13.github.com', 'open-desktop-location@laura.media', 'CamPeek@gamalsherif1.github.io', 'task-widget@juozasmiskinis.gitlab.io', 'lockscreen-extension@pratap.fastmail.fm', 'transparent-inactive-windows@art-was-here.github.io', 'day-progress@arcaege.github.io', 'applications-overview-tooltip@RaphaelRochet', 'simple-weather@romanlefler.com', 'quick-settings-avatar@d-go', 'quick-touchpad-toggle@kramo.hu', 'IndicatorVisibilityTool@VirlesFelyard', 'night-light-slider-updated@vilsbeg.codeberg.org', 'pinit@cankurttekin', 'wifiqrcode@glerro.pm.me', 'notification-configurator@exposedcat', 'tilingshell@ferrarodomenico.com', 'fnlock-switch-tp-comp-usb-kb@goloshubov.github.io', 'notification-timeout@chlumskyvaclav.gmail.com', 'notification-banner-reloaded@marcinjakubowski.github.com', 'openbar@neuromorph', 'ufw-status-indicator@bittokazi.com', 'xwayland-indicator@swsnr.de', 'battery-drop@khisrav', 'floating-mini-panel@ghi59.github.com', 'right-click-next@derVedro', 'logowidget@github.com.howbea', 'battery-indicator-icon@Deminder', 'volume_scroller@francislavoie.github.io', 'always-indicator@martin.zurowietz.de', 'CoverflowAltTab@palatis.blogspot.com']
+favorite-apps=['synaptic.desktop', 'org.gnome.Characters.desktop', 'org.gnome.Software.desktop', 'org.gnome.Nautilus.desktop', 'start-tor-browser.desktop', 'brave-browser.desktop', 'google-chrome.desktop', 'zen.desktop', 'org.gnome.TextEditor.desktop', 'org.gnome.Terminal.desktop', 'code.desktop', 'chrome-hnpfjngllnobngcgfapefoaidbinmjnm-Default.desktop', 'libreoffice-writer.desktop', 'io.github.amit9838.mousam.desktop', 'io.missioncenter.MissionCenter.desktop']
 last-selected-power-profile='power-saver'
 welcome-dialog-last-shown-version='46.0'
 
@@ -1059,7 +1059,7 @@ position='Bottom'
 preview-scaling-factor=0.5
 preview-to-monitor-ratio=0.5
 randomize-animation-times=true
-switcher-background-color=(0.62745098039215685, 0.75294117647058822, 0.50980392156862742)
+switcher-background-color=(0.32156862745098042, 0.58039215686274515, 0.88627450980392153)
 switcher-looping-method='Carousel'
 switcher-style='Coverflow'
 tint-use-theme-color=true
@@ -1176,9 +1176,11 @@ style=1
 width=15
 
 [org/gnome/shell/extensions/desktop-cube]
+active-workpace-opacity=172
 edge-switch-pressure=150
+inactive-workpace-opacity=176
 mouse-rotation-speed=2.5000000000000004
-window-parallax=0.61904761904761907
+window-parallax=0.60317460317460314
 
 [org/gnome/shell/extensions/dim-background-windows]
 brightness-dark-style=0.90000000000000002
@@ -1264,11 +1266,14 @@ layout=[['gnome@main', 'quick-settings-audio-panel@rayzeq.github.io/main']]
 single-column=false
 
 [org/gnome/shell/extensions/logo-widget]
+logo-border=uint32 28
 logo-file='/home/prithvi/Pictures/ubuntu-logo-svgrepo-com.png'
 logo-file-dark='/home/prithvi/Pictures/ubuntu-logo-svgrepo-com.png'
-logo-opacity=uint32 103
+logo-opacity=uint32 25
 logo-position='bottom-right'
+logo-size=4.0723684210526319
 overview-visible=true
+y-logo-border=uint32 28
 
 [org/gnome/shell/extensions/notification-banner-reloaded]
 anchor-horizontal=1
@@ -1291,7 +1296,7 @@ color='rgb(198,70,0)'
 
 [org/gnome/shell/extensions/one-thing]
 location-in-status-bar=2
-thing-value='Unfuckwithable🥂'
+thing-value='Some important reminder!'
 
 [org/gnome/shell/extensions/openbar]
 accent-override=false
@@ -1605,7 +1610,7 @@ applications=['org.gnome.tweaks.desktop', 'com.mattjakeman.ExtensionManager.desk
 position=0
 
 [org/gnome/shell/extensions/user-theme]
-name='Graphite-green-Dark-compact-nord'
+name='Graphite-blue-Dark-compact'
 
 [org/gnome/shell/extensions/visualizer]
 visualizer-color='rgb(26,95,180)'
@@ -1660,7 +1665,7 @@ startup-sound=''
 
 [org/gnome/shell/weather]
 automatic-location=true
-locations=[<(uint32 2, <('Hyderabad', 'VOHY', true, [(0.30455995447301049, 1.3695016922159813)], [(0.30325580954933529, 1.3696374264719091)])>)>, <(uint32 2, <('Chicago', 'KMDW', true, [(0.72927128935316143, -1.5316185371029443)], [(0.73042086791828009, -1.529781996944241)])>)>, <(uint32 2, <('New York', 'KNYC', true, [(0.71180344078725644, -1.2909618758762367)], [(0.71059804659265924, -1.2916478949920254)])>)>, <(uint32 2, <('San Francisco', 'KOAK', false, [(0.65832848982162007, -2.133408063190589)], [(0.65832848982162007, -2.133408063190589)])>)>, <(uint32 2, <('Boston', 'KBOS', true, [(0.73933117517543911, -1.2393680058718144)], [(0.73929408692883414, -1.2402270045697685)])>)>, <(uint32 2, <('London', 'EGWU', false, [(0.89971722940307675, -0.007272211034407213)], [(0.89971722940307675, -0.007272211034407213)])>)>]
+locations=[<(uint32 2, <('New York', 'KNYC', true, [(0.71180344078725644, -1.2909618758762367)], [(0.71059804659265924, -1.2916478949920254)])>)>]
 
 [org/gnome/shell/world-clocks]
 locations=[<(uint32 2, <('Hyderabad', 'VOHY', true, [(0.30455995447301049, 1.3695016922159813)], [(0.30325580954933529, 1.3696374264719091)])>)>, <(uint32 2, <('New York', 'KNYC', true, [(0.71180344078725644, -1.2909618758762367)], [(0.71059804659265924, -1.2916478949920254)])>)>, <(uint32 2, <('Chicago', 'KMDW', true, [(0.72927128935316143, -1.5316185371029443)], [(0.73042086791828009, -1.529781996944241)])>)>, <(uint32 2, <('San Francisco', 'KOAK', false, [(0.65832848982162007, -2.133408063190589)], [(0.65832848982162007, -2.133408063190589)])>)>]
@@ -1689,7 +1694,7 @@ library-maximize=false
 library-width=1024
 
 [org/gnome/software]
-check-timestamp=int64 1752910529
+check-timestamp=int64 1754382841
 install-timestamp=int64 1751554082
 update-notification-timestamp=int64 1752910467
 
@@ -1700,8 +1705,8 @@ new-terminal-mode='tab'
 theme-variant='system'
 
 [org/gnome/terminal/legacy/profiles:]
-default='af80295c-1fe4-415c-b984-a652b3f6b8bb'
-list=['b5abdad7-2604-4cec-b21b-4f30da879ab5', '8571123a-ae6b-4f43-8857-bf39f5231e61', 'af80295c-1fe4-415c-b984-a652b3f6b8bb', 'e583e9c9-2e03-40db-bfd8-21ec553541ed']
+default='b5abdad7-2604-4cec-b21b-4f30da879ab5'
+list=['b5abdad7-2604-4cec-b21b-4f30da879ab5']
 
 [org/gnome/terminal/legacy/profiles:/:01dfbbed-904a-4ebe-82c1-a25c8f44259c]
 allow-bold=true
@@ -1731,6 +1736,14 @@ use-theme-background=false
 allow-bold=true
 use-theme-background=false
 
+[org/gnome/terminal/legacy/profiles:/:083bf41b-f75a-4b38-b9b3-786839926e4b]
+allow-bold=true
+use-theme-background=false
+
+[org/gnome/terminal/legacy/profiles:/:0847a352-3812-400c-ba64-bd38f129b5b9]
+allow-bold=true
+use-theme-background=false
+
 [org/gnome/terminal/legacy/profiles:/:084db34a-68c4-44a4-9536-3b98bf59b312]
 allow-bold=true
 use-theme-background=false
@@ -1740,6 +1753,18 @@ allow-bold=true
 use-theme-background=false
 
 [org/gnome/terminal/legacy/profiles:/:0ae1b979-f3df-439b-aa52-b5172e051f77]
+allow-bold=true
+use-theme-background=false
+
+[org/gnome/terminal/legacy/profiles:/:0f500ce4-ebcd-402d-84de-2a864ae74a35]
+allow-bold=true
+use-theme-background=false
+
+[org/gnome/terminal/legacy/profiles:/:141d592e-f320-4d6d-b1c5-7fcc9c9977ca]
+allow-bold=true
+use-theme-background=false
+
+[org/gnome/terminal/legacy/profiles:/:19a44128-ebbd-4042-a9af-198603dd70bd]
 allow-bold=true
 use-theme-background=false
 
@@ -1763,6 +1788,14 @@ use-theme-background=false
 allow-bold=true
 use-theme-background=false
 
+[org/gnome/terminal/legacy/profiles:/:2d520240-0196-4e33-aee2-bf3440b10732]
+allow-bold=true
+use-theme-background=false
+
+[org/gnome/terminal/legacy/profiles:/:2f61aacc-0800-4749-aa5c-2abaf79c2580]
+allow-bold=true
+use-theme-background=false
+
 [org/gnome/terminal/legacy/profiles:/:33c8c7c4-028e-4749-9bb9-d67b84bc3d08]
 allow-bold=true
 use-theme-background=false
@@ -1779,6 +1812,10 @@ use-theme-background=false
 allow-bold=true
 use-theme-background=false
 
+[org/gnome/terminal/legacy/profiles:/:391f049d-21a1-45ab-9765-fb83823cd7ff]
+allow-bold=true
+use-theme-background=false
+
 [org/gnome/terminal/legacy/profiles:/:3a645761-7f17-4d1b-a8b0-5bb16395c012]
 allow-bold=true
 use-theme-background=false
@@ -1792,6 +1829,10 @@ allow-bold=true
 use-theme-background=false
 
 [org/gnome/terminal/legacy/profiles:/:447b4aa4-2b4a-4a53-8ca3-5f536a71c0a1]
+allow-bold=true
+use-theme-background=false
+
+[org/gnome/terminal/legacy/profiles:/:49155f84-7f87-4d4e-beb6-ba5f2c4356ee]
 allow-bold=true
 use-theme-background=false
 
@@ -1819,6 +1860,10 @@ use-theme-background=false
 allow-bold=true
 use-theme-background=false
 
+[org/gnome/terminal/legacy/profiles:/:61aaf465-6258-4a63-addc-a673885c7ec3]
+allow-bold=true
+use-theme-background=false
+
 [org/gnome/terminal/legacy/profiles:/:63bc7054-84ec-499b-9312-d777ebbcd4ae]
 allow-bold=true
 use-theme-background=false
@@ -1832,6 +1877,14 @@ allow-bold=true
 use-theme-background=false
 
 [org/gnome/terminal/legacy/profiles:/:693a2e68-d778-4731-9220-b4b7dbc81561]
+allow-bold=true
+use-theme-background=false
+
+[org/gnome/terminal/legacy/profiles:/:697c926a-7505-42d6-accc-18c89e902171]
+allow-bold=true
+use-theme-background=false
+
+[org/gnome/terminal/legacy/profiles:/:72c5b6ee-c517-45cb-b54e-09e40f665931]
 allow-bold=true
 use-theme-background=false
 
@@ -1869,34 +1922,7 @@ use-theme-background=false
 
 [org/gnome/terminal/legacy/profiles:/:8571123a-ae6b-4f43-8857-bf39f5231e61]
 allow-bold=true
-audible-bell=true
-background-color='#1b1b1f1f3232'
-background-transparency-percent=0
-bold-color='#90909494a7a7'
-bold-color-same-as-fg=true
-bold-is-bright=true
-cursor-background-color='#28289d9dbdbd'
-cursor-blink-mode='on'
-cursor-colors-set=true
-cursor-foreground-color='#1b1b1f1f3232'
-cursor-shape='underline'
-custom-command=''
-default-size-columns=150
-default-size-rows=45
-font='CommitMono Nerd Font Mono 11'
-foreground-color='#90909494a7a7'
-highlight-colors-set=false
-login-shell=false
-palette=['#1b1b1f1f3232', '#62627a7af4f4', '#6767c9c9e4e4', '#9999e9e9ffff', '#72728989fdfd', '#6767c9c9e4e4', '#8b8b9e9efdfd', '#90909494a7a7', '#515158587b7b', '#7575d5d5f0f0', '#25252a2a4141', '#44444b4b6f6f', '#5e5e65658787', '#c3c3cdcdfefe', '#5c5cbcbcd6d6', '#e1e1e6e6ffff']
-scroll-on-output=true
-scrollback-lines=100000
-use-custom-command=false
-use-system-font=false
 use-theme-background=false
-use-theme-colors=false
-use-theme-transparency=false
-use-transparent-background=false
-visible-name='Base2Tone Drawbridge'
 
 [org/gnome/terminal/legacy/profiles:/:883cbb49-23f7-45fd-94b4-be398171746a]
 allow-bold=true
@@ -1960,34 +1986,7 @@ use-theme-background=false
 
 [org/gnome/terminal/legacy/profiles:/:af80295c-1fe4-415c-b984-a652b3f6b8bb]
 allow-bold=true
-audible-bell=true
-background-color='#20201d1d2a2a'
-background-transparency-percent=0
-bold-color='#99999292b0b0'
-bold-color-same-as-fg=true
-bold-is-bright=true
-cursor-background-color='#b0b04242ffff'
-cursor-blink-mode='on'
-cursor-colors-set=true
-cursor-foreground-color='#20201d1d2a2a'
-cursor-shape='underline'
-custom-command=''
-default-size-columns=150
-default-size-rows=45
-font='CommitMono Nerd Font Mono 11'
-foreground-color='#99999292b0b0'
-highlight-colors-set=false
-login-shell=false
-palette=['#20201d1d2a2a', '#93937575f5f5', '#d2d29494ffff', '#ececd1d1ffff', '#a2a28686fdfd', '#d2d29494ffff', '#b5b5a0a0fefe', '#99999292b0b0', '#62625a5a7c7c', '#dbdba8a8ffff', '#2c2c28283939', '#4b4b45455f5f', '#6e6e65658b8b', '#dcdcd2d2fefe', '#caca8080ffff', '#efefebebffff']
-scroll-on-output=true
-scrollback-lines=100000
-use-custom-command=false
-use-system-font=false
 use-theme-background=false
-use-theme-colors=false
-use-theme-transparency=false
-use-transparent-background=false
-visible-name='Base2Tone Lavender'
 
 [org/gnome/terminal/legacy/profiles:/:b0961077-d3f5-4797-b3af-1eef8aa55ea8]
 allow-bold=true
@@ -2013,13 +2012,13 @@ visible-name='Prithvi'
 [org/gnome/terminal/legacy/profiles:/:b5abdad7-2604-4cec-b21b-4f30da879ab5]
 audible-bell=true
 background-color='rgb(70,130,180)'
-background-transparency-percent=0
+background-transparency-percent=15
 bold-is-bright=true
 cursor-blink-mode='on'
 cursor-shape='underline'
 custom-command=''
-default-size-columns=150
-default-size-rows=45
+default-size-columns=165
+default-size-rows=50
 font='CommitMono Nerd Font Mono 11'
 foreground-color='rgb(255,255,255)'
 login-shell=false
@@ -2030,8 +2029,16 @@ use-custom-command=false
 use-system-font=false
 use-theme-colors=true
 use-theme-transparency=false
-use-transparent-background=false
+use-transparent-background=true
 visible-name='Default (Prithvi)'
+
+[org/gnome/terminal/legacy/profiles:/:ba8af011-86fa-434a-bb70-a1cf0cb62060]
+allow-bold=true
+use-theme-background=false
+
+[org/gnome/terminal/legacy/profiles:/:bb84d8ea-4a1f-46b0-8bab-e647f0d2db56]
+allow-bold=true
+use-theme-background=false
 
 [org/gnome/terminal/legacy/profiles:/:c2d01382-cfb5-476c-99fc-2acdbf0d3d35]
 allow-bold=true
@@ -2042,6 +2049,10 @@ allow-bold=true
 use-theme-background=false
 
 [org/gnome/terminal/legacy/profiles:/:c7053c19-cb06-47b0-8b03-6c539df15ad5]
+allow-bold=true
+use-theme-background=false
+
+[org/gnome/terminal/legacy/profiles:/:cccdff8b-8ee5-4e5a-922a-86ddcf7e93fb]
 allow-bold=true
 use-theme-background=false
 
@@ -2061,36 +2072,13 @@ use-theme-background=false
 allow-bold=true
 use-theme-background=false
 
+[org/gnome/terminal/legacy/profiles:/:e3e59d72-f1aa-46c2-8879-b778a8aab403]
+allow-bold=true
+use-theme-background=false
+
 [org/gnome/terminal/legacy/profiles:/:e583e9c9-2e03-40db-bfd8-21ec553541ed]
 allow-bold=true
-audible-bell=true
-background-color='#1e1e1e1e1f1f'
-background-transparency-percent=0
-bold-color='#979795959d9d'
-bold-color-same-as-fg=true
-bold-is-bright=true
-cursor-background-color='#36369292e2e2'
-cursor-blink-mode='on'
-cursor-colors-set=true
-cursor-foreground-color='#1e1e1e1e1f1f'
-cursor-shape='underline'
-custom-command=''
-default-size-columns=150
-default-size-rows=45
-font='CommitMono Nerd Font Mono 11'
-foreground-color='#979795959d9d'
-highlight-colors-set=false
-login-shell=false
-palette=['#1e1e1e1e1f1f', '#a1a17e7efcfc', '#7575bfbfffff', '#b3b3dbdbffff', '#b2b29494ffff', '#7575bfbfffff', '#c5c5adadffff', '#979795959d9d', '#5e5e5c5c6060', '#8a8ac8c8ffff', '#2b2b2b2b2c2c', '#515150505353', '#6a6a68686e6e', '#e5e5dbdbffff', '#6969b5b5f7f7', '#f4f4f0f0ffff']
-scroll-on-output=true
-scrollback-lines=100000
-use-custom-command=false
-use-system-font=false
 use-theme-background=false
-use-theme-colors=false
-use-theme-transparency=false
-use-transparent-background=false
-visible-name='Base2Tone Mall'
 
 [org/gnome/terminal/legacy/profiles:/:ead2268a-3575-4312-b2b0-9ceb86b831d3]
 allow-bold=true
@@ -2105,6 +2093,10 @@ allow-bold=true
 use-theme-background=false
 
 [org/gnome/terminal/legacy/profiles:/:ed56f966-d8a0-43ae-b2e7-e051082349ce]
+allow-bold=true
+use-theme-background=false
+
+[org/gnome/terminal/legacy/profiles:/:ef3ea74e-4f30-434c-a1e0-926f464e0832]
 allow-bold=true
 use-theme-background=false
 
@@ -2128,9 +2120,16 @@ use-theme-background=false
 allow-bold=true
 use-theme-background=false
 
+[org/gnome/terminal/legacy/profiles:/:fb1e9c04-1c41-4ed7-8937-46dace95cf43]
+allow-bold=true
+use-theme-background=false
+
 [org/gnome/terminal/legacy/profiles:/:fbac9823-5f42-4026-993b-c630e965ff2b]
 allow-bold=true
 use-theme-background=false
+
+[org/gnome/yelp]
+font-adjustment=1
 
 [org/gtk/gtk4/settings/color-chooser]
 custom-colors=[(0.32156863808631897, 0.58039218187332153, 0.88627451658248901, 1.0), (0.35686275362968445, 0.53333336114883423, 0.78039216995239258, 1.0), (0.16899999976158142, 0.22400000691413879, 0.29800000786781311, 1.0), (0.0, 0.0, 0.0, 0.25), (1.0, 1.0, 1.0, 0.0), (1.0, 0.0, 0.0, 1.0)]

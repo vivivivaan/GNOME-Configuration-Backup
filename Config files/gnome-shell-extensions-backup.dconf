@@ -185,7 +185,7 @@ position='Bottom'
 preview-scaling-factor=0.5
 preview-to-monitor-ratio=0.5
 randomize-animation-times=true
-switcher-background-color=(0.62745098039215685, 0.75294117647058822, 0.50980392156862742)
+switcher-background-color=(0.32156862745098042, 0.58039215686274515, 0.88627450980392153)
 switcher-looping-method='Carousel'
 switcher-style='Coverflow'
 tint-use-theme-color=true
@@ -302,9 +302,11 @@ style=1
 width=15
 
 [desktop-cube]
+active-workpace-opacity=172
 edge-switch-pressure=150
+inactive-workpace-opacity=176
 mouse-rotation-speed=2.5000000000000004
-window-parallax=0.61904761904761907
+window-parallax=0.60317460317460314
 
 [dim-background-windows]
 brightness-dark-style=0.90000000000000002
@@ -390,11 +392,14 @@ layout=[['gnome@main', 'quick-settings-audio-panel@rayzeq.github.io/main']]
 single-column=false
 
 [logo-widget]
+logo-border=uint32 28
 logo-file='/home/prithvi/Pictures/ubuntu-logo-svgrepo-com.png'
 logo-file-dark='/home/prithvi/Pictures/ubuntu-logo-svgrepo-com.png'
-logo-opacity=uint32 103
+logo-opacity=uint32 25
 logo-position='bottom-right'
+logo-size=4.0723684210526319
 overview-visible=true
+y-logo-border=uint32 28
 
 [notification-banner-reloaded]
 anchor-horizontal=1
@@ -417,7 +422,7 @@ color='rgb(198,70,0)'
 
 [one-thing]
 location-in-status-bar=2
-thing-value='Unfuckwithable🥂'
+thing-value='Some important reminder!'
 
 [openbar]
 accent-override=false
@@ -731,7 +736,7 @@ applications=['org.gnome.tweaks.desktop', 'com.mattjakeman.ExtensionManager.desk
 position=0
 
 [user-theme]
-name='Graphite-green-Dark-compact-nord'
+name='Graphite-blue-Dark-compact'
 
 [visualizer]
 visualizer-color='rgb(26,95,180)'

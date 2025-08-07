@@ -367,8 +367,8 @@ wellbeingtoggle@m51.io
   Path: /home/prithvi/.local/share/gnome-shell/extensions/wellbeingtoggle@m51.io
   URL: https://github.com/Fingel/gnome-ext-wellbeing-toggle
   Version: 2
-  Enabled: Yes
-  State: ACTIVE
+  Enabled: No
+  State: INITIALIZED
 
 waylandorx11@injcristianrojas.github.com
   Name: Wayland or X11
@@ -396,6 +396,15 @@ fullscreen-notifications@sorrow.about.alice.pm.me
   Version: 12
   Enabled: Yes
   State: ACTIVE
+
+desktop-cube@schneegans.github.com
+  Name: Desktop Cube
+  Description: Indulge in nostalgia with useless 3D effects.
+  Path: /home/prithvi/.local/share/gnome-shell/extensions/desktop-cube@schneegans.github.com
+  URL: https://github.com/Schneegans/Desktop-Cube
+  Version: 28
+  Enabled: No
+  State: INITIALIZED
 
 volume_scroller@francislavoie.github.io
   Name: Volume Scroller

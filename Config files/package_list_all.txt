@@ -320,6 +320,11 @@ gnome-shell-extension-prefs			install
 gnome-shell-extension-ubuntu-dock		install
 gnome-shell-extension-ubuntu-tiling-assistant	install
 gnome-snapshot					install
+gnome-software					install
+gnome-software-common				install
+gnome-software-plugin-deb			install
+gnome-software-plugin-flatpak			install
+gnome-software-plugin-fwupd			install
 gnome-startup-applications			install
 gnome-system-monitor				install
 gnome-terminal					install
@@ -611,7 +616,6 @@ libclass-xsaccessor-perl			install
 libclone-perl:amd64				install
 libclucene-contribs1t64:amd64			install
 libclucene-core1t64:amd64			install
-libcmark0.30.2:amd64				install
 libcodec2-1.2:amd64				install
 libcolamd3:amd64				install
 libcollection4t64:amd64				install
@@ -770,6 +774,7 @@ libfile-mimeinfo-perl				install
 libfile-sharedir-perl				install
 libflac14:amd64					install
 libflashrom1:amd64				install
+libflatpak0:amd64				install
 libflite1:amd64					install
 libfluidsynth3:amd64				install
 libfont-afm-perl				install
@@ -1950,6 +1955,7 @@ policykit-desktop-privileges			install
 polkitd						install
 poppler-data					install
 poppler-utils					install
+power-profiles-daemon				install
 powermgmt-base					install
 ppp						install
 pptp-linux					install
@@ -2180,6 +2186,7 @@ tar						install
 tcl						install
 tcl8.6						install
 tcpdump						install
+tealdeer					install
 tecla						install
 telnet						install
 thermald					install
@@ -2187,10 +2194,8 @@ time						install
 timgm6mb-soundfont				install
 tinysparql					install
 tk8.6-blt2.5					install
-tldr						install
-tldr-hs						install
-tlp						install
-tlp-rdw						install
+tlp						deinstall
+tlp-rdw						deinstall
 tnftp						install
 tor						install
 tor-geoipdb					install
