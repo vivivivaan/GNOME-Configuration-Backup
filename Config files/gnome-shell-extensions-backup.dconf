@@ -185,7 +185,7 @@ position='Bottom'
 preview-scaling-factor=0.5
 preview-to-monitor-ratio=0.5
 randomize-animation-times=true
-switcher-background-color=(0.32156862745098042, 0.58039215686274515, 0.88627450980392153)
+switcher-background-color=(0.53725490196078429, 0.63921568627450975, 0.76078431372549016)
 switcher-looping-method='Carousel'
 switcher-style='Coverflow'
 tint-use-theme-color=true
@@ -371,7 +371,7 @@ panel=true
 panel-icon-size=0
 panel-in-overview=true
 panel-indicator-padding-size=0
-panel-size=22
+panel-size=21
 ripple-box=true
 search=true
 show-apps-button=true
@@ -619,7 +619,7 @@ weather-max-forecasts=5
 weather-show-location=true
 
 [restartto]
-blacklist=['USB HDD', 'PXE BOOT', 'LENOVO CLOUD', 'ON-PREMISE', 'Other HDD', 'IDER BOOT CDROM', 'IDER BOOT Floppy', 'ATA HDD', 'ATAPI CD', 'Linux-Firmware-Updater', 'Ubuntu', 'UEFI']
+blacklist=['IDER BOOT Floppy', 'ATA HDD', 'ATAPI CD', 'Ubuntu', 'Linux-Firmware-Updater', 'USB HDD', 'PXE BOOT', 'LENOVO CLOUD', 'ON-PREMISE', 'IDER BOOT CDROM', 'Other HDD']
 
 [rounded-window-corners-reborn]
 enable-preferences-entry=true
@@ -736,7 +736,7 @@ applications=['org.gnome.tweaks.desktop', 'com.mattjakeman.ExtensionManager.desk
 position=0
 
 [user-theme]
-name='Graphite-blue-Dark-compact'
+name='Graphite-blue-Dark-compact-nord'
 
 [visualizer]
 visualizer-color='rgb(26,95,180)'

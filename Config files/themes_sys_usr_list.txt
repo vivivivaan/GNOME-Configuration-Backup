@@ -1,23 +1,23 @@
 /home/prithvi/.icons/:
 total 20K
 drwxr-xr-x  5 prithvi prithvi 4.0K Aug  7 03:39 .
-drwxr-x--- 42 prithvi prithvi 4.0K Aug  7 03:47 ..
+drwxr-x--- 43 prithvi prithvi 4.0K Aug  7 04:06 ..
 drwxr-xr-x  9 prithvi prithvi 4.0K Aug  7 03:39 Fluent
 drwxr-xr-x  7 prithvi prithvi 4.0K Aug  7 03:39 Fluent-dark
 drwxr-xr-x  5 prithvi prithvi 4.0K Aug  7 03:39 Fluent-light
 
 /home/prithvi/.themes/:
 total 28K
-drwxrwxr-x  5 prithvi prithvi  12K Aug  7 03:15 .
-drwxr-x--- 42 prithvi prithvi 4.0K Aug  7 03:47 ..
-drwxrwxr-x 10 prithvi prithvi 4.0K Aug  7 03:15 Graphite-blue-Dark-compact
-drwxrwxr-x  3 prithvi prithvi 4.0K Aug  7 03:15 Graphite-blue-Dark-compact-hdpi
-drwxrwxr-x  3 prithvi prithvi 4.0K Aug  7 03:15 Graphite-blue-Dark-compact-xhdpi
+drwxrwxr-x  5 prithvi prithvi  12K Aug  7 13:28 .
+drwxr-x--- 43 prithvi prithvi 4.0K Aug  7 04:06 ..
+drwxrwxr-x 10 prithvi prithvi 4.0K Aug  7 13:28 Graphite-blue-Dark-compact-nord
+drwxrwxr-x  3 prithvi prithvi 4.0K Aug  7 13:26 Graphite-blue-Dark-compact-nord-hdpi
+drwxrwxr-x  3 prithvi prithvi 4.0K Aug  7 13:26 Graphite-blue-Dark-compact-nord-xhdpi
 
 /usr/share/icons/:
 total 188K
 drwxr-xr-x  41 root    root    4.0K Aug  7 03:39 .
-drwxr-xr-x 304 root    root     12K Aug  7 03:42 ..
+drwxr-xr-x 305 root    root     12K Aug  8 16:16 ..
 drwxr-xr-x   6 root    root    4.0K Apr 15 18:18 Adwaita
 -rw-r--r--   1 root    root    1.2K Mar 31  2024 cab_extract.png
 -rw-r--r--   1 root    root     529 Mar 31  2024 cab_view.png
@@ -64,15 +64,15 @@ drwxr-xr-x   2 root    root    4.0K Apr 15 18:17 Yaru-yellow-dark
 
 /usr/share/themes/:
 total 160K
-drwxr-xr-x  36 root root  12K Aug  7 03:15 .
-drwxr-xr-x 304 root root  12K Aug  7 03:42 ..
+drwxr-xr-x  36 root root  12K Aug  7 13:28 .
+drwxr-xr-x 305 root root  12K Aug  8 16:16 ..
 drwxr-xr-x   4 root root 4.0K Apr 15 18:17 Adwaita
 drwxr-xr-x   4 root root 4.0K Apr 15 18:17 Adwaita-dark
 drwxr-xr-x   4 root root 4.0K Apr 15 18:17 Default
 drwxr-xr-x   4 root root 4.0K Apr 15 18:17 Emacs
-drwxr-xr-x  10 root root 4.0K Aug  7 03:15 Graphite-blue-Dark-compact
-drwxr-xr-x   3 root root 4.0K Aug  7 03:15 Graphite-blue-Dark-compact-hdpi
-drwxr-xr-x   3 root root 4.0K Aug  7 03:15 Graphite-blue-Dark-compact-xhdpi
+drwxr-xr-x  10 root root 4.0K Aug  7 13:28 Graphite-blue-Dark-compact-nord
+drwxr-xr-x   3 root root 4.0K Aug  7 13:25 Graphite-blue-Dark-compact-nord-hdpi
+drwxr-xr-x   3 root root 4.0K Aug  7 13:25 Graphite-blue-Dark-compact-nord-xhdpi
 drwxr-xr-x   4 root root 4.0K Apr 15 18:17 HighContrast
 drwxr-xr-x   2 root root 4.0K Jun 19 15:39 obsolete
 drwxr-xr-x   3 root root 4.0K Apr 15 18:17 Raleigh

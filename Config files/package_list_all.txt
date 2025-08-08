@@ -1955,7 +1955,6 @@ policykit-desktop-privileges			install
 polkitd						install
 poppler-data					install
 poppler-utils					install
-power-profiles-daemon				install
 powermgmt-base					install
 ppp						install
 pptp-linux					install
@@ -2194,8 +2193,8 @@ time						install
 timgm6mb-soundfont				install
 tinysparql					install
 tk8.6-blt2.5					install
-tlp						deinstall
-tlp-rdw						deinstall
+tlp						install
+tlp-rdw						install
 tnftp						install
 tor						install
 tor-geoipdb					install
