@@ -35,6 +35,10 @@
 
 For GRUB configuration, install the GRUB theme but comment out the `GRUB_BACKGROUND` flag to avoid any graphical glitches.
 
+# Theming flatpak apps
+- To apply the GTK theme to flatpak apps, use `sudo flatpak override --filesystem=xdg-data/themes` (By default, that location translates to $HOME/.local/share/themes) or `sudo flatpak override --filesystem=$HOME/.themes`.
+- Additionally, `sudo flatpak override --filesystem=xdg-config/gtk-3.0 && sudo flatpak override --filesystem=xdg-config/gtk-4.0` is also useful.
+
 # Important search terms for NVIDIA driver and Linux Kernel packages
 `linux-generic`, `linux-headers-generic`, `linux-image-generic`, `linux-objects or linux-objects-nvidia`, `linux-modules`, `linux-header`, `linux-signatures or linux-signatures-nvidia`
 
