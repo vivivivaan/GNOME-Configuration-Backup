@@ -1,36 +1,34 @@
 /usr/share/fonts/opentype/:
-total 28K
-drwxr-xr-x 7 root    root    4.0K Jul 31 17:18 .
-drwxr-xr-x 8 root    root    4.0K Apr 15 18:16 ..
-drwxrwxr-x 2 prithvi prithvi 4.0K May 16 21:47 CommitMono
-drwxr-xr-x 2 root    root    4.0K Apr 15 18:16 noto
-drwxrwxr-x 2 prithvi prithvi 4.0K Jun 11 19:05 sf-mono
-drwxrwxr-x 2 root    root    4.0K Jun 11 18:52 sf-pro-display
-drwxr-xr-x 2 root    root    4.0K Apr 15 18:16 urw-base35
+CodeNewRoman
+CommitMono
+noto
+SF-Pro-Display-OTF
+urw-base35
 
-/usr/share/fonts/truetype:
-total 120K
-drwxr-xr-x 24 root    root    4.0K Aug  2 16:10 .
-drwxr-xr-x  8 root    root    4.0K Apr 15 18:16 ..
-drwxrwxr-x  2 root    root    4.0K Jan 31  2025 Adwaita_Mono
-drwxrwxr-x  2 root    root    4.0K Jan 31  2025 Adwaita_Sans
-drwxrwxr-x  2 prithvi prithvi 4.0K Jun 19 04:58 arial
-drwxrwxr-x  3 prithvi prithvi 4.0K Jul  5 19:56 Arimo
-drwxr-xr-x  2 root    root    4.0K May 22 07:00 dejavu
-drwxr-xr-x  2 root    root    4.0K Apr 15 18:16 droid
-drwxrwxr-x  2 prithvi prithvi 4.0K Jul  8 14:07 Imprima
-drwxrwxr-x  3 prithvi prithvi 4.0K May 17 08:11 Inter
-drwxrwxr-x  2 prithvi prithvi  12K May 16 16:11 JetBrainsMono
-drwxrwxr-x  2 prithvi prithvi 4.0K May 25 10:14 JuliaMono-ttf
-drwxr-xr-x  2 root    root    4.0K Apr 15 18:16 liberation
-drwxr-xr-x  2 root    root    4.0K Jun 27 22:52 libreoffice
-drwxrwxr-x  2 root    root    4.0K Jul 23 14:19 Livvic
-drwxr-xr-x  2 root    root    4.0K Jul 16 11:38 lyx
-drwxrwxr-x  2 prithvi prithvi 4.0K May 25 10:14 menlo
-drwxrwxr-x  2 prithvi prithvi 4.0K May 25 10:29 monaco
-drwxr-xr-x  2 root    root    4.0K Jul 17 12:54 msttcorefonts
-drwxrwxr-x  2 prithvi prithvi 4.0K May 17 08:11 NerdFontsSymbolsOnly
-drwxr-xr-x  2 root    root     20K Apr 15 18:16 noto
-drwxrwxr-x  3 prithvi prithvi 4.0K May 17 08:11 Roboto
-drwxrwxr-x  2 root    root    4.0K May 17 08:08 RobotoMono
-drwxr-xr-x  2 root    root    4.0K Apr 15 18:16 ubuntu
+/usr/share/fonts/truetype/:
+Adwaita-Mono
+Adwaita-Sans
+arial
+Arima
+Arimo
+dejavu
+droid
+freefont
+Imprima
+Inter
+JetBrainsMono
+JuliaMono-ttf
+liberation
+libreoffice
+Livvic
+menlo-cufonfonts
+monaco-cufonfonts
+Mozilla_Text
+msttcorefonts
+NerdFontsSymbolsOnly
+noto
+Roboto
+RobotoMono
+SF-Mono
+SF-Pro-Display-TTF
+ubuntu

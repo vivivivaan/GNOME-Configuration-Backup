@@ -7,22 +7,12 @@ clipboard-indicator@tudmotu.com
   Enabled: Yes
   State: ACTIVE
 
-user-theme@gnome-shell-extensions.gcampax.github.com
-  Name: User Themes
-  Description: Load shell themes from user directory.
-  Path: /home/prithvi/.local/share/gnome-shell/extensions/user-theme@gnome-shell-extensions.gcampax.github.com
-  URL: https://gitlab.gnome.org/GNOME/gnome-shell-extensions
-  Version: 64
-  Enabled: Yes
-  State: ACTIVE
-
-apps-menu@gnome-shell-extensions.gcampax.github.com
-  Name: Apps Menu
-  Description: Add a category-based menu for apps.
-This extension is part of Classic Mode and is officially supported by GNOME. Please do not report bugs using the form below, use GNOME's GitLab instance instead.
-  Path: /home/prithvi/.local/share/gnome-shell/extensions/apps-menu@gnome-shell-extensions.gcampax.github.com
-  URL: https://gitlab.gnome.org/GNOME/gnome-shell-extensions
-  Version: 65
+Vitals@CoreCoding.com
+  Name: Vitals
+  Description: A glimpse into your computer's temperature, voltage, fan speed, memory usage, processor load, system resources, network speed and storage stats. This is a one stop shop to monitor all of your vital sensors. Uses asynchronous polling to provide a smooth user experience. Feature requests or bugs? Please use GitHub.
+  Path: /home/prithvi/.local/share/gnome-shell/extensions/Vitals@CoreCoding.com
+  URL: https://github.com/corecoding/Vitals
+  Version: 71
   Enabled: Yes
   State: ACTIVE
 
@@ -36,12 +26,21 @@ This extension is part of Classic Mode and is officially supported by GNOME. Ple
   Enabled: Yes
   State: ACTIVE
 
-drive-menu@gnome-shell-extensions.gcampax.github.com
-  Name: Removable Drive Menu
-  Description: A status menu for accessing and unmounting removable devices.
-  Path: /home/prithvi/.local/share/gnome-shell/extensions/drive-menu@gnome-shell-extensions.gcampax.github.com
+user-theme@gnome-shell-extensions.gcampax.github.com
+  Name: User Themes
+  Description: Load shell themes from user directory.
+  Path: /home/prithvi/.local/share/gnome-shell/extensions/user-theme@gnome-shell-extensions.gcampax.github.com
   URL: https://gitlab.gnome.org/GNOME/gnome-shell-extensions
-  Version: 67
+  Version: 64
+  Enabled: Yes
+  State: ACTIVE
+
+day-progress@arcaege.github.io
+  Name: Day Progress
+  Description: Displays a (somewhat) customisable progress bar of your day in the top panel to help you track your time.
+  Path: /home/prithvi/.local/share/gnome-shell/extensions/day-progress@arcaege.github.io
+  URL: https://github.com/ArcaEge/day-progress
+  Version: 21
   Enabled: Yes
   State: ACTIVE
 
@@ -54,12 +53,58 @@ screenshort-cut@pauloimon
   Enabled: Yes
   State: ACTIVE
 
+reboottouefi@ubaygd.com
+  Name: RebootToUEFI
+  Description: Reboot system into UEFI
+  Path: /home/prithvi/.local/share/gnome-shell/extensions/reboottouefi@ubaygd.com
+  URL: https://github.com/UbayGD/reboottouefi
+  Version: 24
+  Enabled: Yes
+  State: ACTIVE
+
+apps-menu@gnome-shell-extensions.gcampax.github.com
+  Name: Apps Menu
+  Description: Add a category-based menu for apps.
+This extension is part of Classic Mode and is officially supported by GNOME. Please do not report bugs using the form below, use GNOME's GitLab instance instead.
+  Path: /home/prithvi/.local/share/gnome-shell/extensions/apps-menu@gnome-shell-extensions.gcampax.github.com
+  URL: https://gitlab.gnome.org/GNOME/gnome-shell-extensions
+  Version: 65
+  Enabled: Yes
+  State: ACTIVE
+
+fullscreen-notifications@sorrow.about.alice.pm.me
+  Name: Fullscreen Notifications
+  Description: Enables all notifications in fullscreen mode
+  Path: /home/prithvi/.local/share/gnome-shell/extensions/fullscreen-notifications@sorrow.about.alice.pm.me
+  URL: https://github.com/soal/gnome-shell-extension-fullscreen-notifications
+  Version: 12
+  Enabled: Yes
+  State: ACTIVE
+
 Hide_Activities@shay.shayel.org
   Name: Hide Activities Button
   Description: Hides the Activities button from the status bar (the hot corner and keyboard shortcut keeps working). To disable top left hot corner use 'No Topleft Hot Corner' extension — https://extensions.gnome.org/extension/118/no-topleft-hot-corner/ .
   Path: /home/prithvi/.local/share/gnome-shell/extensions/Hide_Activities@shay.shayel.org
   URL: https://github.com/zeten30/HideActivities
   Version: 21
+  Enabled: Yes
+  State: ACTIVE
+
+drive-menu@gnome-shell-extensions.gcampax.github.com
+  Name: Removable Drive Menu
+  Description: A status menu for accessing and unmounting removable devices.
+  Path: /home/prithvi/.local/share/gnome-shell/extensions/drive-menu@gnome-shell-extensions.gcampax.github.com
+  URL: https://gitlab.gnome.org/GNOME/gnome-shell-extensions
+  Version: 67
+  Enabled: Yes
+  State: ACTIVE
+
+osd-volume-number@deminder
+  Name: OSD Volume Number
+  Description: Replace the on-screen-display volume level icon with a number.
+  Path: /home/prithvi/.local/share/gnome-shell/extensions/osd-volume-number@deminder
+  URL: https://github.com/Deminder/osd-volume-number
+  Version: 12
   Enabled: Yes
   State: ACTIVE
 
@@ -80,12 +125,21 @@ Note: if the extension shows an error after updating, please make sure to restar
   Enabled: Yes
   State: ACTIVE
 
-day-progress@arcaege.github.io
-  Name: Day Progress
-  Description: Displays a (somewhat) customisable progress bar of your day in the top panel to help you track your time.
-  Path: /home/prithvi/.local/share/gnome-shell/extensions/day-progress@arcaege.github.io
-  URL: https://github.com/ArcaEge/day-progress
-  Version: 21
+monitor@astraext.github.io
+  Name: Astra Monitor
+  Description: Astra Monitor is a cutting-edge, fully customizable, and performance-focused system monitoring extension for GNOME's top bar. It's an all-in-one solution for those seeking to keep a close eye on their system's performance metrics like CPU, GPU, RAM, disk usage, network statistics, and sensor readings.
+  Path: /home/prithvi/.local/share/gnome-shell/extensions/monitor@astraext.github.io
+  URL: https://github.com/AstraExt/astra-monitor
+  Version: 34 (51)
+  Enabled: Yes
+  State: ACTIVE
+
+dim-background-windows@stephane-13.github.com
+  Name: Dim Background Windows
+  Description: Dim windows without focus
+  Path: /home/prithvi/.local/share/gnome-shell/extensions/dim-background-windows@stephane-13.github.com
+  URL: https://github.com/stephane-13/gnome-shell-extension-dim-background-windows
+  Version: 18
   Enabled: Yes
   State: ACTIVE
 
@@ -98,12 +152,13 @@ tweaks-system-menu@extensions.gnome-shell.fifi.org
   Enabled: Yes
   State: ACTIVE
 
-Vitals@CoreCoding.com
-  Name: Vitals
-  Description: A glimpse into your computer's temperature, voltage, fan speed, memory usage, processor load, system resources, network speed and storage stats. This is a one stop shop to monitor all of your vital sensors. Uses asynchronous polling to provide a smooth user experience. Feature requests or bugs? Please use GitHub.
-  Path: /home/prithvi/.local/share/gnome-shell/extensions/Vitals@CoreCoding.com
-  URL: https://github.com/corecoding/Vitals
-  Version: 71
+custom-hot-corners-extended@G-dH.github.com
+  Name: CHC-E (Custom Hot Corners - Extended)
+  Description: Give a function to any corner or edge of your monitors and expand your keyboard capabilities.
+Mouse pointer pressure, clicks and scrolls over the monitor corners/edges or custom keyboard shortcuts can trigger any of dozens built-in actions that helps you navigate and control your desktop environment, or your own shell commands.
+  Path: /home/prithvi/.local/share/gnome-shell/extensions/custom-hot-corners-extended@G-dH.github.com
+  URL: https://github.com/G-dH/custom-hot-corners
+  Version: 48.1 (46)
   Enabled: Yes
   State: ACTIVE
 
@@ -116,17 +171,14 @@ transparent-window-moving@noobsai.github.com
   Enabled: Yes
   State: ACTIVE
 
-hidetopbar@mathieu.bidon.ca
-  Name: Hide Top Bar
-  Description: Hides the top bar, except in overview. However, there is an option to show the panel whenever the mouse pointer approaches the edge of the screen. And if "intellihide" is enabled, the panel only hides when a window takes the space.
-
-- Press backspace to remove keyboard shortcut.
-- Log off and on again when there is an error after upgrading.
-  Path: /home/prithvi/.local/share/gnome-shell/extensions/hidetopbar@mathieu.bidon.ca
-  URL: https://gitlab.gnome.org/tuxor1337/hidetopbar
-  Version: 120
-  Enabled: No
-  State: INITIALIZED
+transparent-inactive-windows@art-was-here.github.io
+  Name: Transparent Inactive Windows
+  Description: Makes any non-active window semi-transparent
+  Path: /home/prithvi/.local/share/gnome-shell/extensions/transparent-inactive-windows@art-was-here.github.io
+  URL: https://github.com/art-was-here/transparent-inactive-windows
+  Version: 2
+  Enabled: Yes
+  State: ACTIVE
 
 gnomebedtime@ionutbortis.gmail.com
   Name: Bedtime Mode
@@ -150,25 +202,36 @@ bash -c 'schema_id=org.gnome.shell.extensions.bedtime-mode; schema_dir=~/.local/
   Path: /home/prithvi/.local/share/gnome-shell/extensions/gnomebedtime@ionutbortis.gmail.com
   URL: https://github.com/ionutbortis/gnome-bedtime-mode
   Version: 22
-  Enabled: No
-  State: INITIALIZED
-
-monitor@astraext.github.io
-  Name: Astra Monitor
-  Description: Astra Monitor is a cutting-edge, fully customizable, and performance-focused system monitoring extension for GNOME's top bar. It's an all-in-one solution for those seeking to keep a close eye on their system's performance metrics like CPU, GPU, RAM, disk usage, network statistics, and sensor readings.
-  Path: /home/prithvi/.local/share/gnome-shell/extensions/monitor@astraext.github.io
-  URL: https://github.com/AstraExt/astra-monitor
-  Version: 34 (51)
   Enabled: Yes
   State: ACTIVE
 
-custom-hot-corners-extended@G-dH.github.com
-  Name: CHC-E (Custom Hot Corners - Extended)
-  Description: Give a function to any corner or edge of your monitors and expand your keyboard capabilities.
-Mouse pointer pressure, clicks and scrolls over the monitor corners/edges or custom keyboard shortcuts can trigger any of dozens built-in actions that helps you navigate and control your desktop environment, or your own shell commands.
-  Path: /home/prithvi/.local/share/gnome-shell/extensions/custom-hot-corners-extended@G-dH.github.com
-  URL: https://github.com/G-dH/custom-hot-corners
-  Version: 48.1 (46)
+hidetopbar@mathieu.bidon.ca
+  Name: Hide Top Bar
+  Description: Hides the top bar, except in overview. However, there is an option to show the panel whenever the mouse pointer approaches the edge of the screen. And if "intellihide" is enabled, the panel only hides when a window takes the space.
+
+- Press backspace to remove keyboard shortcut.
+- Log off and on again when there is an error after upgrading.
+  Path: /home/prithvi/.local/share/gnome-shell/extensions/hidetopbar@mathieu.bidon.ca
+  URL: https://gitlab.gnome.org/tuxor1337/hidetopbar
+  Version: 120
+  Enabled: No
+  State: INITIALIZED
+
+media-progress@krypion17
+  Name: Media Progress
+  Description: Progress Bar for the GNOME Media Notification
+  Path: /home/prithvi/.local/share/gnome-shell/extensions/media-progress@krypion17
+  URL: https://github.com/Krypion17/media-progress
+  Version: 26
+  Enabled: No
+  State: INITIALIZED
+
+ufw-status-indicator@bittokazi.com
+  Name: UFW Status Indicator
+  Description: Shows UFW status in system indicator. If gufw is installed then clicking on status icon also opens it
+  Path: /home/prithvi/.local/share/gnome-shell/extensions/ufw-status-indicator@bittokazi.com
+  URL: https://github.com/bittokazi/ufw-status-indicator
+  Version: 2
   Enabled: Yes
   State: ACTIVE
 
@@ -192,15 +255,6 @@ just-perfection-desktop@just-perfection
   Enabled: Yes
   State: ACTIVE
 
-dim-background-windows@stephane-13.github.com
-  Name: Dim Background Windows
-  Description: Dim windows without focus
-  Path: /home/prithvi/.local/share/gnome-shell/extensions/dim-background-windows@stephane-13.github.com
-  URL: https://github.com/stephane-13/gnome-shell-extension-dim-background-windows
-  Version: 18
-  Enabled: Yes
-  State: ACTIVE
-
 notification-timeout@chlumskyvaclav.gmail.com
   Name: Notification Timeout
   Description: This extension allows configuring the same timeout for all notifications. It also allows ignoring the idle state.
@@ -221,15 +275,6 @@ bluetooth-quick-connect@bjarosze.gmail.com
   Enabled: Yes
   State: ACTIVE
 
-osd-volume-number@deminder
-  Name: OSD Volume Number
-  Description: Replace the on-screen-display volume level icon with a number.
-  Path: /home/prithvi/.local/share/gnome-shell/extensions/osd-volume-number@deminder
-  URL: https://github.com/Deminder/osd-volume-number
-  Version: 12
-  Enabled: Yes
-  State: ACTIVE
-
 sound-percentage@subashghimire.info.np
   Name: Sound percentage
   Description: Display the current sound percentage in the system tray
@@ -244,16 +289,7 @@ show-desktop-button@amivaleo
   Description: Minimize/unminimize all open windows with a single click.
   Path: /home/prithvi/.local/share/gnome-shell/extensions/show-desktop-button@amivaleo
   URL: https://github.com/amivaleo/Show-Desktop-Button
-  Version: 46
-  Enabled: Yes
-  State: ACTIVE
-
-ufw-status-indicator@bittokazi.com
-  Name: UFW Status Indicator
-  Description: Shows UFW status in system indicator. If gufw is installed then clicking on status icon also opens it
-  Path: /home/prithvi/.local/share/gnome-shell/extensions/ufw-status-indicator@bittokazi.com
-  URL: https://github.com/bittokazi/ufw-status-indicator
-  Version: 2
+  Version: 47
   Enabled: Yes
   State: ACTIVE
 
@@ -293,14 +329,16 @@ open-desktop-location@laura.media
   Enabled: Yes
   State: ACTIVE
 
-media-progress@krypion17
-  Name: Media Progress
-  Description: Progress Bar for the GNOME Media Notification
-  Path: /home/prithvi/.local/share/gnome-shell/extensions/media-progress@krypion17
-  URL: https://github.com/Krypion17/media-progress
-  Version: 26
-  Enabled: No
-  State: INITIALIZED
+notification-banner-reloaded@marcinjakubowski.github.com
+  Name: Notification Banner Reloaded
+  Description: Configure notification banner position and animation to your liking.
+Version 9: Gnome 45 changes by mannjani@github
+Version 10: mannjani@github added a test button inside prefs
+  Path: /home/prithvi/.local/share/gnome-shell/extensions/notification-banner-reloaded@marcinjakubowski.github.com
+  URL: https://github.com/marcinjakubowski/notification-position-reloaded
+  Version: 15
+  Enabled: Yes
+  State: ACTIVE
 
 CoverflowAltTab@palatis.blogspot.com
   Name: Coverflow Alt-Tab
@@ -317,18 +355,16 @@ azwallpaper@azwallpaper.gitlab.com
  Automatically changes the wallpaper at a user defined interval.
   Path: /home/prithvi/.local/share/gnome-shell/extensions/azwallpaper@azwallpaper.gitlab.com
   URL: https://gitlab.com/AndrewZaech/azwallpaper
-  Version: 13.1 (14)
+  Version: 13.2 (15)
   Enabled: No
   State: INITIALIZED
 
-notification-banner-reloaded@marcinjakubowski.github.com
-  Name: Notification Banner Reloaded
-  Description: Configure notification banner position and animation to your liking.
-Version 9: Gnome 45 changes by mannjani@github
-Version 10: mannjani@github added a test button inside prefs
-  Path: /home/prithvi/.local/share/gnome-shell/extensions/notification-banner-reloaded@marcinjakubowski.github.com
-  URL: https://github.com/marcinjakubowski/notification-position-reloaded
-  Version: 15
+waylandorx11@injcristianrojas.github.com
+  Name: Wayland or X11
+  Description: Am I using Wayland or X11?
+  Path: /home/prithvi/.local/share/gnome-shell/extensions/waylandorx11@injcristianrojas.github.com
+  URL: https://github.com/injcristianrojas/waylandorx11
+  Version: 16
   Enabled: Yes
   State: ACTIVE
 
@@ -370,29 +406,14 @@ wellbeingtoggle@m51.io
   Enabled: No
   State: INITIALIZED
 
-waylandorx11@injcristianrojas.github.com
-  Name: Wayland or X11
-  Description: Am I using Wayland or X11?
-  Path: /home/prithvi/.local/share/gnome-shell/extensions/waylandorx11@injcristianrojas.github.com
-  URL: https://github.com/injcristianrojas/waylandorx11
-  Version: 16
-  Enabled: Yes
-  State: ACTIVE
+volume_scroller@francislavoie.github.io
+  Name: Volume Scroller
+  Description: Scroll up or down in the Top Bar to adjust volume. Supports configuring granularity (default step of 5%)
 
-reboottouefi@ubaygd.com
-  Name: RebootToUEFI
-  Description: Reboot system into UEFI
-  Path: /home/prithvi/.local/share/gnome-shell/extensions/reboottouefi@ubaygd.com
-  URL: https://github.com/UbayGD/reboottouefi
-  Version: 24
-  Enabled: Yes
-  State: ACTIVE
-
-fullscreen-notifications@sorrow.about.alice.pm.me
-  Name: Fullscreen Notifications
-  Description: Enables all notifications in fullscreen mode
-  Path: /home/prithvi/.local/share/gnome-shell/extensions/fullscreen-notifications@sorrow.about.alice.pm.me
-  URL: https://github.com/soal/gnome-shell-extension-fullscreen-notifications
+This is a fork of https://extensions.gnome.org/extension/4109/volume-scroller/ which is now unfortunately unmaintained/archived.
+  Path: /home/prithvi/.local/share/gnome-shell/extensions/volume_scroller@francislavoie.github.io
+  URL: https://github.com/francislavoie/gnome-shell-volume-scroller
+  Original author: francislavoie
   Version: 12
   Enabled: Yes
   State: ACTIVE
@@ -406,15 +427,21 @@ desktop-cube@schneegans.github.com
   Enabled: No
   State: INITIALIZED
 
-volume_scroller@francislavoie.github.io
-  Name: Volume Scroller
-  Description: Scroll up or down in the Top Bar to adjust volume. Supports configuring granularity (default step of 5%)
+window-thumbnails@G-dH.github.com
+  Name: WTMB (Window Thumbnails)
+  Description: Allows the creation of window clones for use as Picture-in-Picture (PIP) live thumbnails
+  Path: /home/prithvi/.local/share/gnome-shell/extensions/window-thumbnails@G-dH.github.com
+  URL: https://github.com/G-dH/window-thumbnails
+  Version: 48.1 (14)
+  Enabled: No
+  State: INITIALIZED
 
-This is a fork of https://extensions.gnome.org/extension/4109/volume-scroller/ which is now unfortunately unmaintained/archived.
-  Path: /home/prithvi/.local/share/gnome-shell/extensions/volume_scroller@francislavoie.github.io
-  URL: https://github.com/francislavoie/gnome-shell-volume-scroller
-  Original author: francislavoie
-  Version: 12
+AlphabeticalAppGrid@stuarthayhurst
+  Name: Alphabetical App Grid
+  Description: Alphabetically order the app grid and folders
+  Path: /home/prithvi/.local/share/gnome-shell/extensions/AlphabeticalAppGrid@stuarthayhurst
+  URL: https://github.com/stuarthayhurst/alphabetical-grid-extension
+  Version: 43
   Enabled: Yes
   State: ACTIVE
 

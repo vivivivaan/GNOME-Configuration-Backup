@@ -3,15 +3,30 @@
 * Extensions are stored in ```~/.local/share/gnome-shell/extensions```.
 
 # Restore
+
 - Install **Extension Manager** with `flatpak install flathub com.mattjakeman.ExtensionManager`.
 - Install the extensions listed in `gnome_extensions_list.txt`.
 - Run `dconf load /org/gnome/shell/extensions/ < gnome-shell-extensions-backup.dconf` to set the extensions configurations. 
 - Restart the session/system to see the effects.
 - (optional) Restore all Gnome-wide settings, including **Gnome-tweaks** configurations using `dconf load -f / < complete_gnome_saved_settings.dconf`.
-- Additionally, you can backup and restore all the GNOME settings and other configurations using `flatpak install flathub io.github.vikdevelop.SaveDesktop` flatpak app.
+- Additionally, you can backup and restore all the GNOME settings and other configurations using SaveDesktop (`flatpak install flathub io.github.vikdevelop.SaveDesktop`) flatpak app.
 
 # Backup
-- To backup only gnome-shell extentions, run `dconf dump /org/gnome/shell/extensions/ > gnome-shell-extensions-backup.dconf` and for all system-wide configurations, run `dconf dump / > complete_gnome_saved_settings.dconf`.
+
+| Item | Command |
+| :------------ | ------: |
+| Extensions configuration | `dconf dump /org/gnome/shell/extensions/ > gnome-shell-extensions-backup.dconf` |
+| Extensions List | `gnome-extensions list -d > gnome_extensions_list.txt` |
+| System-wide configuration | `dconf dump / > complete_gnome_saved_settings.dconf` |
+| Packages List | `dpkg --get-selections > package_list_all.txt` | 
+| OpenType and TrueType fonts | `ls /usr/share/fonts/truetype/ /usr/share/fonts/opentype/ > fonts_open_true_list.txt` |
+| Themes List | `ls ~/.themes/ /usr/share/themes/ ~/.icons/ /usr/share/icons/ > themes_sys_usr_list.txt` |
+
+<!-- - Only gnome-shell extentions config, run `dconf dump /org/gnome/shell/extensions/ > gnome-shell-extensions-backup.dconf`.
+- Complete system-wide configurations: `dconf dump / > complete_gnome_saved_settings.dconf`.
+- List of all packages: 
+
+`dconf dump /org/gnome/shell/extensions/ > gnome-shell-extensions-backup.dconf && dconf dump / > complete_gnome_saved_settings.dconf && dpkg --get-selections >  package_list_all.txt && ls /usr/share/fonts/truetype/ /usr/share/fonts/opentype/ > fonts_open_true_list.txt  && gnome-extensions list -d > gnome_extensions_list.txt && ls ~/.themes/ /usr/share/themes/ ~/.icons/ /usr/share/icons/ > themes_sys_usr_list.txt` -->
 
 # Chromium browsers config
 
@@ -23,8 +38,8 @@
 
 | Browser | copy *.desktop file | `*://flags` |
 |:---|---|---:|
-| Google Chrome | `sudo cp /usr/share/applications/google-chrome.desktop ~/.local/share/applications/` | `#fluent-overlay-scrollbars` `#fluent-scrollbars` `#ozone-platform-hint` `#wayland-ui-scaling` `#root-scrollbar-follows-browser-theme` `#link-preview` |
-| Brave | `sudo cp /usr/share/applications/brave-browser.desktop ~/.local/share/applications/` | `#fluent-overlay-scrollbars` `#fluent-scrollbars` `#ozone-platform-hint` `#wayland-ui-scaling` `#root-scrollbar-follows-browser-theme` `#linork-preview` `#middle-button-autoscroll` |
+| Google Chrome | `sudo cp /usr/share/applications/google-chrome.desktop ~/.local/share/applications/` | `#fluent-overlay-scrollbars` `#fluent-scrollbars` `#smooth-scrolling` `#ozone-platform-hint` `#wayland-ui-scaling` `#root-scrollbar-follows-browser-theme` `#link-preview` `#wayland-linux-drm-syncobj` |
+| Brave | `sudo cp /usr/share/applications/brave-browser.desktop ~/.local/share/applications/` | `#fluent-overlay-scrollbars` `#fluent-scrollbars` `#ozone-platform-hint` `#wayland-ui-scaling` `#root-scrollbar-follows-browser-theme` `#link-preview` `#middle-button-autoscroll` `#wayland-linux-drm-syncobj` |
 | Microsoft Edge | `sudo cp /usr/share/applications/microsoft-edge.desktop ~/.local/share/applications/` | Only enable flags in the `.desktop` file |
 
 | Browser | Code to append |
@@ -33,9 +48,11 @@
 | Brave Browser | `--enable-features=TouchpadOverscrollHistoryNavigation --disable-features=GlobalShortcutsPortal` |
 | Microsoft Edge | `--enable-features=MiddleClickAutoscroll,TouchpadOverscrollHistoryNavigation,UseOzonePlatform,WaylandWindowDecorations --ozone-platform=wayland --disable-features=GlobalShortcutsPortal` |
 
-For GRUB configuration, install the GRUB theme but comment out the `GRUB_BACKGROUND` flag to avoid any graphical glitches.
+# GRUB theme background glitches
+For GRUB configuration, install the GRUB theme but comment out the `GRUB_BACKGROUND` flag to avoid any background.
 
 # Theming flatpak apps
+
 - To apply the GTK theme to flatpak apps, use `sudo flatpak override --filesystem=xdg-data/themes` (By default, that location translates to $HOME/.local/share/themes) or `sudo flatpak override --filesystem=$HOME/.themes`.
 - Lastly, to apply config, use `sudo flatpak override --filesystem=xdg-config/gtk-3.0 && sudo flatpak override --filesystem=xdg-config/gtk-4.0`.
 
@@ -46,9 +63,10 @@ For GRUB configuration, install the GRUB theme but comment out the `GRUB_BACKGRO
 `gcc g++ git tldr curl btop btm build-essential apt-transport-https wget ca-certificates zip unzip tree locate gnupg2 gpg binfmt-support clang clangd llvm`
 
 # Python Dependencies
-`liblzma-dev lzma-dev liblz-dev zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev libsqlite3-dev libbz2-dev`
+`liblzma-dev liblz-dev zlib1g-dev libncurses-dev libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev libsqlite3-dev libbz2-dev`
 
-# Ubuntu bash aliases
+# Bash aliases
+
 ```bash
 # Package Management aliases.
 alias udg="sudo apt-get update && sudo apt-get upgrade && sudo apt-get dist-upgrade"
