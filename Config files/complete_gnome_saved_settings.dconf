@@ -10,8 +10,8 @@ width=904
 
 [apps/update-manager]
 first-run=false
-launch-count=100
-launch-time=int64 1755178925
+launch-count=101
+launch-time=int64 1755328286
 show-details=true
 window-height=580
 window-width=870
@@ -84,7 +84,7 @@ bypass=false
 height=882
 is-maximized=false
 sort-enabled-first=true
-width=761
+width=763
 
 [com/raggesilver/BlackBox]
 cursor-blink-mode=uint32 1
@@ -193,9 +193,9 @@ number-format='automatic'
 refresh-interval=86400
 show-thousands=true
 source-currency='INR'
-source-units='INR'
+source-units='pound'
 target-currency='GBP'
-target-units='GBP'
+target-units='kilograms'
 window-maximized=false
 window-size=(360, 647)
 
@@ -233,7 +233,7 @@ screen-keyboard-enabled=false
 secondary-click-enabled=false
 
 [org/gnome/desktop/app-folders]
-folder-children=['Utilities', 'YaST', 'Pardus', '8bd07513-beb8-467b-8818-a4153670c714', '6c9f89ad-9b8e-4517-a635-00544da8c9cd', 'cc6d3b95-11db-44c6-81f2-f31a34e4e869', '625e7b1e-bf22-42ad-9256-17543e34fe17', '300deb63-5040-49a5-b580-15e7efbb22cb', '6093395b-f0cf-41fa-aae2-4f7df761047c', 'd7964063-9616-4cd3-a316-50db42806ad7', '68df28d3-75d5-405b-99d0-790cc49e3935', 'dba0ee49-f157-4da7-b6e3-558598bec7e2']
+folder-children=['Utilities', 'YaST', 'Pardus', '8bd07513-beb8-467b-8818-a4153670c714', '6c9f89ad-9b8e-4517-a635-00544da8c9cd', 'cc6d3b95-11db-44c6-81f2-f31a34e4e869', '625e7b1e-bf22-42ad-9256-17543e34fe17', '300deb63-5040-49a5-b580-15e7efbb22cb', '6093395b-f0cf-41fa-aae2-4f7df761047c', 'd7964063-9616-4cd3-a316-50db42806ad7', '68df28d3-75d5-405b-99d0-790cc49e3935', 'dba0ee49-f157-4da7-b6e3-558598bec7e2', '78d617f4-a883-4d6e-8d8e-8835b9d0df83']
 
 [org/gnome/desktop/app-folders/folders/096c169b-a909-4cbb-8191-c9ad1b9ab094]
 apps=['libreoffice-startcenter.desktop', 'libreoffice-calc.desktop', 'libreoffice-draw.desktop', 'libreoffice-math.desktop', 'libreoffice-impress.desktop', 'org.gnome.Papers.desktop', 'libreoffice-writer.desktop']
@@ -245,7 +245,7 @@ name='Customization'
 translate=false
 
 [org/gnome/desktop/app-folders/folders/300deb63-5040-49a5-b580-15e7efbb22cb]
-apps=['org.gnome.DejaDup.desktop', 'org.gnome.baobab.desktop', 'org.gnome.DiskUtility.desktop', 'usb-creator-gtk.desktop', 'gparted.desktop']
+apps=['org.gnome.DejaDup.desktop', 'org.gnome.baobab.desktop', 'org.gnome.DiskUtility.desktop', 'gparted.desktop', 'usb-creator-gtk.desktop']
 name='Storage'
 translate=false
 
@@ -264,7 +264,7 @@ name='UI'
 translate=false
 
 [org/gnome/desktop/app-folders/folders/68df28d3-75d5-405b-99d0-790cc49e3935]
-apps=['calibre-gui.desktop', 'simple-scan.desktop', 'calibre-ebook-edit.desktop', 'calibre-ebook-viewer.desktop', 'calibre-lrfviewer.desktop']
+apps=['calibre-gui.desktop', 'simple-scan.desktop', 'org.gnome.Papers.desktop', 'calibre-ebook-edit.desktop', 'calibre-ebook-viewer.desktop', 'com.github.johnfactotum.Foliate.desktop', 'calibre-lrfviewer.desktop']
 name='Document Viewer'
 translate=false
 
@@ -273,13 +273,18 @@ apps=['libreoffice-startcenter.desktop', 'libreoffice-calc.desktop', 'libreoffic
 name='Office'
 translate=false
 
+[org/gnome/desktop/app-folders/folders/78d617f4-a883-4d6e-8d8e-8835b9d0df83]
+apps=['snap-store_snap-store.desktop', 'org.gnome.Software.desktop']
+name='Store'
+translate=false
+
 [org/gnome/desktop/app-folders/folders/80277039-3ec6-4581-881a-8bab71f619a6]
 apps=['software-properties-drivers.desktop', 'firmware-updater_firmware-updater.desktop', 'software-properties-gtk.desktop', 'update-manager.desktop']
 name='Updates'
 translate=false
 
 [org/gnome/desktop/app-folders/folders/8bd07513-beb8-467b-8818-a4153670c714]
-apps=['software-properties-drivers.desktop', 'org.gnome.Firmware.desktop', 'firmware-updater_firmware-updater.desktop', 'org.gnome.PackageUpdater.desktop', 'software-properties-gtk.desktop', 'update-manager.desktop']
+apps=['software-properties-drivers.desktop', 'org.gnome.Firmware.desktop', 'firmware-updater_firmware-updater.desktop', 'org.gnome.PackageUpdater.desktop', 'software-properties-gtk.desktop', 'update-manager.desktop', 'com.github.d4nj1.tlpui.desktop', 'io.github.flattool.Warehouse.desktop']
 name='Maintenance'
 translate=false
 
@@ -319,7 +324,7 @@ apps=['gdebi.desktop', 'synaptic.desktop']
 name='System'
 
 [org/gnome/desktop/app-folders/folders/dba0ee49-f157-4da7-b6e3-558598bec7e2]
-apps=['org.gnome.Logs.desktop', 'io.missioncenter.MissionCenter.desktop', 'net.nokyan.Resources.desktop', 'gnome-session-properties.desktop', 'org.gnome.SystemMonitor.desktop', 'com.github.d4nj1.tlpui.desktop']
+apps=['org.gnome.Logs.desktop', 'io.missioncenter.MissionCenter.desktop', 'net.nokyan.Resources.desktop', 'gnome-session-properties.desktop', 'org.gnome.SystemMonitor.desktop']
 name='Monitor'
 translate=false
 
@@ -330,8 +335,8 @@ name='Unnamed Folder'
 [org/gnome/desktop/background]
 color-shading-type='solid'
 picture-options='zoom'
-picture-uri='file:///home/prithvi/Wallpapers/mike-c-valdivia-kZokA2VTKn4-unsplash.jpg'
-picture-uri-dark='file:///home/prithvi/Wallpapers/mike-c-valdivia-kZokA2VTKn4-unsplash.jpg'
+picture-uri='file:///home/prithvi/Wallpapers/garth-pratt-3YfSwCfJ6Do-unsplash.jpg'
+picture-uri-dark='file:///home/prithvi/Wallpapers/garth-pratt-3YfSwCfJ6Do-unsplash.jpg'
 primary-color='#000000'
 secondary-color='#000000'
 
@@ -523,6 +528,8 @@ tap-to-click=true
 two-finger-scrolling-enabled=true
 
 [org/gnome/desktop/privacy]
+disable-camera=true
+disable-microphone=true
 old-files-age=uint32 30
 recent-files-max-age=-1
 
@@ -698,7 +705,7 @@ col-25-width=317
 col-26-visible=false
 col-26-width=0
 columns-order=[0, 12, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
-sort-col=0
+sort-col=8
 sort-order=0
 
 [org/gnome/maps]
@@ -752,6 +759,10 @@ ignore-phase2-ca-cert=false
 ignore-ca-cert=false
 ignore-phase2-ca-cert=false
 
+[org/gnome/nm-applet/eap/38fabb0b-fc54-4180-9c65-96514933149f]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
+
 [org/gnome/nm-applet/eap/47c2a465-39ee-4b08-8f5a-c43c257d2b1b]
 ignore-ca-cert=false
 ignore-phase2-ca-cert=false
@@ -796,6 +807,10 @@ ignore-phase2-ca-cert=false
 ignore-ca-cert=false
 ignore-phase2-ca-cert=false
 
+[org/gnome/nm-applet/eap/e2e47f2b-5494-4ee0-ba1f-b1654ac770a4]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
+
 [org/gnome/nm-applet/eap/eb0823e3-8254-3198-9c83-a86196a2dc3d]
 ignore-ca-cert=false
 ignore-phase2-ca-cert=false
@@ -816,7 +831,7 @@ sizing-mode='free'
 window-height=852
 window-maximized=true
 window-width=1209
-zoom=0.37923444132758394
+zoom=0.44552961127136631
 
 [org/gnome/portal/filechooser/chrome-hnpfjngllnobngcgfapefoaidbinmjnm-Default]
 last-folder-path='/media/prithvi/C4A7-53C0/S9+ Data/s9+/Pictures/PicsArt'
@@ -837,7 +852,7 @@ last-folder-path='/home/prithvi/Documents/Notesnook/backups'
 last-folder-path='/home/prithvi/Wallpapers'
 
 [org/gnome/portal/filechooser/google-chrome]
-last-folder-path='/home/prithvi/Desktop'
+last-folder-path='/home/prithvi/Downloads'
 
 [org/gnome/portal/filechooser/io.github.realmazharhussain.GdmSettings]
 last-folder-path='/home/prithvi/Wallpapers'
@@ -853,6 +868,12 @@ last-folder-path='/home/prithvi/Pictures'
 
 [org/gnome/portal/filechooser/org.gnome.TextEditor]
 last-folder-path='/home/prithvi/Desktop'
+
+[org/gnome/power-manager]
+info-history-type='charge'
+info-last-device='/org/freedesktop/UPower/devices/battery_BAT0'
+info-page-number=0
+info-stats-type='discharge-accuracy'
 
 [org/gnome/settings-daemon/plugins/color]
 night-light-enabled=false
@@ -880,12 +901,12 @@ sleep-inactive-ac-timeout=1500
 sleep-inactive-ac-type='suspend'
 
 [org/gnome/shell]
-app-picker-layout=[{'6093395b-f0cf-41fa-aae2-4f7df761047c': <{'position': <0>}>, '68df28d3-75d5-405b-99d0-790cc49e3935': <{'position': <1>}>, '8bd07513-beb8-467b-8818-a4153670c714': <{'position': <2>}>, 'dba0ee49-f157-4da7-b6e3-558598bec7e2': <{'position': <3>}>, '6c9f89ad-9b8e-4517-a635-00544da8c9cd': <{'position': <4>}>, '300deb63-5040-49a5-b580-15e7efbb22cb': <{'position': <5>}>, '625e7b1e-bf22-42ad-9256-17543e34fe17': <{'position': <6>}>, 'cc6d3b95-11db-44c6-81f2-f31a34e4e869': <{'position': <7>}>, 'snap-store_snap-store.desktop': <{'position': <8>}>, 'org.gnome.Papers.desktop': <{'position': <9>}>, 'com.github.johnfactotum.Foliate.desktop': <{'position': <10>}>, 'com.notesnook.Notesnook.desktop': <{'position': <11>}>, 'nvidia-settings.desktop': <{'position': <12>}>, 'org.gnome.Software.desktop': <{'position': <13>}>, 'spotify.desktop': <{'position': <14>}>, 'org.telegram.desktop._3e485da34fc040f9218e3891ecde1e6c.desktop': <{'position': <15>}>, 'vlc.desktop': <{'position': <16>}>, 'io.github.flattool.Warehouse.desktop': <{'position': <17>}>, 'windscribe.desktop': <{'position': <18>}>}]
+app-picker-layout=[{'6093395b-f0cf-41fa-aae2-4f7df761047c': <{'position': <0>}>, '68df28d3-75d5-405b-99d0-790cc49e3935': <{'position': <1>}>, '8bd07513-beb8-467b-8818-a4153670c714': <{'position': <2>}>, 'dba0ee49-f157-4da7-b6e3-558598bec7e2': <{'position': <3>}>, '6c9f89ad-9b8e-4517-a635-00544da8c9cd': <{'position': <4>}>, '300deb63-5040-49a5-b580-15e7efbb22cb': <{'position': <5>}>, '78d617f4-a883-4d6e-8d8e-8835b9d0df83': <{'position': <6>}>, '625e7b1e-bf22-42ad-9256-17543e34fe17': <{'position': <7>}>, 'cc6d3b95-11db-44c6-81f2-f31a34e4e869': <{'position': <8>}>, 'org.gnome.Characters.desktop': <{'position': <9>}>, 'com.notesnook.Notesnook.desktop': <{'position': <10>}>, 'nvidia-settings.desktop': <{'position': <11>}>, 'spotify.desktop': <{'position': <12>}>, 'org.telegram.desktop._3e485da34fc040f9218e3891ecde1e6c.desktop': <{'position': <13>}>, 'start-tor-browser.desktop': <{'position': <14>}>, 'vlc.desktop': <{'position': <15>}>, 'windscribe.desktop': <{'position': <16>}>}]
 command-history=['sudo apt-get update', 'gnome-terminal']
 disable-user-extensions=false
-disabled-extensions=['ding@rastersoft.com', 'dash-to-dock@micxgx.gmail.com', 'power-profile@fthx', 'azwallpaper@azwallpaper.gitlab.com', 'dash-to-panel@jderose9.github.com', 'add-to-desktop@tommimon.github.com', 'media-progress@krypion17', 'wellbeingtoggle@m51.io', 'desktop-cube@schneegans.github.com', 'one-thing@github.com', 'hidetopbar@mathieu.bidon.ca', 'another-window-session-manager@gmail.com', 'floating-mini-panel@ghi59.github.com', 'window-thumbnails@G-dH.github.com']
-enabled-extensions=['tiling-assistant@ubuntu.com', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'apps-menu@gnome-shell-extensions.gcampax.github.com', 'bluetooth-quick-connect@bjarosze.gmail.com', 'blur-my-shell@aunetx', 'clipboard-indicator@tudmotu.com', 'fq@megh', 'Hide_Activities@shay.shayel.org', 'just-perfection-desktop@just-perfection', 'osd-volume-number@deminder', 'places-menu@gnome-shell-extensions.gcampax.github.com', 'power-profile-indicator@laux.wtf', 'quick-settings-tweaks@qwreey', 'drive-menu@gnome-shell-extensions.gcampax.github.com', 'screenshort-cut@pauloimon', 'show-desktop-button@amivaleo', 'sound-percentage@subashghimire.info.np', 'transparent-window-moving@noobsai.github.com', 'tweaks-system-menu@extensions.gnome-shell.fifi.org', 'Vitals@CoreCoding.com', 'weekend-o-meter@coffeverton.gmail.com', 'openmeteoweather@deezhizyu.github.io', 'currency-tracker@faymaz.github.com', 'status-icons@gnome-shell-extensions.gcampax.github.com', 'snowy@exposedcat', 'aztaskbar@aztaskbar.gitlab.com', 'weatherornot@somepaulo.github.io', 'advanced-weather@sanjai.com', 'weatheroclock@CleoMenezesJr.github.io', 'battery-time@eetumos.github.com', 'disconnect-wifi@kgshank.net', 'notification-position@drugo.dev', 'freon@UshakovVasilii_Github.yahoo.com', 'AlphabeticalAppGrid@stuarthayhurst', 'restartto@tiagoporsch.github.io', 'Bluetooth-Battery-Meter@maniacx.github.com', 'monitor@astraext.github.io', 'eepresetselector@ulville.github.io', 'ubuntu-appindicators@ubuntu.com', 'custom-hot-corners-extended@G-dH.github.com', 'extension-list@tu.berry', 'tracker@aliakseiz.github.com', 'simple-timer@majortomvr.github.com', 'spotify-controls@Sonath21', 'notifications-alert-on-user-menu@hackedbellini.gmail.com', 'SettingsCenter@lauinger-clan.de', 'compact-quick-settings@gnome-shell-extensions.mariospr.org', 'dynamic-panel@velhlkj.com', 'reboottouefi@ubaygd.com', 'NotificationCounter@coolllsk', 'fullscreen-notifications@sorrow.about.alice.pm.me', 'timer@lbgracioso.net', 'thinkpad-red-led@juanmagd.dev', 'yks_timer@ysfsvm', 'quake-terminal@diegodario88.github.io', 'waylandorx11@injcristianrojas.github.com', 'flickernaut@imoize.github.io', 'huanghaohhoa@163.com', 'quick-settings-audio-panel@rayzeq.github.io', 'trayIconsReloaded@selfmade.pl', 'vscode-workspaces@prometheontechnologies.com', 'cronomix@zagortenay333', 'ubuntu-dock@ubuntu.com', 'slinger@gfxmonk.net', 'quarterwindows@troyready.com', 'search-light@icedman.github.com', 'dim-background-windows@stephane-13.github.com', 'open-desktop-location@laura.media', 'CamPeek@gamalsherif1.github.io', 'task-widget@juozasmiskinis.gitlab.io', 'lockscreen-extension@pratap.fastmail.fm', 'transparent-inactive-windows@art-was-here.github.io', 'day-progress@arcaege.github.io', 'applications-overview-tooltip@RaphaelRochet', 'simple-weather@romanlefler.com', 'quick-settings-avatar@d-go', 'quick-touchpad-toggle@kramo.hu', 'IndicatorVisibilityTool@VirlesFelyard', 'night-light-slider-updated@vilsbeg.codeberg.org', 'pinit@cankurttekin', 'wifiqrcode@glerro.pm.me', 'notification-configurator@exposedcat', 'tilingshell@ferrarodomenico.com', 'fnlock-switch-tp-comp-usb-kb@goloshubov.github.io', 'notification-timeout@chlumskyvaclav.gmail.com', 'notification-banner-reloaded@marcinjakubowski.github.com', 'openbar@neuromorph', 'ufw-status-indicator@bittokazi.com', 'xwayland-indicator@swsnr.de', 'battery-drop@khisrav', 'right-click-next@derVedro', 'logowidget@github.com.howbea', 'battery-indicator-icon@Deminder', 'volume_scroller@francislavoie.github.io', 'always-indicator@martin.zurowietz.de', 'CoverflowAltTab@palatis.blogspot.com', 'rounded-window-corners@fxgn', 'auto-accent-colour@Wartybix', 'prapor@inbalboa.github.io', 'gnomebedtime@ionutbortis.gmail.com']
-favorite-apps=['org.gnome.Characters.desktop', 'synaptic.desktop', 'org.gnome.Nautilus.desktop', 'start-tor-browser.desktop', 'brave-browser.desktop', 'google-chrome.desktop', 'zen.desktop', 'org.gnome.TextEditor.desktop', 'org.gnome.Terminal.desktop', 'code.desktop', 'chrome-hnpfjngllnobngcgfapefoaidbinmjnm-Default.desktop', 'libreoffice-writer.desktop', 'io.github.amit9838.mousam.desktop', 'io.missioncenter.MissionCenter.desktop']
+disabled-extensions=['ding@rastersoft.com', 'dash-to-dock@micxgx.gmail.com', 'power-profile@fthx', 'azwallpaper@azwallpaper.gitlab.com', 'dash-to-panel@jderose9.github.com', 'add-to-desktop@tommimon.github.com', 'media-progress@krypion17', 'wellbeingtoggle@m51.io', 'one-thing@github.com', 'hidetopbar@mathieu.bidon.ca', 'another-window-session-manager@gmail.com', 'floating-mini-panel@ghi59.github.com', 'window-thumbnails@G-dH.github.com', 'desktop-cube@schneegans.github.com', 'CoverflowAltTab@palatis.blogspot.com']
+enabled-extensions=['tiling-assistant@ubuntu.com', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'apps-menu@gnome-shell-extensions.gcampax.github.com', 'bluetooth-quick-connect@bjarosze.gmail.com', 'blur-my-shell@aunetx', 'clipboard-indicator@tudmotu.com', 'fq@megh', 'Hide_Activities@shay.shayel.org', 'just-perfection-desktop@just-perfection', 'osd-volume-number@deminder', 'places-menu@gnome-shell-extensions.gcampax.github.com', 'power-profile-indicator@laux.wtf', 'quick-settings-tweaks@qwreey', 'drive-menu@gnome-shell-extensions.gcampax.github.com', 'screenshort-cut@pauloimon', 'show-desktop-button@amivaleo', 'sound-percentage@subashghimire.info.np', 'transparent-window-moving@noobsai.github.com', 'tweaks-system-menu@extensions.gnome-shell.fifi.org', 'weekend-o-meter@coffeverton.gmail.com', 'openmeteoweather@deezhizyu.github.io', 'currency-tracker@faymaz.github.com', 'status-icons@gnome-shell-extensions.gcampax.github.com', 'snowy@exposedcat', 'aztaskbar@aztaskbar.gitlab.com', 'weatherornot@somepaulo.github.io', 'advanced-weather@sanjai.com', 'weatheroclock@CleoMenezesJr.github.io', 'battery-time@eetumos.github.com', 'disconnect-wifi@kgshank.net', 'notification-position@drugo.dev', 'freon@UshakovVasilii_Github.yahoo.com', 'restartto@tiagoporsch.github.io', 'Bluetooth-Battery-Meter@maniacx.github.com', 'eepresetselector@ulville.github.io', 'ubuntu-appindicators@ubuntu.com', 'custom-hot-corners-extended@G-dH.github.com', 'extension-list@tu.berry', 'tracker@aliakseiz.github.com', 'simple-timer@majortomvr.github.com', 'spotify-controls@Sonath21', 'notifications-alert-on-user-menu@hackedbellini.gmail.com', 'SettingsCenter@lauinger-clan.de', 'compact-quick-settings@gnome-shell-extensions.mariospr.org', 'dynamic-panel@velhlkj.com', 'reboottouefi@ubaygd.com', 'NotificationCounter@coolllsk', 'fullscreen-notifications@sorrow.about.alice.pm.me', 'timer@lbgracioso.net', 'thinkpad-red-led@juanmagd.dev', 'yks_timer@ysfsvm', 'quake-terminal@diegodario88.github.io', 'waylandorx11@injcristianrojas.github.com', 'flickernaut@imoize.github.io', 'huanghaohhoa@163.com', 'quick-settings-audio-panel@rayzeq.github.io', 'trayIconsReloaded@selfmade.pl', 'vscode-workspaces@prometheontechnologies.com', 'cronomix@zagortenay333', 'ubuntu-dock@ubuntu.com', 'slinger@gfxmonk.net', 'quarterwindows@troyready.com', 'search-light@icedman.github.com', 'dim-background-windows@stephane-13.github.com', 'open-desktop-location@laura.media', 'CamPeek@gamalsherif1.github.io', 'task-widget@juozasmiskinis.gitlab.io', 'lockscreen-extension@pratap.fastmail.fm', 'transparent-inactive-windows@art-was-here.github.io', 'day-progress@arcaege.github.io', 'applications-overview-tooltip@RaphaelRochet', 'simple-weather@romanlefler.com', 'quick-settings-avatar@d-go', 'quick-touchpad-toggle@kramo.hu', 'IndicatorVisibilityTool@VirlesFelyard', 'night-light-slider-updated@vilsbeg.codeberg.org', 'pinit@cankurttekin', 'wifiqrcode@glerro.pm.me', 'notification-configurator@exposedcat', 'tilingshell@ferrarodomenico.com', 'fnlock-switch-tp-comp-usb-kb@goloshubov.github.io', 'notification-timeout@chlumskyvaclav.gmail.com', 'notification-banner-reloaded@marcinjakubowski.github.com', 'openbar@neuromorph', 'ufw-status-indicator@bittokazi.com', 'xwayland-indicator@swsnr.de', 'battery-drop@khisrav', 'right-click-next@derVedro', 'logowidget@github.com.howbea', 'battery-indicator-icon@Deminder', 'volume_scroller@francislavoie.github.io', 'always-indicator@martin.zurowietz.de', 'rounded-window-corners@fxgn', 'auto-accent-colour@Wartybix', 'prapor@inbalboa.github.io', 'gnomebedtime@ionutbortis.gmail.com', 'System_Monitor@bghome.gmail.com', 'systemHUD@LalaloyXyz', 'PrivacyMenu@stuarthayhurst', 'avatar@pawel.swiszcz.com', 'monitor@astraext.github.io', 'Vitals@CoreCoding.com', 'AlphabeticalAppGrid@stuarthayhurst']
+favorite-apps=['synaptic.desktop', 'org.gnome.Nautilus.desktop', 'brave-browser.desktop', 'google-chrome.desktop', 'zen.desktop', 'org.gnome.TextEditor.desktop', 'org.gnome.Terminal.desktop', 'code.desktop', 'chrome-hnpfjngllnobngcgfapefoaidbinmjnm-Default.desktop', 'libreoffice-writer.desktop', 'io.github.amit9838.mousam.desktop', 'io.missioncenter.MissionCenter.desktop']
 last-selected-power-profile='power-saver'
 welcome-dialog-last-shown-version='46.0'
 
@@ -948,6 +969,7 @@ gpu-main='{"domain":"0000:00","bus":"02","slot":"0","vendorId":"8086","productId
 headers-height=0
 headers-height-override=0
 memory-header-show=true
+memory-header-tooltip-free=true
 memory-indicators-order='["icon","bar","graph","percentage","value","free"]'
 monitors-order='["gpu","memory","processor","storage","network","sensors"]'
 network-header-show=false
@@ -957,14 +979,22 @@ panel-box-order=2
 panel-margin-left=0
 processor-indicators-order='["icon","bar","graph","percentage","frequency"]'
 processor-menu-gpu-color=''
-profiles='{"default":{"panel-margin-left":0,"sensors-header-tooltip-sensor2-digits":-1,"memory-update":3,"gpu-header-memory-graph-color1":"rgba(29,172,214,1.0)","panel-box":"left","memory-header-show":true,"network-header-tooltip-io":true,"processor-header-bars-color2":"rgba(214,29,29,1.0)","processor-header-icon-size":18,"storage-menu-device-color":"rgba(29,172,214,1.0)","sensors-header-tooltip-sensor4-name":"","storage-header-icon-color":"","network-source-public-ipv4":"https://api.ipify.org","storage-header-io-graph-color2":"rgba(214,29,29,1.0)","processor-menu-top-processes-percentage-core":true,"sensors-header-sensor1":"\\"\\"","processor-header-graph":true,"storage-header-graph-width":30,"network-header-bars":false,"processor-source-load-avg":"auto","network-menu-arrow-color1":"rgba(29,172,214,1.0)","network-source-top-processes":"auto","gpu-header-icon":true,"processor-menu-graph-breakdown":true,"sensors-header-icon-custom":"","sensors-header-sensor2":"\\"\\"","network-header-icon-alert-color":"rgba(235, 64, 52, 1)","memory-header-tooltip-free":false,"storage-header-io-figures":2,"network-menu-arrow-color2":"rgba(214,29,29,1.0)","sensors-header-tooltip-sensor3-name":"","network-source-public-ipv6":"https://api6.ipify.org","monitors-order":"[\\"gpu\\",\\"memory\\",\\"processor\\",\\"storage\\",\\"network\\",\\"sensors\\"]","network-header-graph":true,"network-indicators-order":"\\"\\"","memory-header-percentage":false,"gpu-data":"\\"\\"","storage-header-bars":true,"processor-header-tooltip":true,"memory-menu-swap-color":"rgba(29,172,214,1.0)","storage-io-unit":"kB/s","memory-header-graph-width":30,"processor-header-graph-color1":"rgba(29,172,214,1.0)","sensors-header-tooltip-sensor5-digits":-1,"gpu-header-icon-custom":"","processor-header-graph-breakdown":true,"panel-margin-right":0,"processor-header-frequency":false,"processor-source-cpu-usage":"auto","sensors-header-tooltip-sensor3-digits":-1,"gpu-header-icon-size":18,"memory-header-value-figures":3,"compact-mode":false,"processor-header-frequency-mode":"average","panel-box-order":2,"compact-mode-compact-icon-custom":"","network-header-graph-width":30,"gpu-header-tooltip":true,"sensors-header-icon":true,"gpu-header-activity-percentage-icon-alert-threshold":0,"sensors-header-sensor2-digits":-1,"processor-header-graph-color2":"rgba(214,29,29,1.0)","sensors-header-icon-alert-color":"rgba(235, 64, 52, 1)","sensors-update":3,"gpu-header-tooltip-memory-value":true,"processor-header-bars":false,"gpu-header-tooltip-memory-percentage":true,"gpu-header-memory-bar-color1":"rgba(29,172,214,1.0)","sensors-header-tooltip-sensor1":"\\"\\"","sensors-header-tooltip-sensor1-digits":-1,"storage-header-free-figures":3,"processor-header-percentage-core":false,"sensors-header-tooltip-sensor2-name":"","network-source-network-io":"auto","memory-header-bars":true,"processor-header-percentage":false,"processor-header-frequency-figures":3,"storage-header-io-threshold":0,"memory-header-graph-color1":"rgba(29,172,214,1.0)","compact-mode-activation":"hover","storage-header-icon-size":18,"sensors-header-tooltip-sensor1-name":"","sensors-header-icon-size":18,"sensors-header-icon-color":"","explicit-zero":false,"sensors-source":"auto","storage-header-io-graph-color1":"rgba(29,172,214,1.0)","storage-header-percentage-icon-alert-threshold":0,"sensors-header-tooltip-sensor2":"\\"\\"","compact-mode-expanded-icon-custom":"","memory-header-graph-color2":"rgba(29,172,214,0.3)","processor-header-icon-alert-color":"rgba(235, 64, 52, 1)","processor-header-tooltip-percentage":true,"gpu-header-show":false,"network-update":1.5,"sensors-header-tooltip-sensor3":"\\"\\"","sensors-ignored-attribute-regex":"","memory-header-icon-custom":"","storage-header-tooltip-io":true,"sensors-header-tooltip-sensor4":"\\"\\"","storage-header-percentage":false,"sensors-temperature-unit":"celsius","storage-header-icon-alert-color":"rgba(235, 64, 52, 1)","storage-header-free-icon-alert-threshold":0,"memory-source-top-processes":"auto","storage-header-value-figures":3,"storage-header-io-bars-color1":"rgba(29,172,214,1.0)","storage-menu-arrow-color1":"rgba(29,172,214,1.0)","gpu-header-tooltip-activity-percentage":true,"network-header-icon-custom":"","processor-header-graph-width":30,"network-header-icon":true,"storage-menu-arrow-color2":"rgba(214,29,29,1.0)","sensors-header-sensor2-layout":"vertical","sensors-header-tooltip-sensor5":"\\"\\"","memory-header-bars-breakdown":true,"sensors-header-show":false,"sensors-header-tooltip":false,"storage-header-tooltip":true,"processor-header-bars-core":false,"storage-indicators-order":"\\"\\"","processor-menu-bars-breakdown":true,"storage-header-io-bars-color2":"rgba(214,29,29,1.0)","network-io-unit":"kB/s","storage-header-icon":true,"gpu-header-activity-graph-color1":"rgba(29,172,214,1.0)","memory-unit":"kB-KB","processor-menu-core-bars-breakdown":true,"sensors-header-sensor2-show":false,"network-header-tooltip":true,"storage-header-tooltip-free":true,"storage-header-bars-color1":"rgba(29,172,214,1.0)","theme-style":"dark","storage-source-storage-usage":"auto","network-header-io":false,"storage-header-tooltip-value":false,"storage-main":"[default]","storage-source-storage-io":"auto","memory-header-tooltip-percentage":true,"memory-indicators-order":"\\"\\"","memory-source-memory-usage":"auto","memory-header-graph-breakdown":false,"memory-header-tooltip-value":true,"memory-menu-graph-breakdown":true,"sensors-indicators-order":"\\"\\"","compact-mode-start-expanded":false,"startup-delay":2,"memory-header-percentage-icon-alert-threshold":0,"sensors-header-sensor1-show":false,"network-ignored-regex":"","storage-update":3,"memory-header-value":false,"network-header-io-graph-color1":"rgba(29,172,214,1.0)","gpu-header-memory-bar":true,"memory-used":"total-free-buffers-cached","memory-header-bars-color1":"rgba(29,172,214,1.0)","gpu-header-memory-graph-width":30,"gpu-header-memory-graph":false,"sensors-ignored-category-regex":"","headers-font-family":"","memory-header-icon":true,"memory-header-bars-color2":"rgba(29,172,214,0.3)","network-header-io-graph-color2":"rgba(214,29,29,1.0)","processor-gpu":true,"network-header-icon-color":"","storage-header-value":false,"gpu-header-icon-alert-color":"rgba(235, 64, 52, 1)","processor-header-icon":true,"headers-font-size":0,"network-header-io-figures":2,"network-header-show":false,"sensors-ignored-regex":"","network-header-io-bars-color1":"rgba(29,172,214,1.0)","processor-update":1.5,"network-source-wireless":"auto","processor-indicators-order":"\\"\\"","storage-header-icon-custom":"","gpu-header-activity-bar":true,"gpu-header-activity-bar-color1":"rgba(29,172,214,1.0)","shell-bar-position":"top","network-ignored":"\\"[]\\"","network-header-io-bars-color2":"rgba(214,29,29,1.0)","memory-header-icon-color":"","sensors-header-sensor1-digits":-1,"storage-header-io-layout":"vertical","memory-header-icon-size":18,"network-header-io-threshold":0,"storage-header-show":true,"sensors-header-tooltip-sensor4-digits":-1,"processor-header-percentage-icon-alert-threshold":0,"memory-header-tooltip":true,"headers-height-override":0,"memory-header-graph":false,"network-header-icon-size":18,"gpu-header-icon-color":"","memory-header-free-figures":3,"storage-header-io-bars":false,"processor-header-bars-breakdown":true,"gpu-header-activity-graph":false,"storage-ignored":"[\\"nvme0n1p1\\",\\"nvme0n1p2\\",\\"nvme0n1p3\\",\\"nvme0n1p4\\"]","memory-header-icon-alert-color":"rgba(235, 64, 52, 1)","storage-header-free":false,"processor-header-icon-custom":"","gpu-header-memory-percentage":false,"processor-header-tooltip-percentage-core":false,"processor-source-cpu-cores-usage":"auto","processor-source-top-processes":"auto","processor-header-icon-color":"","sensors-header-tooltip-sensor5-name":"","gpu-header-activity-graph-width":30,"gpu-header-activity-percentage":false,"gpu-indicators-order":"\\"\\"","processor-header-bars-color1":"rgba(29,172,214,1.0)","network-header-io-layout":"vertical","gpu-update":2,"memory-header-free":false,"gpu-header-memory-percentage-icon-alert-threshold":0,"processor-header-show":true,"memory-header-free-icon-alert-threshold":0,"storage-ignored-regex":"","storage-header-graph":false,"storage-header-tooltip-percentage":true,"storage-header-io":false,"storage-source-top-processes":"auto"}}'
-queued-pref-category='processors'
+profiles='{"default":{"panel-margin-left":0,"sensors-header-tooltip-sensor2-digits":-1,"memory-update":3,"gpu-header-memory-graph-color1":"rgba(29,172,214,1.0)","panel-box":"left","memory-header-show":true,"network-header-tooltip-io":true,"processor-header-bars-color2":"rgba(214,29,29,1.0)","processor-header-icon-size":18,"storage-menu-device-color":"rgba(29,172,214,1.0)","sensors-header-tooltip-sensor4-name":"","storage-header-icon-color":"","network-source-public-ipv4":"https://api.ipify.org","storage-header-io-graph-color2":"rgba(214,29,29,1.0)","processor-menu-top-processes-percentage-core":true,"sensors-header-sensor1":"\\"\\"","processor-header-graph":true,"storage-header-graph-width":30,"network-header-bars":false,"processor-source-load-avg":"auto","network-menu-arrow-color1":"rgba(29,172,214,1.0)","network-source-top-processes":"auto","gpu-header-icon":true,"processor-menu-graph-breakdown":true,"sensors-header-icon-custom":"","sensors-header-sensor2":"\\"\\"","network-header-icon-alert-color":"rgba(235, 64, 52, 1)","memory-header-tooltip-free":true,"storage-header-io-figures":2,"network-menu-arrow-color2":"rgba(214,29,29,1.0)","sensors-header-tooltip-sensor3-name":"","network-source-public-ipv6":"https://api6.ipify.org","monitors-order":"[\\"gpu\\",\\"memory\\",\\"processor\\",\\"storage\\",\\"network\\",\\"sensors\\"]","network-header-graph":true,"network-indicators-order":"\\"\\"","memory-header-percentage":false,"gpu-data":"\\"\\"","storage-header-bars":true,"processor-header-tooltip":true,"memory-menu-swap-color":"rgba(29,172,214,1.0)","storage-io-unit":"kB/s","memory-header-graph-width":30,"processor-header-graph-color1":"rgba(29,172,214,1.0)","sensors-header-tooltip-sensor5-digits":-1,"gpu-header-icon-custom":"","processor-header-graph-breakdown":true,"panel-margin-right":0,"processor-header-frequency":false,"processor-source-cpu-usage":"auto","sensors-header-tooltip-sensor3-digits":-1,"gpu-header-icon-size":18,"memory-header-value-figures":3,"compact-mode":false,"processor-header-frequency-mode":"average","panel-box-order":2,"compact-mode-compact-icon-custom":"","network-header-graph-width":30,"gpu-header-tooltip":true,"sensors-header-icon":true,"gpu-header-activity-percentage-icon-alert-threshold":0,"sensors-header-sensor2-digits":-1,"processor-header-graph-color2":"rgba(214,29,29,1.0)","sensors-header-icon-alert-color":"rgba(235, 64, 52, 1)","sensors-update":3,"gpu-header-tooltip-memory-value":true,"processor-header-bars":false,"gpu-header-tooltip-memory-percentage":true,"gpu-header-memory-bar-color1":"rgba(29,172,214,1.0)","sensors-header-tooltip-sensor1":"\\"\\"","sensors-header-tooltip-sensor1-digits":-1,"storage-header-free-figures":3,"processor-header-percentage-core":false,"sensors-header-tooltip-sensor2-name":"","network-source-network-io":"auto","memory-header-bars":true,"processor-header-percentage":false,"processor-header-frequency-figures":3,"storage-header-io-threshold":0,"memory-header-graph-color1":"rgba(29,172,214,1.0)","compact-mode-activation":"hover","storage-header-icon-size":18,"sensors-header-tooltip-sensor1-name":"","sensors-header-icon-size":18,"sensors-header-icon-color":"","explicit-zero":false,"sensors-source":"auto","storage-header-io-graph-color1":"rgba(29,172,214,1.0)","storage-header-percentage-icon-alert-threshold":0,"sensors-header-tooltip-sensor2":"\\"\\"","compact-mode-expanded-icon-custom":"","memory-header-graph-color2":"rgba(29,172,214,0.3)","processor-header-icon-alert-color":"rgba(235, 64, 52, 1)","processor-header-tooltip-percentage":true,"gpu-header-show":false,"network-update":1.5,"sensors-header-tooltip-sensor3":"\\"\\"","sensors-ignored-attribute-regex":"","memory-header-icon-custom":"","storage-header-tooltip-io":true,"sensors-header-tooltip-sensor4":"\\"\\"","storage-header-percentage":false,"sensors-temperature-unit":"celsius","storage-header-icon-alert-color":"rgba(235, 64, 52, 1)","storage-header-free-icon-alert-threshold":0,"memory-source-top-processes":"auto","storage-header-value-figures":3,"storage-header-io-bars-color1":"rgba(29,172,214,1.0)","storage-menu-arrow-color1":"rgba(29,172,214,1.0)","gpu-header-tooltip-activity-percentage":true,"network-header-icon-custom":"","processor-header-graph-width":30,"network-header-icon":true,"storage-menu-arrow-color2":"rgba(214,29,29,1.0)","sensors-header-sensor2-layout":"vertical","sensors-header-tooltip-sensor5":"\\"\\"","memory-header-bars-breakdown":true,"sensors-header-show":false,"sensors-header-tooltip":false,"storage-header-tooltip":true,"processor-header-bars-core":false,"storage-indicators-order":"\\"\\"","processor-menu-bars-breakdown":true,"storage-header-io-bars-color2":"rgba(214,29,29,1.0)","network-io-unit":"kB/s","storage-header-icon":true,"gpu-header-activity-graph-color1":"rgba(29,172,214,1.0)","memory-unit":"kB-KB","processor-menu-core-bars-breakdown":true,"sensors-header-sensor2-show":false,"network-header-tooltip":true,"storage-header-tooltip-free":true,"storage-header-bars-color1":"rgba(29,172,214,1.0)","theme-style":"dark","storage-source-storage-usage":"auto","network-header-io":false,"storage-header-tooltip-value":false,"storage-main":"[default]","storage-source-storage-io":"auto","memory-header-tooltip-percentage":true,"memory-indicators-order":"\\"\\"","memory-source-memory-usage":"auto","memory-header-graph-breakdown":false,"memory-header-tooltip-value":true,"memory-menu-graph-breakdown":true,"sensors-indicators-order":"\\"\\"","compact-mode-start-expanded":false,"startup-delay":2,"memory-header-percentage-icon-alert-threshold":0,"sensors-header-sensor1-show":false,"network-ignored-regex":"","storage-update":3,"memory-header-value":false,"network-header-io-graph-color1":"rgba(29,172,214,1.0)","gpu-header-memory-bar":true,"memory-used":"total-free-buffers-cached","memory-header-bars-color1":"rgba(29,172,214,1.0)","gpu-header-memory-graph-width":30,"gpu-header-memory-graph":false,"sensors-ignored-category-regex":"","headers-font-family":"","memory-header-icon":true,"memory-header-bars-color2":"rgba(29,172,214,0.3)","network-header-io-graph-color2":"rgba(214,29,29,1.0)","processor-gpu":true,"network-header-icon-color":"","storage-header-value":false,"gpu-header-icon-alert-color":"rgba(235, 64, 52, 1)","processor-header-icon":true,"headers-font-size":0,"network-header-io-figures":2,"network-header-show":false,"sensors-ignored-regex":"","network-header-io-bars-color1":"rgba(29,172,214,1.0)","processor-update":1.5,"network-source-wireless":"auto","processor-indicators-order":"\\"\\"","storage-header-icon-custom":"","gpu-header-activity-bar":true,"gpu-header-activity-bar-color1":"rgba(29,172,214,1.0)","shell-bar-position":"top","network-ignored":"\\"[]\\"","network-header-io-bars-color2":"rgba(214,29,29,1.0)","memory-header-icon-color":"","sensors-header-sensor1-digits":-1,"storage-header-io-layout":"vertical","memory-header-icon-size":18,"network-header-io-threshold":0,"storage-header-show":true,"sensors-header-tooltip-sensor4-digits":-1,"processor-header-percentage-icon-alert-threshold":0,"memory-header-tooltip":true,"headers-height-override":0,"memory-header-graph":false,"network-header-icon-size":18,"gpu-header-icon-color":"","memory-header-free-figures":3,"storage-header-io-bars":false,"processor-header-bars-breakdown":true,"gpu-header-activity-graph":false,"storage-ignored":"[\\"nvme0n1p1\\",\\"nvme0n1p2\\",\\"nvme0n1p3\\",\\"nvme0n1p4\\"]","memory-header-icon-alert-color":"rgba(235, 64, 52, 1)","storage-header-free":false,"processor-header-icon-custom":"","gpu-header-memory-percentage":false,"processor-header-tooltip-percentage-core":false,"processor-source-cpu-cores-usage":"auto","processor-source-top-processes":"auto","processor-header-icon-color":"","sensors-header-tooltip-sensor5-name":"","gpu-header-activity-graph-width":30,"gpu-header-activity-percentage":false,"gpu-indicators-order":"\\"\\"","processor-header-bars-color1":"rgba(29,172,214,1.0)","network-header-io-layout":"vertical","gpu-update":2,"memory-header-free":false,"gpu-header-memory-percentage-icon-alert-threshold":0,"processor-header-show":true,"memory-header-free-icon-alert-threshold":0,"storage-ignored-regex":"","storage-header-graph":false,"storage-header-tooltip-percentage":true,"storage-header-io":false,"storage-source-top-processes":"auto"}}'
+queued-pref-category=''
+sensors-header-sensor1-show=false
+sensors-header-sensor2-show=false
 sensors-header-show=false
+sensors-header-tooltip=false
 sensors-indicators-order='["icon","value"]'
+sensors-source='auto'
 storage-header-show=true
 storage-ignored='["nvme0n1p1","nvme0n1p2","nvme0n1p3","nvme0n1p4"]'
 storage-indicators-order='["icon","bar","percentage","value","free","IO bar","IO graph","IO speed"]'
 storage-main='eui.002538bc11b6e85b-part2'
+
+[org/gnome/shell/extensions/avatar]
+show-buttons=false
+top-image='/home/prithvi/Wallpapers/christian-macmillan-iXg90dspPZw-unsplash.jpg'
 
 [org/gnome/shell/extensions/aztaskbar]
 main-panel-height=(true, 40)
@@ -1141,7 +1171,7 @@ customize-alphas=false
 dash-max-icon-size=36
 disable-overview-on-startup=true
 dock-fixed=false
-dock-position='BOTTOM'
+dock-position='RIGHT'
 extend-height=false
 height-fraction=0.80000000000000004
 hide-delay=0.15000000000000002
@@ -1202,8 +1232,9 @@ width=15
 active-workpace-opacity=172
 edge-switch-pressure=150
 inactive-workpace-opacity=176
+last-first-gap=true
 mouse-rotation-speed=2.5000000000000004
-window-parallax=0.60317460317460314
+window-parallax=0.36507936507936506
 
 [org/gnome/shell/extensions/dim-background-windows]
 brightness-dark-style=0.90000000000000002
@@ -1568,6 +1599,12 @@ min-size=10
 [org/gnome/shell/extensions/spotify-controls]
 position='leftmost-right'
 
+[org/gnome/shell/extensions/system-monitor]
+layout='vertical'
+memory-calculation-method='all'
+network-meter=false
+position='left'
+
 [org/gnome/shell/extensions/tiling-assistant]
 activate-layout0=@as []
 activate-layout1=@as []
@@ -1734,9 +1771,9 @@ library-maximize=false
 library-width=1024
 
 [org/gnome/software]
-check-timestamp=int64 1755240458
-install-timestamp=int64 1755159651
-update-notification-timestamp=int64 1755160478
+check-timestamp=int64 1755338954
+install-timestamp=int64 1755382793
+update-notification-timestamp=int64 1755383024
 
 [org/gnome/terminal/legacy]
 always-check-default-terminal=true
@@ -2185,7 +2222,7 @@ sort-column='name'
 sort-directories-first=true
 sort-order='ascending'
 type-format='category'
-view-type='list'
+view-type='grid'
 window-size=(815, 682)
 
 [org/gtk/settings/color-chooser]
@@ -2212,6 +2249,22 @@ accept-connection=false
 auto-set=true
 bridge-type='obfs4'
 exit-node='ww'
+
+[org/virt-manager/virt-manager]
+manager-window-height=648
+manager-window-width=1030
+
+[org/virt-manager/virt-manager/connections]
+autoconnect=@as []
+uris=@as []
+
+[org/virt-manager/virt-manager/new-vm]
+firmware='uefi'
+graphics-type='system'
+
+[org/virt-manager/virt-manager/vmlist-fields]
+disk-usage=false
+network-traffic=false
 
 [system/locale]
 region='en_GB.UTF-8'

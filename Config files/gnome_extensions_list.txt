@@ -12,7 +12,7 @@ Vitals@CoreCoding.com
   Description: A glimpse into your computer's temperature, voltage, fan speed, memory usage, processor load, system resources, network speed and storage stats. This is a one stop shop to monitor all of your vital sensors. Uses asynchronous polling to provide a smooth user experience. Feature requests or bugs? Please use GitHub.
   Path: /home/prithvi/.local/share/gnome-shell/extensions/Vitals@CoreCoding.com
   URL: https://github.com/corecoding/Vitals
-  Version: 71
+  Version: 73
   Enabled: Yes
   State: ACTIVE
 
@@ -121,7 +121,7 @@ If you use Ubuntu, you may want to change the radius of the corner effect for Da
 Note: if the extension shows an error after updating, please make sure to restart your session to see if it persists. This is due to a bug in gnome shell, which I can't fix by myself.
   Path: /home/prithvi/.local/share/gnome-shell/extensions/blur-my-shell@aunetx
   URL: https://github.com/aunetx/blur-my-shell
-  Version: 68
+  Version: 69
   Enabled: Yes
   State: ACTIVE
 
@@ -346,8 +346,8 @@ CoverflowAltTab@palatis.blogspot.com
   Path: /home/prithvi/.local/share/gnome-shell/extensions/CoverflowAltTab@palatis.blogspot.com
   URL: https://github.com/dsheeler/CoverflowAltTab
   Version: 78
-  Enabled: Yes
-  State: ACTIVE
+  Enabled: No
+  State: INITIALIZED
 
 azwallpaper@azwallpaper.gitlab.com
   Name: Wallpaper Slideshow

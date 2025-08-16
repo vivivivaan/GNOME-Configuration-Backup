@@ -216,9 +216,11 @@ geoclue-2.0					install
 geocode-glib-common				install
 gettext						install
 gettext-base					install
+gh						install
 ghostscript					install
 gir1.2-accountsservice-1.0:amd64		install
 gir1.2-adw-1:amd64				install
+gir1.2-appindicator3-0.1			install
 gir1.2-atk-1.0:amd64				install
 gir1.2-atspi-2.0:amd64				install
 gir1.2-casilda-0.1				install
@@ -244,6 +246,8 @@ gir1.2-graphene-1.0:amd64			install
 gir1.2-gstreamer-1.0:amd64			install
 gir1.2-gtk-3.0:amd64				install
 gir1.2-gtk-4.0:amd64				install
+gir1.2-gtk4layershell-1.0:amd64			install
+gir1.2-gtop-2.0:amd64				install
 gir1.2-gudev-1.0:amd64				install
 gir1.2-gweather-4.0:amd64			install
 gir1.2-handy-1:amd64				install
@@ -340,6 +344,8 @@ gnupg2						install
 golang-github-containers-common			install
 golang-github-containers-image			install
 google-chrome-stable				install
+gparted						install
+gparted-common					install
 gpg						install
 gpg-agent					install
 gpg-wks-client					install
@@ -487,6 +493,7 @@ libatasmart4:amd64				install
 libatk-adaptor:amd64				install
 libatk-bridge2.0-0t64:amd64			install
 libatk1.0-0t64:amd64				install
+libatkmm-1.6-1v5:amd64				install
 libatomic1:amd64				install
 libatomic1:i386					install
 libatopology2t64:amd64				install
@@ -564,6 +571,7 @@ libcairo-gobject2:amd64				install
 libcairo-perl					install
 libcairo-script-interpreter2:amd64		install
 libcairo2:amd64					install
+libcairomm-1.0-1v5:amd64			install
 libcairomm-1.16-1:amd64				install
 libcamel-1.2-64t64:amd64			install
 libcamera-ipa:amd64				install
@@ -816,6 +824,7 @@ libglib2.0-bin					install
 libglib2.0-data					install
 libglib2.0-dev:amd64				install
 libglib2.0-dev-bin				install
+libglibmm-2.4-1t64:amd64			install
 libglibmm-2.68-1t64:amd64			install
 libglu1-mesa:amd64				install
 libglvnd0:amd64					install
@@ -874,6 +883,7 @@ libgtk2.0-0t64:amd64				install
 libgtk2.0-bin					install
 libgtk2.0-common				install
 libgtk3-perl					install
+libgtkmm-3.0-1t64:amd64				install
 libgtkmm-4.0-0:amd64				install
 libgtksourceview-5-0:amd64			install
 libgtksourceview-5-common			install
@@ -1116,6 +1126,7 @@ libnsl2:amd64					install
 libnspr4:amd64					install
 libnspr4-dev					install
 libnss-mdns:amd64				install
+libnss-mymachines:amd64				install
 libnss-sss:amd64				install
 libnss-systemd:amd64				install
 libnss3:amd64					install
@@ -1178,12 +1189,14 @@ libpanel-common					install
 libpango-1.0-0:amd64				install
 libpangocairo-1.0-0:amd64			install
 libpangoft2-1.0-0:amd64				install
+libpangomm-1.4-1v5:amd64			install
 libpangomm-2.48-1t64:amd64			install
 libpangoxft-1.0-0:amd64				install
 libpaper-utils					install
 libpaper2:amd64					install
 libparams-classify-perl:amd64			install
 libparams-util-perl				install
+libparted-fs-resize0t64:amd64			install
 libparted2t64:amd64				install
 libpath-tiny-perl				install
 libpath-utils1t64:amd64				install
@@ -1380,6 +1393,7 @@ libsource-highlight-common			install
 libsource-highlight4t64:amd64			install
 libsoxr0:amd64					install
 libspa-0.2-bluetooth:amd64			install
+libspa-0.2-libcamera:amd64			install
 libspa-0.2-modules:amd64			install
 libspatialaudio0t64:amd64			install
 libspeechd-module0:amd64			install
@@ -1638,6 +1652,7 @@ libxml-twig-perl				install
 libxml-xpathengine-perl				install
 libxml2:amd64					install
 libxml2:i386					install
+libxml2-utils					install
 libxmlb2:amd64					install
 libxmlsec1t64:amd64				install
 libxmlsec1t64-nss:amd64				install
@@ -1805,6 +1820,7 @@ pipewire:amd64					install
 pipewire-alsa:amd64				install
 pipewire-audio					install
 pipewire-bin					install
+pipewire-libcamera				install
 pipewire-pulse					install
 pkexec						install
 pkg-config:amd64				install
@@ -1988,6 +2004,7 @@ sound-theme-freedesktop				install
 speech-dispatcher				install
 speech-dispatcher-audio-plugins:amd64		install
 speech-dispatcher-espeak-ng			install
+speedtest					install
 spice-vdagent					install
 spotify-client					install
 squashfs-tools					install
@@ -2010,6 +2027,7 @@ sysstat						install
 system-config-printer-common			install
 system-config-printer-udev			install
 systemd						install
+systemd-container				install
 systemd-cryptsetup				install
 systemd-hwe-hwdb				install
 systemd-oomd					install
