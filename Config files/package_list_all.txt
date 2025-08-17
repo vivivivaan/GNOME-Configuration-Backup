@@ -1378,6 +1378,7 @@ libsmbclient0:amd64				install
 libsnapd-glib-2-1:amd64				install
 libsnappy1v5:amd64				install
 libsndfile1:amd64				install
+libsndio7.0:amd64				install
 libsnmp-base					install
 libsnmp40t64:amd64				install
 libsocket6-perl					install

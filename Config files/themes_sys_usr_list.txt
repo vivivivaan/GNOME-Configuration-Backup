@@ -1,4 +1,7 @@
 /home/prithvi/.icons/:
+Steel-Blue-3F88C5
+Steel-Blue-3F88C5-dark
+Steel-Blue-3F88C5-light
 Tela-black
 Tela-black-dark
 Tela-black-light
@@ -31,6 +34,9 @@ hicolor
 HighContrast
 locolor
 redglass
+Steel-Blue-3F88C5
+Steel-Blue-3F88C5-dark
+Steel-Blue-3F88C5-light
 Tela-black
 Tela-black-dark
 Tela-black-light

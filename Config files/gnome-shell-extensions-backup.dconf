@@ -344,9 +344,19 @@ start-corner='top-left'
 show-reconnect-always=true
 
 [dynamic-panel]
-auto-width=true
+auto-background=false
+auto-width=false
 background-mode=0
+blur=true
+colors-use-in-static=false
 detection-mode=0
+duration=185
+float-width=100
+solid-type=1
+top-margin=0
+transparent=0
+transparent-menus=true
+transparent-menus-keep-alpha=true
 
 [extension-list]
 button-icon=uint32 0
@@ -358,6 +368,13 @@ filter-button=true
 aligned=false
 pos-x=0
 pos-y=0
+
+[floatingDock]
+floating-dock-direction='right'
+floating-dock-icon-favorites=true
+floating-dock-icon-size=32
+floating-dock-indicator=['dot', 'left']
+floating-dock-position=[33, 204]
 
 [freon]
 panel-box-index=0

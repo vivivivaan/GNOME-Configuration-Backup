@@ -130,7 +130,7 @@ monitor@astraext.github.io
   Description: Astra Monitor is a cutting-edge, fully customizable, and performance-focused system monitoring extension for GNOME's top bar. It's an all-in-one solution for those seeking to keep a close eye on their system's performance metrics like CPU, GPU, RAM, disk usage, network statistics, and sensor readings.
   Path: /home/prithvi/.local/share/gnome-shell/extensions/monitor@astraext.github.io
   URL: https://github.com/AstraExt/astra-monitor
-  Version: 34 (51)
+  Version: 35 (52)
   Enabled: Yes
   State: ACTIVE
 
@@ -442,6 +442,22 @@ AlphabeticalAppGrid@stuarthayhurst
   Path: /home/prithvi/.local/share/gnome-shell/extensions/AlphabeticalAppGrid@stuarthayhurst
   URL: https://github.com/stuarthayhurst/alphabetical-grid-extension
   Version: 43
+  Enabled: Yes
+  State: ACTIVE
+
+floatingDock@sun.wxg@gmail.com
+  Name: Floating Dock
+  Description: Move dock anywhere on the desktop
+
+Press Ctrl+Alt+k to vi mode
+Press lowercase alphabet, open new window or active the window
+Press uppercase alphabet, force to open new window
+
+Point on the main button, change workspace by mouse scroll
+Right click the main button, show some selections
+  Path: /home/prithvi/.local/share/gnome-shell/extensions/floatingDock@sun.wxg@gmail.com
+  URL: https://github.com/sunwxg/gnome-shell-extension-floatingDock
+  Version: 38
   Enabled: Yes
   State: ACTIVE
 

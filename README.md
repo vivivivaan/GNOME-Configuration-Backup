@@ -33,7 +33,7 @@
 - Enable flags in `chrome://flags`, `brave://flags` and `edge://flags`.
 - Copy browser files from `/usr/share/applications/` to `~/.local/share/applications/`.
 - For each of the copied files, jump to the line that begins with `Exec=` and ends with `%U` and append as shown below. Append the same to the line that begins with `Exec=` and ends with `--inprivate` or `--incognito`.
-- Alternatively, create `chrome-flags.conf`, `brave-flags.conf`, `edge-flags.conf` files in `~/.config` and add the flags to the ***-flags.conf** files.
+- Alternatively, create `chrome-flags.conf`, `brave-flags.conf`, `edge-flags.conf` files in `~/.config` and add the flags to respective flag files.
 - Restart the system or session.
 
 | Browser | copy *.desktop file | `*://flags` |
@@ -51,9 +51,12 @@
 # GRUB theme background glitches
 For GRUB configuration, install the GRUB theme but comment out the `GRUB_BACKGROUND` flag to avoid any background.
 
+# Enable fingerprint authentication besides login
+`sudo pam-auth-update` and enable **Fingerprint Authentication**.
+
 # Theming flatpak apps
 
-- To apply the GTK theme to flatpak apps, use `sudo flatpak override --filesystem=xdg-data/themes` (By default, that location translates to $HOME/.local/share/themes) or `sudo flatpak override --filesystem=$HOME/.themes`.
+- To apply the GTK theme to flatpak apps, use `sudo flatpak override --filesystem=xdg-data/themes` (By default, that location translates to `$HOME/.local/share/themes`) or `sudo flatpak override --filesystem=$HOME/.themes`.
 - Lastly, to apply config, use `sudo flatpak override --filesystem=xdg-config/gtk-3.0 && sudo flatpak override --filesystem=xdg-config/gtk-4.0`.
 
 # Important search terms for NVIDIA driver and Linux Kernel packages
