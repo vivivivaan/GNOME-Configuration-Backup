@@ -1037,11 +1037,13 @@ spacing=0
 [org/gnome/shell/extensions/azclock/widget-data/20a65e14-a4e7-4ba1-bb7f-c55be6ca8e80/element-data/3029d92e-de11-40a6-85b3-644f5be2633c]
 date-format='%A %b %d'
 font-size=16
+foreground-color='rgb(154,153,150)'
 name='Date Label'
 shadow=(false, 'black', 2, 2, 0, 4)
 
 [org/gnome/shell/extensions/azclock/widget-data/20a65e14-a4e7-4ba1-bb7f-c55be6ca8e80/element-data/f6334b85-080d-4dfe-b2e3-9a6873939cc8]
 font-size=16
+foreground-color='rgb(154,153,150)'
 name='Time Label'
 shadow=(false, 'black', 2, 2, 0, 4)
 show-background=false
@@ -2279,7 +2281,7 @@ font-adjustment=1
 
 [org/gtk/gtk4/settings/color-chooser]
 custom-colors=[(0.0, 0.0, 0.0, 0.20000000298023224), (0.32156863808631897, 0.58039218187332153, 0.88627451658248901, 1.0), (0.35686275362968445, 0.53333336114883423, 0.78039216995239258, 1.0), (0.16899999976158142, 0.22400000691413879, 0.29800000786781311, 1.0), (0.0, 0.0, 0.0, 0.25), (1.0, 1.0, 1.0, 0.0), (1.0, 0.0, 0.0, 1.0)]
-selected-color=(true, 1.0, 1.0, 1.0, 0.0)
+selected-color=(true, 0.60392159223556519, 0.60000002384185791, 0.58823531866073608, 1.0)
 
 [org/gtk/gtk4/settings/file-chooser]
 date-format='regular'

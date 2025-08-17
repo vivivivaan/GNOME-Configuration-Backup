@@ -106,11 +106,13 @@ spacing=0
 [azclock/widget-data/20a65e14-a4e7-4ba1-bb7f-c55be6ca8e80/element-data/3029d92e-de11-40a6-85b3-644f5be2633c]
 date-format='%A %b %d'
 font-size=16
+foreground-color='rgb(154,153,150)'
 name='Date Label'
 shadow=(false, 'black', 2, 2, 0, 4)
 
 [azclock/widget-data/20a65e14-a4e7-4ba1-bb7f-c55be6ca8e80/element-data/f6334b85-080d-4dfe-b2e3-9a6873939cc8]
 font-size=16
+foreground-color='rgb(154,153,150)'
 name='Time Label'
 shadow=(false, 'black', 2, 2, 0, 4)
 show-background=false
