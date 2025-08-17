@@ -84,6 +84,38 @@ storage-main='eui.002538bc11b6e85b-part2'
 show-buttons=false
 top-image='/home/prithvi/Wallpapers/christian-macmillan-iXg90dspPZw-unsplash.jpg'
 
+[azclock]
+create-initial-widget=false
+prefs-visible-page=''
+update-notifier-project-version=14
+widgets=[{'20a65e14-a4e7-4ba1-bb7f-c55be6ca8e80': <{'enabled': <true>}>}]
+
+[azclock/widget-data/20a65e14-a4e7-4ba1-bb7f-c55be6ca8e80]
+always-on-top=true
+anchor-point='Center'
+background-color='rgba(255,255,255,0)'
+border-radius=155
+elements=[{'f6334b85-080d-4dfe-b2e3-9a6873939cc8': <{'enabled': <true>}>}, {'3029d92e-de11-40a6-85b3-644f5be2633c': <{'enabled': <true>}>}]
+location=(200, 500)
+lock-widget=true
+name='Digital Clock Widget'
+padding=(35, 15, 15, 35)
+show-background=true
+spacing=0
+
+[azclock/widget-data/20a65e14-a4e7-4ba1-bb7f-c55be6ca8e80/element-data/3029d92e-de11-40a6-85b3-644f5be2633c]
+date-format='%A %b %d'
+font-size=16
+name='Date Label'
+shadow=(false, 'black', 2, 2, 0, 4)
+
+[azclock/widget-data/20a65e14-a4e7-4ba1-bb7f-c55be6ca8e80/element-data/f6334b85-080d-4dfe-b2e3-9a6873939cc8]
+font-size=16
+name='Time Label'
+shadow=(false, 'black', 2, 2, 0, 4)
+show-background=false
+show-border=false
+
 [aztaskbar]
 main-panel-height=(true, 40)
 position-in-panel='CENTER'
@@ -374,7 +406,7 @@ floating-dock-direction='right'
 floating-dock-icon-favorites=true
 floating-dock-icon-size=32
 floating-dock-indicator=['dot', 'left']
-floating-dock-position=[33, 204]
+floating-dock-position=[0, 0]
 
 [freon]
 panel-box-index=0

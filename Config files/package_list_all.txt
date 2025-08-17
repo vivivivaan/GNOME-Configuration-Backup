@@ -67,6 +67,7 @@ bzip2						install
 bzip2-doc					install
 ca-certificates					install
 cabextract					install
+calf-plugins					install
 catatonit					install
 chromium-codecs-ffmpeg-extra			install
 cloud-guest-utils				install
@@ -655,6 +656,7 @@ libdbusmenu-glib4:amd64				install
 libdbusmenu-gtk3-4:amd64			install
 libdc1394-25:amd64				install
 libdca0:amd64					install
+libdcap1t64:amd64				install
 libdconf1:amd64					install
 libde265-0:amd64				install
 libdebconfclient0:amd64				install
@@ -761,6 +763,7 @@ libflac14:amd64					install
 libflashrom1:amd64				install
 libflatpak0:amd64				install
 libflite1:amd64					install
+libfluidsynth3:amd64				install
 libfont-afm-perl				install
 libfont-ttf-perl				install
 libfontconfig1:amd64				install
@@ -947,6 +950,7 @@ libinireader0:amd64				install
 libinklevel5:amd64				install
 libinput-bin					install
 libinput10:amd64				install
+libinstpatch-1.0-2:amd64			install
 libio-html-perl					install
 libio-interactive-perl				install
 libio-socket-ssl-perl				install
@@ -2049,6 +2053,7 @@ thunderbird-locale-en				install
 thunderbird-locale-en-gb			install
 thunderbird-locale-en-us			install
 time						install
+timgm6mb-soundfont				install
 tinysparql					install
 tldr						install
 tldr-hs						install

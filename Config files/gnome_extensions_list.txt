@@ -214,8 +214,8 @@ hidetopbar@mathieu.bidon.ca
   Path: /home/prithvi/.local/share/gnome-shell/extensions/hidetopbar@mathieu.bidon.ca
   URL: https://gitlab.gnome.org/tuxor1337/hidetopbar
   Version: 120
-  Enabled: No
-  State: INITIALIZED
+  Enabled: Yes
+  State: ACTIVE
 
 media-progress@krypion17
   Name: Media Progress
@@ -427,6 +427,15 @@ desktop-cube@schneegans.github.com
   Enabled: No
   State: INITIALIZED
 
+azclock@azclock.gitlab.com
+  Name: Desktop Widgets (Desktop Clock)
+  Description: Add widgets to the desktop!
+  Path: /home/prithvi/.local/share/gnome-shell/extensions/azclock@azclock.gitlab.com
+  URL: https://gitlab.com/AndrewZaech/azclock
+  Version: 14
+  Enabled: Yes
+  State: ACTIVE
+
 window-thumbnails@G-dH.github.com
   Name: WTMB (Window Thumbnails)
   Description: Allows the creation of window clones for use as Picture-in-Picture (PIP) live thumbnails
@@ -458,8 +467,8 @@ Right click the main button, show some selections
   Path: /home/prithvi/.local/share/gnome-shell/extensions/floatingDock@sun.wxg@gmail.com
   URL: https://github.com/sunwxg/gnome-shell-extension-floatingDock
   Version: 38
-  Enabled: Yes
-  State: ACTIVE
+  Enabled: No
+  State: INACTIVE
 
 ding@rastersoft.com
   Name: Desktop Icons NG (DING)
