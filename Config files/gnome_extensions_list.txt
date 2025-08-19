@@ -468,7 +468,7 @@ Right click the main button, show some selections
   URL: https://github.com/sunwxg/gnome-shell-extension-floatingDock
   Version: 38
   Enabled: No
-  State: INACTIVE
+  State: INITIALIZED
 
 ding@rastersoft.com
   Name: Desktop Icons NG (DING)

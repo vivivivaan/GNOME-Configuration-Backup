@@ -195,12 +195,13 @@ style-components=3
 [blur-my-shell/panel]
 blur=true
 brightness=0.75
-force-light-text=true
+force-light-text=false
 override-background=true
 pipeline='pipeline_default_rounded'
-sigma=75
-static-blur=true
+sigma=0
+static-blur=false
 style-panel=0
+unblur-in-overview=true
 
 [blur-my-shell/screenshot]
 pipeline='pipeline_default'
@@ -463,9 +464,9 @@ single-column=false
 logo-border=uint32 30
 logo-file='/home/prithvi/Pictures/linux-svgrepo-com.png'
 logo-file-dark='/home/prithvi/Pictures/linux-svgrepo-com.png'
-logo-opacity=uint32 74
+logo-opacity=uint32 61
 logo-position='bottom-right'
-logo-size=4.2995594713656384
+logo-size=3.8947368421052628
 overview-visible=true
 y-logo-border=uint32 30
 

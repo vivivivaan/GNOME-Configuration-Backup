@@ -140,6 +140,9 @@ launch-on-startup=false
 run-in-background=false
 sync-provider=0
 
+[org/altlinux/Tuner]
+last-page='compositor'
+
 [org/gabmus/gfeeds]
 blocklist-last-update=1750304410.157532
 dark-mode=false
@@ -227,12 +230,12 @@ timers=@aa{sv} []
 world-clocks=[{'location': <(uint32 2, <('Hyderabad', 'VOHY', true, [(0.30455995447301049, 1.3695016922159813)], [(0.30325580954933529, 1.3696374264719091)])>)>}, {'location': <(uint32 2, <('New York', 'KNYC', true, [(0.71180344078725644, -1.2909618758762367)], [(0.71059804659265924, -1.2916478949920254)])>)>}, {'location': <(uint32 2, <('Chicago', 'KMDW', true, [(0.72927128935316143, -1.5316185371029443)], [(0.73042086791828009, -1.529781996944241)])>)>}, {'location': <(uint32 2, <('San Francisco', 'KOAK', false, [(0.65832848982162007, -2.133408063190589)], [(0.65832848982162007, -2.133408063190589)])>)>}]
 
 [org/gnome/clocks/state/window]
-maximized=false
+maximized=true
 panel-id='world'
 size=(855, 577)
 
 [org/gnome/control-center]
-last-panel='sound'
+last-panel='wifi'
 window-state=(1103, 806, false)
 
 [org/gnome/deja-dup]
@@ -277,7 +280,7 @@ name='Basics'
 translate=false
 
 [org/gnome/desktop/app-folders/folders/625e7b1e-bf22-42ad-9256-17543e34fe17]
-apps=['ca.desrt.dconf-editor.desktop', 'com.mattjakeman.ExtensionManager.desktop', 'org.gnome.Extensions.desktop', 'org.gnome.font-viewer.desktop', 'io.github.realmazharhussain.GdmSettings.desktop', 'org.gnome.tweaks.desktop', 'io.github.vikdevelop.SaveDesktop.desktop', 'com.github.tchx84.Flatseal.desktop']
+apps=['ca.desrt.dconf-editor.desktop', 'com.mattjakeman.ExtensionManager.desktop', 'org.gnome.font-viewer.desktop', 'io.github.realmazharhussain.GdmSettings.desktop', 'org.gnome.tweaks.desktop', 'org.gnome.Extensions.desktop', 'io.github.vikdevelop.SaveDesktop.desktop', 'com.github.tchx84.Flatseal.desktop']
 name='UI'
 translate=false
 
@@ -353,8 +356,8 @@ name='Unnamed Folder'
 [org/gnome/desktop/background]
 color-shading-type='solid'
 picture-options='zoom'
-picture-uri='file:///home/prithvi/Wallpapers/steve-johnson-M3z9aRBY4gk-unsplash.jpg'
-picture-uri-dark='file:///home/prithvi/Wallpapers/steve-johnson-M3z9aRBY4gk-unsplash.jpg'
+picture-uri='file:///home/prithvi/Wallpapers/philip-oroni-KtEloTGQ8wM-unsplash.jpg'
+picture-uri-dark='file:///home/prithvi/Wallpapers/philip-oroni-KtEloTGQ8wM-unsplash.jpg'
 primary-color='#2c001e'
 secondary-color='#2c001e'
 
@@ -745,7 +748,7 @@ toggle-tiled-left=@as []
 toggle-tiled-right=@as []
 
 [org/gnome/nautilus/compression]
-default-compression-format='tar.xz'
+default-compression-format='zip'
 
 [org/gnome/nautilus/icon-view]
 captions=['size', 'none', 'none']
@@ -871,7 +874,7 @@ last-folder-path='/home/prithvi/Documents/Notesnook/backups'
 last-folder-path='/home/prithvi/Wallpapers'
 
 [org/gnome/portal/filechooser/google-chrome]
-last-folder-path='/home/prithvi/Downloads'
+last-folder-path='/home/prithvi/Wallpapers'
 
 [org/gnome/portal/filechooser/io.github.realmazharhussain.GdmSettings]
 last-folder-path='/home/prithvi/Wallpapers'
@@ -920,11 +923,11 @@ sleep-inactive-ac-timeout=1500
 sleep-inactive-ac-type='suspend'
 
 [org/gnome/shell]
-app-picker-layout=[{'6093395b-f0cf-41fa-aae2-4f7df761047c': <{'position': <0>}>, '68df28d3-75d5-405b-99d0-790cc49e3935': <{'position': <1>}>, '8bd07513-beb8-467b-8818-a4153670c714': <{'position': <2>}>, 'dba0ee49-f157-4da7-b6e3-558598bec7e2': <{'position': <3>}>, '6c9f89ad-9b8e-4517-a635-00544da8c9cd': <{'position': <4>}>, '300deb63-5040-49a5-b580-15e7efbb22cb': <{'position': <5>}>, '78d617f4-a883-4d6e-8d8e-8835b9d0df83': <{'position': <6>}>, '625e7b1e-bf22-42ad-9256-17543e34fe17': <{'position': <7>}>, 'cc6d3b95-11db-44c6-81f2-f31a34e4e869': <{'position': <8>}>, 'org.gnome.Characters.desktop': <{'position': <9>}>, 'com.notesnook.Notesnook.desktop': <{'position': <10>}>, 'nvidia-settings.desktop': <{'position': <11>}>, 'spotify.desktop': <{'position': <12>}>, 'org.telegram.desktop._3e485da34fc040f9218e3891ecde1e6c.desktop': <{'position': <13>}>, 'start-tor-browser.desktop': <{'position': <14>}>, 'vlc.desktop': <{'position': <15>}>, 'windscribe.desktop': <{'position': <16>}>}]
+app-picker-layout=[{'6093395b-f0cf-41fa-aae2-4f7df761047c': <{'position': <0>}>, '68df28d3-75d5-405b-99d0-790cc49e3935': <{'position': <1>}>, '8bd07513-beb8-467b-8818-a4153670c714': <{'position': <2>}>, 'dba0ee49-f157-4da7-b6e3-558598bec7e2': <{'position': <3>}>, '6c9f89ad-9b8e-4517-a635-00544da8c9cd': <{'position': <4>}>, '300deb63-5040-49a5-b580-15e7efbb22cb': <{'position': <5>}>, '78d617f4-a883-4d6e-8d8e-8835b9d0df83': <{'position': <6>}>, '625e7b1e-bf22-42ad-9256-17543e34fe17': <{'position': <7>}>, 'cc6d3b95-11db-44c6-81f2-f31a34e4e869': <{'position': <8>}>, 'org.gnome.Characters.desktop': <{'position': <9>}>, 'com.notesnook.Notesnook.desktop': <{'position': <10>}>, 'nvidia-settings.desktop': <{'position': <11>}>, 'io.github.alainm23.planify.desktop': <{'position': <12>}>, 'spotify.desktop': <{'position': <13>}>, 'org.telegram.desktop._3e485da34fc040f9218e3891ecde1e6c.desktop': <{'position': <14>}>, 'start-tor-browser.desktop': <{'position': <15>}>, 'virt-manager.desktop': <{'position': <16>}>, 'vlc.desktop': <{'position': <17>}>, 'windscribe.desktop': <{'position': <18>}>}]
 command-history=['sudo apt-get update', 'gnome-terminal']
 disable-user-extensions=false
 disabled-extensions=['ding@rastersoft.com', 'dash-to-dock@micxgx.gmail.com', 'power-profile@fthx', 'azwallpaper@azwallpaper.gitlab.com', 'dash-to-panel@jderose9.github.com', 'add-to-desktop@tommimon.github.com', 'media-progress@krypion17', 'wellbeingtoggle@m51.io', 'one-thing@github.com', 'another-window-session-manager@gmail.com', 'floating-mini-panel@ghi59.github.com', 'window-thumbnails@G-dH.github.com', 'desktop-cube@schneegans.github.com', 'CoverflowAltTab@palatis.blogspot.com', 'floatingDock@sun.wxg@gmail.com']
-enabled-extensions=['tiling-assistant@ubuntu.com', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'apps-menu@gnome-shell-extensions.gcampax.github.com', 'bluetooth-quick-connect@bjarosze.gmail.com', 'blur-my-shell@aunetx', 'clipboard-indicator@tudmotu.com', 'fq@megh', 'Hide_Activities@shay.shayel.org', 'just-perfection-desktop@just-perfection', 'osd-volume-number@deminder', 'places-menu@gnome-shell-extensions.gcampax.github.com', 'power-profile-indicator@laux.wtf', 'quick-settings-tweaks@qwreey', 'drive-menu@gnome-shell-extensions.gcampax.github.com', 'screenshort-cut@pauloimon', 'show-desktop-button@amivaleo', 'sound-percentage@subashghimire.info.np', 'transparent-window-moving@noobsai.github.com', 'tweaks-system-menu@extensions.gnome-shell.fifi.org', 'weekend-o-meter@coffeverton.gmail.com', 'openmeteoweather@deezhizyu.github.io', 'currency-tracker@faymaz.github.com', 'status-icons@gnome-shell-extensions.gcampax.github.com', 'snowy@exposedcat', 'aztaskbar@aztaskbar.gitlab.com', 'weatherornot@somepaulo.github.io', 'advanced-weather@sanjai.com', 'weatheroclock@CleoMenezesJr.github.io', 'battery-time@eetumos.github.com', 'disconnect-wifi@kgshank.net', 'notification-position@drugo.dev', 'freon@UshakovVasilii_Github.yahoo.com', 'restartto@tiagoporsch.github.io', 'Bluetooth-Battery-Meter@maniacx.github.com', 'eepresetselector@ulville.github.io', 'ubuntu-appindicators@ubuntu.com', 'custom-hot-corners-extended@G-dH.github.com', 'extension-list@tu.berry', 'tracker@aliakseiz.github.com', 'simple-timer@majortomvr.github.com', 'spotify-controls@Sonath21', 'notifications-alert-on-user-menu@hackedbellini.gmail.com', 'SettingsCenter@lauinger-clan.de', 'compact-quick-settings@gnome-shell-extensions.mariospr.org', 'dynamic-panel@velhlkj.com', 'reboottouefi@ubaygd.com', 'NotificationCounter@coolllsk', 'fullscreen-notifications@sorrow.about.alice.pm.me', 'timer@lbgracioso.net', 'thinkpad-red-led@juanmagd.dev', 'yks_timer@ysfsvm', 'quake-terminal@diegodario88.github.io', 'waylandorx11@injcristianrojas.github.com', 'flickernaut@imoize.github.io', 'huanghaohhoa@163.com', 'quick-settings-audio-panel@rayzeq.github.io', 'trayIconsReloaded@selfmade.pl', 'vscode-workspaces@prometheontechnologies.com', 'cronomix@zagortenay333', 'ubuntu-dock@ubuntu.com', 'slinger@gfxmonk.net', 'quarterwindows@troyready.com', 'search-light@icedman.github.com', 'dim-background-windows@stephane-13.github.com', 'open-desktop-location@laura.media', 'CamPeek@gamalsherif1.github.io', 'task-widget@juozasmiskinis.gitlab.io', 'lockscreen-extension@pratap.fastmail.fm', 'transparent-inactive-windows@art-was-here.github.io', 'day-progress@arcaege.github.io', 'applications-overview-tooltip@RaphaelRochet', 'simple-weather@romanlefler.com', 'quick-settings-avatar@d-go', 'quick-touchpad-toggle@kramo.hu', 'IndicatorVisibilityTool@VirlesFelyard', 'night-light-slider-updated@vilsbeg.codeberg.org', 'pinit@cankurttekin', 'wifiqrcode@glerro.pm.me', 'notification-configurator@exposedcat', 'tilingshell@ferrarodomenico.com', 'fnlock-switch-tp-comp-usb-kb@goloshubov.github.io', 'notification-timeout@chlumskyvaclav.gmail.com', 'notification-banner-reloaded@marcinjakubowski.github.com', 'openbar@neuromorph', 'ufw-status-indicator@bittokazi.com', 'xwayland-indicator@swsnr.de', 'battery-drop@khisrav', 'right-click-next@derVedro', 'logowidget@github.com.howbea', 'battery-indicator-icon@Deminder', 'volume_scroller@francislavoie.github.io', 'always-indicator@martin.zurowietz.de', 'rounded-window-corners@fxgn', 'auto-accent-colour@Wartybix', 'prapor@inbalboa.github.io', 'gnomebedtime@ionutbortis.gmail.com', 'System_Monitor@bghome.gmail.com', 'systemHUD@LalaloyXyz', 'PrivacyMenu@stuarthayhurst', 'avatar@pawel.swiszcz.com', 'monitor@astraext.github.io', 'Vitals@CoreCoding.com', 'AlphabeticalAppGrid@stuarthayhurst', 'transparent-top-bar@ftpix.com', 'clipboard-line-cleaner@example.com', 'hidetopbar@mathieu.bidon.ca', 'azclock@azclock.gitlab.com']
+enabled-extensions=['tiling-assistant@ubuntu.com', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'apps-menu@gnome-shell-extensions.gcampax.github.com', 'bluetooth-quick-connect@bjarosze.gmail.com', 'blur-my-shell@aunetx', 'clipboard-indicator@tudmotu.com', 'fq@megh', 'Hide_Activities@shay.shayel.org', 'just-perfection-desktop@just-perfection', 'osd-volume-number@deminder', 'places-menu@gnome-shell-extensions.gcampax.github.com', 'power-profile-indicator@laux.wtf', 'quick-settings-tweaks@qwreey', 'drive-menu@gnome-shell-extensions.gcampax.github.com', 'screenshort-cut@pauloimon', 'show-desktop-button@amivaleo', 'sound-percentage@subashghimire.info.np', 'transparent-window-moving@noobsai.github.com', 'tweaks-system-menu@extensions.gnome-shell.fifi.org', 'weekend-o-meter@coffeverton.gmail.com', 'openmeteoweather@deezhizyu.github.io', 'currency-tracker@faymaz.github.com', 'status-icons@gnome-shell-extensions.gcampax.github.com', 'snowy@exposedcat', 'aztaskbar@aztaskbar.gitlab.com', 'weatherornot@somepaulo.github.io', 'advanced-weather@sanjai.com', 'weatheroclock@CleoMenezesJr.github.io', 'battery-time@eetumos.github.com', 'disconnect-wifi@kgshank.net', 'notification-position@drugo.dev', 'freon@UshakovVasilii_Github.yahoo.com', 'restartto@tiagoporsch.github.io', 'Bluetooth-Battery-Meter@maniacx.github.com', 'eepresetselector@ulville.github.io', 'ubuntu-appindicators@ubuntu.com', 'custom-hot-corners-extended@G-dH.github.com', 'extension-list@tu.berry', 'tracker@aliakseiz.github.com', 'simple-timer@majortomvr.github.com', 'spotify-controls@Sonath21', 'notifications-alert-on-user-menu@hackedbellini.gmail.com', 'SettingsCenter@lauinger-clan.de', 'compact-quick-settings@gnome-shell-extensions.mariospr.org', 'dynamic-panel@velhlkj.com', 'reboottouefi@ubaygd.com', 'NotificationCounter@coolllsk', 'fullscreen-notifications@sorrow.about.alice.pm.me', 'timer@lbgracioso.net', 'thinkpad-red-led@juanmagd.dev', 'yks_timer@ysfsvm', 'quake-terminal@diegodario88.github.io', 'waylandorx11@injcristianrojas.github.com', 'flickernaut@imoize.github.io', 'huanghaohhoa@163.com', 'quick-settings-audio-panel@rayzeq.github.io', 'trayIconsReloaded@selfmade.pl', 'vscode-workspaces@prometheontechnologies.com', 'cronomix@zagortenay333', 'ubuntu-dock@ubuntu.com', 'slinger@gfxmonk.net', 'quarterwindows@troyready.com', 'search-light@icedman.github.com', 'dim-background-windows@stephane-13.github.com', 'open-desktop-location@laura.media', 'CamPeek@gamalsherif1.github.io', 'task-widget@juozasmiskinis.gitlab.io', 'lockscreen-extension@pratap.fastmail.fm', 'transparent-inactive-windows@art-was-here.github.io', 'day-progress@arcaege.github.io', 'applications-overview-tooltip@RaphaelRochet', 'simple-weather@romanlefler.com', 'quick-settings-avatar@d-go', 'quick-touchpad-toggle@kramo.hu', 'IndicatorVisibilityTool@VirlesFelyard', 'night-light-slider-updated@vilsbeg.codeberg.org', 'pinit@cankurttekin', 'wifiqrcode@glerro.pm.me', 'notification-configurator@exposedcat', 'tilingshell@ferrarodomenico.com', 'fnlock-switch-tp-comp-usb-kb@goloshubov.github.io', 'notification-timeout@chlumskyvaclav.gmail.com', 'notification-banner-reloaded@marcinjakubowski.github.com', 'openbar@neuromorph', 'ufw-status-indicator@bittokazi.com', 'xwayland-indicator@swsnr.de', 'battery-drop@khisrav', 'right-click-next@derVedro', 'logowidget@github.com.howbea', 'battery-indicator-icon@Deminder', 'volume_scroller@francislavoie.github.io', 'always-indicator@martin.zurowietz.de', 'rounded-window-corners@fxgn', 'auto-accent-colour@Wartybix', 'prapor@inbalboa.github.io', 'gnomebedtime@ionutbortis.gmail.com', 'System_Monitor@bghome.gmail.com', 'systemHUD@LalaloyXyz', 'PrivacyMenu@stuarthayhurst', 'avatar@pawel.swiszcz.com', 'monitor@astraext.github.io', 'Vitals@CoreCoding.com', 'AlphabeticalAppGrid@stuarthayhurst', 'transparent-top-bar@ftpix.com', 'clipboard-line-cleaner@example.com', 'azclock@azclock.gitlab.com', 'hidetopbar@mathieu.bidon.ca']
 favorite-apps=['synaptic.desktop', 'org.gnome.Nautilus.desktop', 'brave-browser.desktop', 'google-chrome.desktop', 'zen.desktop', 'org.gnome.TextEditor.desktop', 'org.gnome.Terminal.desktop', 'code.desktop', 'chrome-hnpfjngllnobngcgfapefoaidbinmjnm-Default.desktop', 'libreoffice-writer.desktop', 'io.github.amit9838.mousam.desktop', 'io.missioncenter.MissionCenter.desktop']
 last-selected-power-profile='power-saver'
 welcome-dialog-last-shown-version='46.0'
@@ -1126,12 +1129,13 @@ style-components=3
 [org/gnome/shell/extensions/blur-my-shell/panel]
 blur=true
 brightness=0.75
-force-light-text=true
+force-light-text=false
 override-background=true
 pipeline='pipeline_default_rounded'
-sigma=75
-static-blur=true
+sigma=0
+static-blur=false
 style-panel=0
+unblur-in-overview=true
 
 [org/gnome/shell/extensions/blur-my-shell/screenshot]
 pipeline='pipeline_default'
@@ -1394,9 +1398,9 @@ single-column=false
 logo-border=uint32 30
 logo-file='/home/prithvi/Pictures/linux-svgrepo-com.png'
 logo-file-dark='/home/prithvi/Pictures/linux-svgrepo-com.png'
-logo-opacity=uint32 74
+logo-opacity=uint32 61
 logo-position='bottom-right'
-logo-size=4.2995594713656384
+logo-size=3.8947368421052628
 overview-visible=true
 y-logo-border=uint32 30
 
@@ -1817,6 +1821,15 @@ locations=[<(uint32 2, <('New York', 'KNYC', true, [(0.71180344078725644, -1.290
 [org/gnome/shell/world-clocks]
 locations=[<(uint32 2, <('Hyderabad', 'VOHY', true, [(0.30455995447301049, 1.3695016922159813)], [(0.30325580954933529, 1.3696374264719091)])>)>, <(uint32 2, <('New York', 'KNYC', true, [(0.71180344078725644, -1.2909618758762367)], [(0.71059804659265924, -1.2916478949920254)])>)>, <(uint32 2, <('Chicago', 'KMDW', true, [(0.72927128935316143, -1.5316185371029443)], [(0.73042086791828009, -1.529781996944241)])>)>, <(uint32 2, <('San Francisco', 'KOAK', false, [(0.65832848982162007, -2.133408063190589)], [(0.65832848982162007, -2.133408063190589)])>)>]
 
+[org/gnome/shotwell/preferences/editing]
+external-photo-editor='eog %U'
+external-raw-editor='eog %U'
+
+[org/gnome/shotwell/preferences/files]
+auto-import=false
+commit-metadata=false
+directory-pattern='%Y/%m/%d'
+
 [org/gnome/shotwell/preferences/ui]
 display-basic-properties=true
 display-extended-properties=false
@@ -1831,6 +1844,8 @@ library-photos-sort-ascending=false
 library-photos-sort-by=2
 show-welcome-dialog=false
 sidebar-position=180
+transparent-background-type='checkered'
+use-dark-theme=true
 
 [org/gnome/shotwell/preferences/window]
 direct-height=768
@@ -1841,7 +1856,7 @@ library-maximize=false
 library-width=1024
 
 [org/gnome/software]
-check-timestamp=int64 1755427008
+check-timestamp=int64 1755526203
 install-timestamp=int64 1755382793
 update-notification-timestamp=int64 1755383024
 
@@ -2314,6 +2329,9 @@ type-format='category'
 window-position=(141, 141)
 window-size=(921, 670)
 
+[org/mate/eom/ui]
+image-collection=false
+
 [org/tractor]
 accept-connection=false
 auto-set=true
@@ -2325,8 +2343,8 @@ manager-window-height=648
 manager-window-width=1030
 
 [org/virt-manager/virt-manager/connections]
-autoconnect=@as []
-uris=@as []
+autoconnect=['qemu:///system']
+uris=['qemu:///system']
 
 [org/virt-manager/virt-manager/new-vm]
 firmware='uefi'
