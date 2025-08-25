@@ -59,6 +59,7 @@ brltty						install
 bsdextrautils					install
 bsdutils					install
 btm						install
+btop						install
 bubblewrap					install
 build-essential					install
 buildah						install
@@ -251,9 +252,7 @@ gir1.2-graphene-1.0:amd64			install
 gir1.2-gstreamer-1.0:amd64			install
 gir1.2-gtk-3.0:amd64				install
 gir1.2-gtk-4.0:amd64				install
-gir1.2-gtk-vnc-2.0:amd64			install
 gir1.2-gtk4layershell-1.0:amd64			install
-gir1.2-gtksource-4:amd64			install
 gir1.2-gtop-2.0:amd64				install
 gir1.2-gudev-1.0:amd64				install
 gir1.2-gweather-4.0:amd64			install
@@ -262,8 +261,6 @@ gir1.2-harfbuzz-0.0:amd64			install
 gir1.2-ibus-1.0:amd64				install
 gir1.2-javascriptcoregtk-4.1:amd64		install
 gir1.2-javascriptcoregtk-6.0:amd64		install
-gir1.2-libosinfo-1.0:amd64			install
-gir1.2-libvirt-glib-1.0:amd64			install
 gir1.2-mutter-16:amd64				install
 gir1.2-nm-1.0:amd64				install
 gir1.2-nma4-1.0:amd64				install
@@ -276,8 +273,6 @@ gir1.2-rsvg-2.0:amd64				install
 gir1.2-secret-1:amd64				install
 gir1.2-snapd-2:amd64				install
 gir1.2-soup-3.0:amd64				install
-gir1.2-spiceclientglib-2.0:amd64		install
-gir1.2-spiceclientgtk-3.0:amd64			install
 gir1.2-totem-1.0:amd64				install
 gir1.2-totemplparser-1.0:amd64			install
 gir1.2-udisks-2.0:amd64				install
@@ -899,15 +894,12 @@ libgtk-4-1:amd64				install
 libgtk-4-bin					install
 libgtk-4-common					install
 libgtk-4-media-gstreamer			install
-libgtk-vnc-2.0-0:amd64				install
 libgtk2.0-0t64:amd64				install
 libgtk2.0-bin					install
 libgtk2.0-common				install
 libgtk3-perl					install
 libgtkmm-3.0-1t64:amd64				install
 libgtkmm-4.0-0:amd64				install
-libgtksourceview-4-0:amd64			install
-libgtksourceview-4-common			install
 libgtksourceview-5-0:amd64			install
 libgtksourceview-5-common			install
 libgtop-2.0-11:amd64				install
@@ -918,7 +910,6 @@ libgupnp-av-1.0-3:amd64				install
 libgupnp-dlna-2.0-4:amd64			install
 libgupnp-igd-1.6-0:amd64			install
 libgusb2:amd64					install
-libgvnc-1.0-0:amd64				install
 libgweather-4-0t64:amd64			install
 libgweather-4-common				install
 libgxps2t64:amd64				install
@@ -1115,7 +1106,6 @@ libmysofa1:amd64				install
 libmythes-1.2-0:amd64				install
 libnamespace-clean-perl				install
 libnautilus-extension4:amd64			install
-libncurses-dev:amd64				install
 libncurses6:amd64				install
 libncursesw6:amd64				install
 libndctl6:amd64					install
@@ -1197,8 +1187,6 @@ libopus0:amd64					install
 liborc-0.4-0t64:amd64				install
 liborcus-0.18-0:amd64				install
 liborcus-parser-0.18-0:amd64			install
-libosinfo-1.0-0:amd64				install
-libosinfo-l10n					install
 libostree-1-1:amd64				install
 libotf1:amd64					install
 libp11-kit0:amd64				install
@@ -1249,8 +1237,6 @@ libperl5.40:amd64				install
 libperlio-gzip-perl				install
 libperlio-utf8-strict-perl			install
 libpgm-5.3-0t64:amd64				install
-libphodav-3.0-0:amd64				install
-libphodav-3.0-common				install
 libphonenumber8:amd64				install
 libpinyin-data:amd64				install
 libpinyin15:amd64				install
@@ -1330,7 +1316,6 @@ libraw23t64:amd64				install
 librbd1						install
 librdf0t64:amd64				install
 librdmacm1t64:amd64				install
-libreadline-dev:amd64				install
 libreadline8t64:amd64				install
 libref-array1t64:amd64				install
 libregexp-wildcards-perl			install
@@ -1443,8 +1428,6 @@ libspeexdsp1:amd64				install
 libspelling-1-2:amd64				install
 libspelling-common				install
 libsphinxbase3t64:amd64				install
-libspice-client-glib-2.0-8:amd64		install
-libspice-client-gtk-3.0-5:amd64			install
 libspice-server1:amd64				install
 libsqlite3-0:amd64				install
 libsqlite3-dev:amd64				install
@@ -1453,7 +1436,6 @@ libsrt1.5-gnutls:amd64				install
 libss2:amd64					install
 libssh-4:amd64					install
 libssh2-1t64:amd64				install
-libssl-dev:amd64				install
 libssl3t64:amd64				install
 libsss-certmap0					install
 libsss-idmap0					install
@@ -1559,7 +1541,6 @@ liburi-perl					install
 liburing2:amd64					install
 libusb-1.0-0:amd64				install
 libusbmuxd-2.0-7:amd64				install
-libusbredirhost1t64:amd64			install
 libusbredirparser1t64:amd64			install
 libuuid1:amd64					install
 libuv1t64:amd64					install
@@ -1597,8 +1578,6 @@ libvirt-daemon-lock				install
 libvirt-daemon-log				install
 libvirt-daemon-plugin-lockd			install
 libvirt-daemon-system				install
-libvirt-glib-1.0-0:amd64			install
-libvirt-glib-1.0-data				install
 libvirt-l10n					install
 libvirt0:amd64					install
 libvisio-0.1-1:amd64				install
@@ -1873,8 +1852,6 @@ openssl-provider-legacy				install
 openvpn						install
 orca						install
 os-prober					install
-osinfo-db					install
-ovmf						install
 p11-kit						install
 p11-kit-modules:amd64				install
 packagekit					install
@@ -1973,7 +1950,6 @@ python3-distupgrade				install
 python3-fasteners				install
 python3-gdbm:amd64				install
 python3-gi					install
-python3-gi-cairo				install
 python3-html5lib				install
 python3-httplib2				install
 python3-ibus-1.0				install
@@ -1990,8 +1966,6 @@ python3-jwt					install
 python3-launchpadlib				install
 python3-lazr.restfulclient			install
 python3-lazr.uri				install
-python3-libvirt					install
-python3-libxml2:amd64				install
 python3-louis					install
 python3-lxml:amd64				install
 python3-markdown-it				install
@@ -2096,7 +2070,6 @@ speech-dispatcher				install
 speech-dispatcher-audio-plugins:amd64		install
 speech-dispatcher-espeak-ng			install
 speedtest					install
-spice-client-glib-usb-acl-helper		install
 spice-vdagent					install
 spotify-client					install
 squashfs-tools					install
@@ -2212,8 +2185,6 @@ vdpau-driver-all:amd64				install
 vdpauinfo					install
 vim-common					install
 vim-tiny					install
-virt-install					install
-virt-manager					install
 vlc						install
 vlc-bin						install
 vlc-data					install

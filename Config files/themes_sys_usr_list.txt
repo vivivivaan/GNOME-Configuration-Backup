@@ -19,6 +19,9 @@ Tela-circle-3d5a80-light
 Graphite-blue-Dark-compact-nord
 Graphite-blue-Dark-compact-nord-hdpi
 Graphite-blue-Dark-compact-nord-xhdpi
+Graphite-purple-Dark-compact-nord
+Graphite-purple-Dark-compact-nord-hdpi
+Graphite-purple-Dark-compact-nord-xhdpi
 
 /usr/share/icons/:
 Adwaita
@@ -80,6 +83,9 @@ Emacs
 Graphite-blue-Dark-compact-nord
 Graphite-blue-Dark-compact-nord-hdpi
 Graphite-blue-Dark-compact-nord-xhdpi
+Graphite-purple-Dark-compact-nord
+Graphite-purple-Dark-compact-nord-hdpi
+Graphite-purple-Dark-compact-nord-xhdpi
 HighContrast
 Raleigh
 Yaru

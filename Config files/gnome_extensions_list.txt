@@ -423,7 +423,7 @@ desktop-cube@schneegans.github.com
   Description: Indulge in nostalgia with useless 3D effects.
   Path: /home/prithvi/.local/share/gnome-shell/extensions/desktop-cube@schneegans.github.com
   URL: https://github.com/Schneegans/Desktop-Cube
-  Version: 28
+  Version: 29
   Enabled: No
   State: INITIALIZED
 
@@ -432,7 +432,16 @@ azclock@azclock.gitlab.com
   Description: Add widgets to the desktop!
   Path: /home/prithvi/.local/share/gnome-shell/extensions/azclock@azclock.gitlab.com
   URL: https://gitlab.com/AndrewZaech/azclock
-  Version: 14
+  Version: 15.1 (16)
+  Enabled: Yes
+  State: ACTIVE
+
+tilingshell@ferrarodomenico.com
+  Name: Tiling Shell
+  Description: Extend Gnome Shell with advanced tiling window management. Supports multiple monitors, Windows 11 Snap Assistant, Fancy Zones, automatic tiling, keyboard shortcuts, customised tiling layouts and more!
+  Path: /home/prithvi/.local/share/gnome-shell/extensions/tilingshell@ferrarodomenico.com
+  URL: https://github.com/domferr/tilingshell
+  Version: 16.4 (54)
   Enabled: Yes
   State: ACTIVE
 
@@ -451,6 +460,15 @@ AlphabeticalAppGrid@stuarthayhurst
   Path: /home/prithvi/.local/share/gnome-shell/extensions/AlphabeticalAppGrid@stuarthayhurst
   URL: https://github.com/stuarthayhurst/alphabetical-grid-extension
   Version: 43
+  Enabled: Yes
+  State: ACTIVE
+
+night-light-slider-updated@vilsbeg.codeberg.org
+  Name: Night Light Slider Updated
+  Description: Kiyui's Night Light Slider updated for GNOME 45. Provides a slider in the quick settings menu to control the night light temperature. Some nice options can be set in the extension preferences menu. Original implementation: https://codeberg.org/kiyui/gnome-shell-night-light-slider-extension/
+  Path: /home/prithvi/.local/share/gnome-shell/extensions/night-light-slider-updated@vilsbeg.codeberg.org
+  URL: https://codeberg.org/vilsbeg/night-light-slider-updated
+  Version: 13
   Enabled: Yes
   State: ACTIVE
 
