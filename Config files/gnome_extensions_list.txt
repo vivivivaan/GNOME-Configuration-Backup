@@ -86,7 +86,7 @@ Hide_Activities@shay.shayel.org
   Description: Hides the Activities button from the status bar (the hot corner and keyboard shortcut keeps working). To disable top left hot corner use 'No Topleft Hot Corner' extension — https://extensions.gnome.org/extension/118/no-topleft-hot-corner/ .
   Path: /home/prithvi/.local/share/gnome-shell/extensions/Hide_Activities@shay.shayel.org
   URL: https://github.com/zeten30/HideActivities
-  Version: 21
+  Version: 22
   Enabled: Yes
   State: ACTIVE
 
@@ -148,7 +148,7 @@ tweaks-system-menu@extensions.gnome-shell.fifi.org
   Description: Put Gnome Tweaks, Extensions, Extension Manager and any other application in the System menu.
   Path: /home/prithvi/.local/share/gnome-shell/extensions/tweaks-system-menu@extensions.gnome-shell.fifi.org
   URL: https://github.com/F-i-f/tweaks-system-menu
-  Version: 24
+  Version: 25
   Enabled: Yes
   State: ACTIVE
 
@@ -177,8 +177,8 @@ transparent-inactive-windows@art-was-here.github.io
   Path: /home/prithvi/.local/share/gnome-shell/extensions/transparent-inactive-windows@art-was-here.github.io
   URL: https://github.com/art-was-here/transparent-inactive-windows
   Version: 2
-  Enabled: Yes
-  State: ACTIVE
+  Enabled: No
+  State: INITIALIZED
 
 gnomebedtime@ionutbortis.gmail.com
   Name: Bedtime Mode
@@ -202,8 +202,8 @@ bash -c 'schema_id=org.gnome.shell.extensions.bedtime-mode; schema_dir=~/.local/
   Path: /home/prithvi/.local/share/gnome-shell/extensions/gnomebedtime@ionutbortis.gmail.com
   URL: https://github.com/ionutbortis/gnome-bedtime-mode
   Version: 22
-  Enabled: Yes
-  State: ACTIVE
+  Enabled: No
+  State: INITIALIZED
 
 hidetopbar@mathieu.bidon.ca
   Name: Hide Top Bar
@@ -214,8 +214,8 @@ hidetopbar@mathieu.bidon.ca
   Path: /home/prithvi/.local/share/gnome-shell/extensions/hidetopbar@mathieu.bidon.ca
   URL: https://gitlab.gnome.org/tuxor1337/hidetopbar
   Version: 120
-  Enabled: Yes
-  State: ACTIVE
+  Enabled: No
+  State: INITIALIZED
 
 media-progress@krypion17
   Name: Media Progress
@@ -232,8 +232,8 @@ ufw-status-indicator@bittokazi.com
   Path: /home/prithvi/.local/share/gnome-shell/extensions/ufw-status-indicator@bittokazi.com
   URL: https://github.com/bittokazi/ufw-status-indicator
   Version: 2
-  Enabled: Yes
-  State: ACTIVE
+  Enabled: No
+  State: INITIALIZED
 
 fq@megh
   Name: Force Quit
@@ -251,7 +251,7 @@ just-perfection-desktop@just-perfection
   Description: Tweak Tool to Customize GNOME Shell, Change the Behavior and Disable UI Elements
   Path: /home/prithvi/.local/share/gnome-shell/extensions/just-perfection-desktop@just-perfection
   URL: https://gitlab.gnome.org/jrahmatzadeh/just-perfection
-  Version: 34
+  Version: 35
   Enabled: Yes
   State: ACTIVE
 
@@ -365,8 +365,8 @@ waylandorx11@injcristianrojas.github.com
   Path: /home/prithvi/.local/share/gnome-shell/extensions/waylandorx11@injcristianrojas.github.com
   URL: https://github.com/injcristianrojas/waylandorx11
   Version: 16
-  Enabled: Yes
-  State: ACTIVE
+  Enabled: No
+  State: INITIALIZED
 
 one-thing@github.com
   Name: One Thing
@@ -433,8 +433,8 @@ azclock@azclock.gitlab.com
   Path: /home/prithvi/.local/share/gnome-shell/extensions/azclock@azclock.gitlab.com
   URL: https://gitlab.com/AndrewZaech/azclock
   Version: 15.1 (16)
-  Enabled: Yes
-  State: ACTIVE
+  Enabled: No
+  State: INITIALIZED
 
 tilingshell@ferrarodomenico.com
   Name: Tiling Shell

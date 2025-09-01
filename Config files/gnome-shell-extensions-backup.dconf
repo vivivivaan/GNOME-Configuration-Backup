@@ -102,7 +102,8 @@ location-data='{"monitorIndex":0,"relativeX":0.114,"relativeY":0.603}'
 lock-widget=true
 name='Digital Clock Widget'
 padding=(35, 15, 15, 35)
-show-background=true
+show-background=false
+show-border=false
 spacing=0
 
 [azclock/widget-data/20a65e14-a4e7-4ba1-bb7f-c55be6ca8e80/element-data/3029d92e-de11-40a6-85b3-644f5be2633c]
@@ -162,18 +163,21 @@ refresh-button-on=true
 show-battery-value-on=true
 
 [blur-my-shell]
+pipelines={'pipeline_default': {'name': <'Default'>, 'effects': <[<{'type': <'native_static_gaussian_blur'>, 'id': <'effect_000000000000'>, 'params': <{'radius': <30>, 'brightness': <0.59999999999999998>}>}>]>}, 'pipeline_default_rounded': {'name': <'Default rounded'>, 'effects': <[<{'type': <'native_static_gaussian_blur'>, 'id': <'effect_000000000001'>, 'params': <{'radius': <30>, 'brightness': <0.59999999999999998>}>}>, <{'type': <'corner'>, 'id': <'effect_000000000002'>, 'params': <{'radius': <24>}>}>]>}}
 settings-version=2
 
 [blur-my-shell/appfolder]
+blur=true
 brightness=0.45000000000000001
 sigma=45
+style-dialogs=1
 
 [blur-my-shell/applications]
 blur=false
 brightness=1.0
 dynamic-opacity=false
 enable-all=true
-opacity=240
+opacity=235
 sigma=30
 
 [blur-my-shell/coverflow-alt-tab]
@@ -193,12 +197,13 @@ style-dash-to-dock=0
 pipeline='pipeline_default'
 
 [blur-my-shell/overview]
+blur=true
 pipeline='pipeline_default'
 style-components=3
 
 [blur-my-shell/panel]
 blur=true
-brightness=0.75
+brightness=0.40000000000000002
 force-light-text=false
 override-background=true
 pipeline='pipeline_default_rounded'
@@ -295,13 +300,13 @@ custom-theme-running-dots-border-color='rgb(255,255,255)'
 custom-theme-running-dots-color='rgb(255,255,255)'
 custom-theme-shrink=false
 customize-alphas=true
-dash-max-icon-size=36
+dash-max-icon-size=34
 disable-overview-on-startup=true
 dock-fixed=false
-dock-position='RIGHT'
+dock-position='BOTTOM'
 extend-height=false
 height-fraction=0.80000000000000004
-hide-delay=0.15000000000000002
+hide-delay=0.10000000000000002
 hide-tooltip=false
 icon-size-fixed=false
 intellihide-mode='ALL_WINDOWS'
@@ -312,7 +317,7 @@ min-alpha=0.0
 multi-monitor=true
 preferred-monitor=-2
 preferred-monitor-by-connector='eDP-1'
-pressure-threshold=100.0
+pressure-threshold=50.0
 preview-size-scale=0.0
 require-pressure-to-show=true
 running-indicator-dominant-color=false
@@ -803,7 +808,7 @@ toggle-tiling-popup=@as []
 [tilingshell]
 inner-gaps=uint32 0
 last-version-name-installed='16.4'
-layouts-json='[{"id":"Layout 1","tiles":[{"x":0,"y":0,"width":0.22,"height":0.5,"groups":[1,2]},{"x":0,"y":0.5,"width":0.22,"height":0.5,"groups":[1,2]},{"x":0.22,"y":0,"width":0.56,"height":1,"groups":[2,3]},{"x":0.78,"y":0,"width":0.22,"height":0.5,"groups":[3,4]},{"x":0.78,"y":0.5,"width":0.22,"height":0.5,"groups":[3,4]}]},{"id":"Layout 2","tiles":[{"x":0,"y":0,"width":0.22,"height":1,"groups":[1]},{"x":0.22,"y":0,"width":0.56,"height":1,"groups":[1,2]},{"x":0.78,"y":0,"width":0.22,"height":1,"groups":[2]}]},{"id":"Layout 3","tiles":[{"x":0,"y":0,"width":0.33,"height":1,"groups":[1]},{"x":0.33,"y":0,"width":0.67,"height":1,"groups":[1]}]},{"id":"Layout 4","tiles":[{"x":0,"y":0,"width":0.67,"height":1,"groups":[1]},{"x":0.67,"y":0,"width":0.33,"height":1,"groups":[1]}]}]'
+layouts-json='[{"id":"Layout 1","tiles":[{"x":0,"y":0,"width":0.22,"height":0.5,"groups":[1,2]},{"x":0,"y":0.5,"width":0.22,"height":0.5,"groups":[1,2]},{"x":0.22,"y":0,"width":0.56,"height":1,"groups":[2,3]},{"x":0.78,"y":0,"width":0.22,"height":0.5,"groups":[3,4]},{"x":0.78,"y":0.5,"width":0.22,"height":0.5,"groups":[3,4]}]},{"id":"Layout 2","tiles":[{"x":0,"y":0,"width":0.22,"height":1,"groups":[1]},{"x":0.22,"y":0,"width":0.56,"height":1,"groups":[1,2]},{"x":0.78,"y":0,"width":0.22,"height":1,"groups":[2]}]},{"id":"Layout 3","tiles":[{"x":0,"y":0,"width":0.33,"height":1,"groups":[1]},{"x":0.33,"y":0,"width":0.67,"height":1,"groups":[1]}]},{"id":"Layout 4","tiles":[{"x":0,"y":0,"width":0.67,"height":1,"groups":[1]},{"x":0.67,"y":0,"width":0.33,"height":1,"groups":[1]}]},{"id":"893963","tiles":[{"x":0,"y":0,"width":0.3333333333333333,"height":1,"groups":[1]},{"x":0.3333333333333333,"y":0,"width":0.3333333333333333,"height":1,"groups":[2,1]},{"x":0.6666666666666666,"y":0,"width":0.33333333333333365,"height":1,"groups":[2]}]}]'
 outer-gaps=uint32 0
 overridden-settings='{"org.gnome.mutter.keybindings":{"toggle-tiled-right":"@as []","toggle-tiled-left":"@as []"},"org.gnome.desktop.wm.keybindings":{"maximize":"@as []","unmaximize":"@as []"},"org.gnome.mutter":{"edge-tiling":"false"}}'
 selected-layouts=[['Layout 2'], ['Layout 2']]
@@ -828,7 +833,7 @@ applications=['org.gnome.tweaks.desktop', 'com.mattjakeman.ExtensionManager.desk
 position=0
 
 [user-theme]
-name='Graphite-blue-Dark-compact-nord'
+name='Graphite-teal-Dark-compact-nord'
 
 [vertical-workspaces]
 dash-position=0
