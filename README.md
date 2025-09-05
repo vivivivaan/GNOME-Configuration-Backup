@@ -112,8 +112,8 @@ alias pip3=pip
 
 # Bash Config Aliases.
 alias brc="nano ~/.bashrc"
-alias barc="nano ~/.bashrc.d/aliases"
-alias carc="cat ~/.bashrc.d/aliases"
+alias barc="nano ~/.bashrc.d/aliases.sh"
+alias carc="cat ~/.bashrc.d/aliases.sh"
 alias q="exit"
 
 # Misc aliases.
