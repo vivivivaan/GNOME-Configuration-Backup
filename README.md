@@ -9,7 +9,7 @@
 - Run `dconf load /org/gnome/shell/extensions/ < gnome-shell-extensions-backup.dconf` to set the extensions configurations. 
 - Restart the session/system to see the effects.
 - (optional) Restore all Gnome-wide settings, including **Gnome-tweaks** configurations using `dconf load -f / < complete_gnome_saved_settings.dconf`.
-- Additionally, you can backup and restore all the GNOME settings and other configurations using SaveDesktop (`flatpak install flathub io.github.vikdevelop.SaveDesktop`) flatpak app.
+- Additionally, you can backup and restore all the GNOME settings and other configurations using SaveDesktop (`flatpak install flathub io.github.vikdevelop.SaveDesktop`) flatpak app besides the Backup method below.
 
 # Backup
 
@@ -18,9 +18,9 @@
 | Extensions configuration | `dconf dump /org/gnome/shell/extensions/ > gnome-shell-extensions-backup.dconf` |
 | Extensions List | `gnome-extensions list -d > gnome_extensions_list.txt` |
 | System-wide configuration | `dconf dump / > complete_gnome_saved_settings.dconf` |
-| Packages List | `dpkg --get-selections > package_list_all.txt` | 
-| OpenType and TrueType fonts | `ls /usr/share/fonts/truetype/ /usr/share/fonts/opentype/ > fonts_open_true_list.txt` |
-| Themes List | `ls ~/.themes/ /usr/share/themes/ ~/.icons/ /usr/share/icons/ > themes_sys_usr_list.txt` |
+| Packages List | `dnf list --installed > package_list_all.txt` | 
+| OpenType and TrueType fonts | `ls /usr/share/fonts/ > fonts_open_true_list.txt` |
+| Themes List | `ls ~/.local/share/themes/ /usr/share/themes/ ~/.local/share/icons /usr/share/icons/ > themes_sys_usr_list.txt` |
 
 <!-- - Only gnome-shell extentions config, run `dconf dump /org/gnome/shell/extensions/ > gnome-shell-extensions-backup.dconf`.
 - Complete system-wide configurations: `dconf dump / > complete_gnome_saved_settings.dconf`.
@@ -56,45 +56,46 @@ For GRUB configuration, install the GRUB theme but comment out the `GRUB_BACKGRO
 
 # Theming flatpak apps
 
-- To apply the GTK theme to flatpak apps, use `sudo flatpak override --filesystem=xdg-data/themes` (By default, that location translates to `$HOME/.local/share/themes`) or `sudo flatpak override --filesystem=$HOME/.themes`.
-- Lastly, to apply config, use `sudo flatpak override --filesystem=xdg-config/gtk-3.0 && sudo flatpak override --filesystem=xdg-config/gtk-4.0`.
+Grant filesystem access to all Flatpak apps with `flatpak override --user --filesystem=xdg-config/gtk-3.0 --filesystem=xdg-config/gtk-4.0 --filesystem=xdg-data/themes --filesystem=xdg-data/icons --filesystem=xdg-data/fonts`.
+
+| UI Element | Command |
+|:---|---:|
+| Themes | `flatpak override --user --env=GTK_THEME=your-theme-name` |
+| Icons | ` flatpak override --user --env=ICON_THEME=your-icon-theme` |
+| Cursor | `flatpak override --user --env=CURSOR_THEME=your-cursor-theme` |
+| Fonts | `flatpak override --user --filesystem=xdg-data/fonts:ro --filesystem=xdg-config/fontconfig:ro` | 
 
 # Important search terms for NVIDIA driver and Linux Kernel packages
 `linux-generic`, `linux-headers-generic`, `linux-image-generic`, `linux-objects or linux-objects-nvidia`, `linux-modules`, `linux-header`, `linux-signatures or linux-signatures-nvidia`
 
 ## Common dependencies after a fresh install
-`gcc g++ git tldr curl btop btm build-essential apt-transport-https wget ca-certificates zip unzip tree locate gnupg2 gpg extrepo binfmt-support clang clangd llvm`
+`gcc g++ git tldr curl btop btm build-essential wget ca-certificates zip unzip tree locate gnupg2 gpg binfmt-support clang clangd llvm`
 
 # Python Dependencies
 `liblzma-dev liblz-dev zlib1g-dev libncurses-dev libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev libsqlite3-dev libbz2-dev`
 
-# Bash aliases
+# Bash aliases (~/.bashrc.d/aliases.sh)
 
 ```bash
 # Package Management aliases.
-alias udg="sudo apt update && sudo apt upgrade && sudo apt full-upgrade"
-alias ud="sudo apt update"
-alias ug="sudo apt upgrade"
-alias dg="sudo apt full-upgrade"
-alias cache="sudo apt clean"
-alias get="sudo apt install"
-alias yget="sudo apt install -y"
-alias sget="sudo apt install --install-suggests"
-alias syget="sudo apt install --install-suggests -y"
-alias del="sudo apt remove"
-alias fdel="sudo apt purge --autoremove"
-alias arem="sudo apt autoremove"
-alias search="apt search"
-alias di="sudo dpkg -i"
-alias bi="sudo apt-get --fix-broken install"
-alias alt="sudo update-alternatives --config "
-alias lssrc="ls /etc/apt/sources.list.d"
-alias cdsrc="cd /etc/apt/sources.list.d"
-alias srcs="sudo nano /etc/apt/sources.list.d/ubuntu.sources"
-alias csrc="sudo cat /etc/apt/sources.list.d/ubuntu.sources"
+alias ud="sudo dnf check-update"
+alias ug="sudo dnf upgrade"
+alias dg="sudo dnf distro-sync"
+alias cache="sudo dnf clean all"
+alias get="sudo dnf install"
+alias yget="sudo dnf install -y"
+alias del="sudo dnf remove"
+alias arem="sudo dnf autoremove"
+alias search="dnf search"
+alias bi="sudo dnf check"
+alias alt="sudo alternatives --config"
+alias lssrc="ls /etc/yum.repos.d"
+alias cdsrc="cd /etc/yum.repos.d"
+alias srcs="sudo nano /etc/yum.repos.d/fedora-updates.repo"
+alias csrc="sudo cat /etc/yum.repos.d/fedora-updates.repo"
 
 # Systemctl aliases.
-alias ver="cat /etc/debian_version"
+alias ver="cat /etc/os-release"
 alias off="sudo systemctl poweroff"
 alias boot="sudo systemctl reboot"
 alias sus="sudo systemctl suspend"
@@ -111,11 +112,8 @@ alias pip3=pip
 
 # Bash Config Aliases.
 alias brc="nano ~/.bashrc"
-alias barc="nano ~/.bash_aliases"
-alias carc="cat ~/.bash_aliases"
-alias pro="nano ~/.profile"
-# Make Hist file values in brc to -1 for unlimited history.
-alias past="nano ~/.bash_history"
+alias barc="nano ~/.bashrc.d/aliases"
+alias carc="cat ~/.bashrc.d/aliases"
 alias q="exit"
 
 # Misc aliases.
@@ -137,18 +135,17 @@ alias sun="sudo nano"
 
 # GRUB
 alias ngrub="sudo nano /etc/default/grub"
-alias ugrub="sudo update-grub"
+alias ugrub="sudo grub2-mkconfig -o /boot/grub2/grub.cfg"  # Use for BIOS systems
 alias cgrub="cat /etc/default/grub"
+alias lgrub="sudo grubby --info=ALL" # List all kernel entries managed by BLS
 
-# Customisations
-alias cdf="cd /usr/share/fonts"
-alias cdft="cd /usr/share/fonts/truetype/"
-alias lsft="ls /usr/share/fonts/truetype/"
-alias cdfo="cd /usr/share/fonts/opentype/"
-alias lsfo="ls /usr/share/fonts/opentype/"
-alias fcache="sudo fc-cache -f -r -s"
-alias cdthm="cd /usr/share/themes"
-alias cdico="cd /usr/share/icons"
-alias lsthm="ls /usr/share/themes"
-alias lsico="ls /usr/share/icons"
+# Customizations
+alias sysfont="cd /usr/share/fonts/"
+alias usrfont="cd ~/.local/share/fonts/"
+alias systhm="cd /usr/share/themes/"
+alias usrthm="cd ~/.local/share/themes/"
+alias sysico="cd /usr/share/icons/"
+alias usrico="cd ~/.local/share/icons/"
+alias syscur="cd /usr/share/icons/"
+alias usrcur="cd ~/.local/share/icons/"
 ```
