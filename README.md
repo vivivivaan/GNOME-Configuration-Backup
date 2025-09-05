@@ -1,4 +1,4 @@
-# Ubuntu (25.04) Gnome, Tweaks-tool and system-wide configurations backup
+# Gnome, Tweaks-tool and system-wide configurations backup
 
 * Extensions are stored in ```~/.local/share/gnome-shell/extensions```.
 
