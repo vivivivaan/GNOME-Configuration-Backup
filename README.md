@@ -77,16 +77,17 @@ Grant filesystem access to all Flatpak apps with `flatpak override --user --file
 # Bash aliases (~/.bashrc.d/aliases.sh)
 
 ```bash
-# Package Management aliases.
+# Package Management Aliases.
 alias ud="sudo dnf check-update"
 alias ug="sudo dnf upgrade"
 alias dg="sudo dnf distro-sync"
-alias cache="sudo dnf clean all"
+alias cache="sudo dnf clean packages expire-cache"
 alias get="sudo dnf install"
 alias yget="sudo dnf install -y"
 alias del="sudo dnf remove"
 alias arem="sudo dnf autoremove"
 alias search="dnf search"
+alias info="dnf info"
 alias bi="sudo dnf check"
 alias alt="sudo alternatives --config"
 alias lssrc="ls /etc/yum.repos.d"
