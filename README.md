@@ -66,6 +66,20 @@ Grant filesystem access to all Flatpak apps with `flatpak override --user --file
 | Fonts | `flatpak override --user --filesystem=xdg-data/fonts:ro --filesystem=xdg-config/fontconfig:ro` (Reset with `flatpak override --user --reset --filesystem=xdg-data/fonts:ro --filesystem=xdg-config/fontconfig:ro`) | 
 | Reset all flatpak overrides | `flatpak override --user --reset` and `flatpak override --user --reset --filesystem=xdg-config/gtk-3.0 --filesystem=xdg-config/gtk-4.0 --filesystem=xdg-data/themes --filesystem=xdg-data/icons --filesystem=xdg-data/fonts`. |
 
+If the above reset don't work fully, run these to reset all relevant appearance settings: 
+
+```bash
+gsettings reset org.gnome.desktop.interface gtk-theme
+gsettings reset org.gnome.desktop.interface icon-theme
+gsettings reset org.gnome.desktop.interface cursor-theme
+gsettings reset org.gnome.desktop.interface color-scheme
+gsettings reset org.gnome.shell.extensions.user-theme name
+gsettings set org.gnome.desktop.interface gtk-theme 'Adwaita'
+gsettings set org.gnome.shell.extensions.user-theme name 'Adwaita'
+gsettings set org.gnome.desktop.interface gtk-theme 'Default-pure'
+gsettings set org.gnome.shell.extensions.user-theme name 'Default-pure'
+```
+
 # Important search terms for NVIDIA driver and Linux Kernel packages
 `linux-generic`, `linux-headers-generic`, `linux-image-generic`, `linux-objects or linux-objects-nvidia`, `linux-modules`, `linux-header`, `linux-signatures or linux-signatures-nvidia`
 
