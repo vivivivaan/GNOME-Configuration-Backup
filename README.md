@@ -60,10 +60,11 @@ Grant filesystem access to all Flatpak apps with `flatpak override --user --file
 
 | UI Element | Command |
 |:---|---:|
-| Themes | `flatpak override --user --env=GTK_THEME=your-theme-name` |
-| Icons | ` flatpak override --user --env=ICON_THEME=your-icon-theme` |
-| Cursor | `flatpak override --user --env=CURSOR_THEME=your-cursor-theme` |
-| Fonts | `flatpak override --user --filesystem=xdg-data/fonts:ro --filesystem=xdg-config/fontconfig:ro` | 
+| Themes | `flatpak override --user --env=GTK_THEME=your-theme-name` (Reset with `flatpak override --user --unset-env=GTK_THEME`) |
+| Icons | ` flatpak override --user --env=ICON_THEME=your-icon-theme` (Reset with `flatpak override --user --unset-env=ICON_THEME`) |
+| Cursor | `flatpak override --user --env=CURSOR_THEME=your-cursor-theme` (Reset with `flatpak override --user --unset-env=CURSOR_THEME`) |
+| Fonts | `flatpak override --user --filesystem=xdg-data/fonts:ro --filesystem=xdg-config/fontconfig:ro` (Reset with `flatpak override --user --reset --filesystem=xdg-data/fonts:ro --filesystem=xdg-config/fontconfig:ro`) | 
+| Reset all flatpak overrides | `flatpak override --user --reset` and `flatpak override --user --reset --filesystem=xdg-config/gtk-3.0 --filesystem=xdg-config/gtk-4.0 --filesystem=xdg-data/themes --filesystem=xdg-data/icons --filesystem=xdg-data/fonts`. |
 
 # Important search terms for NVIDIA driver and Linux Kernel packages
 `linux-generic`, `linux-headers-generic`, `linux-image-generic`, `linux-objects or linux-objects-nvidia`, `linux-modules`, `linux-header`, `linux-signatures or linux-signatures-nvidia`
