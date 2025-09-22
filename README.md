@@ -2,6 +2,7 @@
 
 * Extensions are stored in ```~/.local/share/gnome-shell/extensions```.
 * Add `defaults,noatime,nodiratime,lazytime,compress=zstd` to `/etc/fstab` and enable TRIM using `sudo systemctl enable fstrim.timer` to improve ssd/nvme writes.
+* Make **ptyxis** transparent with `dconf read /org/gnome/Ptyxis/default-profile-uuid` and `dconf write /org/gnome/Ptyxis/Profiles/3aae5a177777aa966b1fd63467153e2d/opacity 0.95`.
 
 # Restore
 
