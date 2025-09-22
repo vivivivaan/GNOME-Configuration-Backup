@@ -58,7 +58,8 @@ For GRUB configuration, install the GRUB theme but comment out the `GRUB_BACKGRO
 
 # Theming flatpak apps
 
-Grant filesystem access to all Flatpak apps with `flatpak override --user --filesystem=xdg-config/gtk-3.0 --filesystem=xdg-config/gtk-4.0 --filesystem=xdg-data/themes --filesystem=xdg-data/icons --filesystem=xdg-data/fonts`.
+- Grant filesystem access to all Flatpak apps with `flatpak override --user --filesystem=xdg-config/gtk-3.0 --filesystem=xdg-config/gtk-4.0 --filesystem=xdg-data/themes --filesystem=xdg-data/icons --filesystem=xdg-data/fonts`.
+- This is usually enough - `sudo flatpak override --filesystem=/usr/share/themes`, `sudo flatpak override --filesystem=~/.themes` and `sudo flatpak override --filesystem=xdg-config/gtk-3.0 && sudo flatpak override --filesystem=xdg-config/gtk-4.0`.
 
 | UI Element | Command |
 |:---|---:|
