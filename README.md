@@ -1,6 +1,7 @@
 # Gnome, Tweaks-tool and system-wide configurations backup
 
 * Extensions are stored in ```~/.local/share/gnome-shell/extensions```.
+* Add `defaults,noatime,nodiratime,lazytime,compress=zstd` to `/etc/fstab` and enable TRIM using `sudo systemctl enable fstrim.timer` to improve ssd/nvme writes.
 
 # Restore
 
