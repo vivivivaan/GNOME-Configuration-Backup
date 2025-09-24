@@ -69,7 +69,7 @@ For GRUB configuration, install the GRUB theme but comment out the `GRUB_BACKGRO
 | Fonts | `flatpak override --user --filesystem=xdg-data/fonts:ro --filesystem=xdg-config/fontconfig:ro` (Reset with `flatpak override --user --reset --filesystem=xdg-data/fonts:ro --filesystem=xdg-config/fontconfig:ro`) | 
 | Reset all flatpak overrides | `flatpak override --user --reset` and `flatpak override --user --reset --filesystem=xdg-config/gtk-3.0 --filesystem=xdg-config/gtk-4.0 --filesystem=xdg-data/themes --filesystem=xdg-data/icons --filesystem=xdg-data/fonts`. |
 
-If the above reset don't work fully, run these to reset all relevant appearance settings: 
+If the above reset don't work fully, run these to reset all relevant UI settings: 
 
 ```bash
 gsettings reset org.gnome.desktop.interface gtk-theme
