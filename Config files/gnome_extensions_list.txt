@@ -1,7 +1,7 @@
 user-theme@gnome-shell-extensions.gcampax.github.com
   Name: User Themes
   Description: Load shell themes from user directory.
-  Path: /home/prithvi/.local/share/gnome-shell/extensions/user-theme@gnome-shell-extensions.gcampax.github.com
+  Path: /home/earthora/.local/share/gnome-shell/extensions/user-theme@gnome-shell-extensions.gcampax.github.com
   URL: https://gitlab.gnome.org/GNOME/gnome-shell-extensions
   Version: 64
   Enabled: Yes
@@ -10,18 +10,9 @@ user-theme@gnome-shell-extensions.gcampax.github.com
 drive-menu@gnome-shell-extensions.gcampax.github.com
   Name: Removable Drive Menu
   Description: A status menu for accessing and unmounting removable devices.
-  Path: /home/prithvi/.local/share/gnome-shell/extensions/drive-menu@gnome-shell-extensions.gcampax.github.com
+  Path: /home/earthora/.local/share/gnome-shell/extensions/drive-menu@gnome-shell-extensions.gcampax.github.com
   URL: https://gitlab.gnome.org/GNOME/gnome-shell-extensions
   Version: 67
-  Enabled: Yes
-  State: ACTIVE
-
-clipboard-indicator@tudmotu.com
-  Name: Clipboard Indicator
-  Description: The most popular clipboard manager for GNOME, with over 1M downloads
-  Path: /home/prithvi/.local/share/gnome-shell/extensions/clipboard-indicator@tudmotu.com
-  URL: https://github.com/Tudmotu/gnome-shell-extension-clipboard-indicator
-  Version: 68
   Enabled: Yes
   State: ACTIVE
 
@@ -29,9 +20,27 @@ custom-hot-corners-extended@G-dH.github.com
   Name: CHC-E (Custom Hot Corners - Extended)
   Description: Give a function to any corner or edge of your monitors and expand your keyboard capabilities.
 Mouse pointer pressure, clicks and scrolls over the monitor corners/edges or custom keyboard shortcuts can trigger any of dozens built-in actions that helps you navigate and control your desktop environment, or your own shell commands.
-  Path: /home/prithvi/.local/share/gnome-shell/extensions/custom-hot-corners-extended@G-dH.github.com
+  Path: /home/earthora/.local/share/gnome-shell/extensions/custom-hot-corners-extended@G-dH.github.com
   URL: https://github.com/G-dH/custom-hot-corners
   Version: 48.1 (46)
+  Enabled: Yes
+  State: ACTIVE
+
+clipboard-indicator@tudmotu.com
+  Name: Clipboard Indicator
+  Description: The most popular clipboard manager for GNOME, with over 1M downloads
+  Path: /home/earthora/.local/share/gnome-shell/extensions/clipboard-indicator@tudmotu.com
+  URL: https://github.com/Tudmotu/gnome-shell-extension-clipboard-indicator
+  Version: 69
+  Enabled: Yes
+  State: ACTIVE
+
+just-perfection-desktop@just-perfection
+  Name: Just Perfection
+  Description: Tweak Tool to Customize GNOME Shell, Change the Behavior and Disable UI Elements
+  Path: /home/earthora/.local/share/gnome-shell/extensions/just-perfection-desktop@just-perfection
+  URL: https://gitlab.gnome.org/jrahmatzadeh/just-perfection
+  Version: 35
   Enabled: Yes
   State: ACTIVE
 
@@ -46,46 +55,19 @@ You can support my work by sponsoring me on:
 If you use Ubuntu, you may want to change the radius of the corner effect for Dash-to-Dock in preferences, else you may see unpleasantly mixed radii in your dock.
 
 Note: if the extension shows an error after updating, please make sure to restart your session to see if it persists. This is due to a bug in gnome shell, which I can't fix by myself.
-  Path: /home/prithvi/.local/share/gnome-shell/extensions/blur-my-shell@aunetx
+  Path: /home/earthora/.local/share/gnome-shell/extensions/blur-my-shell@aunetx
   URL: https://github.com/aunetx/blur-my-shell
   Version: 69
-  Enabled: Yes
-  State: ACTIVE
-
-just-perfection-desktop@just-perfection
-  Name: Just Perfection
-  Description: Tweak Tool to Customize GNOME Shell, Change the Behavior and Disable UI Elements
-  Path: /home/prithvi/.local/share/gnome-shell/extensions/just-perfection-desktop@just-perfection
-  URL: https://gitlab.gnome.org/jrahmatzadeh/just-perfection
-  Version: 35
   Enabled: Yes
   State: ACTIVE
 
 dash-to-dock@micxgx.gmail.com
   Name: Dash to Dock
   Description: A dock for the Gnome Shell. This extension moves the dash out of the overview transforming it in a dock for an easier launching of applications and a faster switching between windows and desktops. Side and bottom placement options are available.
-  Path: /home/prithvi/.local/share/gnome-shell/extensions/dash-to-dock@micxgx.gmail.com
+  Path: /home/earthora/.local/share/gnome-shell/extensions/dash-to-dock@micxgx.gmail.com
   URL: https://micheleg.github.io/dash-to-dock/
   Original author: micxgx@gmail.com
-  Version: 101
-  Enabled: Yes
-  State: ACTIVE
-
-show-desktop-button@amivaleo
-  Name: Show Desktop Button
-  Description: Minimize/unminimize all open windows with a single click.
-  Path: /home/prithvi/.local/share/gnome-shell/extensions/show-desktop-button@amivaleo
-  URL: https://github.com/amivaleo/Show-Desktop-Button
-  Version: 47
-  Enabled: Yes
-  State: ACTIVE
-
-rounded-window-corners@fxgn
-  Name: Rounded Window Corners Reborn
-  Description: Add rounded corners to all windows. Fork of the now unmaintained Rounded Window Corners extension.
-  Path: /home/prithvi/.local/share/gnome-shell/extensions/rounded-window-corners@fxgn
-  URL: https://github.com/flexagoon/rounded-window-corners
-  Version: 12
+  Version: 102
   Enabled: Yes
   State: ACTIVE
 
@@ -94,43 +76,73 @@ fq@megh
   Description: Adds a force quit button.
 Click the toolbar button, then choose the window you want to force quit.
 On accidental click, right click anywhere or press [Esc] to abort the kill.
-  Path: /home/prithvi/.local/share/gnome-shell/extensions/fq@megh
+  Path: /home/earthora/.local/share/gnome-shell/extensions/fq@megh
   URL: https://github.com/meghprkh/force-quit/
   Version: 36
   Enabled: Yes
   State: ACTIVE
 
-day-progress@arcaege.github.io
-  Name: Day Progress
-  Description: Displays a (somewhat) customisable progress bar of your day in the top panel to help you track your time.
-  Path: /home/prithvi/.local/share/gnome-shell/extensions/day-progress@arcaege.github.io
-  URL: https://github.com/ArcaEge/day-progress
-  Version: 21
+show-desktop-button@amivaleo
+  Name: Show Desktop Button
+  Description: Minimize/unminimize all open windows with a single click.
+  Path: /home/earthora/.local/share/gnome-shell/extensions/show-desktop-button@amivaleo
+  URL: https://github.com/amivaleo/Show-Desktop-Button
+  Version: 48
   Enabled: Yes
   State: ACTIVE
 
 quick-settings-tweaks@qwreey
   Name: Quick Settings Tweaks
   Description: Let's tweak gnome's quick settings! You can add Media Controls, Notifications, Volume Mixer on quick settings and remove useless buttons!
-  Path: /home/prithvi/.local/share/gnome-shell/extensions/quick-settings-tweaks@qwreey
+  Path: /home/earthora/.local/share/gnome-shell/extensions/quick-settings-tweaks@qwreey
   URL: https://github.com/qwreey/quick-settings-tweaks
   Version: 30
   Enabled: Yes
   State: ACTIVE
 
+day-progress@arcaege.github.io
+  Name: Day Progress
+  Description: Displays a (somewhat) customisable progress bar of your day in the top panel to help you track your time.
+  Path: /home/earthora/.local/share/gnome-shell/extensions/day-progress@arcaege.github.io
+  URL: https://github.com/ArcaEge/day-progress
+  Version: 21
+  Enabled: Yes
+  State: ACTIVE
+
+Vitals@CoreCoding.com
+  Name: Vitals
+  Description: A glimpse into your computer's temperature, voltage, fan speed, memory usage, processor load, system resources, network speed and storage stats. This is a one stop shop to monitor all of your vital sensors. Uses asynchronous polling to provide a smooth user experience. Feature requests or bugs? Please use GitHub.
+  Path: /home/earthora/.local/share/gnome-shell/extensions/Vitals@CoreCoding.com
+  URL: https://github.com/corecoding/Vitals
+  Version: 73
+  Enabled: Yes
+  State: ACTIVE
+
+hidetopbar@mathieu.bidon.ca
+  Name: Hide Top Bar
+  Description: Hides the top bar, except in overview. However, there is an option to show the panel whenever the mouse pointer approaches the edge of the screen. And if "intellihide" is enabled, the panel only hides when a window takes the space.
+
+- Press backspace to remove keyboard shortcut.
+- Log off and on again when there is an error after upgrading.
+  Path: /home/earthora/.local/share/gnome-shell/extensions/hidetopbar@mathieu.bidon.ca
+  URL: https://gitlab.gnome.org/tuxor1337/hidetopbar
+  Version: 121
+  Enabled: No
+  State: INITIALIZED
+
 tweaks-system-menu@extensions.gnome-shell.fifi.org
   Name: Tweaks & Extensions in System Menu
   Description: Put Gnome Tweaks, Extensions, Extension Manager and any other application in the System menu.
-  Path: /home/prithvi/.local/share/gnome-shell/extensions/tweaks-system-menu@extensions.gnome-shell.fifi.org
+  Path: /home/earthora/.local/share/gnome-shell/extensions/tweaks-system-menu@extensions.gnome-shell.fifi.org
   URL: https://github.com/F-i-f/tweaks-system-menu
-  Version: 25
+  Version: 26
   Enabled: Yes
   State: ACTIVE
 
 AlphabeticalAppGrid@stuarthayhurst
   Name: Alphabetical App Grid
   Description: Alphabetically order the app grid and folders
-  Path: /home/prithvi/.local/share/gnome-shell/extensions/AlphabeticalAppGrid@stuarthayhurst
+  Path: /home/earthora/.local/share/gnome-shell/extensions/AlphabeticalAppGrid@stuarthayhurst
   URL: https://github.com/stuarthayhurst/alphabetical-grid-extension
   Version: 43
   Enabled: Yes
@@ -139,174 +151,27 @@ AlphabeticalAppGrid@stuarthayhurst
 tilingshell@ferrarodomenico.com
   Name: Tiling Shell
   Description: Extend Gnome Shell with advanced tiling window management. Supports multiple monitors, Windows 11 Snap Assistant, Fancy Zones, automatic tiling, keyboard shortcuts, customised tiling layouts and more!
-  Path: /home/prithvi/.local/share/gnome-shell/extensions/tilingshell@ferrarodomenico.com
+  Path: /home/earthora/.local/share/gnome-shell/extensions/tilingshell@ferrarodomenico.com
   URL: https://github.com/domferr/tilingshell
   Version: 16.4 (54)
-  Enabled: Yes
-  State: ACTIVE
-
-Vitals@CoreCoding.com
-  Name: Vitals
-  Description: A glimpse into your computer's temperature, voltage, fan speed, memory usage, processor load, system resources, network speed and storage stats. This is a one stop shop to monitor all of your vital sensors. Uses asynchronous polling to provide a smooth user experience. Feature requests or bugs? Please use GitHub.
-  Path: /home/prithvi/.local/share/gnome-shell/extensions/Vitals@CoreCoding.com
-  URL: https://github.com/corecoding/Vitals
-  Version: 73
   Enabled: Yes
   State: ACTIVE
 
 screenshort-cut@pauloimon
   Name: Screenshort-cut
   Description: A simple shortcut to take screenshots directly on your top bar!
-  Path: /home/prithvi/.local/share/gnome-shell/extensions/screenshort-cut@pauloimon
+  Path: /home/earthora/.local/share/gnome-shell/extensions/screenshort-cut@pauloimon
   URL: https://github.com/pauloimon/gnome-screenshort-cut-extension
   Version: 5
-  Enabled: Yes
-  State: ACTIVE
-
-reboottouefi@ubaygd.com
-  Name: RebootToUEFI
-  Description: Reboot system into UEFI
-  Path: /home/prithvi/.local/share/gnome-shell/extensions/reboottouefi@ubaygd.com
-  URL: https://github.com/UbayGD/reboottouefi
-  Version: 24
-  Enabled: Yes
-  State: ACTIVE
-
-fullscreen-notifications@sorrow.about.alice.pm.me
-  Name: Fullscreen Notifications
-  Description: Enables all notifications in fullscreen mode
-  Path: /home/prithvi/.local/share/gnome-shell/extensions/fullscreen-notifications@sorrow.about.alice.pm.me
-  URL: https://github.com/soal/gnome-shell-extension-fullscreen-notifications
-  Version: 12
-  Enabled: Yes
-  State: ACTIVE
-
-osd-volume-number@deminder
-  Name: OSD Volume Number
-  Description: Replace the on-screen-display volume level icon with a number.
-  Path: /home/prithvi/.local/share/gnome-shell/extensions/osd-volume-number@deminder
-  URL: https://github.com/Deminder/osd-volume-number
-  Version: 12
-  Enabled: Yes
-  State: ACTIVE
-
-monitor@astraext.github.io
-  Name: Astra Monitor
-  Description: Astra Monitor is a cutting-edge, fully customizable, and performance-focused system monitoring extension for GNOME's top bar. It's an all-in-one solution for those seeking to keep a close eye on their system's performance metrics like CPU, GPU, RAM, disk usage, network statistics, and sensor readings.
-  Path: /home/prithvi/.local/share/gnome-shell/extensions/monitor@astraext.github.io
-  URL: https://github.com/AstraExt/astra-monitor
-  Version: 35 (52)
-  Enabled: Yes
-  State: ACTIVE
-
-dim-background-windows@stephane-13.github.com
-  Name: Dim Background Windows
-  Description: Dim windows without focus
-  Path: /home/prithvi/.local/share/gnome-shell/extensions/dim-background-windows@stephane-13.github.com
-  URL: https://github.com/stephane-13/gnome-shell-extension-dim-background-windows
-  Version: 18
   Enabled: Yes
   State: ACTIVE
 
 transparent-window-moving@noobsai.github.com
   Name: Transparent Window Moving
   Description: Makes the window semi-transparent when moving or resizing
-  Path: /home/prithvi/.local/share/gnome-shell/extensions/transparent-window-moving@noobsai.github.com
+  Path: /home/earthora/.local/share/gnome-shell/extensions/transparent-window-moving@noobsai.github.com
   URL: https://github.com/Noobsai/transparent-window-moving
   Version: 19
-  Enabled: Yes
-  State: ACTIVE
-
-transparent-inactive-windows@art-was-here.github.io
-  Name: Transparent Inactive Windows
-  Description: Makes any non-active window semi-transparent
-  Path: /home/prithvi/.local/share/gnome-shell/extensions/transparent-inactive-windows@art-was-here.github.io
-  URL: https://github.com/art-was-here/transparent-inactive-windows
-  Version: 2
-  Enabled: No
-  State: INITIALIZED
-
-gnomebedtime@ionutbortis.gmail.com
-  Name: Bedtime Mode
-  Description: Hey Gnome, it's bedtime! Converts to grayscale the entire Gnome workspace by using a smooth transition. Best to use during evening/night.
-
-This behavior is similar to Android's bedtime mode which converts the phone screen to grayscale. It should somewhat make your device less appealing and limit the usage of it before bedtime. On my side, at least, it still requires a fair amount of self control in order to make that happen.
-
-The extension has a nice Settings UI where you can customize it to your liking:
-- Set an automatic schedule for turning on/off the Bedtime Mode
-- Add an On Demand button to Top Bar or a Quick Settings toggle to manually enable/disable the mode
-- Control the On Demand button visibility, appearance and position in Top Bar
-- Choose another color preset and intensity, if you prefer a different color scheme
-- Change color intensity on the fly by scrolling over the On Demand button in Top Bar
-
-Multi language support is also available, please check the GitHub page if you want to help with the translations. So far, the extension is fully translated to French, Italian, Spanish, Dutch, German, Czech, Persian, Romanian and English.
-
-If you want to use a keyboard shortcut in order to toggle the Bedtime Mode then you can use this command for the shortcut:
-
-bash -c 'schema_id=org.gnome.shell.extensions.bedtime-mode; schema_dir=~/.local/share/gnome-shell/extensions/gnomebedtime@ionutbortis.gmail.com/schemas/; if [[ $(gsettings --schemadir $schema_dir get $schema_id bedtime-mode-active) == true ]]; then turn_on=false; else turn_on=true; fi; gsettings --schemadir $schema_dir set $schema_id bedtime-mode-active $turn_on;'
-
-  Path: /home/prithvi/.local/share/gnome-shell/extensions/gnomebedtime@ionutbortis.gmail.com
-  URL: https://github.com/ionutbortis/gnome-bedtime-mode
-  Version: 22
-  Enabled: No
-  State: INITIALIZED
-
-hidetopbar@mathieu.bidon.ca
-  Name: Hide Top Bar
-  Description: Hides the top bar, except in overview. However, there is an option to show the panel whenever the mouse pointer approaches the edge of the screen. And if "intellihide" is enabled, the panel only hides when a window takes the space.
-
-- Press backspace to remove keyboard shortcut.
-- Log off and on again when there is an error after upgrading.
-  Path: /home/prithvi/.local/share/gnome-shell/extensions/hidetopbar@mathieu.bidon.ca
-  URL: https://gitlab.gnome.org/tuxor1337/hidetopbar
-  Version: 121
-  Enabled: No
-  State: INITIALIZED
-
-notification-timeout@chlumskyvaclav.gmail.com
-  Name: Notification Timeout
-  Description: This extension allows configuring the same timeout for all notifications. It also allows ignoring the idle state.
-  Path: /home/prithvi/.local/share/gnome-shell/extensions/notification-timeout@chlumskyvaclav.gmail.com
-  URL: https://github.com/vchlum/notification-timeout
-  Original author: chlumskyvaclav@gmail.com
-  Version: 13
-  Enabled: Yes
-  State: ACTIVE
-
-bluetooth-quick-connect@bjarosze.gmail.com
-  Name: Bluetooth Quick Connect
-  Description: This extension allows paired Bluetooth devices to be connected and disconnected via the GNOME system menu, Shows battery status and more.
-
-  Path: /home/prithvi/.local/share/gnome-shell/extensions/bluetooth-quick-connect@bjarosze.gmail.com
-  URL: https://github.com/Extensions-Valhalla/gnome-bluetooth-quick-connect
-  Version: 53
-  Enabled: Yes
-  State: ACTIVE
-
-sound-percentage@subashghimire.info.np
-  Name: Sound percentage
-  Description: Display the current sound percentage in the system tray
-  Path: /home/prithvi/.local/share/gnome-shell/extensions/sound-percentage@subashghimire.info.np
-  URL: https://github.com/PublisherName/sound-percentage-gs-extension
-  Version: 2
-  Enabled: Yes
-  State: ACTIVE
-
-battery-indicator-icon@Deminder
-  Name: Battery Indicator Icon
-  Description: Replace the battery indicator icon with a circle or portrait.
-  Path: /home/prithvi/.local/share/gnome-shell/extensions/battery-indicator-icon@Deminder
-  URL: https://github.com/Deminder/battery-indicator-icon
-  Version: 16
-  Enabled: Yes
-  State: ACTIVE
-
-open-desktop-location@laura.media
-  Name: Open .desktop file location
-  Description: Opens the location of the applications .desktop file
-  Path: /home/prithvi/.local/share/gnome-shell/extensions/open-desktop-location@laura.media
-  URL: https://github.com/laurawebdev/open-desktop-location
-  Version: 1.0.1 (2)
   Enabled: Yes
   State: ACTIVE
 
@@ -315,18 +180,66 @@ notification-banner-reloaded@marcinjakubowski.github.com
   Description: Configure notification banner position and animation to your liking.
 Version 9: Gnome 45 changes by mannjani@github
 Version 10: mannjani@github added a test button inside prefs
-  Path: /home/prithvi/.local/share/gnome-shell/extensions/notification-banner-reloaded@marcinjakubowski.github.com
+  Path: /home/earthora/.local/share/gnome-shell/extensions/notification-banner-reloaded@marcinjakubowski.github.com
   URL: https://github.com/marcinjakubowski/notification-position-reloaded
   Version: 15
   Enabled: Yes
   State: ACTIVE
 
-right-click-next@derVedro
-  Name: Right Click Next
-  Description: Move windows to the next workspace by right-clicking them in the overview.
-  Path: /home/prithvi/.local/share/gnome-shell/extensions/right-click-next@derVedro
-  URL: https://github.com/derVedro/gnome-right-click-next
-  Version: 3
+notification-timeout@chlumskyvaclav.gmail.com
+  Name: Notification Timeout
+  Description: This extension allows configuring the same timeout for all notifications. It also allows ignoring the idle state.
+  Path: /home/earthora/.local/share/gnome-shell/extensions/notification-timeout@chlumskyvaclav.gmail.com
+  URL: https://github.com/vchlum/notification-timeout
+  Original author: chlumskyvaclav@gmail.com
+  Version: 14
+  Enabled: Yes
+  State: ACTIVE
+
+sound-percentage@subashghimire.info.np
+  Name: Sound percentage
+  Description: Display the current sound percentage in the system tray
+  Path: /home/earthora/.local/share/gnome-shell/extensions/sound-percentage@subashghimire.info.np
+  URL: https://github.com/PublisherName/sound-percentage-gs-extension
+  Version: 2
+  Enabled: Yes
+  State: ACTIVE
+
+battery-indicator-icon@Deminder
+  Name: Battery Indicator Icon
+  Description: Replace the battery indicator icon with a circle or portrait.
+  Path: /home/earthora/.local/share/gnome-shell/extensions/battery-indicator-icon@Deminder
+  URL: https://github.com/Deminder/battery-indicator-icon
+  Version: 17
+  Enabled: Yes
+  State: ACTIVE
+
+osd-volume-number@deminder
+  Name: OSD Volume Number
+  Description: Replace the on-screen-display volume level icon with a number.
+  Path: /home/earthora/.local/share/gnome-shell/extensions/osd-volume-number@deminder
+  URL: https://github.com/Deminder/osd-volume-number
+  Version: 13
+  Enabled: Yes
+  State: ACTIVE
+
+night-light-slider-updated@vilsbeg.codeberg.org
+  Name: Night Light Slider Updated
+  Description: Kiyui's Night Light Slider updated for GNOME 45. Provides a slider in the quick settings menu to control the night light temperature. Some nice options can be set in the extension preferences menu. Original implementation: https://codeberg.org/kiyui/gnome-shell-night-light-slider-extension/
+  Path: /home/earthora/.local/share/gnome-shell/extensions/night-light-slider-updated@vilsbeg.codeberg.org
+  URL: https://codeberg.org/vilsbeg/night-light-slider-updated
+  Version: 13
+  Enabled: Yes
+  State: ACTIVE
+
+update-extension@purejava.org
+  Name: Fedora Linux Update Indicator
+  Description: GNOME Shell update indicator for Fedora Linux.
+  This is based on Arch Linux Updates Indicator by Raphaël Rochet.
+  This extension is not affiliated, funded, or in any way associated with Fedora brand and Red Hat Software.
+  Path: /home/earthora/.local/share/gnome-shell/extensions/update-extension@purejava.org
+  URL: https://github.com/purejava/fedora-update
+  Version: 34
   Enabled: Yes
   State: ACTIVE
 
@@ -335,19 +248,37 @@ volume_scroller@francislavoie.github.io
   Description: Scroll up or down in the Top Bar to adjust volume. Supports configuring granularity (default step of 5%)
 
 This is a fork of https://extensions.gnome.org/extension/4109/volume-scroller/ which is now unfortunately unmaintained/archived.
-  Path: /home/prithvi/.local/share/gnome-shell/extensions/volume_scroller@francislavoie.github.io
+  Path: /home/earthora/.local/share/gnome-shell/extensions/volume_scroller@francislavoie.github.io
   URL: https://github.com/francislavoie/gnome-shell-volume-scroller
   Original author: francislavoie
   Version: 12
   Enabled: Yes
   State: ACTIVE
 
-night-light-slider-updated@vilsbeg.codeberg.org
-  Name: Night Light Slider Updated
-  Description: Kiyui's Night Light Slider updated for GNOME 45. Provides a slider in the quick settings menu to control the night light temperature. Some nice options can be set in the extension preferences menu. Original implementation: https://codeberg.org/kiyui/gnome-shell-night-light-slider-extension/
-  Path: /home/prithvi/.local/share/gnome-shell/extensions/night-light-slider-updated@vilsbeg.codeberg.org
-  URL: https://codeberg.org/vilsbeg/night-light-slider-updated
+rounded-window-corners@fxgn
+  Name: Rounded Window Corners Reborn
+  Description: Add rounded corners to all windows. Fork of the now unmaintained Rounded Window Corners extension.
+  Path: /home/earthora/.local/share/gnome-shell/extensions/rounded-window-corners@fxgn
+  URL: https://github.com/flexagoon/rounded-window-corners
   Version: 13
+  Enabled: Yes
+  State: ACTIVE
+
+monitor@astraext.github.io
+  Name: Astra Monitor
+  Description: Astra Monitor is a cutting-edge, fully customizable, and performance-focused system monitoring extension for GNOME's top bar. It's an all-in-one solution for those seeking to keep a close eye on their system's performance metrics like CPU, GPU, RAM, disk usage, network statistics, and sensor readings.
+  Path: /home/earthora/.local/share/gnome-shell/extensions/monitor@astraext.github.io
+  URL: https://github.com/AstraExt/astra-monitor
+  Version: 36 (53)
+  Enabled: No
+  State: INITIALIZED
+
+reboottouefi@ubaygd.com
+  Name: RebootToUEFI
+  Description: Reboot system into UEFI
+  Path: /home/earthora/.local/share/gnome-shell/extensions/reboottouefi@ubaygd.com
+  URL: https://github.com/UbayGD/reboottouefi
+  Version: 25
   Enabled: Yes
   State: ACTIVE
 

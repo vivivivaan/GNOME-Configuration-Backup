@@ -41,6 +41,7 @@ windows-mapping='[["Unknown",{"W1 ([untitled])":{"windowTitle":null,"xid":"W1 ([
 
 [app_tabs]
 ellipsize-mode=true
+only-display-tabs-on-current-workspace=true
 panel-max-width=99
 
 [applications-overview-tooltip]
@@ -219,6 +220,7 @@ cache-size=120
 history-size=300
 keep-selected-on-clear=true
 move-item-first=true
+next-history-clear=-1
 notify-on-copy=true
 pinned-on-bottom=true
 
@@ -295,7 +297,7 @@ custom-theme-running-dots-border-color='rgb(255,255,255)'
 custom-theme-running-dots-color='rgb(255,255,255)'
 custom-theme-shrink=false
 customize-alphas=true
-dash-max-icon-size=36
+dash-max-icon-size=35
 disable-overview-on-startup=true
 dock-fixed=false
 dock-position='BOTTOM'
@@ -403,6 +405,12 @@ ext-app='com.mattjakeman.ExtensionManager.desktop'
 extension-appid='com.mattjakeman.ExtensionManager.desktop'
 filter-button=true
 
+[fedora-update]
+check-interval=90
+enable-positioning=false
+notify=true
+use-buildin-icons=false
+
 [flickernaut]
 settings-version=uint32 2
 submenu=true
@@ -448,7 +456,7 @@ panel=true
 panel-icon-size=0
 panel-in-overview=true
 panel-indicator-padding-size=0
-panel-size=21
+panel-size=22
 ripple-box=true
 search=true
 show-apps-button=true
@@ -470,7 +478,9 @@ layout=[['gnome@main', 'quick-settings-audio-panel@rayzeq.github.io/main']]
 single-column=false
 
 [lilypad]
-rightbox-order=['lilypad', 'waylandorx11', 'tilingshell', 'ForceQuitButton', 'ufw_status_indicator', 'screenshort_cut', 'clipboardIndicator', 'keyboard']
+hide-indicator=0
+rightbox-order=['lilypad', 'waylandorx11', 'tilingshell', 'ForceQuitButton', 'ufw_status_indicator', 'screenshort_cut', 'clipboardIndicator', 'keyboard', 'FedoraUpdateIndicator']
+show-icons=false
 
 [logo-widget]
 logo-border=uint32 30
@@ -708,7 +718,7 @@ blacklist=['IDER BOOT Floppy', 'ATA HDD', 'ATAPI CD', 'Ubuntu', 'Linux-Firmware-
 
 [rounded-window-corners-reborn]
 enable-preferences-entry=false
-global-rounded-corner-settings={'padding': <{'left': uint32 1, 'right': 1, 'top': 1, 'bottom': 1}>, 'keepRoundedCorners': <{'maximized': true, 'fullscreen': true}>, 'borderRadius': <uint32 15>, 'smoothing': <0.10000000000000001>, 'borderColor': <(0.5, 0.5, 0.5, 1.0)>, 'enabled': <true>}
+global-rounded-corner-settings={'padding': <{'left': uint32 1, 'right': 1, 'top': 1, 'bottom': 1}>, 'keepRoundedCorners': <{'maximized': true, 'fullscreen': true}>, 'borderRadius': <uint32 10>, 'smoothing': <0.10000000000000001>, 'borderColor': <(0.5, 0.5, 0.5, 1.0)>, 'enabled': <true>}
 settings-version=uint32 7
 skip-libadwaita-app=false
 tweak-kitty-terminal=true
@@ -831,7 +841,7 @@ applications=['org.gnome.tweaks.desktop', 'com.mattjakeman.ExtensionManager.desk
 position=0
 
 [user-theme]
-name='Graphite-blue-Dark-compact-nord'
+name='Orchis-Dark-Compact-Dracula'
 
 [vertical-workspaces]
 dash-position=0
@@ -842,7 +852,7 @@ visualizer-color='rgb(26,95,180)'
 
 [vitals]
 fixed-widths=true
-hot-sensors=['__temperature_avg__', '_system_uptime_']
+hot-sensors=['__temperature_avg__', '_memory_usage_', '_system_uptime_']
 icon-style=1
 include-static-gpu-info=false
 menu-centered=false
@@ -850,7 +860,7 @@ position-in-panel=3
 show-battery=false
 show-fan=false
 show-gpu=false
-show-memory=false
+show-memory=true
 show-network=false
 show-processor=false
 show-storage=false
