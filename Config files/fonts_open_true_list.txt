@@ -29,6 +29,7 @@ NerdFontsSymbolsOnly
 open-sans
 opensymbol
 paktype-naskh-basic-fonts
+redhat
 rit-meera-new-fonts
 rit-rachana-fonts
 sil-padauk-fonts
