@@ -3,8 +3,8 @@ show-warning=false
 
 [org/fedorahosted/background-logo-extension]
 logo-always-visible=true
-logo-border=uint32 12
-logo-opacity=uint32 72
+logo-border=uint32 54
+logo-opacity=uint32 30
 logo-position='bottom-right'
 logo-size=5.8510638297872344
 
@@ -267,7 +267,7 @@ show-delete-permanently=true
 [org/gnome/nautilus/window-state]
 initial-size=(960, 520)
 initial-size-file-chooser=(1076, 670)
-maximized=true
+maximized=false
 
 [org/gnome/nm-applet/eap/56a036d9-1c04-4950-a6d5-ecab02bdb7d4]
 ignore-ca-cert=false
