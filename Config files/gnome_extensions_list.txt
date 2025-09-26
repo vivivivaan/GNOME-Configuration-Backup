@@ -69,7 +69,7 @@ dash-to-dock@micxgx.gmail.com
   Original author: micxgx@gmail.com
   Version: 102
   Enabled: No
-  State: INACTIVE
+  State: INITIALIZED
 
 fq@megh
   Name: Force Quit
@@ -193,8 +193,8 @@ notification-timeout@chlumskyvaclav.gmail.com
   URL: https://github.com/vchlum/notification-timeout
   Original author: chlumskyvaclav@gmail.com
   Version: 14
-  Enabled: Yes
-  State: ACTIVE
+  Enabled: No
+  State: INACTIVE
 
 sound-percentage@subashghimire.info.np
   Name: Sound percentage
@@ -252,8 +252,8 @@ This is a fork of https://extensions.gnome.org/extension/4109/volume-scroller/ w
   URL: https://github.com/francislavoie/gnome-shell-volume-scroller
   Original author: francislavoie
   Version: 12
-  Enabled: Yes
-  State: ACTIVE
+  Enabled: No
+  State: INITIALIZED
 
 rounded-window-corners@fxgn
   Name: Rounded Window Corners Reborn
@@ -271,7 +271,7 @@ monitor@astraext.github.io
   URL: https://github.com/AstraExt/astra-monitor
   Version: 36 (53)
   Enabled: No
-  State: INITIALIZED
+  State: INACTIVE
 
 reboottouefi@ubaygd.com
   Name: RebootToUEFI
@@ -279,6 +279,19 @@ reboottouefi@ubaygd.com
   Path: /home/earthora/.local/share/gnome-shell/extensions/reboottouefi@ubaygd.com
   URL: https://github.com/UbayGD/reboottouefi
   Version: 25
+  Enabled: Yes
+  State: ACTIVE
+
+dash-to-panel@jderose9.github.com
+  Name: Dash to Panel
+  Description: An icon taskbar for the Gnome Shell. This extension moves the dash into the gnome main panel so that the application launchers and system tray are combined into a single panel, similar to that found in KDE Plasma and Windows 7+. A separate dock is no longer needed for easy access to running and favorited applications.
+
+For a more traditional experience, you may also want to use Tweak Tool to enable Windows > Titlebar Buttons > Minimize & Maximize.
+
+For the best support, please report any issues on Github. Dash-to-panel is developed and maintained by @jderose9 and @charlesg99.
+  Path: /home/earthora/.local/share/gnome-shell/extensions/dash-to-panel@jderose9.github.com
+  URL: https://github.com/home-sweet-gnome/dash-to-panel
+  Version: 70
   Enabled: Yes
   State: ACTIVE
 
@@ -326,15 +339,11 @@ This extension is part of Classic Mode and is officially supported by GNOME. Ple
   Enabled: No
   State: INITIALIZED
 
-dash-to-panel@jderose9.github.com
-  Name: Dash to Panel
-  Description: An icon taskbar for the Gnome Shell. This extension moves the dash into the gnome main panel so that the application launchers and system tray are combined into a single panel, similar to that found in KDE Plasma and Windows 7+. A separate dock is no longer needed for easy access to running and favorited applications.
-
-For a more traditional experience, you may also want to use Tweak Tool to enable Windows > Titlebar Buttons > Minimize & Maximize.
-
-For the best support, please report any issues on Github. Dash-to-panel is developed and maintained by @jderose9 and @charlesg99.
-  Path: /home/earthora/.local/share/gnome-shell/extensions/dash-to-panel@jderose9.github.com
-  URL: https://github.com/home-sweet-gnome/dash-to-panel
-  Version: 70
+open-desktop-location@laura.media
+  Name: Open .desktop file location
+  Description: Opens the location of the applications .desktop file
+  Path: /home/earthora/.local/share/gnome-shell/extensions/open-desktop-location@laura.media
+  URL: https://github.com/laurawebdev/open-desktop-location
+  Version: 1.0.1 (2)
   Enabled: Yes
   State: ACTIVE
