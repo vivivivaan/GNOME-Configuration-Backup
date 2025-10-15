@@ -18,17 +18,11 @@
 | Item | Command |
 | :------------ | ------: |
 | Extensions configuration | `dconf dump /org/gnome/shell/extensions/ > gnome-shell-extensions-backup.dconf` |
-| Extensions List | `gnome-extensions list -d > gnome_extensions_list.txt` |
 | System-wide configuration | `dconf dump / > complete_gnome_saved_settings.dconf` |
-| Packages List | `dnf list --installed > package_list_all.txt` | 
-| OpenType and TrueType fonts | `ls /usr/share/fonts/ > fonts_open_true_list.txt` |
-| Themes List | `ls ~/.local/share/themes/ /usr/share/themes/ ~/.local/share/icons /usr/share/icons/ > themes_sys_usr_list.txt` |
-
-<!-- - Only gnome-shell extentions config, run `dconf dump /org/gnome/shell/extensions/ > gnome-shell-extensions-backup.dconf`.
-- Complete system-wide configurations: `dconf dump / > complete_gnome_saved_settings.dconf`.
-- List of all packages: 
-
-`dconf dump /org/gnome/shell/extensions/ > gnome-shell-extensions-backup.dconf && dconf dump / > complete_gnome_saved_settings.dconf && dpkg --get-selections >  package_list_all.txt && ls /usr/share/fonts/truetype/ /usr/share/fonts/opentype/ > fonts_open_true_list.txt  && gnome-extensions list -d > gnome_extensions_list.txt && ls ~/.themes/ /usr/share/themes/ ~/.icons/ /usr/share/icons/ > themes_sys_usr_list.txt` -->
+| Extensions List | `gnome-extensions list -d > gnome_extensions_list.txt` |
+| Packages List | `dnf list --installed > packages_list.txt` | 
+| OpenType and TrueType fonts | `ls /usr/share/fonts/ > fonts_list.txt` |
+| Themes List | `ls ~/.local/share/themes/ /usr/share/themes/ ~/.local/share/icons /usr/share/icons/ > themes_list.txt` |
 
 # Chromium browsers config
 
