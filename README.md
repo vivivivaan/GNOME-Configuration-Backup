@@ -1,7 +1,6 @@
 # Gnome, Tweaks-tool and system-wide configurations backup
 
 * Extensions are stored in ```~/.local/share/gnome-shell/extensions```.
-* Add `defaults,noatime,nodiratime,lazytime,compress=zstd` to `/etc/fstab` and enable TRIM using `sudo systemctl enable fstrim.timer` to improve ssd/nvme writes.
 * Make **ptyxis** transparent with `dconf read /org/gnome/Ptyxis/default-profile-uuid` and `dconf write /org/gnome/Ptyxis/Profiles/3aae5a177777aa966b1fd63467153e2d/opacity 0.95`.
 
 # Restore
@@ -18,11 +17,11 @@
 | Item | Command |
 | :------------ | ------: |
 | Extensions configuration | `dconf dump /org/gnome/shell/extensions/ > gnome-shell-extensions-backup.dconf` |
-| Extensions List | `gnome-extensions list -d > gnome_extensions_list.txt` |
 | System-wide configuration | `dconf dump / > complete_gnome_saved_settings.dconf` |
-| Packages List | `dnf list --installed > package_list_all.txt` | 
-| OpenType and TrueType fonts | `ls /usr/share/fonts/ > fonts_open_true_list.txt` |
-| Themes List | `ls ~/.local/share/themes/ /usr/share/themes/ ~/.local/share/icons /usr/share/icons/ > themes_sys_usr_list.txt` |
+| Extensions List | `gnome-extensions list -d > gnome_extensions_list.txt` |
+| Packages List | `apt-mark showmanual > packages_list.txt` | 
+| OpenType and TrueType fonts | `ls /usr/share/fonts/opentype /usr/share/fonts/truetype > fonts_list.txt` |
+| Themes List | `ls ~/.themes/ /usr/share/themes/ ~/.icons /usr/share/icons/ > themes_list.txt` |
 
 <!-- - Only gnome-shell extentions config, run `dconf dump /org/gnome/shell/extensions/ > gnome-shell-extensions-backup.dconf`.
 - Complete system-wide configurations: `dconf dump / > complete_gnome_saved_settings.dconf`.
@@ -92,29 +91,34 @@ gsettings set org.gnome.shell.extensions.user-theme name 'Default-pure'
 # Python Dependencies
 `liblzma-dev liblz-dev zlib1g-dev libncurses-dev libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev libsqlite3-dev libbz2-dev`
 
-# Bash aliases (~/.bashrc.d/aliases.sh)
+# Bash aliases (~/.bashrc.d/aliases.sh or ~/.bash_aliases)
 
 ```bash
 # Package Management Aliases.
-alias ud="sudo dnf check-update"
-alias ug="sudo dnf upgrade"
-alias dg="sudo dnf distro-sync"
-alias cache="sudo dnf clean packages"
-alias get="sudo dnf install"
-alias yget="sudo dnf install -y"
-alias del="sudo dnf remove"
-alias arem="sudo dnf autoremove"
-alias search="dnf search"
-alias info="dnf info"
-alias bi="sudo dnf check"
-alias alt="sudo alternatives --config"
-alias lssrc="ls /etc/yum.repos.d"
-alias cdsrc="cd /etc/yum.repos.d"
-alias srcs="sudo nano /etc/yum.repos.d/fedora-updates.repo"
-alias csrc="sudo cat /etc/yum.repos.d/fedora-updates.repo"
+# Package Management aliases.
+alias udg="sudo apt update && sudo apt upgrade && sudo apt dist-upgrade"
+alias ud="sudo apt update"
+alias ug="sudo apt upgrade"
+alias dg="sudo apt dist-upgrade"
+alias cache="sudo apt clean"
+alias get="sudo apt install"
+alias yget="sudo apt install -y"
+alias sget="sudo apt install --install-suggests"
+alias syget="sudo apt install --install-suggests -y"
+alias del="sudo apt remove"
+alias fdel="sudo apt remove --purge --autoremove"
+alias arem="sudo apt autoremove"
+alias search="apt-cache search"
+alias di="sudo dpkg -i"
+alias bi="sudo apt --fix-broken install"
+alias alt="sudo update-alternatives --config "
+alias lssrc="ls /etc/apt/sources.list.d"
+alias cdsrc="cd /etc/apt/sources.list.d"
+alias srcs="sudo nano /etc/apt/sources.list.d/ubuntu.sources"
+alias csrc="sudo cat /etc/apt/sources.list.d/ubuntu.sources"
 
 # Systemctl aliases.
-alias ver="cat /etc/os-release"
+alias ver="cat /etc/debian_version"
 alias off="sudo systemctl poweroff"
 alias boot="sudo systemctl reboot"
 alias sus="sudo systemctl suspend"
@@ -131,8 +135,11 @@ alias pip3=pip
 
 # Bash Config Aliases.
 alias brc="nano ~/.bashrc"
-alias barc="nano ~/.bashrc.d/aliases.sh"
-alias carc="cat ~/.bashrc.d/aliases.sh"
+alias barc="nano ~/.bash_aliases"
+alias carc="cat ~/.bash_aliases"
+alias pro="nano ~/.profile"
+# Make Hist file values in brc to -1 for unlimited history.
+alias past="nano ~/.bash_history"
 alias q="exit"
 
 # Misc aliases.
@@ -154,17 +161,18 @@ alias sun="sudo nano"
 
 # GRUB
 alias ngrub="sudo nano /etc/default/grub"
-alias ugrub="sudo grub2-mkconfig -o /boot/grub2/grub.cfg"  # Use for BIOS systems
+alias ugrub="sudo update-grub"
 alias cgrub="cat /etc/default/grub"
-alias lgrub="sudo grubby --info=ALL" # List all kernel entries managed by BLS
 
-# Customizations
-alias sysfont="cd /usr/share/fonts/"
-alias usrfont="cd ~/.local/share/fonts/"
-alias systhm="cd /usr/share/themes/"
-alias usrthm="cd ~/.local/share/themes/"
-alias sysico="cd /usr/share/icons/"
-alias usrico="cd ~/.local/share/icons/"
-alias syscur="cd /usr/share/icons/"
-alias usrcur="cd ~/.local/share/icons/"
+# Customisations
+alias cdf="cd /usr/share/fonts"
+alias cdft="cd /usr/share/fonts/truetype/"
+alias lsft="ls /usr/share/fonts/truetype/"
+alias cdfo="cd /usr/share/fonts/opentype/"
+alias lsfo="ls /usr/share/fonts/opentype/"
+alias fcache="sudo fc-cache -f -r -s"
+alias cdthm="cd /usr/share/themes"
+alias cdico="cd /usr/share/icons"
+alias lsthm="ls /usr/share/themes"
+alias lsico="ls /usr/share/icons"
 ```
