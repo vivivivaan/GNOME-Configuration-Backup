@@ -1,3 +1,9 @@
+[all-in-one-clipboard]
+clipboard-history-max-items=200
+enable-auto-paste=true
+gif-provider='none'
+shortcut-toggle-main=['<Super>c']
+
 [alphabetical-app-grid]
 sort-folder-contents=true
 
@@ -50,9 +56,10 @@ pipeline='pipeline_default'
 [blur-my-shell/dash-to-dock]
 blur=true
 brightness=0.59999999999999998
+override-background=true
 pipeline='pipeline_default_rounded'
-sigma=0
-static-blur=false
+sigma=100
+static-blur=true
 style-dash-to-dock=0
 
 [blur-my-shell/lockscreen]
@@ -85,6 +92,7 @@ keep-selected-on-clear=true
 move-item-first=true
 notify-on-copy=true
 pinned-on-bottom=true
+preview-size=10
 
 [custom-hot-corners-extended/misc]
 action-event-delay=85
@@ -122,9 +130,11 @@ ctrl=true
 
 [dash-to-dock]
 animation-time=0.15000000000000002
+apply-custom-theme=false
 autohide-in-fullscreen=true
-background-opacity=1.0
+background-opacity=0.0
 click-action='minimize'
+custom-theme-shrink=false
 customize-alphas=true
 dash-max-icon-size=35
 dock-fixed=false
@@ -144,7 +154,7 @@ scroll-action='cycle-windows'
 show-mounts=false
 show-mounts-network=false
 show-mounts-only-mounted=true
-transparency-mode='DEFAULT'
+transparency-mode='FIXED'
 
 [dash-to-panel]
 animate-appicon-hover=false
@@ -168,17 +178,19 @@ extension-version=72
 focus-highlight=false
 focus-highlight-opacity=5
 global-border-radius=5
+group-apps=true
 highlight-appicon-hover=false
 highlight-appicon-hover-border-radius=16
 hotkeys-overlay-combo='TEMPORARILY'
-intellihide=false
-intellihide-animation-time=180
+intellihide=true
+intellihide-animation-time=160
 intellihide-behaviour='MAXIMIZED_WINDOWS'
-intellihide-close-delay=270
+intellihide-close-delay=250
 intellihide-enable-start-delay=1500
 intellihide-hide-from-monitor-windows=false
 intellihide-hide-from-windows=true
 leave-timeout=200
+overview-click-to-exit=false
 panel-anchors='{"CMN-0x00000000":"MIDDLE"}'
 panel-element-positions='{"CMN-0x00000000":[{"element":"showAppsButton","visible":true,"position":"stackedTL"},{"element":"activitiesButton","visible":true,"position":"stackedTL"},{"element":"leftBox","visible":true,"position":"stackedTL"},{"element":"taskbar","visible":true,"position":"stackedTL"},{"element":"centerBox","visible":true,"position":"stackedBR"},{"element":"rightBox","visible":true,"position":"stackedBR"},{"element":"dateMenu","visible":true,"position":"stackedBR"},{"element":"systemMenu","visible":true,"position":"stackedBR"},{"element":"desktopButton","visible":false,"position":"stackedBR"}]}'
 panel-element-positions-monitors-sync=true
@@ -212,14 +224,16 @@ window-preview-fixed-y=true
 window-preview-hide-immediate-click=false
 window-preview-padding=0
 window-preview-show-title=true
-window-preview-size=200
+window-preview-size=220
 window-preview-title-font-size=13
-window-preview-title-position='BOTTOM'
+window-preview-title-font-weight='bolder'
+window-preview-title-position='TOP'
 window-preview-use-custom-icon-size=false
 
 [day-progress]
 height=5
-panel-position=2
+panel-index=2
+panel-position=1
 show-elapsed=true
 style=2
 width=16
@@ -240,6 +254,11 @@ boot-wait=45
 check-interval=90
 enable-positioning=false
 notify=true
+
+[gspotify]
+artwork-themed-ui=true
+panel-position=2
+show-info-tip=true
 
 [hidetopbar]
 hot-corner=true
@@ -263,6 +282,15 @@ window-demands-attention-focus=true
 workspace-switcher-should-show=false
 workspace-wrap-around=true
 
+[mpris-label]
+album-size=55
+auto-switch-to-most-recent=true
+icon-padding=5
+reposition-delay=2
+show-icon='left'
+symbolic-source-icon=true
+use-album=true
+
 [nightlightsliderupdated]
 show-always=false
 
@@ -285,15 +313,15 @@ number-position='left'
 [quick-settings-tweaks]
 media-compact=true
 media-contorl-opacity=190
+media-enabled=true
 media-remove-shadow=true
 notifications-max-height=220
-notifications-remove-shadow=false
 weather-enabled=false
 weather-remove-shadow=false
 
 [rounded-window-corners-reborn]
 enable-preferences-entry=false
-global-rounded-corner-settings={'padding': <{'left': uint32 1, 'right': 1, 'top': 1, 'bottom': 1}>, 'keepRoundedCorners': <{'maximized': true, 'fullscreen': true}>, 'borderRadius': <uint32 10>, 'smoothing': <0.10000000000000001>, 'borderColor': <(0.5, 0.5, 0.5, 1.0)>, 'enabled': <true>}
+global-rounded-corner-settings={'padding': <{'left': uint32 1, 'right': 1, 'top': 1, 'bottom': 1}>, 'keepRoundedCorners': <{'maximized': true, 'fullscreen': true}>, 'borderRadius': <uint32 11>, 'smoothing': <0.10000000000000001>, 'borderColor': <(0.5, 0.5, 0.5, 1.0)>, 'enabled': <true>}
 settings-version=uint32 7
 skip-libadwaita-app=false
 tweak-kitty-terminal=true
@@ -366,11 +394,11 @@ transition-time=0.75
 window-opacity=185
 
 [tweaks-system-menu]
-applications=['org.gnome.tweaks.desktop', 'com.mattjakeman.ExtensionManager.desktop', 'gnome-about-panel.desktop']
+applications=['org.gnome.tweaks.desktop', 'com.mattjakeman.ExtensionManager.desktop']
 position=0
 
 [user-theme]
-name='Magnetic-Purple-Dark-Compact-Gruvbox'
+name='WhiteSur-Dark-solid'
 
 [vitals]
 fixed-widths=false

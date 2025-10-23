@@ -1,3 +1,5 @@
+apache2
+appstream-util
 apt-transport-https
 brave-browser
 bsdutils
@@ -6,14 +8,14 @@ build-essential
 code
 curl
 dash
-default-jdk
-default-jre
+dctrl-tools
 diffutils
 dmg2img
 dselect
 efibootmgr
 fastfetch
 findutils
+firefox-l10n-en-gb
 flatpak
 foliate
 g++
@@ -21,6 +23,7 @@ gcc
 gdebi
 gh
 git
+git-filter-repo
 gnome-browser-connector
 gnome-firmware
 gnome-package-updater
@@ -50,8 +53,10 @@ ibus-m17n
 ibus-table-cangjie-big
 ibus-table-cangjie3
 ibus-table-cangjie5
+imagemagick
 init
 intel-media-va-driver-non-free
+jdk-25
 language-pack-en
 language-pack-en-base
 language-pack-gnome-en
@@ -91,6 +96,7 @@ libreoffice-l10n-hi
 libsignon-glib2
 libsqlite3-dev
 libssl-dev
+libxml2-utils
 linux-generic
 linux-generic-hwe-24.04
 linux-modules-nvidia-580-open-generic-hwe-24.04
@@ -103,6 +109,7 @@ ncurses-bin
 nvidia-driver-580-open
 nvidia-vaapi-driver
 nvme-cli
+ostree
 podman
 podman-docker
 px
@@ -110,6 +117,7 @@ python3-netifaces
 qbittorrent
 sassc
 shim-signed
+speedtest-cli
 spotify-client
 synaptic
 tealdeer

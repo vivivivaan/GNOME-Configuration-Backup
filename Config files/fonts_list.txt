@@ -1,5 +1,6 @@
 /usr/share/fonts/opentype:
 CommitMono
+MonaSans-otf
 SF-Pro
 noto
 urw-base35
@@ -7,11 +8,11 @@ urw-base35
 /usr/share/fonts/truetype:
 Inter
 JetBrainsMono
+MonaSans-ttf
 NerdFontsSymbolsOnly
 Poppins
 Roboto
 RobotoMono
-Roboto_Flex
 SF-Pro
 adwaita-mono
 adwaita-sans

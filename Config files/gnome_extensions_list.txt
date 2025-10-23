@@ -173,8 +173,8 @@ day-progress@arcaege.github.io
   Path: /home/prithvi/.local/share/gnome-shell/extensions/day-progress@arcaege.github.io
   URL: https://github.com/ArcaEge/day-progress
   Version: 21
-  Enabled: Yes
-  State: ACTIVE
+  Enabled: No
+  State: INITIALIZED
 
 Vitals@CoreCoding.com
   Name: Vitals
@@ -199,7 +199,7 @@ transparent-window-moving@noobsai.github.com
   Description: Makes the window semi-transparent when moving or resizing
   Path: /home/prithvi/.local/share/gnome-shell/extensions/transparent-window-moving@noobsai.github.com
   URL: https://github.com/Noobsai/transparent-window-moving
-  Version: 19
+  Version: 20
   Enabled: Yes
   State: ACTIVE
 
@@ -293,12 +293,31 @@ open-desktop-location@laura.media
   Enabled: Yes
   State: ACTIVE
 
+1440@ravener.github.com
+  Name: 1440
+  Description: Make every minute count.
+Inspired by https://1440app.com/
+  Path: /home/prithvi/.local/share/gnome-shell/extensions/1440@ravener.github.com
+  URL: https://github.com/ravener/gnome-1440
+  Version: 2
+  Enabled: Yes
+  State: ACTIVE
+
+all-in-one-clipboard@NiffirgkcaJ.github.com
+  Name: All-in-One Clipboard
+  Description: A powerful clipboard manager that combines your clipboard history, emojis, GIFs, kaomojis, and symbols into a single, searchable interface.
+  Path: /home/prithvi/.local/share/gnome-shell/extensions/all-in-one-clipboard@NiffirgkcaJ.github.com
+  URL: https://github.com/NiffirgkcaJ/all-in-one-clipboard
+  Version: 7
+  Enabled: No
+  State: INITIALIZED
+
 timeFromStart@pic16f877ccs.github.com
   Name: Time from start (Uptime)
   Description: Shows the start time and duration of the system and user operation.
   Path: /home/prithvi/.local/share/gnome-shell/extensions/timeFromStart@pic16f877ccs.github.com
   URL: https://github.com/pic16f877ccs/Time-from-start
-  Version: 4.1.0 (8)
+  Version: 4.2.0 (9)
   Enabled: No
   State: INITIALIZED
 
@@ -351,5 +370,5 @@ snapd-prompting@canonical.com
   Name: SNAPD Permission Prompting
   Description: A GNOME Shell extension to make the SNAPD prompts to be properly integrated
   Path: /usr/share/gnome-shell/extensions/snapd-prompting@canonical.com
-  Enabled: Yes
-  State: ACTIVE
+  Enabled: No
+  State: INITIALIZED

@@ -21,7 +21,7 @@
 | Extensions List | `gnome-extensions list -d > gnome_extensions_list.txt` |
 | Packages List | `apt-mark showmanual > packages_list.txt` | 
 | OpenType and TrueType fonts | `ls /usr/share/fonts/opentype /usr/share/fonts/truetype > fonts_list.txt` |
-| Themes List | `ls ~/.themes/ /usr/share/themes/ ~/.icons /usr/share/icons/ > themes_list.txt` |
+| Themes List | `ls ~/.local/share/themes/ /usr/share/themes/ ~/.local/share/icons /usr/share/icons/ > themes_list.txt` |
 
 <!-- - Only gnome-shell extentions config, run `dconf dump /org/gnome/shell/extensions/ > gnome-shell-extensions-backup.dconf`.
 - Complete system-wide configurations: `dconf dump / > complete_gnome_saved_settings.dconf`.
@@ -58,7 +58,7 @@ For GRUB configuration, install the GRUB theme but comment out the `GRUB_BACKGRO
 # Theming flatpak apps
 
 - Grant filesystem access to all Flatpak apps with `flatpak override --user --filesystem=xdg-config/gtk-3.0 --filesystem=xdg-config/gtk-4.0 --filesystem=xdg-data/themes --filesystem=xdg-data/icons --filesystem=xdg-data/fonts`.
-- This is usually enough - `sudo flatpak override --filesystem=/usr/share/themes`, `sudo flatpak override --filesystem=~/.themes` and `sudo flatpak override --filesystem=xdg-config/gtk-3.0 && sudo flatpak override --filesystem=xdg-config/gtk-4.0`.
+- This is usually enough - `sudo flatpak override --filesystem=/usr/share/themes`, `sudo flatpak override --filesystem=~/.local/share/themes` and `sudo flatpak override --filesystem=xdg-config/gtk-3.0 && sudo flatpak override --filesystem=xdg-config/gtk-4.0`.
 
 | UI Element | Command |
 |:---|---:|
