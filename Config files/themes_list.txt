@@ -6,24 +6,10 @@ WhiteSur-light
 WhiteSur-nord
 WhiteSur-nord-dark
 WhiteSur-nord-light
-WhiteSur-yellow
-WhiteSur-yellow-dark
-WhiteSur-yellow-light
 hicolor
 
 /home/prithvi/.local/share/themes/:
-Magnetic-Dark-Compact-Nord
-Magnetic-Dark-Compact-Nord-hdpi
-Magnetic-Dark-Compact-Nord-xhdpi
-Magnetic-Yellow-Dark-Compact-Gruvbox
-Magnetic-Yellow-Dark-Compact-Gruvbox-hdpi
-Magnetic-Yellow-Dark-Compact-Gruvbox-xhdpi
-WhiteSur-Dark
-WhiteSur-Dark-hdpi
-WhiteSur-Dark-solid
-WhiteSur-Dark-solid-hdpi
-WhiteSur-Dark-solid-xhdpi
-WhiteSur-Dark-xhdpi
+Fluent-round-Dark
 
 /usr/share/icons/:
 Adwaita
@@ -37,9 +23,6 @@ WhiteSur-light
 WhiteSur-nord
 WhiteSur-nord-dark
 WhiteSur-nord-light
-WhiteSur-yellow
-WhiteSur-yellow-dark
-WhiteSur-yellow-light
 Yaru
 Yaru-blue
 Yaru-blue-dark
@@ -77,17 +60,9 @@ Adwaita
 Adwaita-dark
 Default
 Emacs
+Fluent-round-Dark
 HighContrast
-Magnetic-Dark-Compact-Nord
-Magnetic-Dark-Compact-Nord-hdpi
-Magnetic-Dark-Compact-Nord-xhdpi
 Raleigh
-WhiteSur-Dark
-WhiteSur-Dark-hdpi
-WhiteSur-Dark-solid
-WhiteSur-Dark-solid-hdpi
-WhiteSur-Dark-solid-xhdpi
-WhiteSur-Dark-xhdpi
 Yaru
 Yaru-blue
 Yaru-blue-dark

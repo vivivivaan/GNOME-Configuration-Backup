@@ -10,6 +10,7 @@ curl
 dash
 dctrl-tools
 diffutils
+dkms
 dmg2img
 dselect
 efibootmgr
@@ -100,9 +101,8 @@ libssl-dev
 libxml2-utils
 linux-generic
 linux-generic-hwe-24.04
-linux-modules-ipu6-generic
-linux-modules-ipu7-generic
 linux-modules-iwlwifi-generic
+linux-modules-iwlwifi-generic-6.17
 linux-modules-nvidia-580-open-generic-hwe-24.04
 locate
 m17n-db

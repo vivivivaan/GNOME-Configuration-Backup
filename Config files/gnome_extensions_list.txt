@@ -225,15 +225,15 @@ Version 10: mannjani@github added a test button inside prefs
 
 volume_scroller@francislavoie.github.io
   Name: Volume Scroller
-  Description: Scroll up or down in the Top Bar to adjust volume. Supports configuring granularity (default step of 5%)
+  Description: Scroll up or down in the Top Bar to adjust volume. Middle-click to toggle mute. Supports configuring granularity (default step of 5%)
 
 This is a fork of https://extensions.gnome.org/extension/4109/volume-scroller/ which is now unfortunately unmaintained/archived.
   Path: /home/prithvi/.local/share/gnome-shell/extensions/volume_scroller@francislavoie.github.io
   URL: https://github.com/francislavoie/gnome-shell-volume-scroller
   Original author: francislavoie
-  Version: 12
-  Enabled: Yes
-  State: ACTIVE
+  Version: 13
+  Enabled: No
+  State: INITIALIZED
 
 battery-indicator-icon@Deminder
   Name: Battery Indicator Icon
@@ -308,7 +308,7 @@ all-in-one-clipboard@NiffirgkcaJ.github.com
   Description: A powerful clipboard manager that combines your clipboard history, emojis, GIFs, kaomojis, and symbols into a single, searchable interface.
   Path: /home/prithvi/.local/share/gnome-shell/extensions/all-in-one-clipboard@NiffirgkcaJ.github.com
   URL: https://github.com/NiffirgkcaJ/all-in-one-clipboard
-  Version: 7
+  Version: 8
   Enabled: No
   State: INITIALIZED
 
