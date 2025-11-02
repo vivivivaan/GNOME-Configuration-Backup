@@ -1,6 +1,8 @@
 apache2
 appstream-util
 apt-transport-https
+aptitude
+axel
 brave-browser
 bsdutils
 btm
@@ -19,7 +21,6 @@ findutils
 firefox-l10n-en-gb
 flatpak
 foliate
-font-manager
 g++
 gcc
 gdebi
@@ -43,6 +44,7 @@ grub-efi-amd64
 grub-efi-amd64-signed
 gstreamer1.0-fdkaac
 gstreamer1.0-opencv
+gtk2-engines
 gzip
 hostname
 hpijs-ppds
@@ -106,6 +108,7 @@ linux-modules-iwlwifi-generic-6.17
 linux-modules-nvidia-580-open-generic-hwe-24.04
 locate
 m17n-db
+meson
 mythes-en-au
 mythes-en-us
 ncurses-base
@@ -121,6 +124,7 @@ python3-netifaces
 qbittorrent
 sassc
 shim-signed
+spdx-licenses
 spotify-client
 synaptic
 tealdeer
