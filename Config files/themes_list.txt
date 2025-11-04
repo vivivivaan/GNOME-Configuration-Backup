@@ -16,15 +16,6 @@ hicolor
 Graphite-blue-Dark-nord
 Graphite-blue-Dark-nord-hdpi
 Graphite-blue-Dark-nord-xhdpi
-Orchis-Dark-Nord
-Orchis-Dark-Nord-hdpi
-Orchis-Dark-Nord-xhdpi
-WhiteSur-Dark-blue
-WhiteSur-Dark-blue-hdpi
-WhiteSur-Dark-blue-xhdpi
-WhiteSur-Dark-solid-blue
-WhiteSur-Dark-solid-blue-hdpi
-WhiteSur-Dark-solid-blue-xhdpi
 
 /usr/share/icons/:
 Adwaita
@@ -87,18 +78,9 @@ Graphite-blue-Dark-nord-xhdpi
 HighContrast
 Industrial
 Mist
-Orchis-Dark-Nord
-Orchis-Dark-Nord-hdpi
-Orchis-Dark-Nord-xhdpi
 Raleigh
 Redmond
 ThinIce
-WhiteSur-Dark-blue
-WhiteSur-Dark-blue-hdpi
-WhiteSur-Dark-blue-xhdpi
-WhiteSur-Dark-solid-blue
-WhiteSur-Dark-solid-blue-hdpi
-WhiteSur-Dark-solid-blue-xhdpi
 Yaru
 Yaru-blue
 Yaru-blue-dark

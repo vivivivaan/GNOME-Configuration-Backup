@@ -24,6 +24,13 @@ foliate
 g++
 gcc
 gdebi
+gedit
+gedit-plugin-bookmarks
+gedit-plugin-bracket-completion
+gedit-plugin-color-picker
+gedit-plugin-multi-edit
+gedit-plugin-terminal
+gedit-source-code-browser-plugin
 gh
 git
 git-filter-repo
@@ -111,6 +118,7 @@ m17n-db
 meson
 mythes-en-au
 mythes-en-us
+nautilus-admin
 ncurses-base
 ncurses-bin
 nvidia-driver-580-open
@@ -124,7 +132,7 @@ python3-netifaces
 qbittorrent
 sassc
 shim-signed
-spdx-licenses
+speedtest-cli
 spotify-client
 synaptic
 tealdeer
