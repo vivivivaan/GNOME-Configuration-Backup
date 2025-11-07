@@ -13,9 +13,12 @@ WhiteSur-nord-light
 hicolor
 
 /home/prithvi/.local/share/themes/:
+Graphite-blue-Dark
+Graphite-blue-Dark-hdpi
 Graphite-blue-Dark-nord
 Graphite-blue-Dark-nord-hdpi
 Graphite-blue-Dark-nord-xhdpi
+Graphite-blue-Dark-xhdpi
 
 /usr/share/icons/:
 Adwaita
@@ -72,9 +75,12 @@ Clearlooks
 Crux
 Default
 Emacs
+Graphite-blue-Dark
+Graphite-blue-Dark-hdpi
 Graphite-blue-Dark-nord
 Graphite-blue-Dark-nord-hdpi
 Graphite-blue-Dark-nord-xhdpi
+Graphite-blue-Dark-xhdpi
 HighContrast
 Industrial
 Mist

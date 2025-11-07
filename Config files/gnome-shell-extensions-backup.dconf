@@ -15,6 +15,9 @@ icon-saturation=0.0
 icon-size=0
 tray-pos='right'
 
+[applications-overview-tooltip]
+borders=false
+
 [astra-monitor]
 compact-mode=true
 experimental-features='[]'
@@ -96,6 +99,7 @@ move-item-first=true
 notify-on-copy=true
 pinned-on-bottom=true
 preview-size=25
+toggle-menu=['<Alt>v']
 
 [custom-hot-corners-extended/misc]
 action-event-delay=85
@@ -339,11 +343,17 @@ icon-position='right'
 number-position='left'
 
 [quick-settings-tweaks]
+datemenu-hide-right-box=false
 media-compact=true
 media-contorl-opacity=190
 media-enabled=true
 media-remove-shadow=true
 notifications-max-height=220
+overlay-menu-animate-duration=350
+overlay-menu-animate-style='flyout'
+overlay-menu-enabled=true
+overlay-menu-width=400
+system-indicator-screen-sharing-indicator-use-accent=false
 weather-enabled=false
 weather-remove-shadow=false
 

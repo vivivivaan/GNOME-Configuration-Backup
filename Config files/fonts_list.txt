@@ -14,6 +14,7 @@ Poppins
 Roboto
 RobotoMono
 SF-Pro
+Sono
 adwaita-mono
 adwaita-sans
 dejavu

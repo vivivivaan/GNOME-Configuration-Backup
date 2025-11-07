@@ -1,8 +1,10 @@
+acpi
 apache2
 appstream-util
 apt-transport-https
 aptitude
 axel
+biometric-auth
 brave-browser
 bsdutils
 btm
@@ -32,6 +34,8 @@ gedit-plugin-multi-edit
 gedit-plugin-terminal
 gedit-source-code-browser-plugin
 gh
+gir1.2-fprint-2.0
+gir1.2-nautilus-4.1
 git
 git-filter-repo
 gnome-browser-connector
@@ -76,6 +80,7 @@ language-pack-gnome-hi
 language-pack-gnome-hi-base
 language-pack-hi
 language-pack-hi-base
+libbiometry1
 libbz2-dev
 libchewing3
 libchewing3-data
@@ -118,7 +123,6 @@ m17n-db
 meson
 mythes-en-au
 mythes-en-us
-nautilus-admin
 ncurses-base
 ncurses-bin
 nvidia-driver-580-open
@@ -129,7 +133,6 @@ podman
 podman-docker
 px
 python3-netifaces
-qbittorrent
 sassc
 shim-signed
 speedtest-cli
