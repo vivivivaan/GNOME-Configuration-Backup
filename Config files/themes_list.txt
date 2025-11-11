@@ -64,6 +64,8 @@ gnome-logo-text.svg
 handhelds
 hicolor
 locolor
+phinger-cursors
+phinger-cursors-light
 redglass
 whiteglass
 zbar.ico

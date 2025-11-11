@@ -419,7 +419,8 @@ outer-gaps=uint32 0
 overridden-settings='{"org.gnome.mutter.keybindings":{"toggle-tiled-right":"@as []","toggle-tiled-left":"@as []"},"org.gnome.desktop.wm.keybindings":{"maximize":"@as []","unmaximize":"@as []"},"org.gnome.mutter":{"edge-tiling":"false"}}'
 selected-layouts=[['Layout 1'], ['Layout 1']]
 show-indicator=false
-snap-assistant-threshold=30
+snap-assistant-threshold=25
+window-use-custom-border-color=false
 
 [time-from-start]
 sound-file-map={'soundName': 'string.ogg', 'soundPath': '/usr/share/sounds/gnome/default/alerts/string.ogg'}

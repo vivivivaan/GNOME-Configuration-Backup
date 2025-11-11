@@ -208,7 +208,7 @@ tilingshell@ferrarodomenico.com
   Description: Extend Gnome Shell with advanced tiling window management. Supports multiple monitors, Windows 11 Snap Assistant, Fancy Zones, automatic tiling, keyboard shortcuts, customised tiling layouts and more!
   Path: /home/prithvi/.local/share/gnome-shell/extensions/tilingshell@ferrarodomenico.com
   URL: https://github.com/domferr/tilingshell
-  Version: 17.0 (59)
+  Version: 17.1 (61)
   Enabled: Yes
   State: ACTIVE
 
@@ -390,3 +390,11 @@ snapd-prompting@canonical.com
   Path: /usr/share/gnome-shell/extensions/snapd-prompting@canonical.com
   Enabled: No
   State: INITIALIZED
+
+pomodoro@arun.codito.in
+  Name: Pomodoro
+  Description: Desktop integration for Pomodoro application.
+  Path: /usr/share/gnome-shell/extensions/pomodoro@arun.codito.in
+  URL: https://gnomepomodoro.org
+  Enabled: Yes
+  State: ACTIVE
