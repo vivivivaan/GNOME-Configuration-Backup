@@ -144,7 +144,7 @@ background-opacity=0.0
 click-action='minimize'
 custom-theme-shrink=false
 customize-alphas=true
-dash-max-icon-size=35
+dash-max-icon-size=34
 dock-fixed=false
 dock-position='BOTTOM'
 extend-height=false
@@ -262,9 +262,11 @@ style=2
 width=16
 
 [ding]
+arrangeorder='KIND'
 check-x11wayland=true
 icon-size='tiny'
 show-home=false
+show-trash=true
 start-corner='top-left'
 
 [disconnect-wifi]
@@ -336,6 +338,9 @@ padding-vertical=7
 
 [notification-timeout]
 timeout=2000
+
+[one-thing]
+thing-value='Awr, Att >>> Atg'
 
 [osd-volume-number]
 adapt-panel-menu=true
@@ -451,4 +456,4 @@ show-system=false
 show-voltage=false
 
 [volume-scroller]
-invert-scroll=false
+invert-scroll=true

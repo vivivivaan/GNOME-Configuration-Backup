@@ -302,6 +302,15 @@ applications-overview-tooltip@RaphaelRochet
   Enabled: No
   State: INITIALIZED
 
+one-thing@github.com
+  Name: One Thing
+  Description: Put a single task or goal in your menu bar
+  Path: /home/prithvi/.local/share/gnome-shell/extensions/one-thing@github.com
+  URL: https://github.com/dantehemerson/one-thing
+  Version: 26
+  Enabled: Yes
+  State: ACTIVE
+
 1440@ravener.github.com
   Name: 1440
   Description: Make every minute count.
@@ -355,7 +364,7 @@ ding@rastersoft.com
   Path: /usr/share/gnome-shell/extensions/ding@rastersoft.com
   URL: https://gitlab.com/rastersoft/desktop-icons-ng
   Enabled: No
-  State: INITIALIZED
+  State: INACTIVE
 
 tiling-assistant@ubuntu.com
   Name: Ubuntu Tiling Assistant
