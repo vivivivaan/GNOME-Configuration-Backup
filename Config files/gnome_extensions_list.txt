@@ -364,7 +364,7 @@ ding@rastersoft.com
   Path: /usr/share/gnome-shell/extensions/ding@rastersoft.com
   URL: https://gitlab.com/rastersoft/desktop-icons-ng
   Enabled: No
-  State: INACTIVE
+  State: INITIALIZED
 
 tiling-assistant@ubuntu.com
   Name: Ubuntu Tiling Assistant
