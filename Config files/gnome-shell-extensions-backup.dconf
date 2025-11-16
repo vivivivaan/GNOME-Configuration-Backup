@@ -97,6 +97,7 @@ history-size=220
 keep-selected-on-clear=true
 move-item-first=true
 notify-on-copy=true
+paste-on-select=false
 pinned-on-bottom=true
 preview-size=25
 toggle-menu=['<Alt>v']
@@ -144,7 +145,7 @@ background-opacity=0.0
 click-action='minimize'
 custom-theme-shrink=false
 customize-alphas=true
-dash-max-icon-size=34
+dash-max-icon-size=35
 dock-fixed=false
 dock-position='BOTTOM'
 extend-height=false
@@ -340,7 +341,7 @@ padding-vertical=7
 timeout=2000
 
 [one-thing]
-thing-value='Awr, Att >>> Atg'
+thing-value='Play.Momentum.Awr.Att.🗝️'
 
 [osd-volume-number]
 adapt-panel-menu=true

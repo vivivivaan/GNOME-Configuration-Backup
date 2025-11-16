@@ -151,7 +151,7 @@ show-desktop-button@amivaleo
   Description: Minimize/unminimize all open windows with a single click.
   Path: /home/prithvi/.local/share/gnome-shell/extensions/show-desktop-button@amivaleo
   URL: https://github.com/amivaleo/Show-Desktop-Button
-  Version: 48
+  Version: 49
   Enabled: Yes
   State: ACTIVE
 
@@ -292,6 +292,15 @@ open-desktop-location@laura.media
   Version: 1.0.1 (2)
   Enabled: Yes
   State: ACTIVE
+
+right-click-next@derVedro
+  Name: Right Click Next
+  Description: Move windows to the next workspace by right-clicking them in the overview.
+  Path: /home/prithvi/.local/share/gnome-shell/extensions/right-click-next@derVedro
+  URL: https://github.com/derVedro/gnome-right-click-next
+  Version: 6
+  Enabled: No
+  State: INITIALIZED
 
 applications-overview-tooltip@RaphaelRochet
   Name: Applications Overview Tooltip

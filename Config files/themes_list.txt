@@ -26,6 +26,9 @@ MacOS-Tahoe-Cursor
 MacTahoe
 MacTahoe-dark
 MacTahoe-light
+Papirus
+Papirus-Dark
+Papirus-Light
 WhiteSur
 WhiteSur-cursors
 WhiteSur-dark
