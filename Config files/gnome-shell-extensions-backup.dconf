@@ -99,7 +99,7 @@ move-item-first=true
 notify-on-copy=true
 paste-on-select=false
 pinned-on-bottom=true
-preview-size=25
+preview-size=30
 toggle-menu=['<Alt>v']
 
 [custom-hot-corners-extended/misc]
@@ -137,6 +137,7 @@ pressure-threshold=60
 ctrl=true
 
 [dash-to-dock]
+always-center-icons=false
 animation-time=0.15000000000000002
 apply-custom-theme=false
 autohide=true
@@ -145,7 +146,8 @@ background-opacity=0.0
 click-action='minimize'
 custom-theme-shrink=false
 customize-alphas=true
-dash-max-icon-size=35
+dash-max-icon-size=38
+disable-overview-on-startup=true
 dock-fixed=false
 dock-position='BOTTOM'
 extend-height=false
@@ -161,7 +163,7 @@ preferred-monitor=-2
 preferred-monitor-by-connector='eDP-1'
 pressure-threshold=95.0
 preview-size-scale=0.0
-running-indicator-style='DOTS'
+running-indicator-style='DOT'
 scroll-action='cycle-windows'
 show-apps-at-top=true
 show-mounts=false
@@ -307,7 +309,7 @@ osd-position=5
 panel=true
 panel-icon-size=0
 panel-in-overview=true
-panel-size=25
+panel-size=0
 startup-status=0
 support-notifier-type=0
 window-demands-attention-focus=true
@@ -341,7 +343,7 @@ padding-vertical=7
 timeout=2000
 
 [one-thing]
-thing-value='Play.Momentum.Awr.Att.🗝️'
+thing-value='Play.Momentum.Balance.Awr.Att.🗝️'
 
 [osd-volume-number]
 adapt-panel-menu=true
@@ -365,10 +367,12 @@ weather-remove-shadow=false
 
 [rounded-window-corners-reborn]
 enable-preferences-entry=false
-global-rounded-corner-settings={'padding': <{'left': uint32 0, 'right': 0, 'top': 0, 'bottom': 0}>, 'keepRoundedCorners': <{'maximized': true, 'fullscreen': true}>, 'borderRadius': <uint32 10>, 'smoothing': <1.0>, 'borderColor': <(0.5, 0.5, 0.5, 1.0)>, 'enabled': <true>}
+focused-shadow={'verticalOffset': 4, 'horizontalOffset': 0, 'blurOffset': 28, 'spreadRadius': 4, 'opacity': 60}
+global-rounded-corner-settings={'padding': <{'left': uint32 0, 'right': 0, 'top': 0, 'bottom': 0}>, 'keepRoundedCorners': <{'maximized': true, 'fullscreen': true}>, 'borderRadius': <uint32 12>, 'smoothing': <1.0>, 'borderColor': <(0.5, 0.5, 0.5, 1.0)>, 'enabled': <true>}
 settings-version=uint32 7
 skip-libadwaita-app=false
 tweak-kitty-terminal=true
+unfocused-shadow={'verticalOffset': 2, 'horizontalOffset': 0, 'blurOffset': 12, 'spreadRadius': -1, 'opacity': 65}
 
 [show-desktop-button]
 indicator-position='CENTER_LEFT'
@@ -443,7 +447,7 @@ applications=['org.gnome.tweaks.desktop', 'com.mattjakeman.ExtensionManager.desk
 position=0
 
 [user-theme]
-name='Graphite-blue-Dark-nord'
+name='MacTahoe-Dark'
 
 [vitals]
 fixed-widths=false

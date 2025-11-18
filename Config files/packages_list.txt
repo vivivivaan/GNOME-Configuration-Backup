@@ -86,6 +86,8 @@ libbiometry1
 libbz2-dev
 libchewing3
 libchewing3-data
+libevent-core-2.1-7t64
+libevent-extra-2.1-7t64
 libgdbm-dev
 libgdm-dev
 libglib2.0-dev
@@ -139,13 +141,11 @@ px
 python3-netifaces
 sassc
 shim-signed
-speedtest-cli
 spotify-client
 synaptic
 tealdeer
 tlp
 tor
-torbrowser-launcher
 transmission
 transmission-cli
 tree
@@ -159,3 +159,4 @@ ubuntu-wallpapers
 vainfo
 vlc
 windscribe
+z-library

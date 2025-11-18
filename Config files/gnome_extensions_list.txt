@@ -124,7 +124,7 @@ Click the toolbar button, then choose the window you want to force quit.
 On accidental click, right click anywhere or press [Esc] to abort the kill.
   Path: /home/prithvi/.local/share/gnome-shell/extensions/fq@megh
   URL: https://github.com/meghprkh/force-quit/
-  Version: 37
+  Version: 39
   Enabled: Yes
   State: ACTIVE
 
@@ -232,8 +232,8 @@ This is a fork of https://extensions.gnome.org/extension/4109/volume-scroller/ w
   URL: https://github.com/francislavoie/gnome-shell-volume-scroller
   Original author: francislavoie
   Version: 13
-  Enabled: No
-  State: INITIALIZED
+  Enabled: Yes
+  State: ACTIVE
 
 battery-indicator-icon@Deminder
   Name: Battery Indicator Icon

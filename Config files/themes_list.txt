@@ -16,6 +16,12 @@ hicolor
 Graphite-blue-Dark-nord
 Graphite-blue-Dark-nord-hdpi
 Graphite-blue-Dark-nord-xhdpi
+MacTahoe-Dark
+MacTahoe-Dark-hdpi
+MacTahoe-Dark-solid
+MacTahoe-Dark-solid-hdpi
+MacTahoe-Dark-solid-xhdpi
+MacTahoe-Dark-xhdpi
 
 /usr/share/icons/:
 Adwaita
@@ -82,6 +88,12 @@ Graphite-blue-Dark-nord-hdpi
 Graphite-blue-Dark-nord-xhdpi
 HighContrast
 Industrial
+MacTahoe-Dark
+MacTahoe-Dark-hdpi
+MacTahoe-Dark-solid
+MacTahoe-Dark-solid-hdpi
+MacTahoe-Dark-solid-xhdpi
+MacTahoe-Dark-xhdpi
 Mist
 Raleigh
 Redmond
