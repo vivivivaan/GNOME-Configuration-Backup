@@ -257,7 +257,7 @@ window-preview-title-position='TOP'
 window-preview-use-custom-icon-size=false
 
 [day-progress]
-height=5
+height=7
 panel-index=2
 panel-position=1
 show-elapsed=true
@@ -343,7 +343,7 @@ padding-vertical=7
 timeout=2000
 
 [one-thing]
-thing-value='Play.Momentum.Balance.Awr.Att.🗝️'
+thing-value='Play.Mmtm.Blc.Awr.Att.🗝️'
 
 [osd-volume-number]
 adapt-panel-menu=true

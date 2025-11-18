@@ -299,8 +299,8 @@ right-click-next@derVedro
   Path: /home/prithvi/.local/share/gnome-shell/extensions/right-click-next@derVedro
   URL: https://github.com/derVedro/gnome-right-click-next
   Version: 6
-  Enabled: No
-  State: INITIALIZED
+  Enabled: Yes
+  State: ACTIVE
 
 applications-overview-tooltip@RaphaelRochet
   Name: Applications Overview Tooltip
