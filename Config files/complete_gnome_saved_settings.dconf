@@ -627,7 +627,7 @@ use-tree-view=true
 [org/gnome/nautilus/preferences]
 click-policy='double'
 date-time-format='detailed'
-default-folder-viewer='icon-view'
+default-folder-viewer='list-view'
 migrated-gtk-settings=true
 search-filter-time-type='last_modified'
 show-create-link=true
@@ -654,11 +654,11 @@ dual-page-odd-left=true
 enable-spellchecking=true
 show-sidebar=false
 sidebar-page='links'
-sizing-mode='free'
-window-height=797
+sizing-mode='automatic'
+window-height=829
 window-maximized=true
-window-width=744
-zoom=0.51178683624778121
+window-width=891
+zoom=0.6664480016509956
 
 [org/gnome/pomodoro/plugins/sounds]
 pomodoro-end-sound='bell.ogg'
@@ -671,18 +671,18 @@ ticking-sound-volume=1.0
 [org/gnome/pomodoro/preferences]
 enabled-plugins=['sounds', 'dark-theme']
 long-break-duration=600.0
-pomodoro-duration=1800.0
+pomodoro-duration=1500.0
 short-break-duration=120.0
 show-screen-notifications=true
 
 [org/gnome/pomodoro/state]
-timer-date='2025-11-22T04:48:59+0000'
-timer-elapsed=0.0
-timer-paused=false
-timer-score=0.0
-timer-state='null'
-timer-state-date='2025-11-22T04:48:59+0000'
-timer-state-duration=0.0
+timer-date='2025-11-22T06:08:17+0000'
+timer-elapsed=5.0043270587921143
+timer-paused=true
+timer-score=1.0
+timer-state='pomodoro'
+timer-state-date='2025-11-22T06:08:03+0000'
+timer-state-duration=1500.0
 
 [org/gnome/portal/filechooser/Z-Library]
 last-folder-path='/home/prithvi'
@@ -694,7 +694,7 @@ last-folder-path='/home/prithvi/Downloads'
 last-folder-path='/home/prithvi/.local/share/gnome-shell/extensions'
 
 [org/gnome/portal/filechooser/com.google.Chrome]
-last-folder-path='/home/prithvi/Wallpapers/win11/Abstract-Dreamscapes'
+last-folder-path='/home/prithvi/Videos'
 
 [org/gnome/portal/filechooser/io.github.realmazharhussain.GdmSettings]
 last-folder-path='/home/prithvi/Wallpapers/win11'
@@ -709,7 +709,7 @@ last-folder-path='/home/prithvi/AppImages'
 last-folder-path='/home/prithvi/Downloads'
 
 [org/gnome/portal/filechooser/org.chromium.Chromium]
-last-folder-path='/home/prithvi/Downloads'
+last-folder-path='/home/prithvi/Pictures/Screenshots'
 
 [org/gnome/portal/filechooser/org.gnome.Nautilus]
 last-folder-path='/home/prithvi/Wallpapers/win11'
@@ -763,7 +763,7 @@ sleep-inactive-ac-type='nothing'
 enabled-connections=@as []
 
 [org/gnome/shell]
-app-picker-layout=[{'d16e2496-eedd-4088-ba5f-c39f0c9fd16d': <{'position': <0>}>, 'c328565c-de8e-4850-99c6-9a753c0b9d22': <{'position': <1>}>, 'org.gnome.clocks.desktop': <{'position': <2>}>, 'f720d708-b404-45e1-8674-5f1222817691': <{'position': <3>}>, '95876710-5963-4eb5-8152-6b9f5a9b7f6e': <{'position': <4>}>, 'lshw-gtk.desktop': <{'position': <5>}>, '9a539ec1-b3da-4b49-8bd7-f7ab432441a2': <{'position': <6>}>, '54c8bdb9-745d-4b5c-a532-de342a780c2e': <{'position': <7>}>, 'com.notesnook.Notesnook.desktop': <{'position': <8>}>, '78c5c448-9755-4b1f-b921-1fa5935ead6b': <{'position': <9>}>, 'org.gnome.Pomodoro.desktop': <{'position': <10>}>, 'spotify.desktop': <{'position': <11>}>, 'System': <{'position': <12>}>, 'org.telegram.desktop._3e485da34fc040f9218e3891ecde1e6c.desktop': <{'position': <13>}>, '3a28c18d-367b-4d9d-8420-124bfec133cc': <{'position': <14>}>, 'io.github.flattool.Warehouse.desktop': <{'position': <15>}>, 'windscribe.desktop': <{'position': <16>}>}]
+app-picker-layout=[{'d16e2496-eedd-4088-ba5f-c39f0c9fd16d': <{'position': <0>}>, 'c328565c-de8e-4850-99c6-9a753c0b9d22': <{'position': <1>}>, 'org.gnome.clocks.desktop': <{'position': <2>}>, 'f720d708-b404-45e1-8674-5f1222817691': <{'position': <3>}>, '95876710-5963-4eb5-8152-6b9f5a9b7f6e': <{'position': <4>}>, '9a539ec1-b3da-4b49-8bd7-f7ab432441a2': <{'position': <5>}>, '54c8bdb9-745d-4b5c-a532-de342a780c2e': <{'position': <6>}>, 'com.notesnook.Notesnook.desktop': <{'position': <7>}>, '78c5c448-9755-4b1f-b921-1fa5935ead6b': <{'position': <8>}>, 'org.gnome.Pomodoro.desktop': <{'position': <9>}>, 'de.schmidhuberj.DieBahn.desktop': <{'position': <10>}>, 'spotify.desktop': <{'position': <11>}>, 'System': <{'position': <12>}>, 'org.telegram.desktop._3e485da34fc040f9218e3891ecde1e6c.desktop': <{'position': <13>}>, '3a28c18d-367b-4d9d-8420-124bfec133cc': <{'position': <14>}>, 'io.github.flattool.Warehouse.desktop': <{'position': <15>}>, 'windscribe.desktop': <{'position': <16>}>}]
 command-history=['r']
 disable-user-extensions=false
 disabled-extensions=['notification-timeout@chlumskyvaclav.gmail.com', 'monitor@astraext.github.io', 'just_shows_memory_usage@troizet.github.com', 'timeFromStart@pic16f877ccs.github.com', 'dash-to-panel@jderose9.github.com', 'snapd-prompting@canonical.com', 'applications-overview-tooltip@RaphaelRochet', 'ding@rastersoft.com', 'dash-to-dock@micxgx.gmail.com', 'hidetopbar@mathieu.bidon.ca', '1440@ravener.github.com', 'rounded-window-corners@fxgn', 'all-in-one-clipboard@NiffirgkcaJ.github.com']
@@ -1266,9 +1266,9 @@ selected-device='airscan:e2:HP DeskJet 4720 series [B22A21]'
 text-dpi=300
 
 [org/gnome/software]
-check-timestamp=int64 1763713263
+check-timestamp=int64 1763804192
 first-run=false
-flatpak-purge-timestamp=int64 1763635553
+flatpak-purge-timestamp=int64 1763811328
 install-timestamp=int64 1761240305
 packagekit-historical-updates-timestamp=uint64 1758701232
 show-only-verified-apps=false
