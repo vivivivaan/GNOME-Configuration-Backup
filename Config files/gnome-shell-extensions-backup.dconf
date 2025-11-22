@@ -1,7 +1,10 @@
 [all-in-one-clipboard]
 clipboard-history-max-items=200
 enable-auto-paste=true
+enable-recents-tab=true
+gif-cache-limit-mb=250
 gif-provider='none'
+hide-panel-icon=false
 shortcut-toggle-main=['<Super>c']
 
 [alphabetical-app-grid]
@@ -368,7 +371,7 @@ weather-remove-shadow=false
 [rounded-window-corners-reborn]
 enable-preferences-entry=false
 focused-shadow={'verticalOffset': 4, 'horizontalOffset': 0, 'blurOffset': 28, 'spreadRadius': 4, 'opacity': 60}
-global-rounded-corner-settings={'padding': <{'left': uint32 0, 'right': 0, 'top': 0, 'bottom': 0}>, 'keepRoundedCorners': <{'maximized': true, 'fullscreen': true}>, 'borderRadius': <uint32 12>, 'smoothing': <1.0>, 'borderColor': <(0.5, 0.5, 0.5, 1.0)>, 'enabled': <true>}
+global-rounded-corner-settings={'padding': <{'left': uint32 0, 'right': 0, 'top': 0, 'bottom': 0}>, 'keepRoundedCorners': <{'maximized': true, 'fullscreen': true}>, 'borderRadius': <uint32 11>, 'smoothing': <1.0>, 'borderColor': <(0.5, 0.5, 0.5, 1.0)>, 'enabled': <true>}
 settings-version=uint32 7
 skip-libadwaita-app=false
 tweak-kitty-terminal=true
@@ -447,7 +450,7 @@ applications=['org.gnome.tweaks.desktop', 'com.mattjakeman.ExtensionManager.desk
 position=0
 
 [user-theme]
-name='MacTahoe-Dark'
+name='MacTahoe-Dark-blue-nord'
 
 [vitals]
 fixed-widths=false

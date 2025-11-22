@@ -1,5 +1,6 @@
 /usr/share/fonts/opentype:
 CommitMono
+Helvetica Neue
 MonaSans-otf
 SF-Pro
 noto
@@ -15,6 +16,7 @@ Roboto
 RobotoMono
 SF-Pro
 Sono
+Teachers
 adwaita-mono
 adwaita-sans
 dejavu

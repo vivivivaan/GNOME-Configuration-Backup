@@ -124,7 +124,7 @@ Click the toolbar button, then choose the window you want to force quit.
 On accidental click, right click anywhere or press [Esc] to abort the kill.
   Path: /home/prithvi/.local/share/gnome-shell/extensions/fq@megh
   URL: https://github.com/meghprkh/force-quit/
-  Version: 39
+  Version: 41
   Enabled: Yes
   State: ACTIVE
 
@@ -219,7 +219,7 @@ Version 9: Gnome 45 changes by mannjani@github
 Version 10: mannjani@github added a test button inside prefs
   Path: /home/prithvi/.local/share/gnome-shell/extensions/notification-banner-reloaded@marcinjakubowski.github.com
   URL: https://github.com/marcinjakubowski/notification-position-reloaded
-  Version: 15
+  Version: 16
   Enabled: Yes
   State: ACTIVE
 
@@ -268,8 +268,8 @@ rounded-window-corners@fxgn
   Path: /home/prithvi/.local/share/gnome-shell/extensions/rounded-window-corners@fxgn
   URL: https://github.com/flexagoon/rounded-window-corners
   Version: 14
-  Enabled: Yes
-  State: ACTIVE
+  Enabled: No
+  State: INITIALIZED
 
 dash-to-panel@jderose9.github.com
   Name: Dash to Panel
@@ -327,15 +327,19 @@ Inspired by https://1440app.com/
   Path: /home/prithvi/.local/share/gnome-shell/extensions/1440@ravener.github.com
   URL: https://github.com/ravener/gnome-1440
   Version: 2
-  Enabled: Yes
-  State: ACTIVE
+  Enabled: No
+  State: INITIALIZED
 
 all-in-one-clipboard@NiffirgkcaJ.github.com
   Name: All-in-One Clipboard
   Description: A powerful clipboard manager that combines your clipboard history, emojis, GIFs, kaomojis, and symbols into a single, searchable interface.
+
+Extension Homepage:
+https://github.com/NiffirgkcaJ/all-in-one-clipboard
+https://gitlab.com/NiffirgkcaJ/all-in-one-clipboard
   Path: /home/prithvi/.local/share/gnome-shell/extensions/all-in-one-clipboard@NiffirgkcaJ.github.com
   URL: https://github.com/NiffirgkcaJ/all-in-one-clipboard
-  Version: 8
+  Version: 10
   Enabled: No
   State: INITIALIZED
 
