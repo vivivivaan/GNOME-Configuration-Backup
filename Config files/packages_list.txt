@@ -18,6 +18,7 @@ dkms
 dmg2img
 dselect
 efibootmgr
+evolution
 fastfetch
 findutils
 firefox-l10n-en-gb
@@ -34,7 +35,6 @@ git-filter-repo
 gnome-browser-connector
 gnome-firmware
 gnome-package-updater
-gnome-shell-pomodoro
 gnome-software
 gnome-software-plugin-flatpak
 gnome-software-plugin-fwupd

@@ -149,7 +149,7 @@ background-opacity=0.0
 click-action='minimize'
 custom-theme-shrink=false
 customize-alphas=true
-dash-max-icon-size=38
+dash-max-icon-size=39
 disable-overview-on-startup=true
 dock-fixed=false
 dock-position='BOTTOM'
@@ -302,7 +302,7 @@ pressure-threshold=85
 pressure-timeout=1000
 
 [just-perfection]
-accent-color-icon=false
+accent-color-icon=true
 animation=4
 dash=true
 invert-calendar-column-items=true

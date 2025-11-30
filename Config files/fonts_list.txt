@@ -7,6 +7,7 @@ noto
 urw-base35
 
 /usr/share/fonts/truetype:
+Calibri
 Inter
 JetBrainsMono
 MonaSans-ttf

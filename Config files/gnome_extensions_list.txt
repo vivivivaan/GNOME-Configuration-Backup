@@ -316,7 +316,16 @@ one-thing@github.com
   Description: Put a single task or goal in your menu bar
   Path: /home/prithvi/.local/share/gnome-shell/extensions/one-thing@github.com
   URL: https://github.com/dantehemerson/one-thing
-  Version: 26
+  Version: 27
+  Enabled: Yes
+  State: ACTIVE
+
+pomodoro@youcefzaid.github.io
+  Name: Pomodoro Timer
+  Description: A simple Pomodoro timer for GNOME Shell
+  Path: /home/prithvi/.local/share/gnome-shell/extensions/pomodoro@youcefzaid.github.io
+  URL: https://github.com/youcefzaid/gnome-pomodoro-extension
+  Version: 2
   Enabled: Yes
   State: ACTIVE
 
@@ -358,7 +367,7 @@ disconnect-wifi@kgshank.net
   Path: /home/prithvi/.local/share/gnome-shell/extensions/disconnect-wifi@kgshank.net
   URL: https://github.com/kgshank/gse-disconnect-wifi
   Original author: GopI
-  Version: 36
+  Version: 38
   Enabled: Yes
   State: ACTIVE
 
@@ -412,11 +421,3 @@ snapd-prompting@canonical.com
   Path: /usr/share/gnome-shell/extensions/snapd-prompting@canonical.com
   Enabled: No
   State: INITIALIZED
-
-pomodoro@arun.codito.in
-  Name: Pomodoro
-  Description: Desktop integration for Pomodoro application.
-  Path: /usr/share/gnome-shell/extensions/pomodoro@arun.codito.in
-  URL: https://gnomepomodoro.org
-  Enabled: Yes
-  State: ACTIVE
