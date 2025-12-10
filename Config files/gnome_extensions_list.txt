@@ -219,7 +219,7 @@ Version 9: Gnome 45 changes by mannjani@github
 Version 10: mannjani@github added a test button inside prefs
   Path: /home/prithvi/.local/share/gnome-shell/extensions/notification-banner-reloaded@marcinjakubowski.github.com
   URL: https://github.com/marcinjakubowski/notification-position-reloaded
-  Version: 16
+  Version: 17
   Enabled: Yes
   State: ACTIVE
 
@@ -232,8 +232,8 @@ This is a fork of https://extensions.gnome.org/extension/4109/volume-scroller/ w
   URL: https://github.com/francislavoie/gnome-shell-volume-scroller
   Original author: francislavoie
   Version: 13
-  Enabled: Yes
-  State: ACTIVE
+  Enabled: No
+  State: INITIALIZED
 
 battery-indicator-icon@Deminder
   Name: Battery Indicator Icon
@@ -268,8 +268,8 @@ rounded-window-corners@fxgn
   Path: /home/prithvi/.local/share/gnome-shell/extensions/rounded-window-corners@fxgn
   URL: https://github.com/flexagoon/rounded-window-corners
   Version: 14
-  Enabled: No
-  State: INITIALIZED
+  Enabled: Yes
+  State: ACTIVE
 
 dash-to-panel@jderose9.github.com
   Name: Dash to Panel
@@ -326,8 +326,8 @@ pomodoro@youcefzaid.github.io
   Path: /home/prithvi/.local/share/gnome-shell/extensions/pomodoro@youcefzaid.github.io
   URL: https://github.com/youcefzaid/gnome-pomodoro-extension
   Version: 2
-  Enabled: Yes
-  State: ACTIVE
+  Enabled: No
+  State: INITIALIZED
 
 1440@ravener.github.com
   Name: 1440
@@ -343,12 +343,16 @@ all-in-one-clipboard@NiffirgkcaJ.github.com
   Name: All-in-One Clipboard
   Description: A powerful clipboard manager that combines your clipboard history, emojis, GIFs, kaomojis, and symbols into a single, searchable interface.
 
+External Services:
+• Tenor & Imgur - GIF search and browsing
+• Google S2 Favicons - Favicon fallback for URLs
+
 Extension Homepage:
 https://github.com/NiffirgkcaJ/all-in-one-clipboard
 https://gitlab.com/NiffirgkcaJ/all-in-one-clipboard
   Path: /home/prithvi/.local/share/gnome-shell/extensions/all-in-one-clipboard@NiffirgkcaJ.github.com
   URL: https://github.com/NiffirgkcaJ/all-in-one-clipboard
-  Version: 10
+  Version: 13
   Enabled: No
   State: INITIALIZED
 
@@ -387,6 +391,22 @@ dash-to-dock@micxgx.gmail.com
   URL: https://micheleg.github.io/dash-to-dock/
   Original author: micxgx@gmail.com
   Version: 102
+  Enabled: Yes
+  State: ACTIVE
+
+adaptive-brightness@dmy3k.github.io
+  Name: Adaptive Brightness
+  Description: This extension is a customizable alternative of 'Automatic Screen Brightness' found in GNOME settings. 
+
+Features:
+• Smooth transitions that prevent flickering in changing light
+• Customizable brightness response to ambient light
+• Automatic keyboard backlight control in low-light conditions
+
+Requires Ambient Light Sensor (ALS) hardware support. Check the extension's home page for device compatibility.
+  Path: /home/prithvi/.local/share/gnome-shell/extensions/adaptive-brightness@dmy3k.github.io
+  URL: https://github.com/dmy3k/gnome-adaptive-brightness
+  Version: 21
   Enabled: Yes
   State: ACTIVE
 
@@ -431,3 +451,11 @@ snapd-prompting@canonical.com
   Path: /usr/share/gnome-shell/extensions/snapd-prompting@canonical.com
   Enabled: No
   State: INITIALIZED
+
+pomodoro@arun.codito.in
+  Name: Pomodoro
+  Description: Desktop integration for Pomodoro application.
+  Path: /usr/share/gnome-shell/extensions/pomodoro@arun.codito.in
+  URL: https://gnomepomodoro.org
+  Enabled: Yes
+  State: ACTIVE

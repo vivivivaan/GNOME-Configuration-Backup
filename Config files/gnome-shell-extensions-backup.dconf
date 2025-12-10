@@ -260,7 +260,7 @@ window-preview-title-position='TOP'
 window-preview-use-custom-icon-size=false
 
 [day-progress]
-height=7
+height=8
 panel-index=2
 panel-position=1
 show-elapsed=true
@@ -302,7 +302,7 @@ pressure-threshold=85
 pressure-timeout=1000
 
 [just-perfection]
-accent-color-icon=true
+accent-color-icon=false
 animation=4
 dash=true
 invert-calendar-column-items=true
@@ -321,6 +321,11 @@ workspace-wrap-around=true
 
 [just-shows-memory-usage]
 digits=uint32 2
+
+[kiwi]
+add-username-to-quick-menu=false
+enable-app-window-buttons=true
+show-window-controls=false
 
 [mpris-label]
 album-size=55
@@ -371,7 +376,7 @@ weather-remove-shadow=false
 [rounded-window-corners-reborn]
 enable-preferences-entry=false
 focused-shadow={'verticalOffset': 4, 'horizontalOffset': 0, 'blurOffset': 28, 'spreadRadius': 4, 'opacity': 60}
-global-rounded-corner-settings={'padding': <{'left': uint32 0, 'right': 0, 'top': 0, 'bottom': 0}>, 'keepRoundedCorners': <{'maximized': true, 'fullscreen': true}>, 'borderRadius': <uint32 11>, 'smoothing': <1.0>, 'borderColor': <(0.5, 0.5, 0.5, 1.0)>, 'enabled': <true>}
+global-rounded-corner-settings={'padding': <{'left': uint32 0, 'right': 0, 'top': 0, 'bottom': 0}>, 'keepRoundedCorners': <{'maximized': true, 'fullscreen': true}>, 'borderRadius': <uint32 12>, 'smoothing': <1.0>, 'borderColor': <(0.5, 0.5, 0.5, 1.0)>, 'enabled': <true>}
 settings-version=uint32 7
 skip-libadwaita-app=false
 tweak-kitty-terminal=true

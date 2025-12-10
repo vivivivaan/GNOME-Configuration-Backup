@@ -13,21 +13,12 @@ WhiteSur-nord-light
 hicolor
 
 /home/prithvi/.local/share/themes/:
-Graphite-blue-Dark-nord
-Graphite-blue-Dark-nord-hdpi
-Graphite-blue-Dark-nord-xhdpi
-MacTahoe-Dark
 MacTahoe-Dark-blue-nord
 MacTahoe-Dark-blue-nord-hdpi
 MacTahoe-Dark-blue-nord-xhdpi
-MacTahoe-Dark-hdpi
-MacTahoe-Dark-solid
 MacTahoe-Dark-solid-blue-nord
 MacTahoe-Dark-solid-blue-nord-hdpi
 MacTahoe-Dark-solid-blue-nord-xhdpi
-MacTahoe-Dark-solid-hdpi
-MacTahoe-Dark-solid-xhdpi
-MacTahoe-Dark-xhdpi
 
 /usr/share/icons/:
 Adwaita
@@ -89,23 +80,14 @@ Clearlooks
 Crux
 Default
 Emacs
-Graphite-blue-Dark-nord
-Graphite-blue-Dark-nord-hdpi
-Graphite-blue-Dark-nord-xhdpi
 HighContrast
 Industrial
-MacTahoe-Dark
 MacTahoe-Dark-blue-nord
 MacTahoe-Dark-blue-nord-hdpi
 MacTahoe-Dark-blue-nord-xhdpi
-MacTahoe-Dark-hdpi
-MacTahoe-Dark-solid
 MacTahoe-Dark-solid-blue-nord
 MacTahoe-Dark-solid-blue-nord-hdpi
 MacTahoe-Dark-solid-blue-nord-xhdpi
-MacTahoe-Dark-solid-hdpi
-MacTahoe-Dark-solid-xhdpi
-MacTahoe-Dark-xhdpi
 Mist
 Raleigh
 Redmond
