@@ -6,8 +6,8 @@
 # Restore
 
 - Install **Extension Manager** with `flatpak install flathub com.mattjakeman.ExtensionManager`.
-- Install the extensions listed in `gnome_extensions_list.txt`.
-- Run `dconf load /org/gnome/shell/extensions/ < gnome-shell-extensions-backup.dconf` to set the extensions configurations. 
+- Install the extensions in `gnome_extensions_list.txt`.
+- Run `dconf load /org/gnome/shell/extensions/ < gnome-shell-extensions-backup.dconf` to apply the extension configurations. 
 - Restart the session/system to see the effects.
 - (optional) Restore all Gnome-wide settings, including **Gnome-tweaks** configurations using `dconf load -f / < complete_gnome_saved_settings.dconf`.
 - Additionally, you can backup and restore all the GNOME settings and other configurations using SaveDesktop (`flatpak install flathub io.github.vikdevelop.SaveDesktop`) flatpak app besides the Backup method below.
@@ -23,18 +23,12 @@
 | OpenType and TrueType fonts | `ls /usr/share/fonts/opentype /usr/share/fonts/truetype > fonts_list.txt` |
 | Themes List | `ls ~/.local/share/themes/ /usr/share/themes/ ~/.local/share/icons /usr/share/icons/ > themes_list.txt` |
 
-<!-- - Only gnome-shell extentions config, run `dconf dump /org/gnome/shell/extensions/ > gnome-shell-extensions-backup.dconf`.
-- Complete system-wide configurations: `dconf dump / > complete_gnome_saved_settings.dconf`.
-- List of all packages: 
-
-`dconf dump /org/gnome/shell/extensions/ > gnome-shell-extensions-backup.dconf && dconf dump / > complete_gnome_saved_settings.dconf && dpkg --get-selections >  package_list_all.txt && ls /usr/share/fonts/truetype/ /usr/share/fonts/opentype/ > fonts_open_true_list.txt  && gnome-extensions list -d > gnome_extensions_list.txt && ls ~/.themes/ /usr/share/themes/ ~/.icons/ /usr/share/icons/ > themes_sys_usr_list.txt` -->
-
 # Chromium browsers config
 
 - Enable flags in `chrome://flags`, `brave://flags` and `edge://flags`.
 - Copy browser files from `/usr/share/applications/` to `~/.local/share/applications/`.
 - For each of the copied files, jump to the line that begins with `Exec=` and ends with `%U` and append as shown below. Append the same to the line that begins with `Exec=` and ends with `--inprivate` or `--incognito`.
-- Alternatively, create `chrome-flags.conf`, `brave-flags.conf`, `edge-flags.conf` files in `~/.config` and add the flags to respective flag files.
+- Alternatively, create `chrome-flags.conf`, `brave-flags.conf`, `edge-flags.conf` files in `~/.config` and add the configs.
 - Restart the system or session.
 
 | Browser | copy *.desktop file | `*://flags` |
