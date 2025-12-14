@@ -149,7 +149,7 @@ background-opacity=0.0
 click-action='minimize'
 custom-theme-shrink=false
 customize-alphas=true
-dash-max-icon-size=39
+dash-max-icon-size=38
 disable-overview-on-startup=true
 dock-fixed=false
 dock-position='BOTTOM'
@@ -289,6 +289,10 @@ check-interval=90
 enable-positioning=false
 notify=true
 
+[gnome-ui-tune]
+hide-search=false
+increase-thumbnails-size='100%'
+
 [gspotify]
 artwork-themed-ui=true
 panel-position=2
@@ -305,6 +309,7 @@ pressure-timeout=1000
 accent-color-icon=false
 animation=4
 dash=true
+dash-separator=false
 invert-calendar-column-items=true
 max-displayed-search-results=15
 notification-banner-position=5
@@ -312,7 +317,9 @@ osd-position=5
 panel=true
 panel-icon-size=0
 panel-in-overview=true
-panel-size=0
+panel-indicator-padding-size=0
+panel-size=34
+ripple-box=true
 startup-status=0
 support-notifier-type=0
 window-demands-attention-focus=true
@@ -372,6 +379,9 @@ overlay-menu-width=400
 system-indicator-screen-sharing-indicator-use-accent=false
 weather-enabled=false
 weather-remove-shadow=false
+
+[restartto]
+blacklist=['Ubuntu', 'Linux-Firmware-Updater', 'USB HDD', 'PXE BOOT', 'LENOVO CLOUD', 'ON-PREMISE', 'Other HDD', 'IDER BOOT CDROM', 'IDER BOOT Floppy', 'ATA HDD', 'ATAPI CD']
 
 [rounded-window-corners-reborn]
 enable-preferences-entry=false
@@ -455,7 +465,7 @@ applications=['org.gnome.tweaks.desktop', 'com.mattjakeman.ExtensionManager.desk
 position=0
 
 [user-theme]
-name='MacTahoe-Dark-blue-nord'
+name='MacTahoe-Dark-orange'
 
 [vitals]
 fixed-widths=false

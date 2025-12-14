@@ -302,6 +302,15 @@ right-click-next@derVedro
   Enabled: Yes
   State: ACTIVE
 
+restartto@tiagoporsch.github.io
+  Name: Restart To
+  Description: Adds a menu item to restart to any other EFI boot entry
+  Path: /home/prithvi/.local/share/gnome-shell/extensions/restartto@tiagoporsch.github.io
+  URL: https://github.com/tiagoporsch/restartto
+  Version: 10
+  Enabled: No
+  State: INITIALIZED
+
 applications-overview-tooltip@RaphaelRochet
   Name: Applications Overview Tooltip
   Description: Shows a tooltip over applications icons on applications overview with application name and/or description.
@@ -310,6 +319,29 @@ applications-overview-tooltip@RaphaelRochet
   Version: 24
   Enabled: No
   State: INITIALIZED
+
+gnome-ui-tune@itstime.tech
+  Name: Gnome 4x UI Improvements
+  Description: Tunes gnome 4x Overview UI to make it more usable.
+
+Changes:
+- Search textbox is hidden by default and shown only when user begins to type-to-search
+- Scale of workspaces' thumbnails increased 2x
+- Restores wallpaper on workspaces' thumbnails. No more gray background
+- Show workspaces' thumbnails even when there is only one workspace
+- Firefox's PIP (picture in picture) window is now displayed on the overview screen
+
+All modifications can be disabled in the extension's settings.
+
+ATTENTION!
+After extension update, gnome-shell restart is required:
+X11: Alt+F2 => r
+Wayland: logout => login
+  Path: /home/prithvi/.local/share/gnome-shell/extensions/gnome-ui-tune@itstime.tech
+  URL: https://github.com/axxapy/gnome-ui-tune
+  Version: 25
+  Enabled: Yes
+  State: ACTIVE
 
 one-thing@github.com
   Name: One Thing

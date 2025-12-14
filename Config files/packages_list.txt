@@ -135,7 +135,6 @@ nvidia-driver-580-open
 nvidia-vaapi-driver
 nvme-cli
 ostree
-papirus-icon-theme
 phinger-cursor-theme
 px
 python3-netifaces

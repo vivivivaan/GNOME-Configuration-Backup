@@ -3,6 +3,9 @@ MacOS-Tahoe-Cursor
 MacTahoe
 MacTahoe-dark
 MacTahoe-light
+MacTahoe-orange
+MacTahoe-orange-dark
+MacTahoe-orange-light
 WhiteSur
 WhiteSur-cursors
 WhiteSur-dark
@@ -16,9 +19,15 @@ hicolor
 MacTahoe-Dark-blue-nord
 MacTahoe-Dark-blue-nord-hdpi
 MacTahoe-Dark-blue-nord-xhdpi
+MacTahoe-Dark-orange
+MacTahoe-Dark-orange-hdpi
+MacTahoe-Dark-orange-xhdpi
 MacTahoe-Dark-solid-blue-nord
 MacTahoe-Dark-solid-blue-nord-hdpi
 MacTahoe-Dark-solid-blue-nord-xhdpi
+MacTahoe-Dark-solid-orange
+MacTahoe-Dark-solid-orange-hdpi
+MacTahoe-Dark-solid-orange-xhdpi
 
 /usr/share/icons/:
 Adwaita
@@ -29,9 +38,9 @@ MacOS-Tahoe-Cursor
 MacTahoe
 MacTahoe-dark
 MacTahoe-light
-Papirus
-Papirus-Dark
-Papirus-Light
+MacTahoe-orange
+MacTahoe-orange-dark
+MacTahoe-orange-light
 WhiteSur
 WhiteSur-cursors
 WhiteSur-dark
@@ -85,9 +94,15 @@ Industrial
 MacTahoe-Dark-blue-nord
 MacTahoe-Dark-blue-nord-hdpi
 MacTahoe-Dark-blue-nord-xhdpi
+MacTahoe-Dark-orange
+MacTahoe-Dark-orange-hdpi
+MacTahoe-Dark-orange-xhdpi
 MacTahoe-Dark-solid-blue-nord
 MacTahoe-Dark-solid-blue-nord-hdpi
 MacTahoe-Dark-solid-blue-nord-xhdpi
+MacTahoe-Dark-solid-orange
+MacTahoe-Dark-solid-orange-hdpi
+MacTahoe-Dark-solid-orange-xhdpi
 Mist
 Raleigh
 Redmond
