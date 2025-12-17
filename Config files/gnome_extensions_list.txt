@@ -320,6 +320,15 @@ applications-overview-tooltip@RaphaelRochet
   Enabled: No
   State: INITIALIZED
 
+aztaskbar@aztaskbar.gitlab.com
+  Name: App Icons Taskbar
+  Description: A simple app icon taskbar. Show running apps and favorites on the main panel.
+  Path: /home/prithvi/.local/share/gnome-shell/extensions/aztaskbar@aztaskbar.gitlab.com
+  URL: https://gitlab.com/AndrewZaech/aztaskbar
+  Version: 31.1 (37)
+  Enabled: No
+  State: INITIALIZED
+
 gnome-ui-tune@itstime.tech
   Name: Gnome 4x UI Improvements
   Description: Tunes gnome 4x Overview UI to make it more usable.
@@ -340,8 +349,8 @@ Wayland: logout => login
   Path: /home/prithvi/.local/share/gnome-shell/extensions/gnome-ui-tune@itstime.tech
   URL: https://github.com/axxapy/gnome-ui-tune
   Version: 25
-  Enabled: Yes
-  State: ACTIVE
+  Enabled: No
+  State: INITIALIZED
 
 one-thing@github.com
   Name: One Thing

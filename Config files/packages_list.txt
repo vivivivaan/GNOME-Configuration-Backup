@@ -139,6 +139,8 @@ phinger-cursor-theme
 px
 python3-netifaces
 sassc
+seahorse
+seahorse-nautilus
 shim-signed
 spotify-client
 synaptic

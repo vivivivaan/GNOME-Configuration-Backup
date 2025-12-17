@@ -39,8 +39,11 @@ storage-header-show=false
 storage-indicators-order='["icon","bar","percentage","value","free","IO bar","IO graph","IO speed"]'
 storage-main='eui.002538bc11b6e85b-part6'
 
+[aztaskbar]
+update-notifier-project-version=37
+
 [battery-indicator-icon]
-icon-orientation='vertical'
+icon-orientation='horizontal'
 icon-scale=1.0
 show-icon-text=0
 status-style='circle'
@@ -149,7 +152,7 @@ background-opacity=0.0
 click-action='minimize'
 custom-theme-shrink=false
 customize-alphas=true
-dash-max-icon-size=38
+dash-max-icon-size=40
 disable-overview-on-startup=true
 dock-fixed=false
 dock-position='BOTTOM'
@@ -323,6 +326,7 @@ ripple-box=true
 startup-status=0
 support-notifier-type=0
 window-demands-attention-focus=true
+window-picker-icon=true
 workspace-switcher-should-show=false
 workspace-wrap-around=true
 
@@ -465,7 +469,7 @@ applications=['org.gnome.tweaks.desktop', 'com.mattjakeman.ExtensionManager.desk
 position=0
 
 [user-theme]
-name='MacTahoe-Dark-orange'
+name='MacTahoe-Dark-nord'
 
 [vitals]
 fixed-widths=false
