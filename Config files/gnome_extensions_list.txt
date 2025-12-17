@@ -51,8 +51,8 @@ clipboard-indicator@tudmotu.com
   Path: /home/prithvi/.local/share/gnome-shell/extensions/clipboard-indicator@tudmotu.com
   URL: https://github.com/Tudmotu/gnome-shell-extension-clipboard-indicator
   Version: 69
-  Enabled: Yes
-  State: ACTIVE
+  Enabled: No
+  State: INITIALIZED
 
 osd-volume-number@deminder
   Name: OSD Volume Number
@@ -349,8 +349,8 @@ Wayland: logout => login
   Path: /home/prithvi/.local/share/gnome-shell/extensions/gnome-ui-tune@itstime.tech
   URL: https://github.com/axxapy/gnome-ui-tune
   Version: 25
-  Enabled: No
-  State: INITIALIZED
+  Enabled: Yes
+  State: ACTIVE
 
 one-thing@github.com
   Name: One Thing
@@ -358,6 +358,15 @@ one-thing@github.com
   Path: /home/prithvi/.local/share/gnome-shell/extensions/one-thing@github.com
   URL: https://github.com/dantehemerson/one-thing
   Version: 27
+  Enabled: Yes
+  State: ACTIVE
+
+copyous@boerdereinar.dev
+  Name: Copyous
+  Description: Modern Clipboard Manager for GNOME
+  Path: /home/prithvi/.local/share/gnome-shell/extensions/copyous@boerdereinar.dev
+  URL: https://github.com/boerdereinar/copyous
+  Version: 1.2.0 (6)
   Enabled: Yes
   State: ACTIVE
 

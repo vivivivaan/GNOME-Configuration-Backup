@@ -1,3 +1,4 @@
+acl
 acpi
 apache2
 appstream-util
@@ -32,6 +33,7 @@ gcc
 gdebi
 gh
 gir1.2-fprint-2.0
+gir1.2-gsound-1.0
 gir1.2-nautilus-4.1
 git
 git-filter-repo
@@ -52,6 +54,7 @@ gparted
 grep
 grub-efi-amd64
 grub-efi-amd64-signed
+gsound-tools
 gstreamer1.0-fdkaac
 gstreamer1.0-opencv
 gtk2-engines
@@ -86,10 +89,15 @@ libchewing3
 libchewing3-data
 libevent-core-2.1-7t64
 libevent-extra-2.1-7t64
+libgda-5.0-4t64
+libgda-5.0-bin
+libgda-5.0-dev
+libgdata-dev
 libgdbm-dev
 libgdm-dev
 libglib2.0-dev
 libglib2.0-dev-bin
+libgsound-dev
 libgtk4-layer-shell0
 liblz-dev
 liblzma-dev
@@ -160,4 +168,6 @@ ubuntu-wallpapers
 vainfo
 vlc
 windscribe
+wl-clipboard
+xclip
 z-library
