@@ -7,8 +7,8 @@ width=709
 
 [apps/update-manager]
 first-run=false
-launch-count=83
-launch-time=int64 1765961736
+launch-count=84
+launch-time=int64 1766033396
 show-details=true
 window-height=447
 window-width=736
@@ -165,7 +165,7 @@ panel-id='world'
 size=(847, 578)
 
 [org/gnome/control-center]
-last-panel='keyboard'
+last-panel='wifi'
 window-state=(935, 794, false)
 
 [org/gnome/deja-dup]
@@ -279,8 +279,8 @@ selected-breaks=@as []
 play-sound=true
 
 [org/gnome/desktop/break-reminders/movement]
-duration-seconds=uint32 300
-interval-seconds=uint32 1800
+duration-seconds=uint32 120
+interval-seconds=uint32 1200
 play-sound=true
 
 [org/gnome/desktop/calendar]
@@ -301,7 +301,7 @@ clock-show-weekday=true
 color-scheme='prefer-dark'
 cursor-blink=true
 cursor-blink-time=676
-cursor-theme='MacOS-Tahoe-Cursor'
+cursor-theme='MacTahoe'
 document-font-name='Adwaita Sans 10'
 enable-animations=true
 enable-hot-corners=false
@@ -639,7 +639,7 @@ side-panel-size=200
 width=1011
 
 [org/gnome/gnome-system-monitor]
-current-tab='processes'
+current-tab='resources'
 maximized=false
 resources-cpu-expanded=true
 resources-mem-expanded=true
@@ -762,12 +762,12 @@ short-break-duration=120.0
 show-screen-notifications=true
 
 [org/gnome/pomodoro/state]
-timer-date='2025-12-17T11:36:51+0000'
+timer-date='2025-12-18T06:20:07+0000'
 timer-elapsed=0.0
 timer-paused=false
 timer-score=0.0
 timer-state='null'
-timer-state-date='2025-12-17T11:36:51+0000'
+timer-state-date='2025-12-18T06:20:07+0000'
 timer-state-duration=0.0
 
 [org/gnome/portal/filechooser/Z-Library]
@@ -783,7 +783,7 @@ last-folder-path='/home/prithvi/UI/space-isolation'
 last-folder-path='/home/prithvi/Downloads/Data_from_2022_to_2024 /2024'
 
 [org/gnome/portal/filechooser/com.google.Chrome]
-last-folder-path='/home/prithvi/Downloads'
+last-folder-path='/home/prithvi/Desktop'
 
 [org/gnome/portal/filechooser/com.notesnook.Notesnook]
 last-folder-path='/home/prithvi'

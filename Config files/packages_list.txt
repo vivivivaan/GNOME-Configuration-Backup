@@ -128,6 +128,7 @@ linux-generic-hwe-24.04
 linux-modules-iwlwifi-generic
 linux-modules-iwlwifi-generic-6.17
 linux-modules-nvidia-580-open-generic-hwe-24.04
+linuxinfo
 locate
 m17n-db
 meson
