@@ -1,5 +1,25 @@
+[all-in-one-clipboard]
+clipboard-history-max-items=200
+enable-auto-paste=true
+enable-recents-tab=true
+gif-cache-limit-mb=250
+gif-provider='none'
+hide-panel-icon=false
+shortcut-toggle-main=['<Super>c']
+
 [alphabetical-app-grid]
 sort-folder-contents=true
+
+[appindicator]
+icon-brightness=0.0
+icon-contrast=0.0
+icon-opacity=240
+icon-saturation=0.0
+icon-size=0
+tray-pos='right'
+
+[applications-overview-tooltip]
+borders=false
 
 [astra-monitor]
 compact-mode=true
@@ -19,17 +39,21 @@ storage-header-show=false
 storage-indicators-order='["icon","bar","percentage","value","free","IO bar","IO graph","IO speed"]'
 storage-main='eui.002538bc11b6e85b-part6'
 
+[aztaskbar]
+update-notifier-project-version=37
+
 [battery-indicator-icon]
-icon-orientation='vertical'
+icon-orientation='horizontal'
 icon-scale=1.0
-show-icon-text=1
+show-icon-text=0
 status-style='circle'
 
 [blur-my-shell]
 settings-version=2
 
 [blur-my-shell/appfolder]
-brightness=0.59999999999999998
+blur=true
+brightness=0.69999999999999996
 sigma=30
 
 [blur-my-shell/applications]
@@ -37,14 +61,15 @@ blur=false
 enable-all=true
 
 [blur-my-shell/coverflow-alt-tab]
-pipeline='pipeline_default'
+pipeline='pipeline_default_rounded'
 
 [blur-my-shell/dash-to-dock]
 blur=true
 brightness=0.59999999999999998
+override-background=true
 pipeline='pipeline_default_rounded'
 sigma=0
-static-blur=false
+static-blur=true
 style-dash-to-dock=0
 
 [blur-my-shell/lockscreen]
@@ -55,11 +80,13 @@ pipeline='pipeline_default'
 style-components=3
 
 [blur-my-shell/panel]
+blur=true
 brightness=0.75
 force-light-text=true
 pipeline='pipeline_default_rounded'
 sigma=0
 static-blur=false
+style-panel=0
 unblur-in-overview=false
 
 [blur-my-shell/screenshot]
@@ -76,7 +103,42 @@ history-size=220
 keep-selected-on-clear=true
 move-item-first=true
 notify-on-copy=true
+paste-on-select=false
 pinned-on-bottom=true
+preview-size=30
+toggle-menu=['<Alt>v']
+
+[copyous]
+auto-hide-search=false
+clipboard-history='keep-all'
+clipboard-orientation='vertical'
+clipboard-position-horizontal='top'
+clipboard-position-vertical='fill'
+clipboard-size=425
+disable-hljs-dialog=false
+dynamic-item-height=true
+header-controls-visibility='visible'
+history-length=180
+in-memory-database=false
+send-notification=true
+show-at-cursor=true
+show-at-pointer=true
+show-content-indicator=false
+show-header=true
+show-scrollbar=true
+sound='none'
+swap-scroll-shortcut=false
+sync-primary=true
+volume=0.0
+
+[copyous/file-item]
+file-preview-visibility='file-preview-or-file-info'
+
+[copyous/link-item]
+link-preview-orientation='vertical'
+
+[copyous/theme]
+theme='system'
 
 [custom-hot-corners-extended/misc]
 action-event-delay=85
@@ -113,25 +175,39 @@ pressure-threshold=60
 ctrl=true
 
 [dash-to-dock]
+always-center-icons=false
 animation-time=0.15000000000000002
+apply-custom-theme=false
+autohide=true
 autohide-in-fullscreen=true
-background-opacity=1.0
+background-opacity=0.0
 click-action='minimize'
+custom-theme-shrink=false
 customize-alphas=true
-dash-max-icon-size=35
+dash-max-icon-size=40
+disable-overview-on-startup=true
+dock-fixed=false
 dock-position='BOTTOM'
+extend-height=false
 height-fraction=0.80000000000000004
 hide-delay=0.15000000000000002
-intellihide-mode='ALL_WINDOWS'
+icon-size-fixed=true
+intellihide=true
+intellihide-mode='FOCUS_APPLICATION_WINDOWS'
 max-alpha=0.0
 min-alpha=0.0
 multi-monitor=true
 preferred-monitor=-2
 preferred-monitor-by-connector='eDP-1'
-pressure-threshold=95.0
-running-indicator-style='DOTS'
+pressure-threshold=90.0
+preview-size-scale=0.0
+running-indicator-style='DOT'
 scroll-action='cycle-windows'
-transparency-mode='DEFAULT'
+show-apps-at-top=true
+show-mounts=false
+show-mounts-network=false
+show-mounts-only-mounted=true
+transparency-mode='FIXED'
 
 [dash-to-panel]
 animate-appicon-hover=false
@@ -140,43 +216,59 @@ animate-appicon-hover-animation-extent={'RIPPLE': 4, 'PLANK': 4, 'SIMPLE': 1}
 animate-appicon-hover-animation-rotation={'SIMPLE': 0, 'RIPPLE': 10, 'PLANK': 0}
 animate-appicon-hover-animation-travel={'SIMPLE': 0.14999999999999999, 'RIPPLE': 0.40000000000000002, 'PLANK': 0.0}
 animate-appicon-hover-animation-type='SIMPLE'
-animate-appicon-hover-animation-zoom={'SIMPLE': 1.0, 'RIPPLE': 1.25, 'PLANK': 2.0}
+animate-appicon-hover-animation-zoom={'SIMPLE': 1.0, 'RIPPLE': 1.25, 'PLANK': 1.25}
 appicon-margin=0
-appicon-padding=0
+appicon-padding=1
+appicon-style='NORMAL'
+context-menu-entries='[{"title":"Terminal","cmd":"TERMINALSETTINGS"},{"title":"System monitor","cmd":"gnome-system-monitor"},{"title":"Files","cmd":"nautilus"},{"title":"Extensions","cmd":"gnome-extensions-app"}]'
 dot-color-dominant=false
 dot-color-override=false
 dot-color-unfocused-different=false
-dot-position='BOTTOM'
+dot-position='LEFT'
 dot-size=3
 dot-style-focused='DASHES'
 dot-style-unfocused='DOTS'
-extension-version=70
+extension-version=72
 focus-highlight=false
 focus-highlight-opacity=5
 global-border-radius=5
-highlight-appicon-hover-border-radius=8
+group-apps=true
+highlight-appicon-hover=false
+highlight-appicon-hover-border-radius=16
 hotkeys-overlay-combo='TEMPORARILY'
 intellihide=false
-intellihide-animation-time=180
+intellihide-animation-time=160
 intellihide-behaviour='MAXIMIZED_WINDOWS'
-intellihide-close-delay=270
+intellihide-close-delay=250
 intellihide-enable-start-delay=1500
 intellihide-hide-from-monitor-windows=false
 intellihide-hide-from-windows=true
-leave-timeout=50
-panel-anchors='{"CMN-0x00000000":"START"}'
-panel-element-positions='{}'
+leave-timeout=200
+leftbox-padding=-1
+leftbox-size=0
+overview-click-to-exit=false
+panel-anchors='{"CMN-0x00000000":"MIDDLE"}'
+panel-element-positions='{"CMN-0x00000000":[{"element":"showAppsButton","visible":true,"position":"stackedTL"},{"element":"activitiesButton","visible":false,"position":"stackedTL"},{"element":"leftBox","visible":true,"position":"stackedTL"},{"element":"taskbar","visible":true,"position":"stackedTL"},{"element":"centerBox","visible":true,"position":"stackedBR"},{"element":"rightBox","visible":true,"position":"stackedBR"},{"element":"dateMenu","visible":true,"position":"stackedBR"},{"element":"systemMenu","visible":true,"position":"stackedBR"},{"element":"desktopButton","visible":false,"position":"stackedBR"}]}'
 panel-element-positions-monitors-sync=true
 panel-lengths='{"CMN-0x00000000":100}'
 panel-positions='{}'
 panel-side-margins=0
-panel-sizes='{"CMN-0x00000000":41}'
+panel-side-padding=0
+panel-sizes='{"CMN-0x00000000":42}'
+panel-top-bottom-margins=0
+panel-top-bottom-padding=0
 peek-mode-opacity=40
 prefs-opened=false
 preview-custom-opacity=0
 preview-use-custom-opacity=false
 secondarymenu-contains-showdetails=true
-show-window-previews-timeout=200
+show-apps-icon-file=''
+show-apps-icon-side-padding=8
+show-window-previews-timeout=225
+status-icon-padding=-1
+stockgs-keep-dash=false
+stockgs-keep-top-panel=false
+stockgs-panelbtn-click-only=false
 trans-border-width=1
 trans-dynamic-anim-target=0.0
 trans-dynamic-anim-time=266
@@ -187,27 +279,59 @@ trans-use-custom-bg=false
 trans-use-custom-gradient=false
 trans-use-custom-opacity=true
 trans-use-dynamic-opacity=false
+tray-padding=-1
+tray-size=0
 window-preview-animation-time=200
-window-preview-hide-immediate-click=true
+window-preview-aspect-ratio-y=9
+window-preview-fixed-x=false
+window-preview-fixed-y=true
+window-preview-hide-immediate-click=false
 window-preview-padding=0
-window-preview-size=180
+window-preview-show-title=true
+window-preview-size=220
 window-preview-title-font-size=13
+window-preview-title-font-weight='inherit'
 window-preview-title-position='TOP'
+window-preview-use-custom-icon-size=false
 
 [day-progress]
-height=5
-panel-position=2
+height=8
+panel-index=2
+panel-position=1
 show-elapsed=true
-style=1
+style=2
 width=16
 
+[ding]
+arrangeorder='KIND'
+check-x11wayland=true
+icon-size='tiny'
+show-home=false
+show-trash=true
+start-corner='top-left'
+
+[disconnect-wifi]
+show-reconnect-always=true
+
+[extension-1440]
+panel-position='right'
+
 [fedora-update]
-always-visible=false
+always-visible=true
 auto-expand-list=5
 boot-wait=45
 check-interval=90
 enable-positioning=false
 notify=true
+
+[gnome-ui-tune]
+hide-search=false
+increase-thumbnails-size='100%'
+
+[gspotify]
+artwork-themed-ui=true
+panel-position=2
+show-info-tip=true
 
 [hidetopbar]
 hot-corner=true
@@ -217,17 +341,43 @@ pressure-threshold=85
 pressure-timeout=1000
 
 [just-perfection]
+accent-color-icon=false
 animation=4
+dash=true
+dash-separator=false
 invert-calendar-column-items=true
-max-displayed-search-results=14
-osd-position=8
+max-displayed-search-results=15
+notification-banner-position=5
+osd-position=5
+panel=true
+panel-icon-size=0
 panel-in-overview=true
-panel-size=22
+panel-indicator-padding-size=0
+panel-size=34
+ripple-box=true
 startup-status=0
 support-notifier-type=0
 window-demands-attention-focus=true
+window-picker-icon=true
 workspace-switcher-should-show=false
 workspace-wrap-around=true
+
+[just-shows-memory-usage]
+digits=uint32 2
+
+[kiwi]
+add-username-to-quick-menu=false
+enable-app-window-buttons=true
+show-window-controls=false
+
+[mpris-label]
+album-size=55
+auto-switch-to-most-recent=true
+icon-padding=5
+reposition-delay=2
+show-icon='left'
+symbolic-source-icon=true
+use-album=true
 
 [nightlightsliderupdated]
 show-always=false
@@ -243,51 +393,115 @@ padding-vertical=7
 [notification-timeout]
 timeout=2000
 
+[one-thing]
+thing-value='Play.Mmtm.Blc.Awr.Att.🗝️'
+
 [osd-volume-number]
 adapt-panel-menu=true
 icon-position='right'
 number-position='left'
 
 [quick-settings-tweaks]
-media-contorl-opacity=175
-media-remove-shadow=false
+datemenu-hide-right-box=false
+media-compact=true
+media-contorl-opacity=190
+media-enabled=true
+media-remove-shadow=true
 notifications-max-height=220
-notifications-remove-shadow=false
+overlay-menu-animate-duration=350
+overlay-menu-animate-style='flyout'
+overlay-menu-enabled=true
+overlay-menu-width=400
+system-indicator-screen-sharing-indicator-use-accent=false
 weather-enabled=false
 weather-remove-shadow=false
 
+[restartto]
+blacklist=['Ubuntu', 'Linux-Firmware-Updater', 'USB HDD', 'PXE BOOT', 'LENOVO CLOUD', 'ON-PREMISE', 'Other HDD', 'IDER BOOT CDROM', 'IDER BOOT Floppy', 'ATA HDD', 'ATAPI CD']
+
 [rounded-window-corners-reborn]
 enable-preferences-entry=false
-global-rounded-corner-settings={'padding': <{'left': uint32 1, 'right': 1, 'top': 1, 'bottom': 1}>, 'keepRoundedCorners': <{'maximized': true, 'fullscreen': true}>, 'borderRadius': <uint32 10>, 'smoothing': <0.10000000000000001>, 'borderColor': <(0.5, 0.5, 0.5, 1.0)>, 'enabled': <true>}
+focused-shadow={'verticalOffset': 4, 'horizontalOffset': 0, 'blurOffset': 28, 'spreadRadius': 4, 'opacity': 60}
+global-rounded-corner-settings={'padding': <{'left': uint32 0, 'right': 0, 'top': 0, 'bottom': 0}>, 'keepRoundedCorners': <{'maximized': true, 'fullscreen': true}>, 'borderRadius': <uint32 12>, 'smoothing': <1.0>, 'borderColor': <(0.5, 0.5, 0.5, 1.0)>, 'enabled': <true>}
 settings-version=uint32 7
 skip-libadwaita-app=false
 tweak-kitty-terminal=true
+unfocused-shadow={'verticalOffset': 2, 'horizontalOffset': 0, 'blurOffset': 12, 'spreadRadius': -1, 'opacity': 65}
 
 [show-desktop-button]
 indicator-position='CENTER_LEFT'
+
+[tiling-assistant]
+activate-layout0=@as []
+activate-layout1=@as []
+activate-layout2=@as []
+activate-layout3=@as []
+auto-tile=@as []
+center-window=@as []
+debugging-free-rects=@as []
+debugging-show-tiled-rects=@as []
+default-move-mode=0
+dynamic-keybinding-behavior=0
+focus-hint=0
+focus-hint-color='rgb(0,115,229)'
+import-layout-examples=false
+last-version-installed=53
+overridden-settings={'org.gnome.mutter.edge-tiling': <false>}
+restore-window=['<Super>Down']
+search-popup-layout=@as []
+tile-bottom-half=['<Super>KP_2']
+tile-bottom-half-ignore-ta=@as []
+tile-bottomleft-quarter=['<Super>KP_1']
+tile-bottomleft-quarter-ignore-ta=@as []
+tile-bottomright-quarter=['<Super>KP_3']
+tile-bottomright-quarter-ignore-ta=@as []
+tile-edit-mode=@as []
+tile-left-half=['<Super>Left', '<Super>KP_4']
+tile-left-half-ignore-ta=@as []
+tile-maximize=['<Super>Up', '<Super>KP_5']
+tile-maximize-horizontally=@as []
+tile-maximize-vertically=@as []
+tile-right-half=['<Super>Right', '<Super>KP_6']
+tile-right-half-ignore-ta=@as []
+tile-top-half=['<Super>KP_8']
+tile-top-half-ignore-ta=@as []
+tile-topleft-quarter=['<Super>KP_7']
+tile-topleft-quarter-ignore-ta=@as []
+tile-topright-quarter=['<Super>KP_9']
+tile-topright-quarter-ignore-ta=@as []
+tiling-popup-all-workspace=true
+toggle-always-on-top=@as []
+toggle-tiling-popup=@as []
 
 [tilingshell]
 enable-smart-window-border-radius=true
 enable-window-border=false
 inner-gaps=uint32 0
-last-version-name-installed='16.4'
-layouts-json='[{"id":"Layout 1","tiles":[{"x":0,"y":0,"width":0.22,"height":0.5,"groups":[1,2]},{"x":0,"y":0.5,"width":0.22,"height":0.5,"groups":[1,2]},{"x":0.22,"y":0,"width":0.56,"height":1,"groups":[2,3]},{"x":0.78,"y":0,"width":0.22,"height":0.5,"groups":[3,4]},{"x":0.78,"y":0.5,"width":0.22,"height":0.5,"groups":[3,4]}]},{"id":"Layout 2","tiles":[{"x":0,"y":0,"width":0.22,"height":1,"groups":[1]},{"x":0.22,"y":0,"width":0.56,"height":1,"groups":[1,2]},{"x":0.78,"y":0,"width":0.22,"height":1,"groups":[2]}]},{"id":"Layout 3","tiles":[{"x":0,"y":0,"width":0.33,"height":1,"groups":[1]},{"x":0.33,"y":0,"width":0.67,"height":1,"groups":[1]}]},{"id":"Layout 4","tiles":[{"x":0,"y":0,"width":0.67,"height":1,"groups":[1]},{"x":0.67,"y":0,"width":0.33,"height":1,"groups":[1]}]}]'
+last-version-name-installed='17.0'
+layouts-json='[{"id":"Layout 1","tiles":[{"x":0,"y":0,"width":0.22,"height":0.5,"groups":[1,2]},{"x":0,"y":0.5,"width":0.22,"height":0.5,"groups":[1,2]},{"x":0.22,"y":0,"width":0.56,"height":1,"groups":[2,3]},{"x":0.78,"y":0,"width":0.22,"height":0.5,"groups":[3,4]},{"x":0.78,"y":0.5,"width":0.22,"height":0.5,"groups":[3,4]}]},{"id":"Layout 2","tiles":[{"x":0,"y":0,"width":0.22,"height":1,"groups":[1]},{"x":0.22,"y":0,"width":0.56,"height":1,"groups":[1,2]},{"x":0.78,"y":0,"width":0.22,"height":1,"groups":[2]}]},{"id":"Layout 3","tiles":[{"x":0,"y":0,"width":0.33,"height":1,"groups":[1]},{"x":0.33,"y":0,"width":0.67,"height":1,"groups":[1]}]},{"id":"Layout 4","tiles":[{"x":0,"y":0,"width":0.67,"height":1,"groups":[1]},{"x":0.67,"y":0,"width":0.33,"height":1,"groups":[1]}]},{"id":"1130647","tiles":[{"x":0,"y":0,"width":0.3333333333333333,"height":1,"groups":[1]},{"x":0.3333333333333333,"y":0,"width":0.3333333333333333,"height":1,"groups":[2,1]},{"x":0.6666666666666666,"y":0,"width":0.3333333333333344,"height":1,"groups":[2]}]},{"id":"1188443","tiles":[{"x":0,"y":0,"width":0.5,"height":1,"groups":[1]},{"x":0.5,"y":0,"width":0.49999999999999994,"height":1,"groups":[1]}]}]'
 outer-gaps=uint32 0
-overridden-settings="{\"org.gnome.mutter.keybindings\":{\"toggle-tiled-right\":\"['<Super>Right']\",\"toggle-tiled-left\":\"['<Super>Left']\"},\"org.gnome.desktop.wm.keybindings\":{\"maximize\":\"['<Super>Up']\",\"unmaximize\":\"['<Super>Down', '<Alt>F5']\"},\"org.gnome.mutter\":{\"edge-tiling\":\"true\"}}"
+overridden-settings='{"org.gnome.mutter.keybindings":{"toggle-tiled-right":"@as []","toggle-tiled-left":"@as []"},"org.gnome.desktop.wm.keybindings":{"maximize":"@as []","unmaximize":"@as []"},"org.gnome.mutter":{"edge-tiling":"false"}}'
 selected-layouts=[['Layout 1'], ['Layout 1']]
 show-indicator=false
-snap-assistant-threshold=54
+snap-assistant-threshold=25
+window-use-custom-border-color=false
+
+[time-from-start]
+sound-file-map={'soundName': 'string.ogg', 'soundPath': '/usr/share/sounds/gnome/default/alerts/string.ogg'}
+time-format='multiline'
+timer-enabled=false
+without-downtime=true
 
 [transparent-window-moving]
 transition-time=0.75
 window-opacity=185
 
 [tweaks-system-menu]
-applications=['org.gnome.tweaks.desktop', 'com.mattjakeman.ExtensionManager.desktop', 'gnome-about-panel.desktop']
+applications=['org.gnome.tweaks.desktop', 'com.mattjakeman.ExtensionManager.desktop']
 position=0
 
 [user-theme]
-name='Orchis-Dark-Compact-Dracula'
+name='MacTahoe-Dark-nord'
 
 [vitals]
 fixed-widths=false
@@ -301,4 +515,4 @@ show-system=false
 show-voltage=false
 
 [volume-scroller]
-invert-scroll=false
+invert-scroll=true

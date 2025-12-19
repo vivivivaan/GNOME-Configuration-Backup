@@ -7,42 +7,45 @@
 # Restore
 
 - Install **Extension Manager** with `flatpak install flathub com.mattjakeman.ExtensionManager`.
-- Install the extensions listed in `gnome_extensions_list.txt`.
-- Run `dconf load /org/gnome/shell/extensions/ < gnome-shell-extensions-backup.dconf` to set the extensions configurations. 
+- Install the extensions in `gnome_extensions_list.txt`.
+- Run `dconf load /org/gnome/shell/extensions/ < gnome-shell-extensions-backup.dconf` to apply the extension configurations. 
 - Restart the session/system to see the effects.
 - (optional) Restore all Gnome-wide settings, including **Gnome-tweaks** configurations using `dconf load -f / < complete_gnome_saved_settings.dconf`.
 - Additionally, you can backup and restore all the GNOME settings and other configurations using SaveDesktop (`flatpak install flathub io.github.vikdevelop.SaveDesktop`) flatpak app besides the Backup method below.
 
 # Backup
 
-| Item | Command |
-| :------------ | ------: |
-| Extensions configuration | `dconf dump /org/gnome/shell/extensions/ > gnome-shell-extensions-backup.dconf` |
-| System-wide configuration | `dconf dump / > complete_gnome_saved_settings.dconf` |
-| Extensions List | `gnome-extensions list -d > gnome_extensions_list.txt` |
-| Packages List | `dnf list --installed > packages_list.txt` | 
-| OpenType and TrueType fonts | `ls /usr/share/fonts/ > fonts_list.txt` |
-| Themes List | `ls ~/.local/share/themes/ /usr/share/themes/ ~/.local/share/icons /usr/share/icons/ > themes_list.txt` |
+| Item                        |                                                                                                 Command |
+| :-------------------------- | ------------------------------------------------------------------------------------------------------: |
+| Extensions configuration    |                         `dconf dump /org/gnome/shell/extensions/ > gnome-shell-extensions-backup.dconf` |
+| System-wide configuration   |                                                    `dconf dump / > complete_gnome_saved_settings.dconf` |
+| Extensions List             |                                                  `gnome-extensions list -d > gnome_extensions_list.txt` |
+| Packages List               |                                                               `dnf list --installed > packages_list.txt` |
+| OpenType and TrueType fonts |                               `ls /usr/share/fonts/ > fonts_list.txt` |
+| Themes List                 | `ls ~/.local/share/themes/ /usr/share/themes/ ~/.local/share/icons /usr/share/icons/ > themes_list.txt` |
 
 # Chromium browsers config
 
 - Enable flags in `chrome://flags`, `brave://flags` and `edge://flags`.
 - Copy browser files from `/usr/share/applications/` to `~/.local/share/applications/`.
 - For each of the copied files, jump to the line that begins with `Exec=` and ends with `%U` and append as shown below. Append the same to the line that begins with `Exec=` and ends with `--inprivate` or `--incognito`.
-- Alternatively, create `chrome-flags.conf`, `brave-flags.conf`, `edge-flags.conf` files in `~/.config` and add the flags to respective flag files.
+- Alternatively, create `chrome-flags.conf`, `brave-flags.conf`, `edge-flags.conf` files in `~/.config` and add the configs.
 - Restart the system or session.
 
-| Browser | copy *.desktop file | `*://flags` |
-|:---|---|---:|
-| Google Chrome | `sudo cp /usr/share/applications/google-chrome.desktop ~/.local/share/applications/` | `#fluent-overlay-scrollbars` `#fluent-scrollbars` `#smooth-scrolling` `#ozone-platform-hint` `#wayland-ui-scaling` `#root-scrollbar-follows-browser-theme` `#link-preview` `#wayland-linux-drm-syncobj` `#allow-legacy-mv2-extensions` `#tabstrip-combo-button` |
-| Brave | `sudo cp /usr/share/applications/brave-browser.desktop ~/.local/share/applications/` | `#fluent-overlay-scrollbars` `#fluent-scrollbars` `#ozone-platform-hint` `#wayland-ui-scaling` `#root-scrollbar-follows-browser-theme` `#link-preview` `#middle-button-autoscroll` `#wayland-linux-drm-syncobj` |
-| Microsoft Edge | `sudo cp /usr/share/applications/microsoft-edge.desktop ~/.local/share/applications/` | Only enable flags in the `.desktop` file |
 
-| Browser | Code to append |
-|:---|---:|
-| Google Chrome | `--enable-features=MiddleClickAutoscroll,TouchpadOverscrollHistoryNavigation --disable-features=GlobalShortcutsPortal` |
-| Brave Browser | `--enable-features=TouchpadOverscrollHistoryNavigation --disable-features=GlobalShortcutsPortal` |
-| Microsoft Edge | `--enable-features=MiddleClickAutoscroll,TouchpadOverscrollHistoryNavigation,UseOzonePlatform,WaylandWindowDecorations --ozone-platform=wayland --disable-features=GlobalShortcutsPortal` |
+| Browser        | copy *.desktop file                                                                   |                                                                                                                                                                                                                                                     `*://flags` |
+| :------------- | ------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| Google Chrome  | `sudo cp /usr/share/applications/google-chrome.desktop ~/.local/share/applications/`  | `#fluent-overlay-scrollbars` `#fluent-scrollbars` `#smooth-scrolling` `#ozone-platform-hint` `#wayland-ui-scaling` `#root-scrollbar-follows-browser-theme` `#link-preview` `#wayland-linux-drm-syncobj` `#allow-legacy-mv2-extensions` `#tabstrip-combo-button` |
+| Brave          | `sudo cp /usr/share/applications/brave-browser.desktop ~/.local/share/applications/`  |                                                 `#fluent-overlay-scrollbars` `#fluent-scrollbars` `#ozone-platform-hint` `#wayland-ui-scaling` `#root-scrollbar-follows-browser-theme` `#link-preview` `#middle-button-autoscroll` `#wayland-linux-drm-syncobj` |
+| Microsoft Edge | `sudo cp /usr/share/applications/microsoft-edge.desktop ~/.local/share/applications/` |                                                                                                                                                                                                                        Only enable flags in the `.desktop` file |
+| Vivaldi        | `sudo cp /usr/share/applications/vivaldi-stable.desktop ~/.local/share/applications/` |                                                                                                                                                                       `#fluent-overlay-scrollbars` `#fluent-scrollbars` `#root-scrollbar-follows-browser-theme` |
+
+| Browser        |                                                                                                                                                                                                                                            Code to append |
+| :------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| Google Chrome  |                                                                                                                                    `--enable-features=MiddleClickAutoscroll,TouchpadOverscrollHistoryNavigation --disable-features=GlobalShortcutsPortal` |
+| Brave Browser  |                                                                                                                                                          `--enable-features=TouchpadOverscrollHistoryNavigation --disable-features=GlobalShortcutsPortal` |
+| Microsoft Edge |                                                                 `--enable-features=MiddleClickAutoscroll,TouchpadOverscrollHistoryNavigation,UseOzonePlatform,WaylandWindowDecorations --ozone-platform=wayland --disable-features=GlobalShortcutsPortal` |
+| Vivaldi        | `--enable-features=MiddleClickAutoscroll,TouchpadOverscrollHistoryNavigation,UseOzonePlatform,WaylandWindowDecorations --ozone-platform=wayland --enable-wayland-ime --enable-pinch --enable-gesture-navigation --disable-features=GlobalShortcutsPortal` |
 
 # GRUB theme background glitches
 For GRUB configuration, install the GRUB theme but comment out the `GRUB_BACKGROUND` flag to avoid any background.
@@ -53,14 +56,14 @@ For GRUB configuration, install the GRUB theme but comment out the `GRUB_BACKGRO
 # Theming flatpak apps
 
 - Grant filesystem access to all Flatpak apps with `flatpak override --user --filesystem=xdg-config/gtk-3.0 --filesystem=xdg-config/gtk-4.0 --filesystem=xdg-data/themes --filesystem=xdg-data/icons --filesystem=xdg-data/fonts`.
-- This is usually enough - `sudo flatpak override --filesystem=/usr/share/themes`, `sudo flatpak override --filesystem=~/.themes` and `sudo flatpak override --filesystem=xdg-config/gtk-3.0 && sudo flatpak override --filesystem=xdg-config/gtk-4.0`.
+- This is usually enough - `sudo flatpak override --filesystem=/usr/share/themes`, `sudo flatpak override --filesystem=~/.local/share/themes` and `sudo flatpak override --filesystem=xdg-config/gtk-3.0 && sudo flatpak override --filesystem=xdg-config/gtk-4.0`.
 
-| UI Element | Command |
-|:---|---:|
-| Themes | `flatpak override --user --env=GTK_THEME=your-theme-name` (Reset with `flatpak override --user --unset-env=GTK_THEME`) |
-| Icons | ` flatpak override --user --env=ICON_THEME=your-icon-theme` (Reset with `flatpak override --user --unset-env=ICON_THEME`) |
-| Cursor | `flatpak override --user --env=CURSOR_THEME=your-cursor-theme` (Reset with `flatpak override --user --unset-env=CURSOR_THEME`) |
-| Fonts | `flatpak override --user --filesystem=xdg-data/fonts:ro --filesystem=xdg-config/fontconfig:ro` (Reset with `flatpak override --user --reset --filesystem=xdg-data/fonts:ro --filesystem=xdg-config/fontconfig:ro`) | 
+| UI Element                  |                                                                                                                                                                                                                       Command |
+| :-------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| Themes                      |                                                                                                        `flatpak override --user --env=GTK_THEME=your-theme-name` (Reset with `flatpak override --user --unset-env=GTK_THEME`) |
+| Icons                       |                                                                                                     ` flatpak override --user --env=ICON_THEME=your-icon-theme` (Reset with `flatpak override --user --unset-env=ICON_THEME`) |
+| Cursor                      |                                                                                                `flatpak override --user --env=CURSOR_THEME=your-cursor-theme` (Reset with `flatpak override --user --unset-env=CURSOR_THEME`) |
+| Fonts                       |            `flatpak override --user --filesystem=xdg-data/fonts:ro --filesystem=xdg-config/fontconfig:ro` (Reset with `flatpak override --user --reset --filesystem=xdg-data/fonts:ro --filesystem=xdg-config/fontconfig:ro`) |
 | Reset all flatpak overrides | `flatpak override --user --reset` and `flatpak override --user --reset --filesystem=xdg-config/gtk-3.0 --filesystem=xdg-config/gtk-4.0 --filesystem=xdg-data/themes --filesystem=xdg-data/icons --filesystem=xdg-data/fonts`. |
 
 If the above reset don't work fully, run these to reset all relevant UI settings: 
@@ -85,6 +88,8 @@ gsettings set org.gnome.shell.extensions.user-theme name 'Default-pure'
 
 # Python Dependencies
 `liblzma-dev liblz-dev zlib1g-dev libncurses-dev libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev libsqlite3-dev libbz2-dev`
+
+
 
 # Bash aliases (~/.bashrc.d/aliases.sh)
 
