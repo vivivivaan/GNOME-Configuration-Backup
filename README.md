@@ -5,12 +5,13 @@
 
 # Restore
 
+- Replace the ***existing username*** with the ***current username*** in the **`complete_gnome_saved_settings.dconf`** file.
 - Install **Extension Manager** with `flatpak install flathub com.mattjakeman.ExtensionManager`.
 - Install the extensions in `gnome_extensions_list.txt`.
 - Run `dconf load /org/gnome/shell/extensions/ < gnome-shell-extensions-backup.dconf` to apply the extension configurations. 
 - Restart the session/system to see the effects.
 - (optional) Restore all Gnome-wide settings, including **Gnome-tweaks** configurations using `dconf load -f / < complete_gnome_saved_settings.dconf`.
-- Additionally, you can backup and restore all the GNOME settings and other configurations using SaveDesktop (`flatpak install flathub io.github.vikdevelop.SaveDesktop`) flatpak app besides the Backup method below.
+- Additionally, backup and restore all the GNOME settings and other configurations using SaveDesktop (`flatpak install flathub io.github.vikdevelop.SaveDesktop`) flatpak app besides the Backup method below.
 
 # Backup
 
