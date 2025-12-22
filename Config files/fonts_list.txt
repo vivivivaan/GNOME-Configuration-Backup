@@ -1,4 +1,5 @@
 /usr/share/fonts/opentype:
+CodeNewRoman
 CommitMono
 Helvetica Neue
 MonaSans-otf
@@ -8,7 +9,11 @@ urw-base35
 
 /usr/share/fonts/truetype:
 Calibri
+DaddyTimeMono
+FantasqueSansMono
+Google_Sans_Flex
 Inter
+Inter_Tight
 JetBrainsMono
 MonaSans-ttf
 NerdFontsSymbolsOnly

@@ -401,20 +401,24 @@ adapt-panel-menu=true
 icon-position='right'
 number-position='left'
 
+[pomodoro]
+long-break-interval=5
+long-break-time=600
+short-break-time=120
+work-time=1200
+
 [quick-settings-tweaks]
-datemenu-hide-right-box=false
-media-compact=true
-media-contorl-opacity=190
+media-contorl-opacity=200
 media-enabled=true
 media-remove-shadow=true
-notifications-max-height=220
-overlay-menu-animate-duration=350
-overlay-menu-animate-style='flyout'
+notifications-max-height=260
 overlay-menu-enabled=true
-overlay-menu-width=400
 system-indicator-screen-sharing-indicator-use-accent=false
 weather-enabled=false
 weather-remove-shadow=false
+
+[quickshutdown]
+use-red-style=false
 
 [restartto]
 blacklist=['Ubuntu', 'Linux-Firmware-Updater', 'USB HDD', 'PXE BOOT', 'LENOVO CLOUD', 'ON-PREMISE', 'Other HDD', 'IDER BOOT CDROM', 'IDER BOOT Floppy', 'ATA HDD', 'ATAPI CD']

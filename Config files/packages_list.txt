@@ -32,6 +32,7 @@ g++
 gcc
 gdebi
 gh
+gir1.2-ayatanaappindicatorglib-2.0
 gir1.2-fprint-2.0
 gir1.2-gsound-1.0
 gir1.2-nautilus-4.1
@@ -40,7 +41,6 @@ git-filter-repo
 gnome-browser-connector
 gnome-firmware
 gnome-package-updater
-gnome-shell-pomodoro
 gnome-software
 gnome-software-plugin-flatpak
 gnome-software-plugin-fwupd
@@ -83,6 +83,7 @@ language-pack-gnome-hi
 language-pack-gnome-hi-base
 language-pack-hi
 language-pack-hi-base
+libayatana-appindicator-glib2
 libbiometry1
 libbz2-dev
 libchewing3
@@ -111,6 +112,7 @@ libopencc1.1
 libotf1
 libpinyin-data
 libpinyin15
+libppsdocument-4.0-5
 libreadline-dev
 libreoffice-help-common
 libreoffice-help-en-gb

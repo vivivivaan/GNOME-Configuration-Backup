@@ -5,7 +5,7 @@ user-theme@gnome-shell-extensions.gcampax.github.com
   URL: https://gitlab.gnome.org/GNOME/gnome-shell-extensions
   Version: 69
   Enabled: Yes
-  State: ACTIVE
+  State: ERROR
 
 drive-menu@gnome-shell-extensions.gcampax.github.com
   Name: Removable Drive Menu
@@ -190,7 +190,7 @@ sound-percentage@subashghimire.info.np
   Description: Display the current sound percentage in the system tray
   Path: /home/prithvi/.local/share/gnome-shell/extensions/sound-percentage@subashghimire.info.np
   URL: https://github.com/PublisherName/sound-percentage-gs-extension
-  Version: 2
+  Version: 3
   Enabled: Yes
   State: ACTIVE
 
@@ -370,6 +370,15 @@ copyous@boerdereinar.dev
   Enabled: Yes
   State: ACTIVE
 
+pomodoro@zhuravkovigor.dev
+  Name: Focus Buddy
+  Description: Simple Pomodoro timer with customizable durations and sound notifications to help you stay focused and productive.
+  Path: /home/prithvi/.local/share/gnome-shell/extensions/pomodoro@zhuravkovigor.dev
+  URL: https://github.com/zhuravkovigor/gnome-shell-pomodoro-extenshion
+  Version: 2
+  Enabled: Yes
+  State: ACTIVE
+
 pomodoro@youcefzaid.github.io
   Name: Pomodoro Timer
   Description: A simple Pomodoro timer for GNOME Shell
@@ -402,7 +411,7 @@ https://github.com/NiffirgkcaJ/all-in-one-clipboard
 https://gitlab.com/NiffirgkcaJ/all-in-one-clipboard
   Path: /home/prithvi/.local/share/gnome-shell/extensions/all-in-one-clipboard@NiffirgkcaJ.github.com
   URL: https://github.com/NiffirgkcaJ/all-in-one-clipboard
-  Version: 13
+  Version: 15
   Enabled: No
   State: INITIALIZED
 
@@ -502,10 +511,11 @@ snapd-prompting@canonical.com
   Enabled: No
   State: INITIALIZED
 
-pomodoro@arun.codito.in
-  Name: Pomodoro
-  Description: Desktop integration for Pomodoro application.
-  Path: /usr/share/gnome-shell/extensions/pomodoro@arun.codito.in
-  URL: https://gnomepomodoro.org
+quickshutdownbutton@feelfree2useit.outlook.com
+  Name: Quick Shutdown
+  Description: Add shutdown button to the top panel
+  Path: /home/prithvi/.local/share/gnome-shell/extensions/quickshutdownbutton@feelfree2useit.outlook.com
+  URL: https://github.com/feelfree2useit/quickshutdownbutton
+  Version: 4
   Enabled: Yes
   State: ACTIVE
