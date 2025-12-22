@@ -185,7 +185,7 @@ size=(847, 578)
 
 [org/gnome/control-center]
 last-panel='wifi'
-window-state=(935, 794, false)
+window-state=(968, 855, false)
 
 [org/gnome/deja-dup]
 backend='drive'
@@ -496,7 +496,7 @@ sort-order=['org.gnome.Settings.desktop', 'org.gnome.Contacts.desktop', 'org.gno
 
 [org/gnome/desktop/sound]
 event-sounds=true
-theme-name='freedesktop'
+theme-name='__custom'
 
 [org/gnome/desktop/wm/keybindings]
 maximize=@as []
@@ -708,7 +708,7 @@ toggle-tiled-right=@as []
 
 [org/gnome/nautilus/icon-view]
 captions=['size', 'none', 'none']
-default-zoom-level='small'
+default-zoom-level='large'
 
 [org/gnome/nautilus/list-view]
 default-column-order=['name', 'size', 'type', 'owner', 'group', 'permissions', 'date_modified', 'date_accessed', 'date_created', 'recency', 'detailed_type']

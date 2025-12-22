@@ -5,7 +5,7 @@ user-theme@gnome-shell-extensions.gcampax.github.com
   URL: https://gitlab.gnome.org/GNOME/gnome-shell-extensions
   Version: 69
   Enabled: Yes
-  State: ERROR
+  State: ACTIVE
 
 drive-menu@gnome-shell-extensions.gcampax.github.com
   Name: Removable Drive Menu
@@ -370,6 +370,15 @@ copyous@boerdereinar.dev
   Enabled: Yes
   State: ACTIVE
 
+quickshutdownbutton@feelfree2useit.outlook.com
+  Name: Quick Shutdown
+  Description: Add shutdown button to the top panel
+  Path: /home/prithvi/.local/share/gnome-shell/extensions/quickshutdownbutton@feelfree2useit.outlook.com
+  URL: https://github.com/feelfree2useit/quickshutdownbutton
+  Version: 4
+  Enabled: Yes
+  State: ACTIVE
+
 pomodoro@zhuravkovigor.dev
   Name: Focus Buddy
   Description: Simple Pomodoro timer with customizable durations and sound notifications to help you stay focused and productive.
@@ -510,12 +519,3 @@ snapd-prompting@canonical.com
   Path: /usr/share/gnome-shell/extensions/snapd-prompting@canonical.com
   Enabled: No
   State: INITIALIZED
-
-quickshutdownbutton@feelfree2useit.outlook.com
-  Name: Quick Shutdown
-  Description: Add shutdown button to the top panel
-  Path: /home/prithvi/.local/share/gnome-shell/extensions/quickshutdownbutton@feelfree2useit.outlook.com
-  URL: https://github.com/feelfree2useit/quickshutdownbutton
-  Version: 4
-  Enabled: Yes
-  State: ACTIVE
