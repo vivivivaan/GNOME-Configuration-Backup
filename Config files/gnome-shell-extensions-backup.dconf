@@ -370,6 +370,19 @@ add-username-to-quick-menu=false
 enable-app-window-buttons=true
 show-window-controls=false
 
+[mediacontrols]
+colored-player-icon=true
+extension-index=uint32 0
+extension-position='Right'
+fixed-label-width=false
+hide-media-notification=false
+label-width=uint32 50
+scroll-labels=true
+scroll-speed=uint32 3
+show-label=false
+show-player-icon=true
+show-track-slider=true
+
 [mpris-label]
 album-size=55
 auto-switch-to-most-recent=true
@@ -409,11 +422,13 @@ work-time=1200
 
 [quick-settings-tweaks]
 media-contorl-opacity=200
-media-enabled=true
+media-enabled=false
 media-remove-shadow=true
 notifications-max-height=260
 overlay-menu-enabled=true
+system-indicator-screen-recording-indicator-use-accent=false
 system-indicator-screen-sharing-indicator-use-accent=false
+system-items-layout-hide=true
 weather-enabled=false
 weather-remove-shadow=false
 
@@ -424,6 +439,7 @@ use-red-style=false
 blacklist=['Ubuntu', 'Linux-Firmware-Updater', 'USB HDD', 'PXE BOOT', 'LENOVO CLOUD', 'ON-PREMISE', 'Other HDD', 'IDER BOOT CDROM', 'IDER BOOT Floppy', 'ATA HDD', 'ATAPI CD']
 
 [rounded-window-corners-reborn]
+custom-rounded-corner-settings=@a{sv} {}
 enable-preferences-entry=false
 focused-shadow={'verticalOffset': 4, 'horizontalOffset': 0, 'blurOffset': 28, 'spreadRadius': 4, 'opacity': 60}
 global-rounded-corner-settings={'padding': <{'left': uint32 0, 'right': 0, 'top': 0, 'bottom': 0}>, 'keepRoundedCorners': <{'maximized': true, 'fullscreen': true}>, 'borderRadius': <uint32 12>, 'smoothing': <1.0>, 'borderColor': <(0.5, 0.5, 0.5, 1.0)>, 'enabled': <true>}

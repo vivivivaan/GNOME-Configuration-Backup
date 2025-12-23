@@ -379,6 +379,60 @@ quickshutdownbutton@feelfree2useit.outlook.com
   Enabled: Yes
   State: ACTIVE
 
+dropbeat@romanlefler.com
+  Name: Dropbeat
+  Description: A flashy extension to view your music/media.
+  Path: /home/prithvi/.local/share/gnome-shell/extensions/dropbeat@romanlefler.com
+  URL: https://github.com/romanlefler/dropbeat
+  Version: 49.0.0 (1)
+  Enabled: No
+  State: INITIALIZED
+
+mediacontrols@cliffniff.github.com
+  Name: Media Controls
+  Description: Show controls and information of the currently playing media in the panel.
+  Path: /home/prithvi/.local/share/gnome-shell/extensions/mediacontrols@cliffniff.github.com
+  URL: https://github.com/cliffniff/media-controls
+  Version: 2.4.1 (43)
+  Enabled: No
+  State: INITIALIZED
+
+kiwi@kemma
+  Name: Kiwi is not Apple
+  Description: Kiwi is free open source project that brings macOS-inspired features for GNOME.
+
+*Note. This extension is tested with vanilla GNOME Adwaita theme. Be aware that other extensions may cause compatibility issues.
+
+Features:
+* macOS-style window control buttons with GTK theming
+* Firefox window control theming
+* Move fullscreen windows to new workspaces automatically
+* Add username display to the quick settings menu
+* Focus on newly launched windows (removes window-ready notifications)
+* Show Caps Lock/Num Lock indicators in the top panel
+* Make windows transparent while moving
+* Display battery percentage when below 20%
+* Move calendar to the right side and customize notifications
+* Quick settings media and notifications tweaks
+* Show current window title in the top panel
+* Show panel on hover in fullscreen mode
+* Hide minimized windows in overview
+* Hide the Activities button
+* Skip overview on login (go directly to desktop)
+* Set panel transparency based on window position
+* Keyboard indicator styling
+* Overview wallpaper blur
+* Multilingual support
+
+This extension uses a modular architecture for stability and customization. Some advanced features require native libraries (available in the advanced/ folder).
+
+Disclaimer: This extension is unofficial and not affiliated with Apple in any way.
+  Path: /home/prithvi/.local/share/gnome-shell/extensions/kiwi@kemma
+  URL: https://github.com/kem-a/kiwi-kemma
+  Version: 1.4.1 (31)
+  Enabled: No
+  State: INITIALIZED
+
 pomodoro@zhuravkovigor.dev
   Name: Focus Buddy
   Description: Simple Pomodoro timer with customizable durations and sound notifications to help you stay focused and productive.
