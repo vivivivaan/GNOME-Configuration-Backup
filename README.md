@@ -125,6 +125,7 @@ alias sstat="sudo systemctl status"
 alias srest="sudo systemctl restart"
 alias son="sudo systemctl enable"
 alias soff="sudo systemctl disable"
+alias dock='sstat docker.socket containerd docker'
 
 # Python aliases.
 alias python3=python
