@@ -344,7 +344,7 @@ pressure-timeout=1000
 accent-color-icon=false
 animation=4
 dash=true
-dash-separator=false
+dash-separator=true
 invert-calendar-column-items=true
 max-displayed-search-results=15
 notification-banner-position=5
@@ -353,7 +353,7 @@ panel=true
 panel-icon-size=0
 panel-in-overview=true
 panel-indicator-padding-size=0
-panel-size=34
+panel-size=33
 ripple-box=true
 startup-status=0
 support-notifier-type=0
@@ -407,7 +407,7 @@ padding-vertical=7
 timeout=2000
 
 [one-thing]
-thing-value='Play.Mmtm.Blc.Awr.Att.🗝️'
+thing-value='Awr.Play.Mmtm.Att.Blc.🗝️'
 
 [osd-volume-number]
 adapt-panel-menu=true
