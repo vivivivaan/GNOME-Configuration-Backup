@@ -96,6 +96,9 @@ pipeline='pipeline_default'
 brightness=0.59999999999999998
 sigma=30
 
+[bring-out-submenu-of-power-off-logout]
+show-original-power-button=false
+
 [clipboard-indicator]
 cache-only-favorites=false
 cache-size=100
@@ -415,6 +418,7 @@ icon-position='right'
 number-position='left'
 
 [pomodoro]
+auto-start-next=true
 long-break-interval=5
 long-break-time=600
 short-break-time=120
@@ -422,7 +426,6 @@ work-time=1200
 
 [quick-settings-tweaks]
 media-contorl-opacity=200
-media-enabled=false
 media-remove-shadow=true
 notifications-max-height=260
 overlay-menu-enabled=true
