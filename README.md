@@ -153,7 +153,8 @@ alias sun="sudo nano"
 
 # GRUB
 alias ngrub="sudo nano /etc/default/grub"
-alias ugrub="sudo grub2-mkconfig -o /boot/grub2/grub.cfg"  # Use for BIOS systems
+# alias ugrub="sudo grub2-mkconfig -o /boot/grub2/grub.cfg"  # Use for Legacy BIOS systems
+alias ugrub="sudo grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg"
 alias cgrub="cat /etc/default/grub"
 alias lgrub="sudo grubby --info=ALL" # List all kernel entries managed by BLS
 
