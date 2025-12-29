@@ -440,6 +440,15 @@ pomodoro@zhuravkovigor.dev
   URL: https://github.com/zhuravkovigor/gnome-shell-pomodoro-extenshion
   Version: 2
   Enabled: No
+  State: INITIALIZED
+
+focuslock@kavinda
+  Name: Focus Lock
+  Description: Lock focus to a specific application window. When enabled, you cannot switch to other windows until you unlock.
+  Path: /home/prithvi/.local/share/gnome-shell/extensions/focuslock@kavinda
+  URL: https://github.com/kavindamihiran/Linux-Focus
+  Version: 3
+  Enabled: No
   State: INACTIVE
 
 pomodoro@youcefzaid.github.io
@@ -573,12 +582,3 @@ snapd-prompting@canonical.com
   Path: /usr/share/gnome-shell/extensions/snapd-prompting@canonical.com
   Enabled: No
   State: INITIALIZED
-
-focuslock@kavinda
-  Name: Focus Lock
-  Description: Lock focus to a specific application window. When enabled, you cannot switch to other windows until you unlock.
-  Path: /home/prithvi/.local/share/gnome-shell/extensions/focuslock@kavinda
-  URL: https://github.com/kavindamihiran/Linux-Focus
-  Version: 3
-  Enabled: Yes
-  State: ACTIVE
