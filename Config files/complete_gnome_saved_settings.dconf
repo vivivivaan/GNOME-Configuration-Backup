@@ -1352,6 +1352,7 @@ short-break-time=120
 work-time=1200
 
 [org/gnome/shell/extensions/quick-settings-tweaks]
+dnd-quick-toggle-enabled=false
 media-contorl-opacity=200
 media-remove-shadow=true
 notifications-max-height=260
