@@ -311,6 +311,15 @@ restartto@tiagoporsch.github.io
   Enabled: No
   State: INITIALIZED
 
+dash2dock-lite@icedman.github.com
+  Name: Dash2Dock Animated
+  Description: The Animated & Effectful Dock
+  Path: /home/prithvi/.local/share/gnome-shell/extensions/dash2dock-lite@icedman.github.com
+  URL: https://github.com/icedman/dash2dock-lite
+  Version: 86
+  Enabled: Yes
+  State: ACTIVE
+
 applications-overview-tooltip@RaphaelRochet
   Name: Applications Overview Tooltip
   Description: Shows a tooltip over applications icons on applications overview with application name and/or description.
@@ -449,7 +458,7 @@ focuslock@kavinda
   URL: https://github.com/kavindamihiran/Linux-Focus
   Version: 3
   Enabled: No
-  State: INACTIVE
+  State: INITIALIZED
 
 pomodoro@youcefzaid.github.io
   Name: Pomodoro Timer
@@ -522,8 +531,8 @@ dash-to-dock@micxgx.gmail.com
   URL: https://micheleg.github.io/dash-to-dock/
   Original author: micxgx@gmail.com
   Version: 102
-  Enabled: Yes
-  State: ACTIVE
+  Enabled: No
+  State: INITIALIZED
 
 adaptive-brightness@dmy3k.github.io
   Name: Adaptive Brightness

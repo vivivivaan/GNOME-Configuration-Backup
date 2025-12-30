@@ -297,6 +297,48 @@ window-preview-title-font-weight='inherit'
 window-preview-title-position='TOP'
 window-preview-use-custom-icon-size=false
 
+[dash2dock-lite]
+animation-bounce=0.65000000000000002
+animation-fps=0
+animation-magnify=0.0
+animation-rise=0.40000000000000002
+animation-spread=0.25
+apps-icon-front=false
+autohide-dash=true
+autohide-speed=1.0
+blur-background=true
+blur-resolution=3
+border-radius=8.0
+border-thickness=0
+clock-icon=false
+clock-style=0
+customize-label=true
+customize-topbar=false
+disable-blur-at-overview=false
+dock-padding=0.82905982905982911
+downloads-icon=false
+downloads-icon-rotate-labels=false
+edge-distance=1.0
+hide-labels=true
+icon-effect=0
+icon-resolution=0
+icon-shadow=false
+icon-size=0.0
+icon-spacing=0.0
+label-border-radius=6.0
+max-recent-items=1
+notification-badge-style=1
+overview-transparent-background=true
+overview-transparent-topbar-background=false
+panel-mode=false
+pressure-sense-sensitivity=0.089999999999999997
+running-indicator-size=1
+running-indicator-style=2
+scroll-sensitivity=0.089999999999999997
+separator-thickness=0
+shrink-icons=true
+trash-icon=true
+
 [day-progress]
 height=8
 panel-index=2
@@ -410,6 +452,7 @@ padding-vertical=7
 timeout=2000
 
 [one-thing]
+hot-key=false
 thing-value='Awr.Play.Mmtm.Att.Blc.🗝️'
 
 [osd-volume-number]
@@ -526,7 +569,7 @@ applications=['org.gnome.tweaks.desktop', 'com.mattjakeman.ExtensionManager.desk
 position=0
 
 [user-theme]
-name='MacTahoe-Dark-nord'
+name='MacTahoe-Dark-alt-nord'
 
 [vitals]
 fixed-widths=false

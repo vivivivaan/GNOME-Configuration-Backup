@@ -9,6 +9,7 @@ biometric-auth
 brave-browser
 bsdutils
 btm
+btrfs-progs
 build-essential
 code
 containerd.io
@@ -153,6 +154,7 @@ sassc
 seahorse
 seahorse-nautilus
 shim-signed
+speedtest-cli
 spotify-client
 synaptic
 tealdeer
