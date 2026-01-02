@@ -307,7 +307,7 @@ restartto@tiagoporsch.github.io
   Description: Adds a menu item to restart to any other EFI boot entry
   Path: /home/prithvi/.local/share/gnome-shell/extensions/restartto@tiagoporsch.github.io
   URL: https://github.com/tiagoporsch/restartto
-  Version: 10
+  Version: 11
   Enabled: No
   State: INITIALIZED
 
@@ -317,8 +317,8 @@ dash2dock-lite@icedman.github.com
   Path: /home/prithvi/.local/share/gnome-shell/extensions/dash2dock-lite@icedman.github.com
   URL: https://github.com/icedman/dash2dock-lite
   Version: 86
-  Enabled: Yes
-  State: ACTIVE
+  Enabled: No
+  State: INITIALIZED
 
 applications-overview-tooltip@RaphaelRochet
   Name: Applications Overview Tooltip
@@ -375,7 +375,7 @@ copyous@boerdereinar.dev
   Description: Modern Clipboard Manager for GNOME
   Path: /home/prithvi/.local/share/gnome-shell/extensions/copyous@boerdereinar.dev
   URL: https://github.com/boerdereinar/copyous
-  Version: 1.2.0 (6)
+  Version: 1.3.0 (7)
   Enabled: Yes
   State: ACTIVE
 
@@ -438,7 +438,7 @@ This extension uses a modular architecture for stability and customization. Some
 Disclaimer: This extension is unofficial and not affiliated with Apple in any way.
   Path: /home/prithvi/.local/share/gnome-shell/extensions/kiwi@kemma
   URL: https://github.com/kem-a/kiwi-kemma
-  Version: 1.4.1 (31)
+  Version: 1.5.0 (32)
   Enabled: No
   State: INITIALIZED
 
@@ -459,6 +459,24 @@ focuslock@kavinda
   Version: 3
   Enabled: No
   State: INITIALIZED
+
+clipmaster@gnome.extension
+  Name: ClipMaster
+  Description: ClipMaster is a clipboard manager with history, image support, favorites, and optional themes. Follows system dark/light preference by default.
+  Path: /home/prithvi/.local/share/gnome-shell/extensions/clipmaster@gnome.extension
+  URL: https://github.com/sfnemis/ClipMaster
+  Version: 1.3 (14)
+  Enabled: No
+  State: INACTIVE
+
+vertical-app-grid@lublst.github.io
+  Name: Vertical App Grid
+  Description: Turns the default horizontal app grid into a vertical one
+  Path: /home/prithvi/.local/share/gnome-shell/extensions/vertical-app-grid@lublst.github.io
+  URL: https://github.com/lublst/gnome-vertical-app-grid
+  Version: 2
+  Enabled: Yes
+  State: ACTIVE
 
 pomodoro@youcefzaid.github.io
   Name: Pomodoro Timer
@@ -531,8 +549,8 @@ dash-to-dock@micxgx.gmail.com
   URL: https://micheleg.github.io/dash-to-dock/
   Original author: micxgx@gmail.com
   Version: 102
-  Enabled: No
-  State: INITIALIZED
+  Enabled: Yes
+  State: ACTIVE
 
 adaptive-brightness@dmy3k.github.io
   Name: Adaptive Brightness

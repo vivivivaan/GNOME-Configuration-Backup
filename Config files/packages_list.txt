@@ -172,6 +172,8 @@ ubuntu-standard
 ubuntu-wallpapers
 vainfo
 vlc
+vlc-plugin-bittorrent
+vlc-plugin-pipewire
 windscribe
 wl-clipboard
 xclip

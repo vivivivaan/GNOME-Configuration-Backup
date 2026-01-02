@@ -111,6 +111,19 @@ pinned-on-bottom=true
 preview-size=30
 toggle-menu=['<Alt>v']
 
+[clipflow-pro]
+target-prefs-tab='general'
+
+[clipmaster]
+encryption-key='YZgRB*FhN#1H3tsb4dCrYEG5Md^wmF07'
+history-size=180
+items-per-page=25
+max-db-size-mb=500
+max-image-size-mb=50
+max-item-size-mb=10
+show-notification=true
+storage-path=''
+
 [copyous]
 auto-hide-search=false
 clipboard-history='keep-all'
@@ -320,17 +333,22 @@ downloads-icon=false
 downloads-icon-rotate-labels=false
 edge-distance=1.0
 hide-labels=true
+icon-border-radius=3.0
 icon-effect=0
 icon-resolution=0
 icon-shadow=false
 icon-size=0.0
 icon-spacing=0.0
+items-pullout-angle=0.5
 label-border-radius=6.0
 max-recent-items=1
+msg-to-ext=''
 notification-badge-style=1
 overview-transparent-background=true
 overview-transparent-topbar-background=false
 panel-mode=false
+preferred-monitor=0
+pressure-sense=false
 pressure-sense-sensitivity=0.089999999999999997
 running-indicator-size=1
 running-indicator-style=2
@@ -398,7 +416,7 @@ panel=true
 panel-icon-size=0
 panel-in-overview=true
 panel-indicator-padding-size=0
-panel-size=33
+panel-size=32
 ripple-box=true
 startup-status=0
 support-notifier-type=0
@@ -470,9 +488,11 @@ work-time=1200
 [quick-settings-tweaks]
 dnd-quick-toggle-enabled=false
 media-contorl-opacity=200
+media-enabled=true
 media-remove-shadow=true
 notifications-max-height=260
 overlay-menu-enabled=true
+system-indicator-layout-enabled=false
 system-indicator-screen-recording-indicator-use-accent=false
 system-indicator-screen-sharing-indicator-use-accent=false
 system-items-layout-hide=true
@@ -570,6 +590,11 @@ position=0
 
 [user-theme]
 name='MacTahoe-Dark-alt-nord'
+
+[vertical-app-grid]
+columns=8
+icon-size=70
+icon-spacing=23
 
 [vitals]
 fixed-widths=false
