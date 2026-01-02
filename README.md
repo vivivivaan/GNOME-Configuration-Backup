@@ -23,6 +23,7 @@
 | Packages List               |                                                               `apt-mark showmanual > packages_list.txt` |
 | OpenType and TrueType fonts |                               `ls /usr/share/fonts/opentype /usr/share/fonts/truetype > fonts_list.txt` |
 | Themes List                 | `ls ~/.local/share/themes/ /usr/share/themes/ ~/.local/share/icons /usr/share/icons/ > themes_list.txt` |
+| Grub Config | `sudo cp /etc/default/grub grub-defaults.backup` |
 
 # Chromium browsers config
 
