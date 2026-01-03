@@ -208,7 +208,7 @@ tilingshell@ferrarodomenico.com
   Description: Extend Gnome Shell with advanced tiling window management. Supports multiple monitors, Windows 11 Snap Assistant, Fancy Zones, automatic tiling, keyboard shortcuts, customised tiling layouts and more!
   Path: /home/prithvi/.local/share/gnome-shell/extensions/tilingshell@ferrarodomenico.com
   URL: https://github.com/domferr/tilingshell
-  Version: 17.1 (61)
+  Version: 17.2 (67)
   Enabled: Yes
   State: ACTIVE
 
@@ -290,6 +290,15 @@ open-desktop-location@laura.media
   Path: /home/prithvi/.local/share/gnome-shell/extensions/open-desktop-location@laura.media
   URL: https://github.com/laurawebdev/open-desktop-location
   Version: 1.0.1 (2)
+  Enabled: Yes
+  State: ACTIVE
+
+app-grid-tuner@m-lab
+  Name: App Grid Tuner
+  Description: Tune and customize the GNOME application grid (rows, columns, icon size, padding, labels).
+  Path: /home/prithvi/.local/share/gnome-shell/extensions/app-grid-tuner@m-lab
+  URL: https://codeberg.org/m-lab/app-grid-tuner
+  Version: 4
   Enabled: Yes
   State: ACTIVE
 
@@ -467,7 +476,16 @@ clipmaster@gnome.extension
   URL: https://github.com/sfnemis/ClipMaster
   Version: 1.3 (14)
   Enabled: No
-  State: INACTIVE
+  State: INITIALIZED
+
+appgridbuttonintoppanel@raphaelian
+  Name: App Grid Button In Top Panel
+  Description: Add a button next to the activities button to directly open the app grid
+  Path: /home/prithvi/.local/share/gnome-shell/extensions/appgridbuttonintoppanel@raphaelian
+  URL: 
+  Version: 4
+  Enabled: Yes
+  State: ACTIVE
 
 vertical-app-grid@lublst.github.io
   Name: Vertical App Grid
@@ -475,8 +493,8 @@ vertical-app-grid@lublst.github.io
   Path: /home/prithvi/.local/share/gnome-shell/extensions/vertical-app-grid@lublst.github.io
   URL: https://github.com/lublst/gnome-vertical-app-grid
   Version: 2
-  Enabled: Yes
-  State: ACTIVE
+  Enabled: No
+  State: INITIALIZED
 
 pomodoro@youcefzaid.github.io
   Name: Pomodoro Timer

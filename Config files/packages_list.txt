@@ -27,6 +27,8 @@ dselect
 efibootmgr
 fastfetch
 findutils
+firefox
+firefox-l10n-en-gb
 flatpak
 foliate
 g++

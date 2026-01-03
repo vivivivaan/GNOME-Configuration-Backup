@@ -10,6 +10,18 @@ shortcut-toggle-main=['<Super>c']
 [alphabetical-app-grid]
 sort-folder-contents=true
 
+[app-grid-tuner]
+app-icon-font-size=12.0
+appgrid-icon-size=75
+appgrid-max-columns=6
+appgrid-max-rows=5
+folder-icon-size=75
+folder-max-columns=5
+folder-max-rows=5
+label-style='font-weight: normal;'
+open-animation-time=220
+reload-signal=false
+
 [appindicator]
 icon-brightness=0.0
 icon-contrast=0.0
@@ -136,6 +148,7 @@ dynamic-item-height=true
 header-controls-visibility='visible'
 history-length=180
 in-memory-database=false
+incognito=false
 send-notification=true
 show-at-cursor=true
 show-at-pointer=true
@@ -200,7 +213,7 @@ background-opacity=0.0
 click-action='minimize'
 custom-theme-shrink=false
 customize-alphas=true
-dash-max-icon-size=40
+dash-max-icon-size=41
 disable-overview-on-startup=true
 dock-fixed=false
 dock-position='BOTTOM'
