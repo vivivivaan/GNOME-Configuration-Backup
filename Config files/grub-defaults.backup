@@ -4,10 +4,10 @@
 #   info -f grub -n 'Simple configuration'
 
 # GRUB_DEFAULT=0
-# GRUB_TIMEOUT_STYLE=hidden
-GRUB_TIMEOUT=60
+# GRUB_TIMEOUT_STYLE=menu
+GRUB_TIMEOUT=90
 GRUB_DISTRIBUTOR=`( . /etc/os-release && echo ${NAME} )`
-GRUB_CMDLINE_LINUX_DEFAULT="quiet splash"
+GRUB_CMDLINE_LINUX_DEFAULT="quiet"
 GRUB_CMDLINE_LINUX=""
 
 # If your computer has multiple operating systems installed, then you
@@ -40,5 +40,5 @@ GRUB_GFXMODE=1920x1080,auto
 #GRUB_INIT_TUNE="480 440 1"
 
 # Theme
-GRUB_THEME="/boot/grub/themes/Particle-circle-window/theme.txt"
-# GRUB_BACKGROUND="/boot/grub/themes/Particle-circle-window/background.jpg"
+GRUB_THEME="/boot/grub/themes/fantasy-blue-shapes-window-left-dark-1080p/theme.txt"
+# GRUB_BACKGROUND="/boot/grub/themes/fantasy-blue-shapes-window-left-dark-1080p/background-post.jpg"

@@ -12,15 +12,22 @@ sort-folder-contents=true
 
 [app-grid-tuner]
 app-icon-font-size=12.0
-appgrid-icon-size=75
+appgrid-icon-size=80
 appgrid-max-columns=6
 appgrid-max-rows=5
-folder-icon-size=75
+folder-icon-size=80
+folder-item-height-offset=70
+folder-item-spacing=78
 folder-max-columns=5
 folder-max-rows=5
+folder-popup-height-offset=300
+folder-popup-width=800
+folder-side-padding=24
 label-style='font-weight: normal;'
 open-animation-time=220
-reload-signal=false
+page-switch-animation-time=280
+reload-signal=true
+side-padding=0
 
 [appindicator]
 icon-brightness=0.0
@@ -52,6 +59,10 @@ storage-indicators-order='["icon","bar","percentage","value","free","IO bar","IO
 storage-main='eui.002538bc11b6e85b-part6'
 
 [aztaskbar]
+hide-dash=false
+icon-size=20
+main-panel-height=(true, 40)
+prefs-visible-page=''
 update-notifier-project-version=37
 
 [battery-indicator-icon]
@@ -213,7 +224,7 @@ background-opacity=0.0
 click-action='minimize'
 custom-theme-shrink=false
 customize-alphas=true
-dash-max-icon-size=41
+dash-max-icon-size=40
 disable-overview-on-startup=true
 dock-fixed=false
 dock-position='BOTTOM'
@@ -418,6 +429,7 @@ pressure-timeout=1000
 
 [just-perfection]
 accent-color-icon=false
+alt-tab-icon-size=0
 animation=4
 dash=true
 dash-separator=true
@@ -582,7 +594,7 @@ last-version-name-installed='17.0'
 layouts-json='[{"id":"Layout 1","tiles":[{"x":0,"y":0,"width":0.22,"height":0.5,"groups":[1,2]},{"x":0,"y":0.5,"width":0.22,"height":0.5,"groups":[1,2]},{"x":0.22,"y":0,"width":0.56,"height":1,"groups":[2,3]},{"x":0.78,"y":0,"width":0.22,"height":0.5,"groups":[3,4]},{"x":0.78,"y":0.5,"width":0.22,"height":0.5,"groups":[3,4]}]},{"id":"Layout 2","tiles":[{"x":0,"y":0,"width":0.22,"height":1,"groups":[1]},{"x":0.22,"y":0,"width":0.56,"height":1,"groups":[1,2]},{"x":0.78,"y":0,"width":0.22,"height":1,"groups":[2]}]},{"id":"Layout 3","tiles":[{"x":0,"y":0,"width":0.33,"height":1,"groups":[1]},{"x":0.33,"y":0,"width":0.67,"height":1,"groups":[1]}]},{"id":"Layout 4","tiles":[{"x":0,"y":0,"width":0.67,"height":1,"groups":[1]},{"x":0.67,"y":0,"width":0.33,"height":1,"groups":[1]}]},{"id":"1130647","tiles":[{"x":0,"y":0,"width":0.3333333333333333,"height":1,"groups":[1]},{"x":0.3333333333333333,"y":0,"width":0.3333333333333333,"height":1,"groups":[2,1]},{"x":0.6666666666666666,"y":0,"width":0.3333333333333344,"height":1,"groups":[2]}]},{"id":"1188443","tiles":[{"x":0,"y":0,"width":0.5,"height":1,"groups":[1]},{"x":0.5,"y":0,"width":0.49999999999999994,"height":1,"groups":[1]}]}]'
 outer-gaps=uint32 0
 overridden-settings='{"org.gnome.mutter.keybindings":{"toggle-tiled-right":"@as []","toggle-tiled-left":"@as []"},"org.gnome.desktop.wm.keybindings":{"maximize":"@as []","unmaximize":"@as []"},"org.gnome.mutter":{"edge-tiling":"false"}}'
-selected-layouts=[['Layout 1'], ['Layout 1']]
+selected-layouts=[['Layout 1'], ['Layout 1'], ['Layout 1']]
 show-indicator=false
 snap-assistant-threshold=25
 window-use-custom-border-color=false
@@ -606,8 +618,8 @@ name='MacTahoe-Dark-alt-nord'
 
 [vertical-app-grid]
 columns=8
-icon-size=70
-icon-spacing=23
+icon-size=75
+icon-spacing=25
 
 [vitals]
 fixed-widths=false

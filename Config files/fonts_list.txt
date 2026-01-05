@@ -1,35 +1,19 @@
-/usr/share/fonts/opentype:
+/usr/local/share/fonts/opentype:
 CodeNewRoman
 CommitMono
 Helvetica Neue
 MonaSans-otf
 SF-Pro
-noto
-urw-base35
 
-/usr/share/fonts/truetype:
+/usr/local/share/fonts/truetype:
 Calibri
 DaddyTimeMono
 FantasqueSansMono
-Google_Sans_Flex
 Inter
-Inter_Tight
 JetBrainsMono
 MonaSans-ttf
 NerdFontsSymbolsOnly
-Poppins
 Roboto
 RobotoMono
 SF-Pro
 Sono
-Teachers
-adwaita-mono
-adwaita-sans
-dejavu
-droid
-freefont
-liberation
-libreoffice
-msttcorefonts
-noto
-ubuntu

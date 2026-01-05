@@ -299,8 +299,8 @@ app-grid-tuner@m-lab
   Path: /home/prithvi/.local/share/gnome-shell/extensions/app-grid-tuner@m-lab
   URL: https://codeberg.org/m-lab/app-grid-tuner
   Version: 4
-  Enabled: Yes
-  State: ACTIVE
+  Enabled: No
+  State: INITIALIZED
 
 right-click-next@derVedro
   Name: Right Click Next
@@ -484,8 +484,8 @@ appgridbuttonintoppanel@raphaelian
   Path: /home/prithvi/.local/share/gnome-shell/extensions/appgridbuttonintoppanel@raphaelian
   URL: 
   Version: 4
-  Enabled: Yes
-  State: ACTIVE
+  Enabled: No
+  State: INITIALIZED
 
 vertical-app-grid@lublst.github.io
   Name: Vertical App Grid
@@ -493,8 +493,8 @@ vertical-app-grid@lublst.github.io
   Path: /home/prithvi/.local/share/gnome-shell/extensions/vertical-app-grid@lublst.github.io
   URL: https://github.com/lublst/gnome-vertical-app-grid
   Version: 2
-  Enabled: No
-  State: INITIALIZED
+  Enabled: Yes
+  State: ACTIVE
 
 pomodoro@youcefzaid.github.io
   Name: Pomodoro Timer

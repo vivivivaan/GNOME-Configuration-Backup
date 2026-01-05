@@ -25,8 +25,8 @@ width=709
 
 [apps/update-manager]
 first-run=false
-launch-count=93
-launch-time=int64 1766958905
+launch-count=94
+launch-time=int64 1767519616
 show-details=true
 window-height=447
 window-width=736
@@ -188,7 +188,7 @@ world-clocks=[{'location': <(uint32 2, <('Hyderabad', 'VOHY', true, [(0.30455995
 
 [org/gnome/clocks/state/window]
 maximized=false
-panel-id='world'
+panel-id='timer'
 size=(360, 294)
 
 [org/gnome/control-center]
@@ -321,7 +321,7 @@ show-all-sources=true
 sources=[('xkb', 'in+eng')]
 
 [org/gnome/desktop/interface]
-accent-color='slate'
+accent-color='blue'
 clock-show-seconds=true
 clock-show-weekday=true
 color-scheme='prefer-dark'
@@ -349,7 +349,7 @@ autorun-x-content-open-folder=@as []
 autorun-x-content-start-app=['x-content/ostree-repository', 'x-content/image-dcf']
 
 [org/gnome/desktop/notifications]
-application-children=['org-gnome-tweaks', 'org-gnome-shell-extensions', 'snapd-desktop-integration-snapd-desktop-integration', 'org-gnome-ptyxis', 'org-gnome-nautilus', 'spotify', 'uget-gtk', 'update-manager', 'org-gnome-clocks', 'org-gnome-software', 'google-chrome', 'chrome-hnpfjngllnobngcgfapefoaidbinmjnm-default', 'app-zen-browser-zen', 'io-github-giantpinkrobots-varia', 'com-github-gabutakut-gabutdm', 'windscribe', 'com-mattjakeman-extensionmanager', 'org-qbittorrent-qbittorrent', 'firefox', 'calibre-gui', 'gnome-wellbeing-panel', 'com-github-fontmanager-fontmanager', 'gnome-power-panel', 'org-gnome-baobab', 'org-chromium-chromium', 'ca-desrt-dconf-editor', 'discord', 'org-telegram-desktop-3e485da34fc040f9218e3891ecde1e6c', 'org-gnome-dejadup', 'gnome-printers-panel', 'hplip', 'thunderbird', 'com-github-fontmanager-fontviewer', 'org-gnome-characters', 'org-gnome-pomodoro', 'io-gitlab-news-flash-newsflash', 'io-github-vikdevelop-savedesktop']
+application-children=['org-gnome-tweaks', 'org-gnome-shell-extensions', 'snapd-desktop-integration-snapd-desktop-integration', 'org-gnome-ptyxis', 'org-gnome-nautilus', 'spotify', 'uget-gtk', 'update-manager', 'org-gnome-clocks', 'org-gnome-software', 'google-chrome', 'chrome-hnpfjngllnobngcgfapefoaidbinmjnm-default', 'app-zen-browser-zen', 'io-github-giantpinkrobots-varia', 'com-github-gabutakut-gabutdm', 'windscribe', 'com-mattjakeman-extensionmanager', 'org-qbittorrent-qbittorrent', 'firefox', 'calibre-gui', 'gnome-wellbeing-panel', 'com-github-fontmanager-fontmanager', 'gnome-power-panel', 'org-gnome-baobab', 'org-chromium-chromium', 'ca-desrt-dconf-editor', 'discord', 'org-telegram-desktop-3e485da34fc040f9218e3891ecde1e6c', 'org-gnome-dejadup', 'gnome-printers-panel', 'hplip', 'thunderbird', 'com-github-fontmanager-fontviewer', 'org-gnome-characters', 'org-gnome-pomodoro', 'io-gitlab-news-flash-newsflash', 'io-github-vikdevelop-savedesktop', 'io-github-redddfoxxyy-samaya']
 show-banners=true
 
 [org/gnome/desktop/notifications/application/app-zen-browser-zen]
@@ -399,6 +399,9 @@ application-id='hplip.desktop'
 
 [org/gnome/desktop/notifications/application/io-github-giantpinkrobots-varia]
 application-id='io.github.giantpinkrobots.varia.desktop'
+
+[org/gnome/desktop/notifications/application/io-github-redddfoxxyy-samaya]
+application-id='io.github.redddfoxxyy.samaya.desktop'
 
 [org/gnome/desktop/notifications/application/io-github-vikdevelop-savedesktop]
 application-id='io.github.vikdevelop.SaveDesktop.desktop'
@@ -504,7 +507,7 @@ sort-order=['org.gnome.Settings.desktop', 'org.gnome.Contacts.desktop', 'org.gno
 
 [org/gnome/desktop/sound]
 event-sounds=true
-theme-name='__custom'
+theme-name='freedesktop'
 
 [org/gnome/desktop/wm/keybindings]
 maximize=@as []
@@ -666,7 +669,7 @@ side-panel-size=200
 width=1011
 
 [org/gnome/gnome-system-monitor]
-current-tab='disks'
+current-tab='resources'
 maximized=false
 resources-cpu-expanded=true
 resources-disk-expanded=true
@@ -737,8 +740,8 @@ show-create-link=true
 show-delete-permanently=true
 
 [org/gnome/nautilus/window-state]
-initial-size=(1334, 840)
-initial-size-file-chooser=(1337, 844)
+initial-size=(1334, 832)
+initial-size-file-chooser=(1242, 728)
 maximized=false
 
 [org/gnome/nm-applet/eap/16bf7481-6b91-4cea-abc0-242279568b55]
@@ -763,13 +766,13 @@ continuous=true
 dual-page=false
 dual-page-odd-left=true
 enable-spellchecking=true
-show-sidebar=true
+show-sidebar=false
 sidebar-page='links'
-sizing-mode='automatic'
+sizing-mode='free'
 window-height=872
 window-maximized=true
 window-width=1003
-zoom=1.875
+zoom=1.4966074518731078
 
 [org/gnome/pomodoro/plugins/actions]
 actions-list=@as []
@@ -815,7 +818,7 @@ last-folder-path='/home/prithvi/Downloads/Data_from_2022_to_2024 /2024'
 last-folder-path='/home/prithvi/Pictures/mypics'
 
 [org/gnome/portal/filechooser/com.google.Chrome]
-last-folder-path='/home/prithvi/Wallpapers'
+last-folder-path='/home/prithvi/GNOME-Configuration-Backup/Config files'
 
 [org/gnome/portal/filechooser/com.notesnook.Notesnook]
 last-folder-path='/home/prithvi'
@@ -845,7 +848,7 @@ last-folder-path='/home/prithvi/Downloads'
 last-folder-path='/home/prithvi/Documents/Letters (Letters from App)'
 
 [org/gnome/portal/filechooser/org.chromium.Chromium]
-last-folder-path='/home/prithvi/GNOME-Configuration-Backup'
+last-folder-path='/home/prithvi/UI/MacTahoe-gtk-theme'
 
 [org/gnome/portal/filechooser/org.fedoraproject.MediaWriter]
 last-folder-path='/home/prithvi/Downloads'
@@ -863,7 +866,7 @@ last-folder-path='/home/prithvi/Downloads/Data_from_2022_to_2024 /2024'
 last-folder-path='/home/prithvi/Wallpapers'
 
 [org/gnome/portal/filechooser/org.gnome.TextEditor]
-last-folder-path='/media/prithvi/5A6CDBF36CDBC841'
+last-folder-path='/home/prithvi'
 
 [org/gnome/portal/filechooser/org.gnome.Zenity]
 last-folder-path='/home/prithvi'
@@ -925,11 +928,11 @@ enabled-connections=@as []
 
 [org/gnome/shell]
 app-picker-layout=[{'d16e2496-eedd-4088-ba5f-c39f0c9fd16d': <{'position': <0>}>, 'c328565c-de8e-4850-99c6-9a753c0b9d22': <{'position': <1>}>, 'f720d708-b404-45e1-8674-5f1222817691': <{'position': <2>}>, '95876710-5963-4eb5-8152-6b9f5a9b7f6e': <{'position': <3>}>, 'firefox.desktop': <{'position': <4>}>, '502ef2d5-ef9c-418c-bc01-3295be2c0d7d': <{'position': <5>}>, 'org.kde.kate.desktop': <{'position': <6>}>, 'net.codelogistics.letters.desktop': <{'position': <7>}>, '54c8bdb9-745d-4b5c-a532-de342a780c2e': <{'position': <8>}>, 'com.notesnook.Notesnook.desktop': <{'position': <9>}>, '78c5c448-9755-4b1f-b921-1fa5935ead6b': <{'position': <10>}>, 'com.github.marhkb.Pods.desktop': <{'position': <11>}>, 'org.gnome.Software.desktop': <{'position': <12>}>, 'spotify.desktop': <{'position': <13>}>, 'System': <{'position': <14>}>, 'org.telegram.desktop._3e485da34fc040f9218e3891ecde1e6c.desktop': <{'position': <15>}>, '3a28c18d-367b-4d9d-8420-124bfec133cc': <{'position': <16>}>, 'io.github.flattool.Warehouse.desktop': <{'position': <17>}>}]
-command-history=['r', 'lg']
+command-history=['r', 'lg', 'echo $XDG_SESSION_TYPE']
 disable-user-extensions=false
-disabled-extensions=['notification-timeout@chlumskyvaclav.gmail.com', 'monitor@astraext.github.io', 'just_shows_memory_usage@troizet.github.com', 'timeFromStart@pic16f877ccs.github.com', 'snapd-prompting@canonical.com', 'applications-overview-tooltip@RaphaelRochet', 'ding@rastersoft.com', 'hidetopbar@mathieu.bidon.ca', '1440@ravener.github.com', 'all-in-one-clipboard@NiffirgkcaJ.github.com', 'ubuntu-dock@ubuntu.com', 'volume_scroller@francislavoie.github.io', 'dash-to-panel@jderose9.github.com', 'restartto@tiagoporsch.github.io', 'aztaskbar@aztaskbar.gitlab.com', 'clipboard-indicator@tudmotu.com', 'mediacontrols@cliffniff.github.com', 'dropbeat@romanlefler.com', 'kiwi@kemma', 'pomodoro@youcefzaid.github.io', 'pomodoro@zhuravkovigor.dev', 'focuslock@kavinda', 'dash2dock-lite@icedman.github.com', 'clipmaster@gnome.extension', 'vertical-app-grid@lublst.github.io']
-enabled-extensions=['background-logo@fedorahosted.org', 'launch-new-instance@gnome-shell-extensions.gcampax.github.com', 'places-menu@gnome-shell-extensions.gcampax.github.com', 'custom-hot-corners-extended@G-dH.github.com', 'just-perfection-desktop@just-perfection', 'reboottouefi@ubaygd.com', 'Vitals@CoreCoding.com', 'update-extension@purejava.org', 'tweaks-system-menu@extensions.gnome-shell.fifi.org', 'transparent-window-moving@noobsai.github.com', 'tilingshell@ferrarodomenico.com', 'osd-volume-number@deminder', 'drive-menu@gnome-shell-extensions.gcampax.github.com', 'screenshort-cut@pauloimon', 'sound-percentage@subashghimire.info.np', 'quick-settings-tweaks@qwreey', 'show-desktop-button@amivaleo', 'open-desktop-location@laura.media', 'tiling-assistant@ubuntu.com', 'blur-my-shell@aunetx', 'apt-update-indicator@franglais125.gmail.com', 'updateindicator@aegirxx.googlemail.com', 'new-apt-update-indicator@hamburgerjungejr', 'systemd-offline-update@swsnr.de', 'disconnect-wifi@kgshank.net', 'media-progress@krypion17', 'gnome-shell-trash-extension', 'mprisLabel@moon-0xff.github.com', 'gspotify@sogi.is-a.dev', 'apps@github.com.howbea', 'egg-timer@gregorriegler.com', 'custom-osd@neuromorph', 'quicknotes@dsabolo.github.io', 'one-thing@github.com', 'right-click-next@derVedro', 'fq@megh', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'bettervolume@tudmotu.com', 'floating-mini-panel@ghi59.github.com', 'adaptive-brightness@dmy3k.github.io', 'apps-menu@gnome-shell-extensions.gcampax.github.com', 'day-progress@arcaege.github.io', 'rounded-window-corners@yilozt', 'batteryIcon@slim8916.github.io', 'copyous@boerdereinar.dev', 'gnome-ui-tune@itstime.tech', 'cronomix@zagortenay333', 'quickshutdownbutton@feelfree2useit.outlook.com', 'battery-indicator-icon@Deminder', 'rounded-window-corners@fxgn', 'BringOutSubmenuOfPowerOffLogoutButton@pratap.fastmail.fm', 'dash-to-dock@micxgx.gmail.com', 'night-light-scroll@fthx', 'notification-banner-reloaded@marcinjakubowski.github.com', 'night-light-slider-updated@vilsbeg.codeberg.org', 'clipflow-pro@nickotmazgin.github.io', 'AlphabeticalAppGrid@stuarthayhurst', 'app-grid-tuner@m-lab', 'appgridbuttonintoppanel@raphaelian']
-favorite-apps=['synaptic.desktop', 'org.gnome.Nautilus.desktop', 'google-chrome.desktop', 'brave-browser.desktop', 'io.gitlab.librewolf-community.desktop', 'libreoffice-writer.desktop', 'org.gnome.Ptyxis.desktop', 'code.desktop', 'net.nokyan.Resources.desktop', 'chrome-hnpfjngllnobngcgfapefoaidbinmjnm-Default.desktop', 'org.gnome.TextEditor.desktop', 'io.github.redddfoxxyy.samaya.desktop']
+disabled-extensions=['notification-timeout@chlumskyvaclav.gmail.com', 'monitor@astraext.github.io', 'just_shows_memory_usage@troizet.github.com', 'snapd-prompting@canonical.com', 'applications-overview-tooltip@RaphaelRochet', 'ding@rastersoft.com', 'hidetopbar@mathieu.bidon.ca', '1440@ravener.github.com', 'all-in-one-clipboard@NiffirgkcaJ.github.com', 'ubuntu-dock@ubuntu.com', 'volume_scroller@francislavoie.github.io', 'dash-to-panel@jderose9.github.com', 'restartto@tiagoporsch.github.io', 'aztaskbar@aztaskbar.gitlab.com', 'clipboard-indicator@tudmotu.com', 'mediacontrols@cliffniff.github.com', 'dropbeat@romanlefler.com', 'kiwi@kemma', 'pomodoro@youcefzaid.github.io', 'pomodoro@zhuravkovigor.dev', 'focuslock@kavinda', 'dash2dock-lite@icedman.github.com', 'clipmaster@gnome.extension', 'app-grid-tuner@m-lab', 'appgridbuttonintoppanel@raphaelian', 'timeFromStart@pic16f877ccs.github.com']
+enabled-extensions=['background-logo@fedorahosted.org', 'launch-new-instance@gnome-shell-extensions.gcampax.github.com', 'places-menu@gnome-shell-extensions.gcampax.github.com', 'custom-hot-corners-extended@G-dH.github.com', 'just-perfection-desktop@just-perfection', 'reboottouefi@ubaygd.com', 'Vitals@CoreCoding.com', 'update-extension@purejava.org', 'tweaks-system-menu@extensions.gnome-shell.fifi.org', 'transparent-window-moving@noobsai.github.com', 'tilingshell@ferrarodomenico.com', 'osd-volume-number@deminder', 'drive-menu@gnome-shell-extensions.gcampax.github.com', 'screenshort-cut@pauloimon', 'sound-percentage@subashghimire.info.np', 'quick-settings-tweaks@qwreey', 'show-desktop-button@amivaleo', 'open-desktop-location@laura.media', 'tiling-assistant@ubuntu.com', 'blur-my-shell@aunetx', 'apt-update-indicator@franglais125.gmail.com', 'updateindicator@aegirxx.googlemail.com', 'new-apt-update-indicator@hamburgerjungejr', 'systemd-offline-update@swsnr.de', 'disconnect-wifi@kgshank.net', 'media-progress@krypion17', 'gnome-shell-trash-extension', 'mprisLabel@moon-0xff.github.com', 'gspotify@sogi.is-a.dev', 'apps@github.com.howbea', 'egg-timer@gregorriegler.com', 'custom-osd@neuromorph', 'quicknotes@dsabolo.github.io', 'one-thing@github.com', 'right-click-next@derVedro', 'fq@megh', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'bettervolume@tudmotu.com', 'floating-mini-panel@ghi59.github.com', 'adaptive-brightness@dmy3k.github.io', 'apps-menu@gnome-shell-extensions.gcampax.github.com', 'day-progress@arcaege.github.io', 'rounded-window-corners@yilozt', 'batteryIcon@slim8916.github.io', 'copyous@boerdereinar.dev', 'gnome-ui-tune@itstime.tech', 'cronomix@zagortenay333', 'quickshutdownbutton@feelfree2useit.outlook.com', 'battery-indicator-icon@Deminder', 'BringOutSubmenuOfPowerOffLogoutButton@pratap.fastmail.fm', 'dash-to-dock@micxgx.gmail.com', 'night-light-scroll@fthx', 'notification-banner-reloaded@marcinjakubowski.github.com', 'night-light-slider-updated@vilsbeg.codeberg.org', 'clipflow-pro@nickotmazgin.github.io', 'AlphabeticalAppGrid@stuarthayhurst', 'vertical-app-grid@lublst.github.io', 'no-titlebar-when-maximized@alec.ninja', 'rounded-window-corners@fxgn']
+favorite-apps=['synaptic.desktop', 'org.gnome.Nautilus.desktop', 'google-chrome.desktop', 'brave-browser.desktop', 'io.gitlab.librewolf-community.desktop', 'libreoffice-writer.desktop', 'org.gnome.Ptyxis.desktop', 'code.desktop', 'net.nokyan.Resources.desktop', 'org.gnome.TextEditor.desktop', 'chrome-hnpfjngllnobngcgfapefoaidbinmjnm-Default.desktop', 'org.gnome.clocks.desktop']
 looking-glass-history=['ps -o pid,rss,cmd -C gnome-shell']
 welcome-dialog-last-shown-version='48.4'
 
@@ -950,15 +953,22 @@ sort-folder-contents=true
 
 [org/gnome/shell/extensions/app-grid-tuner]
 app-icon-font-size=12.0
-appgrid-icon-size=75
+appgrid-icon-size=80
 appgrid-max-columns=6
 appgrid-max-rows=5
-folder-icon-size=75
+folder-icon-size=80
+folder-item-height-offset=70
+folder-item-spacing=78
 folder-max-columns=5
 folder-max-rows=5
+folder-popup-height-offset=300
+folder-popup-width=800
+folder-side-padding=24
 label-style='font-weight: normal;'
 open-animation-time=220
-reload-signal=false
+page-switch-animation-time=280
+reload-signal=true
+side-padding=0
 
 [org/gnome/shell/extensions/appindicator]
 icon-brightness=0.0
@@ -990,6 +1000,10 @@ storage-indicators-order='["icon","bar","percentage","value","free","IO bar","IO
 storage-main='eui.002538bc11b6e85b-part6'
 
 [org/gnome/shell/extensions/aztaskbar]
+hide-dash=false
+icon-size=20
+main-panel-height=(true, 40)
+prefs-visible-page=''
 update-notifier-project-version=37
 
 [org/gnome/shell/extensions/battery-indicator-icon]
@@ -1151,7 +1165,7 @@ background-opacity=0.0
 click-action='minimize'
 custom-theme-shrink=false
 customize-alphas=true
-dash-max-icon-size=41
+dash-max-icon-size=40
 disable-overview-on-startup=true
 dock-fixed=false
 dock-position='BOTTOM'
@@ -1356,6 +1370,7 @@ pressure-timeout=1000
 
 [org/gnome/shell/extensions/just-perfection]
 accent-color-icon=false
+alt-tab-icon-size=0
 animation=4
 dash=true
 dash-separator=true
@@ -1520,7 +1535,7 @@ last-version-name-installed='17.0'
 layouts-json='[{"id":"Layout 1","tiles":[{"x":0,"y":0,"width":0.22,"height":0.5,"groups":[1,2]},{"x":0,"y":0.5,"width":0.22,"height":0.5,"groups":[1,2]},{"x":0.22,"y":0,"width":0.56,"height":1,"groups":[2,3]},{"x":0.78,"y":0,"width":0.22,"height":0.5,"groups":[3,4]},{"x":0.78,"y":0.5,"width":0.22,"height":0.5,"groups":[3,4]}]},{"id":"Layout 2","tiles":[{"x":0,"y":0,"width":0.22,"height":1,"groups":[1]},{"x":0.22,"y":0,"width":0.56,"height":1,"groups":[1,2]},{"x":0.78,"y":0,"width":0.22,"height":1,"groups":[2]}]},{"id":"Layout 3","tiles":[{"x":0,"y":0,"width":0.33,"height":1,"groups":[1]},{"x":0.33,"y":0,"width":0.67,"height":1,"groups":[1]}]},{"id":"Layout 4","tiles":[{"x":0,"y":0,"width":0.67,"height":1,"groups":[1]},{"x":0.67,"y":0,"width":0.33,"height":1,"groups":[1]}]},{"id":"1130647","tiles":[{"x":0,"y":0,"width":0.3333333333333333,"height":1,"groups":[1]},{"x":0.3333333333333333,"y":0,"width":0.3333333333333333,"height":1,"groups":[2,1]},{"x":0.6666666666666666,"y":0,"width":0.3333333333333344,"height":1,"groups":[2]}]},{"id":"1188443","tiles":[{"x":0,"y":0,"width":0.5,"height":1,"groups":[1]},{"x":0.5,"y":0,"width":0.49999999999999994,"height":1,"groups":[1]}]}]'
 outer-gaps=uint32 0
 overridden-settings='{"org.gnome.mutter.keybindings":{"toggle-tiled-right":"@as []","toggle-tiled-left":"@as []"},"org.gnome.desktop.wm.keybindings":{"maximize":"@as []","unmaximize":"@as []"},"org.gnome.mutter":{"edge-tiling":"false"}}'
-selected-layouts=[['Layout 1'], ['Layout 1']]
+selected-layouts=[['Layout 1'], ['Layout 1'], ['Layout 1']]
 show-indicator=false
 snap-assistant-threshold=25
 window-use-custom-border-color=false
@@ -1544,8 +1559,8 @@ name='MacTahoe-Dark-alt-nord'
 
 [org/gnome/shell/extensions/vertical-app-grid]
 columns=8
-icon-size=70
-icon-spacing=23
+icon-size=75
+icon-spacing=25
 
 [org/gnome/shell/extensions/vitals]
 fixed-widths=false
@@ -1589,7 +1604,7 @@ sidebar-position=289
 direct-height=768
 direct-maximize=false
 direct-width=1024
-library-height=1014
+library-height=1015
 library-maximize=false
 library-width=1920
 
@@ -1614,7 +1629,7 @@ flatpak-purge-timestamp=int64 1766854248
 install-timestamp=int64 1765396455
 packagekit-historical-updates-timestamp=uint64 1758701232
 show-only-verified-apps=false
-update-notification-timestamp=int64 1765396890
+update-notification-timestamp=int64 1767519603
 
 [org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
 background-color='rgb(23,20,33)'

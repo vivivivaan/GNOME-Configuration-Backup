@@ -27,8 +27,6 @@ dselect
 efibootmgr
 fastfetch
 findutils
-firefox
-firefox-l10n-en-gb
 flatpak
 foliate
 g++
@@ -149,7 +147,6 @@ nvidia-driver-580-open
 nvidia-vaapi-driver
 nvme-cli
 ostree
-phinger-cursor-theme
 px
 python3-netifaces
 sassc
