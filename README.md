@@ -1,7 +1,7 @@
 # Gnome, Tweaks-tool and system-wide configurations backup
 
 * Extensions are stored in ```~/.local/share/gnome-shell/extensions```.
-* Make **ptyxis** transparent with `dconf read /org/gnome/Ptyxis/default-profile-uuid` and `dconf write /org/gnome/Ptyxis/Profiles/3aae5a177777aa966b1fd63467153e2d/opacity 0.95`.
+* Make **ptyxis** transparent with `dconf read /org/gnome/Ptyxis/default-profile-uuid` and `dconf write /org/gnome/Ptyxis/Profiles/$Profile_ID/opacity 0.95`.
 
 # Restore
 
@@ -21,8 +21,8 @@
 | System-wide configuration   |                                                    `dconf dump / > complete_gnome_saved_settings.dconf` |
 | Extensions List             |                                                  `gnome-extensions list -d > gnome_extensions_list.txt` |
 | Packages List               |                                                               `apt-mark showmanual > packages_list.txt` |
-| OpenType and TrueType fonts |                               `ls /usr/share/fonts/opentype /usr/share/fonts/truetype > fonts_list.txt` |
-| Themes List                 | `ls ~/.local/share/themes/ /usr/share/themes/ ~/.local/share/icons /usr/share/icons/ > themes_list.txt` |
+| OpenType and TrueType fonts |                               `ls /usr/local/share/fonts/opentype /usr/local/share/fonts/truetype > fonts_list.txt` |
+| Themes List                 | `ls ~/.local/share/themes/ /usr/local/share/themes/ ~/.local/share/icons /usr/local/share/icons/ > themes_list.txt` |
 | Grub Config | `sudo cp /etc/default/grub grub-defaults.backup` |
 
 # Chromium browsers config
@@ -56,7 +56,7 @@ For GRUB configuration, install the GRUB theme but comment out the `GRUB_BACKGRO
 # Theming flatpak apps
 
 - Grant filesystem access to all Flatpak apps with `flatpak override --user --filesystem=xdg-config/gtk-3.0 --filesystem=xdg-config/gtk-4.0 --filesystem=xdg-data/themes --filesystem=xdg-data/icons --filesystem=xdg-data/fonts`.
-- This is usually enough - `sudo flatpak override --filesystem=/usr/share/themes`, `sudo flatpak override --filesystem=~/.local/share/themes` and `sudo flatpak override --filesystem=xdg-config/gtk-3.0 && sudo flatpak override --filesystem=xdg-config/gtk-4.0`.
+- This is usually enough - `sudo flatpak override --filesystem=/usr/local/share/themes`, `sudo flatpak override --filesystem=~/.local/share/themes` and `sudo flatpak override --filesystem=xdg-config/gtk-3.0 && sudo flatpak override --filesystem=xdg-config/gtk-4.0`.
 
 | UI Element                  |                                                                                                                                                                                                                       Command |
 | :-------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
@@ -167,14 +167,14 @@ alias ugrub="sudo update-grub"
 alias cgrub="cat /etc/default/grub"
 
 # Customizations
-alias cdf="cd /usr/share/fonts"
-alias cdft="cd /usr/share/fonts/truetype/"
-alias lsft="ls /usr/share/fonts/truetype/"
-alias cdfo="cd /usr/share/fonts/opentype/"
-alias lsfo="ls /usr/share/fonts/opentype/"
+alias cdf="cd /usr/local/share/fonts"
+alias cdft="cd /usr/local/share/fonts/truetype/"
+alias lsft="ls /usr/local/share/fonts/truetype/"
+alias cdfo="cd /usr/local/share/fonts/opentype/"
+alias lsfo="ls /usr/local/share/fonts/opentype/"
 alias fcache="sudo fc-cache -f -r -s"
-alias cdthm="cd /usr/share/themes"
-alias cdico="cd /usr/share/icons"
-alias lsthm="ls /usr/share/themes"
-alias lsico="ls /usr/share/icons"
+alias cdthm="cd /usr/local/share/themes"
+alias cdico="cd /usr/local/share/icons"
+alias lsthm="ls /usr/local/share/themes"
+alias lsico="ls /usr/local/share/icons"
 ```
