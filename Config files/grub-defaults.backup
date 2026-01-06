@@ -40,5 +40,5 @@ GRUB_GFXMODE=1920x1080,auto
 #GRUB_INIT_TUNE="480 440 1"
 
 # Theme
-GRUB_THEME="/boot/grub/themes/fantasy-blue-shapes-window-left-dark-1080p/theme.txt"
-# GRUB_BACKGROUND="/boot/grub/themes/fantasy-blue-shapes-window-left-dark-1080p/background-post.jpg"
+GRUB_THEME="/boot/grub/themes/fantasy-flat-blue-window-right-dark-1080p/theme.txt"
+# GRUB_BACKGROUND="/boot/grub/themes/fantasy-flat-blue-window-right-dark-1080p/background-post.jpg"

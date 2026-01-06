@@ -268,8 +268,8 @@ rounded-window-corners@fxgn
   Path: /home/prithvi/.local/share/gnome-shell/extensions/rounded-window-corners@fxgn
   URL: https://github.com/flexagoon/rounded-window-corners
   Version: 14
-  Enabled: Yes
-  State: ACTIVE
+  Enabled: No
+  State: INITIALIZED
 
 dash-to-panel@jderose9.github.com
   Name: Dash to Panel
@@ -411,7 +411,7 @@ mediacontrols@cliffniff.github.com
   Description: Show controls and information of the currently playing media in the panel.
   Path: /home/prithvi/.local/share/gnome-shell/extensions/mediacontrols@cliffniff.github.com
   URL: https://github.com/cliffniff/media-controls
-  Version: 2.4.1 (43)
+  Version: 2.4.2 (45)
   Enabled: No
   State: INITIALIZED
 
@@ -502,6 +502,15 @@ pomodoro@youcefzaid.github.io
   Path: /home/prithvi/.local/share/gnome-shell/extensions/pomodoro@youcefzaid.github.io
   URL: https://github.com/youcefzaid/gnome-pomodoro-extension
   Version: 2
+  Enabled: No
+  State: INITIALIZED
+
+Rounded_Corners@lennart-k
+  Name: Rounded Corners
+  Description: Creates rounded corners for every monitor
+  Path: /home/prithvi/.local/share/gnome-shell/extensions/Rounded_Corners@lennart-k
+  URL: https://github.com/lennart-k/gnome-rounded-corners
+  Version: 17
   Enabled: No
   State: INITIALIZED
 
