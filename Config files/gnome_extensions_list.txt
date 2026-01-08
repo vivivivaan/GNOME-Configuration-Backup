@@ -68,7 +68,7 @@ screenshort-cut@pauloimon
   Description: A simple shortcut to take screenshots directly on your top bar!
   Path: /home/prithvi/.local/share/gnome-shell/extensions/screenshort-cut@pauloimon
   URL: https://github.com/pauloimon/gnome-screenshort-cut-extension
-  Version: 5
+  Version: 6
   Enabled: Yes
   State: ACTIVE
 
@@ -268,8 +268,8 @@ rounded-window-corners@fxgn
   Path: /home/prithvi/.local/share/gnome-shell/extensions/rounded-window-corners@fxgn
   URL: https://github.com/flexagoon/rounded-window-corners
   Version: 14
-  Enabled: No
-  State: INITIALIZED
+  Enabled: Yes
+  State: ACTIVE
 
 dash-to-panel@jderose9.github.com
   Name: Dash to Panel
@@ -422,32 +422,32 @@ kiwi@kemma
 *Note. This extension is tested with vanilla GNOME Adwaita theme. Be aware that other extensions may cause compatibility issues.
 
 Features:
-* macOS-style window control buttons with GTK theming
-* Firefox window control theming
-* Move fullscreen windows to new workspaces automatically
-* Add username display to the quick settings menu
-* Focus on newly launched windows (removes window-ready notifications)
-* Show Caps Lock/Num Lock indicators in the top panel
-* Make windows transparent while moving
-* Display battery percentage when below 20%
-* Move calendar to the right side and customize notifications
-* Quick settings media and notifications tweaks
-* Show current window title in the top panel
-* Show panel on hover in fullscreen mode
-* Hide minimized windows in overview
-* Hide the Activities button
-* Skip overview on login (go directly to desktop)
-* Set panel transparency based on window position
-* Keyboard indicator styling
-* Overview wallpaper blur
-* Multilingual support
+- macOS-style window control buttons with GTK theming
+- Firefox window control theming
+- Move fullscreen windows to new workspaces automatically
+- Make windows transparent while moving
+- Display battery percentage when below 20%
+- Move calendar to the right side and customize notifications
+- Quick settings media and notifications tweaks
+- Show current window title in the top panel
+- Show panel on hover in fullscreen mode
+- Hide minimized windows in overview
+- Hide the Activities button
+- Skip overview on login (go directly to desktop)
+- Set panel transparency based on window position
+- Keyboard indicator styling
+- Overview wallpaper blur
+- Focus on newly launched windows (removes window-ready notifications)
+- Show Caps Lock/Num Lock indicators in the top panel
+- Add username display to the quick settings menu
+- Multilingual support and more...
 
 This extension uses a modular architecture for stability and customization. Some advanced features require native libraries (available in the advanced/ folder).
 
 Disclaimer: This extension is unofficial and not affiliated with Apple in any way.
   Path: /home/prithvi/.local/share/gnome-shell/extensions/kiwi@kemma
   URL: https://github.com/kem-a/kiwi-kemma
-  Version: 1.5.0 (32)
+  Version: 1.5.1 (33)
   Enabled: No
   State: INITIALIZED
 
@@ -493,8 +493,8 @@ vertical-app-grid@lublst.github.io
   Path: /home/prithvi/.local/share/gnome-shell/extensions/vertical-app-grid@lublst.github.io
   URL: https://github.com/lublst/gnome-vertical-app-grid
   Version: 2
-  Enabled: Yes
-  State: ACTIVE
+  Enabled: No
+  State: INITIALIZED
 
 pomodoro@youcefzaid.github.io
   Name: Pomodoro Timer

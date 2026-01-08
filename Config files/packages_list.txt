@@ -17,7 +17,6 @@ curl
 dash
 dctrl-tools
 diffutils
-discord
 dkms
 dmg2img
 docker-buildx-plugin
