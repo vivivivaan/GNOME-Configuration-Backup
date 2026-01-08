@@ -11,6 +11,7 @@ DaddyTimeMono
 FantasqueSansMono
 Inter
 JetBrainsMono
+Mariupol
 MonaSans-ttf
 NerdFontsSymbolsOnly
 Roboto

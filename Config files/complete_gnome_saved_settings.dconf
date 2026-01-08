@@ -127,7 +127,7 @@ restore-session=true
 restore-window-size=false
 scrollbar-policy='system'
 use-system-font=false
-window-size=(uint32 212, uint32 49)
+window-size=(uint32 145, uint32 40)
 
 [org/gnome/Ptyxis/Profiles/'f2934b33b5178457f29b4e8068d611e4']
 opacity=0.96575
@@ -281,20 +281,20 @@ name='Calibre'
 translate=false
 
 [org/gnome/desktop/app-folders/folders/d16e2496-eedd-4088-ba5f-c39f0c9fd16d]
-apps=['org.gnome.Calculator.desktop', 'org.gnome.Calendar.desktop', 'org.gnome.Characters.desktop', 'org.gnome.clocks.desktop', 'org.gnome.FileRoller.desktop', 'gpa.desktop', 'org.gnome.seahorse.Application.desktop', 'org.gnome.TextEditor.desktop']
+apps=['org.gnome.Calculator.desktop', 'org.gnome.Calendar.desktop', 'org.gnome.Characters.desktop', 'org.gnome.clocks.desktop', 'org.gnome.FileRoller.desktop', 'org.gnome.seahorse.Application.desktop', 'org.gnome.TextEditor.desktop', 'gpa.desktop']
 name='Basics'
 translate=false
 
 [org/gnome/desktop/app-folders/folders/f720d708-b404-45e1-8674-5f1222817691]
-apps=['ca.desrt.dconf-editor.desktop', 'com.mattjakeman.ExtensionManager.desktop', 'org.gnome.font-viewer.desktop', 'io.github.realmazharhussain.GdmSettings.desktop', 'org.gnome.tweaks.desktop', 'com.github.FontManager.FontViewer.desktop', 'com.github.FontManager.FontManager.desktop', 'io.github.getnf.embellish.desktop']
+apps=['ca.desrt.dconf-editor.desktop', 'com.mattjakeman.ExtensionManager.desktop', 'org.gnome.font-viewer.desktop', 'io.github.realmazharhussain.GdmSettings.desktop', 'org.gnome.tweaks.desktop']
 name='Customization'
 translate=false
 
 [org/gnome/desktop/background]
 color-shading-type='solid'
 picture-options='zoom'
-picture-uri='file:///home/prithvi/Wallpapers/alejandro-ortiz-D82gxfqwoVo-unsplash.jpg'
-picture-uri-dark='file:///home/prithvi/Wallpapers/alejandro-ortiz-D82gxfqwoVo-unsplash.jpg'
+picture-uri='file:///home/prithvi/.config/background'
+picture-uri-dark='file:///home/prithvi/.config/background'
 primary-color='#000000'
 secondary-color='#000000'
 
@@ -335,7 +335,7 @@ document-font-name='Adwaita Sans 10'
 enable-animations=true
 enable-hot-corners=false
 font-antialiasing='rgba'
-font-name='Adwaita Sans 10'
+font-name='Mariupol 10'
 gtk-enable-primary-paste=true
 gtk-theme='MacTahoe-Dark-alt-blue-nord'
 icon-theme='Tela-dracula-dark'
@@ -816,7 +816,7 @@ show-delete-permanently=true
 [org/gnome/nautilus/window-state]
 initial-size=(1276, 864)
 initial-size-file-chooser=(1242, 728)
-maximized=false
+maximized=true
 
 [org/gnome/nm-applet/eap/16bf7481-6b91-4cea-abc0-242279568b55]
 ignore-ca-cert=false
@@ -1001,7 +1001,7 @@ sleep-inactive-ac-type='nothing'
 enabled-connections=@as []
 
 [org/gnome/shell]
-app-picker-layout=[{'d16e2496-eedd-4088-ba5f-c39f0c9fd16d': <{'position': <0>}>, 'c328565c-de8e-4850-99c6-9a753c0b9d22': <{'position': <1>}>, 'f720d708-b404-45e1-8674-5f1222817691': <{'position': <2>}>, '95876710-5963-4eb5-8152-6b9f5a9b7f6e': <{'position': <3>}>, 'firefox.desktop': <{'position': <4>}>, '502ef2d5-ef9c-418c-bc01-3295be2c0d7d': <{'position': <5>}>, 'org.kde.kate.desktop': <{'position': <6>}>, 'net.codelogistics.letters.desktop': <{'position': <7>}>, '54c8bdb9-745d-4b5c-a532-de342a780c2e': <{'position': <8>}>, 'com.notesnook.Notesnook.desktop': <{'position': <9>}>, '78c5c448-9755-4b1f-b921-1fa5935ead6b': <{'position': <10>}>, 'com.github.marhkb.Pods.desktop': <{'position': <11>}>, 'org.gnome.Software.desktop': <{'position': <12>}>, 'spotify.desktop': <{'position': <13>}>, 'System': <{'position': <14>}>, 'org.telegram.desktop._3e485da34fc040f9218e3891ecde1e6c.desktop': <{'position': <15>}>, '3a28c18d-367b-4d9d-8420-124bfec133cc': <{'position': <16>}>, 'io.github.flattool.Warehouse.desktop': <{'position': <17>}>}]
+app-picker-layout=[{'d16e2496-eedd-4088-ba5f-c39f0c9fd16d': <{'position': <0>}>, 'c328565c-de8e-4850-99c6-9a753c0b9d22': <{'position': <1>}>, 'f720d708-b404-45e1-8674-5f1222817691': <{'position': <2>}>, '95876710-5963-4eb5-8152-6b9f5a9b7f6e': <{'position': <3>}>, '502ef2d5-ef9c-418c-bc01-3295be2c0d7d': <{'position': <4>}>, 'org.kde.kate.desktop': <{'position': <5>}>, '54c8bdb9-745d-4b5c-a532-de342a780c2e': <{'position': <6>}>, 'com.notesnook.Notesnook.desktop': <{'position': <7>}>, '78c5c448-9755-4b1f-b921-1fa5935ead6b': <{'position': <8>}>, 'com.github.marhkb.Pods.desktop': <{'position': <9>}>, 'org.gnome.Software.desktop': <{'position': <10>}>, 'spotify.desktop': <{'position': <11>}>, 'System': <{'position': <12>}>, 'org.telegram.desktop._3e485da34fc040f9218e3891ecde1e6c.desktop': <{'position': <13>}>, '3a28c18d-367b-4d9d-8420-124bfec133cc': <{'position': <14>}>, 'io.github.flattool.Warehouse.desktop': <{'position': <15>}>}]
 command-history=['r', 'lg', 'echo $XDG_SESSION_TYPE']
 disable-user-extensions=false
 disabled-extensions=['notification-timeout@chlumskyvaclav.gmail.com', 'monitor@astraext.github.io', 'just_shows_memory_usage@troizet.github.com', 'snapd-prompting@canonical.com', 'applications-overview-tooltip@RaphaelRochet', 'ding@rastersoft.com', 'hidetopbar@mathieu.bidon.ca', '1440@ravener.github.com', 'all-in-one-clipboard@NiffirgkcaJ.github.com', 'ubuntu-dock@ubuntu.com', 'volume_scroller@francislavoie.github.io', 'dash-to-panel@jderose9.github.com', 'restartto@tiagoporsch.github.io', 'aztaskbar@aztaskbar.gitlab.com', 'clipboard-indicator@tudmotu.com', 'mediacontrols@cliffniff.github.com', 'dropbeat@romanlefler.com', 'kiwi@kemma', 'pomodoro@youcefzaid.github.io', 'pomodoro@zhuravkovigor.dev', 'focuslock@kavinda', 'dash2dock-lite@icedman.github.com', 'clipmaster@gnome.extension', 'app-grid-tuner@m-lab', 'appgridbuttonintoppanel@raphaelian', 'timeFromStart@pic16f877ccs.github.com', 'vertical-app-grid@lublst.github.io', 'Rounded_Corners@lennart-k']

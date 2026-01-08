@@ -50,7 +50,6 @@ gnome-tweaks
 gnome-user-docs-hi
 gnupg2
 google-chrome-stable
-gpa
 gparted
 grep
 grub-efi-amd64
