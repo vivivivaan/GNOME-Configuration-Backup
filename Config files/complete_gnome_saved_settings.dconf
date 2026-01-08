@@ -127,7 +127,7 @@ restore-session=true
 restore-window-size=false
 scrollbar-policy='system'
 use-system-font=false
-window-size=(uint32 145, uint32 40)
+window-size=(uint32 145, uint32 42)
 
 [org/gnome/Ptyxis/Profiles/'f2934b33b5178457f29b4e8068d611e4']
 opacity=0.96575
@@ -335,7 +335,7 @@ document-font-name='Adwaita Sans 10'
 enable-animations=true
 enable-hot-corners=false
 font-antialiasing='rgba'
-font-name='Mariupol 10'
+font-name='Mariupol 10.5'
 gtk-enable-primary-paste=true
 gtk-theme='MacTahoe-Dark-alt-blue-nord'
 icon-theme='Tela-dracula-dark'
@@ -794,6 +794,9 @@ experimental-features=@as []
 toggle-tiled-left=@as []
 toggle-tiled-right=@as []
 
+[org/gnome/nautilus/compression]
+default-compression-format='tar.xz'
+
 [org/gnome/nautilus/icon-view]
 captions=['size', 'none', 'none']
 default-zoom-level='small'
@@ -807,7 +810,7 @@ use-tree-view=true
 [org/gnome/nautilus/preferences]
 click-policy='double'
 date-time-format='detailed'
-default-folder-viewer='list-view'
+default-folder-viewer='icon-view'
 migrated-gtk-settings=true
 search-filter-time-type='last_modified'
 show-create-link=true
@@ -816,7 +819,7 @@ show-delete-permanently=true
 [org/gnome/nautilus/window-state]
 initial-size=(1276, 864)
 initial-size-file-chooser=(1242, 728)
-maximized=true
+maximized=false
 
 [org/gnome/nm-applet/eap/16bf7481-6b91-4cea-abc0-242279568b55]
 ignore-ca-cert=false
