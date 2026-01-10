@@ -25,8 +25,8 @@ width=709
 
 [apps/update-manager]
 first-run=false
-launch-count=95
-launch-time=int64 1767760610
+launch-count=97
+launch-time=int64 1767953260
 show-details=true
 window-height=447
 window-width=736
@@ -127,7 +127,7 @@ restore-session=true
 restore-window-size=false
 scrollbar-policy='system'
 use-system-font=false
-window-size=(uint32 145, uint32 42)
+window-size=(uint32 145, uint32 40)
 
 [org/gnome/Ptyxis/Profiles/'f2934b33b5178457f29b4e8068d611e4']
 opacity=0.96575
@@ -681,7 +681,7 @@ resources-net-expanded=true
 show-dependencies=true
 show-whose-processes='user'
 window-height=786
-window-width=1123
+window-width=1173
 
 [org/gnome/gnome-system-monitor/disksview]
 sort-col='device'
@@ -840,16 +840,16 @@ night-mode=false
 [org/gnome/papers/default]
 annot-color='yellow'
 continuous=true
-dual-page=true
+dual-page=false
 dual-page-odd-left=true
 enable-spellchecking=true
-show-sidebar=false
+show-sidebar=true
 sidebar-page='links'
 sizing-mode='free'
 window-height=872
 window-maximized=true
 window-width=1003
-zoom=0.58555064827210057
+zoom=0.57870370370370383
 
 [org/gnome/pomodoro/plugins/actions]
 actions-list=@as []
@@ -925,7 +925,7 @@ last-folder-path='/home/prithvi/Downloads'
 last-folder-path='/home/prithvi/Documents/Letters (Letters from App)'
 
 [org/gnome/portal/filechooser/org.chromium.Chromium]
-last-folder-path='/home/prithvi/Workspace/handson-mlp'
+last-folder-path='/home/prithvi/UI/FairyWren-Icons'
 
 [org/gnome/portal/filechooser/org.fedoraproject.MediaWriter]
 last-folder-path='/home/prithvi/Downloads'
@@ -967,7 +967,7 @@ night-light-enabled=false
 night-light-schedule-automatic=false
 night-light-schedule-from=0.0
 night-light-schedule-to=0.0
-night-light-temperature=uint32 4239
+night-light-temperature=uint32 4325
 
 [org/gnome/settings-daemon/plugins/media-keys]
 control-center=['<Super>i']
@@ -1242,7 +1242,7 @@ background-opacity=0.0
 click-action='minimize'
 custom-theme-shrink=false
 customize-alphas=true
-dash-max-icon-size=41
+dash-max-icon-size=40
 disable-overview-on-startup=true
 dock-fixed=false
 dock-position='BOTTOM'
@@ -1533,10 +1533,9 @@ work-time=1200
 
 [org/gnome/shell/extensions/quick-settings-tweaks]
 dnd-quick-toggle-enabled=false
-media-contorl-opacity=200
-media-enabled=true
 media-remove-shadow=true
-notifications-max-height=260
+media-smooth-scroll-speed=0
+notifications-max-height=280
 overlay-menu-enabled=true
 system-indicator-layout-enabled=false
 system-indicator-screen-recording-indicator-use-accent=false
@@ -1705,9 +1704,9 @@ check-timestamp=int64 1766953896
 download-updates=false
 download-updates-notify=false
 first-run=false
-flatpak-purge-timestamp=int64 1766854248
+flatpak-purge-timestamp=int64 1767979586
 install-timestamp=int64 1765396455
-packagekit-historical-updates-timestamp=uint64 1758701232
+packagekit-historical-updates-timestamp=uint64 1767955691
 show-only-verified-apps=false
 update-notification-timestamp=int64 1767857799
 
@@ -1730,7 +1729,7 @@ use-transparent-background=true
 show-extensions-notice=false
 
 [org/gnome/yelp]
-font-adjustment=1
+font-adjustment=2
 
 [org/gtk/gtk4/settings/color-chooser]
 custom-colors=[(0.5, 0.5, 0.5, 1.0)]
@@ -1775,16 +1774,21 @@ labels-beside-icons=false
 
 [org/nemo/list-view]
 default-column-order=['name', 'size', 'type', 'date_modified', 'date_created_with_time', 'date_accessed', 'date_created', 'detailed_type', 'group', 'where', 'mime_type', 'date_modified_with_time', 'octal_permissions', 'owner', 'permissions', 'selinux_context']
-default-visible-columns=['name', 'size', 'type', 'date_modified', 'date_accessed', 'date_created', 'where']
+default-visible-columns=['name', 'size', 'type', 'date_modified', 'date_accessed', 'date_created']
 default-zoom-level='smaller'
 
 [org/nemo/preferences]
 confirm-move-to-trash=false
 date-font-choice='system-mono'
+default-folder-viewer='list-view'
+inherit-show-thumbnails=true
 show-advanced-permissions=true
 show-full-path-titles=true
+show-hidden-files=false
 show-location-entry=false
-thumbnail-limit=uint64 10485760
+thumbnail-limit=uint64 104857600
+tooltips-in-icon-view=true
+tooltips-in-list-view=true
 tooltips-on-desktop=false
 
 [org/nemo/preferences/menu-config]

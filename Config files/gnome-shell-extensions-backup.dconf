@@ -224,7 +224,7 @@ background-opacity=0.0
 click-action='minimize'
 custom-theme-shrink=false
 customize-alphas=true
-dash-max-icon-size=41
+dash-max-icon-size=40
 disable-overview-on-startup=true
 dock-fixed=false
 dock-position='BOTTOM'
@@ -515,10 +515,9 @@ work-time=1200
 
 [quick-settings-tweaks]
 dnd-quick-toggle-enabled=false
-media-contorl-opacity=200
-media-enabled=true
 media-remove-shadow=true
-notifications-max-height=260
+media-smooth-scroll-speed=0
+notifications-max-height=280
 overlay-menu-enabled=true
 system-indicator-layout-enabled=false
 system-indicator-screen-recording-indicator-use-accent=false
