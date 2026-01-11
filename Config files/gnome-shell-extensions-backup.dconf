@@ -413,7 +413,7 @@ notify=true
 
 [gnome-ui-tune]
 hide-search=false
-increase-thumbnails-size='100%'
+increase-thumbnails-size='200%'
 
 [gspotify]
 artwork-themed-ui=true
@@ -545,6 +545,9 @@ unfocused-shadow={'verticalOffset': 2, 'horizontalOffset': 0, 'blurOffset': 12, 
 
 [show-desktop-button]
 indicator-position='CENTER_LEFT'
+
+[simple_timer]
+last-timer-input='0:10'
 
 [tiling-assistant]
 activate-layout0=@as []

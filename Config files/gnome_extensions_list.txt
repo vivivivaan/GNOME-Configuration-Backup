@@ -636,3 +636,12 @@ snapd-prompting@canonical.com
   Path: /usr/share/gnome-shell/extensions/snapd-prompting@canonical.com
   Enabled: No
   State: INITIALIZED
+
+simple-timer@majortomvr.github.com
+  Name: Simple Timer
+  Description: Simple Timer is a Gnome Shell Extension that adds a Timer to the Panel.
+  Path: /home/prithvi/.local/share/gnome-shell/extensions/simple-timer@majortomvr.github.com
+  URL: https://github.com/MajortomVR/simple-timer-extension
+  Version: 21
+  Enabled: Yes
+  State: ACTIVE
