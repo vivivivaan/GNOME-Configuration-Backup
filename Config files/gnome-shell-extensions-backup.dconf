@@ -401,7 +401,7 @@ start-corner='top-left'
 show-reconnect-always=true
 
 [extension-1440]
-panel-position='right'
+panel-position='center'
 
 [fedora-update]
 always-visible=true

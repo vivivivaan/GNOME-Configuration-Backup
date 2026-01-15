@@ -460,6 +460,16 @@ pomodoro@zhuravkovigor.dev
   Enabled: No
   State: INITIALIZED
 
+1440@ravener.github.com
+  Name: 1440
+  Description: Make every minute count.
+Inspired by https://1440app.com/
+  Path: /home/prithvi/.local/share/gnome-shell/extensions/1440@ravener.github.com
+  URL: https://github.com/ravener/gnome-1440
+  Version: 2
+  Enabled: No
+  State: INITIALIZED
+
 focuslock@kavinda
   Name: Focus Lock
   Description: Lock focus to a specific application window. When enabled, you cannot switch to other windows until you unlock.
@@ -511,16 +521,6 @@ Rounded_Corners@lennart-k
   Path: /home/prithvi/.local/share/gnome-shell/extensions/Rounded_Corners@lennart-k
   URL: https://github.com/lennart-k/gnome-rounded-corners
   Version: 17
-  Enabled: No
-  State: INITIALIZED
-
-1440@ravener.github.com
-  Name: 1440
-  Description: Make every minute count.
-Inspired by https://1440app.com/
-  Path: /home/prithvi/.local/share/gnome-shell/extensions/1440@ravener.github.com
-  URL: https://github.com/ravener/gnome-1440
-  Version: 2
   Enabled: No
   State: INITIALIZED
 
@@ -636,12 +636,3 @@ snapd-prompting@canonical.com
   Path: /usr/share/gnome-shell/extensions/snapd-prompting@canonical.com
   Enabled: No
   State: INITIALIZED
-
-simple-timer@majortomvr.github.com
-  Name: Simple Timer
-  Description: Simple Timer is a Gnome Shell Extension that adds a Timer to the Panel.
-  Path: /home/prithvi/.local/share/gnome-shell/extensions/simple-timer@majortomvr.github.com
-  URL: https://github.com/MajortomVR/simple-timer-extension
-  Version: 21
-  Enabled: Yes
-  State: ACTIVE

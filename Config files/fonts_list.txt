@@ -1,9 +1,6 @@
 /usr/local/share/fonts/opentype:
 CodeNewRoman
 CommitMono
-Helvetica Neue
-MonaSans-otf
-SF-Pro
 
 /usr/local/share/fonts/truetype:
 Calibri
@@ -12,9 +9,7 @@ FantasqueSansMono
 Inter
 JetBrainsMono
 Mariupol
-MonaSans-ttf
 NerdFontsSymbolsOnly
 Roboto
 RobotoMono
-SF-Pro
 Sono
