@@ -127,7 +127,7 @@ restore-session=true
 restore-window-size=false
 scrollbar-policy='system'
 use-system-font=false
-window-size=(uint32 145, uint32 40)
+window-size=(uint32 212, uint32 47)
 
 [org/gnome/Ptyxis/Profiles/'f2934b33b5178457f29b4e8068d611e4']
 opacity=0.96575
@@ -338,7 +338,7 @@ font-antialiasing='rgba'
 font-name='Mariupol 10.5'
 gtk-enable-primary-paste=true
 gtk-theme='MacTahoe-Dark-alt-blue-nord'
-icon-theme='Tela-dracula-dark'
+icon-theme='Colloid-Everforest-Dark'
 locate-pointer=true
 monospace-font-name='RobotoMono Nerd Font Mono 10'
 show-battery-percentage=true
@@ -1009,7 +1009,7 @@ command-history=['r', 'lg', 'echo $XDG_SESSION_TYPE']
 disable-user-extensions=false
 disabled-extensions=['notification-timeout@chlumskyvaclav.gmail.com', 'monitor@astraext.github.io', 'just_shows_memory_usage@troizet.github.com', 'snapd-prompting@canonical.com', 'applications-overview-tooltip@RaphaelRochet', 'ding@rastersoft.com', 'hidetopbar@mathieu.bidon.ca', 'all-in-one-clipboard@NiffirgkcaJ.github.com', 'ubuntu-dock@ubuntu.com', 'volume_scroller@francislavoie.github.io', 'dash-to-panel@jderose9.github.com', 'restartto@tiagoporsch.github.io', 'aztaskbar@aztaskbar.gitlab.com', 'clipboard-indicator@tudmotu.com', 'mediacontrols@cliffniff.github.com', 'dropbeat@romanlefler.com', 'kiwi@kemma', 'pomodoro@youcefzaid.github.io', 'pomodoro@zhuravkovigor.dev', 'focuslock@kavinda', 'dash2dock-lite@icedman.github.com', 'clipmaster@gnome.extension', 'app-grid-tuner@m-lab', 'appgridbuttonintoppanel@raphaelian', 'timeFromStart@pic16f877ccs.github.com', 'vertical-app-grid@lublst.github.io', 'Rounded_Corners@lennart-k', 'mute-unmute@mcast.gnomext.com', '1440@ravener.github.com']
 enabled-extensions=['background-logo@fedorahosted.org', 'launch-new-instance@gnome-shell-extensions.gcampax.github.com', 'places-menu@gnome-shell-extensions.gcampax.github.com', 'custom-hot-corners-extended@G-dH.github.com', 'just-perfection-desktop@just-perfection', 'reboottouefi@ubaygd.com', 'Vitals@CoreCoding.com', 'update-extension@purejava.org', 'tweaks-system-menu@extensions.gnome-shell.fifi.org', 'transparent-window-moving@noobsai.github.com', 'tilingshell@ferrarodomenico.com', 'osd-volume-number@deminder', 'drive-menu@gnome-shell-extensions.gcampax.github.com', 'screenshort-cut@pauloimon', 'sound-percentage@subashghimire.info.np', 'quick-settings-tweaks@qwreey', 'show-desktop-button@amivaleo', 'open-desktop-location@laura.media', 'tiling-assistant@ubuntu.com', 'blur-my-shell@aunetx', 'apt-update-indicator@franglais125.gmail.com', 'updateindicator@aegirxx.googlemail.com', 'new-apt-update-indicator@hamburgerjungejr', 'systemd-offline-update@swsnr.de', 'disconnect-wifi@kgshank.net', 'media-progress@krypion17', 'gnome-shell-trash-extension', 'mprisLabel@moon-0xff.github.com', 'gspotify@sogi.is-a.dev', 'apps@github.com.howbea', 'egg-timer@gregorriegler.com', 'custom-osd@neuromorph', 'quicknotes@dsabolo.github.io', 'one-thing@github.com', 'right-click-next@derVedro', 'fq@megh', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'bettervolume@tudmotu.com', 'floating-mini-panel@ghi59.github.com', 'adaptive-brightness@dmy3k.github.io', 'apps-menu@gnome-shell-extensions.gcampax.github.com', 'day-progress@arcaege.github.io', 'rounded-window-corners@yilozt', 'batteryIcon@slim8916.github.io', 'copyous@boerdereinar.dev', 'gnome-ui-tune@itstime.tech', 'cronomix@zagortenay333', 'quickshutdownbutton@feelfree2useit.outlook.com', 'battery-indicator-icon@Deminder', 'BringOutSubmenuOfPowerOffLogoutButton@pratap.fastmail.fm', 'dash-to-dock@micxgx.gmail.com', 'night-light-scroll@fthx', 'notification-banner-reloaded@marcinjakubowski.github.com', 'night-light-slider-updated@vilsbeg.codeberg.org', 'clipflow-pro@nickotmazgin.github.io', 'AlphabeticalAppGrid@stuarthayhurst', 'no-titlebar-when-maximized@alec.ninja', 'status-icons@gnome-shell-extensions.gcampax.github.com', 'rounded-window-corners@fxgn', 'simple-timer@majortomvr.github.com']
-favorite-apps=['synaptic.desktop', 'org.gnome.Nautilus.desktop', 'google-chrome.desktop', 'brave-browser.desktop', 'io.gitlab.librewolf-community.desktop', 'libreoffice-writer.desktop', 'org.gnome.Ptyxis.desktop', 'code.desktop', 'net.nokyan.Resources.desktop', 'org.gnome.TextEditor.desktop', 'chrome-hnpfjngllnobngcgfapefoaidbinmjnm-Default.desktop', 'org.gnome.clocks.desktop']
+favorite-apps=['synaptic.desktop', 'org.gnome.Nautilus.desktop', 'google-chrome.desktop', 'brave-browser.desktop', 'io.gitlab.librewolf-community.desktop', 'libreoffice-writer.desktop', 'org.gnome.TextEditor.desktop', 'org.gnome.Ptyxis.desktop', 'code.desktop', 'net.nokyan.Resources.desktop', 'org.gnome.clocks.desktop', 'chrome-hnpfjngllnobngcgfapefoaidbinmjnm-Default.desktop']
 looking-glass-history=['ps -o pid,rss,cmd -C gnome-shell']
 welcome-dialog-last-shown-version='48.4'
 
@@ -1620,6 +1620,8 @@ overridden-settings='{"org.gnome.mutter.keybindings":{"toggle-tiled-right":"@as 
 selected-layouts=[['Layout 1'], ['Layout 1']]
 show-indicator=false
 snap-assistant-threshold=25
+window-border-color='rgb(192,191,188)'
+window-border-width=uint32 1
 window-use-custom-border-color=false
 
 [org/gnome/shell/extensions/time-from-start]
@@ -1735,8 +1737,8 @@ show-extensions-notice=false
 font-adjustment=2
 
 [org/gtk/gtk4/settings/color-chooser]
-custom-colors=[(0.5, 0.5, 0.5, 1.0)]
-selected-color=(true, 1.0, 1.0, 1.0, 1.0)
+custom-colors=[(0.92549020051956177, 0.36862745881080627, 0.36862745881080627, 1.0), (0.5, 0.5, 0.5, 1.0)]
+selected-color=(true, 0.75294119119644165, 0.74901962280273438, 0.73725491762161255, 1.0)
 
 [org/gtk/gtk4/settings/file-chooser]
 date-format='regular'

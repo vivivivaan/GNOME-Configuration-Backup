@@ -1,4 +1,13 @@
 /home/prithvi/.local/share/icons:
+Colloid-Everforest
+Colloid-Everforest-Dark
+Colloid-Everforest-Light
+Colloid-Gruvbox
+Colloid-Gruvbox-Dark
+Colloid-Gruvbox-Light
+Colloid-Nord
+Colloid-Nord-Dark
+Colloid-Nord-Light
 MacTahoe
 MacTahoe-dark
 MacTahoe-light
@@ -32,6 +41,15 @@ MacTahoe-Dark-solid-alt-blue-nord-hdpi
 MacTahoe-Dark-solid-alt-blue-nord-xhdpi
 
 /usr/local/share/icons/:
+Colloid-Everforest
+Colloid-Everforest-Dark
+Colloid-Everforest-Light
+Colloid-Gruvbox
+Colloid-Gruvbox-Dark
+Colloid-Gruvbox-Light
+Colloid-Nord
+Colloid-Nord-Dark
+Colloid-Nord-Light
 MacTahoe
 MacTahoe-dark
 MacTahoe-light
