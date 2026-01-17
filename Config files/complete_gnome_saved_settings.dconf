@@ -25,8 +25,8 @@ width=709
 
 [apps/update-manager]
 first-run=false
-launch-count=104
-launch-time=int64 1768340063
+launch-count=105
+launch-time=int64 1768579082
 show-details=true
 window-height=734
 window-width=736
@@ -127,7 +127,7 @@ restore-session=true
 restore-window-size=false
 scrollbar-policy='system'
 use-system-font=false
-window-size=(uint32 212, uint32 47)
+window-size=(uint32 145, uint32 40)
 
 [org/gnome/Ptyxis/Profiles/'f2934b33b5178457f29b4e8068d611e4']
 opacity=0.96575
@@ -810,7 +810,7 @@ use-tree-view=true
 [org/gnome/nautilus/preferences]
 click-policy='double'
 date-time-format='detailed'
-default-folder-viewer='list-view'
+default-folder-viewer='icon-view'
 migrated-gtk-settings=true
 search-filter-time-type='last_modified'
 show-create-link=true
@@ -840,16 +840,16 @@ night-mode=false
 [org/gnome/papers/default]
 annot-color='yellow'
 continuous=true
-dual-page=true
+dual-page=false
 dual-page-odd-left=true
 enable-spellchecking=true
-show-sidebar=true
+show-sidebar=false
 sidebar-page='links'
-sizing-mode='automatic'
+sizing-mode='free'
 window-height=1048
 window-maximized=true
 window-width=960
-zoom=0.70774377034639979
+zoom=0.63094945656448276
 
 [org/gnome/pomodoro/plugins/actions]
 actions-list=@as []
