@@ -25,8 +25,8 @@ width=709
 
 [apps/update-manager]
 first-run=false
-launch-count=105
-launch-time=int64 1768579082
+launch-count=106
+launch-time=int64 1768802241
 show-details=true
 window-height=734
 window-width=736
@@ -106,7 +106,7 @@ logo-size=8.1645569620253156
 index-recursive-directories=['&DESKTOP', '&DOCUMENTS', '&MUSIC', '&PICTURES', '&VIDEOS', '/home/earthora/Wallpapers']
 
 [org/gnome/Characters]
-recent-characters=['🤞', '🗝️', '😭', '💁\u200d♂️', '🌚', '🙇', '🤞🏼', '😆', '😂', '🥂', '🌃', '✴️', '💫']
+recent-characters=['🐱', '🤞', '🗝️', '😭', '💁\u200d♂️', '🌚', '🙇', '🤞🏼', '😆', '😂', '🥂', '🌃', '✴️', '💫']
 
 [org/gnome/Geary]
 migrated-config=true
@@ -136,7 +136,7 @@ opacity=0.96575
 bold-is-bright=true
 label='Prithvi'
 opacity=0.95056818181818181
-palette='Everforest'
+palette='Purple People Eater'
 preserve-directory='safe'
 scroll-on-output=true
 scrollback-lines=50000
@@ -189,7 +189,7 @@ world-clocks=[{'location': <(uint32 2, <('Hyderabad', 'VOHY', true, [(0.30455995
 [org/gnome/clocks/state/window]
 maximized=false
 panel-id='world'
-size=(360, 294)
+size=(583, 416)
 
 [org/gnome/control-center]
 last-panel='wifi'
@@ -261,7 +261,7 @@ name='X-Pardus-Apps.directory'
 translate=true
 
 [org/gnome/desktop/app-folders/folders/System]
-apps=['nm-connection-editor.desktop', 'org.gnome.Yelp.desktop', 'display-im7.q16.desktop', 'gnome-language-selector.desktop', 'org.gnome.Logs.desktop', 'org.gnome.Meld.desktop', 'nautilus-compare-preferences.desktop', 'nvidia-settings.desktop', 'org.gnome.PowerStats.desktop', 'org.gnome.Settings.desktop', 'org.gnome.Sysprof.desktop', 'org.gnome.SystemMonitor.desktop', 'com.github.d4nj1.tlpui.desktop', 'torbrowser-settings.desktop', 'dwww.desktop', 'org.bleachbit.BleachBit.desktop', 'org.bleachbit.BleachBit-root.desktop', 'desktop-security-center_desktop-security-center.desktop', 'btop.desktop', 'org.freedesktop.MalcontentControl.desktop', 'org.freedesktop.GnomeAbrt.desktop']
+apps=['nm-connection-editor.desktop', 'org.gnome.Yelp.desktop', 'display-im7.q16.desktop', 'gnome-language-selector.desktop', 'org.gnome.Logs.desktop', 'org.gnome.Meld.desktop', 'nautilus-compare-preferences.desktop', 'nvidia-settings.desktop', 'org.gnome.PowerStats.desktop', 'org.gnome.Settings.desktop', 'org.gnome.Sysprof.desktop', 'org.gnome.SystemMonitor.desktop', 'com.github.d4nj1.tlpui.desktop', 'btop.desktop', 'torbrowser-settings.desktop', 'dwww.desktop', 'org.bleachbit.BleachBit.desktop', 'org.bleachbit.BleachBit-root.desktop', 'desktop-security-center_desktop-security-center.desktop', 'org.freedesktop.MalcontentControl.desktop', 'org.freedesktop.GnomeAbrt.desktop']
 name='X-GNOME-Shell-System.directory'
 translate=true
 
@@ -335,7 +335,7 @@ document-font-name='Adwaita Sans 10'
 enable-animations=true
 enable-hot-corners=false
 font-antialiasing='rgba'
-font-name='Mariupol 10.5'
+font-name='Mariupol 11'
 gtk-enable-primary-paste=true
 gtk-theme='MacTahoe-Dark-alt-blue-nord'
 icon-theme='Colloid-Everforest-Dark'
@@ -672,7 +672,7 @@ side-panel-size=200
 width=1011
 
 [org/gnome/gnome-system-monitor]
-current-tab='resources'
+current-tab='processes'
 maximized=false
 resources-cpu-expanded=true
 resources-disk-expanded=true
@@ -843,9 +843,9 @@ continuous=true
 dual-page=false
 dual-page-odd-left=true
 enable-spellchecking=true
-show-sidebar=false
+show-sidebar=true
 sidebar-page='links'
-sizing-mode='free'
+sizing-mode='automatic'
 window-height=1048
 window-maximized=true
 window-width=960
@@ -899,6 +899,9 @@ last-folder-path='/home/prithvi/Downloads'
 
 [org/gnome/portal/filechooser/com.notesnook.Notesnook]
 last-folder-path='/home/prithvi'
+
+[org/gnome/portal/filechooser/cursor]
+last-folder-path='/home/prithvi/UI/MacTahoe-gtk-theme'
 
 [org/gnome/portal/filechooser/io.github.realmazharhussain.GdmSettings]
 last-folder-path='/home/prithvi/Wallpapers'
@@ -1004,11 +1007,11 @@ sleep-inactive-ac-type='nothing'
 enabled-connections=@as []
 
 [org/gnome/shell]
-app-picker-layout=[{'d16e2496-eedd-4088-ba5f-c39f0c9fd16d': <{'position': <0>}>, 'c328565c-de8e-4850-99c6-9a753c0b9d22': <{'position': <1>}>, 'f720d708-b404-45e1-8674-5f1222817691': <{'position': <2>}>, '95876710-5963-4eb5-8152-6b9f5a9b7f6e': <{'position': <3>}>, '502ef2d5-ef9c-418c-bc01-3295be2c0d7d': <{'position': <4>}>, 'org.kde.kate.desktop': <{'position': <5>}>, '54c8bdb9-745d-4b5c-a532-de342a780c2e': <{'position': <6>}>, 'com.notesnook.Notesnook.desktop': <{'position': <7>}>, '78c5c448-9755-4b1f-b921-1fa5935ead6b': <{'position': <8>}>, 'com.github.marhkb.Pods.desktop': <{'position': <9>}>, 'org.gnome.Software.desktop': <{'position': <10>}>, 'spotify.desktop': <{'position': <11>}>, 'System': <{'position': <12>}>, 'org.telegram.desktop._3e485da34fc040f9218e3891ecde1e6c.desktop': <{'position': <13>}>, '3a28c18d-367b-4d9d-8420-124bfec133cc': <{'position': <14>}>, 'io.github.flattool.Warehouse.desktop': <{'position': <15>}>}]
+app-picker-layout=[{'d16e2496-eedd-4088-ba5f-c39f0c9fd16d': <{'position': <0>}>, 'c328565c-de8e-4850-99c6-9a753c0b9d22': <{'position': <1>}>, 'f720d708-b404-45e1-8674-5f1222817691': <{'position': <2>}>, '95876710-5963-4eb5-8152-6b9f5a9b7f6e': <{'position': <3>}>, '502ef2d5-ef9c-418c-bc01-3295be2c0d7d': <{'position': <4>}>, 'org.kde.kate.desktop': <{'position': <5>}>, '54c8bdb9-745d-4b5c-a532-de342a780c2e': <{'position': <6>}>, 'com.notesnook.Notesnook.desktop': <{'position': <7>}>, '78c5c448-9755-4b1f-b921-1fa5935ead6b': <{'position': <8>}>, 'com.github.marhkb.Pods.desktop': <{'position': <9>}>, 'spotify.desktop': <{'position': <10>}>, 'System': <{'position': <11>}>, 'org.telegram.desktop._3e485da34fc040f9218e3891ecde1e6c.desktop': <{'position': <12>}>, '3a28c18d-367b-4d9d-8420-124bfec133cc': <{'position': <13>}>, 'io.github.flattool.Warehouse.desktop': <{'position': <14>}>}]
 command-history=['r', 'lg', 'echo $XDG_SESSION_TYPE']
 disable-user-extensions=false
 disabled-extensions=['notification-timeout@chlumskyvaclav.gmail.com', 'monitor@astraext.github.io', 'just_shows_memory_usage@troizet.github.com', 'snapd-prompting@canonical.com', 'applications-overview-tooltip@RaphaelRochet', 'ding@rastersoft.com', 'hidetopbar@mathieu.bidon.ca', 'all-in-one-clipboard@NiffirgkcaJ.github.com', 'ubuntu-dock@ubuntu.com', 'volume_scroller@francislavoie.github.io', 'dash-to-panel@jderose9.github.com', 'restartto@tiagoporsch.github.io', 'aztaskbar@aztaskbar.gitlab.com', 'clipboard-indicator@tudmotu.com', 'mediacontrols@cliffniff.github.com', 'dropbeat@romanlefler.com', 'kiwi@kemma', 'pomodoro@youcefzaid.github.io', 'pomodoro@zhuravkovigor.dev', 'focuslock@kavinda', 'dash2dock-lite@icedman.github.com', 'clipmaster@gnome.extension', 'app-grid-tuner@m-lab', 'appgridbuttonintoppanel@raphaelian', 'timeFromStart@pic16f877ccs.github.com', 'vertical-app-grid@lublst.github.io', 'Rounded_Corners@lennart-k', 'mute-unmute@mcast.gnomext.com', '1440@ravener.github.com']
-enabled-extensions=['background-logo@fedorahosted.org', 'launch-new-instance@gnome-shell-extensions.gcampax.github.com', 'places-menu@gnome-shell-extensions.gcampax.github.com', 'custom-hot-corners-extended@G-dH.github.com', 'just-perfection-desktop@just-perfection', 'reboottouefi@ubaygd.com', 'Vitals@CoreCoding.com', 'update-extension@purejava.org', 'tweaks-system-menu@extensions.gnome-shell.fifi.org', 'transparent-window-moving@noobsai.github.com', 'tilingshell@ferrarodomenico.com', 'osd-volume-number@deminder', 'drive-menu@gnome-shell-extensions.gcampax.github.com', 'screenshort-cut@pauloimon', 'sound-percentage@subashghimire.info.np', 'quick-settings-tweaks@qwreey', 'show-desktop-button@amivaleo', 'open-desktop-location@laura.media', 'tiling-assistant@ubuntu.com', 'blur-my-shell@aunetx', 'apt-update-indicator@franglais125.gmail.com', 'updateindicator@aegirxx.googlemail.com', 'new-apt-update-indicator@hamburgerjungejr', 'systemd-offline-update@swsnr.de', 'disconnect-wifi@kgshank.net', 'media-progress@krypion17', 'gnome-shell-trash-extension', 'mprisLabel@moon-0xff.github.com', 'gspotify@sogi.is-a.dev', 'apps@github.com.howbea', 'egg-timer@gregorriegler.com', 'custom-osd@neuromorph', 'quicknotes@dsabolo.github.io', 'one-thing@github.com', 'right-click-next@derVedro', 'fq@megh', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'bettervolume@tudmotu.com', 'floating-mini-panel@ghi59.github.com', 'adaptive-brightness@dmy3k.github.io', 'apps-menu@gnome-shell-extensions.gcampax.github.com', 'day-progress@arcaege.github.io', 'rounded-window-corners@yilozt', 'batteryIcon@slim8916.github.io', 'copyous@boerdereinar.dev', 'gnome-ui-tune@itstime.tech', 'cronomix@zagortenay333', 'quickshutdownbutton@feelfree2useit.outlook.com', 'battery-indicator-icon@Deminder', 'BringOutSubmenuOfPowerOffLogoutButton@pratap.fastmail.fm', 'dash-to-dock@micxgx.gmail.com', 'night-light-scroll@fthx', 'notification-banner-reloaded@marcinjakubowski.github.com', 'night-light-slider-updated@vilsbeg.codeberg.org', 'clipflow-pro@nickotmazgin.github.io', 'AlphabeticalAppGrid@stuarthayhurst', 'no-titlebar-when-maximized@alec.ninja', 'status-icons@gnome-shell-extensions.gcampax.github.com', 'rounded-window-corners@fxgn', 'simple-timer@majortomvr.github.com']
+enabled-extensions=['background-logo@fedorahosted.org', 'launch-new-instance@gnome-shell-extensions.gcampax.github.com', 'places-menu@gnome-shell-extensions.gcampax.github.com', 'custom-hot-corners-extended@G-dH.github.com', 'just-perfection-desktop@just-perfection', 'reboottouefi@ubaygd.com', 'Vitals@CoreCoding.com', 'update-extension@purejava.org', 'tweaks-system-menu@extensions.gnome-shell.fifi.org', 'transparent-window-moving@noobsai.github.com', 'tilingshell@ferrarodomenico.com', 'osd-volume-number@deminder', 'drive-menu@gnome-shell-extensions.gcampax.github.com', 'screenshort-cut@pauloimon', 'sound-percentage@subashghimire.info.np', 'quick-settings-tweaks@qwreey', 'show-desktop-button@amivaleo', 'open-desktop-location@laura.media', 'tiling-assistant@ubuntu.com', 'blur-my-shell@aunetx', 'apt-update-indicator@franglais125.gmail.com', 'updateindicator@aegirxx.googlemail.com', 'new-apt-update-indicator@hamburgerjungejr', 'systemd-offline-update@swsnr.de', 'disconnect-wifi@kgshank.net', 'media-progress@krypion17', 'gnome-shell-trash-extension', 'mprisLabel@moon-0xff.github.com', 'gspotify@sogi.is-a.dev', 'apps@github.com.howbea', 'egg-timer@gregorriegler.com', 'custom-osd@neuromorph', 'quicknotes@dsabolo.github.io', 'one-thing@github.com', 'right-click-next@derVedro', 'fq@megh', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'bettervolume@tudmotu.com', 'floating-mini-panel@ghi59.github.com', 'adaptive-brightness@dmy3k.github.io', 'apps-menu@gnome-shell-extensions.gcampax.github.com', 'day-progress@arcaege.github.io', 'rounded-window-corners@yilozt', 'batteryIcon@slim8916.github.io', 'copyous@boerdereinar.dev', 'gnome-ui-tune@itstime.tech', 'cronomix@zagortenay333', 'quickshutdownbutton@feelfree2useit.outlook.com', 'battery-indicator-icon@Deminder', 'BringOutSubmenuOfPowerOffLogoutButton@pratap.fastmail.fm', 'dash-to-dock@micxgx.gmail.com', 'night-light-scroll@fthx', 'notification-banner-reloaded@marcinjakubowski.github.com', 'night-light-slider-updated@vilsbeg.codeberg.org', 'clipflow-pro@nickotmazgin.github.io', 'AlphabeticalAppGrid@stuarthayhurst', 'no-titlebar-when-maximized@alec.ninja', 'status-icons@gnome-shell-extensions.gcampax.github.com', 'rounded-window-corners@fxgn', 'simple-timer@majortomvr.github.com', 'hide-keyboard-layout@sitnik.ru']
 favorite-apps=['synaptic.desktop', 'org.gnome.Nautilus.desktop', 'google-chrome.desktop', 'brave-browser.desktop', 'io.gitlab.librewolf-community.desktop', 'libreoffice-writer.desktop', 'org.gnome.TextEditor.desktop', 'org.gnome.Ptyxis.desktop', 'code.desktop', 'net.nokyan.Resources.desktop', 'org.gnome.clocks.desktop', 'chrome-hnpfjngllnobngcgfapefoaidbinmjnm-Default.desktop']
 looking-glass-history=['ps -o pid,rss,cmd -C gnome-shell']
 welcome-dialog-last-shown-version='48.4'
@@ -1242,7 +1245,7 @@ background-opacity=0.0
 click-action='minimize'
 custom-theme-shrink=false
 customize-alphas=true
-dash-max-icon-size=40
+dash-max-icon-size=42
 disable-overview-on-startup=true
 dock-fixed=false
 dock-position='BOTTOM'
@@ -1553,7 +1556,7 @@ blacklist=['Ubuntu', 'Linux-Firmware-Updater', 'USB HDD', 'PXE BOOT', 'LENOVO CL
 [org/gnome/shell/extensions/rounded-window-corners-reborn]
 border-width=0
 custom-rounded-corner-settings=@a{sv} {}
-enable-preferences-entry=true
+enable-preferences-entry=false
 focused-shadow={'verticalOffset': 4, 'horizontalOffset': 0, 'blurOffset': 28, 'spreadRadius': 4, 'opacity': 60}
 global-rounded-corner-settings={'padding': <{'left': uint32 0, 'right': 0, 'top': 0, 'bottom': 0}>, 'keepRoundedCorners': <{'maximized': true, 'fullscreen': true}>, 'borderRadius': <uint32 11>, 'smoothing': <1.0>, 'borderColor': <(1.0, 1.0, 1.0, 1.0)>, 'enabled': <true>}
 settings-version=uint32 7
@@ -1713,7 +1716,7 @@ flatpak-purge-timestamp=int64 1768147703
 install-timestamp=int64 1765396455
 packagekit-historical-updates-timestamp=uint64 1767955691
 show-only-verified-apps=false
-update-notification-timestamp=int64 1768492682
+update-notification-timestamp=int64 1768832013
 
 [org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
 background-color='rgb(23,20,33)'

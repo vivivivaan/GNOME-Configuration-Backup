@@ -370,6 +370,15 @@ Wayland: logout => login
   Enabled: Yes
   State: ACTIVE
 
+hide-keyboard-layout@sitnik.ru
+  Name: Hide Keyboard Layout
+  Description: Hide keyboard layout indicator in status bar
+  Path: /home/prithvi/.local/share/gnome-shell/extensions/hide-keyboard-layout@sitnik.ru
+  URL: https://github.com/ai/hide-keyboard-layout
+  Version: 12
+  Enabled: Yes
+  State: ACTIVE
+
 one-thing@github.com
   Name: One Thing
   Description: Put a single task or goal in your menu bar

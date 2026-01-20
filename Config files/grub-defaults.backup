@@ -42,3 +42,4 @@ GRUB_GFXMODE=1920x1080,auto
 # Theme
 GRUB_THEME="/usr/share/grub/themes/fantasy-sleek-interface-window-right-dark-1080p/theme.txt"
 
+# GRUB_BACKGROUND="/usr/share/grub/themes/fantasy-sleek-interface-window-right-dark-1080p/background-post.jpg"

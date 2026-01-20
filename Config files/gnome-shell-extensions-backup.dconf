@@ -224,7 +224,7 @@ background-opacity=0.0
 click-action='minimize'
 custom-theme-shrink=false
 customize-alphas=true
-dash-max-icon-size=40
+dash-max-icon-size=42
 disable-overview-on-startup=true
 dock-fixed=false
 dock-position='BOTTOM'
@@ -535,7 +535,7 @@ blacklist=['Ubuntu', 'Linux-Firmware-Updater', 'USB HDD', 'PXE BOOT', 'LENOVO CL
 [rounded-window-corners-reborn]
 border-width=0
 custom-rounded-corner-settings=@a{sv} {}
-enable-preferences-entry=true
+enable-preferences-entry=false
 focused-shadow={'verticalOffset': 4, 'horizontalOffset': 0, 'blurOffset': 28, 'spreadRadius': 4, 'opacity': 60}
 global-rounded-corner-settings={'padding': <{'left': uint32 0, 'right': 0, 'top': 0, 'bottom': 0}>, 'keepRoundedCorners': <{'maximized': true, 'fullscreen': true}>, 'borderRadius': <uint32 11>, 'smoothing': <1.0>, 'borderColor': <(1.0, 1.0, 1.0, 1.0)>, 'enabled': <true>}
 settings-version=uint32 7

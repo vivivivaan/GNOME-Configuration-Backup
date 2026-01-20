@@ -42,9 +42,6 @@ git-filter-repo
 gnome-browser-connector
 gnome-firmware
 gnome-package-updater
-gnome-software
-gnome-software-plugin-flatpak
-gnome-software-plugin-fwupd
 gnome-sushi
 gnome-tweaks
 gnome-user-docs-hi
@@ -90,6 +87,8 @@ libchewing3
 libchewing3-data
 libevent-core-2.1-7t64
 libevent-extra-2.1-7t64
+libfuse2t64
+libfuse3-dev
 libgda-5.0-4t64
 libgda-5.0-bin
 libgda-5.0-dev
@@ -137,6 +136,7 @@ meson
 mtools
 mythes-en-au
 mythes-en-us
+nala
 nautilus-admin
 nautilus-compare
 nautilus-hide
