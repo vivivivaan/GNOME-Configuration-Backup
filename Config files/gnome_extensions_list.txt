@@ -511,7 +511,7 @@ vertical-app-grid@lublst.github.io
   Description: Turns the default horizontal app grid into a vertical one
   Path: /home/prithvi/.local/share/gnome-shell/extensions/vertical-app-grid@lublst.github.io
   URL: https://github.com/lublst/gnome-vertical-app-grid
-  Version: 2
+  Version: 5
   Enabled: No
   State: INITIALIZED
 
@@ -585,8 +585,8 @@ dash-to-dock@micxgx.gmail.com
   URL: https://micheleg.github.io/dash-to-dock/
   Original author: micxgx@gmail.com
   Version: 102
-  Enabled: Yes
-  State: ACTIVE
+  Enabled: No
+  State: INITIALIZED
 
 adaptive-brightness@dmy3k.github.io
   Name: Adaptive Brightness
@@ -609,8 +609,8 @@ ding@rastersoft.com
   Description: Adds icons to the desktop. Fork of the original Desktop Icons extension, with several enhancements .
   Path: /usr/share/gnome-shell/extensions/ding@rastersoft.com
   URL: https://gitlab.com/rastersoft/desktop-icons-ng
-  Enabled: No
-  State: INITIALIZED
+  Enabled: Yes
+  State: ACTIVE
 
 tiling-assistant@ubuntu.com
   Name: Ubuntu Tiling Assistant
@@ -636,8 +636,8 @@ ubuntu-dock@ubuntu.com
   URL: https://micheleg.github.io/dash-to-dock/
   Original author: micxgx@gmail.com
   Version: 102
-  Enabled: No
-  State: INITIALIZED
+  Enabled: Yes
+  State: ACTIVE
 
 snapd-prompting@canonical.com
   Name: SNAPD Permission Prompting
