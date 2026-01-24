@@ -298,7 +298,7 @@ app-grid-tuner@m-lab
   Description: Tune and customize the GNOME application grid (rows, columns, icon size, padding, labels).
   Path: /home/prithvi/.local/share/gnome-shell/extensions/app-grid-tuner@m-lab
   URL: https://codeberg.org/m-lab/app-grid-tuner
-  Version: 4
+  Version: 6
   Enabled: No
   State: INITIALIZED
 
@@ -609,8 +609,8 @@ ding@rastersoft.com
   Description: Adds icons to the desktop. Fork of the original Desktop Icons extension, with several enhancements .
   Path: /usr/share/gnome-shell/extensions/ding@rastersoft.com
   URL: https://gitlab.com/rastersoft/desktop-icons-ng
-  Enabled: Yes
-  State: ACTIVE
+  Enabled: No
+  State: INITIALIZED
 
 tiling-assistant@ubuntu.com
   Name: Ubuntu Tiling Assistant

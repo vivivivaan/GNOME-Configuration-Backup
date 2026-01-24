@@ -403,6 +403,7 @@ width=16
 [ding]
 arrangeorder='KIND'
 check-x11wayland=true
+dark-text-in-labels=false
 icon-size='tiny'
 show-home=true
 show-trash=true
@@ -510,7 +511,7 @@ timeout=2000
 
 [one-thing]
 hot-key=false
-thing-value='Awr.Play.Mmtm.Att.Blc.🗝️'
+thing-value='Awr.Chc.Play.Mmtm.Att.Blc.🗝️'
 
 [osd-volume-number]
 adapt-panel-menu=true
@@ -603,7 +604,8 @@ toggle-always-on-top=@as []
 toggle-tiling-popup=@as []
 
 [tilingshell]
-enable-smart-window-border-radius=true
+enable-autotiling=false
+enable-smart-window-border-radius=false
 enable-window-border=false
 inner-gaps=uint32 0
 last-version-name-installed='17.0'
