@@ -5,7 +5,8 @@
 
 # Restore
 
-- Replace the ***existing username*** with the ***current username*** in the **`complete_gnome_saved_settings.dconf`** file.
+- Replace the ***existing username*** with the ***current username*** in the **`complete_gnome_saved_settings.dconf`** and **gnome_extensions_list.txt
+** files.
 - Install **Extension Manager** with `flatpak install flathub com.mattjakeman.ExtensionManager`.
 - Install the extensions in `gnome_extensions_list.txt`.
 - Run `dconf load /org/gnome/shell/extensions/ < gnome-shell-extensions-backup.dconf` to apply the extension configurations. 
