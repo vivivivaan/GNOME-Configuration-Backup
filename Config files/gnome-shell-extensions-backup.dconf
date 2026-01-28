@@ -532,8 +532,8 @@ media-smooth-scroll-speed=0
 notifications-max-height=280
 overlay-menu-enabled=true
 system-indicator-layout-enabled=false
-system-indicator-screen-recording-indicator-use-accent=false
-system-indicator-screen-sharing-indicator-use-accent=false
+system-indicator-screen-recording-indicator-use-accent=true
+system-indicator-screen-sharing-indicator-use-accent=true
 system-items-layout-hide=true
 weather-enabled=false
 weather-remove-shadow=false
@@ -604,6 +604,7 @@ toggle-always-on-top=@as []
 toggle-tiling-popup=@as []
 
 [tilingshell]
+cycle-layouts-backward=['<Shift>']
 enable-autotiling=false
 enable-smart-window-border-radius=false
 enable-window-border=false

@@ -33,6 +33,8 @@
 - Alternatively, create `chrome-flags.conf`, `brave-flags.conf`, `edge-flags.conf` files in `~/.config` and add the configs.
 - Restart the system or session.
 
+## Browser Flags
+
 | Browser        | copy *.desktop file                                                                   |                                                                                                                                                                                                                                                     `*://flags` |
 | :------------- | ------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | Google Chrome  | `sudo cp /usr/share/applications/google-chrome.desktop ~/.local/share/applications/`  | `#fluent-overlay-scrollbars` `#fluent-scrollbars` `#smooth-scrolling` `#ozone-platform-hint` `#wayland-ui-scaling` `#root-scrollbar-follows-browser-theme` `#link-preview` `#wayland-linux-drm-syncobj` `#allow-legacy-mv2-extensions` `#tabstrip-combo-button` |
@@ -40,6 +42,7 @@
 | Microsoft Edge | `sudo cp /usr/share/applications/microsoft-edge.desktop ~/.local/share/applications/` |                                                                                                                                                                                                                        Only enable flags in the `.desktop` file |
 | Vivaldi        | `sudo cp /usr/share/applications/vivaldi-stable.desktop ~/.local/share/applications/` |                                                                                                                                                                       `#fluent-overlay-scrollbars` `#fluent-scrollbars` `#root-scrollbar-follows-browser-theme` |
 
+## Command-line Flags
 | Browser        |                                                                                                                                                                                                                                            Code to append |
 | :------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | Google Chrome  |                                                                                                                                    `--enable-features=MiddleClickAutoscroll,TouchpadOverscrollHistoryNavigation --disable-features=GlobalShortcutsPortal` |
@@ -47,13 +50,21 @@
 | Microsoft Edge |                                                                 `--enable-features=MiddleClickAutoscroll,TouchpadOverscrollHistoryNavigation,UseOzonePlatform,WaylandWindowDecorations --ozone-platform=wayland --disable-features=GlobalShortcutsPortal` |
 | Vivaldi        | `--enable-features=MiddleClickAutoscroll,TouchpadOverscrollHistoryNavigation,UseOzonePlatform,WaylandWindowDecorations --ozone-platform=wayland --enable-wayland-ime --enable-pinch --enable-gesture-navigation --disable-features=GlobalShortcutsPortal` |
 
-# GRUB theme background glitches
-For GRUB configuration, install the GRUB theme but comment out the `GRUB_BACKGROUND` flag to avoid any background.
+# Themes
 
-# Enable fingerprint authentication besides login
-`sudo pam-auth-update` and enable **Fingerprint Authentication**.
+## MacTahoe GDM
 
-# Theming flatpak apps
+`sudo ./tweaks.sh --gdm -b /home/prithvi/Wallpapers/pramod-tiwari-fcMI6xvRcYE-unsplash.jpg -h default -nb -c dark -t blue -s nord`
+
+## MacTahoe Dark Blue Nord
+
+`sudo ./install.sh -d /usr/local/share/themes/ -t blue -c dark -s compact -g -l --tweaks nord darker rimless normal && ./install.sh -d ~/.local/share/themes/ -t blue -c dark -s compact -l --tweaks nord darker rimless normal`
+
+## GRUB theme background fix
+
+For GRUB configuration, install the GRUB theme but comment out the `GRUB_BACKGROUND` flag to avoid any background glitches.
+
+## Theming flatpak apps
 
 - Grant filesystem access to all Flatpak apps with `flatpak override --user --filesystem=xdg-config/gtk-3.0 --filesystem=xdg-config/gtk-4.0 --filesystem=xdg-data/themes --filesystem=xdg-data/icons --filesystem=xdg-data/fonts`.
 - This is usually enough - `sudo flatpak override --filesystem=/usr/local/share/themes`, `sudo flatpak override --filesystem=~/.local/share/themes` and `sudo flatpak override --filesystem=xdg-config/gtk-3.0 && sudo flatpak override --filesystem=xdg-config/gtk-4.0`.
@@ -66,7 +77,7 @@ For GRUB configuration, install the GRUB theme but comment out the `GRUB_BACKGRO
 | Fonts                       |            `flatpak override --user --filesystem=xdg-data/fonts:ro --filesystem=xdg-config/fontconfig:ro` (Reset with `flatpak override --user --reset --filesystem=xdg-data/fonts:ro --filesystem=xdg-config/fontconfig:ro`) |
 | Reset all flatpak overrides | `flatpak override --user --reset` and `flatpak override --user --reset --filesystem=xdg-config/gtk-3.0 --filesystem=xdg-config/gtk-4.0 --filesystem=xdg-data/themes --filesystem=xdg-data/icons --filesystem=xdg-data/fonts`. |
 
-If the above reset don't work fully, run these to reset all relevant UI settings: 
+> If the above reset don't work fully, run these to reset all relevant UI settings: 
 
 ```bash
 gsettings reset org.gnome.desktop.interface gtk-theme
@@ -79,6 +90,9 @@ gsettings set org.gnome.shell.extensions.user-theme name 'Adwaita'
 gsettings set org.gnome.desktop.interface gtk-theme 'Default-pure'
 gsettings set org.gnome.shell.extensions.user-theme name 'Default-pure'
 ```
+
+# Enable fingerprint authentication besides login
+`sudo pam-auth-update` and enable **Fingerprint Authentication**.
 
 # Important search terms for NVIDIA driver and Linux Kernel packages
 `linux-generic`, `linux-headers-generic`, `linux-image-generic`, `linux-objects or linux-objects-nvidia`, `linux-modules`, `linux-header`, `linux-signatures or linux-signatures-nvidia`
