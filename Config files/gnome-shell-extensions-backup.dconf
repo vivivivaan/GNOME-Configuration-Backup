@@ -88,11 +88,11 @@ pipeline='pipeline_default_rounded'
 
 [blur-my-shell/dash-to-dock]
 blur=true
-brightness=0.59999999999999998
+brightness=0.75
 override-background=true
 pipeline='pipeline_default_rounded'
 sigma=0
-static-blur=true
+static-blur=false
 style-dash-to-dock=0
 
 [blur-my-shell/lockscreen]
@@ -254,7 +254,7 @@ running-indicator-dominant-color=false
 running-indicator-style='DOT'
 scroll-action='cycle-windows'
 scroll-to-focused-application=true
-show-apps-at-top=true
+show-apps-at-top=false
 show-mounts=false
 show-mounts-network=false
 show-mounts-only-mounted=true
@@ -363,7 +363,7 @@ clock-style=0
 customize-label=true
 customize-topbar=false
 disable-blur-at-overview=false
-dock-padding=0.82905982905982911
+dock-padding=1.0
 downloads-icon=false
 downloads-icon-rotate-labels=false
 edge-distance=1.0

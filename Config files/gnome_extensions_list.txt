@@ -208,7 +208,7 @@ tilingshell@ferrarodomenico.com
   Description: Extend Gnome Shell with advanced tiling window management. Supports multiple monitors, Windows 11 Snap Assistant, Fancy Zones, automatic tiling, keyboard shortcuts, customised tiling layouts and more!
   Path: /home/prithvi/.local/share/gnome-shell/extensions/tilingshell@ferrarodomenico.com
   URL: https://github.com/domferr/tilingshell
-  Version: 17.3 (69)
+  Version: 17.3 (71)
   Enabled: Yes
   State: ACTIVE
 
@@ -298,7 +298,7 @@ app-grid-tuner@m-lab
   Description: Tune and customize the GNOME application grid (rows, columns, icon size, padding, labels).
   Path: /home/prithvi/.local/share/gnome-shell/extensions/app-grid-tuner@m-lab
   URL: https://codeberg.org/m-lab/app-grid-tuner
-  Version: 6
+  Version: 7
   Enabled: No
   State: INITIALIZED
 
@@ -456,7 +456,7 @@ This extension uses a modular architecture for stability and customization. Some
 Disclaimer: This extension is unofficial and not affiliated with Apple in any way.
   Path: /home/prithvi/.local/share/gnome-shell/extensions/kiwi@kemma
   URL: https://github.com/kem-a/kiwi-kemma
-  Version: 1.5.2 (34)
+  Version: 1.5.3 (36)
   Enabled: No
   State: INITIALIZED
 
