@@ -15,15 +15,15 @@
 
 # Backup
 
-| Item                        |                                                                                                 Command |
-| :-------------------------- | ------------------------------------------------------------------------------------------------------: |
-| Extensions configuration    |                         `dconf dump /org/gnome/shell/extensions/ > gnome-shell-extensions-backup.dconf` |
-| System-wide configuration   |                                                    `dconf dump / > complete_gnome_saved_settings.dconf` |
-| Extensions List             |                                                  `gnome-extensions list -d > gnome_extensions_list.txt` |
-| Packages List               |                                                               `apt-mark showmanual > packages_list.txt` |
+| Item                        |                                                                                                             Command |
+| :-------------------------- | ------------------------------------------------------------------------------------------------------------------: |
+| Extensions configuration    |                                     `dconf dump /org/gnome/shell/extensions/ > gnome-shell-extensions-backup.dconf` |
+| System-wide configuration   |                                                                `dconf dump / > complete_gnome_saved_settings.dconf` |
+| Extensions List             |                                                              `gnome-extensions list -d > gnome_extensions_list.txt` |
+| Packages List               |                                                                           `apt-mark showmanual > packages_list.txt` |
 | OpenType and TrueType fonts |                               `ls /usr/local/share/fonts/opentype /usr/local/share/fonts/truetype > fonts_list.txt` |
 | Themes List                 | `ls ~/.local/share/themes/ /usr/local/share/themes/ ~/.local/share/icons /usr/local/share/icons/ > themes_list.txt` |
-| Grub Config | `sudo cp /etc/default/grub grub-defaults.backup` |
+| Grub Config                 |                                                                    `sudo cp /etc/default/grub grub-defaults.backup` |
 
 # Chromium browsers config
 
@@ -98,7 +98,7 @@ gsettings set org.gnome.shell.extensions.user-theme name 'Default-pure'
 `linux-generic`, `linux-headers-generic`, `linux-image-generic`, `linux-objects or linux-objects-nvidia`, `linux-modules`, `linux-header`, `linux-signatures or linux-signatures-nvidia`
 
 ## Common dependencies after a fresh install
-`gcc g++ git tldr curl btop btm build-essential wget ca-certificates zip unzip tree locate gnupg2 gpg binfmt-support clang clangd llvm`
+`gcc g++ git tldr curl nala btop btm build-essential wget ca-certificates zip unzip tree locate gnupg2 gpg binfmt-support clang clangd llvm aptitude`
 
 # Python Dependencies
 `liblzma-dev liblz-dev zlib1g-dev libncurses-dev libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev libsqlite3-dev libbz2-dev`
