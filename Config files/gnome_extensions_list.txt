@@ -142,7 +142,7 @@ tweaks-system-menu@extensions.gnome-shell.fifi.org
   Description: Put Gnome Tweaks, Extensions, Extension Manager and any other application in the System menu.
   Path: /home/prithvi/.local/share/gnome-shell/extensions/tweaks-system-menu@extensions.gnome-shell.fifi.org
   URL: https://github.com/F-i-f/tweaks-system-menu
-  Version: 26
+  Version: 27
   Enabled: Yes
   State: ACTIVE
 
@@ -246,10 +246,10 @@ battery-indicator-icon@Deminder
 
 night-light-slider-updated@vilsbeg.codeberg.org
   Name: Night Light Slider Updated
-  Description: Kiyui's Night Light Slider updated for GNOME 45. Provides a slider in the quick settings menu to control the night light temperature. Some nice options can be set in the extension preferences menu. For the moment the brightness sync option is removed. Original implementation: https://codeberg.org/kiyui/gnome-shell-night-light-slider-extension/
+  Description: Kiyui's Night Light Slider updated for GNOME 45. Provides a slider in the quick settings menu to control the night light temperature. Some nice options can be set in the extension preferences menu. Original implementation: https://codeberg.org/kiyui/gnome-shell-night-light-slider-extension/
   Path: /home/prithvi/.local/share/gnome-shell/extensions/night-light-slider-updated@vilsbeg.codeberg.org
   URL: https://codeberg.org/vilsbeg/night-light-slider-updated
-  Version: 14
+  Version: 15
   Enabled: Yes
   State: ACTIVE
 
@@ -269,7 +269,7 @@ rounded-window-corners@fxgn
   URL: https://github.com/flexagoon/rounded-window-corners
   Version: 14
   Enabled: No
-  State: INITIALIZED
+  State: INACTIVE
 
 dash-to-panel@jderose9.github.com
   Name: Dash to Panel
@@ -316,7 +316,7 @@ restartto@tiagoporsch.github.io
   Description: Adds a menu item to restart to any other EFI boot entry
   Path: /home/prithvi/.local/share/gnome-shell/extensions/restartto@tiagoporsch.github.io
   URL: https://github.com/tiagoporsch/restartto
-  Version: 11
+  Version: 12
   Enabled: No
   State: INITIALIZED
 
@@ -420,7 +420,7 @@ mediacontrols@cliffniff.github.com
   Description: Show controls and information of the currently playing media in the panel.
   Path: /home/prithvi/.local/share/gnome-shell/extensions/mediacontrols@cliffniff.github.com
   URL: https://github.com/cliffniff/media-controls
-  Version: 2.4.2 (45)
+  Version: 2.4.4 (47)
   Enabled: No
   State: INITIALIZED
 
@@ -511,7 +511,7 @@ vertical-app-grid@lublst.github.io
   Description: Turns the default horizontal app grid into a vertical one
   Path: /home/prithvi/.local/share/gnome-shell/extensions/vertical-app-grid@lublst.github.io
   URL: https://github.com/lublst/gnome-vertical-app-grid
-  Version: 5
+  Version: 6
   Enabled: No
   State: INITIALIZED
 
@@ -521,8 +521,8 @@ pomodoro@youcefzaid.github.io
   Path: /home/prithvi/.local/share/gnome-shell/extensions/pomodoro@youcefzaid.github.io
   URL: https://github.com/youcefzaid/gnome-pomodoro-extension
   Version: 2
-  Enabled: No
-  State: INITIALIZED
+  Enabled: Yes
+  State: ACTIVE
 
 Rounded_Corners@lennart-k
   Name: Rounded Corners
@@ -538,15 +538,16 @@ all-in-one-clipboard@NiffirgkcaJ.github.com
   Description: A powerful clipboard manager that combines your clipboard history, emojis, GIFs, kaomojis, and symbols into a single, searchable interface.
 
 External Services:
-• Tenor & Imgur - GIF search and browsing
+• Klipy & Tenor - GIF search and browsing
 • Google S2 Favicons - Favicon fallback for URLs
+• Cloudflare Workers - API key storage
 
 Extension Homepage:
 https://github.com/NiffirgkcaJ/all-in-one-clipboard
 https://gitlab.com/NiffirgkcaJ/all-in-one-clipboard
   Path: /home/prithvi/.local/share/gnome-shell/extensions/all-in-one-clipboard@NiffirgkcaJ.github.com
   URL: https://github.com/NiffirgkcaJ/all-in-one-clipboard
-  Version: 15
+  Version: 19
   Enabled: No
   State: INITIALIZED
 
@@ -593,7 +594,7 @@ dash-to-dock@micxgx.gmail.com
   Path: /home/prithvi/.local/share/gnome-shell/extensions/dash-to-dock@micxgx.gmail.com
   URL: https://micheleg.github.io/dash-to-dock/
   Original author: micxgx@gmail.com
-  Version: 102
+  Version: 103
   Enabled: No
   State: INITIALIZED
 

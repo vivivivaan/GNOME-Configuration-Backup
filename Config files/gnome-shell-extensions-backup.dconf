@@ -233,7 +233,7 @@ custom-theme-running-dots-border-color='rgb(255,255,255)'
 custom-theme-running-dots-color='rgb(255,255,255)'
 custom-theme-shrink=false
 customize-alphas=true
-dash-max-icon-size=42
+dash-max-icon-size=40
 disable-overview-on-startup=true
 dock-fixed=false
 dock-position='BOTTOM'
@@ -471,7 +471,7 @@ enable-app-window-buttons=true
 show-window-controls=false
 
 [lennart-k/rounded_corners]
-corner-radius=4
+corner-radius=11
 
 [mediacontrols]
 colored-player-icon=true
@@ -605,6 +605,7 @@ toggle-tiling-popup=@as []
 
 [tilingshell]
 cycle-layouts-backward=['<Shift>']
+edge-tiling-mode='default'
 enable-autotiling=false
 enable-smart-window-border-radius=false
 enable-window-border=false
