@@ -92,7 +92,7 @@ brightness=0.75
 override-background=true
 pipeline='pipeline_default_rounded'
 sigma=0
-static-blur=false
+static-blur=true
 style-dash-to-dock=0
 
 [blur-my-shell/lockscreen]

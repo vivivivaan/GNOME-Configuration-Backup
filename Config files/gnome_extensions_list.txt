@@ -268,8 +268,8 @@ rounded-window-corners@fxgn
   Path: /home/prithvi/.local/share/gnome-shell/extensions/rounded-window-corners@fxgn
   URL: https://github.com/flexagoon/rounded-window-corners
   Version: 14
-  Enabled: No
-  State: INACTIVE
+  Enabled: Yes
+  State: ACTIVE
 
 dash-to-panel@jderose9.github.com
   Name: Dash to Panel
@@ -456,7 +456,7 @@ This extension uses a modular architecture for stability and customization. Some
 Disclaimer: This extension is unofficial and not affiliated with Apple in any way.
   Path: /home/prithvi/.local/share/gnome-shell/extensions/kiwi@kemma
   URL: https://github.com/kem-a/kiwi-kemma
-  Version: 1.5.3 (36)
+  Version: 1.5.5 (41)
   Enabled: No
   State: INITIALIZED
 
