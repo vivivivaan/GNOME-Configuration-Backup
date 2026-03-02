@@ -197,16 +197,16 @@ window-size=(976, 658)
 
 [org/gnome/clocks]
 timers=@aa{sv} []
-world-clocks=[{'location': <(uint32 2, <('Hyderabad', 'VOHY', true, [(0.30455995447301049, 1.3695016922159813)], [(0.30325580954933529, 1.3696374264719091)])>)>}, {'location': <(uint32 2, <('San Francisco', 'KOAK', false, [(0.65832848982162007, -2.133408063190589)], [(0.65832848982162007, -2.133408063190589)])>)>}, {'location': <(uint32 2, <('New York', 'KNYC', true, [(0.71180344078725644, -1.2909618758762367)], [(0.71059804659265924, -1.2916478949920254)])>)>}, {'location': <(uint32 2, <('Chicago', 'KMDW', true, [(0.72927128935316143, -1.5316185371029443)], [(0.73042086791828009, -1.529781996944241)])>)>}]
+world-clocks=[{'location': <(uint32 2, <('Hyderabad', 'VOHY', true, [(0.30455995447301049, 1.3695016922159813)], [(0.30325580954933529, 1.3696374264719091)])>)>}, {'location': <(uint32 2, <('San Francisco', 'KOAK', false, [(0.65832848982162007, -2.133408063190589)], [(0.65832848982162007, -2.133408063190589)])>)>}, {'location': <(uint32 2, <('New York', 'KNYC', true, [(0.71180344078725644, -1.2909618758762367)], [(0.71059804659265924, -1.2916478949920254)])>)>}, {'location': <(uint32 2, <('Chicago', 'KMDW', true, [(0.72927128935316143, -1.5316185371029443)], [(0.73042086791828009, -1.529781996944241)])>)>}, {'location': <(uint32 2, <('Busan', 'RKPK', true, [(0.61406500267557407, 2.2503111764202584)], [(0.61265905269663001, 2.2521777187888032)])>)>}]
 
 [org/gnome/clocks/state/window]
 maximized=false
 panel-id='world'
-size=(467, 444)
+size=(467, 413)
 
 [org/gnome/control-center]
-last-panel='wifi'
-window-state=(969, 718, false)
+last-panel='sharing'
+window-state=(969, 718, true)
 
 [org/gnome/deja-dup]
 backend='drive'
@@ -345,7 +345,7 @@ clock-show-weekday=true
 color-scheme='prefer-dark'
 cursor-blink=true
 cursor-blink-time=676
-cursor-theme='Bibata-Modern-Ice-Right'
+cursor-theme='Bibata-Modern-Ice'
 document-font-name='Adwaita Sans 10'
 enable-animations=true
 enable-hot-corners=false
@@ -840,7 +840,7 @@ show-delete-permanently=true
 [org/gnome/nautilus/window-state]
 initial-size=(1237, 767)
 initial-size-file-chooser=(1242, 728)
-maximized=true
+maximized=false
 
 [org/gnome/nm-applet/eap/16bf7481-6b91-4cea-abc0-242279568b55]
 ignore-ca-cert=false
@@ -870,7 +870,7 @@ sizing-mode='free'
 window-height=1048
 window-maximized=true
 window-width=971
-zoom=0.88091909512430056
+zoom=0.47845786165037191
 
 [org/gnome/pomodoro/plugins/actions]
 actions-list=@as []
@@ -1774,7 +1774,7 @@ invert-scroll=true
 toggle-quick-settings=['<Super>q']
 
 [org/gnome/shell/world-clocks]
-locations=[<(uint32 2, <('Hyderabad', 'VOHY', true, [(0.30455995447301049, 1.3695016922159813)], [(0.30325580954933529, 1.3696374264719091)])>)>, <(uint32 2, <('San Francisco', 'KOAK', false, [(0.65832848982162007, -2.133408063190589)], [(0.65832848982162007, -2.133408063190589)])>)>, <(uint32 2, <('New York', 'KNYC', true, [(0.71180344078725644, -1.2909618758762367)], [(0.71059804659265924, -1.2916478949920254)])>)>, <(uint32 2, <('Chicago', 'KMDW', true, [(0.72927128935316143, -1.5316185371029443)], [(0.73042086791828009, -1.529781996944241)])>)>]
+locations=[<(uint32 2, <('Hyderabad', 'VOHY', true, [(0.30455995447301049, 1.3695016922159813)], [(0.30325580954933529, 1.3696374264719091)])>)>, <(uint32 2, <('San Francisco', 'KOAK', false, [(0.65832848982162007, -2.133408063190589)], [(0.65832848982162007, -2.133408063190589)])>)>, <(uint32 2, <('New York', 'KNYC', true, [(0.71180344078725644, -1.2909618758762367)], [(0.71059804659265924, -1.2916478949920254)])>)>, <(uint32 2, <('Chicago', 'KMDW', true, [(0.72927128935316143, -1.5316185371029443)], [(0.73042086791828009, -1.529781996944241)])>)>, <(uint32 2, <('Busan', 'RKPK', true, [(0.61406500267557407, 2.2503111764202584)], [(0.61265905269663001, 2.2521777187888032)])>)>]
 
 [org/gnome/shotwell/preferences/ui]
 display-basic-properties=true
