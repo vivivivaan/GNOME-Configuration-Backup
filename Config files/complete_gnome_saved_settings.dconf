@@ -25,11 +25,11 @@ width=709
 
 [apps/update-manager]
 first-run=false
-launch-count=115
-launch-time=int64 1771913581
+launch-count=116
+launch-time=int64 1772560256
 show-details=true
-window-height=734
-window-width=736
+window-height=279
+window-width=525
 
 [ca/desrt/dconf-editor]
 saved-pathbar-path='/org/gnome/shell/extensions/dash-to-dock/activate-single-window'
@@ -205,8 +205,8 @@ panel-id='world'
 size=(467, 413)
 
 [org/gnome/control-center]
-last-panel='sharing'
-window-state=(969, 718, true)
+last-panel='wifi'
+window-state=(969, 718, false)
 
 [org/gnome/deja-dup]
 backend='drive'
@@ -660,7 +660,7 @@ window-height=743
 window-width=1397
 
 [org/gnome/firmware]
-report-device-list-timestamp=int64 1768218510
+report-device-list-timestamp=int64 1772560192
 
 [org/gnome/gedit/plugins]
 active-plugins=['spell', 'filebrowser', 'terminal', 'textsize', 'multiedit', 'colorpicker', 'bracketcompletion', 'sort', 'quickhighlight', 'time', 'bookmarks', 'docinfo']
@@ -861,16 +861,16 @@ night-mode=false
 [org/gnome/papers/default]
 annot-color='yellow'
 continuous=true
-dual-page=false
+dual-page=true
 dual-page-odd-left=true
 enable-spellchecking=true
-show-sidebar=true
+show-sidebar=false
 sidebar-page='links'
 sizing-mode='free'
 window-height=1048
 window-maximized=true
 window-width=971
-zoom=0.47845786165037191
+zoom=0.40003357240810705
 
 [org/gnome/pomodoro/plugins/actions]
 actions-list=@as []
@@ -958,7 +958,7 @@ last-folder-path='/home/prithvi'
 last-folder-path='/home/prithvi/Documents/Letters (Letters from App)'
 
 [org/gnome/portal/filechooser/org.chromium.Chromium]
-last-folder-path='/home/prithvi/micromamba/envs/SE4DS'
+last-folder-path='/home/prithvi/Downloads/MDM TS'
 
 [org/gnome/portal/filechooser/org.fedoraproject.MediaWriter]
 last-folder-path='/home/prithvi/Downloads'
