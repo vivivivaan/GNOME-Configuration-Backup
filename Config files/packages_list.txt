@@ -145,6 +145,7 @@ linuxinfo
 locate
 m17n-db
 meson
+mise
 mtools
 mythes-en-au
 mythes-en-us

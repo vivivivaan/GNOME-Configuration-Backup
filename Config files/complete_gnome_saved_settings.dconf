@@ -25,10 +25,10 @@ width=709
 
 [apps/update-manager]
 first-run=false
-launch-count=116
-launch-time=int64 1772560256
+launch-count=118
+launch-time=int64 1772994379
 show-details=true
-window-height=279
+window-height=378
 window-width=525
 
 [ca/desrt/dconf-editor]
@@ -58,7 +58,7 @@ window-size=(1195, 712)
 window-size=(675, 500)
 
 [com/github/johnfactotum/Foliate]
-color-scheme=1
+color-scheme=0
 
 [com/github/johnfactotum/Foliate/viewer]
 fold-sidebar=false
@@ -182,11 +182,11 @@ window-size=(960, 600)
 
 [org/gnome/calculator]
 base=10
-button-mode='basic'
-source-currency='GBP'
-source-units='millimeter'
-target-currency='INR'
-target-units='inch'
+button-mode='conversion'
+source-currency='USD'
+source-units='USD'
+target-currency='GBP'
+target-units='GBP'
 window-maximized=false
 window-size=(360, 616)
 
@@ -206,7 +206,7 @@ size=(467, 413)
 
 [org/gnome/control-center]
 last-panel='wifi'
-window-state=(969, 718, false)
+window-state=(1010, 805, false)
 
 [org/gnome/deja-dup]
 backend='drive'
@@ -261,7 +261,7 @@ name='Media'
 translate=false
 
 [org/gnome/desktop/app-folders/folders/78c5c448-9755-4b1f-b921-1fa5935ead6b]
-apps=['simple-scan.desktop', 'org.gnome.Papers.desktop', 'com.github.johnfactotum.Foliate.desktop', 'libreoffice-startcenter.desktop', 'libreoffice-calc.desktop', 'libreoffice-draw.desktop', 'libreoffice-impress.desktop', 'libreoffice-math.desktop', 'libreoffice-writer.desktop']
+apps=['simple-scan.desktop', 'org.gnome.Papers.desktop', 'com.github.johnfactotum.Foliate.desktop', 'libreoffice-startcenter.desktop', 'libreoffice-calc.desktop', 'libreoffice-draw.desktop', 'libreoffice-impress.desktop', 'libreoffice-math.desktop', 'libreoffice-writer.desktop', 'org.kde.okular.desktop']
 name='Office'
 translate=false
 
@@ -346,7 +346,7 @@ color-scheme='prefer-dark'
 cursor-blink=true
 cursor-blink-time=676
 cursor-theme='Bibata-Modern-Ice'
-document-font-name='Adwaita Sans 10'
+document-font-name='Arial 10'
 enable-animations=true
 enable-hot-corners=false
 font-antialiasing='rgba'
@@ -494,7 +494,7 @@ application-id='update-manager.desktop'
 application-id='windscribe.desktop'
 
 [org/gnome/desktop/peripherals/keyboard]
-numlock-state=true
+numlock-state=false
 
 [org/gnome/desktop/peripherals/mouse]
 double-click=253
@@ -693,7 +693,7 @@ side-panel-size=200
 width=1011
 
 [org/gnome/gnome-system-monitor]
-current-tab='processes'
+current-tab='resources'
 maximized=false
 resources-cpu-expanded=true
 resources-disk-expanded=true
@@ -839,7 +839,7 @@ show-delete-permanently=true
 
 [org/gnome/nautilus/window-state]
 initial-size=(1237, 767)
-initial-size-file-chooser=(1242, 728)
+initial-size-file-chooser=(1232, 774)
 maximized=false
 
 [org/gnome/nm-applet/eap/16bf7481-6b91-4cea-abc0-242279568b55]
@@ -870,7 +870,7 @@ sizing-mode='free'
 window-height=1048
 window-maximized=true
 window-width=971
-zoom=0.40003357240810705
+zoom=0.40846222026576906
 
 [org/gnome/pomodoro/plugins/actions]
 actions-list=@as []
@@ -919,7 +919,7 @@ last-folder-path='/home/prithvi/Pictures/mypics'
 last-folder-path='/home/prithvi/Music'
 
 [org/gnome/portal/filechooser/com.google.Chrome]
-last-folder-path='/home/prithvi/Downloads'
+last-folder-path='/home/prithvi'
 
 [org/gnome/portal/filechooser/com.notesnook.Notesnook]
 last-folder-path='/home/prithvi'
@@ -958,7 +958,7 @@ last-folder-path='/home/prithvi'
 last-folder-path='/home/prithvi/Documents/Letters (Letters from App)'
 
 [org/gnome/portal/filechooser/org.chromium.Chromium]
-last-folder-path='/home/prithvi/Downloads/MDM TS'
+last-folder-path='/home/prithvi/Downloads'
 
 [org/gnome/portal/filechooser/org.fedoraproject.MediaWriter]
 last-folder-path='/home/prithvi/Downloads'
@@ -1061,7 +1061,7 @@ night-light-enabled=false
 night-light-schedule-automatic=false
 night-light-schedule-from=0.0
 night-light-schedule-to=0.0
-night-light-temperature=uint32 4443
+night-light-temperature=uint32 3680
 
 [org/gnome/settings-daemon/plugins/media-keys]
 control-center=['<Super>i']
@@ -1098,7 +1098,7 @@ sleep-inactive-ac-type='nothing'
 enabled-connections=@as []
 
 [org/gnome/shell]
-app-picker-layout=[{'d16e2496-eedd-4088-ba5f-c39f0c9fd16d': <{'position': <0>}>, 'c328565c-de8e-4850-99c6-9a753c0b9d22': <{'position': <1>}>, 'f720d708-b404-45e1-8674-5f1222817691': <{'position': <2>}>, '95876710-5963-4eb5-8152-6b9f5a9b7f6e': <{'position': <3>}>, 'com.github.neithern.g4music.desktop': <{'position': <4>}>, '502ef2d5-ef9c-418c-bc01-3295be2c0d7d': <{'position': <5>}>, 'org.kde.kate.desktop': <{'position': <6>}>, 'org.localsend.localsend_app.desktop': <{'position': <7>}>, '54c8bdb9-745d-4b5c-a532-de342a780c2e': <{'position': <8>}>, 'com.notesnook.Notesnook.desktop': <{'position': <9>}>, '78c5c448-9755-4b1f-b921-1fa5935ead6b': <{'position': <10>}>, 'com.github.marhkb.Pods.desktop': <{'position': <11>}>, 'spotify.desktop': <{'position': <12>}>, 'System': <{'position': <13>}>, 'org.telegram.desktop._3e485da34fc040f9218e3891ecde1e6c.desktop': <{'position': <14>}>, '3a28c18d-367b-4d9d-8420-124bfec133cc': <{'position': <15>}>, 'io.github.flattool.Warehouse.desktop': <{'position': <16>}>, 'windscribe.desktop': <{'position': <17>}>}]
+app-picker-layout=[{'d16e2496-eedd-4088-ba5f-c39f0c9fd16d': <{'position': <0>}>, 'c328565c-de8e-4850-99c6-9a753c0b9d22': <{'position': <1>}>, 'f720d708-b404-45e1-8674-5f1222817691': <{'position': <2>}>, '95876710-5963-4eb5-8152-6b9f5a9b7f6e': <{'position': <3>}>, 'com.github.neithern.g4music.desktop': <{'position': <4>}>, '502ef2d5-ef9c-418c-bc01-3295be2c0d7d': <{'position': <5>}>, 'org.kde.kate.desktop': <{'position': <6>}>, '54c8bdb9-745d-4b5c-a532-de342a780c2e': <{'position': <7>}>, 'com.notesnook.Notesnook.desktop': <{'position': <8>}>, '78c5c448-9755-4b1f-b921-1fa5935ead6b': <{'position': <9>}>, 'com.github.marhkb.Pods.desktop': <{'position': <10>}>, 'chrome-gfgbgjphjkdhefmnmbhogcpckgpapbag-Default.desktop': <{'position': <11>}>, 'spotify.desktop': <{'position': <12>}>, 'System': <{'position': <13>}>, 'org.telegram.desktop._3e485da34fc040f9218e3891ecde1e6c.desktop': <{'position': <14>}>, '3a28c18d-367b-4d9d-8420-124bfec133cc': <{'position': <15>}>, 'io.github.flattool.Warehouse.desktop': <{'position': <16>}>, 'windscribe.desktop': <{'position': <17>}>}]
 command-history=['r', 'lg', 'echo $XDG_SESSION_TYPE']
 disable-user-extensions=false
 disabled-extensions=['notification-timeout@chlumskyvaclav.gmail.com', 'monitor@astraext.github.io', 'just_shows_memory_usage@troizet.github.com', 'snapd-prompting@canonical.com', 'applications-overview-tooltip@RaphaelRochet', 'hidetopbar@mathieu.bidon.ca', 'all-in-one-clipboard@NiffirgkcaJ.github.com', 'volume_scroller@francislavoie.github.io', 'dash-to-panel@jderose9.github.com', 'restartto@tiagoporsch.github.io', 'aztaskbar@aztaskbar.gitlab.com', 'clipboard-indicator@tudmotu.com', 'mediacontrols@cliffniff.github.com', 'dropbeat@romanlefler.com', 'kiwi@kemma', 'pomodoro@zhuravkovigor.dev', 'focuslock@kavinda', 'clipmaster@gnome.extension', 'appgridbuttonintoppanel@raphaelian', 'timeFromStart@pic16f877ccs.github.com', 'mute-unmute@mcast.gnomext.com', '1440@ravener.github.com', 'vertical-app-grid@lublst.github.io', 'app-grid-tuner@m-lab', 'dash-to-dock@micxgx.gmail.com', 'ding@rastersoft.com', 'day-progress@arcaege.github.io', 'dash2dock-lite@icedman.github.com', 'Rounded_Corners@lennart-k']
