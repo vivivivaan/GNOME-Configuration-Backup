@@ -25,10 +25,10 @@ width=709
 
 [apps/update-manager]
 first-run=false
-launch-count=121
-launch-time=int64 1773065188
+launch-count=122
+launch-time=int64 1773226445
 show-details=true
-window-height=378
+window-height=375
 window-width=525
 
 [ca/desrt/dconf-editor]
@@ -104,7 +104,7 @@ volume=1.0
 
 [com/ubuntu/update-notifier]
 regular-auto-launch-interval=0
-release-check-time=uint32 1772008300
+release-check-time=uint32 1773226266
 
 [org/fedorahosted/background-logo-extension]
 logo-always-visible=true
@@ -119,7 +119,7 @@ logo-size=8.1645569620253156
 index-recursive-directories=['&DESKTOP', '&DOCUMENTS', '&MUSIC', '&PICTURES', '&VIDEOS', '/home/earthora/Wallpapers']
 
 [org/gnome/Characters]
-recent-characters=['🔥', '🐱', '🤞', '🗝️', '😭', '💁\u200d♂️', '🌚', '🙇', '🤞🏼', '😆', '😂', '🥂', '🌃', '✴️', '💫']
+recent-characters=['🤔', '🔥', '🐱', '🤞', '🗝️', '😭', '💁\u200d♂️', '🌚', '🙇', '🤞🏼', '😆', '😂', '🥂', '🌃', '✴️', '💫']
 
 [org/gnome/Geary]
 migrated-config=true
@@ -861,7 +861,7 @@ night-mode=false
 [org/gnome/papers/default]
 annot-color='yellow'
 continuous=true
-dual-page=true
+dual-page=false
 dual-page-odd-left=true
 enable-spellchecking=true
 show-sidebar=true
@@ -919,7 +919,7 @@ last-folder-path='/home/prithvi/Pictures/mypics'
 last-folder-path='/home/prithvi/Music'
 
 [org/gnome/portal/filechooser/com.google.Chrome]
-last-folder-path='/home/prithvi'
+last-folder-path='/home/prithvi/Downloads'
 
 [org/gnome/portal/filechooser/com.notesnook.Notesnook]
 last-folder-path='/home/prithvi'
@@ -1276,7 +1276,7 @@ clipboard-size=425
 disable-hljs-dialog=false
 dynamic-item-height=true
 header-controls-visibility='visible'
-history-length=180
+history-length=200
 in-memory-database=false
 incognito=false
 send-notification=true
@@ -1726,7 +1726,7 @@ last-version-name-installed='17.0'
 layouts-json='[{"id":"Layout 1","tiles":[{"x":0,"y":0,"width":0.22,"height":0.5,"groups":[1,2]},{"x":0,"y":0.5,"width":0.22,"height":0.5,"groups":[1,2]},{"x":0.22,"y":0,"width":0.56,"height":1,"groups":[2,3]},{"x":0.78,"y":0,"width":0.22,"height":0.5,"groups":[3,4]},{"x":0.78,"y":0.5,"width":0.22,"height":0.5,"groups":[3,4]}]},{"id":"Layout 2","tiles":[{"x":0,"y":0,"width":0.22,"height":1,"groups":[1]},{"x":0.22,"y":0,"width":0.56,"height":1,"groups":[1,2]},{"x":0.78,"y":0,"width":0.22,"height":1,"groups":[2]}]},{"id":"Layout 3","tiles":[{"x":0,"y":0,"width":0.33,"height":1,"groups":[1]},{"x":0.33,"y":0,"width":0.67,"height":1,"groups":[1]}]},{"id":"Layout 4","tiles":[{"x":0,"y":0,"width":0.67,"height":1,"groups":[1]},{"x":0.67,"y":0,"width":0.33,"height":1,"groups":[1]}]},{"id":"1130647","tiles":[{"x":0,"y":0,"width":0.3333333333333333,"height":1,"groups":[1]},{"x":0.3333333333333333,"y":0,"width":0.3333333333333333,"height":1,"groups":[2,1]},{"x":0.6666666666666666,"y":0,"width":0.3333333333333344,"height":1,"groups":[2]}]},{"id":"1188443","tiles":[{"x":0,"y":0,"width":0.5,"height":1,"groups":[1]},{"x":0.5,"y":0,"width":0.49999999999999994,"height":1,"groups":[1]}]}]'
 outer-gaps=uint32 0
 overridden-settings='{"org.gnome.mutter.keybindings":{"toggle-tiled-right":"@as []","toggle-tiled-left":"@as []"},"org.gnome.desktop.wm.keybindings":{"maximize":"@as []","unmaximize":"@as []"},"org.gnome.mutter":{"edge-tiling":"false"}}'
-selected-layouts=[['Layout 1'], ['Layout 1']]
+selected-layouts=[['Layout 1'], ['Layout 1'], ['Layout 1']]
 show-indicator=false
 snap-assistant-threshold=25
 window-border-color='rgb(192,191,188)'
