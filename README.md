@@ -15,6 +15,8 @@
 
 # Backup
 
+You can simply use the `backup.sh` script for backup or do it manually as shown in the table below.
+
 | Item                        |                                                                                                             Command |
 | :-------------------------- | ------------------------------------------------------------------------------------------------------------------: |
 | Extensions configuration    |                                     `dconf dump /org/gnome/shell/extensions/ > gnome-shell-extensions-backup.dconf` |
