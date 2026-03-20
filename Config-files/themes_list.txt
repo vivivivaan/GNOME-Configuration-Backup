@@ -79,3 +79,4 @@ MacTahoe-Dark-alt-blue-nord-xhdpi
 MacTahoe-Dark-solid-alt-blue-nord
 MacTahoe-Dark-solid-alt-blue-nord-hdpi
 MacTahoe-Dark-solid-alt-blue-nord-xhdpi
+default-pure

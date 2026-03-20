@@ -25,10 +25,10 @@ width=709
 
 [apps/update-manager]
 first-run=false
-launch-count=122
-launch-time=int64 1773226445
+launch-count=125
+launch-time=int64 1773988406
 show-details=true
-window-height=375
+window-height=393
 window-width=525
 
 [ca/desrt/dconf-editor]
@@ -119,7 +119,7 @@ logo-size=8.1645569620253156
 index-recursive-directories=['&DESKTOP', '&DOCUMENTS', '&MUSIC', '&PICTURES', '&VIDEOS', '/home/earthora/Wallpapers']
 
 [org/gnome/Characters]
-recent-characters=['🤔', '🔥', '🐱', '🤞', '🗝️', '😭', '💁\u200d♂️', '🌚', '🙇', '🤞🏼', '😆', '😂', '🥂', '🌃', '✴️', '💫']
+recent-characters=['😊', '🥰', '😍', '😁', '😉', '👀', '🤩', '🤔', '🔥', '🐱', '🤞', '🗝️', '😭', '💁\u200d♂️', '🌚', '🙇', '🤞🏼', '😆', '😂', '🥂', '🌃', '✴️', '💫']
 
 [org/gnome/Geary]
 migrated-config=true
@@ -160,7 +160,7 @@ is-maximized=true
 
 [org/gnome/Snapshot]
 countdown=3
-is-maximized=false
+is-maximized=true
 show-composition-guidelines=true
 window-height=640
 window-width=800
@@ -168,6 +168,7 @@ window-width=800
 [org/gnome/TextEditor]
 custom-font='Sono Proportional 12'
 last-save-directory='file:///media/prithvi/5A6CDBF36CDBC841'
+right-margin-position=uint32 140
 show-line-numbers=true
 show-map=true
 style-scheme='Adwaita-dark'
@@ -198,16 +199,16 @@ window-size=(976, 658)
 
 [org/gnome/clocks]
 timers=@aa{sv} []
-world-clocks=[{'location': <(uint32 2, <('Hyderabad', 'VOHY', true, [(0.30455995447301049, 1.3695016922159813)], [(0.30325580954933529, 1.3696374264719091)])>)>}, {'location': <(uint32 2, <('San Francisco', 'KOAK', false, [(0.65832848982162007, -2.133408063190589)], [(0.65832848982162007, -2.133408063190589)])>)>}, {'location': <(uint32 2, <('New York', 'KNYC', true, [(0.71180344078725644, -1.2909618758762367)], [(0.71059804659265924, -1.2916478949920254)])>)>}, {'location': <(uint32 2, <('Chicago', 'KMDW', true, [(0.72927128935316143, -1.5316185371029443)], [(0.73042086791828009, -1.529781996944241)])>)>}, {'location': <(uint32 2, <('Busan', 'RKPK', true, [(0.61406500267557407, 2.2503111764202584)], [(0.61265905269663001, 2.2521777187888032)])>)>}]
+world-clocks=[{'location': <(uint32 2, <('Hyderabad', 'VOHY', true, [(0.30455995447301049, 1.3695016922159813)], [(0.30325580954933529, 1.3696374264719091)])>)>}, {'location': <(uint32 2, <('San Francisco', 'KOAK', false, [(0.65832848982162007, -2.133408063190589)], [(0.65832848982162007, -2.133408063190589)])>)>}, {'location': <(uint32 2, <('New York', 'KNYC', true, [(0.71180344078725644, -1.2909618758762367)], [(0.71059804659265924, -1.2916478949920254)])>)>}, {'location': <(uint32 2, <('Chicago', 'KMDW', true, [(0.72927128935316143, -1.5316185371029443)], [(0.73042086791828009, -1.529781996944241)])>)>}, {'location': <(uint32 2, <('Seoul', 'RKSS', true, [(0.65537113412387071, 2.2130774915288098)], [(0.65565717613498009, 2.2165632980174781)])>)>}]
 
 [org/gnome/clocks/state/window]
 maximized=false
 panel-id='world'
-size=(467, 413)
+size=(429, 480)
 
 [org/gnome/control-center]
-last-panel='wifi'
-window-state=(1010, 805, false)
+last-panel='display'
+window-state=(1010, 778, false)
 
 [org/gnome/deja-dup]
 backend='drive'
@@ -346,7 +347,7 @@ clock-show-weekday=true
 color-scheme='prefer-dark'
 cursor-blink=true
 cursor-blink-time=676
-cursor-theme='Bibata-Modern-Ice'
+cursor-theme='WhiteSur-cursors'
 document-font-name='Arial 10'
 enable-animations=true
 enable-hot-corners=false
@@ -868,10 +869,10 @@ enable-spellchecking=true
 show-sidebar=true
 sidebar-page='links'
 sizing-mode='free'
-window-height=1048
+window-height=844
 window-maximized=true
-window-width=971
-zoom=0.83333333333333337
+window-width=1248
+zoom=0.63021387940867557
 
 [org/gnome/pomodoro/plugins/actions]
 actions-list=@as []
@@ -920,7 +921,7 @@ last-folder-path='/home/prithvi/Pictures/mypics'
 last-folder-path='/home/prithvi/Music'
 
 [org/gnome/portal/filechooser/com.google.Chrome]
-last-folder-path='/home/prithvi/Downloads'
+last-folder-path='/home/prithvi'
 
 [org/gnome/portal/filechooser/com.notesnook.Notesnook]
 last-folder-path='/home/prithvi'
@@ -959,7 +960,7 @@ last-folder-path='/home/prithvi'
 last-folder-path='/home/prithvi/Documents/Letters (Letters from App)'
 
 [org/gnome/portal/filechooser/org.chromium.Chromium]
-last-folder-path='/home/prithvi/Downloads'
+last-folder-path='/home/prithvi/Workspace/Modern-DevOps-Practices-2e'
 
 [org/gnome/portal/filechooser/org.fedoraproject.MediaWriter]
 last-folder-path='/home/prithvi/Downloads'
@@ -1775,7 +1776,7 @@ invert-scroll=true
 toggle-quick-settings=['<Super>q']
 
 [org/gnome/shell/world-clocks]
-locations=[<(uint32 2, <('Hyderabad', 'VOHY', true, [(0.30455995447301049, 1.3695016922159813)], [(0.30325580954933529, 1.3696374264719091)])>)>, <(uint32 2, <('San Francisco', 'KOAK', false, [(0.65832848982162007, -2.133408063190589)], [(0.65832848982162007, -2.133408063190589)])>)>, <(uint32 2, <('New York', 'KNYC', true, [(0.71180344078725644, -1.2909618758762367)], [(0.71059804659265924, -1.2916478949920254)])>)>, <(uint32 2, <('Chicago', 'KMDW', true, [(0.72927128935316143, -1.5316185371029443)], [(0.73042086791828009, -1.529781996944241)])>)>, <(uint32 2, <('Busan', 'RKPK', true, [(0.61406500267557407, 2.2503111764202584)], [(0.61265905269663001, 2.2521777187888032)])>)>]
+locations=[<(uint32 2, <('Hyderabad', 'VOHY', true, [(0.30455995447301049, 1.3695016922159813)], [(0.30325580954933529, 1.3696374264719091)])>)>, <(uint32 2, <('San Francisco', 'KOAK', false, [(0.65832848982162007, -2.133408063190589)], [(0.65832848982162007, -2.133408063190589)])>)>, <(uint32 2, <('New York', 'KNYC', true, [(0.71180344078725644, -1.2909618758762367)], [(0.71059804659265924, -1.2916478949920254)])>)>, <(uint32 2, <('Chicago', 'KMDW', true, [(0.72927128935316143, -1.5316185371029443)], [(0.73042086791828009, -1.529781996944241)])>)>, <(uint32 2, <('Seoul', 'RKSS', true, [(0.65537113412387071, 2.2130774915288098)], [(0.65565717613498009, 2.2165632980174781)])>)>]
 
 [org/gnome/shotwell/preferences/ui]
 display-basic-properties=true

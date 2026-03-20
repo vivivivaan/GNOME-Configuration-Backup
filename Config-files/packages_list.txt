@@ -169,7 +169,6 @@ sassc
 seahorse
 seahorse-nautilus
 shim-signed
-spotify-client
 synaptic
 tealdeer
 tlp

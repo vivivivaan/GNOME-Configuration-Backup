@@ -316,7 +316,7 @@ restartto@tiagoporsch.github.io
   Description: Adds a menu item to restart to any other EFI boot entry
   Path: /home/prithvi/.local/share/gnome-shell/extensions/restartto@tiagoporsch.github.io
   URL: https://github.com/tiagoporsch/restartto
-  Version: 12
+  Version: 13
   Enabled: No
   State: INITIALIZED
 
