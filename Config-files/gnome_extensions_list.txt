@@ -59,7 +59,7 @@ osd-volume-number@deminder
   Description: Replace the on-screen-display volume level icon with a number.
   Path: /home/prithvi/.local/share/gnome-shell/extensions/osd-volume-number@deminder
   URL: https://github.com/Deminder/osd-volume-number
-  Version: 13
+  Version: 14
   Enabled: Yes
   State: ACTIVE
 
@@ -181,7 +181,7 @@ Vitals@CoreCoding.com
   Description: A glimpse into your computer's temperature, voltage, fan speed, memory usage, processor load, system resources, network speed and storage stats. This is a one stop shop to monitor all of your vital sensors. Uses asynchronous polling to provide a smooth user experience. Feature requests or bugs? Please use GitHub.
   Path: /home/prithvi/.local/share/gnome-shell/extensions/Vitals@CoreCoding.com
   URL: https://github.com/corecoding/Vitals
-  Version: 73
+  Version: 74
   Enabled: Yes
   State: ACTIVE
 
@@ -240,7 +240,7 @@ battery-indicator-icon@Deminder
   Description: Replace the battery indicator icon with a circle or portrait.
   Path: /home/prithvi/.local/share/gnome-shell/extensions/battery-indicator-icon@Deminder
   URL: https://github.com/Deminder/battery-indicator-icon
-  Version: 17
+  Version: 18
   Enabled: Yes
   State: ACTIVE
 
@@ -249,7 +249,7 @@ night-light-slider-updated@vilsbeg.codeberg.org
   Description: Kiyui's Night Light Slider updated for GNOME 45. Provides a slider in the quick settings menu to control the night light temperature. Some nice options can be set in the extension preferences menu. Original implementation: https://codeberg.org/kiyui/gnome-shell-night-light-slider-extension/
   Path: /home/prithvi/.local/share/gnome-shell/extensions/night-light-slider-updated@vilsbeg.codeberg.org
   URL: https://codeberg.org/vilsbeg/night-light-slider-updated
-  Version: 15
+  Version: 16
   Enabled: Yes
   State: ACTIVE
 
@@ -258,7 +258,7 @@ reboottouefi@ubaygd.com
   Description: Reboot system into UEFI
   Path: /home/prithvi/.local/share/gnome-shell/extensions/reboottouefi@ubaygd.com
   URL: https://github.com/UbayGD/reboottouefi
-  Version: 25
+  Version: 26
   Enabled: Yes
   State: ACTIVE
 
@@ -267,7 +267,7 @@ rounded-window-corners@fxgn
   Description: Add rounded corners to all windows. Fork of the now unmaintained Rounded Window Corners extension.
   Path: /home/prithvi/.local/share/gnome-shell/extensions/rounded-window-corners@fxgn
   URL: https://github.com/flexagoon/rounded-window-corners
-  Version: 14
+  Version: 15
   Enabled: Yes
   State: ACTIVE
 
@@ -280,7 +280,7 @@ For a more traditional experience, you may also want to use Tweak Tool to enable
 For the best support, please report any issues on Github. Dash-to-panel is developed and maintained by @jderose9 and @charlesg99.
   Path: /home/prithvi/.local/share/gnome-shell/extensions/dash-to-panel@jderose9.github.com
   URL: https://github.com/home-sweet-gnome/dash-to-panel
-  Version: 72
+  Version: 73
   Enabled: No
   State: INITIALIZED
 
@@ -298,7 +298,7 @@ app-grid-tuner@m-lab
   Description: Tune and customize the GNOME application grid (rows, columns, icon size, padding, labels).
   Path: /home/prithvi/.local/share/gnome-shell/extensions/app-grid-tuner@m-lab
   URL: https://codeberg.org/m-lab/app-grid-tuner
-  Version: 7
+  Version: 8
   Enabled: No
   State: INITIALIZED
 
@@ -333,8 +333,8 @@ applications-overview-tooltip@RaphaelRochet
   Name: Applications Overview Tooltip
   Description: Shows a tooltip over applications icons on applications overview with application name and/or description.
   Path: /home/prithvi/.local/share/gnome-shell/extensions/applications-overview-tooltip@RaphaelRochet
-  URL: https://github.com/RaphaelRochet/applications-overview-tooltip
-  Version: 24
+  URL: https://codeberg.org/RaphaelRochet/applications-overview-tooltip
+  Version: 25
   Enabled: No
   State: INITIALIZED
 
@@ -375,7 +375,7 @@ hide-keyboard-layout@sitnik.ru
   Description: Hide keyboard layout indicator in status bar
   Path: /home/prithvi/.local/share/gnome-shell/extensions/hide-keyboard-layout@sitnik.ru
   URL: https://github.com/ai/hide-keyboard-layout
-  Version: 12
+  Version: 13
   Enabled: Yes
   State: ACTIVE
 
@@ -393,7 +393,7 @@ copyous@boerdereinar.dev
   Description: Modern Clipboard Manager for GNOME
   Path: /home/prithvi/.local/share/gnome-shell/extensions/copyous@boerdereinar.dev
   URL: https://github.com/boerdereinar/copyous
-  Version: 1.3.0 (7)
+  Version: 2.0.0 (8)
   Enabled: Yes
   State: ACTIVE
 
@@ -556,7 +556,7 @@ wellbeingtoggle@m51.io
   Description: Toggle wellbeing reminders from the quick settings menu.
   Path: /home/prithvi/.local/share/gnome-shell/extensions/wellbeingtoggle@m51.io
   URL: https://github.com/Fingel/gnome-ext-wellbeing-toggle
-  Version: 3
+  Version: 4
   Enabled: Yes
   State: ACTIVE
 
@@ -594,7 +594,7 @@ dash-to-dock@micxgx.gmail.com
   Path: /home/prithvi/.local/share/gnome-shell/extensions/dash-to-dock@micxgx.gmail.com
   URL: https://micheleg.github.io/dash-to-dock/
   Original author: micxgx@gmail.com
-  Version: 103
+  Version: 104
   Enabled: No
   State: INITIALIZED
 
@@ -610,7 +610,7 @@ Features:
 Requires Ambient Light Sensor (ALS) hardware support. Check the extension's home page for device compatibility.
   Path: /home/prithvi/.local/share/gnome-shell/extensions/adaptive-brightness@dmy3k.github.io
   URL: https://github.com/dmy3k/gnome-adaptive-brightness
-  Version: 21
+  Version: 24
   Enabled: Yes
   State: ACTIVE
 

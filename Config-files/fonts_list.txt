@@ -13,4 +13,3 @@ NerdFontsSymbolsOnly
 Roboto
 RobotoMono
 Sono
-Zalando_Sans

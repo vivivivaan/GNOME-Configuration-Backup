@@ -25,11 +25,11 @@ width=709
 
 [apps/update-manager]
 first-run=false
-launch-count=125
-launch-time=int64 1773988406
+launch-count=130
+launch-time=int64 1775206069
 show-details=true
-window-height=393
-window-width=525
+window-height=495
+window-width=660
 
 [ca/desrt/dconf-editor]
 saved-pathbar-path='/org/gnome/shell/extensions/dash-to-dock/activate-single-window'
@@ -104,7 +104,7 @@ volume=1.0
 
 [com/ubuntu/update-notifier]
 regular-auto-launch-interval=0
-release-check-time=uint32 1773226266
+release-check-time=uint32 1774518406
 
 [org/fedorahosted/background-logo-extension]
 logo-always-visible=true
@@ -119,7 +119,7 @@ logo-size=8.1645569620253156
 index-recursive-directories=['&DESKTOP', '&DOCUMENTS', '&MUSIC', '&PICTURES', '&VIDEOS', '/home/earthora/Wallpapers']
 
 [org/gnome/Characters]
-recent-characters=['😊', '🥰', '😍', '😁', '😉', '👀', '🤩', '🤔', '🔥', '🐱', '🤞', '🗝️', '😭', '💁\u200d♂️', '🌚', '🙇', '🤞🏼', '😆', '😂', '🥂', '🌃', '✴️', '💫']
+recent-characters=['🤗', '🫂', '💔', '💖', '🫣', '🪄', '🤓', '🫠', '😊', '🥰', '😍', '😁', '😉', '👀', '🤩', '🤔', '🔥', '🐱', '🤞', '🗝️', '😭', '💁\u200d♂️', '🌚', '🙇', '🤞🏼', '😆', '😂', '🥂', '🌃', '✴️', '💫']
 
 [org/gnome/Geary]
 migrated-config=true
@@ -204,10 +204,10 @@ world-clocks=[{'location': <(uint32 2, <('Hyderabad', 'VOHY', true, [(0.30455995
 [org/gnome/clocks/state/window]
 maximized=false
 panel-id='world'
-size=(429, 480)
+size=(432, 481)
 
 [org/gnome/control-center]
-last-panel='display'
+last-panel='wifi'
 window-state=(1010, 778, false)
 
 [org/gnome/deja-dup]
@@ -868,11 +868,11 @@ dual-page-odd-left=true
 enable-spellchecking=true
 show-sidebar=true
 sidebar-page='links'
-sizing-mode='free'
-window-height=844
+sizing-mode='automatic'
+window-height=842
 window-maximized=true
-window-width=1248
-zoom=0.63021387940867557
+window-width=673
+zoom=0.46944269960130786
 
 [org/gnome/pomodoro/plugins/actions]
 actions-list=@as []
@@ -1275,6 +1275,7 @@ clipboard-orientation='vertical'
 clipboard-position-horizontal='top'
 clipboard-position-vertical='fill'
 clipboard-size=425
+database-backend='sqlite'
 disable-hljs-dialog=false
 dynamic-item-height=true
 header-controls-visibility='visible'
@@ -1664,7 +1665,7 @@ custom-rounded-corner-settings=@a{sv} {}
 enable-preferences-entry=false
 focused-shadow={'verticalOffset': 4, 'horizontalOffset': 0, 'blurOffset': 28, 'spreadRadius': 4, 'opacity': 60}
 global-rounded-corner-settings={'padding': <{'left': uint32 0, 'right': 0, 'top': 0, 'bottom': 0}>, 'keepRoundedCorners': <{'maximized': true, 'fullscreen': true}>, 'borderRadius': <uint32 11>, 'smoothing': <1.0>, 'borderColor': <(1.0, 1.0, 1.0, 1.0)>, 'enabled': <true>}
-settings-version=uint32 7
+settings-version=uint32 8
 skip-libadwaita-app=false
 tweak-kitty-terminal=true
 unfocused-shadow={'verticalOffset': 2, 'horizontalOffset': 0, 'blurOffset': 12, 'spreadRadius': -1, 'opacity': 65}
