@@ -113,7 +113,7 @@ If you use Ubuntu, you may want to change the radius of the corner effect for Da
 Note: if the extension shows an error after updating, please make sure to restart your session to see if it persists. This is due to a bug in gnome shell, which I can't fix by myself.
   Path: /home/prithvi/.local/share/gnome-shell/extensions/blur-my-shell@aunetx
   URL: https://github.com/aunetx/blur-my-shell
-  Version: 70
+  Version: 71
   Enabled: Yes
   State: ACTIVE
 

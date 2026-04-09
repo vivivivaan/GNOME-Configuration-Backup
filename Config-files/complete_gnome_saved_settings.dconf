@@ -25,11 +25,11 @@ width=709
 
 [apps/update-manager]
 first-run=false
-launch-count=131
-launch-time=int64 1775382349
+launch-count=133
+launch-time=int64 1775706428
 show-details=true
-window-height=495
-window-width=660
+window-height=279
+window-width=525
 
 [ca/desrt/dconf-editor]
 saved-pathbar-path='/org/gnome/shell/extensions/dash-to-dock/activate-single-window'
@@ -863,7 +863,7 @@ night-mode=false
 [org/gnome/papers/default]
 annot-color='yellow'
 continuous=true
-dual-page=true
+dual-page=false
 dual-page-odd-left=true
 enable-spellchecking=true
 show-sidebar=true
@@ -872,7 +872,7 @@ sizing-mode='free'
 window-height=842
 window-maximized=true
 window-width=673
-zoom=0.48078556529370636
+zoom=0.48949998525909355
 
 [org/gnome/pomodoro/plugins/actions]
 actions-list=@as []
@@ -921,7 +921,7 @@ last-folder-path='/home/prithvi/Pictures/mypics'
 last-folder-path='/home/prithvi/Music'
 
 [org/gnome/portal/filechooser/com.google.Chrome]
-last-folder-path='/home/prithvi'
+last-folder-path='/home/prithvi/Downloads'
 
 [org/gnome/portal/filechooser/com.notesnook.Notesnook]
 last-folder-path='/home/prithvi'
