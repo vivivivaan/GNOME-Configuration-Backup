@@ -124,7 +124,7 @@ Click the toolbar button, then choose the window you want to force quit.
 On accidental click, right click anywhere or press [Esc] to abort the kill.
   Path: /home/prithvi/.local/share/gnome-shell/extensions/fq@megh
   URL: https://github.com/meghprkh/force-quit/
-  Version: 41
+  Version: 45
   Enabled: Yes
   State: ACTIVE
 
