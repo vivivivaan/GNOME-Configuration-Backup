@@ -50,7 +50,7 @@ clipboard-indicator@tudmotu.com
   Description: The most popular clipboard manager for GNOME, with over 1M downloads
   Path: /home/prithvi/.local/share/gnome-shell/extensions/clipboard-indicator@tudmotu.com
   URL: https://github.com/Tudmotu/gnome-shell-extension-clipboard-indicator
-  Version: 69
+  Version: 70
   Enabled: No
   State: INITIALIZED
 
@@ -87,7 +87,7 @@ custom-hot-corners-extended@G-dH.github.com
 Mouse pointer pressure, clicks and scrolls over the monitor corners/edges or custom keyboard shortcuts can trigger any of dozens built-in actions that helps you navigate and control your desktop environment, or your own shell commands.
   Path: /home/prithvi/.local/share/gnome-shell/extensions/custom-hot-corners-extended@G-dH.github.com
   URL: https://github.com/G-dH/custom-hot-corners
-  Version: 49.0 (48)
+  Version: 50.0 (50)
   Enabled: Yes
   State: ACTIVE
 
@@ -113,7 +113,7 @@ If you use Ubuntu, you may want to change the radius of the corner effect for Da
 Note: if the extension shows an error after updating, please make sure to restart your session to see if it persists. This is due to a bug in gnome shell, which I can't fix by myself.
   Path: /home/prithvi/.local/share/gnome-shell/extensions/blur-my-shell@aunetx
   URL: https://github.com/aunetx/blur-my-shell
-  Version: 71
+  Version: 72
   Enabled: Yes
   State: ACTIVE
 
@@ -151,7 +151,7 @@ show-desktop-button@amivaleo
   Description: Minimize/unminimize all open windows with a single click.
   Path: /home/prithvi/.local/share/gnome-shell/extensions/show-desktop-button@amivaleo
   URL: https://github.com/amivaleo/Show-Desktop-Button
-  Version: 49
+  Version: 51
   Enabled: Yes
   State: ACTIVE
 
@@ -163,7 +163,7 @@ hidetopbar@mathieu.bidon.ca
 - Log off and on again when there is an error after upgrading.
   Path: /home/prithvi/.local/share/gnome-shell/extensions/hidetopbar@mathieu.bidon.ca
   URL: https://gitlab.gnome.org/tuxor1337/hidetopbar
-  Version: 123
+  Version: 124
   Enabled: No
   State: INITIALIZED
 
@@ -181,7 +181,7 @@ Vitals@CoreCoding.com
   Description: A glimpse into your computer's temperature, voltage, fan speed, memory usage, processor load, system resources, network speed and storage stats. This is a one stop shop to monitor all of your vital sensors. Uses asynchronous polling to provide a smooth user experience. Feature requests or bugs? Please use GitHub.
   Path: /home/prithvi/.local/share/gnome-shell/extensions/Vitals@CoreCoding.com
   URL: https://github.com/corecoding/Vitals
-  Version: 75
+  Version: 76
   Enabled: Yes
   State: ACTIVE
 
@@ -199,7 +199,7 @@ transparent-window-moving@noobsai.github.com
   Description: Makes the window semi-transparent when moving or resizing
   Path: /home/prithvi/.local/share/gnome-shell/extensions/transparent-window-moving@noobsai.github.com
   URL: https://github.com/Noobsai/transparent-window-moving
-  Version: 20
+  Version: 21
   Enabled: Yes
   State: ACTIVE
 
@@ -208,7 +208,7 @@ tilingshell@ferrarodomenico.com
   Description: Extend Gnome Shell with advanced tiling window management. Supports multiple monitors, Windows 11 Snap Assistant, Fancy Zones, automatic tiling, keyboard shortcuts, customised tiling layouts and more!
   Path: /home/prithvi/.local/share/gnome-shell/extensions/tilingshell@ferrarodomenico.com
   URL: https://github.com/domferr/tilingshell
-  Version: 17.3 (71)
+  Version: 17.3 (76)
   Enabled: Yes
   State: ACTIVE
 
@@ -231,7 +231,7 @@ This is a fork of https://extensions.gnome.org/extension/4109/volume-scroller/ w
   Path: /home/prithvi/.local/share/gnome-shell/extensions/volume_scroller@francislavoie.github.io
   URL: https://github.com/francislavoie/gnome-shell-volume-scroller
   Original author: francislavoie
-  Version: 13
+  Version: 14
   Enabled: No
   State: INITIALIZED
 
@@ -240,7 +240,7 @@ battery-indicator-icon@Deminder
   Description: Replace the battery indicator icon with a circle or portrait.
   Path: /home/prithvi/.local/share/gnome-shell/extensions/battery-indicator-icon@Deminder
   URL: https://github.com/Deminder/battery-indicator-icon
-  Version: 18
+  Version: 20
   Enabled: Yes
   State: ACTIVE
 
@@ -267,7 +267,7 @@ rounded-window-corners@fxgn
   Description: Add rounded corners to all windows. Fork of the now unmaintained Rounded Window Corners extension.
   Path: /home/prithvi/.local/share/gnome-shell/extensions/rounded-window-corners@fxgn
   URL: https://github.com/flexagoon/rounded-window-corners
-  Version: 15
+  Version: 18
   Enabled: Yes
   State: ACTIVE
 
@@ -307,7 +307,7 @@ right-click-next@derVedro
   Description: Move windows to the next workspace by right-clicking them in the overview.
   Path: /home/prithvi/.local/share/gnome-shell/extensions/right-click-next@derVedro
   URL: https://github.com/derVedro/gnome-right-click-next
-  Version: 6
+  Version: 7
   Enabled: Yes
   State: ACTIVE
 
@@ -316,7 +316,7 @@ restartto@tiagoporsch.github.io
   Description: Adds a menu item to restart to any other EFI boot entry
   Path: /home/prithvi/.local/share/gnome-shell/extensions/restartto@tiagoporsch.github.io
   URL: https://github.com/tiagoporsch/restartto
-  Version: 13
+  Version: 14
   Enabled: No
   State: INITIALIZED
 
@@ -393,7 +393,7 @@ copyous@boerdereinar.dev
   Description: Modern Clipboard Manager for GNOME
   Path: /home/prithvi/.local/share/gnome-shell/extensions/copyous@boerdereinar.dev
   URL: https://github.com/boerdereinar/copyous
-  Version: 2.0.0 (8)
+  Version: 2.0.1 (9)
   Enabled: Yes
   State: ACTIVE
 
@@ -432,7 +432,7 @@ kiwi@kemma
 
 Features:
 - macOS-style window control buttons with GTK theming
-- Firefox window control theming
+- Firefox and Thunderbird window control theming
 - Move fullscreen windows to new workspaces automatically
 - Make windows transparent while moving
 - Display battery percentage when below 20%
@@ -443,9 +443,10 @@ Features:
 - Hide minimized windows in overview
 - Hide the Activities button
 - Skip overview on login (go directly to desktop)
-- Set panel transparency based on window position
-- Keyboard indicator styling
+- Set panel transparency or blur based on window position
+- Dash-to-dock blur effect
 - Overview wallpaper blur
+- Keyboard indicator styling
 - Focus on newly launched windows (removes window-ready notifications)
 - Show Caps Lock/Num Lock indicators in the top panel
 - Add username display to the quick settings menu
@@ -456,7 +457,7 @@ This extension uses a modular architecture for stability and customization. Some
 Disclaimer: This extension is unofficial and not affiliated with Apple in any way.
   Path: /home/prithvi/.local/share/gnome-shell/extensions/kiwi@kemma
   URL: https://github.com/kem-a/kiwi-kemma
-  Version: 1.5.5 (41)
+  Version: 1.6.2 (43)
   Enabled: No
   State: INITIALIZED
 
@@ -511,7 +512,7 @@ vertical-app-grid@lublst.github.io
   Description: Turns the default horizontal app grid into a vertical one
   Path: /home/prithvi/.local/share/gnome-shell/extensions/vertical-app-grid@lublst.github.io
   URL: https://github.com/lublst/gnome-vertical-app-grid
-  Version: 6
+  Version: 7
   Enabled: No
   State: INITIALIZED
 
@@ -529,7 +530,7 @@ Rounded_Corners@lennart-k
   Description: Creates rounded corners for every monitor
   Path: /home/prithvi/.local/share/gnome-shell/extensions/Rounded_Corners@lennart-k
   URL: https://github.com/lennart-k/gnome-rounded-corners
-  Version: 17
+  Version: 18
   Enabled: No
   State: INITIALIZED
 
@@ -594,7 +595,7 @@ dash-to-dock@micxgx.gmail.com
   Path: /home/prithvi/.local/share/gnome-shell/extensions/dash-to-dock@micxgx.gmail.com
   URL: https://micheleg.github.io/dash-to-dock/
   Original author: micxgx@gmail.com
-  Version: 104
+  Version: 105
   Enabled: No
   State: INITIALIZED
 
@@ -610,7 +611,7 @@ Features:
 Requires Ambient Light Sensor (ALS) hardware support. Check the extension's home page for device compatibility.
   Path: /home/prithvi/.local/share/gnome-shell/extensions/adaptive-brightness@dmy3k.github.io
   URL: https://github.com/dmy3k/gnome-adaptive-brightness
-  Version: 24
+  Version: 28
   Enabled: Yes
   State: ACTIVE
 

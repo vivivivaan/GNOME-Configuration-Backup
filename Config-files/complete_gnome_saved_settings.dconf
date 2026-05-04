@@ -25,11 +25,11 @@ width=709
 
 [apps/update-manager]
 first-run=false
-launch-count=139
-launch-time=int64 1776856558
+launch-count=145
+launch-time=int64 1777885848
 show-details=true
-window-height=566
-window-width=636
+window-height=393
+window-width=525
 
 [ca/desrt/dconf-editor]
 saved-pathbar-path='/org/gnome/shell/extensions/dash-to-dock/activate-single-window'
@@ -104,7 +104,7 @@ volume=1.0
 
 [com/ubuntu/update-notifier]
 regular-auto-launch-interval=0
-release-check-time=uint32 1775728583
+release-check-time=uint32 1776940575
 
 [org/fedorahosted/background-logo-extension]
 logo-always-visible=true
@@ -245,7 +245,7 @@ dwell-time=0.49635036496350365
 secondary-click-enabled=false
 
 [org/gnome/desktop/app-folders]
-folder-children=['System', 'Utilities', 'YaST', 'Pardus', 'f720d708-b404-45e1-8674-5f1222817691', '78c5c448-9755-4b1f-b921-1fa5935ead6b', '3a28c18d-367b-4d9d-8420-124bfec133cc', '95876710-5963-4eb5-8152-6b9f5a9b7f6e', 'd16e2496-eedd-4088-ba5f-c39f0c9fd16d', '54c8bdb9-745d-4b5c-a532-de342a780c2e', 'c328565c-de8e-4850-99c6-9a753c0b9d22', '502ef2d5-ef9c-418c-bc01-3295be2c0d7d']
+folder-children=['System', 'Utilities', 'YaST', 'Pardus', 'f720d708-b404-45e1-8674-5f1222817691', '78c5c448-9755-4b1f-b921-1fa5935ead6b', '3a28c18d-367b-4d9d-8420-124bfec133cc', '95876710-5963-4eb5-8152-6b9f5a9b7f6e', 'd16e2496-eedd-4088-ba5f-c39f0c9fd16d', '54c8bdb9-745d-4b5c-a532-de342a780c2e', 'c328565c-de8e-4850-99c6-9a753c0b9d22', '502ef2d5-ef9c-418c-bc01-3295be2c0d7d', 'f1cfb454-26c5-4f4e-a6dc-c2840b439999']
 
 [org/gnome/desktop/app-folders/folders/3a28c18d-367b-4d9d-8420-124bfec133cc]
 apps=['software-properties-drivers.desktop', 'org.gnome.Firmware.desktop', 'gdebi.desktop', 'org.gnome.PackageUpdater.desktop', 'software-properties-gtk.desktop', 'update-manager.desktop']
@@ -300,6 +300,11 @@ translate=false
 [org/gnome/desktop/app-folders/folders/d16e2496-eedd-4088-ba5f-c39f0c9fd16d]
 apps=['org.gnome.Calculator.desktop', 'org.gnome.Calendar.desktop', 'org.gnome.Characters.desktop', 'org.gnome.FileRoller.desktop', 'org.gnome.seahorse.Application.desktop']
 name='Basics'
+translate=false
+
+[org/gnome/desktop/app-folders/folders/f1cfb454-26c5-4f4e-a6dc-c2840b439999]
+apps=['com.github.neithern.g4music.desktop']
+name='Music'
 translate=false
 
 [org/gnome/desktop/app-folders/folders/f720d708-b404-45e1-8674-5f1222817691]
@@ -664,7 +669,7 @@ window-height=743
 window-width=1397
 
 [org/gnome/firmware]
-report-device-list-timestamp=int64 1772560192
+report-device-list-timestamp=int64 1777707497
 
 [org/gnome/gedit/plugins]
 active-plugins=['spell', 'filebrowser', 'terminal', 'textsize', 'multiedit', 'colorpicker', 'bracketcompletion', 'sort', 'quickhighlight', 'time', 'bookmarks', 'docinfo']
@@ -874,7 +879,7 @@ sizing-mode='free'
 window-height=842
 window-maximized=true
 window-width=673
-zoom=0.74500983322851366
+zoom=0.78958414118293241
 
 [org/gnome/pomodoro/plugins/actions]
 actions-list=@as []
@@ -923,7 +928,7 @@ last-folder-path='/home/prithvi/Pictures/mypics'
 last-folder-path='/home/prithvi/Music'
 
 [org/gnome/portal/filechooser/com.google.Chrome]
-last-folder-path='/home/prithvi/Wallpapers'
+last-folder-path='/home/prithvi/Downloads'
 
 [org/gnome/portal/filechooser/com.notesnook.Notesnook]
 last-folder-path='/home/prithvi'
@@ -962,7 +967,7 @@ last-folder-path='/home/prithvi'
 last-folder-path='/home/prithvi/Documents/Letters (Letters from App)'
 
 [org/gnome/portal/filechooser/org.chromium.Chromium]
-last-folder-path='/home/prithvi/UI/Kustom-Chrome-Themes/DarkGalaxy'
+last-folder-path='/home/prithvi/Downloads'
 
 [org/gnome/portal/filechooser/org.fedoraproject.MediaWriter]
 last-folder-path='/home/prithvi/Downloads'
@@ -989,7 +994,7 @@ last-folder-path='/home/prithvi'
 last-folder-path='/home/prithvi/Wallpapers'
 
 [org/gnome/portal/filechooser/org.kde.kate]
-last-folder-path='/home/prithvi'
+last-folder-path='/home/prithvi/UI/MacTahoe-gtk-theme'
 
 [org/gnome/portal/filechooser/org.kde.ktorrent]
 last-folder-path='/home/prithvi/Downloads'
@@ -1102,7 +1107,7 @@ sleep-inactive-ac-type='nothing'
 enabled-connections=@as []
 
 [org/gnome/shell]
-app-picker-layout=[{'d16e2496-eedd-4088-ba5f-c39f0c9fd16d': <{'position': <0>}>, 'c328565c-de8e-4850-99c6-9a753c0b9d22': <{'position': <1>}>, 'f720d708-b404-45e1-8674-5f1222817691': <{'position': <2>}>, '95876710-5963-4eb5-8152-6b9f5a9b7f6e': <{'position': <3>}>, 'com.github.wwmm.easyeffects.desktop': <{'position': <4>}>, 'com.github.neithern.g4music.desktop': <{'position': <5>}>, '502ef2d5-ef9c-418c-bc01-3295be2c0d7d': <{'position': <6>}>, 'org.kde.kate.desktop': <{'position': <7>}>, '54c8bdb9-745d-4b5c-a532-de342a780c2e': <{'position': <8>}>, 'com.notesnook.Notesnook.desktop': <{'position': <9>}>, '78c5c448-9755-4b1f-b921-1fa5935ead6b': <{'position': <10>}>, 'com.github.marhkb.Pods.desktop': <{'position': <11>}>, 'spotify.desktop': <{'position': <12>}>, 'System': <{'position': <13>}>, 'org.telegram.desktop._3e485da34fc040f9218e3891ecde1e6c.desktop': <{'position': <14>}>, '3a28c18d-367b-4d9d-8420-124bfec133cc': <{'position': <15>}>, 'io.github.flattool.Warehouse.desktop': <{'position': <16>}>, 'windscribe.desktop': <{'position': <17>}>}]
+app-picker-layout=[{'d16e2496-eedd-4088-ba5f-c39f0c9fd16d': <{'position': <0>}>, 'c328565c-de8e-4850-99c6-9a753c0b9d22': <{'position': <1>}>, 'f720d708-b404-45e1-8674-5f1222817691': <{'position': <2>}>, '95876710-5963-4eb5-8152-6b9f5a9b7f6e': <{'position': <3>}>, '502ef2d5-ef9c-418c-bc01-3295be2c0d7d': <{'position': <4>}>, 'org.kde.kate.desktop': <{'position': <5>}>, '54c8bdb9-745d-4b5c-a532-de342a780c2e': <{'position': <6>}>, 'com.notesnook.Notesnook.desktop': <{'position': <7>}>, '78c5c448-9755-4b1f-b921-1fa5935ead6b': <{'position': <8>}>, 'com.github.marhkb.Pods.desktop': <{'position': <9>}>, 'System': <{'position': <10>}>, 'org.telegram.desktop._3e485da34fc040f9218e3891ecde1e6c.desktop': <{'position': <11>}>, '3a28c18d-367b-4d9d-8420-124bfec133cc': <{'position': <12>}>, 'io.github.flattool.Warehouse.desktop': <{'position': <13>}>, 'windscribe.desktop': <{'position': <14>}>, 'spotify.desktop': <{'position': <15>}>}]
 command-history=['r', 'lg', 'echo $XDG_SESSION_TYPE']
 disable-user-extensions=false
 disabled-extensions=['notification-timeout@chlumskyvaclav.gmail.com', 'monitor@astraext.github.io', 'just_shows_memory_usage@troizet.github.com', 'snapd-prompting@canonical.com', 'applications-overview-tooltip@RaphaelRochet', 'hidetopbar@mathieu.bidon.ca', 'all-in-one-clipboard@NiffirgkcaJ.github.com', 'volume_scroller@francislavoie.github.io', 'dash-to-panel@jderose9.github.com', 'restartto@tiagoporsch.github.io', 'aztaskbar@aztaskbar.gitlab.com', 'clipboard-indicator@tudmotu.com', 'mediacontrols@cliffniff.github.com', 'dropbeat@romanlefler.com', 'kiwi@kemma', 'pomodoro@zhuravkovigor.dev', 'focuslock@kavinda', 'clipmaster@gnome.extension', 'appgridbuttonintoppanel@raphaelian', 'timeFromStart@pic16f877ccs.github.com', 'mute-unmute@mcast.gnomext.com', '1440@ravener.github.com', 'vertical-app-grid@lublst.github.io', 'app-grid-tuner@m-lab', 'dash-to-dock@micxgx.gmail.com', 'ding@rastersoft.com', 'dash2dock-lite@icedman.github.com', 'Rounded_Corners@lennart-k', 'day-progress@arcaege.github.io']
@@ -1188,6 +1193,7 @@ show-icon-text=0
 status-style='circle'
 
 [org/gnome/shell/extensions/blur-my-shell]
+rounded-blur-found=false
 settings-version=2
 
 [org/gnome/shell/extensions/blur-my-shell/appfolder]
@@ -1667,7 +1673,7 @@ custom-rounded-corner-settings=@a{sv} {}
 enable-preferences-entry=false
 focused-shadow={'verticalOffset': 4, 'horizontalOffset': 0, 'blurOffset': 28, 'spreadRadius': 4, 'opacity': 60}
 global-rounded-corner-settings={'padding': <{'left': uint32 0, 'right': 0, 'top': 0, 'bottom': 0}>, 'keepRoundedCorners': <{'maximized': true, 'fullscreen': true}>, 'borderRadius': <uint32 11>, 'smoothing': <1.0>, 'borderColor': <(1.0, 1.0, 1.0, 1.0)>, 'enabled': <true>}
-settings-version=uint32 8
+settings-version=uint32 9
 skip-libadwaita-app=false
 tweak-kitty-terminal=true
 unfocused-shadow={'verticalOffset': 2, 'horizontalOffset': 0, 'blurOffset': 12, 'spreadRadius': -1, 'opacity': 65}

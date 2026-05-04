@@ -74,7 +74,7 @@ imagemagick
 init
 intel-media-va-driver-non-free
 inxi
-jdk-25
+jdk-26
 language-pack-en
 language-pack-en-base
 language-pack-gnome-en
