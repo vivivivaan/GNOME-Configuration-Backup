@@ -10,6 +10,7 @@ bsdutils
 btm
 btrfs-progs
 build-essential
+cava
 cmake
 code
 containerd.io

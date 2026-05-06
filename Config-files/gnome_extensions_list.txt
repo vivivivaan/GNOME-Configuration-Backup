@@ -656,3 +656,12 @@ snapd-prompting@canonical.com
   Path: /usr/share/gnome-shell/extensions/snapd-prompting@canonical.com
   Enabled: No
   State: INITIALIZED
+
+dynamic-music-pill@andbal
+  Name: Dynamic Music Pill
+  Description: An elegant, pill-shaped music player for your desktop. Features a smooth audio visualizer, scrolling text, and seamless integration with Dash-to-Dock and the Top Panel. Comes with a Pop-Up menu as well.
+  Path: /home/prithvi/.local/share/gnome-shell/extensions/dynamic-music-pill@andbal
+  URL: https://github.com/Andbal23/dynamic-music-pill
+  Version: 1.1.0 (44)
+  Enabled: Yes
+  State: ACTIVE
