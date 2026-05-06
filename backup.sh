@@ -36,3 +36,22 @@ ls ~/.local/share/themes/ \
 sudo cp /etc/default/grub "$BACKUP_DIR/grub-defaults.backup"
 
 echo "Backup completed. Files saved in $BACKUP_DIR"
+
+git add .
+
+unset commit_message
+
+while [ -z "$commit_message" ]; do
+    read -p "Enter your commit message (cannot be empty): " commit_message
+    
+    # Optional: Trim whitespace so a message of just " " is rejected
+    commit_message=$(echo "$commit_message" | xargs)
+    
+    if [ -z "$commit_message" ]; then
+        echo "⚠️  You must provide a message to continue."
+    fi
+done
+
+git commit -m "$commit_message"
+
+git push
