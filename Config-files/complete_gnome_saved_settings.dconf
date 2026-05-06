@@ -25,8 +25,8 @@ width=709
 
 [apps/update-manager]
 first-run=false
-launch-count=145
-launch-time=int64 1777885848
+launch-count=146
+launch-time=int64 1777922884
 show-details=true
 window-height=393
 window-width=525
@@ -207,7 +207,7 @@ panel-id='world'
 size=(448, 480)
 
 [org/gnome/control-center]
-last-panel='wifi'
+last-panel='display'
 window-state=(901, 615, false)
 
 [org/gnome/deja-dup]

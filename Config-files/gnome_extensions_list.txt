@@ -68,7 +68,7 @@ screenshort-cut@pauloimon
   Description: A simple shortcut to take screenshots directly on your top bar!
   Path: /home/prithvi/.local/share/gnome-shell/extensions/screenshort-cut@pauloimon
   URL: https://github.com/pauloimon/gnome-screenshort-cut-extension
-  Version: 6
+  Version: 7
   Enabled: Yes
   State: ACTIVE
 
@@ -316,7 +316,7 @@ restartto@tiagoporsch.github.io
   Description: Adds a menu item to restart to any other EFI boot entry
   Path: /home/prithvi/.local/share/gnome-shell/extensions/restartto@tiagoporsch.github.io
   URL: https://github.com/tiagoporsch/restartto
-  Version: 14
+  Version: 15
   Enabled: No
   State: INITIALIZED
 
