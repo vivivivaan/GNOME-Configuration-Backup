@@ -127,7 +127,7 @@ alias bi="sudo apt --fix-broken install"
 alias alt="sudo update-alternatives --config "
 alias lssrc="ls /etc/apt/sources.list.d"
 alias cdsrc="cd /etc/apt/sources.list.d"
-alias srcs="sudo nano /etc/apt/sources.list.d/ubuntu.sources"
+alias src="sudo nano /etc/apt/sources.list.d/ubuntu.sources"
 alias csrc="sudo cat /etc/apt/sources.list.d/ubuntu.sources"
 
 # Systemctl aliases.
@@ -144,8 +144,8 @@ alias soff="sudo systemctl disable"
 
 # Application aliases.
 # Python aliases.
-alias python3=python
-alias pip3=pip
+alias python=python3
+alias pip=pip3
 # Docker aliases
 alias dock="sstat docker.socket containerd docker"
 alias dockr="srun docker.socket containerd docker"
@@ -182,7 +182,7 @@ alias ngrub="sudo nano /etc/default/grub"
 alias ugrub="sudo update-grub"
 alias cgrub="cat /etc/default/grub"
 
-# Customizations
+# Customisations
 alias cdf="cd /usr/local/share/fonts"
 alias cdft="cd /usr/local/share/fonts/truetype/"
 alias lsft="ls /usr/local/share/fonts/truetype/"
