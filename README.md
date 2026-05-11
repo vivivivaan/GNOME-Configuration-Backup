@@ -1,28 +1,31 @@
 # Gnome, Tweaks-tool and system-wide configurations backup
 
 * Extensions are stored in ```~/.local/share/gnome-shell/extensions```.
-* Add `defaults,noatime,nodiratime,lazytime,compress=zstd` to `/etc/fstab` and enable TRIM using `sudo systemctl enable fstrim.timer` to improve ssd/nvme writes.
-* Make **ptyxis** transparent with `dconf read /org/gnome/Ptyxis/default-profile-uuid` and `dconf write /org/gnome/Ptyxis/Profiles/3aae5a177777aa966b1fd63467153e2d/opacity 0.95`.
+* Make **ptyxis** transparent with `dconf read /org/gnome/Ptyxis/default-profile-uuid` and `dconf write /org/gnome/Ptyxis/Profiles/$Profile_ID/opacity 0.95`.
 
 # Restore
 
+- Replace the ***existing username*** with the ***current username*** in the **`complete_gnome_saved_settings.dconf`** and **``gnome_extensions_list.txt`** files.
 - Install **Extension Manager** with `flatpak install flathub com.mattjakeman.ExtensionManager`.
 - Install the extensions in `gnome_extensions_list.txt`.
 - Run `dconf load /org/gnome/shell/extensions/ < gnome-shell-extensions-backup.dconf` to apply the extension configurations. 
 - Restart the session/system to see the effects.
 - (optional) Restore all Gnome-wide settings, including **Gnome-tweaks** configurations using `dconf load -f / < complete_gnome_saved_settings.dconf`.
-- Additionally, you can backup and restore all the GNOME settings and other configurations using SaveDesktop (`flatpak install flathub io.github.vikdevelop.SaveDesktop`) flatpak app besides the Backup method below.
+- Additionally, backup and restore all the GNOME settings and other configurations using SaveDesktop (`flatpak install flathub io.github.vikdevelop.SaveDesktop`) flatpak app besides the Backup method below.
 
 # Backup
 
-| Item                        |                                                                                                 Command |
-| :-------------------------- | ------------------------------------------------------------------------------------------------------: |
-| Extensions configuration    |                         `dconf dump /org/gnome/shell/extensions/ > gnome-shell-extensions-backup.dconf` |
-| System-wide configuration   |                                                    `dconf dump / > complete_gnome_saved_settings.dconf` |
-| Extensions List             |                                                  `gnome-extensions list -d > gnome_extensions_list.txt` |
-| Packages List               |                                                               `dnf list --installed > packages_list.txt` |
-| OpenType and TrueType fonts |                               `ls /usr/share/fonts/ > fonts_list.txt` |
-| Themes List                 | `ls ~/.local/share/themes/ /usr/share/themes/ ~/.local/share/icons /usr/share/icons/ > themes_list.txt` |
+You can simply use the `backup.sh` script for backup or do it manually as shown in the table below.
+
+| Item                        |                                                                                                             Command |
+| :-------------------------- | ------------------------------------------------------------------------------------------------------------------: |
+| Extensions configuration    |                                     `dconf dump /org/gnome/shell/extensions/ > gnome-shell-extensions-backup.dconf` |
+| System-wide configuration   |                                                                `dconf dump / > complete_gnome_saved_settings.dconf` |
+| Extensions List             |                                                              `gnome-extensions list -d > gnome_extensions_list.txt` |
+| Packages List               |                                                                           `apt-mark showmanual > packages_list.txt` |
+| OpenType and TrueType fonts |                               `ls /usr/local/share/fonts/opentype /usr/local/share/fonts/truetype > fonts_list.txt` |
+| Themes List                 | `ls ~/.local/share/themes/ /usr/local/share/themes/ ~/.local/share/icons /usr/local/share/icons/ > themes_list.txt` |
+| Grub Config                 |                                                                    `sudo cp /etc/default/grub grub-defaults.backup` |
 
 # Chromium browsers config
 
@@ -32,6 +35,7 @@
 - Alternatively, create `chrome-flags.conf`, `brave-flags.conf`, `edge-flags.conf` files in `~/.config` and add the configs.
 - Restart the system or session.
 
+## Browser Flags
 
 | Browser        | copy *.desktop file                                                                   |                                                                                                                                                                                                                                                     `*://flags` |
 | :------------- | ------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
@@ -40,6 +44,7 @@
 | Microsoft Edge | `sudo cp /usr/share/applications/microsoft-edge.desktop ~/.local/share/applications/` |                                                                                                                                                                                                                        Only enable flags in the `.desktop` file |
 | Vivaldi        | `sudo cp /usr/share/applications/vivaldi-stable.desktop ~/.local/share/applications/` |                                                                                                                                                                       `#fluent-overlay-scrollbars` `#fluent-scrollbars` `#root-scrollbar-follows-browser-theme` |
 
+## Command-line Flags
 | Browser        |                                                                                                                                                                                                                                            Code to append |
 | :------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | Google Chrome  |                                                                                                                                    `--enable-features=MiddleClickAutoscroll,TouchpadOverscrollHistoryNavigation --disable-features=GlobalShortcutsPortal` |
@@ -47,16 +52,24 @@
 | Microsoft Edge |                                                                 `--enable-features=MiddleClickAutoscroll,TouchpadOverscrollHistoryNavigation,UseOzonePlatform,WaylandWindowDecorations --ozone-platform=wayland --disable-features=GlobalShortcutsPortal` |
 | Vivaldi        | `--enable-features=MiddleClickAutoscroll,TouchpadOverscrollHistoryNavigation,UseOzonePlatform,WaylandWindowDecorations --ozone-platform=wayland --enable-wayland-ime --enable-pinch --enable-gesture-navigation --disable-features=GlobalShortcutsPortal` |
 
-# GRUB theme background glitches
-For GRUB configuration, install the GRUB theme but comment out the `GRUB_BACKGROUND` flag to avoid any background.
+# Themes
 
-# Enable fingerprint authentication besides login
-`sudo pam-auth-update` and enable **Fingerprint Authentication**.
+## MacTahoe GDM
 
-# Theming flatpak apps
+`sudo ./tweaks.sh --gdm -b /home/earth/Wallpapers/pramod-tiwari-fcMI6xvRcYE-unsplash.jpg -h default -nb -c dark -t blue -s nord`
+
+## MacTahoe Dark Blue Nord
+
+`sudo ./install.sh -d /usr/local/share/themes/ -t blue -c dark -s compact -g -l --tweaks nord darker rimless normal && ./install.sh -d ~/.local/share/themes/ -t blue -c dark -s compact -l --tweaks nord darker rimless normal`
+
+## GRUB theme background fix
+
+For GRUB configuration, install the GRUB theme but comment out the `GRUB_BACKGROUND` flag to avoid any background glitches.
+
+## Theming flatpak apps
 
 - Grant filesystem access to all Flatpak apps with `flatpak override --user --filesystem=xdg-config/gtk-3.0 --filesystem=xdg-config/gtk-4.0 --filesystem=xdg-data/themes --filesystem=xdg-data/icons --filesystem=xdg-data/fonts`.
-- This is usually enough - `sudo flatpak override --filesystem=/usr/share/themes`, `sudo flatpak override --filesystem=~/.local/share/themes` and `sudo flatpak override --filesystem=xdg-config/gtk-3.0 && sudo flatpak override --filesystem=xdg-config/gtk-4.0`.
+- This is usually enough - `sudo flatpak override --filesystem=/usr/local/share/themes`, `sudo flatpak override --filesystem=~/.local/share/themes` and `sudo flatpak override --filesystem=xdg-config/gtk-3.0 && sudo flatpak override --filesystem=xdg-config/gtk-4.0`.
 
 | UI Element                  |                                                                                                                                                                                                                       Command |
 | :-------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
@@ -66,7 +79,7 @@ For GRUB configuration, install the GRUB theme but comment out the `GRUB_BACKGRO
 | Fonts                       |            `flatpak override --user --filesystem=xdg-data/fonts:ro --filesystem=xdg-config/fontconfig:ro` (Reset with `flatpak override --user --reset --filesystem=xdg-data/fonts:ro --filesystem=xdg-config/fontconfig:ro`) |
 | Reset all flatpak overrides | `flatpak override --user --reset` and `flatpak override --user --reset --filesystem=xdg-config/gtk-3.0 --filesystem=xdg-config/gtk-4.0 --filesystem=xdg-data/themes --filesystem=xdg-data/icons --filesystem=xdg-data/fonts`. |
 
-If the above reset don't work fully, run these to reset all relevant UI settings: 
+> If the above reset don't work fully, run these to reset all relevant UI settings: 
 
 ```bash
 gsettings reset org.gnome.desktop.interface gtk-theme
@@ -80,18 +93,19 @@ gsettings set org.gnome.desktop.interface gtk-theme 'Default-pure'
 gsettings set org.gnome.shell.extensions.user-theme name 'Default-pure'
 ```
 
+# Enable fingerprint authentication besides login
+`sudo pam-auth-update` and enable **Fingerprint Authentication**.
+
 # Important search terms for NVIDIA driver and Linux Kernel packages
 `linux-generic`, `linux-headers-generic`, `linux-image-generic`, `linux-objects or linux-objects-nvidia`, `linux-modules`, `linux-header`, `linux-signatures or linux-signatures-nvidia`
 
 ## Common dependencies after a fresh install
-`gcc g++ git tldr curl btop btm build-essential wget ca-certificates zip unzip tree locate gnupg2 gpg binfmt-support clang clangd llvm`
+`gcc g++ git tldr curl wget ca-certificates zip unzip tree locate gnupg2 gpg clang clangd llvm`
 
 # Python Dependencies
 `liblzma-dev liblz-dev zlib1g-dev libncurses-dev libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev libsqlite3-dev libbz2-dev`
 
-
-
-# Bash aliases (~/.bashrc.d/aliases.sh)
+# Bash aliases (~/.bashrc.d/aliases.sh or ~/.bash_aliases)
 
 ```bash
 # Package Management Aliases.
@@ -166,5 +180,5 @@ alias usrthm="cd ~/.local/share/themes/"
 alias sysico="cd /usr/share/icons/"
 alias usrico="cd ~/.local/share/icons/"
 alias syscur="cd /usr/share/icons/"
-alias usrcur="cd ~/.local/share/icons/"
+alias usrcur="cd ~/.local/share/icons/""
 ```
