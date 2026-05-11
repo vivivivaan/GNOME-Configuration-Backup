@@ -1,0 +1,643 @@
+user-theme@gnome-shell-extensions.gcampax.github.com
+  Name: User Themes
+  Description: Load shell themes from user directory.
+  Path: /home/earth/.local/share/gnome-shell/extensions/user-theme@gnome-shell-extensions.gcampax.github.com
+  URL: https://gitlab.gnome.org/GNOME/gnome-shell-extensions
+  Version: 73
+  Enabled: Yes
+  State: ACTIVE
+
+drive-menu@gnome-shell-extensions.gcampax.github.com
+  Name: Removable Drive Menu
+  Description: A status menu for accessing and unmounting removable devices.
+  Path: /home/earth/.local/share/gnome-shell/extensions/drive-menu@gnome-shell-extensions.gcampax.github.com
+  URL: https://gitlab.gnome.org/GNOME/gnome-shell-extensions
+  Version: 76
+  Enabled: Yes
+  State: ACTIVE
+
+apps-menu@gnome-shell-extensions.gcampax.github.com
+  Name: Apps Menu
+  Description: Add a category-based menu for apps.
+This extension is part of Classic Mode and is officially supported by GNOME. Please do not report bugs using the form below, use GNOME's GitLab instance instead.
+  Path: /home/earth/.local/share/gnome-shell/extensions/apps-menu@gnome-shell-extensions.gcampax.github.com
+  URL: https://gitlab.gnome.org/GNOME/gnome-shell-extensions
+  Version: 74
+  Enabled: Yes
+  State: ACTIVE
+
+places-menu@gnome-shell-extensions.gcampax.github.com
+  Name: Places Status Indicator
+  Description: Add a menu for quickly navigating places in the system.
+This extension is part of Classic Mode and is officially supported by GNOME. Please do not report bugs using the form below, use GNOME's GitLab instance instead.
+  Path: /home/earth/.local/share/gnome-shell/extensions/places-menu@gnome-shell-extensions.gcampax.github.com
+  URL: https://gitlab.gnome.org/GNOME/gnome-shell-extensions
+  Version: 78
+  Enabled: Yes
+  State: ACTIVE
+
+background-logo@fedorahosted.org
+  Name: Background Logo
+  Description: Overlay a tasteful logo on the background to enhance the user experience
+  Path: /home/earth/.local/share/gnome-shell/extensions/background-logo@fedorahosted.org
+  URL: https://forge.fedoraproject.org/workstation/background-logo-extension
+  Version: 50.1 (9)
+  Enabled: Yes
+  State: ACTIVE
+
+clipboard-indicator@tudmotu.com
+  Name: Clipboard Indicator
+  Description: The most popular clipboard manager for GNOME, with over 1M downloads
+  Path: /home/earth/.local/share/gnome-shell/extensions/clipboard-indicator@tudmotu.com
+  URL: https://github.com/Tudmotu/gnome-shell-extension-clipboard-indicator
+  Version: 71
+  Enabled: No
+  State: INITIALIZED
+
+osd-volume-number@deminder
+  Name: OSD Volume Number
+  Description: Replace the on-screen-display volume level icon with a number.
+  Path: /home/earth/.local/share/gnome-shell/extensions/osd-volume-number@deminder
+  URL: https://github.com/Deminder/osd-volume-number
+  Version: 14
+  Enabled: Yes
+  State: ACTIVE
+
+screenshort-cut@pauloimon
+  Name: Screenshort-cut
+  Description: A simple shortcut to take screenshots directly on your top bar!
+  Path: /home/earth/.local/share/gnome-shell/extensions/screenshort-cut@pauloimon
+  URL: https://github.com/pauloimon/gnome-screenshort-cut-extension
+  Version: 7
+  Enabled: Yes
+  State: ACTIVE
+
+AlphabeticalAppGrid@stuarthayhurst
+  Name: Alphabetical App Grid
+  Description: Alphabetically order the app grid and folders
+  Path: /home/earth/.local/share/gnome-shell/extensions/AlphabeticalAppGrid@stuarthayhurst
+  URL: https://github.com/stuarthayhurst/alphabetical-grid-extension
+  Version: 44
+  Enabled: Yes
+  State: ACTIVE
+
+custom-hot-corners-extended@G-dH.github.com
+  Name: CHC-E (Custom Hot Corners - Extended)
+  Description: Give a function to any corner or edge of your monitors and expand your keyboard capabilities.
+Mouse pointer pressure, clicks and scrolls over the monitor corners/edges or custom keyboard shortcuts can trigger any of dozens built-in actions that helps you navigate and control your desktop environment, or your own shell commands.
+  Path: /home/earth/.local/share/gnome-shell/extensions/custom-hot-corners-extended@G-dH.github.com
+  URL: https://github.com/G-dH/custom-hot-corners
+  Version: 50.0 (50)
+  Enabled: Yes
+  State: ACTIVE
+
+just-perfection-desktop@just-perfection
+  Name: Just Perfection
+  Description: Tweak Tool to Customize GNOME Shell, Change the Behavior and Disable UI Elements
+  Path: /home/earth/.local/share/gnome-shell/extensions/just-perfection-desktop@just-perfection
+  URL: https://gitlab.gnome.org/jrahmatzadeh/just-perfection
+  Version: 36
+  Enabled: Yes
+  State: ACTIVE
+
+blur-my-shell@aunetx
+  Name: Blur my Shell
+  Description: Adds a blur look to different parts of the GNOME Shell, including the top panel, dash and overview.
+
+You can support my work by sponsoring me on:
+- github: https://github.com/sponsors/aunetx
+- ko-fi: https://ko-fi.com/aunetx
+
+If you use Ubuntu, you may want to change the radius of the corner effect for Dash-to-Dock in preferences, else you may see unpleasantly mixed radii in your dock.
+
+Note: if the extension shows an error after updating, please make sure to restart your session to see if it persists. This is due to a bug in gnome shell, which I can't fix by myself.
+  Path: /home/earth/.local/share/gnome-shell/extensions/blur-my-shell@aunetx
+  URL: https://github.com/aunetx/blur-my-shell
+  Version: 72
+  Enabled: Yes
+  State: ACTIVE
+
+fq@megh
+  Name: Force Quit
+  Description: Adds a force quit button.
+Click the toolbar button, then choose the window you want to force quit.
+On accidental click, right click anywhere or press [Esc] to abort the kill.
+  Path: /home/earth/.local/share/gnome-shell/extensions/fq@megh
+  URL: https://github.com/meghprkh/force-quit/
+  Version: 46
+  Enabled: Yes
+  State: ACTIVE
+
+quick-settings-tweaks@qwreey
+  Name: Quick Settings Tweaks
+  Description: Let's tweak gnome's quick settings! You can add Media Controls, Notifications, Volume Mixer on quick settings and remove useless buttons!
+  Path: /home/earth/.local/share/gnome-shell/extensions/quick-settings-tweaks@qwreey
+  URL: https://github.com/qwreey/quick-settings-tweaks
+  Version: 30
+  Enabled: Yes
+  State: ACTIVE
+
+tweaks-system-menu@extensions.gnome-shell.fifi.org
+  Name: Tweaks & Extensions in System Menu
+  Description: Put Gnome Tweaks, Extensions, Extension Manager and any other application in the System menu.
+  Path: /home/earth/.local/share/gnome-shell/extensions/tweaks-system-menu@extensions.gnome-shell.fifi.org
+  URL: https://github.com/F-i-f/tweaks-system-menu
+  Version: 27
+  Enabled: Yes
+  State: ACTIVE
+
+show-desktop-button@amivaleo
+  Name: Show Desktop Button
+  Description: Minimize/unminimize all open windows with a single click.
+  Path: /home/earth/.local/share/gnome-shell/extensions/show-desktop-button@amivaleo
+  URL: https://github.com/amivaleo/Show-Desktop-Button
+  Version: 52
+  Enabled: Yes
+  State: ACTIVE
+
+hidetopbar@mathieu.bidon.ca
+  Name: Hide Top Bar
+  Description: Hides the top bar, except in overview. However, there is an option to show the panel whenever the mouse pointer approaches the edge of the screen. And if "intellihide" is enabled, the panel only hides when a window takes the space.
+
+- Press backspace to remove keyboard shortcut.
+- Log off and on again when there is an error after upgrading.
+  Path: /home/earth/.local/share/gnome-shell/extensions/hidetopbar@mathieu.bidon.ca
+  URL: https://gitlab.gnome.org/tuxor1337/hidetopbar
+  Version: 124
+  Enabled: No
+  State: INITIALIZED
+
+day-progress@arcaege.github.io
+  Name: Day Progress
+  Description: Displays a (somewhat) customisable progress bar of your day in the top panel to help you track your time.
+  Path: /home/earth/.local/share/gnome-shell/extensions/day-progress@arcaege.github.io
+  URL: https://github.com/ArcaEge/day-progress
+  Version: 21
+  Enabled: No
+  State: INITIALIZED
+
+Vitals@CoreCoding.com
+  Name: Vitals
+  Description: A glimpse into your computer's temperature, voltage, fan speed, memory usage, processor load, system resources, network speed and storage stats. This is a one stop shop to monitor all of your vital sensors. Uses asynchronous polling to provide a smooth user experience. Feature requests or bugs? Please use GitHub.
+  Path: /home/earth/.local/share/gnome-shell/extensions/Vitals@CoreCoding.com
+  URL: https://github.com/corecoding/Vitals
+  Version: 76
+  Enabled: Yes
+  State: ACTIVE
+
+sound-percentage@subashghimire.info.np
+  Name: Sound percentage
+  Description: Display the current sound percentage in the system tray
+  Path: /home/earth/.local/share/gnome-shell/extensions/sound-percentage@subashghimire.info.np
+  URL: https://github.com/PublisherName/sound-percentage-gs-extension
+  Version: 3
+  Enabled: Yes
+  State: ACTIVE
+
+transparent-window-moving@noobsai.github.com
+  Name: Transparent Window Moving
+  Description: Makes the window semi-transparent when moving or resizing
+  Path: /home/earth/.local/share/gnome-shell/extensions/transparent-window-moving@noobsai.github.com
+  URL: https://github.com/Noobsai/transparent-window-moving
+  Version: 21
+  Enabled: Yes
+  State: ACTIVE
+
+tilingshell@ferrarodomenico.com
+  Name: Tiling Shell
+  Description: Extend Gnome Shell with advanced tiling window management. Supports multiple monitors, Windows 11 Snap Assistant, Fancy Zones, automatic tiling, keyboard shortcuts, customised tiling layouts and more!
+  Path: /home/earth/.local/share/gnome-shell/extensions/tilingshell@ferrarodomenico.com
+  URL: https://github.com/domferr/tilingshell
+  Version: 17.3 (76)
+  Enabled: Yes
+  State: ACTIVE
+
+notification-banner-reloaded@marcinjakubowski.github.com
+  Name: Notification Banner Reloaded
+  Description: Configure notification banner position and animation to your liking.
+Version 9: Gnome 45 changes by mannjani@github
+Version 10: mannjani@github added a test button inside prefs
+  Path: /home/earth/.local/share/gnome-shell/extensions/notification-banner-reloaded@marcinjakubowski.github.com
+  URL: https://github.com/marcinjakubowski/notification-position-reloaded
+  Version: 17
+  Enabled: Yes
+  State: ACTIVE
+
+volume_scroller@francislavoie.github.io
+  Name: Volume Scroller
+  Description: Scroll up or down in the Top Bar to adjust volume. Middle-click to toggle mute. Supports configuring granularity (default step of 5%)
+
+This is a fork of https://extensions.gnome.org/extension/4109/volume-scroller/ which is now unfortunately unmaintained/archived.
+  Path: /home/earth/.local/share/gnome-shell/extensions/volume_scroller@francislavoie.github.io
+  URL: https://github.com/francislavoie/gnome-shell-volume-scroller
+  Original author: francislavoie
+  Version: 14
+  Enabled: No
+  State: INITIALIZED
+
+battery-indicator-icon@Deminder
+  Name: Battery Indicator Icon
+  Description: Replace the battery indicator icon with a circle or portrait.
+  Path: /home/earth/.local/share/gnome-shell/extensions/battery-indicator-icon@Deminder
+  URL: https://github.com/Deminder/battery-indicator-icon
+  Version: 20
+  Enabled: Yes
+  State: ACTIVE
+
+night-light-slider-updated@vilsbeg.codeberg.org
+  Name: Night Light Slider Updated
+  Description: Kiyui's Night Light Slider updated for GNOME 45. Provides a slider in the quick settings menu to control the night light temperature. Some nice options can be set in the extension preferences menu. Original implementation: https://codeberg.org/kiyui/gnome-shell-night-light-slider-extension/
+  Path: /home/earth/.local/share/gnome-shell/extensions/night-light-slider-updated@vilsbeg.codeberg.org
+  URL: https://codeberg.org/vilsbeg/night-light-slider-updated
+  Version: 16
+  Enabled: Yes
+  State: ACTIVE
+
+reboottouefi@ubaygd.com
+  Name: RebootToUEFI
+  Description: Reboot system into UEFI
+  Path: /home/earth/.local/share/gnome-shell/extensions/reboottouefi@ubaygd.com
+  URL: https://github.com/UbayGD/reboottouefi
+  Version: 26
+  Enabled: Yes
+  State: ACTIVE
+
+rounded-window-corners@fxgn
+  Name: Rounded Window Corners Reborn
+  Description: Add rounded corners to all windows. Fork of the now unmaintained Rounded Window Corners extension.
+  Path: /home/earth/.local/share/gnome-shell/extensions/rounded-window-corners@fxgn
+  URL: https://github.com/flexagoon/rounded-window-corners
+  Version: 18
+  Enabled: Yes
+  State: ACTIVE
+
+dash-to-panel@jderose9.github.com
+  Name: Dash to Panel
+  Description: An icon taskbar for the Gnome Shell. This extension moves the dash into the gnome main panel so that the application launchers and system tray are combined into a single panel, similar to that found in KDE Plasma and Windows 7+. A separate dock is no longer needed for easy access to running and favorited applications.
+
+For a more traditional experience, you may also want to use Tweak Tool to enable Windows > Titlebar Buttons > Minimize & Maximize.
+
+For the best support, please report any issues on Github. Dash-to-panel is developed and maintained by @jderose9 and @charlesg99.
+  Path: /home/earth/.local/share/gnome-shell/extensions/dash-to-panel@jderose9.github.com
+  URL: https://github.com/home-sweet-gnome/dash-to-panel
+  Version: 73
+  Enabled: No
+  State: INITIALIZED
+
+open-desktop-location@laura.media
+  Name: Open .desktop file location
+  Description: Opens the location of the applications .desktop file
+  Path: /home/earth/.local/share/gnome-shell/extensions/open-desktop-location@laura.media
+  URL: https://github.com/laurawebdev/open-desktop-location
+  Version: 1.0.1 (2)
+  Enabled: Yes
+  State: ACTIVE
+
+app-grid-tuner@m-lab
+  Name: App Grid Tuner
+  Description: Tune and customize the GNOME application grid (rows, columns, icon size, padding, labels).
+  Path: /home/earth/.local/share/gnome-shell/extensions/app-grid-tuner@m-lab
+  URL: https://codeberg.org/m-lab/app-grid-tuner
+  Version: 8
+  Enabled: No
+  State: INITIALIZED
+
+right-click-next@derVedro
+  Name: Right Click Next
+  Description: Move windows to the next workspace by right-clicking them in the overview.
+  Path: /home/earth/.local/share/gnome-shell/extensions/right-click-next@derVedro
+  URL: https://github.com/derVedro/gnome-right-click-next
+  Version: 7
+  Enabled: Yes
+  State: ACTIVE
+
+restartto@tiagoporsch.github.io
+  Name: Restart To
+  Description: Adds a menu item to restart to any other EFI boot entry
+  Path: /home/earth/.local/share/gnome-shell/extensions/restartto@tiagoporsch.github.io
+  URL: https://github.com/tiagoporsch/restartto
+  Version: 15
+  Enabled: No
+  State: INITIALIZED
+
+dash2dock-lite@icedman.github.com
+  Name: Dash2Dock Animated
+  Description: The Animated & Effectful Dock
+  Path: /home/earth/.local/share/gnome-shell/extensions/dash2dock-lite@icedman.github.com
+  URL: https://github.com/icedman/dash2dock-lite
+  Version: 91
+  Enabled: No
+  State: INITIALIZED
+
+applications-overview-tooltip@RaphaelRochet
+  Name: Applications Overview Tooltip
+  Description: Shows a tooltip over applications icons on applications overview with application name and/or description.
+  Path: /home/earth/.local/share/gnome-shell/extensions/applications-overview-tooltip@RaphaelRochet
+  URL: https://codeberg.org/RaphaelRochet/applications-overview-tooltip
+  Version: 25
+  Enabled: No
+  State: INITIALIZED
+
+aztaskbar@aztaskbar.gitlab.com
+  Name: App Icons Taskbar
+  Description: A simple app icon taskbar. Show running apps and favorites on the main panel.
+  Path: /home/earth/.local/share/gnome-shell/extensions/aztaskbar@aztaskbar.gitlab.com
+  URL: https://gitlab.com/AndrewZaech/aztaskbar
+  Version: 31.3 (39)
+  Enabled: No
+  State: INITIALIZED
+
+gnome-ui-tune@itstime.tech
+  Name: Gnome 4x UI Improvements
+  Description: Tunes gnome 4x Overview UI to make it more usable.
+
+Changes:
+- Search textbox is hidden by default and shown only when user begins to type-to-search
+- Scale of workspaces' thumbnails increased 2x
+- Restores wallpaper on workspaces' thumbnails. No more gray background
+- Show workspaces' thumbnails even when there is only one workspace
+- Firefox's PIP (picture in picture) window is now displayed on the overview screen
+
+All modifications can be disabled in the extension's settings.
+
+ATTENTION!
+After extension update, gnome-shell restart is required:
+X11: Alt+F2 => r
+Wayland: logout => login
+  Path: /home/earth/.local/share/gnome-shell/extensions/gnome-ui-tune@itstime.tech
+  URL: https://github.com/axxapy/gnome-ui-tune
+  Version: 25
+  Enabled: Yes
+  State: ACTIVE
+
+hide-keyboard-layout@sitnik.ru
+  Name: Hide Keyboard Layout
+  Description: Hide keyboard layout indicator in status bar
+  Path: /home/earth/.local/share/gnome-shell/extensions/hide-keyboard-layout@sitnik.ru
+  URL: https://github.com/ai/hide-keyboard-layout
+  Version: 13
+  Enabled: Yes
+  State: ACTIVE
+
+one-thing@github.com
+  Name: One Thing
+  Description: Put a single task or goal in your menu bar
+  Path: /home/earth/.local/share/gnome-shell/extensions/one-thing@github.com
+  URL: https://github.com/dantehemerson/one-thing
+  Version: 27
+  Enabled: Yes
+  State: ACTIVE
+
+copyous@boerdereinar.dev
+  Name: Copyous
+  Description: Modern Clipboard Manager for GNOME
+  Path: /home/earth/.local/share/gnome-shell/extensions/copyous@boerdereinar.dev
+  URL: https://github.com/boerdereinar/copyous
+  Version: 2.0.1 (9)
+  Enabled: Yes
+  State: ACTIVE
+
+quickshutdownbutton@feelfree2useit.outlook.com
+  Name: Quick Shutdown
+  Description: Add shutdown button to the top panel
+  Path: /home/earth/.local/share/gnome-shell/extensions/quickshutdownbutton@feelfree2useit.outlook.com
+  URL: https://github.com/feelfree2useit/quickshutdownbutton
+  Version: 4
+  Enabled: Yes
+  State: ACTIVE
+
+dropbeat@romanlefler.com
+  Name: Dropbeat
+  Description: A flashy extension to view your music/media.
+  Path: /home/earth/.local/share/gnome-shell/extensions/dropbeat@romanlefler.com
+  URL: https://github.com/romanlefler/dropbeat
+  Version: 49.0.0 (1)
+  Enabled: No
+  State: INITIALIZED
+
+mediacontrols@cliffniff.github.com
+  Name: Media Controls
+  Description: Show controls and information of the currently playing media in the panel.
+  Path: /home/earth/.local/share/gnome-shell/extensions/mediacontrols@cliffniff.github.com
+  URL: https://github.com/cliffniff/media-controls
+  Version: 2.4.4 (47)
+  Enabled: No
+  State: INITIALIZED
+
+kiwi@kemma
+  Name: Kiwi is not Apple
+  Description: Kiwi is free open source project that brings macOS-inspired features for GNOME.
+
+*Note. This extension is tested with vanilla GNOME Adwaita theme. Be aware that other extensions may cause compatibility issues.
+
+Features:
+- macOS-style window control buttons with GTK theming
+- Firefox and Thunderbird window control theming
+- Move fullscreen windows to new workspaces automatically
+- Make windows transparent while moving
+- Display battery percentage when below 20%
+- Move calendar to the right side and customize notifications
+- Quick settings media and notifications tweaks
+- Show current window title in the top panel
+- Show panel on hover in fullscreen mode
+- Hide minimized windows in overview
+- Hide the Activities button
+- Skip overview on login (go directly to desktop)
+- Set panel transparency or blur based on window position
+- Dash-to-dock blur effect
+- Overview wallpaper blur
+- Keyboard indicator styling
+- Focus on newly launched windows (removes window-ready notifications)
+- Show Caps Lock/Num Lock indicators in the top panel
+- Add username display to the quick settings menu
+- Multilingual support and more...
+
+This extension uses a modular architecture for stability and customization. Some advanced features require native libraries (available in the advanced/ folder).
+
+Disclaimer: This extension is unofficial and not affiliated with Apple in any way.
+  Path: /home/earth/.local/share/gnome-shell/extensions/kiwi@kemma
+  URL: https://github.com/kem-a/kiwi-kemma
+  Version: 1.6.2 (43)
+  Enabled: No
+  State: INITIALIZED
+
+pomodoro@zhuravkovigor.dev
+  Name: Focus Buddy
+  Description: Simple Pomodoro timer with customizable durations and sound notifications to help you stay focused and productive.
+  Path: /home/earth/.local/share/gnome-shell/extensions/pomodoro@zhuravkovigor.dev
+  URL: https://github.com/zhuravkovigor/gnome-shell-pomodoro-extenshion
+  Version: 2
+  Enabled: No
+  State: INITIALIZED
+
+1440@ravener.github.com
+  Name: 1440
+  Description: Make every minute count.
+Inspired by https://1440app.com/
+  Path: /home/earth/.local/share/gnome-shell/extensions/1440@ravener.github.com
+  URL: https://github.com/ravener/gnome-1440
+  Version: 2
+  Enabled: No
+  State: INITIALIZED
+
+focuslock@kavinda
+  Name: Focus Lock
+  Description: Lock focus to a specific application window. When enabled, you cannot switch to other windows until you unlock.
+  Path: /home/earth/.local/share/gnome-shell/extensions/focuslock@kavinda
+  URL: https://github.com/kavindamihiran/Linux-Focus
+  Version: 7
+  Enabled: No
+  State: INITIALIZED
+
+clipmaster@gnome.extension
+  Name: ClipMaster
+  Description: ClipMaster is a clipboard manager with history, image support, favorites, and optional themes. Follows system dark/light preference by default.
+  Path: /home/earth/.local/share/gnome-shell/extensions/clipmaster@gnome.extension
+  URL: https://github.com/sfnemis/ClipMaster
+  Version: 1.3.1 (15)
+  Enabled: No
+  State: INITIALIZED
+
+appgridbuttonintoppanel@raphaelian
+  Name: App Grid Button In Top Panel
+  Description: Add a button next to the activities button to directly open the app grid
+  Path: /home/earth/.local/share/gnome-shell/extensions/appgridbuttonintoppanel@raphaelian
+  URL: 
+  Version: 4
+  Enabled: No
+  State: INITIALIZED
+
+vertical-app-grid@lublst.github.io
+  Name: Vertical App Grid
+  Description: Turns the default horizontal app grid into a vertical one
+  Path: /home/earth/.local/share/gnome-shell/extensions/vertical-app-grid@lublst.github.io
+  URL: https://github.com/lublst/gnome-vertical-app-grid
+  Version: 7
+  Enabled: No
+  State: INITIALIZED
+
+pomodoro@youcefzaid.github.io
+  Name: Pomodoro Timer
+  Description: A simple Pomodoro timer for GNOME Shell
+  Path: /home/earth/.local/share/gnome-shell/extensions/pomodoro@youcefzaid.github.io
+  URL: https://github.com/youcefzaid/gnome-pomodoro-extension
+  Version: 2
+  Enabled: Yes
+  State: ACTIVE
+
+Rounded_Corners@lennart-k
+  Name: Rounded Corners
+  Description: Creates rounded corners for every monitor
+  Path: /home/earth/.local/share/gnome-shell/extensions/Rounded_Corners@lennart-k
+  URL: https://github.com/lennart-k/gnome-rounded-corners
+  Version: 18
+  Enabled: No
+  State: INITIALIZED
+
+all-in-one-clipboard@NiffirgkcaJ.github.com
+  Name: All-in-One Clipboard
+  Description: A powerful clipboard manager that combines your clipboard history, emojis, GIFs, kaomojis, and symbols into a single, searchable interface.
+
+External Services:
+• Klipy & Tenor - GIF search and browsing
+• Google S2 Favicons - Favicon fallback for URLs
+• Cloudflare Workers - API key storage
+
+Extension Homepage:
+https://github.com/NiffirgkcaJ/all-in-one-clipboard
+https://gitlab.com/NiffirgkcaJ/all-in-one-clipboard
+  Path: /home/earth/.local/share/gnome-shell/extensions/all-in-one-clipboard@NiffirgkcaJ.github.com
+  URL: https://github.com/NiffirgkcaJ/all-in-one-clipboard
+  Version: 19
+  Enabled: No
+  State: INITIALIZED
+
+wellbeingtoggle@m51.io
+  Name: Wellbeing Toggle
+  Description: Toggle wellbeing reminders from the quick settings menu.
+  Path: /home/earth/.local/share/gnome-shell/extensions/wellbeingtoggle@m51.io
+  URL: https://github.com/Fingel/gnome-ext-wellbeing-toggle
+  Version: 4
+  Enabled: Yes
+  State: ACTIVE
+
+timeFromStart@pic16f877ccs.github.com
+  Name: Time from start (Uptime)
+  Description: Shows the start time and duration of the system and user operation.
+  Path: /home/earth/.local/share/gnome-shell/extensions/timeFromStart@pic16f877ccs.github.com
+  URL: https://github.com/pic16f877ccs/Time-from-start
+  Version: 4.2.0 (9)
+  Enabled: No
+  State: INITIALIZED
+
+disconnect-wifi@kgshank.net
+  Name: Disconnect Wifi
+  Description: Adds a Disconnect option for Wifi in status menu, when a network is connected. Shows a Reconnect option, after network is disconnected.
+  Path: /home/earth/.local/share/gnome-shell/extensions/disconnect-wifi@kgshank.net
+  URL: https://github.com/kgshank/gse-disconnect-wifi
+  Original author: GopI
+  Version: 38
+  Enabled: Yes
+  State: ACTIVE
+
+just_shows_memory_usage@troizet.github.com
+  Name: Just shows memory usage
+  Description: Just shows memory usage
+  Path: /home/earth/.local/share/gnome-shell/extensions/just_shows_memory_usage@troizet.github.com
+  URL: https://github.com/troizet/just-shows-memory-usage
+  Version: 7
+  Enabled: No
+  State: INITIALIZED
+
+dash-to-dock@micxgx.gmail.com
+  Name: Dash to Dock
+  Description: A dock for the Gnome Shell. This extension moves the dash out of the overview transforming it in a dock for an easier launching of applications and a faster switching between windows and desktops. Side and bottom placement options are available.
+  Path: /home/earth/.local/share/gnome-shell/extensions/dash-to-dock@micxgx.gmail.com
+  URL: https://micheleg.github.io/dash-to-dock/
+  Original author: micxgx@gmail.com
+  Version: 105
+  Enabled: Yes
+  State: ACTIVE
+
+adaptive-brightness@dmy3k.github.io
+  Name: Adaptive Brightness
+  Description: This extension is a customizable alternative of 'Automatic Screen Brightness' found in GNOME settings. 
+
+Features:
+• Smooth transitions that prevent flickering in changing light
+• Customizable brightness response to ambient light
+• Automatic keyboard backlight control in low-light conditions
+
+Requires Ambient Light Sensor (ALS) hardware support. Check the extension's home page for device compatibility.
+  Path: /home/earth/.local/share/gnome-shell/extensions/adaptive-brightness@dmy3k.github.io
+  URL: https://github.com/dmy3k/gnome-adaptive-brightness
+  Version: 28
+  Enabled: Yes
+  State: ACTIVE
+
+dynamic-music-pill@andbal
+  Name: Dynamic Music Pill
+  Description: An elegant, pill-shaped music player for your desktop. Features a smooth audio visualizer, scrolling text, and seamless integration with Dash-to-Dock and the Top Panel. Comes with a Pop-Up menu as well.
+  Path: /home/earth/.local/share/gnome-shell/extensions/dynamic-music-pill@andbal
+  URL: https://github.com/Andbal23/dynamic-music-pill
+  Version: 1.1.0 (43)
+  Enabled: Yes
+  State: ACTIVE
+
+launch-new-instance@gnome-shell-extensions.gcampax.github.com
+  Name: Launch New Instance
+  Description: Always launch a new instance when clicking in the dash or the application view.
+This extension is part of Classic Mode and is officially supported by GNOME. Please do not report bugs using the form below, use GNOME's GitLab instance instead.
+  Path: /usr/share/gnome-shell/extensions/launch-new-instance@gnome-shell-extensions.gcampax.github.com
+  URL: https://gitlab.gnome.org/GNOME/gnome-shell-extensions
+  Enabled: Yes
+  State: ACTIVE
+
+window-list@gnome-shell-extensions.gcampax.github.com
+  Name: Window List
+  Description: Display a window list at the bottom of the screen.
+This extension is part of Classic Mode and is officially supported by GNOME. Please do not report bugs using the form below, use GNOME's GitLab instance instead.
+  Path: /usr/share/gnome-shell/extensions/window-list@gnome-shell-extensions.gcampax.github.com
+  URL: https://gitlab.gnome.org/GNOME/gnome-shell-extensions
+  Enabled: No
+  State: INITIALIZED
