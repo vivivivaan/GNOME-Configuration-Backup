@@ -190,7 +190,7 @@ sound-percentage@subashghimire.info.np
   Description: Display the current sound percentage in the system tray
   Path: /home/earth/.local/share/gnome-shell/extensions/sound-percentage@subashghimire.info.np
   URL: https://github.com/PublisherName/sound-percentage-gs-extension
-  Version: 3
+  Version: 4
   Enabled: Yes
   State: ACTIVE
 
