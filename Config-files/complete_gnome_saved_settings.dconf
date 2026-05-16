@@ -115,7 +115,7 @@ logo-size=8.1645569620253156
 index-recursive-directories=['&DESKTOP', '&DOCUMENTS', '&MUSIC', '&PICTURES', '&VIDEOS', '/home/earth/Wallpapers', '/home/earth/UI']
 
 [org/gnome/Characters]
-recent-characters=['🤗', '🫂', '💔', '💖', '🫣', '🪄', '🤓', '🫠', '😊', '🥰', '😍', '😁', '😉', '👀', '🤩', '🤔', '🔥', '🐱', '🤞', '🗝️', '😭', '💁\u200d♂️', '🌚', '🙇', '🤞🏼', '😆', '😂', '🥂', '🌃', '✴️', '💫']
+recent-characters=['🧑\u200d🎤', '🤗', '🫂', '💔', '💖', '🫣', '🪄', '🤓', '🫠', '😊', '🥰', '😍', '😁', '😉', '👀', '🤩', '🤔', '🔥', '🐱', '🤞', '🗝️', '😭', '💁\u200d♂️', '🌚', '🙇', '🤞🏼', '😆', '😂', '🥂', '🌃', '✴️', '💫']
 
 [org/gnome/Geary]
 migrated-config=true
@@ -372,7 +372,7 @@ font-antialiasing='rgba'
 font-name='Mariupol 10.5'
 gtk-enable-primary-paste=true
 gtk-theme='MacTahoe-Dark-alt-blue-nord'
-icon-theme='FairyWren_Dark'
+icon-theme='Tela-nord-dark'
 locate-pointer=true
 monospace-font-name='JetBrainsMono Nerd Font Mono 10'
 show-battery-percentage=true
@@ -862,14 +862,14 @@ use-tree-view=true
 [org/gnome/nautilus/preferences]
 click-policy='double'
 date-time-format='detailed'
-default-folder-viewer='icon-view'
+default-folder-viewer='list-view'
 migrated-gtk-settings=true
 search-filter-time-type='last_modified'
 show-create-link=true
 show-delete-permanently=true
 
 [org/gnome/nautilus/window-state]
-initial-size=(1284, 851)
+initial-size=(960, 524)
 initial-size-file-chooser=(1232, 774)
 maximized=false
 
@@ -905,7 +905,7 @@ sizing-mode='free'
 window-height=524
 window-maximized=true
 window-width=960
-zoom=0.47521581236273319
+zoom=0.41239731450638867
 
 [org/gnome/pomodoro/plugins/actions]
 actions-list=@as []
@@ -954,10 +954,13 @@ last-folder-path='/home/earth/Pictures/mypics'
 last-folder-path='/home/earth/Music'
 
 [org/gnome/portal/filechooser/com.google.Chrome]
-last-folder-path='/home/earth/Downloads'
+last-folder-path='/home/earth'
 
 [org/gnome/portal/filechooser/com.notesnook.Notesnook]
 last-folder-path='/home/earth'
+
+[org/gnome/portal/filechooser/com.spotify.Client]
+last-folder-path='/home/earth/Wallpapers'
 
 [org/gnome/portal/filechooser/cursor]
 last-folder-path='/home/earth/UI/MacTahoe-gtk-theme'
@@ -984,6 +987,9 @@ last-folder-path='/home/earth/Downloads'
 last-folder-path='/home/earth/AppImages'
 
 [org/gnome/portal/filechooser/legcord]
+last-folder-path='/home/earth/Downloads'
+
+[org/gnome/portal/filechooser/librewolf]
 last-folder-path='/home/earth/Downloads'
 
 [org/gnome/portal/filechooser/md.obsidian.Obsidian]
@@ -1233,8 +1239,14 @@ sigma=30
 
 [org/gnome/shell/extensions/blur-my-shell/applications]
 blur=false
+brightness=0.80000000000000004
+corner-when-maximized=false
+dynamic-opacity=false
 enable-all=true
-pipeline='pipeline_default'
+opacity=236
+pipeline='pipeline_default_rounded'
+sigma=25
+static-blur=false
 
 [org/gnome/shell/extensions/blur-my-shell/coverflow-alt-tab]
 pipeline='pipeline_default_rounded'
@@ -1579,7 +1591,7 @@ panel-art-size=22
 panel-pill-height=28
 panel-pill-width=250
 pill-dynamic-width=true
-playback-history='[{"title":"Instagram","artist":"","artUrl":"file:///home/earth/.cache/dynamic-music-pill/art/hist_8a9ee1442d37af0dd13fb0e288ab4b43.jpg","time":1778612353871,"avgColor":{"r":120,"g":106,"b":72}},{"title":"Chrome","artist":"No active media","artUrl":"","time":1778611867826,"avgColor":{"r":120,"g":106,"b":72}},{"title":"Instagram","artist":"","artUrl":"file:///home/earth/.cache/dynamic-music-pill/art/hist_8a9ee1442d37af0dd13fb0e288ab4b43.jpg","time":1778611867491,"avgColor":{"r":120,"g":106,"b":72}},{"title":"Chrome","artist":"No active media","artUrl":"","time":1778611187366,"avgColor":{"r":120,"g":106,"b":72}},{"title":"Instagram","artist":"","artUrl":"file:///home/earth/.cache/dynamic-music-pill/art/hist_8a9ee1442d37af0dd13fb0e288ab4b43.jpg","time":1778611170103,"avgColor":{"r":120,"g":106,"b":72}},{"title":"Chrome","artist":"No active media","artUrl":"","time":1778610934413,"avgColor":{"r":120,"g":106,"b":72}},{"title":"Instagram","artist":"","artUrl":"file:///home/earth/.cache/dynamic-music-pill/art/hist_8a9ee1442d37af0dd13fb0e288ab4b43.jpg","time":1778610902757,"avgColor":{"r":120,"g":106,"b":72}},{"title":"web.whatsapp.com","artist":"","artUrl":"file:///home/earth/.cache/dynamic-music-pill/art/hist_3358e467e82d4bf1c7a55fa6cc2e4f3c.jpg","time":1778604786948,"avgColor":{"r":120,"g":106,"b":72}},{"title":"Chris Brown - Under The Influence (Official Video)","artist":"ChrisBrownVEVO","artUrl":"file:///home/earth/.cache/dynamic-music-pill/art/hist_73c20eecb27b0d7e4df1c2a3c6affdaa.jpg","time":1778584416697,"avgColor":{"r":86,"g":91,"b":92}},{"title":"(2) Instagram","artist":"","artUrl":"file:///home/earth/.cache/dynamic-music-pill/art/hist_9f1253c64be877b25bd7b989e6f4a831.jpg","time":1778584410340,"avgColor":{"r":86,"g":91,"b":92}},{"title":"Chrome","artist":"No active media","artUrl":"","time":1778583885529,"avgColor":{"r":86,"g":91,"b":92}},{"title":"(2) Instagram","artist":"","artUrl":"file:///home/earth/.cache/dynamic-music-pill/art/hist_68e200adc6e971ad9b6bde50f686f971.jpg","time":1778583881883,"avgColor":{"r":86,"g":91,"b":92}},{"title":"Chrome","artist":"No active media","artUrl":"","time":1778583845617,"avgColor":{"r":86,"g":91,"b":92}},{"title":"(2) Instagram","artist":"","artUrl":"file:///home/earth/.cache/dynamic-music-pill/art/hist_9e3b55fced9f83764744f3fe2d961874.jpg","time":1778583721983,"avgColor":{"r":86,"g":91,"b":92}},{"title":"Na Tum Jano Na Hum (ReVibe)","artist":"Ashwin Adwani","artUrl":"file:///home/earth/.cache/dynamic-music-pill/art/hist_4269e99235511275b9c53364ad3ecfdf.jpg","time":1778582503550,"avgColor":{"r":172,"g":208,"b":207}},{"title":"2U (feat. Justin Bieber)","artist":"David Guetta","artUrl":"file:///home/earth/.cache/dynamic-music-pill/art/hist_17441ec8925ebfc18feaabcb8082f1f1.jpg","time":1778582499043,"avgColor":{"r":116,"g":79,"b":163}},{"title":"Javeda Zindagi-Tose Naina Lage","artist":"Kshitij Tarey","artUrl":"file:///home/earth/.cache/dynamic-music-pill/art/hist_032e4ac77e43a985c561aca57eb6addb.jpg","time":1778582155219,"avgColor":{"r":44,"g":31,"b":25}},{"title":"On My Way","artist":"Alan Walker","artUrl":"file:///home/earth/.cache/dynamic-music-pill/art/hist_b272fffbb4e0b4bf838f999c3798c285.jpg","time":1778582138859,"avgColor":{"r":52,"g":57,"b":50}},{"title":"Parano (feat. DDB) - sped up","artist":"фрози","artUrl":"file:///home/earth/.cache/dynamic-music-pill/art/hist_cf841531f63b1bd5b6ff19929d9d9aa7.jpg","time":1778582126176,"avgColor":{"r":196,"g":195,"b":195}},{"title":"Paro - Speed up","artist":"Nej","artUrl":"file:///home/earth/.cache/dynamic-music-pill/art/hist_b46abf286c1367d15b7efcace08992bd.jpg","time":1778582124840,"avgColor":{"r":35,"g":72,"b":84}},{"title":"Headlights (feat. KIDDO) - Slowed Version","artist":"Alok","artUrl":"file:///home/earth/.cache/dynamic-music-pill/art/hist_f43f5c336274ed99a763223fe444ce44.jpg","time":1778582123416,"avgColor":{"r":39,"g":85,"b":96}},{"title":"Jalebi Baby (Tesher x Jason Derulo)","artist":"Tesher","artUrl":"file:///home/earth/.cache/dynamic-music-pill/art/hist_ab27b893ba7195de013ff27982e52862.jpg","time":1778582121156,"avgColor":{"r":109,"g":137,"b":116}},{"title":"Manike Mage Hithe","artist":"Chamath Sangeeth","artUrl":"file:///home/earth/.cache/dynamic-music-pill/art/hist_0dcf0acd1f525738e58d820d24bb546e.jpg","time":1778582119247,"avgColor":{"r":80,"g":52,"b":49}},{"title":"I Want It I Got It","artist":"Areena Grane","artUrl":"file:///home/earth/.cache/dynamic-music-pill/art/hist_9ba777fa9624ee59c8b4f12ac62bdb42.jpg","time":1778582118455,"avgColor":{"r":102,"g":67,"b":115}},{"title":"Bilionera - Slowed Reverb","artist":"Cover Time","artUrl":"file:///home/earth/.cache/dynamic-music-pill/art/hist_1a496b891889acca0fd70d3abfe0111d.jpg","time":1778582117373,"avgColor":{"r":8,"g":4,"b":4}},{"title":"YAD","artist":"Vanna Rainelle","artUrl":"file:///home/earth/.cache/dynamic-music-pill/art/hist_3e13883c5bacbe293553428c4636e4a1.jpg","time":1778582116344,"avgColor":{"r":114,"g":114,"b":114}},{"title":"I Was Never There x Woo","artist":"lxrdlopez","artUrl":"file:///home/earth/.cache/dynamic-music-pill/art/hist_ff401983351edea73a2373dd1df6e595.jpg","time":1778582114968,"avgColor":{"r":42,"g":32,"b":61}},{"title":"Where We Started","artist":"Lost Sky","artUrl":"file:///home/earth/.cache/dynamic-music-pill/art/hist_a0f2b283d9b670cdc1f4d52ac8908897.jpg","time":1778582113827,"avgColor":{"r":60,"g":38,"b":128}},{"title":"iwbwy","artist":"Hashy","artUrl":"file:///home/earth/.cache/dynamic-music-pill/art/hist_2319cf121faca870a9c18a997a55cde5.jpg","time":1778582112908,"avgColor":{"r":156,"g":158,"b":162}},{"title":"Cali - Sped Up","artist":"Serena","artUrl":"file:///home/earth/.cache/dynamic-music-pill/art/hist_7926c45aced1b332e58024b6b77f6785.jpg","time":1778582111673,"avgColor":{"r":100,"g":90,"b":86}}]'
+playback-history='[{"title":"Jay Cutler thinks im not ready","artist":"Larry Wheels","artUrl":"file:///home/earth/.cache/dynamic-music-pill/art/hist_1f05b82f04b7a11630afc7b82c2077a1.jpg","time":1778851027952,"avgColor":{"r":60,"g":55,"b":51}},{"title":"Jay Cutler’s SECRET To A Big Back","artist":"Larry Wheels","artUrl":"file:///home/earth/.cache/dynamic-music-pill/art/hist_a7fd5397ab23d125c5116fbf03fb5cd9.jpg","time":1778848058158,"avgColor":{"r":57,"g":73,"b":83}},{"title":"Why Terry Crews CHEATED On His Wife","artist":"Larry Wheels","artUrl":"file:///home/earth/.cache/dynamic-music-pill/art/hist_9563364217705f648b4892c65699806f.jpg","time":1778847983806,"avgColor":{"r":97,"g":93,"b":91}},{"title":"The Hardest Workout I’ve Ever Done","artist":"Larry Wheels","artUrl":"file:///home/earth/.cache/dynamic-music-pill/art/hist_907792588ab5486a37dcb4fadde7bea2.jpg","time":1778847887820,"avgColor":{"r":128,"g":96,"b":83}},{"title":"Why I Respect Diamond Gym So Much","artist":"Larry Wheels","artUrl":"file:///home/earth/.cache/dynamic-music-pill/art/hist_6801b62612aeb5ce5c45dbde477d7e38.jpg","time":1778847845136,"avgColor":{"r":92,"g":86,"b":81}},{"title":"The Cost To Open My Own Gym","artist":"Larry Wheels","artUrl":"file:///home/earth/.cache/dynamic-music-pill/art/hist_482acada279f0cc0cec7fd3dcb007807.jpg","time":1778847782567,"avgColor":{"r":123,"g":97,"b":85}},{"title":"The Secret To Put On Pure Muscle","artist":"Larry Wheels","artUrl":"file:///home/earth/.cache/dynamic-music-pill/art/hist_15815615e668bbc392973c6c32d0cb25.jpg","time":1778847728919,"avgColor":{"r":121,"g":83,"b":68}},{"title":"Larry Wheels FULL Day Of Eating","artist":"Larry Wheels","artUrl":"file:///home/earth/.cache/dynamic-music-pill/art/hist_e88c21a5f56fc6b69701a41fa838193d.jpg","time":1778847690361,"avgColor":{"r":120,"g":84,"b":68}},{"title":"Andrey Smaev Is On A Different Level","artist":"Larry Wheels","artUrl":"file:///home/earth/.cache/dynamic-music-pill/art/hist_943140871058046c05b1372f2bd4e2ab.jpg","time":1778847624917,"avgColor":{"r":90,"g":61,"b":41}},{"title":"The First Time I Used Tren","artist":"Larry Wheels","artUrl":"file:///home/earth/.cache/dynamic-music-pill/art/hist_745fff2f09a46afd38cb2fd098ab4d23.jpg","time":1778847594987,"avgColor":{"r":84,"g":101,"b":106}},{"title":"The BIGGEST Benefit Of Taking This","artist":"Larry Wheels","artUrl":"file:///home/earth/.cache/dynamic-music-pill/art/hist_50867cd0d0d4b988ecdea27d49f1dc17.jpg","time":1778847427759,"avgColor":{"r":49,"g":59,"b":115}},{"title":"One Of My BEST Lifts Of All Time","artist":"Larry Wheels","artUrl":"file:///home/earth/.cache/dynamic-music-pill/art/hist_8870838f94e967936902bebf7161135f.jpg","time":1778847427110,"avgColor":{"r":104,"g":92,"b":77}},{"title":"The TRUTH About Gear Usage","artist":"Larry Wheels","artUrl":"file:///home/earth/.cache/dynamic-music-pill/art/hist_046fe27558131bfe6ff6969f48911865.jpg","time":1778847411714,"avgColor":{"r":82,"g":64,"b":83}},{"title":"One Of My BEST Lifts Of All Time","artist":"Larry Wheels","artUrl":"file:///home/earth/.cache/dynamic-music-pill/art/hist_a6afc40f79ddb206a857bf6fc01988dc.jpg","time":1778847356215,"avgColor":{"r":104,"g":92,"b":77}},{"title":"The Best Part Of BLASTING ⚙️","artist":"Larry Wheels","artUrl":"file:///home/earth/.cache/dynamic-music-pill/art/hist_c875892aa4b15025b0e086ef2a7c54ae.jpg","time":1778847353906,"avgColor":{"r":101,"g":86,"b":75}},{"title":"My FAVORITE PR Of All Time","artist":"Larry Wheels","artUrl":"file:///home/earth/.cache/dynamic-music-pill/art/hist_24513b5d6703aabd51030f77b393bb36.jpg","time":1778847352612,"avgColor":{"r":105,"g":93,"b":79}},{"title":"How Tren RUINED My Entire Life","artist":"Larry Wheels","artUrl":"file:///home/earth/.cache/dynamic-music-pill/art/hist_a23eec5a53a390164e52d80ebbb7bafe.jpg","time":1778847320733,"avgColor":{"r":66,"g":68,"b":79}},{"title":"My 2 Favorite Collabs Of ALL TIME","artist":"Larry Wheels","artUrl":"file:///home/earth/.cache/dynamic-music-pill/art/hist_51b84bc5ee5ff1bd17bfe7c330caed08.jpg","time":1778847249767,"avgColor":{"r":117,"g":110,"b":98}},{"title":"One Of My BEST Lifts Of All Time","artist":"Larry Wheels","artUrl":"file:///home/earth/.cache/dynamic-music-pill/art/hist_c9d20b6e6f9acfdc97d791cff24b870d.jpg","time":1778847219522,"avgColor":{"r":104,"g":92,"b":77}},{"title":"How To AVOID Injuries During Bench","artist":"Larry Wheels","artUrl":"file:///home/earth/.cache/dynamic-music-pill/art/hist_122540f572ab6e8b223a6999e97bd02d.jpg","time":1778847189141,"avgColor":{"r":100,"g":98,"b":91}},{"title":"The TRUTH About Taking ⚙️","artist":"Larry Wheels","artUrl":"file:///home/earth/.cache/dynamic-music-pill/art/hist_168cde6ad6cafaed31ff3db3a23f2706.jpg","time":1778847124192,"avgColor":{"r":91,"g":88,"b":107}},{"title":"My Max Deadlift Was When I Was NATTY","artist":"Larry Wheels","artUrl":"file:///home/earth/.cache/dynamic-music-pill/art/hist_a7c2c70676be0d52550ae91c464b6655.jpg","time":1778847091065,"avgColor":{"r":120,"g":87,"b":76}},{"title":"How I Survived Diamond Gym","artist":"Larry Wheels","artUrl":"file:///home/earth/.cache/dynamic-music-pill/art/hist_6a38b117cd8bc5450501487a554143fe.jpg","time":1778847058818,"avgColor":null},{"title":"Correct Dumbbell Shoulder Press Form!","artist":"Daniel Antonie","artUrl":"file:///home/earth/.cache/dynamic-music-pill/art/hist_8d53c64140e2172d503aa1cec0d8d2c8.jpg","time":1778846997749,"avgColor":{"r":102,"g":100,"b":89}},{"title":"My HEAVIEST Shoulder Press Attempt","artist":"Larry Wheels","artUrl":"file:///home/earth/.cache/dynamic-music-pill/art/hist_d4341091cb2e24d81d8b32f5617f5635.jpg","time":1778846985990,"avgColor":{"r":122,"g":102,"b":62}},{"title":"📌 Shoulder Press Mistake I Fix Your Form","artist":"SquatCouple","artUrl":"file:///home/earth/.cache/dynamic-music-pill/art/hist_e8763156ac4e20bfc52bfc48a742a96c.jpg","time":1778846952540,"avgColor":{"r":123,"g":122,"b":121}},{"title":"✅ The PERFECT Barbell Overhead Press","artist":"Andrew Kwong (DeltaBolic)","artUrl":"file:///home/earth/.cache/dynamic-music-pill/art/hist_66bdc6ceeb08518ad18c53920b522500.jpg","time":1778846938786,"avgColor":{"r":82,"g":68,"b":79}},{"title":"The overhead press is one of the best ways to build the shoulders but very often performed","artist":"Red5 Performance","artUrl":"file:///home/earth/.cache/dynamic-music-pill/art/hist_4050dcbf4408e22a2fca983db7f12002.jpg","time":1778846914387,"avgColor":{"r":58,"g":102,"b":109}},{"title":"EZ Bar Military Press Ohand Grip","artist":"ATS","artUrl":"file:///home/earth/.cache/dynamic-music-pill/art/hist_d32aa4eecaf6e0217463f154a2b8eef7.jpg","time":1778846889771,"avgColor":{"r":99,"g":92,"b":86}},{"title":"❌ Barbell Overhead Press ✅                     ❌ WRONG vs RIGHT FORM ✅ #shorts #workouts #fitness","artist":"Christian Fleenor","artUrl":"file:///home/earth/.cache/dynamic-music-pill/art/hist_bd2bd3c267f7be5e40e5fefab2bc0047.jpg","time":1778846888911,"avgColor":{"r":107,"g":72,"b":53}}]'
 popup-custom-width=360
 popup-show-album-title=false
 popup-show-player-selector=false
