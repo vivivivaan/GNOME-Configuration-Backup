@@ -3,6 +3,9 @@ BigSur
 BigSur-dark
 FairyWren_Dark
 FairyWren_Light
+Fluent
+Fluent-dark
+Fluent-light
 hicolor
 MacTahoe
 MacTahoe-cursors
@@ -52,6 +55,9 @@ Orchis-Dark-Nord-xhdpi
 /usr/local/share/icons/:
 BigSur
 BigSur-dark
+Fluent
+Fluent-dark
+Fluent-light
 MacTahoe
 MacTahoe-dark
 MacTahoe-grey
@@ -99,6 +105,9 @@ Bluecurve
 breeze
 breeze-dark
 default
+Fluent
+Fluent-dark
+Fluent-light
 gnome-logo-text-dark.svg
 gnome-logo-text.svg
 hicolor
@@ -118,4 +127,7 @@ oxygen
 Palette
 Palette-Dark
 Palette-Light
+Papirus
+Papirus-Dark
+Papirus-Light
 WhiteSur-cursors
