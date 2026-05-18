@@ -69,8 +69,8 @@ screenshort-cut@pauloimon
   Path: /home/earth/.local/share/gnome-shell/extensions/screenshort-cut@pauloimon
   URL: https://github.com/pauloimon/gnome-screenshort-cut-extension
   Version: 7
-  Enabled: Yes
-  State: ACTIVE
+  Enabled: No
+  State: INITIALIZED
 
 AlphabeticalAppGrid@stuarthayhurst
   Name: Alphabetical App Grid
@@ -307,7 +307,7 @@ right-click-next@derVedro
   Description: Move windows to the next workspace by right-clicking them in the overview.
   Path: /home/earth/.local/share/gnome-shell/extensions/right-click-next@derVedro
   URL: https://github.com/derVedro/gnome-right-click-next
-  Version: 7
+  Version: 9
   Enabled: Yes
   State: ACTIVE
 
@@ -316,7 +316,7 @@ restartto@tiagoporsch.github.io
   Description: Adds a menu item to restart to any other EFI boot entry
   Path: /home/earth/.local/share/gnome-shell/extensions/restartto@tiagoporsch.github.io
   URL: https://github.com/tiagoporsch/restartto
-  Version: 15
+  Version: 16
   Enabled: No
   State: INITIALIZED
 
@@ -611,7 +611,7 @@ Features:
 Requires Ambient Light Sensor (ALS) hardware support. Check the extension's home page for device compatibility.
   Path: /home/earth/.local/share/gnome-shell/extensions/adaptive-brightness@dmy3k.github.io
   URL: https://github.com/dmy3k/gnome-adaptive-brightness
-  Version: 28
+  Version: 29
   Enabled: Yes
   State: ACTIVE
 

@@ -45,6 +45,9 @@ MacTahoe-Dark-alt-blue-nord-xhdpi
 MacTahoe-Dark-solid-alt-blue-nord
 MacTahoe-Dark-solid-alt-blue-nord-hdpi
 MacTahoe-Dark-solid-alt-blue-nord-xhdpi
+Orchis-Dark-Nord
+Orchis-Dark-Nord-hdpi
+Orchis-Dark-Nord-xhdpi
 
 /usr/local/share/icons/:
 BigSur
@@ -85,6 +88,9 @@ MacTahoe-Dark-alt-blue-nord-xhdpi
 MacTahoe-Dark-solid-alt-blue-nord
 MacTahoe-Dark-solid-alt-blue-nord-hdpi
 MacTahoe-Dark-solid-alt-blue-nord-xhdpi
+Orchis-Dark-Nord
+Orchis-Dark-Nord-hdpi
+Orchis-Dark-Nord-xhdpi
 
 /usr/share/icons/:
 Adwaita
