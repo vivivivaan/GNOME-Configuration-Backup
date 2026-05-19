@@ -28,7 +28,7 @@ gnome-extensions list -d > "$BACKUP_DIR/gnome_extensions_list.txt"
 # dnf list --installed > "$BACKUP_DIR/packages_list.txt"
 
 # Flatpak apps list
-flatpak list --columns=application > "$BACKUP_DIR/flatpak_apps.txt"
+flatpak list --columns=application --app > "$BACKUP_DIR/flatpak_apps.txt"
 
 # OpenType and TrueType fonts
 ls /usr/local/share/fonts/opentype /usr/local/share/fonts/truetype /usr/share/fonts/ > "$BACKUP_DIR/fonts_list.txt" 2>/dev/null
