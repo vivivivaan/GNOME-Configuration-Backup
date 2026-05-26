@@ -376,8 +376,8 @@ hide-keyboard-layout@sitnik.ru
   Path: /home/earth/.local/share/gnome-shell/extensions/hide-keyboard-layout@sitnik.ru
   URL: https://github.com/ai/hide-keyboard-layout
   Version: 13
-  Enabled: Yes
-  State: ACTIVE
+  Enabled: No
+  State: INITIALIZED
 
 one-thing@github.com
   Name: One Thing
@@ -523,7 +523,7 @@ pomodoro@youcefzaid.github.io
   URL: https://github.com/youcefzaid/gnome-pomodoro-extension
   Version: 2
   Enabled: No
-  State: INACTIVE
+  State: INITIALIZED
 
 Rounded_Corners@lennart-k
   Name: Rounded Corners
@@ -624,6 +624,15 @@ dynamic-music-pill@andbal
   Enabled: Yes
   State: ACTIVE
 
+pomodoro-timer@Oguzhankokulu.github.com
+  Name: Pomodoro Timer
+  Description: Pomodoro timer with adjustable intervals, sound notifications, and auto-suspend prevention.
+  Path: /home/earth/.local/share/gnome-shell/extensions/pomodoro-timer@Oguzhankokulu.github.com
+  URL: https://github.com/Oguzhankokulu/pomodoro-timer
+  Version: 2.1 (9)
+  Enabled: Yes
+  State: ACTIVE
+
 launch-new-instance@gnome-shell-extensions.gcampax.github.com
   Name: Launch New Instance
   Description: Always launch a new instance when clicking in the dash or the application view.
@@ -641,12 +650,3 @@ This extension is part of Classic Mode and is officially supported by GNOME. Ple
   URL: https://gitlab.gnome.org/GNOME/gnome-shell-extensions
   Enabled: No
   State: INITIALIZED
-
-pomodoro-timer@Oguzhankokulu.github.com
-  Name: Pomodoro Timer
-  Description: Pomodoro timer with adjustable intervals, sound notifications, and auto-suspend prevention.
-  Path: /home/earth/.local/share/gnome-shell/extensions/pomodoro-timer@Oguzhankokulu.github.com
-  URL: https://github.com/Oguzhankokulu/pomodoro-timer
-  Version: 2.1 (9)
-  Enabled: Yes
-  State: ACTIVE

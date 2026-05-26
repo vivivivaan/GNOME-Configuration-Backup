@@ -1,5 +1,6 @@
 com.github.marhkb.Pods
 com.mattjakeman.ExtensionManager
+com.notesnook.Notesnook
 com.spotify.Client
 io.github.flattool.Warehouse
 io.github.realmazharhussain.GdmSettings
