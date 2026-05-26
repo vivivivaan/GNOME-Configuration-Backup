@@ -194,7 +194,8 @@ file-preview-visibility='file-preview-or-file-info'
 link-preview-orientation='vertical'
 
 [copyous/theme]
-theme='system'
+color-scheme='system'
+theme='default'
 
 [custom-hot-corners-extended/misc]
 action-event-delay=85
@@ -288,7 +289,7 @@ dot-position='LEFT'
 dot-size=3
 dot-style-focused='DASHES'
 dot-style-unfocused='DOTS'
-extension-version=72
+extension-version=73
 focus-highlight=false
 focus-highlight-opacity=5
 global-border-radius=5
@@ -314,7 +315,7 @@ panel-lengths='{"CMN-0x00000000":100}'
 panel-positions='{}'
 panel-side-margins=0
 panel-side-padding=0
-panel-sizes='{"CMN-0x00000000":42}'
+panel-sizes='{"CMN-0x00000000":43}'
 panel-top-bottom-margins=0
 panel-top-bottom-padding=0
 peek-mode-opacity=40
