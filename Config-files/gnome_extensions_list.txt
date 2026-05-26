@@ -281,8 +281,8 @@ For the best support, please report any issues on Github. Dash-to-panel is devel
   Path: /home/earth/.local/share/gnome-shell/extensions/dash-to-panel@jderose9.github.com
   URL: https://github.com/home-sweet-gnome/dash-to-panel
   Version: 73
-  Enabled: No
-  State: INITIALIZED
+  Enabled: Yes
+  State: ACTIVE
 
 open-desktop-location@laura.media
   Name: Open .desktop file location
@@ -376,8 +376,8 @@ hide-keyboard-layout@sitnik.ru
   Path: /home/earth/.local/share/gnome-shell/extensions/hide-keyboard-layout@sitnik.ru
   URL: https://github.com/ai/hide-keyboard-layout
   Version: 13
-  Enabled: No
-  State: INITIALIZED
+  Enabled: Yes
+  State: ACTIVE
 
 one-thing@github.com
   Name: One Thing
@@ -385,8 +385,8 @@ one-thing@github.com
   Path: /home/earth/.local/share/gnome-shell/extensions/one-thing@github.com
   URL: https://github.com/dantehemerson/one-thing
   Version: 27
-  Enabled: Yes
-  State: ACTIVE
+  Enabled: No
+  State: INACTIVE
 
 copyous@boerdereinar.dev
   Name: Copyous
@@ -596,8 +596,8 @@ dash-to-dock@micxgx.gmail.com
   URL: https://micheleg.github.io/dash-to-dock/
   Original author: micxgx@gmail.com
   Version: 105
-  Enabled: Yes
-  State: ACTIVE
+  Enabled: No
+  State: INITIALIZED
 
 adaptive-brightness@dmy3k.github.io
   Name: Adaptive Brightness
