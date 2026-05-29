@@ -3,7 +3,7 @@ user-theme@gnome-shell-extensions.gcampax.github.com
   Description: Load shell themes from user directory.
   Path: /home/earth/.local/share/gnome-shell/extensions/user-theme@gnome-shell-extensions.gcampax.github.com
   URL: https://gitlab.gnome.org/GNOME/gnome-shell-extensions
-  Version: 73
+  Version: 50.2 (74)
   Enabled: Yes
   State: ACTIVE
 
@@ -12,7 +12,7 @@ drive-menu@gnome-shell-extensions.gcampax.github.com
   Description: A status menu for accessing and unmounting removable devices.
   Path: /home/earth/.local/share/gnome-shell/extensions/drive-menu@gnome-shell-extensions.gcampax.github.com
   URL: https://gitlab.gnome.org/GNOME/gnome-shell-extensions
-  Version: 76
+  Version: 50.2 (77)
   Enabled: Yes
   State: ACTIVE
 
@@ -22,7 +22,7 @@ apps-menu@gnome-shell-extensions.gcampax.github.com
 This extension is part of Classic Mode and is officially supported by GNOME. Please do not report bugs using the form below, use GNOME's GitLab instance instead.
   Path: /home/earth/.local/share/gnome-shell/extensions/apps-menu@gnome-shell-extensions.gcampax.github.com
   URL: https://gitlab.gnome.org/GNOME/gnome-shell-extensions
-  Version: 74
+  Version: 50.2 (75)
   Enabled: Yes
   State: ACTIVE
 
@@ -32,7 +32,7 @@ places-menu@gnome-shell-extensions.gcampax.github.com
 This extension is part of Classic Mode and is officially supported by GNOME. Please do not report bugs using the form below, use GNOME's GitLab instance instead.
   Path: /home/earth/.local/share/gnome-shell/extensions/places-menu@gnome-shell-extensions.gcampax.github.com
   URL: https://gitlab.gnome.org/GNOME/gnome-shell-extensions
-  Version: 78
+  Version: 50.2 (79)
   Enabled: Yes
   State: ACTIVE
 
@@ -124,7 +124,7 @@ Click the toolbar button, then choose the window you want to force quit.
 On accidental click, right click anywhere or press [Esc] to abort the kill.
   Path: /home/earth/.local/share/gnome-shell/extensions/fq@megh
   URL: https://github.com/meghprkh/force-quit/
-  Version: 46
+  Version: 47
   Enabled: Yes
   State: ACTIVE
 
@@ -281,8 +281,8 @@ For the best support, please report any issues on Github. Dash-to-panel is devel
   Path: /home/earth/.local/share/gnome-shell/extensions/dash-to-panel@jderose9.github.com
   URL: https://github.com/home-sweet-gnome/dash-to-panel
   Version: 73
-  Enabled: Yes
-  State: ACTIVE
+  Enabled: No
+  State: INITIALIZED
 
 open-desktop-location@laura.media
   Name: Open .desktop file location
@@ -325,7 +325,7 @@ dash2dock-lite@icedman.github.com
   Description: The Animated & Effectful Dock
   Path: /home/earth/.local/share/gnome-shell/extensions/dash2dock-lite@icedman.github.com
   URL: https://github.com/icedman/dash2dock-lite
-  Version: 91
+  Version: 92
   Enabled: No
   State: INITIALIZED
 
@@ -385,8 +385,8 @@ one-thing@github.com
   Path: /home/earth/.local/share/gnome-shell/extensions/one-thing@github.com
   URL: https://github.com/dantehemerson/one-thing
   Version: 27
-  Enabled: No
-  State: INACTIVE
+  Enabled: Yes
+  State: ACTIVE
 
 copyous@boerdereinar.dev
   Name: Copyous
@@ -457,7 +457,7 @@ This extension uses a modular architecture for stability and customization. Some
 Disclaimer: This extension is unofficial and not affiliated with Apple in any way.
   Path: /home/earth/.local/share/gnome-shell/extensions/kiwi@kemma
   URL: https://github.com/kem-a/kiwi-kemma
-  Version: 1.6.2 (43)
+  Version: 1.6.3 (44)
   Enabled: No
   State: INITIALIZED
 
@@ -596,8 +596,8 @@ dash-to-dock@micxgx.gmail.com
   URL: https://micheleg.github.io/dash-to-dock/
   Original author: micxgx@gmail.com
   Version: 105
-  Enabled: No
-  State: INITIALIZED
+  Enabled: Yes
+  State: ACTIVE
 
 adaptive-brightness@dmy3k.github.io
   Name: Adaptive Brightness
