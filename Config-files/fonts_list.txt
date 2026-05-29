@@ -3,6 +3,7 @@ CodeNewRoman
 CommitMono
 
 /usr/local/share/fonts/truetype:
+Almarai
 arial
 calibri-school
 DaddyTimeMono
@@ -11,12 +12,13 @@ Google_Sans_Flex
 Inter
 JetBrainsMono
 Mariupol
-NerdFontsSymbolsOnly
 Roboto
 RobotoMono
 Sono
 SourceCodePro
 SpaceMono
+Spline_Sans
+Spline_Sans_Mono
 
 /usr/share/fonts/:
 aajohan-comfortaa-fonts
