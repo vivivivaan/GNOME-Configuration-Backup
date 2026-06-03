@@ -1,24 +1,20 @@
 /usr/local/share/fonts/opentype:
 CodeNewRoman
-CommitMono
 
 /usr/local/share/fonts/truetype:
 Almarai
 arial
-calibri-school
 DaddyTimeMono
 FantasqueSansMono
-Google_Sans_Flex
+FiraCode
+FiraMono
 Inter
 JetBrainsMono
 Mariupol
-Roboto
+NerdFontsSymbolsOnly
 RobotoMono
 Sono
-SourceCodePro
 SpaceMono
-Spline_Sans
-Spline_Sans_Mono
 
 /usr/share/fonts/:
 aajohan-comfortaa-fonts
@@ -28,7 +24,6 @@ adobe-source-code-pro-fonts
 adwaita-mono-fonts
 adwaita-sans-fonts
 gdouros-symbola
-gnu-free
 google-carlito-fonts
 google-crosextra-caladea-fonts
 google-droid-sans-fonts
