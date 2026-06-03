@@ -3,11 +3,11 @@ GRUB_DISTRIBUTOR="$(sed 's, release .*$,,g' /etc/system-release)"
 #GRUB_DEFAULT=saved
 GRUB_DISABLE_SUBMENU=true
 #GRUB_TERMINAL_OUTPUT=console
-GRUB_TERMINAL_OUTPUT=gfxterm
+#GRUB_TERMINAL_OUTPUT=console
 GRUB_CMDLINE_LINUX="rhgb quiet rd.driver.blacklist=nouveau,nova_core modprobe.blacklist=nouveau,nova_core"
 #GRUB_DISABLE_RECOVERY="true"
 GRUB_ENABLE_BLSCFG=true
 GRUB_FONT=/boot/grub2/fonts/unicode.pf2
-GRUB_THEME="/usr/share/grub/themes/fantasy-sleek-interface-window-right-dark-1080p/theme.txt"
-#GRUB_BACKGROUND="/usr/share/grub/themes/fantasy-sleek-interface-window-right-dark-1080p/background-post.jpg"
+GRUB_THEME="/usr/share/grub/themes/fantasy-waves-surfer-window-right-dark-1080p/theme.txt"
+#GRUB_BACKGROUND="/usr/share/grub/themes/fantasy-waves-surfer-window-right-dark-1080p/background-post.jpg"
 GRUB_GFXMODE=1920x1080,auto
