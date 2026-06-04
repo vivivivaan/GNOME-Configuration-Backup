@@ -8,6 +8,7 @@ Fluent-grey
 Fluent-grey-dark
 Fluent-grey-light
 Fluent-light
+hicolor
 Tela-blue
 Tela-blue-dark
 Tela-blue-light
