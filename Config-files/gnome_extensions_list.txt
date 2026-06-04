@@ -65,10 +65,10 @@ osd-volume-number@deminder
 
 screenshort-cut@pauloimon
   Name: Screenshort-cut
-  Description: A simple shortcut to take screenshots directly on your top bar!
+  Description: A simple shortcut button to call the native screenshot tool directly on your GNOME panel.
   Path: /home/raj/.local/share/gnome-shell/extensions/screenshort-cut@pauloimon
   URL: https://github.com/pauloimon/gnome-screenshort-cut-extension
-  Version: 7
+  Version: 8
   Enabled: No
   State: INITIALIZED
 
@@ -620,7 +620,7 @@ dynamic-music-pill@andbal
   Description: An elegant, pill-shaped music player for your desktop. Features a smooth audio visualizer, scrolling text, and seamless integration with Dash-to-Dock and the Top Panel. Comes with a Pop-Up menu as well.
   Path: /home/raj/.local/share/gnome-shell/extensions/dynamic-music-pill@andbal
   URL: https://github.com/Andbal23/dynamic-music-pill
-  Version: 1.1.0 (43)
+  Version: 1.2.0 (47)
   Enabled: Yes
   State: ACTIVE
 
