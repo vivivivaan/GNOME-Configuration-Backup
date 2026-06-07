@@ -35,6 +35,12 @@ You can simply use the `backup.sh` script for backup or do it manually as shown 
 - Alternatively, create `chrome-flags.conf`, `brave-flags.conf`, `edge-flags.conf` files in `~/.config` and add the configs.
 - Restart the system or session.
 
+# Install Spotify on Fedora
+```bash
+sudo dnf config-manager addrepo --from-repofile=https://negativo17.org/repos/fedora-spotify.repo
+sudo dnf install spotify-client
+```
+
 ## Browser Flags
 
 | Browser        | copy *.desktop file                                                                   |                                                                                                                                                                                                                                                     `*://flags` |
@@ -56,11 +62,11 @@ You can simply use the `backup.sh` script for backup or do it manually as shown 
 
 ## MacTahoe GDM
 
-`sudo ./tweaks.sh --gdm -b /home/earth/Wallpapers/pramod-tiwari-fcMI6xvRcYE-unsplash.jpg -h default -nb -c dark -t blue -s nord`
+`sudo ./tweaks.sh --gdm -b /home/raj/Wallpapers/ethan-finley-0363yZiNIa8-unsplash.jpg -nb -c dark -t blue -s nord`
 
 ## MacTahoe Dark Blue Nord
 
-`sudo ./install.sh -d /usr/local/share/themes/ -t blue -c dark -s compact -g -l --tweaks nord darker rimless normal && ./install.sh -d ~/.local/share/themes/ -t blue -c dark -s compact -l --tweaks nord darker rimless normal`
+`sudo ./install.sh -d /usr/local/share/themes/ -c dark -a alt -t blue -s nord -l --shell -normal --darker && ./install.sh -d ~/.local/share/themes/ -c dark -a alt -t blue -s nord -l --shell -normal --darker`
 
 ## GRUB theme background fix
 
@@ -182,5 +188,4 @@ alias sysico="cd /usr/share/icons/"
 alias usrico="cd ~/.local/share/icons/"
 alias syscur="cd /usr/share/icons/"
 alias usrcur="cd ~/.local/share/icons/"
-
 ```

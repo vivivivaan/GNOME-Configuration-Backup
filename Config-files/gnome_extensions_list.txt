@@ -500,10 +500,10 @@ clipmaster@gnome.extension
 
 appgridbuttonintoppanel@raphaelian
   Name: App Grid Button In Top Panel
-  Description: Add a button next to the activities button to directly open the app grid
+  Description: Adds a button beside the Activities button that opens the app grid directly.
   Path: /home/raj/.local/share/gnome-shell/extensions/appgridbuttonintoppanel@raphaelian
-  URL: 
-  Version: 4
+  URL: https://github.com/raphaelian-dev/appgridbuttonintoppanel-raphaelian
+  Version: 5
   Enabled: No
   State: INITIALIZED
 
