@@ -11,6 +11,7 @@ FiraMono
 Inter
 JetBrainsMono
 Mariupol
+Montserrat
 NerdFontsSymbolsOnly
 RobotoMono
 Sono
