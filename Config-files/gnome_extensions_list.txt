@@ -151,7 +151,7 @@ show-desktop-button@amivaleo
   Description: Minimize/unminimize all open windows with a single click.
   Path: /home/raj/.local/share/gnome-shell/extensions/show-desktop-button@amivaleo
   URL: https://github.com/amivaleo/Show-Desktop-Button
-  Version: 52
+  Version: 53
   Enabled: Yes
   State: ACTIVE
 
@@ -259,8 +259,8 @@ reboottouefi@ubaygd.com
   Path: /home/raj/.local/share/gnome-shell/extensions/reboottouefi@ubaygd.com
   URL: https://github.com/UbayGD/reboottouefi
   Version: 26
-  Enabled: Yes
-  State: ACTIVE
+  Enabled: No
+  State: INACTIVE
 
 rounded-window-corners@fxgn
   Name: Rounded Window Corners Reborn
@@ -317,8 +317,8 @@ restartto@tiagoporsch.github.io
   Path: /home/raj/.local/share/gnome-shell/extensions/restartto@tiagoporsch.github.io
   URL: https://github.com/tiagoporsch/restartto
   Version: 16
-  Enabled: No
-  State: INITIALIZED
+  Enabled: Yes
+  State: ACTIVE
 
 dash2dock-lite@icedman.github.com
   Name: Dash2Dock Animated
@@ -348,8 +348,8 @@ aztaskbar@aztaskbar.gitlab.com
   State: INITIALIZED
 
 gnome-ui-tune@itstime.tech
-  Name: Gnome 4x UI Improvements
-  Description: Tunes gnome 4x Overview UI to make it more usable.
+  Name: Gnome 4x, 5x UI Improvements
+  Description: Tunes gnome 4x, 5x Overview UI to make it more usable.
 
 Changes:
 - Search textbox is hidden by default and shown only when user begins to type-to-search
@@ -366,7 +366,7 @@ X11: Alt+F2 => r
 Wayland: logout => login
   Path: /home/raj/.local/share/gnome-shell/extensions/gnome-ui-tune@itstime.tech
   URL: https://github.com/axxapy/gnome-ui-tune
-  Version: 25
+  Version: 26
   Enabled: Yes
   State: ACTIVE
 
@@ -548,7 +548,7 @@ https://github.com/NiffirgkcaJ/all-in-one-clipboard
 https://gitlab.com/NiffirgkcaJ/all-in-one-clipboard
   Path: /home/raj/.local/share/gnome-shell/extensions/all-in-one-clipboard@NiffirgkcaJ.github.com
   URL: https://github.com/NiffirgkcaJ/all-in-one-clipboard
-  Version: 19
+  Version: 24
   Enabled: No
   State: INITIALIZED
 
