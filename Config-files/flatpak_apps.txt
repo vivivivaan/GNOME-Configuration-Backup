@@ -1,3 +1,4 @@
+com.bitwarden.desktop
 com.github.marhkb.Pods
 com.mattjakeman.ExtensionManager
 com.notesnook.Notesnook
