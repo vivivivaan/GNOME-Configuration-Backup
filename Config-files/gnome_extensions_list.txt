@@ -181,7 +181,7 @@ Vitals@CoreCoding.com
   Description: A glimpse into your computer's temperature, voltage, fan speed, memory usage, processor load, system resources, network speed and storage stats. This is a one stop shop to monitor all of your vital sensors. Uses asynchronous polling to provide a smooth user experience. Feature requests or bugs? Please use GitHub.
   Path: /home/raj/.local/share/gnome-shell/extensions/Vitals@CoreCoding.com
   URL: https://github.com/corecoding/Vitals
-  Version: 76
+  Version: 77
   Enabled: Yes
   State: ACTIVE
 
@@ -260,7 +260,7 @@ reboottouefi@ubaygd.com
   URL: https://github.com/UbayGD/reboottouefi
   Version: 26
   Enabled: No
-  State: INACTIVE
+  State: INITIALIZED
 
 rounded-window-corners@fxgn
   Name: Rounded Window Corners Reborn
@@ -425,7 +425,7 @@ mediacontrols@cliffniff.github.com
   State: INITIALIZED
 
 kiwi@kemma
-  Name: Kiwi is not Apple
+  Name: Kiwi (is not Apple)
   Description: Kiwi is free open source project that brings macOS-inspired features for GNOME.
 
 *Note. This extension is tested with vanilla GNOME Adwaita theme. Be aware that other extensions may cause compatibility issues.
@@ -457,7 +457,7 @@ This extension uses a modular architecture for stability and customization. Some
 Disclaimer: This extension is unofficial and not affiliated with Apple in any way.
   Path: /home/raj/.local/share/gnome-shell/extensions/kiwi@kemma
   URL: https://github.com/kem-a/kiwi-kemma
-  Version: 1.7.0 (45)
+  Version: 1.7.1 (46)
   Enabled: No
   State: INITIALIZED
 
@@ -624,6 +624,15 @@ dynamic-music-pill@andbal
   Enabled: Yes
   State: ACTIVE
 
+slider-percentages@imdarktom
+  Name: Slider Percentages
+  Description: Adds percentage labels next to the various sliders/bars throughout the GNOME interface.
+  Path: /home/raj/.local/share/gnome-shell/extensions/slider-percentages@imdarktom
+  URL: https://github.com/ImDarkTom/slider-percentages-gnome
+  Version: 1
+  Enabled: Yes
+  State: ACTIVE
+
 launch-new-instance@gnome-shell-extensions.gcampax.github.com
   Name: Launch New Instance
   Description: Always launch a new instance when clicking in the dash or the application view.
@@ -643,3 +652,12 @@ This extension is part of Classic Mode and is officially supported by GNOME. Ple
   Version: 50.2
   Enabled: No
   State: INITIALIZED
+
+appindicatorsupport@rgcjonas.gmail.com
+  Name: AppIndicator and KStatusNotifierItem Support
+  Description: Adds AppIndicator, KStatusNotifierItem and legacy Tray icons support to the Shell
+  Path: /home/raj/.local/share/gnome-shell/extensions/appindicatorsupport@rgcjonas.gmail.com
+  URL: https://github.com/ubuntu/gnome-shell-extension-appindicator
+  Version: 64
+  Enabled: Yes
+  State: ACTIVE
