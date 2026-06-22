@@ -7,5 +7,4 @@ io.github.realmazharhussain.GdmSettings
 io.gitlab.ilshat_apps.gitpulsar
 net.nokyan.Resources
 org.gnome.Firmware
-org.telegram.desktop
 studio.planetpeanut.Bobby

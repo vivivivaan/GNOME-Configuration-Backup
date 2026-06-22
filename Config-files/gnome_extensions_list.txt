@@ -523,7 +523,7 @@ pomodoro@youcefzaid.github.io
   URL: https://github.com/youcefzaid/gnome-pomodoro-extension
   Version: 2
   Enabled: No
-  State: INITIALIZED
+  State: INACTIVE
 
 Rounded_Corners@lennart-k
   Name: Rounded Corners
@@ -633,6 +633,15 @@ slider-percentages@imdarktom
   Enabled: Yes
   State: ACTIVE
 
+appindicatorsupport@rgcjonas.gmail.com
+  Name: AppIndicator and KStatusNotifierItem Support
+  Description: Adds AppIndicator, KStatusNotifierItem and legacy Tray icons support to the Shell
+  Path: /home/raj/.local/share/gnome-shell/extensions/appindicatorsupport@rgcjonas.gmail.com
+  URL: https://github.com/ubuntu/gnome-shell-extension-appindicator
+  Version: 64
+  Enabled: Yes
+  State: ACTIVE
+
 launch-new-instance@gnome-shell-extensions.gcampax.github.com
   Name: Launch New Instance
   Description: Always launch a new instance when clicking in the dash or the application view.
@@ -653,11 +662,26 @@ This extension is part of Classic Mode and is officially supported by GNOME. Ple
   Enabled: No
   State: INITIALIZED
 
-appindicatorsupport@rgcjonas.gmail.com
-  Name: AppIndicator and KStatusNotifierItem Support
-  Description: Adds AppIndicator, KStatusNotifierItem and legacy Tray icons support to the Shell
-  Path: /home/raj/.local/share/gnome-shell/extensions/appindicatorsupport@rgcjonas.gmail.com
-  URL: https://github.com/ubuntu/gnome-shell-extension-appindicator
-  Version: 64
+chronos@time-tracker.com
+  Name: Chronos Time Tracker
+  Description: Time tracker tool
+Mange and track your time. Features:
+- tracking time
+- display customisation
+- log to file start/pause
+- optional pause of tracking on screen lock (hibernate/shutdown)
+- reset to particular time value
+  Path: /home/raj/.local/share/gnome-shell/extensions/chronos@time-tracker.com
+  URL: https://github.com/0vvland/chronos
+  Version: 15
+  Enabled: No
+  State: INACTIVE
+
+pomodoro-timer@Oguzhankokulu.github.com
+  Name: Pomodoro Timer
+  Description: Pomodoro timer with adjustable intervals, sound notifications, and auto-suspend prevention.
+  Path: /home/raj/.local/share/gnome-shell/extensions/pomodoro-timer@Oguzhankokulu.github.com
+  URL: https://github.com/Oguzhankokulu/pomodoro-timer
+  Version: 2.1 (9)
   Enabled: Yes
   State: ACTIVE
