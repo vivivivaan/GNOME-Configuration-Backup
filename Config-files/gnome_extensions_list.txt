@@ -163,7 +163,7 @@ hidetopbar@mathieu.bidon.ca
 - Log off and on again when there is an error after upgrading.
   Path: /home/raj/.local/share/gnome-shell/extensions/hidetopbar@mathieu.bidon.ca
   URL: https://gitlab.gnome.org/tuxor1337/hidetopbar
-  Version: 124
+  Version: 125
   Enabled: No
   State: INITIALIZED
 
@@ -523,7 +523,7 @@ pomodoro@youcefzaid.github.io
   URL: https://github.com/youcefzaid/gnome-pomodoro-extension
   Version: 2
   Enabled: No
-  State: INACTIVE
+  State: INITIALIZED
 
 Rounded_Corners@lennart-k
   Name: Rounded Corners
@@ -548,7 +548,7 @@ https://github.com/NiffirgkcaJ/all-in-one-clipboard
 https://gitlab.com/NiffirgkcaJ/all-in-one-clipboard
   Path: /home/raj/.local/share/gnome-shell/extensions/all-in-one-clipboard@NiffirgkcaJ.github.com
   URL: https://github.com/NiffirgkcaJ/all-in-one-clipboard
-  Version: 24
+  Version: 29
   Enabled: No
   State: INITIALIZED
 
@@ -611,7 +611,7 @@ Features:
 Requires Ambient Light Sensor (ALS) hardware support. Check the extension's home page for device compatibility.
   Path: /home/raj/.local/share/gnome-shell/extensions/adaptive-brightness@dmy3k.github.io
   URL: https://github.com/dmy3k/gnome-adaptive-brightness
-  Version: 29
+  Version: 30
   Enabled: Yes
   State: ACTIVE
 
@@ -642,6 +642,30 @@ appindicatorsupport@rgcjonas.gmail.com
   Enabled: Yes
   State: ACTIVE
 
+chronos@time-tracker.com
+  Name: Chronos Time Tracker
+  Description: Time tracker tool
+Mange and track your time. Features:
+- tracking time
+- display customisation
+- log to file start/pause
+- optional pause of tracking on screen lock (hibernate/shutdown)
+- reset to particular time value
+  Path: /home/raj/.local/share/gnome-shell/extensions/chronos@time-tracker.com
+  URL: https://github.com/0vvland/chronos
+  Version: 15
+  Enabled: No
+  State: INITIALIZED
+
+pomodoro-timer@Oguzhankokulu.github.com
+  Name: Pomodoro Timer
+  Description: Pomodoro timer with adjustable intervals, sound notifications, and auto-suspend prevention.
+  Path: /home/raj/.local/share/gnome-shell/extensions/pomodoro-timer@Oguzhankokulu.github.com
+  URL: https://github.com/Oguzhankokulu/pomodoro-timer
+  Version: 2.1 (9)
+  Enabled: Yes
+  State: ACTIVE
+
 launch-new-instance@gnome-shell-extensions.gcampax.github.com
   Name: Launch New Instance
   Description: Always launch a new instance when clicking in the dash or the application view.
@@ -661,27 +685,3 @@ This extension is part of Classic Mode and is officially supported by GNOME. Ple
   Version: 50.2
   Enabled: No
   State: INITIALIZED
-
-chronos@time-tracker.com
-  Name: Chronos Time Tracker
-  Description: Time tracker tool
-Mange and track your time. Features:
-- tracking time
-- display customisation
-- log to file start/pause
-- optional pause of tracking on screen lock (hibernate/shutdown)
-- reset to particular time value
-  Path: /home/raj/.local/share/gnome-shell/extensions/chronos@time-tracker.com
-  URL: https://github.com/0vvland/chronos
-  Version: 15
-  Enabled: No
-  State: INACTIVE
-
-pomodoro-timer@Oguzhankokulu.github.com
-  Name: Pomodoro Timer
-  Description: Pomodoro timer with adjustable intervals, sound notifications, and auto-suspend prevention.
-  Path: /home/raj/.local/share/gnome-shell/extensions/pomodoro-timer@Oguzhankokulu.github.com
-  URL: https://github.com/Oguzhankokulu/pomodoro-timer
-  Version: 2.1 (9)
-  Enabled: Yes
-  State: ACTIVE

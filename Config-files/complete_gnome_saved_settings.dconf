@@ -214,7 +214,7 @@ size=(704, 475)
 
 [org/gnome/control-center]
 last-panel='wifi'
-window-state=(1177, 778, false)
+window-state=(994, 780, false)
 
 [org/gnome/deja-dup]
 backend='drive'
@@ -390,7 +390,7 @@ autorun-x-content-open-folder=@as []
 autorun-x-content-start-app=['x-content/ostree-repository', 'x-content/image-dcf']
 
 [org/gnome/desktop/notifications]
-application-children=['org-gnome-tweaks', 'org-gnome-shell-extensions', 'snapd-desktop-integration-snapd-desktop-integration', 'org-gnome-ptyxis', 'org-gnome-nautilus', 'spotify', 'uget-gtk', 'update-manager', 'org-gnome-clocks', 'org-gnome-software', 'google-chrome', 'chrome-hnpfjngllnobngcgfapefoaidbinmjnm-default', 'app-zen-browser-zen', 'io-github-giantpinkrobots-varia', 'com-github-gabutakut-gabutdm', 'windscribe', 'com-mattjakeman-extensionmanager', 'org-qbittorrent-qbittorrent', 'firefox', 'calibre-gui', 'gnome-wellbeing-panel', 'com-github-fontmanager-fontmanager', 'gnome-power-panel', 'org-gnome-baobab', 'org-chromium-chromium', 'ca-desrt-dconf-editor', 'discord', 'org-telegram-desktop-3e485da34fc040f9218e3891ecde1e6c', 'org-gnome-dejadup', 'gnome-printers-panel', 'hplip', 'thunderbird', 'com-github-fontmanager-fontviewer', 'org-gnome-characters', 'org-gnome-pomodoro', 'io-gitlab-news-flash-newsflash', 'io-github-vikdevelop-savedesktop', 'io-github-redddfoxxyy-samaya', 'org-gnome-rhythmbox3', 'org-kde-ktorrent', 'linked']
+application-children=['org-gnome-tweaks', 'org-gnome-shell-extensions', 'snapd-desktop-integration-snapd-desktop-integration', 'org-gnome-ptyxis', 'org-gnome-nautilus', 'spotify', 'uget-gtk', 'update-manager', 'org-gnome-clocks', 'org-gnome-software', 'google-chrome', 'chrome-hnpfjngllnobngcgfapefoaidbinmjnm-default', 'app-zen-browser-zen', 'io-github-giantpinkrobots-varia', 'com-github-gabutakut-gabutdm', 'windscribe', 'com-mattjakeman-extensionmanager', 'org-qbittorrent-qbittorrent', 'firefox', 'calibre-gui', 'gnome-wellbeing-panel', 'com-github-fontmanager-fontmanager', 'gnome-power-panel', 'org-gnome-baobab', 'org-chromium-chromium', 'ca-desrt-dconf-editor', 'discord', 'org-telegram-desktop-3e485da34fc040f9218e3891ecde1e6c', 'org-gnome-dejadup', 'gnome-printers-panel', 'hplip', 'thunderbird', 'com-github-fontmanager-fontviewer', 'org-gnome-characters', 'org-gnome-pomodoro', 'io-gitlab-news-flash-newsflash', 'io-github-vikdevelop-savedesktop', 'io-github-redddfoxxyy-samaya', 'org-gnome-rhythmbox3', 'org-kde-ktorrent', 'linked', 'org-b3log-siyuan']
 show-banners=true
 
 [org/gnome/desktop/notifications/application/app-zen-browser-zen]
@@ -458,6 +458,9 @@ application-id='io.gitlab.news_flash.NewsFlash.desktop'
 
 [org/gnome/desktop/notifications/application/linked]
 application-id='linked.desktop'
+
+[org/gnome/desktop/notifications/application/org-b3log-siyuan]
+application-id='org.b3log.siyuan.desktop'
 
 [org/gnome/desktop/notifications/application/org-chromium-chromium]
 application-id='org.chromium.Chromium.desktop'
@@ -869,7 +872,7 @@ use-tree-view=true
 [org/gnome/nautilus/preferences]
 click-policy='double'
 date-time-format='detailed'
-default-folder-viewer='icon-view'
+default-folder-viewer='list-view'
 migrated-gtk-settings=true
 search-filter-time-type='last_modified'
 show-create-link=true
@@ -878,7 +881,7 @@ show-delete-permanently=true
 [org/gnome/nautilus/window-state]
 initial-size=(1189, 751)
 initial-size-file-chooser=(1232, 774)
-maximized=true
+maximized=false
 
 [org/gnome/nm-applet/eap/16bf7481-6b91-4cea-abc0-242279568b55]
 ignore-ca-cert=false
@@ -903,16 +906,16 @@ night-mode=false
 [org/gnome/papers/default]
 annot-color='yellow'
 continuous=true
-dual-page=false
+dual-page=true
 dual-page-odd-left=true
 enable-spellchecking=true
 show-sidebar=true
 sidebar-page='links'
-sizing-mode='automatic'
+sizing-mode='free'
 window-height=1048
-window-maximized=false
-window-width=960
-zoom=0.55241488676317585
+window-maximized=true
+window-width=1920
+zoom=0.41620532033284774
 
 [org/gnome/pomodoro/plugins/actions]
 actions-list=@as []
@@ -1612,7 +1615,7 @@ panel-art-size=22
 panel-pill-height=28
 panel-pill-width=250
 pill-dynamic-width=true
-playback-history="[{\"title\":\"Iranian Delegation Walks Out of Switzerland Summit Over Trump's Threats : r/justincaseyoumissedit\",\"artist\":\"\",\"artUrl\":\"\",\"time\":1782138082081,\"avgColor\":{\"r\":120,\"g\":106,\"b\":72}},{\"title\":\"r/popular\",\"artist\":\"\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_b8b9461a5b1ac39e8b110c0df9094d2f.jpg\",\"time\":1782137882906,\"avgColor\":{\"r\":120,\"g\":106,\"b\":72}},{\"title\":\"Chrome\",\"artist\":\"No active media\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_9faa3e58a4a3e6ca575bbc27ed08a092.jpg\",\"time\":1782137874731,\"avgColor\":{\"r\":120,\"g\":106,\"b\":72}},{\"title\":\"r/popular\",\"artist\":\"\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_b8b9461a5b1ac39e8b110c0df9094d2f.jpg\",\"time\":1782137754090,\"avgColor\":{\"r\":120,\"g\":106,\"b\":72}},{\"title\":\"Chrome\",\"artist\":\"No active media\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_9faa3e58a4a3e6ca575bbc27ed08a092.jpg\",\"time\":1782137777833,\"avgColor\":{\"r\":120,\"g\":106,\"b\":72}},{\"title\":\"r/popular\",\"artist\":\"\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_b8b9461a5b1ac39e8b110c0df9094d2f.jpg\",\"time\":1782137713032,\"avgColor\":{\"r\":120,\"g\":106,\"b\":72}},{\"title\":\"Chrome\",\"artist\":\"No active media\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_9faa3e58a4a3e6ca575bbc27ed08a092.jpg\",\"time\":1782137621980,\"avgColor\":{\"r\":120,\"g\":106,\"b\":72}},{\"title\":\"r/popular\",\"artist\":\"\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_b8b9461a5b1ac39e8b110c0df9094d2f.jpg\",\"time\":1782137609597,\"avgColor\":{\"r\":120,\"g\":106,\"b\":72}},{\"title\":\"Chrome\",\"artist\":\"No active media\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_9faa3e58a4a3e6ca575bbc27ed08a092.jpg\",\"time\":1782137579211,\"avgColor\":{\"r\":120,\"g\":106,\"b\":72}},{\"title\":\"r/popular\",\"artist\":\"\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_b8b9461a5b1ac39e8b110c0df9094d2f.jpg\",\"time\":1782137523272,\"avgColor\":{\"r\":120,\"g\":106,\"b\":72}},{\"title\":\"Zen Browser Full Review (And How It’s Better Than Firefox)\",\"artist\":\"Learn Linux TV\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_5ca439d320de702a306ae08456a63f53.jpg\",\"time\":1782137045618,\"avgColor\":{\"r\":51,\"g\":50,\"b\":50}},{\"title\":\"Proof that the weight you lift doesnt matter💪\",\"artist\":\"sonya&egon\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_844bd0ca52f2620b447c482f4782e2b1.jpg\",\"time\":1782061232503,\"avgColor\":{\"r\":86,\"g\":87,\"b\":86}},{\"title\":\"No more \\\"me time\\\", it's \\\"We time\\\" 🥰\",\"artist\":\"Morgan Vera\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_48fe3be688c7fbb4a9677fcce3bc82f8.jpg\",\"time\":1782061181525,\"avgColor\":null},{\"title\":\"pov your boyfriend has his friends over #relatable #funny #humor\",\"artist\":\"Michelle Rachel 🍒\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_f9b409238a18597db5fd2eebfc197673.jpg\",\"time\":1782061166707,\"avgColor\":{\"r\":80,\"g\":98,\"b\":181}},{\"title\":\"0 Jobs to ₹4L/Month: The AI Business That Changed My Life\",\"artist\":\"Compile Future\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_e192328501e9a285dd292e92a1c92417.jpg\",\"time\":1782061165665,\"avgColor\":{\"r\":1,\"g\":1,\"b\":1}},{\"title\":\"5 Exercises—That Built My Back!\",\"artist\":\"Abhishek verma\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_5dc90e2f9be68b529e0731fad7ebc489.jpg\",\"time\":1782061164032,\"avgColor\":{\"r\":85,\"g\":89,\"b\":98}},{\"title\":\"This Morning Routine Won Me 6 Olympias\",\"artist\":\"Chris Bumstead\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_9f6b041461442bdb82d7fa1c09fac7ae.jpg\",\"time\":1782061160705,\"avgColor\":{\"r\":97,\"g\":95,\"b\":90}},{\"title\":\"Goob says Chris Bumstead is never coming back to compete at Olympia in Men’s Open division\",\"artist\":\"Generation Iron Fitness & Bodybuilding Network\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_721a4207a676dd40042dba3f127f31dd.jpg\",\"time\":1782060516146,\"avgColor\":{\"r\":120,\"g\":76,\"b\":49}},{\"title\":\"Chris Bumstead Is Coming Back ? | Will Cbum Compete ?\",\"artist\":\"FITNESS MODELS\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_df8eb7f0774def16ccca6f7ace688538.jpg\",\"time\":1782060507144,\"avgColor\":{\"r\":59,\"g\":51,\"b\":50}},{\"title\":\"This Morning Routine Won Me 6 Olympias\",\"artist\":\"Chris Bumstead\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_58be4ddf3648417922269f3bb729ab03.jpg\",\"time\":1782060453651,\"avgColor\":{\"r\":97,\"g\":95,\"b\":90}},{\"title\":\"SHE CANT APOLOGIZE #marriedlife #couplehumor #married\",\"artist\":\"Morgan Vera\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_0fa510d9e066e511e82277987d62c437.jpg\",\"time\":1782060435342,\"avgColor\":{\"r\":114,\"g\":109,\"b\":94}},{\"title\":\"This Morning Routine Won Me 6 Olympias\",\"artist\":\"Chris Bumstead\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_796a48a837678c6d6333fc028cf9c438.jpg\",\"time\":1782060346554,\"avgColor\":{\"r\":97,\"g\":95,\"b\":90}},{\"title\":\"(1) Instagram\",\"artist\":\"\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_da4fb7e1d2f05f5f0768b749623d76c0.jpg\",\"time\":1782060341503,\"avgColor\":{\"r\":80,\"g\":98,\"b\":181}},{\"title\":\"Instagram\",\"artist\":\"\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_b2e6d9fb7b0589fd2e2d7bdbb1f12b92.jpg\",\"time\":1782060189025,\"avgColor\":{\"r\":80,\"g\":98,\"b\":181}},{\"title\":\"Stories • Instagram\",\"artist\":\"\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_1894591366ea3b92ac3aec8487907ad4.jpg\",\"time\":1782060081399,\"avgColor\":{\"r\":80,\"g\":98,\"b\":181}},{\"title\":\"Instagram\",\"artist\":\"\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_e57659de7282fb289920aa0bdb001a0a.jpg\",\"time\":1782060022682,\"avgColor\":{\"r\":97,\"g\":95,\"b\":90}},{\"title\":\"Helium\",\"artist\":\"No active media\",\"artUrl\":\"\",\"time\":1782059997286,\"avgColor\":{\"r\":97,\"g\":95,\"b\":90}},{\"title\":\"Instagram\",\"artist\":\"\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_e598fca428b6ba366a70f1e2878dff61.jpg\",\"time\":1782059703636,\"avgColor\":{\"r\":97,\"g\":95,\"b\":90}},{\"title\":\"Helium\",\"artist\":\"No active media\",\"artUrl\":\"\",\"time\":1782059642839,\"avgColor\":{\"r\":80,\"g\":98,\"b\":181}},{\"title\":\"Instagram\",\"artist\":\"\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_09499e0c6d06826a19eab4a56967a82f.jpg\",\"time\":1782059640088,\"avgColor\":{\"r\":80,\"g\":98,\"b\":181}}]"
+playback-history='[{"title":"Instagram","artist":"","artUrl":"","time":1782453948342,"avgColor":{"r":120,"g":106,"b":72}},{"title":"Chrome","artist":"No active media","artUrl":"","time":1782453949547,"avgColor":{"r":120,"g":106,"b":72}},{"title":"Instagram","artist":"","artUrl":"","time":1782453822920,"avgColor":{"r":120,"g":106,"b":72}},{"title":"Chrome","artist":"No active media","artUrl":"","time":1782453806943,"avgColor":{"r":120,"g":106,"b":72}},{"title":"Instagram","artist":"","artUrl":"","time":1782453701118,"avgColor":{"r":120,"g":106,"b":72}},{"title":"Chrome","artist":"No active media","artUrl":"","time":1782453505933,"avgColor":{"r":120,"g":106,"b":72}},{"title":"Instagram","artist":"","artUrl":"","time":1782453487608,"avgColor":{"r":120,"g":106,"b":72}},{"title":"Chrome","artist":"No active media","artUrl":"","time":1782453398779,"avgColor":{"r":120,"g":106,"b":72}},{"title":"Instagram","artist":"","artUrl":"","time":1782453354675,"avgColor":{"r":120,"g":106,"b":72}},{"title":"Chrome","artist":"No active media","artUrl":"","time":1782453231618,"avgColor":null},{"title":"Instagram","artist":"","artUrl":"","time":1782453204426,"avgColor":{"r":120,"g":106,"b":72}},{"title":"Chrome","artist":"No active media","artUrl":"","time":1782452999617,"avgColor":{"r":120,"g":106,"b":72}},{"title":"Instagram","artist":"","artUrl":"","time":1782452822748,"avgColor":{"r":120,"g":106,"b":72}},{"title":"Chrome","artist":"No active media","artUrl":"","time":1782452320448,"avgColor":{"r":120,"g":106,"b":72}},{"title":"(1) Instagram","artist":"","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_13e7bbe8c072f8150e87462a17e7d46b.jpg","time":1782452316691,"avgColor":{"r":120,"g":106,"b":72}},{"title":"Instagram","artist":"","artUrl":"","time":1782402868336,"avgColor":{"r":120,"g":106,"b":72}},{"title":"Chrome","artist":"No active media","artUrl":"","time":1782402891217,"avgColor":{"r":120,"g":106,"b":72}},{"title":"Instagram","artist":"","artUrl":"","time":1782402798087,"avgColor":{"r":120,"g":106,"b":72}},{"title":"Chrome","artist":"No active media","artUrl":"","time":1782402781307,"avgColor":null},{"title":"Astro & Tarot • Instagram","artist":"","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_61512d9397a09c718e0531a944b73427.jpg","time":1782402760490,"avgColor":{"r":120,"g":106,"b":72}},{"title":"Instagram","artist":"","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_522c0b34ed84b5bc80b01c1dd70144c5.jpg","time":1782394002545,"avgColor":{"r":80,"g":98,"b":181}},{"title":"Helium","artist":"No active media","artUrl":"","time":1782393997359,"avgColor":{"r":80,"g":98,"b":181}},{"title":"Instagram","artist":"","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_522c0b34ed84b5bc80b01c1dd70144c5.jpg","time":1782393915942,"avgColor":{"r":80,"g":98,"b":181}},{"title":"Helium","artist":"No active media","artUrl":"","time":1782393800520,"avgColor":{"r":80,"g":98,"b":181}},{"title":"Instagram","artist":"","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_522c0b34ed84b5bc80b01c1dd70144c5.jpg","time":1782393286584,"avgColor":{"r":80,"g":98,"b":181}},{"title":"(1) Instagram","artist":"","artUrl":"","time":1782390334797,"avgColor":{"r":80,"g":98,"b":181}},{"title":"Helium","artist":"No active media","artUrl":"","time":1782390300777,"avgColor":{"r":80,"g":98,"b":181}},{"title":"Instagram","artist":"","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_6af903dc76b67b53ff19eb1e53a79c42.jpg","time":1782390213138,"avgColor":{"r":80,"g":98,"b":181}},{"title":"Let It Happen","artist":"Tame Impala","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_f2b17f857e71095634c0a001b2bbaced.jpg","time":1782376935504,"avgColor":{"r":92,"g":73,"b":95}},{"title":"Hot Blooded","artist":"New Constellations","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_4669d31f4332d2d657fdecfaaea97f23.jpg","time":1782376932914,"avgColor":{"r":197,"g":170,"b":160}}]'
 popup-custom-width=360
 popup-show-album-title=false
 popup-show-player-selector=false
