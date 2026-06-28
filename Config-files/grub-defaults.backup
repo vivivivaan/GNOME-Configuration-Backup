@@ -1,4 +1,4 @@
-GRUB_TIMEOUT=180
+GRUB_TIMEOUT=210
 GRUB_DISTRIBUTOR="$(sed 's, release .*$,,g' /etc/system-release)"
 #GRUB_DEFAULT=saved
 GRUB_DISABLE_SUBMENU=true
