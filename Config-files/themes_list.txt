@@ -9,6 +9,9 @@ Fluent-grey-dark
 Fluent-grey-light
 Fluent-light
 hicolor
+MacOS-Pixel-Dark
+MacOS-Pixel-Light
+MacOS-Tahoe-Cursor
 Tela-blue
 Tela-blue-dark
 Tela-blue-light
@@ -16,6 +19,7 @@ Tela-nord
 Tela-nord-dark
 Tela-nord-light
 WhiteSur-cursors
+Win11OSX
 
 /home/raj/.local/share/themes/:
 MacTahoe-Dark-alt-blue-nord
@@ -54,6 +58,9 @@ gnome-logo-text-dark.svg
 gnome-logo-text.svg
 hicolor
 locolor
+MacOS-Pixel-Dark
+MacOS-Pixel-Light
+MacOS-Tahoe-Cursor
 oxygen
 Papirus
 Papirus-Dark
@@ -65,3 +72,4 @@ Tela-nord
 Tela-nord-dark
 Tela-nord-light
 WhiteSur-cursors
+Win11OSX

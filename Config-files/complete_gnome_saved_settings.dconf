@@ -112,7 +112,7 @@ logo-position='bottom-right'
 logo-size=8.1645569620253156
 
 [org/freedesktop/tracker/miner/files]
-index-recursive-directories=['&DESKTOP', '&DOCUMENTS', '&MUSIC', '&PICTURES', '&VIDEOS', '/home/earth/Wallpapers', '/home/earth/UI']
+index-recursive-directories=['&DESKTOP', '&DOCUMENTS', '&MUSIC', '&PICTURES', '&VIDEOS', '&DOWNLOAD']
 
 [org/gnome/Characters]
 recent-characters=['🧑\u200d🎤', '🤗', '🫂', '💔', '💖', '🫣', '🪄', '🤓', '🫠', '😊', '🥰', '😍', '😁', '😉', '👀', '🤩', '🤔', '🔥', '🐱', '🤞', '🗝️', '😭', '💁\u200d♂️', '🌚', '🙇', '🤞🏼', '😆', '😂', '🥂', '🌃', '✴️', '💫']
@@ -210,11 +210,11 @@ world-clocks=[{'location': <(uint32 2, <('Hyderabad', 'VOHY', true, [(0.30455995
 [org/gnome/clocks/state/window]
 maximized=false
 panel-id='world'
-size=(704, 441)
+size=(689, 549)
 
 [org/gnome/control-center]
 last-panel='wifi'
-window-state=(994, 780, false)
+window-state=(840, 757, false)
 
 [org/gnome/deja-dup]
 backend='drive'
@@ -368,7 +368,7 @@ clock-show-weekday=true
 color-scheme='prefer-dark'
 cursor-blink=true
 cursor-blink-time=676
-cursor-theme='WhiteSur-cursors'
+cursor-theme='MacOS-Pixel-Light'
 document-font-name='Arial 10'
 enable-animations=true
 enable-hot-corners=false
@@ -390,11 +390,14 @@ autorun-x-content-open-folder=@as []
 autorun-x-content-start-app=['x-content/ostree-repository', 'x-content/image-dcf']
 
 [org/gnome/desktop/notifications]
-application-children=['org-gnome-tweaks', 'org-gnome-shell-extensions', 'snapd-desktop-integration-snapd-desktop-integration', 'org-gnome-ptyxis', 'org-gnome-nautilus', 'spotify', 'uget-gtk', 'update-manager', 'org-gnome-clocks', 'org-gnome-software', 'google-chrome', 'chrome-hnpfjngllnobngcgfapefoaidbinmjnm-default', 'app-zen-browser-zen', 'io-github-giantpinkrobots-varia', 'com-github-gabutakut-gabutdm', 'windscribe', 'com-mattjakeman-extensionmanager', 'org-qbittorrent-qbittorrent', 'firefox', 'calibre-gui', 'gnome-wellbeing-panel', 'com-github-fontmanager-fontmanager', 'gnome-power-panel', 'org-gnome-baobab', 'org-chromium-chromium', 'ca-desrt-dconf-editor', 'discord', 'org-telegram-desktop-3e485da34fc040f9218e3891ecde1e6c', 'org-gnome-dejadup', 'gnome-printers-panel', 'hplip', 'thunderbird', 'com-github-fontmanager-fontviewer', 'org-gnome-characters', 'org-gnome-pomodoro', 'io-gitlab-news-flash-newsflash', 'io-github-vikdevelop-savedesktop', 'io-github-redddfoxxyy-samaya', 'org-gnome-rhythmbox3', 'org-kde-ktorrent', 'linked', 'org-b3log-siyuan']
+application-children=['org-gnome-tweaks', 'org-gnome-shell-extensions', 'snapd-desktop-integration-snapd-desktop-integration', 'org-gnome-ptyxis', 'org-gnome-nautilus', 'spotify', 'uget-gtk', 'update-manager', 'org-gnome-clocks', 'org-gnome-software', 'google-chrome', 'chrome-hnpfjngllnobngcgfapefoaidbinmjnm-default', 'app-zen-browser-zen', 'io-github-giantpinkrobots-varia', 'com-github-gabutakut-gabutdm', 'windscribe', 'com-mattjakeman-extensionmanager', 'org-qbittorrent-qbittorrent', 'firefox', 'calibre-gui', 'gnome-wellbeing-panel', 'com-github-fontmanager-fontmanager', 'gnome-power-panel', 'org-gnome-baobab', 'org-chromium-chromium', 'ca-desrt-dconf-editor', 'discord', 'org-telegram-desktop-3e485da34fc040f9218e3891ecde1e6c', 'org-gnome-dejadup', 'gnome-printers-panel', 'hplip', 'thunderbird', 'com-github-fontmanager-fontviewer', 'org-gnome-characters', 'org-gnome-pomodoro', 'io-gitlab-news-flash-newsflash', 'io-github-vikdevelop-savedesktop', 'io-github-redddfoxxyy-samaya', 'org-gnome-rhythmbox3', 'org-kde-ktorrent', 'linked', 'org-b3log-siyuan', 'helium', 'brave-origin']
 show-banners=true
 
 [org/gnome/desktop/notifications/application/app-zen-browser-zen]
 application-id='app.zen_browser.zen.desktop'
+
+[org/gnome/desktop/notifications/application/brave-origin]
+application-id='brave-origin.desktop'
 
 [org/gnome/desktop/notifications/application/ca-desrt-dconf-editor]
 application-id='ca.desrt.dconf-editor.desktop'
@@ -440,6 +443,9 @@ application-id='gnome-wellbeing-panel.desktop'
 
 [org/gnome/desktop/notifications/application/google-chrome]
 application-id='google-chrome.desktop'
+
+[org/gnome/desktop/notifications/application/helium]
+application-id='helium.desktop'
 
 [org/gnome/desktop/notifications/application/hplip]
 application-id='hplip.desktop'
@@ -915,7 +921,7 @@ sizing-mode='free'
 window-height=1048
 window-maximized=true
 window-width=1920
-zoom=0.539628131475405
+zoom=0.67533818085315656
 
 [org/gnome/pomodoro/plugins/actions]
 actions-list=@as []
@@ -964,7 +970,7 @@ last-folder-path='/home/earth/Pictures/mypics'
 last-folder-path='/home/earth/Music'
 
 [org/gnome/portal/filechooser/com.google.Chrome]
-last-folder-path='/home/raj/Desktop/Mum Docs'
+last-folder-path='/home/raj/Downloads/groupbuytools.in/groupbuytools.in  Ex 2'
 
 [org/gnome/portal/filechooser/com.notesnook.Notesnook]
 last-folder-path='/home/raj/Documents/Notesnook/backups'
@@ -1006,7 +1012,7 @@ last-folder-path='/home/earth/Downloads'
 last-folder-path='/home/earth/Downloads'
 
 [org/gnome/portal/filechooser/md.obsidian.Obsidian]
-last-folder-path='/home/earth'
+last-folder-path='/home/raj/obsidian-notes'
 
 [org/gnome/portal/filechooser/net.codelogistics.letters]
 last-folder-path='/home/earth/Documents/Letters (Letters from App)'
@@ -1021,13 +1027,13 @@ last-folder-path='/home/earth/Downloads'
 last-folder-path='/home/earth/Downloads'
 
 [org/gnome/portal/filechooser/org.gnome.Nautilus]
-last-folder-path='/home/raj/UI'
+last-folder-path='/home/raj/UI/cursors'
 
 [org/gnome/portal/filechooser/org.gnome.Papers]
 last-folder-path='/home/earth/Downloads/Data_from_2022_to_2024 /2024'
 
 [org/gnome/portal/filechooser/org.gnome.Settings]
-last-folder-path='/home/raj/Pictures/mypics'
+last-folder-path='/home/raj/Workspace'
 
 [org/gnome/portal/filechooser/org.gnome.TextEditor]
 last-folder-path='/home/earth/.bashrc.d'
@@ -1615,7 +1621,7 @@ panel-art-size=22
 panel-pill-height=28
 panel-pill-width=250
 pill-dynamic-width=true
-playback-history="[{\"title\":\"Qayde Se (From \\\"Metro ... In Dino\\\")\",\"artist\":\"Pritam\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_f6978565fd178a28b98d13b44c92794c.jpg\",\"time\":1783218501885,\"avgColor\":{\"r\":166,\"g\":150,\"b\":138}},{\"title\":\"Alive\",\"artist\":\"Empire Of The Sun\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_7079b3d64c51fe56c03c22335ec6bda6.jpg\",\"time\":1783218499887,\"avgColor\":{\"r\":154,\"g\":175,\"b\":198}},{\"title\":\"The Son of Flynn - From \\\"TRON: Legacy\\\"/Score\",\"artist\":\"Daft Punk\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_1e674439774dcd0eba1f173049e1b27e.jpg\",\"time\":1783218493952,\"avgColor\":{\"r\":10,\"g\":25,\"b\":30}},{\"title\":\"Pumped Up Kicks\",\"artist\":\"Foster The People\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_1d6384169f4d05f7d8d4b389bf331a37.jpg\",\"time\":1783218492916,\"avgColor\":{\"r\":219,\"g\":216,\"b\":211}},{\"title\":\"Is It True\",\"artist\":\"Tame Impala\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_81129a6f724c812d06218fe5241d9f10.jpg\",\"time\":1783218485579,\"avgColor\":{\"r\":139,\"g\":49,\"b\":32}},{\"title\":\"Outsider\",\"artist\":\"Kavinsky\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_4b0d11ea0bc9175a52423b9db3f7f3a2.jpg\",\"time\":1783218460374,\"avgColor\":{\"r\":31,\"g\":20,\"b\":27}},{\"title\":\"Lightenup\",\"artist\":\"Parcels\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_3a6ddccd85c52f8d37b50c9f3f0dfb22.jpg\",\"time\":1783218454231,\"avgColor\":{\"r\":137,\"g\":145,\"b\":154}},{\"title\":\"La leçon particulière - Bande originale du film \\\"La leçon particulière\\\"\",\"artist\":\"Francis Lai\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_9deffcb0e0ceb957046744956ec7b288.jpg\",\"time\":1783218430538,\"avgColor\":{\"r\":89,\"g\":124,\"b\":130}},{\"title\":\"Innerbloom\",\"artist\":\"RÜFÜS DU SOL\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_af0096e443240fa3020a3ab84361cb0e.jpg\",\"time\":1783218425360,\"avgColor\":{\"r\":112,\"g\":90,\"b\":105}},{\"title\":\"Lady - Hear Me Tonight\",\"artist\":\"Modjo\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_371723bd26d80e8bc838480cae14f725.jpg\",\"time\":1783218047678,\"avgColor\":{\"r\":136,\"g\":131,\"b\":130}},{\"title\":\"Swing Lynn\",\"artist\":\"Harmless\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_0ee36143b74b956ae693a7ab75962ba3.jpg\",\"time\":1783217964584,\"avgColor\":{\"r\":239,\"g\":231,\"b\":230}},{\"title\":\"Nightcall\",\"artist\":\"Kavinsky\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_6307753f0f5f9ccf9edd63064fe95e0c.jpg\",\"time\":1783217960252,\"avgColor\":{\"r\":16,\"g\":54,\"b\":84}},{\"title\":\"Juno Love\",\"artist\":\"Nico Morano\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_9349b785e403d86e46fffd8e5e5f2a31.jpg\",\"time\":1783217821826,\"avgColor\":{\"r\":178,\"g\":129,\"b\":124}},{\"title\":\"La Isla Bonita\",\"artist\":\"Madonna\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_3cbc2e6189ad65d4675dbc3a2533a731.jpg\",\"time\":1783217817486,\"avgColor\":{\"r\":143,\"g\":142,\"b\":141}},{\"title\":\"Vanille fraise\",\"artist\":\"L'Impératrice\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_ba2106a45f7bc0012d3a9f34407fc5d3.jpg\",\"time\":1783217811056,\"avgColor\":{\"r\":190,\"g\":167,\"b\":148}},{\"title\":\"Far From Any Road\",\"artist\":\"The Handsome Family\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_e3a3c72d76a7b6fa4b72ac15cc79c083.jpg\",\"time\":1783217806146,\"avgColor\":{\"r\":116,\"g\":146,\"b\":162}},{\"title\":\"Somebody That I Used To Know\",\"artist\":\"Gotye\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_068075259d1f57f40955bb2c2dc60d11.jpg\",\"time\":1783217797023,\"avgColor\":{\"r\":210,\"g\":197,\"b\":175}},{\"title\":\"Resonance\",\"artist\":\"Home\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_23b0e27f69d2c7d8e59d1c44a1d69df5.jpg\",\"time\":1783217732814,\"avgColor\":{\"r\":159,\"g\":152,\"b\":151}},{\"title\":\"Instagram\",\"artist\":\"\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_997761ae25603ba4c8a341d02137f934.jpg\",\"time\":1783211379360,\"avgColor\":{\"r\":56,\"g\":56,\"b\":56}},{\"title\":\"Helium\",\"artist\":\"No active media\",\"artUrl\":\"\",\"time\":1783095249860,\"avgColor\":{\"r\":80,\"g\":98,\"b\":181}},{\"title\":\"Instagram\",\"artist\":\"\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_a02a388df59ebf98208e6a54df3a9a72.jpg\",\"time\":1783095225500,\"avgColor\":{\"r\":80,\"g\":98,\"b\":181}},{\"title\":\"Helium\",\"artist\":\"No active media\",\"artUrl\":\"\",\"time\":1783094878701,\"avgColor\":{\"r\":80,\"g\":98,\"b\":181}},{\"title\":\"Instagram\",\"artist\":\"\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_a02a388df59ebf98208e6a54df3a9a72.jpg\",\"time\":1783094709469,\"avgColor\":{\"r\":80,\"g\":98,\"b\":181}},{\"title\":\"Helium\",\"artist\":\"No active media\",\"artUrl\":\"\",\"time\":1783094544783,\"avgColor\":{\"r\":80,\"g\":98,\"b\":181}},{\"title\":\"Instagram\",\"artist\":\"\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_a02a388df59ebf98208e6a54df3a9a72.jpg\",\"time\":1783094449300,\"avgColor\":{\"r\":80,\"g\":98,\"b\":181}},{\"title\":\"Helium\",\"artist\":\"No active media\",\"artUrl\":\"\",\"time\":1783093798515,\"avgColor\":{\"r\":80,\"g\":98,\"b\":181}},{\"title\":\"Instagram\",\"artist\":\"\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_a02a388df59ebf98208e6a54df3a9a72.jpg\",\"time\":1783093790422,\"avgColor\":{\"r\":80,\"g\":98,\"b\":181}},{\"title\":\"Helium\",\"artist\":\"No active media\",\"artUrl\":\"\",\"time\":1783093599219,\"avgColor\":{\"r\":80,\"g\":98,\"b\":181}},{\"title\":\"Instagram\",\"artist\":\"\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_a02a388df59ebf98208e6a54df3a9a72.jpg\",\"time\":1783093597626,\"avgColor\":{\"r\":80,\"g\":98,\"b\":181}},{\"title\":\"Far From Any Road\",\"artist\":\"The Handsome Family\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_e3a3c72d76a7b6fa4b72ac15cc79c083.jpg\",\"time\":1783092634457,\"avgColor\":{\"r\":116,\"g\":146,\"b\":162}}]"
+playback-history="[{\"title\":\"Sofia\",\"artist\":\"Clairo\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_7aea208ce9f07f3a9b5a1b9cf3bd205d.jpg\",\"time\":1783667608388,\"avgColor\":{\"r\":168,\"g\":152,\"b\":133}},{\"title\":\"Reflections\",\"artist\":\"The Neighbourhood\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_caf88da3be83850c90bb74db876d0b39.jpg\",\"time\":1783667606568,\"avgColor\":{\"r\":138,\"g\":119,\"b\":112}},{\"title\":\"Good Looking\",\"artist\":\"Suki Waterhouse\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_ddd94cf528a6018d378189b51266d090.jpg\",\"time\":1783667461933,\"avgColor\":{\"r\":186,\"g\":183,\"b\":187}},{\"title\":\"Beanie\",\"artist\":\"Chezile\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_b7ec7b96e9875f0f8d41cfcf7c4d37aa.jpg\",\"time\":1783667434435,\"avgColor\":{\"r\":164,\"g\":162,\"b\":154}},{\"title\":\"7 Weeks & 3 Days\",\"artist\":\"yungatita\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_d0d915c9283b4106617d048b265c72ec.jpg\",\"time\":1783667422055,\"avgColor\":{\"r\":119,\"g\":43,\"b\":103}},{\"title\":\"F Song\",\"artist\":\"Strawberry Guy\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_bf04bd92d1d8880f2fa8c9a625ee46b3.jpg\",\"time\":1783667402559,\"avgColor\":{\"r\":232,\"g\":202,\"b\":232}},{\"title\":\"Visions of Gideon\",\"artist\":\"Sufjan Stevens\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_79de313e1a431355bd3ff79b1831be52.jpg\",\"time\":1783667356546,\"avgColor\":{\"r\":43,\"g\":93,\"b\":128}},{\"title\":\"Johanna\",\"artist\":\"Suki Waterhouse\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_2c78602ca8c57fc21316095ed96a0ebb.jpg\",\"time\":1783667342927,\"avgColor\":{\"r\":187,\"g\":139,\"b\":140}},{\"title\":\"Juna\",\"artist\":\"Clairo\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_168c2e7154bcf5504308917ae3781227.jpg\",\"time\":1783667317084,\"avgColor\":{\"r\":85,\"g\":59,\"b\":32}},{\"title\":\"Fable\",\"artist\":\"Gigi Perez\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_f9ff1e0151705ecd32694ac4fd60bdc5.jpg\",\"time\":1783667274216,\"avgColor\":{\"r\":248,\"g\":248,\"b\":248}},{\"title\":\"the perfect pair\",\"artist\":\"beabadoobee\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_e4341ae9dbbeaf3d9c9e9def140b37cc.jpg\",\"time\":1783667245289,\"avgColor\":{\"r\":225,\"g\":215,\"b\":206}},{\"title\":\"Birch Tree\",\"artist\":\"Strawberry Guy\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_176d49bb62b5af5d0732b958c5bff1f0.jpg\",\"time\":1783667224291,\"avgColor\":{\"r\":116,\"g\":124,\"b\":117}},{\"title\":\"My Mind\",\"artist\":\"Suki Waterhouse\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_4dc140dac46ac1253e0b6d1cfab77ccb.jpg\",\"time\":1783667199518,\"avgColor\":{\"r\":127,\"g\":86,\"b\":47}},{\"title\":\"Moonlight on the River\",\"artist\":\"Mac DeMarco\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_6bc5bb04f30e9d656ba884cd69c104ff.jpg\",\"time\":1783667188455,\"avgColor\":{\"r\":210,\"g\":196,\"b\":109}},{\"title\":\"Daddy Issues\",\"artist\":\"The Neighbourhood\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_06d2dc2040f81cb8cde8beea7dc1adf0.jpg\",\"time\":1783667174301,\"avgColor\":{\"r\":78,\"g\":78,\"b\":76}},{\"title\":\"Blue Light\",\"artist\":\"Mazzy Star\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_89c8457df8d3633003d31da2acee9de0.jpg\",\"time\":1783667129053,\"avgColor\":{\"r\":117,\"g\":72,\"b\":101}},{\"title\":\"Champagne Coast\",\"artist\":\"Blood Orange\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_8521e205715125d2840e56fcca54ee33.jpg\",\"time\":1783667124716,\"avgColor\":{\"r\":126,\"g\":126,\"b\":126}},{\"title\":\"Kingston\",\"artist\":\"Faye Webster\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_30c16fbf4af283af0760d2bab010fe99.jpg\",\"time\":1783667115820,\"avgColor\":{\"r\":143,\"g\":128,\"b\":113}},{\"title\":\"Until I Found You\",\"artist\":\"Stephen Sanchez\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_9987f87096cf419a95bfd8118aa23312.jpg\",\"time\":1783667104726,\"avgColor\":{\"r\":194,\"g\":196,\"b\":191}},{\"title\":\"No Other Heart\",\"artist\":\"Mac DeMarco\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_3cfe8350013dcd5a651b6f504fbc4bc7.jpg\",\"time\":1783667103140,\"avgColor\":{\"r\":100,\"g\":103,\"b\":96}},{\"title\":\"Touch\",\"artist\":\"Cigarettes After Sex\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_f7c67c3badd64739534bdd458578f186.jpg\",\"time\":1783667087270,\"avgColor\":{\"r\":96,\"g\":96,\"b\":96}},{\"title\":\"Nobody New\",\"artist\":\"The Marías\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_35b4768f28b45b48cfd74f8a729be43f.jpg\",\"time\":1783667070220,\"avgColor\":{\"r\":180,\"g\":179,\"b\":181}},{\"title\":\"Freaks\",\"artist\":\"Surf Curse\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_6c8d9ed03bd728dd6377fc2f844499ec.jpg\",\"time\":1783667063262,\"avgColor\":{\"r\":103,\"g\":105,\"b\":99}},{\"title\":\"EVERYTHING\",\"artist\":\"The Black Skirts\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_4b28df9073f2e3f59370d3c80d7dc2d1.jpg\",\"time\":1783667016070,\"avgColor\":{\"r\":171,\"g\":164,\"b\":154}},{\"title\":\"stuck on you\",\"artist\":\"april june\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_bbf7eefda35cc5415e092a5264d669f3.jpg\",\"time\":1783666995899,\"avgColor\":{\"r\":233,\"g\":229,\"b\":225}},{\"title\":\"Lover, You Should've Come Over\",\"artist\":\"Jeff Buckley\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_9bd35a7bacb251be61d6bcc74682ded8.jpg\",\"time\":1783666927053,\"avgColor\":{\"r\":92,\"g\":74,\"b\":77}},{\"title\":\"A New Kind Of Love - Demo\",\"artist\":\"Frou Frou\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_f338c2724a98bd85d35840d37f4f28ad.jpg\",\"time\":1783666919161,\"avgColor\":{\"r\":121,\"g\":112,\"b\":150}},{\"title\":\"Moves\",\"artist\":\"Suki Waterhouse\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_a1305968c4f4c5a6342cc0f840b4b4ca.jpg\",\"time\":1783666910817,\"avgColor\":{\"r\":127,\"g\":86,\"b\":47}},{\"title\":\"As the World Caves In\",\"artist\":\"Matt Maltese\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_e3d9007fd3abb35d2dec578148492df5.jpg\",\"time\":1783666905036,\"avgColor\":{\"r\":201,\"g\":170,\"b\":111}},{\"title\":\"Flaming Hot Cheetos\",\"artist\":\"Clairo\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_02b5c8274c16d418c401ab53401524eb.jpg\",\"time\":1783666817599,\"avgColor\":{\"r\":99,\"g\":110,\"b\":163}}]"
 popup-custom-width=360
 popup-show-album-title=false
 popup-show-player-selector=false
