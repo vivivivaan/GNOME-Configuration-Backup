@@ -267,7 +267,7 @@ rounded-window-corners@fxgn
   Description: Add rounded corners to all windows. Fork of the now unmaintained Rounded Window Corners extension.
   Path: /home/raj/.local/share/gnome-shell/extensions/rounded-window-corners@fxgn
   URL: https://github.com/flexagoon/rounded-window-corners
-  Version: 22
+  Version: 25
   Enabled: Yes
   State: ACTIVE
 
@@ -629,7 +629,7 @@ slider-percentages@imdarktom
   Description: Adds percentage labels next to the various sliders/bars throughout the GNOME interface.
   Path: /home/raj/.local/share/gnome-shell/extensions/slider-percentages@imdarktom
   URL: https://github.com/ImDarkTom/slider-percentages-gnome
-  Version: 1
+  Version: 2
   Enabled: Yes
   State: ACTIVE
 
@@ -698,3 +698,12 @@ This extension is part of Classic Mode and is officially supported by GNOME. Ple
   Version: 50.2
   Enabled: No
   State: INITIALIZED
+
+simple-taskbar@sultech
+  Name: Simple Taskbar
+  Description: Turns GNOME Shell's native panel into a configurable taskbar with pinned and running apps, live window previews, multi-monitor support, auto-hide, workspace isolation, and an optional Eleven-style Start Menu. Place the panel at the top or bottom, customize its size, spacing, transparency and theme, arrange Shell items, or switch to a clean native-style GNOME panel and retain all customization options offered by the extension. Activating some global search results may copy provider-supplied text to the clipboard.
+  Path: /home/raj/.local/share/gnome-shell/extensions/simple-taskbar@sultech
+  URL: https://github.com/Sultech/simple-taskbar
+  Version: 16
+  Enabled: No
+  State: INACTIVE
