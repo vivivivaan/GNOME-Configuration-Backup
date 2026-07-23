@@ -281,8 +281,8 @@ For the best support, please report any issues on Github. Dash-to-panel is devel
   Path: /home/raj/.local/share/gnome-shell/extensions/dash-to-panel@jderose9.github.com
   URL: https://github.com/home-sweet-gnome/dash-to-panel
   Version: 73
-  Enabled: Yes
-  State: ACTIVE
+  Enabled: No
+  State: INACTIVE
 
 open-desktop-location@laura.media
   Name: Open .desktop file location
@@ -316,7 +316,7 @@ restartto@tiagoporsch.github.io
   Description: Adds a menu item to restart to any other EFI boot entry
   Path: /home/raj/.local/share/gnome-shell/extensions/restartto@tiagoporsch.github.io
   URL: https://github.com/tiagoporsch/restartto
-  Version: 16
+  Version: 17
   Enabled: Yes
   State: ACTIVE
 
@@ -596,8 +596,8 @@ dash-to-dock@micxgx.gmail.com
   URL: https://micheleg.github.io/dash-to-dock/
   Original author: micxgx@gmail.com
   Version: 105
-  Enabled: No
-  State: INITIALIZED
+  Enabled: Yes
+  State: ACTIVE
 
 adaptive-brightness@dmy3k.github.io
   Name: Adaptive Brightness
@@ -684,7 +684,7 @@ simple-taskbar@sultech
   Description: Turns GNOME Shell's native panel into a configurable taskbar with pinned and running apps, live window previews, multi-monitor support, auto-hide, workspace isolation, and an optional Eleven-style Start Menu. Place the panel at the top or bottom, customize its size, spacing, transparency and theme, arrange Shell items, or switch to a clean native-style GNOME panel and retain all customization options offered by the extension. Activating some global search results may copy provider-supplied text to the clipboard.
   Path: /home/raj/.local/share/gnome-shell/extensions/simple-taskbar@sultech
   URL: https://github.com/Sultech/simple-taskbar
-  Version: 16
+  Version: 17
   Enabled: No
   State: INITIALIZED
 
