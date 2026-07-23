@@ -403,8 +403,8 @@ quickshutdownbutton@feelfree2useit.outlook.com
   Path: /home/raj/.local/share/gnome-shell/extensions/quickshutdownbutton@feelfree2useit.outlook.com
   URL: https://github.com/feelfree2useit/quickshutdownbutton
   Version: 4
-  Enabled: Yes
-  State: ACTIVE
+  Enabled: No
+  State: INITIALIZED
 
 dropbeat@romanlefler.com
   Name: Dropbeat
