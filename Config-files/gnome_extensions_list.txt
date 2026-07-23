@@ -596,8 +596,8 @@ dash-to-dock@micxgx.gmail.com
   URL: https://micheleg.github.io/dash-to-dock/
   Original author: micxgx@gmail.com
   Version: 105
-  Enabled: Yes
-  State: ACTIVE
+  Enabled: No
+  State: INACTIVE
 
 adaptive-brightness@dmy3k.github.io
   Name: Adaptive Brightness
@@ -705,5 +705,5 @@ simple-taskbar@sultech
   Path: /home/raj/.local/share/gnome-shell/extensions/simple-taskbar@sultech
   URL: https://github.com/Sultech/simple-taskbar
   Version: 16
-  Enabled: No
-  State: INACTIVE
+  Enabled: Yes
+  State: ACTIVE
