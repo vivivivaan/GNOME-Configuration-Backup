@@ -705,5 +705,5 @@ simple-taskbar@sultech
   Path: /home/raj/.local/share/gnome-shell/extensions/simple-taskbar@sultech
   URL: https://github.com/Sultech/simple-taskbar
   Version: 16
-  Enabled: Yes
-  State: ACTIVE
+  Enabled: No
+  State: INACTIVE
