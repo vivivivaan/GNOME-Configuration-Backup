@@ -281,8 +281,8 @@ For the best support, please report any issues on Github. Dash-to-panel is devel
   Path: /home/raj/.local/share/gnome-shell/extensions/dash-to-panel@jderose9.github.com
   URL: https://github.com/home-sweet-gnome/dash-to-panel
   Version: 73
-  Enabled: No
-  State: INITIALIZED
+  Enabled: Yes
+  State: ACTIVE
 
 open-desktop-location@laura.media
   Name: Open .desktop file location
@@ -597,7 +597,7 @@ dash-to-dock@micxgx.gmail.com
   Original author: micxgx@gmail.com
   Version: 105
   Enabled: No
-  State: INACTIVE
+  State: INITIALIZED
 
 adaptive-brightness@dmy3k.github.io
   Name: Adaptive Brightness
@@ -679,6 +679,15 @@ you can now move the notes in position using the ▲ and ▼ menu items or butto
   Enabled: No
   State: INITIALIZED
 
+simple-taskbar@sultech
+  Name: Simple Taskbar
+  Description: Turns GNOME Shell's native panel into a configurable taskbar with pinned and running apps, live window previews, multi-monitor support, auto-hide, workspace isolation, and an optional Eleven-style Start Menu. Place the panel at the top or bottom, customize its size, spacing, transparency and theme, arrange Shell items, or switch to a clean native-style GNOME panel and retain all customization options offered by the extension. Activating some global search results may copy provider-supplied text to the clipboard.
+  Path: /home/raj/.local/share/gnome-shell/extensions/simple-taskbar@sultech
+  URL: https://github.com/Sultech/simple-taskbar
+  Version: 16
+  Enabled: No
+  State: INITIALIZED
+
 launch-new-instance@gnome-shell-extensions.gcampax.github.com
   Name: Launch New Instance
   Description: Always launch a new instance when clicking in the dash or the application view.
@@ -698,12 +707,3 @@ This extension is part of Classic Mode and is officially supported by GNOME. Ple
   Version: 50.2
   Enabled: No
   State: INITIALIZED
-
-simple-taskbar@sultech
-  Name: Simple Taskbar
-  Description: Turns GNOME Shell's native panel into a configurable taskbar with pinned and running apps, live window previews, multi-monitor support, auto-hide, workspace isolation, and an optional Eleven-style Start Menu. Place the panel at the top or bottom, customize its size, spacing, transparency and theme, arrange Shell items, or switch to a clean native-style GNOME panel and retain all customization options offered by the extension. Activating some global search results may copy provider-supplied text to the clipboard.
-  Path: /home/raj/.local/share/gnome-shell/extensions/simple-taskbar@sultech
-  URL: https://github.com/Sultech/simple-taskbar
-  Version: 16
-  Enabled: No
-  State: INACTIVE
