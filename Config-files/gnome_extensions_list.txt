@@ -151,7 +151,7 @@ show-desktop-button@amivaleo
   Description: Minimize/unminimize all open windows with a single click.
   Path: /home/raj/.local/share/gnome-shell/extensions/show-desktop-button@amivaleo
   URL: https://github.com/amivaleo/Show-Desktop-Button
-  Version: 53
+  Version: 54
   Enabled: Yes
   State: ACTIVE
 
@@ -163,7 +163,7 @@ hidetopbar@mathieu.bidon.ca
 - Log off and on again when there is an error after upgrading.
   Path: /home/raj/.local/share/gnome-shell/extensions/hidetopbar@mathieu.bidon.ca
   URL: https://gitlab.gnome.org/tuxor1337/hidetopbar
-  Version: 125
+  Version: 126
   Enabled: No
   State: INITIALIZED
 
@@ -181,7 +181,7 @@ Vitals@CoreCoding.com
   Description: A glimpse into your computer's temperature, voltage, fan speed, memory usage, processor load, system resources, network speed and storage stats. This is a one stop shop to monitor all of your vital sensors. Uses asynchronous polling to provide a smooth user experience. Feature requests or bugs? Please use GitHub.
   Path: /home/raj/.local/share/gnome-shell/extensions/Vitals@CoreCoding.com
   URL: https://github.com/corecoding/Vitals
-  Version: 77
+  Version: 80
   Enabled: Yes
   State: ACTIVE
 
@@ -282,7 +282,7 @@ For the best support, please report any issues on Github. Dash-to-panel is devel
   URL: https://github.com/home-sweet-gnome/dash-to-panel
   Version: 73
   Enabled: No
-  State: INACTIVE
+  State: INITIALIZED
 
 open-desktop-location@laura.media
   Name: Open .desktop file location
@@ -411,7 +411,7 @@ dropbeat@romanlefler.com
   Description: A flashy extension to view your music/media.
   Path: /home/raj/.local/share/gnome-shell/extensions/dropbeat@romanlefler.com
   URL: https://github.com/romanlefler/dropbeat
-  Version: 49.0.0 (1)
+  Version: 50.0.1 (3)
   Enabled: No
   State: INITIALIZED
 
@@ -684,7 +684,7 @@ simple-taskbar@sultech
   Description: Turns GNOME Shell's native panel into a configurable taskbar with pinned and running apps, live window previews, multi-monitor support, auto-hide, workspace isolation, and an optional Eleven-style Start Menu. Place the panel at the top or bottom, customize its size, spacing, transparency and theme, arrange Shell items, or switch to a clean native-style GNOME panel and retain all customization options offered by the extension. Activating some global search results may copy provider-supplied text to the clipboard.
   Path: /home/raj/.local/share/gnome-shell/extensions/simple-taskbar@sultech
   URL: https://github.com/Sultech/simple-taskbar
-  Version: 17
+  Version: 27
   Enabled: No
   State: INITIALIZED
 
