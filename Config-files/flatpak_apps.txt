@@ -6,6 +6,7 @@ com.notesnook.Notesnook
 io.github.flattool.Warehouse
 io.github.realmazharhussain.GdmSettings
 io.gitlab.ilshat_apps.gitpulsar
+io.gitlab.liferooter.TextPieces
 net.nokyan.Resources
 org.gnome.Firmware
 studio.planetpeanut.Bobby
