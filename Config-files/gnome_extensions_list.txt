@@ -445,6 +445,7 @@ Features:
 - Skip overview on login (go directly to desktop)
 - Set panel transparency or blur based on window position
 - Dash-to-dock blur effect
+- Dash-to-dock minimized windows previews
 - Overview wallpaper blur
 - Keyboard indicator styling
 - Focus on newly launched windows (removes window-ready notifications)
@@ -457,7 +458,7 @@ This extension uses a modular architecture for stability and customization. Some
 Disclaimer: This extension is unofficial and not affiliated with Apple in any way.
   Path: /home/raj/.local/share/gnome-shell/extensions/kiwi@kemma
   URL: https://github.com/kem-a/kiwi-kemma
-  Version: 1.7.1 (46)
+  Version: 1.8.0 (48)
   Enabled: No
   State: INITIALIZED
 
@@ -596,8 +597,8 @@ dash-to-dock@micxgx.gmail.com
   URL: https://micheleg.github.io/dash-to-dock/
   Original author: micxgx@gmail.com
   Version: 105
-  Enabled: Yes
-  State: ACTIVE
+  Enabled: No
+  State: INACTIVE
 
 adaptive-brightness@dmy3k.github.io
   Name: Adaptive Brightness
@@ -681,12 +682,12 @@ you can now move the notes in position using the ▲ and ▼ menu items or butto
 
 simple-taskbar@sultech
   Name: Simple Taskbar
-  Description: Turns GNOME Shell's native panel into a configurable taskbar with pinned and running apps, live window previews, multi-monitor support, auto-hide, workspace isolation, and an optional Eleven-style Start Menu. Place the panel at the top or bottom, customize its size, spacing, transparency and theme, arrange Shell items, or switch to a clean native-style GNOME panel and retain all customization options offered by the extension. Activating some global search results may copy provider-supplied text to the clipboard.
+  Description: Turns GNOME Shell's native panel into a configurable taskbar with pinned and running apps, live window previews, an optional grid Alt-Tab switcher, multi-monitor support, auto-hide, workspace isolation, and an optional Eleven-style Start Menu. Place the panel at the top or bottom, customize its size, spacing, transparency and theme, arrange Shell items, or switch to a clean native-style GNOME panel and retain all customization options offered by the extension. Activating some global search results may copy provider-supplied text to the clipboard.
   Path: /home/raj/.local/share/gnome-shell/extensions/simple-taskbar@sultech
   URL: https://github.com/Sultech/simple-taskbar
-  Version: 28
-  Enabled: No
-  State: INITIALIZED
+  Version: 39
+  Enabled: Yes
+  State: ACTIVE
 
 launch-new-instance@gnome-shell-extensions.gcampax.github.com
   Name: Launch New Instance
