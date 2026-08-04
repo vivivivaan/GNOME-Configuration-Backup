@@ -1,6 +1,5 @@
 com.bitwarden.desktop
 com.github.marhkb.Pods
-com.logseq.Logseq
 com.mattjakeman.ExtensionManager
 com.notesnook.Notesnook
 io.github.flattool.Warehouse
