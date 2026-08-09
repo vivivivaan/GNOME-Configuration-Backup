@@ -710,3 +710,25 @@ This extension is part of Classic Mode and is officially supported by GNOME. Ple
   Version: 50.2
   Enabled: No
   State: INITIALIZED
+
+brightness-step@sholehbaktiabadi.github.io
+  Name: Brightness Step
+  Description: Adjust the screen backlight in finer steps.
+
+GNOME moves the brightness by 5% every time you press a brightness key, which is a big jump on a dark screen. This extension makes each key press move the brightness by 1% instead, and the step size is configurable from the preferences window.
+
+Only the brightness keys are affected: the Quick Settings slider, the on-screen display and automatic/ambient brightness keep working exactly as before.
+  Path: /home/raj/.local/share/gnome-shell/extensions/brightness-step@sholehbaktiabadi.github.io
+  URL: https://github.com/sholehbaktiabadi/brightless
+  Version: 1.0 (1)
+  Enabled: Yes
+  State: ACTIVE
+
+avatar-quick-settings@github.leginreklaw
+  Name: Avatar Quick Settings
+  Description: Add user avatar to quick settings menu
+  Path: /home/raj/.local/share/gnome-shell/extensions/avatar-quick-settings@github.leginreklaw
+  URL: https://github.com/leginreklaw/avatar-quick-settings
+  Version: 2
+  Enabled: Yes
+  State: ACTIVE
