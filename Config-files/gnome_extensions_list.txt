@@ -439,6 +439,7 @@ Features:
 - Move calendar to the right side and customize notifications
 - Quick settings media and notifications tweaks
 - Show current window title in the top panel
+- Simple Window tiling options
 - Show panel on hover in fullscreen mode
 - Hide minimized windows in overview
 - Hide the Activities button
@@ -446,6 +447,7 @@ Features:
 - Set panel transparency or blur based on window position
 - Dash-to-dock blur effect
 - Dash-to-dock minimized windows previews
+- Downloads folder in the dock that fans its newest files out
 - Overview wallpaper blur
 - Keyboard indicator styling
 - Focus on newly launched windows (removes window-ready notifications)
@@ -458,7 +460,7 @@ This extension uses a modular architecture for stability and customization. Some
 Disclaimer: This extension is unofficial and not affiliated with Apple in any way.
   Path: /home/raj/.local/share/gnome-shell/extensions/kiwi@kemma
   URL: https://github.com/kem-a/kiwi-kemma
-  Version: 1.8.0 (48)
+  Version: 1.9.0 (49)
   Enabled: No
   State: INITIALIZED
 
@@ -621,7 +623,7 @@ dynamic-music-pill@andbal
   Description: An elegant, pill-shaped music player for your desktop. Features a smooth audio visualizer, scrolling text, and seamless integration with Dash-to-Dock and the Top Panel. Comes with a Pop-Up menu as well.
   Path: /home/raj/.local/share/gnome-shell/extensions/dynamic-music-pill@andbal
   URL: https://github.com/Andbal23/dynamic-music-pill
-  Version: 1.2.1 (48)
+  Version: 1.3.0 (50)
   Enabled: Yes
   State: ACTIVE
 
@@ -685,7 +687,7 @@ simple-taskbar@sultech
   Description: Turns GNOME Shell's native panel into a configurable taskbar with pinned and running apps, live window previews, an optional grid Alt-Tab switcher, multi-monitor support, auto-hide, workspace isolation, and an optional Eleven-style Start Menu. Place the panel at the top or bottom, customize its size, spacing, transparency and theme, arrange Shell items, or switch to a clean native-style GNOME panel and retain all customization options offered by the extension. Activating some global search results may copy provider-supplied text to the clipboard.
   Path: /home/raj/.local/share/gnome-shell/extensions/simple-taskbar@sultech
   URL: https://github.com/Sultech/simple-taskbar
-  Version: 47
+  Version: 48
   Enabled: No
   State: INITIALIZED
 
