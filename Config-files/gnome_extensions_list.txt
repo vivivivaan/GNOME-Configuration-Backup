@@ -614,7 +614,7 @@ Features:
 Requires Ambient Light Sensor (ALS) hardware support. Check the extension's home page for device compatibility.
   Path: /home/raj/.local/share/gnome-shell/extensions/adaptive-brightness@dmy3k.github.io
   URL: https://github.com/dmy3k/gnome-adaptive-brightness
-  Version: 30
+  Version: 31
   Enabled: Yes
   State: ACTIVE
 
@@ -691,26 +691,6 @@ simple-taskbar@sultech
   Enabled: No
   State: INITIALIZED
 
-launch-new-instance@gnome-shell-extensions.gcampax.github.com
-  Name: Launch New Instance
-  Description: Always launch a new instance when clicking in the dash or the application view.
-This extension is part of Classic Mode and is officially supported by GNOME. Please do not report bugs using the form below, use GNOME's GitLab instance instead.
-  Path: /usr/share/gnome-shell/extensions/launch-new-instance@gnome-shell-extensions.gcampax.github.com
-  URL: https://gitlab.gnome.org/GNOME/gnome-shell-extensions
-  Version: 50.2
-  Enabled: Yes
-  State: ACTIVE
-
-window-list@gnome-shell-extensions.gcampax.github.com
-  Name: Window List
-  Description: Display a window list at the bottom of the screen.
-This extension is part of Classic Mode and is officially supported by GNOME. Please do not report bugs using the form below, use GNOME's GitLab instance instead.
-  Path: /usr/share/gnome-shell/extensions/window-list@gnome-shell-extensions.gcampax.github.com
-  URL: https://gitlab.gnome.org/GNOME/gnome-shell-extensions
-  Version: 50.2
-  Enabled: No
-  State: INITIALIZED
-
 brightness-step@sholehbaktiabadi.github.io
   Name: Brightness Step
   Description: Adjust the screen backlight in finer steps.
@@ -732,3 +712,23 @@ avatar-quick-settings@github.leginreklaw
   Version: 2
   Enabled: Yes
   State: ACTIVE
+
+launch-new-instance@gnome-shell-extensions.gcampax.github.com
+  Name: Launch New Instance
+  Description: Always launch a new instance when clicking in the dash or the application view.
+This extension is part of Classic Mode and is officially supported by GNOME. Please do not report bugs using the form below, use GNOME's GitLab instance instead.
+  Path: /usr/share/gnome-shell/extensions/launch-new-instance@gnome-shell-extensions.gcampax.github.com
+  URL: https://gitlab.gnome.org/GNOME/gnome-shell-extensions
+  Version: 50.2
+  Enabled: Yes
+  State: ACTIVE
+
+window-list@gnome-shell-extensions.gcampax.github.com
+  Name: Window List
+  Description: Display a window list at the bottom of the screen.
+This extension is part of Classic Mode and is officially supported by GNOME. Please do not report bugs using the form below, use GNOME's GitLab instance instead.
+  Path: /usr/share/gnome-shell/extensions/window-list@gnome-shell-extensions.gcampax.github.com
+  URL: https://gitlab.gnome.org/GNOME/gnome-shell-extensions
+  Version: 50.2
+  Enabled: No
+  State: INITIALIZED
