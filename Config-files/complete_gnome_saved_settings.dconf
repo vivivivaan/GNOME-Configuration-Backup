@@ -1768,7 +1768,7 @@ timeout=2000
 
 [org/gnome/shell/extensions/one-thing]
 hot-key=false
-thing-value='Awr.Chc.Play.Mmtm.Att.Blc.🗝️'
+thing-value='Play, momentum & balance'
 
 [org/gnome/shell/extensions/osd-volume-number]
 adapt-panel-menu=true
