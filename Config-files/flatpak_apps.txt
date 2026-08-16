@@ -2,6 +2,7 @@ com.bitwarden.desktop
 com.github.marhkb.Pods
 com.mattjakeman.ExtensionManager
 com.notesnook.Notesnook
+com.vixalien.sticky
 io.github.flattool.Warehouse
 io.github.realmazharhussain.GdmSettings
 io.gitlab.ilshat_apps.gitpulsar
