@@ -10,5 +10,6 @@ io.gitlab.ilshat_apps.gitpulsar
 io.gitlab.liferooter.TextPieces
 net.nokyan.Resources
 org.gnome.Firmware
+org.qbittorrent.qBittorrent
 space.f1nn.chorus
 studio.planetpeanut.Bobby

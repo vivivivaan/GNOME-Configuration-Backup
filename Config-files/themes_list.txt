@@ -12,6 +12,9 @@ hicolor
 MacOS-Pixel-Dark
 MacOS-Pixel-Light
 MacOS-Tahoe-Cursor
+Mignon-pastel
+Mignon-pastel-dark
+Mignon-pastel-light
 Tela-blue
 Tela-blue-dark
 Tela-blue-light
@@ -73,6 +76,9 @@ locolor
 MacOS-Pixel-Dark
 MacOS-Pixel-Light
 MacOS-Tahoe-Cursor
+Mignon-pastel
+Mignon-pastel-dark
+Mignon-pastel-light
 oxygen
 Papirus
 Papirus-Dark
