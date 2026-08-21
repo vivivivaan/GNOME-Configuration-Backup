@@ -730,7 +730,7 @@ launch-new-instance@gnome-shell-extensions.gcampax.github.com
 This extension is part of Classic Mode and is officially supported by GNOME. Please do not report bugs using the form below, use GNOME's GitLab instance instead.
   Path: /usr/share/gnome-shell/extensions/launch-new-instance@gnome-shell-extensions.gcampax.github.com
   URL: https://gitlab.gnome.org/GNOME/gnome-shell-extensions
-  Version: 50.2
+  Version: 50.3
   Enabled: Yes
   State: ACTIVE
 
@@ -740,6 +740,6 @@ window-list@gnome-shell-extensions.gcampax.github.com
 This extension is part of Classic Mode and is officially supported by GNOME. Please do not report bugs using the form below, use GNOME's GitLab instance instead.
   Path: /usr/share/gnome-shell/extensions/window-list@gnome-shell-extensions.gcampax.github.com
   URL: https://gitlab.gnome.org/GNOME/gnome-shell-extensions
-  Version: 50.2
+  Version: 50.3
   Enabled: No
   State: INITIALIZED
