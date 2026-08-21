@@ -151,7 +151,7 @@ show-desktop-button@amivaleo
   Description: Minimize/unminimize all open windows with a single click.
   Path: /home/raj/.local/share/gnome-shell/extensions/show-desktop-button@amivaleo
   URL: https://github.com/amivaleo/Show-Desktop-Button
-  Version: 55
+  Version: 57
   Enabled: Yes
   State: ACTIVE
 

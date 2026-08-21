@@ -4,10 +4,12 @@ com.mattjakeman.ExtensionManager
 com.notesnook.Notesnook
 com.vixalien.sticky
 io.github.flattool.Warehouse
+io.github.htkhiem.Euphonica
 io.github.realmazharhussain.GdmSettings
 io.github.vikdevelop.SaveDesktop
 io.gitlab.ilshat_apps.gitpulsar
 io.gitlab.liferooter.TextPieces
+io.missioncenter.MissionCenter
 net.nokyan.Resources
 org.gnome.Firmware
 org.qbittorrent.qBittorrent
