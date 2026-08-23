@@ -2,16 +2,20 @@
 CodeNewRoman
 
 /usr/local/share/fonts/truetype:
+Albert_Sans
 Almarai
 arial
 DaddyTimeMono
+Elms_Sans
 FantasqueSansMono
 FiraCode
 FiraMono
+Inclusive_Sans
 Inter
 JetBrainsMono
 Mariupol
 NerdFontsSymbolsOnly
+Plus_Jakarta_Sans
 RobotoMono
 Sono
 SpaceMono

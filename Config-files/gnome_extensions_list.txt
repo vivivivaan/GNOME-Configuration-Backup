@@ -23,8 +23,8 @@ This extension is part of Classic Mode and is officially supported by GNOME. Ple
   Path: /home/raj/.local/share/gnome-shell/extensions/apps-menu@gnome-shell-extensions.gcampax.github.com
   URL: https://gitlab.gnome.org/GNOME/gnome-shell-extensions
   Version: 50.3 (77)
-  Enabled: Yes
-  State: ACTIVE
+  Enabled: No
+  State: INACTIVE
 
 places-menu@gnome-shell-extensions.gcampax.github.com
   Name: Places Status Indicator
@@ -447,7 +447,7 @@ Features:
 - Set panel transparency or blur based on window position
 - Dash-to-dock blur effect
 - Dash-to-dock minimized windows previews
-- Downloads folder in the dock that fans its newest files out
+- Dash-to-dock fan style expanding recent Downloads folder
 - Overview wallpaper blur
 - Keyboard indicator styling
 - Focus on newly launched windows (removes window-ready notifications)
@@ -460,7 +460,7 @@ This extension uses a modular architecture for stability and customization. Some
 Disclaimer: This extension is unofficial and not affiliated with Apple in any way.
   Path: /home/raj/.local/share/gnome-shell/extensions/kiwi@kemma
   URL: https://github.com/kem-a/kiwi-kemma
-  Version: 1.9.0 (49)
+  Version: 1.9.9 (50)
   Enabled: No
   State: INITIALIZED
 
