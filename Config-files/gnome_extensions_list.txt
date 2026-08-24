@@ -24,7 +24,7 @@ This extension is part of Classic Mode and is officially supported by GNOME. Ple
   URL: https://gitlab.gnome.org/GNOME/gnome-shell-extensions
   Version: 50.3 (77)
   Enabled: No
-  State: INACTIVE
+  State: INITIALIZED
 
 places-menu@gnome-shell-extensions.gcampax.github.com
   Name: Places Status Indicator
