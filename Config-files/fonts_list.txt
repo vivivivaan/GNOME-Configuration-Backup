@@ -10,6 +10,8 @@ Elms_Sans
 FantasqueSansMono
 FiraCode
 FiraMono
+Google_Sans
+Google_Sans_Flex
 Inclusive_Sans
 Inter
 JetBrainsMono
