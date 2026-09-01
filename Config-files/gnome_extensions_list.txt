@@ -77,7 +77,7 @@ AlphabeticalAppGrid@stuarthayhurst
   Description: Alphabetically order the app grid and folders
   Path: /home/raj/.local/share/gnome-shell/extensions/AlphabeticalAppGrid@stuarthayhurst
   URL: https://github.com/stuarthayhurst/alphabetical-grid-extension
-  Version: 44
+  Version: 46
   Enabled: Yes
   State: ACTIVE
 
@@ -96,7 +96,7 @@ just-perfection-desktop@just-perfection
   Description: Tweak Tool to Customize GNOME Shell, Change the Behavior and Disable UI Elements
   Path: /home/raj/.local/share/gnome-shell/extensions/just-perfection-desktop@just-perfection
   URL: https://gitlab.gnome.org/jrahmatzadeh/just-perfection
-  Version: 36
+  Version: 37
   Enabled: Yes
   State: ACTIVE
 
@@ -298,7 +298,7 @@ app-grid-tuner@m-lab
   Description: Tune and customize the GNOME application grid (rows, columns, icon size, padding, labels).
   Path: /home/raj/.local/share/gnome-shell/extensions/app-grid-tuner@m-lab
   URL: https://codeberg.org/m-lab/app-grid-tuner
-  Version: 8
+  Version: 9
   Enabled: No
   State: INITIALIZED
 
@@ -460,7 +460,7 @@ This extension uses a modular architecture for stability and customization. Some
 Disclaimer: This extension is unofficial and not affiliated with Apple in any way.
   Path: /home/raj/.local/share/gnome-shell/extensions/kiwi@kemma
   URL: https://github.com/kem-a/kiwi-kemma
-  Version: 1.9.9 (50)
+  Version: 2.0.0 (53)
   Enabled: No
   State: INITIALIZED
 
@@ -551,7 +551,7 @@ https://github.com/NiffirgkcaJ/all-in-one-clipboard
 https://gitlab.com/NiffirgkcaJ/all-in-one-clipboard
   Path: /home/raj/.local/share/gnome-shell/extensions/all-in-one-clipboard@NiffirgkcaJ.github.com
   URL: https://github.com/NiffirgkcaJ/all-in-one-clipboard
-  Version: 29
+  Version: 30
   Enabled: No
   State: INITIALIZED
 
@@ -687,7 +687,7 @@ simple-taskbar@sultech
   Description: Turns GNOME Shell's native panel into a configurable taskbar with pinned and running applications, live window previews, Grid Alt-Tab, auto-hide, workspace and monitor filtering, multi-monitor panels, an application volume mixer, and an optional Eleven-style Start Menu. Choose Taskbar, Default GNOME Panel, or Windows XP Theme mode, then customise the panel's position, size, spacing, transparency, colours, item order and behaviour. Some global search results may request that provider-supplied text be copied to the clipboard when activated.
   Path: /home/raj/.local/share/gnome-shell/extensions/simple-taskbar@sultech
   URL: https://github.com/Sultech/simple-taskbar
-  Version: 54
+  Version: 55
   Enabled: No
   State: INITIALIZED
 
