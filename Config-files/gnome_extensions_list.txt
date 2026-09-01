@@ -743,3 +743,16 @@ This extension is part of Classic Mode and is officially supported by GNOME. Ple
   Version: 50.3
   Enabled: No
   State: INITIALIZED
+
+mirror@distro.com
+  Name: Mirror
+  Description: Mirror Android devices with wireless debugging effortlessly.
+
+Note: Requires avahi-browse, qrencode, scrcpy, and adb to be installed. See the README on GitHub for more information.
+
+If you encounter bugs or issues, please report them on GitHub.
+  Path: /home/raj/.local/share/gnome-shell/extensions/mirror@distro.com
+  URL: https://github.com/TheRealSourcer/mirror
+  Version: 0.10.0 (17)
+  Enabled: No
+  State: INACTIVE
