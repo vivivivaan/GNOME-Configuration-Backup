@@ -460,7 +460,7 @@ This extension uses a modular architecture for stability and customization. Some
 Disclaimer: This extension is unofficial and not affiliated with Apple in any way.
   Path: /home/raj/.local/share/gnome-shell/extensions/kiwi@kemma
   URL: https://github.com/kem-a/kiwi-kemma
-  Version: 2.0.0 (53)
+  Version: 2.0.1 (54)
   Enabled: No
   State: INITIALIZED
 
@@ -684,10 +684,20 @@ you can now move the notes in position using the ▲ and ▼ menu items or butto
 
 simple-taskbar@sultech
   Name: Simple Taskbar
-  Description: Turns GNOME Shell's native panel into a configurable taskbar with pinned and running applications, live window previews, Grid Alt-Tab, auto-hide, workspace and monitor filtering, multi-monitor panels, an application volume mixer, and an optional Eleven-style Start Menu. Choose Taskbar, Default GNOME Panel, or Windows XP Theme mode, then customise the panel's position, size, spacing, transparency, colours, item order and behaviour. Some global search results may request that provider-supplied text be copied to the clipboard when activated.
+  Description: A configurable taskbar and Dock for GNOME Shell.
+
+- Pinned and running applications with live previews, grouping, overflow and drag-and-drop ordering.
+- Custom panel and Dock placement, appearance, auto-hide, window dodge, workspace scrolling and multi-monitor support.
+- Configurable panel items, locations, Trash, drives and common-folder shortcuts.
+- Grid Alt-Tab, an application volume mixer and Super+number application shortcuts.
+- Optional Eleven-style Start Menu with search, categories, pinned apps and system shortcuts.
+- Taskbar, Dock, Default GNOME Panel and Windows XP Theme modes.
+- Export and import profiles for panel, Dock and Start Menu settings.
+
+Some global search results may request that provider-supplied text be copied to the clipboard when activated.
   Path: /home/raj/.local/share/gnome-shell/extensions/simple-taskbar@sultech
   URL: https://github.com/Sultech/simple-taskbar
-  Version: 55
+  Version: 57
   Enabled: No
   State: INITIALIZED
 
@@ -701,8 +711,8 @@ Only the brightness keys are affected: the Quick Settings slider, the on-screen 
   Path: /home/raj/.local/share/gnome-shell/extensions/brightness-step@sholehbaktiabadi.github.io
   URL: https://github.com/sholehbaktiabadi/brightless
   Version: 1.0 (1)
-  Enabled: Yes
-  State: ACTIVE
+  Enabled: No
+  State: INACTIVE
 
 avatar-quick-settings@github.leginreklaw
   Name: Avatar Quick Settings
@@ -721,6 +731,28 @@ It is a fork of Emoji Selector.
   Path: /home/raj/.local/share/gnome-shell/extensions/emoji-copy@felipeftn
   URL: https://github.com/felipeftn/emoji-copy
   Version: 38
+  Enabled: Yes
+  State: ACTIVE
+
+mirror@distro.com
+  Name: Mirror
+  Description: Mirror Android devices with wireless debugging effortlessly.
+
+Note: Requires avahi-browse, qrencode, scrcpy, and adb to be installed. See the README on GitHub for more information.
+
+If you encounter bugs or issues, please report them on GitHub.
+  Path: /home/raj/.local/share/gnome-shell/extensions/mirror@distro.com
+  URL: https://github.com/TheRealSourcer/mirror
+  Version: 0.10.0 (17)
+  Enabled: No
+  State: INITIALIZED
+
+notedock@joquers.github.io
+  Name: NoteDock
+  Description: A lightweight scratchpad in the GNOME Shell top panel. Notes are stored locally. NoteDock reads clipboard text only when the user clicks Paste and writes note text to the clipboard only when the user clicks Copy.
+  Path: /home/raj/.local/share/gnome-shell/extensions/notedock@joquers.github.io
+  URL: https://github.com/joquers/NoteDock
+  Version: 1.0.1 (2)
   Enabled: Yes
   State: ACTIVE
 
@@ -743,16 +775,3 @@ This extension is part of Classic Mode and is officially supported by GNOME. Ple
   Version: 50.3
   Enabled: No
   State: INITIALIZED
-
-mirror@distro.com
-  Name: Mirror
-  Description: Mirror Android devices with wireless debugging effortlessly.
-
-Note: Requires avahi-browse, qrencode, scrcpy, and adb to be installed. See the README on GitHub for more information.
-
-If you encounter bugs or issues, please report them on GitHub.
-  Path: /home/raj/.local/share/gnome-shell/extensions/mirror@distro.com
-  URL: https://github.com/TheRealSourcer/mirror
-  Version: 0.10.0 (17)
-  Enabled: No
-  State: INACTIVE

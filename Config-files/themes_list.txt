@@ -60,6 +60,8 @@ Adwaita
 AdwaitaLegacy
 BeautySolar
 Bluecurve
+breeze
+breeze-dark
 default
 Fluent
 Fluent-cursors
