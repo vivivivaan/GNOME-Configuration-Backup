@@ -142,7 +142,7 @@ tweaks-system-menu@extensions.gnome-shell.fifi.org
   Description: Put Gnome Tweaks, Extensions, Extension Manager and any other application in the System menu.
   Path: /home/raj/.local/share/gnome-shell/extensions/tweaks-system-menu@extensions.gnome-shell.fifi.org
   URL: https://github.com/F-i-f/tweaks-system-menu
-  Version: 27
+  Version: 28
   Enabled: Yes
   State: ACTIVE
 
@@ -181,7 +181,7 @@ Vitals@CoreCoding.com
   Description: A glimpse into your computer's temperature, voltage, fan speed, memory usage, processor load, system resources, network speed and storage stats. This is a one stop shop to monitor all of your vital sensors. Uses asynchronous polling to provide a smooth user experience. Feature requests or bugs? Please use GitHub.
   Path: /home/raj/.local/share/gnome-shell/extensions/Vitals@CoreCoding.com
   URL: https://github.com/corecoding/Vitals
-  Version: 82
+  Version: 85
   Enabled: Yes
   State: ACTIVE
 
@@ -712,7 +712,7 @@ Only the brightness keys are affected: the Quick Settings slider, the on-screen 
   URL: https://github.com/sholehbaktiabadi/brightless
   Version: 1.0 (1)
   Enabled: No
-  State: INACTIVE
+  State: INITIALIZED
 
 avatar-quick-settings@github.leginreklaw
   Name: Avatar Quick Settings
@@ -743,7 +743,7 @@ Note: Requires avahi-browse, qrencode, scrcpy, and adb to be installed. See the 
 If you encounter bugs or issues, please report them on GitHub.
   Path: /home/raj/.local/share/gnome-shell/extensions/mirror@distro.com
   URL: https://github.com/TheRealSourcer/mirror
-  Version: 0.10.0 (17)
+  Version: 0.10.1 (18)
   Enabled: No
   State: INITIALIZED
 
