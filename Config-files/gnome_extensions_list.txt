@@ -460,7 +460,7 @@ This extension uses a modular architecture for stability and customization. Some
 Disclaimer: This extension is unofficial and not affiliated with Apple in any way.
   Path: /home/raj/.local/share/gnome-shell/extensions/kiwi@kemma
   URL: https://github.com/kem-a/kiwi-kemma
-  Version: 2.0.1 (54)
+  Version: 2.1.0 (55)
   Enabled: No
   State: INITIALIZED
 
