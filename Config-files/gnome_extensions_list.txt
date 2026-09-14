@@ -743,7 +743,7 @@ Note: Requires avahi-browse, qrencode, scrcpy, and adb to be installed. See the 
 If you encounter bugs or issues, please report them on GitHub.
   Path: /home/raj/.local/share/gnome-shell/extensions/mirror@distro.com
   URL: https://github.com/TheRealSourcer/mirror
-  Version: 0.10.1 (18)
+  Version: 0.10.2 (19)
   Enabled: No
   State: INITIALIZED
 
@@ -755,26 +755,6 @@ notedock@joquers.github.io
   Version: 1.0.1 (2)
   Enabled: Yes
   State: ACTIVE
-
-launch-new-instance@gnome-shell-extensions.gcampax.github.com
-  Name: Launch New Instance
-  Description: Always launch a new instance when clicking in the dash or the application view.
-This extension is part of Classic Mode and is officially supported by GNOME. Please do not report bugs using the form below, use GNOME's GitLab instance instead.
-  Path: /usr/share/gnome-shell/extensions/launch-new-instance@gnome-shell-extensions.gcampax.github.com
-  URL: https://gitlab.gnome.org/GNOME/gnome-shell-extensions
-  Version: 50.3
-  Enabled: Yes
-  State: ACTIVE
-
-window-list@gnome-shell-extensions.gcampax.github.com
-  Name: Window List
-  Description: Display a window list at the bottom of the screen.
-This extension is part of Classic Mode and is officially supported by GNOME. Please do not report bugs using the form below, use GNOME's GitLab instance instead.
-  Path: /usr/share/gnome-shell/extensions/window-list@gnome-shell-extensions.gcampax.github.com
-  URL: https://gitlab.gnome.org/GNOME/gnome-shell-extensions
-  Version: 50.3
-  Enabled: No
-  State: INITIALIZED
 
 Bluetooth-Battery-Meter@maniacx.github.com
   Name: Bluetooth Battery Meter
@@ -809,3 +789,23 @@ This project is an independent effort and is not affiliated with, endorsed by, o
   Version: 46
   Enabled: Yes
   State: ACTIVE
+
+launch-new-instance@gnome-shell-extensions.gcampax.github.com
+  Name: Launch New Instance
+  Description: Always launch a new instance when clicking in the dash or the application view.
+This extension is part of Classic Mode and is officially supported by GNOME. Please do not report bugs using the form below, use GNOME's GitLab instance instead.
+  Path: /usr/share/gnome-shell/extensions/launch-new-instance@gnome-shell-extensions.gcampax.github.com
+  URL: https://gitlab.gnome.org/GNOME/gnome-shell-extensions
+  Version: 50.3
+  Enabled: Yes
+  State: ACTIVE
+
+window-list@gnome-shell-extensions.gcampax.github.com
+  Name: Window List
+  Description: Display a window list at the bottom of the screen.
+This extension is part of Classic Mode and is officially supported by GNOME. Please do not report bugs using the form below, use GNOME's GitLab instance instead.
+  Path: /usr/share/gnome-shell/extensions/window-list@gnome-shell-extensions.gcampax.github.com
+  URL: https://gitlab.gnome.org/GNOME/gnome-shell-extensions
+  Version: 50.3
+  Enabled: No
+  State: INITIALIZED
