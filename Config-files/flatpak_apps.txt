@@ -1,13 +1,12 @@
 com.bitwarden.desktop
-com.bolwarratechnologies.this_note
 com.github.marhkb.Pods
 com.mattjakeman.ExtensionManager
 com.notesnook.Notesnook
-io.appflowy.AppFlowy
+de.wwwtech.gitte
 io.github.flattool.Warehouse
 io.github.realmazharhussain.GdmSettings
+io.github.tanaybhomia.Whisp
 io.github.vikdevelop.SaveDesktop
-io.gitlab.ilshat_apps.gitpulsar
 net.nokyan.Resources
 org.gnome.Firmware
 org.qbittorrent.qBittorrent
