@@ -343,7 +343,7 @@ aztaskbar@aztaskbar.gitlab.com
   Description: A simple app icon taskbar. Show running apps and favorites on the main panel.
   Path: /home/raj/.local/share/gnome-shell/extensions/aztaskbar@aztaskbar.gitlab.com
   URL: https://gitlab.com/AndrewZaech/aztaskbar
-  Version: 31.3 (39)
+  Version: 31.4 (40)
   Enabled: No
   State: INITIALIZED
 
@@ -385,8 +385,8 @@ one-thing@github.com
   Path: /home/raj/.local/share/gnome-shell/extensions/one-thing@github.com
   URL: https://github.com/dantehemerson/one-thing
   Version: 28
-  Enabled: Yes
-  State: ACTIVE
+  Enabled: No
+  State: INITIALIZED
 
 copyous@boerdereinar.dev
   Name: Copyous
@@ -411,7 +411,7 @@ dropbeat@romanlefler.com
   Description: A flashy extension to view your music/media.
   Path: /home/raj/.local/share/gnome-shell/extensions/dropbeat@romanlefler.com
   URL: https://github.com/romanlefler/dropbeat
-  Version: 50.0.1 (3)
+  Version: 51.0.0 (4)
   Enabled: No
   State: INITIALIZED
 
@@ -686,18 +686,20 @@ simple-taskbar@sultech
   Name: Simple Taskbar
   Description: A configurable taskbar and Dock for GNOME Shell.
 
-- Pinned and running applications with live previews, grouping, overflow and drag-and-drop ordering.
-- Custom panel and Dock placement, appearance, auto-hide, window dodge, workspace scrolling and multi-monitor support.
+- Pinned and running applications with live window previews, peeking, grouping, overflow and drag-and-drop ordering.
+- Icon hover animations: Magnify, Ripple and Simple, each with adjustable zoom, travel, rotation, duration and how many neighbouring icons react.
+- 23 click animations, eight running indicator styles, notification badges and a Magic Lamp minimize effect.
+- Custom panel and Dock placement, appearance, transparency, Blur My Shell styling, auto-hide, window dodge, workspace scrolling and multi-monitor support.
 - Configurable panel items, locations, Trash, drives and common-folder shortcuts.
 - Grid Alt-Tab, an application volume mixer and Super+number application shortcuts.
-- Optional Eleven-style Start Menu with search, categories, pinned apps and system shortcuts.
+- Optional Eleven-style Start Menu with search, categories, pinned apps, folders and system shortcuts.
 - Taskbar, Dock, Default GNOME Panel and Windows XP Theme modes.
-- Export and import profiles for panel, Dock and Start Menu settings.
+- Export and import complete settings profiles.
 
 Some global search results may request that provider-supplied text be copied to the clipboard when activated.
   Path: /home/raj/.local/share/gnome-shell/extensions/simple-taskbar@sultech
   URL: https://github.com/Sultech/simple-taskbar
-  Version: 57
+  Version: 63
   Enabled: No
   State: INITIALIZED
 
@@ -753,8 +755,8 @@ notedock@joquers.github.io
   Path: /home/raj/.local/share/gnome-shell/extensions/notedock@joquers.github.io
   URL: https://github.com/joquers/NoteDock
   Version: 1.0.1 (2)
-  Enabled: Yes
-  State: ACTIVE
+  Enabled: No
+  State: INITIALIZED
 
 Bluetooth-Battery-Meter@maniacx.github.com
   Name: Bluetooth Battery Meter
@@ -789,6 +791,24 @@ This project is an independent effort and is not affiliated with, endorsed by, o
   Version: 46
   Enabled: Yes
   State: ACTIVE
+
+logout-in-power-menu@codegod100.github.io
+  Name: Logout in Power Menu
+  Description: Adds a Log Out option to the Quick Settings power menu.
+  Path: /home/raj/.local/share/gnome-shell/extensions/logout-in-power-menu@codegod100.github.io
+  URL: https://github.com/codegod100/logout-in-power-menu
+  Version: 1
+  Enabled: No
+  State: INITIALIZED
+
+panelnote-extended@qomarhsn.com
+  Name: PanelNote Extended
+  Description: Add a small note to your GNOME panel. Supports time-based notes that change automatically throughout the day, custom positioning, and precise index control. Compatible with GNOME 45–50.
+  Path: /home/raj/.local/share/gnome-shell/extensions/panelnote-extended@qomarhsn.com
+  URL: https://github.com/qomarhsn/PanelNote
+  Version: 7
+  Enabled: Yes
+  State: ERROR
 
 launch-new-instance@gnome-shell-extensions.gcampax.github.com
   Name: Launch New Instance
