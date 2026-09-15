@@ -801,6 +801,15 @@ logout-in-power-menu@codegod100.github.io
   Enabled: No
   State: INITIALIZED
 
+syncthing@gnome.2nv2u.com
+  Name: Syncthing Indicator
+  Description: Shell indicator for monitoring and controlling Syncthing. Using SystemD will add the ability to (auto) start and stop the service.
+  Path: /home/raj/.local/share/gnome-shell/extensions/syncthing@gnome.2nv2u.com
+  URL: https://github.com/2nv2u/gnome-shell-extension-syncthing-indicator
+  Version: 50
+  Enabled: No
+  State: INITIALIZED
+
 panelnote-extended@qomarhsn.com
   Name: PanelNote Extended
   Description: Add a small note to your GNOME panel. Supports time-based notes that change automatically throughout the day, custom positioning, and precise index control. Compatible with GNOME 45–50.
@@ -808,7 +817,7 @@ panelnote-extended@qomarhsn.com
   URL: https://github.com/qomarhsn/PanelNote
   Version: 7
   Enabled: Yes
-  State: ERROR
+  State: ACTIVE
 
 launch-new-instance@gnome-shell-extensions.gcampax.github.com
   Name: Launch New Instance
