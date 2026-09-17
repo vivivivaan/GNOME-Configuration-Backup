@@ -37,6 +37,12 @@ MacTahoe-Dark-solid-alt-blue-nord-xhdpi
 MacTahoe-Dark-solid-alt-pink-nord
 MacTahoe-Dark-solid-alt-pink-nord-hdpi
 MacTahoe-Dark-solid-alt-pink-nord-xhdpi
+MacTahoe-Light-alt-nord
+MacTahoe-Light-alt-nord-hdpi
+MacTahoe-Light-alt-nord-xhdpi
+MacTahoe-Light-solid-alt-nord
+MacTahoe-Light-solid-alt-nord-hdpi
+MacTahoe-Light-solid-alt-nord-xhdpi
 
 /usr/local/share/icons/:
 
@@ -54,6 +60,12 @@ MacTahoe-Dark-solid-alt-blue-nord-xhdpi
 MacTahoe-Dark-solid-alt-pink-nord
 MacTahoe-Dark-solid-alt-pink-nord-hdpi
 MacTahoe-Dark-solid-alt-pink-nord-xhdpi
+MacTahoe-Light-alt-nord
+MacTahoe-Light-alt-nord-hdpi
+MacTahoe-Light-alt-nord-xhdpi
+MacTahoe-Light-solid-alt-nord
+MacTahoe-Light-solid-alt-nord-hdpi
+MacTahoe-Light-solid-alt-nord-xhdpi
 
 /usr/share/icons/:
 Adwaita
