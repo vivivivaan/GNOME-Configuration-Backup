@@ -32,7 +32,7 @@ window-height=393
 window-width=525
 
 [ca/desrt/dconf-editor]
-saved-pathbar-path='/'
+saved-pathbar-path="/org/gnome/Ptyxis/Profiles/'f2934b33b5178457f29b4e8068d611e4'/opacity"
 saved-view='/'
 show-warning=false
 window-height=685
@@ -141,16 +141,16 @@ restore-session=true
 restore-window-size=false
 scrollbar-policy='system'
 use-system-font=false
-window-size=(uint32 212, uint32 49)
+window-size=(uint32 145, uint32 40)
 
 [org/gnome/Ptyxis/Profiles/'f2934b33b5178457f29b4e8068d611e4']
-opacity=0.96575
+opacity=0.94999999999999996
 
 [org/gnome/Ptyxis/Profiles/f2934b33b5178457f29b4e8068d611e4]
 bold-is-bright=true
 label='earth'
 opacity=0.94999999999999996
-palette='Terminix Dark'
+palette='dracula'
 preserve-directory='safe'
 scroll-on-output=true
 scrollback-lines=50000
@@ -214,7 +214,7 @@ size=(689, 549)
 
 [org/gnome/control-center]
 last-panel='wifi'
-window-state=(1130, 794, false)
+window-state=(1129, 793, false)
 
 [org/gnome/deja-dup]
 backend='drive'
@@ -267,7 +267,7 @@ name='Internet'
 translate=false
 
 [org/gnome/desktop/app-folders/folders/54c8bdb9-745d-4b5c-a532-de342a780c2e]
-apps=['org.gnome.Snapshot.desktop', 'org.gnome.Loupe.desktop', 'org.gnome.Shotwell.desktop', 'org.gnome.Totem.desktop', 'vlc.desktop', 'org.gnome.Showtime.desktop']
+apps=['org.gnome.Snapshot.desktop', 'org.gnome.Loupe.desktop', 'org.inkscape.Inkscape.desktop', 'org.gnome.Shotwell.desktop', 'org.gnome.Totem.desktop', 'vlc.desktop', 'org.gnome.Showtime.desktop']
 name='Media'
 translate=false
 
@@ -287,12 +287,12 @@ name='X-Pardus-Apps.directory'
 translate=true
 
 [org/gnome/desktop/app-folders/folders/System]
-apps=['org.gnome.Yelp.desktop', 'org.gnome.Logs.desktop', 'nvidia-settings.desktop', 'org.gnome.Settings.desktop', 'org.gnome.SystemMonitor.desktop', 'org.freedesktop.MalcontentControl.desktop', 'nm-connection-editor.desktop', 'display-im7.q16.desktop', 'gnome-language-selector.desktop', 'org.gnome.Meld.desktop', 'nautilus-compare-preferences.desktop', 'org.gnome.PowerStats.desktop', 'org.gnome.Sysprof.desktop', 'com.github.d4nj1.tlpui.desktop', 'torbrowser-settings.desktop', 'btop.desktop', 'dwww.desktop', 'org.bleachbit.BleachBit.desktop', 'org.bleachbit.BleachBit-root.desktop', 'desktop-security-center_desktop-security-center.desktop', 'org.freedesktop.GnomeAbrt.desktop']
+apps=['org.gnome.GTK4ThemeSwitcher.desktop', 'org.gnome.Yelp.desktop', 'org.gnome.Logs.desktop', 'nvidia-settings.desktop', 'org.gnome.Settings.desktop', 'org.gnome.SystemMonitor.desktop', 'org.freedesktop.MalcontentControl.desktop', 'nm-connection-editor.desktop', 'display-im7.q16.desktop', 'gnome-language-selector.desktop', 'org.gnome.Meld.desktop', 'nautilus-compare-preferences.desktop', 'org.gnome.PowerStats.desktop', 'org.gnome.Sysprof.desktop', 'com.github.d4nj1.tlpui.desktop', 'torbrowser-settings.desktop', 'btop.desktop', 'dwww.desktop', 'org.bleachbit.BleachBit.desktop', 'org.bleachbit.BleachBit-root.desktop', 'desktop-security-center_desktop-security-center.desktop', 'org.freedesktop.GnomeAbrt.desktop']
 name='X-GNOME-Shell-System.directory'
 translate=true
 
 [org/gnome/desktop/app-folders/folders/Utilities]
-apps=['org.gnome.Connections.desktop', 'org.inkscape.Inkscape.desktop', 'org.qbittorrent.qBittorrent.desktop', 'org.gnome.Tour.desktop', 'org.gnome.Maps.desktop', 'yelp.desktop']
+apps=['org.qbittorrent.qBittorrent.desktop', 'org.gnome.Tour.desktop', 'org.gnome.Maps.desktop', 'yelp.desktop']
 name='X-GNOME-Shell-Utilities.directory'
 translate=true
 
@@ -312,7 +312,7 @@ name='Calibre'
 translate=false
 
 [org/gnome/desktop/app-folders/folders/d16e2496-eedd-4088-ba5f-c39f0c9fd16d]
-apps=['org.gnome.Decibels.desktop', 'org.gnome.Calculator.desktop', 'org.gnome.Calendar.desktop', 'org.gnome.Characters.desktop', 'org.gnome.Firmware.desktop', 'org.kde.kate.desktop', 'org.gnome.seahorse.Application.desktop', 'org.gnome.FileRoller.desktop']
+apps=['org.gnome.Decibels.desktop', 'org.gnome.Calculator.desktop', 'org.gnome.Calendar.desktop', 'org.gnome.Characters.desktop', 'org.gnome.Connections.desktop', 'org.gnome.Firmware.desktop', 'org.kde.kate.desktop', 'org.gnome.seahorse.Application.desktop', 'org.gnome.FileRoller.desktop']
 name='Basics'
 translate=false
 
@@ -365,18 +365,18 @@ accent-color='blue'
 clock-format='24h'
 clock-show-seconds=true
 clock-show-weekday=true
-color-scheme='prefer-dark'
+color-scheme='default'
 cursor-blink=true
 cursor-blink-time=676
-cursor-theme='MacOS-Pixel-Dark'
+cursor-theme='MacOS-Pixel-Light'
 document-font-name='Arial 10'
 enable-animations=true
 enable-hot-corners=false
 font-antialiasing='rgba'
 font-name='Mariupol 10.5'
 gtk-enable-primary-paste=true
-gtk-theme='MacTahoe-Dark-alt-pink-nord'
-icon-theme='Mignon-pastel-dark'
+gtk-theme='MacTahoe-Light-alt-blue-nord'
+icon-theme='Mignon-pastel'
 locate-pointer=true
 monospace-font-name='JetBrainsMono Nerd Font Mono 10'
 show-battery-percentage=true
@@ -889,7 +889,7 @@ use-tree-view=true
 [org/gnome/nautilus/preferences]
 click-policy='double'
 date-time-format='detailed'
-default-folder-viewer='list-view'
+default-folder-viewer='icon-view'
 migrated-gtk-settings=true
 search-filter-time-type='last_modified'
 show-create-link=true
@@ -927,7 +927,7 @@ night-mode=false
 [org/gnome/papers/default]
 annot-color='yellow'
 continuous=true
-dual-page=false
+dual-page=true
 dual-page-odd-left=true
 enable-spellchecking=true
 show-sidebar=true
@@ -936,7 +936,7 @@ sizing-mode='free'
 window-height=1048
 window-maximized=true
 window-width=1920
-zoom=0.6981539340186792
+zoom=0.57355638241974594
 
 [org/gnome/pomodoro/plugins/actions]
 actions-list=@as []
@@ -988,7 +988,10 @@ last-folder-path='/home/earth/Pictures/mypics'
 last-folder-path='/home/earth/Music'
 
 [org/gnome/portal/filechooser/com.google.Chrome]
-last-folder-path='/home/raj/.local/share/gnome-shell/extensions/panelnote-extended@qomarhsn.com'
+last-folder-path='/home/raj/Downloads'
+
+[org/gnome/portal/filechooser/com.logseq.Logseq]
+last-folder-path='/home/raj/Documents/Logseq-Notes/Personal'
 
 [org/gnome/portal/filechooser/com.notesnook.Notesnook]
 last-folder-path='/home/raj/Downloads'
@@ -1006,7 +1009,7 @@ last-folder-path='/home/raj/GNOME-Configuration-Backup'
 last-folder-path='/home/earth/UI/MacTahoe-gtk-theme'
 
 [org/gnome/portal/filechooser/de.wwwtech.gitte]
-last-folder-path='/home/raj/GNOME-Configuration-Backup'
+last-folder-path='/home/raj/Workspace'
 
 [org/gnome/portal/filechooser/io.github.nate_xyz.Resonance]
 last-folder-path='/home/earth/Downloads/김민석 (멜로망스) & 웬디 (WENDY) - 이 사랑 통역 되나요_ (Soundtrack from the Netflix Series)/김민석 (멜로망스) & 웬디 (WENDY) - 이 사랑 통역 되나요? (Soundtrack from the Netflix Series)'
@@ -1206,11 +1209,11 @@ sleep-inactive-ac-type='nothing'
 enabled-connections=@as []
 
 [org/gnome/shell]
-app-picker-layout=[{'d16e2496-eedd-4088-ba5f-c39f0c9fd16d': <{'position': <0>}>, 'org.gnome.clocks.desktop': <{'position': <1>}>, 'f720d708-b404-45e1-8674-5f1222817691': <{'position': <2>}>, 'de.wwwtech.gitte.desktop': <{'position': <3>}>, '54c8bdb9-745d-4b5c-a532-de342a780c2e': <{'position': <4>}>, 'com.notesnook.Notesnook.desktop': <{'position': <5>}>, '78c5c448-9755-4b1f-b921-1fa5935ead6b': <{'position': <6>}>, 'com.github.marhkb.Pods.desktop': <{'position': <7>}>, 'io.github.vikdevelop.SaveDesktop.desktop': <{'position': <8>}>, 'b7d40dce-70ec-45ba-a9ce-2ef536596320': <{'position': <9>}>, 'spotify.desktop': <{'position': <10>}>, '95876710-5963-4eb5-8152-6b9f5a9b7f6e': <{'position': <11>}>, 'System': <{'position': <12>}>, 'org.gnome.TextEditor.desktop': <{'position': <13>}>, 'Utilities': <{'position': <14>}>, 'io.github.flattool.Warehouse.desktop': <{'position': <15>}>, 'windscribe.desktop': <{'position': <16>}>}]
+app-picker-layout=[{'d16e2496-eedd-4088-ba5f-c39f0c9fd16d': <{'position': <0>}>, 'org.gnome.clocks.desktop': <{'position': <1>}>, 'f720d708-b404-45e1-8674-5f1222817691': <{'position': <2>}>, 'de.wwwtech.gitte.desktop': <{'position': <3>}>, 'com.logseq.Logseq.desktop': <{'position': <4>}>, 'io.gitlab.ilshat_apps.manuscript.desktop': <{'position': <5>}>, '54c8bdb9-745d-4b5c-a532-de342a780c2e': <{'position': <6>}>, 'com.notesnook.Notesnook.desktop': <{'position': <7>}>, '78c5c448-9755-4b1f-b921-1fa5935ead6b': <{'position': <8>}>, 'com.github.marhkb.Pods.desktop': <{'position': <9>}>, 'io.github.vikdevelop.SaveDesktop.desktop': <{'position': <10>}>, 'b7d40dce-70ec-45ba-a9ce-2ef536596320': <{'position': <11>}>, 'spotify.desktop': <{'position': <12>}>, '95876710-5963-4eb5-8152-6b9f5a9b7f6e': <{'position': <13>}>, 'System': <{'position': <14>}>, 'org.gnome.TextEditor.desktop': <{'position': <15>}>, 'io.github.flattool.Warehouse.desktop': <{'position': <16>}>, 'windscribe.desktop': <{'position': <17>}>}]
 command-history=['r', 'echo $XDG_SESSION_TYPE', 'lg']
 disable-user-extensions=false
 disabled-extensions=['notification-timeout@chlumskyvaclav.gmail.com', 'monitor@astraext.github.io', 'just_shows_memory_usage@troizet.github.com', 'snapd-prompting@canonical.com', 'applications-overview-tooltip@RaphaelRochet', 'hidetopbar@mathieu.bidon.ca', 'all-in-one-clipboard@NiffirgkcaJ.github.com', 'volume_scroller@francislavoie.github.io', 'aztaskbar@aztaskbar.gitlab.com', 'clipboard-indicator@tudmotu.com', 'mediacontrols@cliffniff.github.com', 'dropbeat@romanlefler.com', 'kiwi@kemma', 'pomodoro@zhuravkovigor.dev', 'focuslock@kavinda', 'clipmaster@gnome.extension', 'appgridbuttonintoppanel@raphaelian', 'timeFromStart@pic16f877ccs.github.com', 'mute-unmute@mcast.gnomext.com', '1440@ravener.github.com', 'vertical-app-grid@lublst.github.io', 'app-grid-tuner@m-lab', 'ding@rastersoft.com', 'dash2dock-lite@icedman.github.com', 'Rounded_Corners@lennart-k', 'day-progress@arcaege.github.io', 'screenshort-cut@pauloimon', 'reboottouefi@ubaygd.com', 'pomodoro@youcefzaid.github.io', 'chronos@time-tracker.com', 'quickshutdownbutton@feelfree2useit.outlook.com', 'dash-to-panel@jderose9.github.com', 'simple-taskbar@sultech', 'background-logo@fedorahosted.org', 'apps-menu@gnome-shell-extensions.gcampax.github.com', 'mirror@distro.com', 'brightness-step@sholehbaktiabadi.github.io', 'logout-in-power-menu@codegod100.github.io', 'one-thing@github.com', 'notedock@joquers.github.io', 'syncthing@gnome.2nv2u.com', 'notes-with-history@grizzlysmit.smit.id.au']
-enabled-extensions=['launch-new-instance@gnome-shell-extensions.gcampax.github.com', 'places-menu@gnome-shell-extensions.gcampax.github.com', 'custom-hot-corners-extended@G-dH.github.com', 'just-perfection-desktop@just-perfection', 'Vitals@CoreCoding.com', 'update-extension@purejava.org', 'tweaks-system-menu@extensions.gnome-shell.fifi.org', 'transparent-window-moving@noobsai.github.com', 'tilingshell@ferrarodomenico.com', 'osd-volume-number@deminder', 'drive-menu@gnome-shell-extensions.gcampax.github.com', 'sound-percentage@subashghimire.info.np', 'quick-settings-tweaks@qwreey', 'show-desktop-button@amivaleo', 'open-desktop-location@laura.media', 'apt-update-indicator@franglais125.gmail.com', 'updateindicator@aegirxx.googlemail.com', 'new-apt-update-indicator@hamburgerjungejr', 'systemd-offline-update@swsnr.de', 'disconnect-wifi@kgshank.net', 'media-progress@krypion17', 'gnome-shell-trash-extension', 'mprisLabel@moon-0xff.github.com', 'gspotify@sogi.is-a.dev', 'apps@github.com.howbea', 'egg-timer@gregorriegler.com', 'custom-osd@neuromorph', 'quicknotes@dsabolo.github.io', 'right-click-next@derVedro', 'fq@megh', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'bettervolume@tudmotu.com', 'floating-mini-panel@ghi59.github.com', 'adaptive-brightness@dmy3k.github.io', 'rounded-window-corners@yilozt', 'batteryIcon@slim8916.github.io', 'gnome-ui-tune@itstime.tech', 'cronomix@zagortenay333', 'battery-indicator-icon@Deminder', 'BringOutSubmenuOfPowerOffLogoutButton@pratap.fastmail.fm', 'night-light-scroll@fthx', 'notification-banner-reloaded@marcinjakubowski.github.com', 'night-light-slider-updated@vilsbeg.codeberg.org', 'clipflow-pro@nickotmazgin.github.io', 'AlphabeticalAppGrid@stuarthayhurst', 'no-titlebar-when-maximized@alec.ninja', 'status-icons@gnome-shell-extensions.gcampax.github.com', 'simple-timer@majortomvr.github.com', 'bottom-dash-panel@fthx', 'add-to-desktop@tommimon.github.com', 'panelcolor@itsfernn', 'wellbeingtoggle@m51.io', 'blur-my-shell@aunetx', 'rounded-window-corners@fxgn', 'dynamic-music-pill@andbal', 'pomodoro-timer@Oguzhankokulu.github.com', 'hide-keyboard-layout@sitnik.ru', 'restartto@tiagoporsch.github.io', 'mediaseekbar@carlosjdelgado', 'slider-percentages@imdarktom', 'trayIconsReloaded@selfmade.pl', 'dash-to-dock@micxgx.gmail.com', 'avatar-quick-settings@github.leginreklaw', 'emoji-copy@felipeftn', 'copyous@boerdereinar.dev', 'Bluetooth-Battery-Meter@maniacx.github.com', 'bluetooth-battery@michalw.github.com', 'sticky-notes-integration@joaocandre', 'active-app-indicator@morhenac', 'appindicatorsupport@rgcjonas.gmail.com', 'panelnote-extended@qomarhsn.com']
+enabled-extensions=['launch-new-instance@gnome-shell-extensions.gcampax.github.com', 'places-menu@gnome-shell-extensions.gcampax.github.com', 'custom-hot-corners-extended@G-dH.github.com', 'just-perfection-desktop@just-perfection', 'Vitals@CoreCoding.com', 'update-extension@purejava.org', 'tweaks-system-menu@extensions.gnome-shell.fifi.org', 'transparent-window-moving@noobsai.github.com', 'tilingshell@ferrarodomenico.com', 'osd-volume-number@deminder', 'drive-menu@gnome-shell-extensions.gcampax.github.com', 'sound-percentage@subashghimire.info.np', 'quick-settings-tweaks@qwreey', 'show-desktop-button@amivaleo', 'open-desktop-location@laura.media', 'apt-update-indicator@franglais125.gmail.com', 'updateindicator@aegirxx.googlemail.com', 'new-apt-update-indicator@hamburgerjungejr', 'systemd-offline-update@swsnr.de', 'disconnect-wifi@kgshank.net', 'media-progress@krypion17', 'gnome-shell-trash-extension', 'mprisLabel@moon-0xff.github.com', 'gspotify@sogi.is-a.dev', 'apps@github.com.howbea', 'egg-timer@gregorriegler.com', 'custom-osd@neuromorph', 'quicknotes@dsabolo.github.io', 'right-click-next@derVedro', 'fq@megh', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'bettervolume@tudmotu.com', 'floating-mini-panel@ghi59.github.com', 'adaptive-brightness@dmy3k.github.io', 'rounded-window-corners@yilozt', 'batteryIcon@slim8916.github.io', 'gnome-ui-tune@itstime.tech', 'cronomix@zagortenay333', 'battery-indicator-icon@Deminder', 'BringOutSubmenuOfPowerOffLogoutButton@pratap.fastmail.fm', 'night-light-scroll@fthx', 'notification-banner-reloaded@marcinjakubowski.github.com', 'night-light-slider-updated@vilsbeg.codeberg.org', 'clipflow-pro@nickotmazgin.github.io', 'AlphabeticalAppGrid@stuarthayhurst', 'no-titlebar-when-maximized@alec.ninja', 'status-icons@gnome-shell-extensions.gcampax.github.com', 'simple-timer@majortomvr.github.com', 'bottom-dash-panel@fthx', 'add-to-desktop@tommimon.github.com', 'panelcolor@itsfernn', 'wellbeingtoggle@m51.io', 'blur-my-shell@aunetx', 'rounded-window-corners@fxgn', 'dynamic-music-pill@andbal', 'pomodoro-timer@Oguzhankokulu.github.com', 'hide-keyboard-layout@sitnik.ru', 'restartto@tiagoporsch.github.io', 'mediaseekbar@carlosjdelgado', 'slider-percentages@imdarktom', 'trayIconsReloaded@selfmade.pl', 'dash-to-dock@micxgx.gmail.com', 'avatar-quick-settings@github.leginreklaw', 'emoji-copy@felipeftn', 'copyous@boerdereinar.dev', 'Bluetooth-Battery-Meter@maniacx.github.com', 'bluetooth-battery@michalw.github.com', 'sticky-notes-integration@joaocandre', 'active-app-indicator@morhenac', 'appindicatorsupport@rgcjonas.gmail.com', 'panelnote-extended@qomarhsn.com', 'docker@stickman_0x00.com']
 favorite-apps=['net.nokyan.Resources.desktop', 'org.telegram.desktop.desktop', 'code.desktop', 'org.gnome.Ptyxis.desktop', 'org.gnome.Nautilus.desktop', 'google-chrome.desktop', 'brave-origin.desktop', 'helium.desktop', 'chrome-hnpfjngllnobngcgfapefoaidbinmjnm-Default.desktop', 'com.bitwarden.desktop.desktop', 'io.github.tanaybhomia.Whisp.desktop', 'libreoffice-writer.desktop', 'ticktick.desktop']
 last-selected-power-profile='performance'
 looking-glass-history=['ps -o pid,rss,cmd -C gnome-shell']
@@ -1667,6 +1670,9 @@ start-corner='top-left'
 [org/gnome/shell/extensions/disconnect-wifi]
 show-reconnect-always=true
 
+[org/gnome/shell/extensions/docker]
+logo='default'
+
 [org/gnome/shell/extensions/dynamic-music-pill]
 border-radius=25
 enable-lyrics=true
@@ -1683,7 +1689,7 @@ panel-pill-height=28
 panel-pill-width=250
 pill-dynamic-width=true
 pill-enable-word-level=true
-playback-history="[{\"title\":\"It Never Entered My Mind\",\"artist\":\"Miles Davis Quintet\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_680b64a202cb6afb33ff7d1c184227d6.jpg\",\"time\":1789464754889,\"avgColor\":{\"r\":97,\"g\":141,\"b\":132}},{\"title\":\"My Foolish Heart\",\"artist\":\"Bill Evans Trio\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_2727236f64e34f0187a61398e71508b8.jpg\",\"time\":1789464458559,\"avgColor\":{\"r\":76,\"g\":59,\"b\":62}},{\"title\":\"Ahmad's Blues\",\"artist\":\"Ahmad Jamal\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_e5d894b0c7c04d0549aa2c0e8bb38bb5.jpg\",\"time\":1789464286342,\"avgColor\":{\"r\":95,\"g\":136,\"b\":140}},{\"title\":\"Skating In Central Park\",\"artist\":\"Bill Evans\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_5bdb47eba5d4fc32abf31383e99534c7.jpg\",\"time\":1789463791017,\"avgColor\":{\"r\":86,\"g\":71,\"b\":62}},{\"title\":\"Georgia On My Mind\",\"artist\":\"Oscar Peterson Trio\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_2fe00ba44e2f7bf9698eb1d055d288be.jpg\",\"time\":1789463087337,\"avgColor\":{\"r\":50,\"g\":64,\"b\":107}},{\"title\":\"A Taste of Honey - Live\",\"artist\":\"Paul Desmond\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_7daf4d1e898240efa6ca745cee53ebf4.jpg\",\"time\":1789462783297,\"avgColor\":{\"r\":229,\"g\":230,\"b\":226}},{\"title\":\"When Sunny Gets Blue\",\"artist\":\"McCoy Tyner\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_2e866d3f97a767de18852c29a73ff689.jpg\",\"time\":1789462530582,\"avgColor\":{\"r\":149,\"g\":117,\"b\":86}},{\"title\":\"Keeping The Promises\",\"artist\":\"Soft Brush Touches\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_56a2634f8e2f85b39f3ec941c578d027.jpg\",\"time\":1789461382051,\"avgColor\":{\"r\":151,\"g\":157,\"b\":167}},{\"title\":\"How Deep Is Too Deep\",\"artist\":\"Ellie Goulding\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_0bb4b383a5a30bf196db3d65f6bf49fb.jpg\",\"time\":1789461371752,\"avgColor\":{\"r\":150,\"g\":176,\"b\":198}},{\"title\":\"Cut You Off\",\"artist\":\"Selena Gomez\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_eb83c276ee3b352b8ee7b56743757a45.jpg\",\"time\":1789461364751,\"avgColor\":{\"r\":230,\"g\":229,\"b\":229}},{\"title\":\"Selfish Love (with Selena Gomez) - Tiësto Remix\",\"artist\":\"DJ Snake\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_99d16c5ba7d87cb50dddba44e8dc19d5.jpg\",\"time\":1789461362029,\"avgColor\":{\"r\":60,\"g\":56,\"b\":57}},{\"title\":\"Easier – Remix (with Charlie Puth)\",\"artist\":\"5 Seconds of Summer\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_271a24ed9b13f9422f216765961211c9.jpg\",\"time\":1789461339194,\"avgColor\":{\"r\":29,\"g\":50,\"b\":67}},{\"title\":\"We Don't Talk Anymore (feat. Selena Gomez) - Mr. Collipark Remix\",\"artist\":\"Charlie Puth\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_3e28014b8499afaa50a2055b3a8624e1.jpg\",\"time\":1789461329558,\"avgColor\":{\"r\":24,\"g\":24,\"b\":24}},{\"title\":\"Afterglow\",\"artist\":\"Taylor Swift\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_57dc303d6a262ca33c504942930ceb2c.jpg\",\"time\":1789461055983,\"avgColor\":{\"r\":213,\"g\":188,\"b\":205}},{\"title\":\"LangChain LCEL Chaining Method\",\"artist\":\" Develop Generative AI Applications: Get Started\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_2b4c91adb94466b19588a2e8f664c5b3.jpg\",\"time\":1789459166513,\"avgColor\":{\"r\":235,\"g\":235,\"b\":235}},{\"title\":\" Advanced Methods of Prompt Engineering\",\"artist\":\" Develop Generative AI Applications: Get Started\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_99d7aa6d12e74b8f85ba727f9f374f5e.jpg\",\"time\":1789458258954,\"avgColor\":null},{\"title\":\"Introduction to LangChain\",\"artist\":\" Develop Generative AI Applications: Get Started\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_dd26bb7e745fef3b6bd87a239d6bcbce.jpg\",\"time\":1789458247842,\"avgColor\":{\"r\":235,\"g\":235,\"b\":235}},{\"title\":\"Introduction to In-Context Learning\",\"artist\":\" Develop Generative AI Applications: Get Started\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_e87a4ad57914191a9cfc82181fafddfa.jpg\",\"time\":1789458194547,\"avgColor\":null},{\"title\":\"Home / X\",\"artist\":\"\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_2f0fec2c99bc1aa95606836b36929a12.jpg\",\"time\":1789451085056,\"avgColor\":{\"r\":120,\"g\":106,\"b\":72}},{\"title\":\"A site is playing media\",\"artist\":\"\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_04a59fce884df70add2d58c5c3b0fc8d.jpg\",\"time\":1789450479437,\"avgColor\":{\"r\":86,\"g\":86,\"b\":86}},{\"title\":\"web.whatsapp.com\",\"artist\":\"\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_7b9d3a8be320b6c812a0ac1ec2edce25.jpg\",\"time\":1789392122918,\"avgColor\":{\"r\":120,\"g\":106,\"b\":72}},{\"title\":\"A site is playing media\",\"artist\":\"\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_547248dbb053c2eb64a3ecc0ac597233.jpg\",\"time\":1789385018818,\"avgColor\":{\"r\":86,\"g\":86,\"b\":86}},{\"title\":\"Homepage - Executive Warrior Academy\",\"artist\":\"\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_4d6ab6ee39466fe0b9ec82173db62af3.jpg\",\"time\":1789357395416,\"avgColor\":{\"r\":120,\"g\":106,\"b\":72}},{\"title\":\"A site is playing media\",\"artist\":\"\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_a16ee0adb81683fc591ef37dd1a8c644.jpg\",\"time\":1789316503974,\"avgColor\":{\"r\":86,\"g\":86,\"b\":86}},{\"title\":\"so you've deleted social media. here's how to STAY off.\",\"artist\":\"Gillian Laird\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_e40fb96d7fb49f9ba212fa4052e69b39.jpg\",\"time\":1789305090330,\"avgColor\":{\"r\":124,\"g\":90,\"b\":81}},{\"title\":\"Quitting Social Media Changed My Life\",\"artist\":\"Bryan Johnson\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_536a5464d2bb9c55ef4b639791222e29.jpg\",\"time\":1789305067142,\"avgColor\":{\"r\":55,\"g\":54,\"b\":54}},{\"title\":\"Delete all Social Media? 📲 ❌\",\"artist\":\"InformativeShorts\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_232991808adbefbbf87d430bf6da1b84.jpg\",\"time\":1789304978552,\"avgColor\":{\"r\":107,\"g\":43,\"b\":41}},{\"title\":\"so you've deleted social media. here's how to STAY off.\",\"artist\":\"Gillian Laird\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_9f7eea6c39c44c5b866c41ee42689347.jpg\",\"time\":1789304940963,\"avgColor\":{\"r\":124,\"g\":90,\"b\":81}},{\"title\":\"i deleted social media and my dreams came true\",\"artist\":\"Tadeo\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_fff794751fb3a315242d8b347c037100.jpg\",\"time\":1789304914282,\"avgColor\":{\"r\":37,\"g\":60,\"b\":40}},{\"title\":\"so you deleted social media... now what?\",\"artist\":\"xiya chang\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_c3bd70be774ebe28133f6557e8a1bdad.jpg\",\"time\":1789304753388,\"avgColor\":{\"r\":142,\"g\":121,\"b\":101}}]"
+playback-history="[{\"title\":\"IG_Story_Viewer_@southkorea_busan_story_3988220522215414453_video_1\",\"artist\":\"\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_f2bf14ea823176b88062bf86b9849266.jpg\",\"time\":1789655189490,\"avgColor\":{\"r\":151,\"g\":110,\"b\":63}},{\"title\":\"A site is playing media\",\"artist\":\"\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_d81981ecb20cfae3fa9ba310ae53f195.jpg\",\"time\":1789655125663,\"avgColor\":{\"r\":86,\"g\":86,\"b\":86}},{\"title\":\"YOU INTIMIDATE THIS PERSON A LOT BUT THEY SORT OF LOVE THIS CHALLENGE 😂🤩💍💖🔥\",\"artist\":\"Empresstarot3333\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_0155854ee50d8fd2c52f0a5a569efb2f.jpg\",\"time\":1789641748437,\"avgColor\":{\"r\":94,\"g\":102,\"b\":93}},{\"title\":\"How I Use Logseq to Take Notes and Organize My Life\",\"artist\":\"Shu Omi\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_152fd4bad97fc4fe9c4b6dffa4607e8c.jpg\",\"time\":1789639614178,\"avgColor\":{\"r\":126,\"g\":122,\"b\":127}},{\"title\":\"web.whatsapp.com\",\"artist\":\"\",\"artUrl\":\"\",\"time\":1789564567354,\"avgColor\":null},{\"title\":\"A site is playing media\",\"artist\":\"\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_665d1b194fc1d7bb592a6e870569b3b9.jpg\",\"time\":1789562551341,\"avgColor\":{\"r\":86,\"g\":86,\"b\":86}},{\"title\":\"Is The UK Breaking Up? Scotland, Wales & Northern Ireland Ministers Unite | The Palki Sharma Show\",\"artist\":\"India Global Review\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_ea23c83b9b539a3020f70f9d80bc9fd6.jpg\",\"time\":1789562432018,\"avgColor\":{\"r\":110,\"g\":100,\"b\":117}},{\"title\":\"A site is playing media\",\"artist\":\"\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_6240eaa44c2fc8666dee57058eb87637.jpg\",\"time\":1789542041494,\"avgColor\":{\"r\":86,\"g\":86,\"b\":86}},{\"title\":\"Is The UK Breaking Up? Scotland, Wales & Northern Ireland Ministers Unite | The Palki Sharma Show\",\"artist\":\"India Global Review\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_5202d4dc1704ab27b326abbcb496f1d2.jpg\",\"time\":1789541249478,\"avgColor\":{\"r\":110,\"g\":100,\"b\":117}},{\"title\":\"A site is playing media\",\"artist\":\"\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_6240eaa44c2fc8666dee57058eb87637.jpg\",\"time\":1789541142381,\"avgColor\":{\"r\":86,\"g\":86,\"b\":86}},{\"title\":\"Blinko - AI-Powered Note Taking App\",\"artist\":\"\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_1979f521440f0c890842c7490c66d954.jpg\",\"time\":1789533351715,\"avgColor\":{\"r\":120,\"g\":106,\"b\":72}},{\"title\":\"A site is playing media\",\"artist\":\"\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_7686916624d54daab98dad6720f6dcdd.jpg\",\"time\":1789529996906,\"avgColor\":{\"r\":86,\"g\":86,\"b\":86}},{\"title\":\"web.whatsapp.com\",\"artist\":\"\",\"artUrl\":\"\",\"time\":1789481654609,\"avgColor\":null},{\"title\":\"The Ultimate Beginner's Guide to Logseq - Getting Started\",\"artist\":\"Tool Finder\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_cbc1825359dfbd90038e089962eafaac.jpg\",\"time\":1789480536111,\"avgColor\":{\"r\":157,\"g\":172,\"b\":174}},{\"title\":\"‘The union is worth defending’ | Andy Burnham BLASTED for ‘catalyst’ role in ‘break-up of Britain’\",\"artist\":\"GBNews\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_d58d1afa2e63c8a1ede935406b0ad747.jpg\",\"time\":1789480408193,\"avgColor\":{\"r\":141,\"g\":105,\"b\":117}},{\"title\":\"The Ultimate Beginner's Guide to Logseq - Getting Started\",\"artist\":\"Tool Finder\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_db4a357f5c3833b2b08bfbe883630d8d.jpg\",\"time\":1789480372381,\"avgColor\":null},{\"title\":\"Ex-Anthropic insider tells CNN how AI could kill all humans by 2030\",\"artist\":\"CNN\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_f391e844a1168a2ac8526d3bb4b3986e.jpg\",\"time\":1789478064313,\"avgColor\":{\"r\":128,\"g\":61,\"b\":85}},{\"title\":\"The Ultimate Beginner's Guide to Logseq - Getting Started\",\"artist\":\"Tool Finder\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_67701ffd9eb2aa5dca81021fd87ff5e8.jpg\",\"time\":1789478017676,\"avgColor\":{\"r\":157,\"g\":172,\"b\":174}},{\"title\":\"macOS 27 Released! What's New?\",\"artist\":\"MacVince\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_014a602ae3d604e4241285698f14d9cb.jpg\",\"time\":1789477987975,\"avgColor\":{\"r\":163,\"g\":151,\"b\":147}},{\"title\":\"‘The union is worth defending’ | Andy Burnham BLASTED for ‘catalyst’ role in ‘break-up of Britain’\",\"artist\":\"GBNews\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_4e13e466a89111a1cf8251375687ed54.jpg\",\"time\":1789476059319,\"avgColor\":{\"r\":141,\"g\":105,\"b\":117}},{\"title\":\"A site is playing media\",\"artist\":\"\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_c490488e71e238101a3ec2fd35296b8e.jpg\",\"time\":1789475665926,\"avgColor\":{\"r\":86,\"g\":86,\"b\":86}},{\"title\":\"macOS 27 Released! What's New?\",\"artist\":\"MacVince\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_c1a9c1728054d82dee1e461ced6b0b0f.jpg\",\"time\":1789474693322,\"avgColor\":{\"r\":163,\"g\":151,\"b\":147}},{\"title\":\"A site is playing media\",\"artist\":\"\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_33614910f8ab509f62314eaac57ef69b.jpg\",\"time\":1789474524250,\"avgColor\":{\"r\":86,\"g\":86,\"b\":86}},{\"title\":\"macOS 27 Released! What's New?\",\"artist\":\"MacVince\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_976f5b8878aeff2b37cbd0300d27a133.jpg\",\"time\":1789473663847,\"avgColor\":{\"r\":163,\"g\":151,\"b\":147}},{\"title\":\"A site is playing media\",\"artist\":\"\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_953f1fe3689cbeaa277ef5819ed7f03e.jpg\",\"time\":1789473532266,\"avgColor\":{\"r\":86,\"g\":86,\"b\":86}},{\"title\":\"The Heart Wants What It Wants\",\"artist\":\"Selena Gomez\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_55938617d3c1e8993219e8620fe4f216.jpg\",\"time\":1789469175857,\"avgColor\":{\"r\":82,\"g\":12,\"b\":33}},{\"title\":\"Personal\",\"artist\":\"HRVY\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_fcf81b795eba48938198457817ded79c.jpg\",\"time\":1789469167029,\"avgColor\":{\"r\":95,\"g\":106,\"b\":118}},{\"title\":\"Higher\",\"artist\":\"Shawn Mendes\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_ab4b9b7f5ea2aaa4a763a2f74d4b8ec3.jpg\",\"time\":1789469155954,\"avgColor\":{\"r\":166,\"g\":170,\"b\":181}},{\"title\":\"On My Mind\",\"artist\":\"Ellie Goulding\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_7802bf5ea91ab3229cad938729ef9a07.jpg\",\"time\":1789469151456,\"avgColor\":{\"r\":162,\"g\":164,\"b\":154}},{\"title\":\"Cold Water\",\"artist\":\"Major Lazer\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_db814a000792c8532b2d2719ec470a44.jpg\",\"time\":1789469149114,\"avgColor\":{\"r\":146,\"g\":119,\"b\":81}}]"
 popup-custom-width=360
 popup-show-album-title=false
 popup-show-player-selector=false
@@ -2024,7 +2030,7 @@ applications=['org.gnome.tweaks.desktop', 'com.mattjakeman.ExtensionManager.desk
 position=0
 
 [org/gnome/shell/extensions/user-theme]
-name='MacTahoe-Dark-alt-pink-nord'
+name='MacTahoe-Light-alt-blue-nord'
 
 [org/gnome/shell/extensions/vertical-app-grid]
 app-sorting='usage'
