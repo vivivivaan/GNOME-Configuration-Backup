@@ -375,7 +375,7 @@ hide-keyboard-layout@sitnik.ru
   Description: Hide keyboard layout indicator in status bar
   Path: /home/raj/.local/share/gnome-shell/extensions/hide-keyboard-layout@sitnik.ru
   URL: https://github.com/ai/hide-keyboard-layout
-  Version: 13
+  Version: 14
   Enabled: Yes
   State: ACTIVE
 

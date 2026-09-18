@@ -60,13 +60,19 @@ sudo dnf install spotify-client
 
 # Themes
 
-## MacTahoe GDM
+## MacTahoe GTK theme config
 
-`sudo ./tweaks.sh --gdm -b /home/raj/Wallpapers/ethan-finley-0363yZiNIa8-unsplash.jpg -nb -c dark -t blue -s nord`
+### /usr/share/local/themes/
+`sudo ./install.sh -d /usr/local/share/themes/ -c light -a alt -t blue -s nord -l --shell -h smaller -ns -normal`
 
-## MacTahoe Dark Blue Nord
+### /usr/share/themes/
+`sudo ./install.sh -d /usr/share/themes/ -c light -a alt -t blue -s nord -l --shell -h smaller -ns -normal`
 
-`sudo ./install.sh -d /usr/local/share/themes/ -c dark -a alt -t blue -s nord -l --shell -normal --darker && ./install.sh -d ~/.local/share/themes/ -c dark -a alt -t blue -s nord -l --shell -normal --darker`
+### ~/.local/share/themes/
+`./install.sh -d ~/.local/share/themes/ -c light -a alt -t blue -s nord -l --shell -h smaller -ns -normal`
+
+### GDM Tweaks
+`sudo ./tweaks.sh -g -b <wallpaper location> -h smaller -nb -c light -t blue -s nord && sudo ./tweaks.sh -F -c light -t blue -s nord`
 
 ## GRUB theme background fix
 
