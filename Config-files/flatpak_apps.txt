@@ -1,5 +1,6 @@
 com.bitwarden.desktop
 com.github.marhkb.Pods
+com.logseq.Logseq
 com.mattjakeman.ExtensionManager
 com.notesnook.Notesnook
 de.wwwtech.gitte
@@ -7,7 +8,7 @@ io.github.flattool.Warehouse
 io.github.realmazharhussain.GdmSettings
 io.github.tanaybhomia.Whisp
 io.github.vikdevelop.SaveDesktop
+io.gitlab.ilshat_apps.manuscript
 net.nokyan.Resources
 org.gnome.Firmware
-org.qbittorrent.qBittorrent
 studio.planetpeanut.Bobby
