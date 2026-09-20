@@ -9,6 +9,7 @@ io.github.realmazharhussain.GdmSettings
 io.github.tanaybhomia.Whisp
 io.github.vikdevelop.SaveDesktop
 io.gitlab.ilshat_apps.manuscript
+md.obsidian.Obsidian
 net.nokyan.Resources
 org.gnome.Firmware
 studio.planetpeanut.Bobby

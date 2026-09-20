@@ -1,6 +1,6 @@
 # Gnome, Tweaks-tool and system-wide configurations backup
 
-* Extensions are stored in ```~/.local/share/gnome-shell/extensions```.
+* Extensions are stored in ``~/.local/share/gnome-shell/extensions``.
 * Make **ptyxis** transparent with `dconf read /org/gnome/Ptyxis/default-profile-uuid` and `dconf write /org/gnome/Ptyxis/Profiles/$Profile_ID/opacity 0.95`.
 
 # Restore
@@ -8,7 +8,7 @@
 - Replace the ***existing username*** with the ***current username*** in the **`complete_gnome_saved_settings.dconf`** and **`gnome_extensions_list.txt`** files.
 - Install **Extension Manager** with `flatpak install flathub com.mattjakeman.ExtensionManager`.
 - Install the extensions in `gnome_extensions_list.txt`.
-- Run `dconf load /org/gnome/shell/extensions/ < gnome-shell-extensions-backup.dconf` to apply the extension configurations. 
+- Run `dconf load /org/gnome/shell/extensions/ < gnome-shell-extensions-backup.dconf` to apply the extension configurations.
 - Restart the session/system to see the effects.
 - (optional) Restore all Gnome-wide settings, including **Gnome-tweaks** configurations using `dconf load -f / < complete_gnome_saved_settings.dconf`.
 - Additionally, backup and restore all the GNOME settings and other configurations using SaveDesktop (`flatpak install flathub io.github.vikdevelop.SaveDesktop`) flatpak app besides the Backup method below.
@@ -17,8 +17,8 @@
 
 You can simply use the `backup.sh` script for backup or do it manually as shown in the table below.
 
-| Item                        |                                                                                                             Command |
-| :-------------------------- | ------------------------------------------------------------------------------------------------------------------: |
+| Item                        |                                                                                                               Command |
+| :-------------------------- | --------------------------------------------------------------------------------------------------------------------: |
 | Extensions configuration    |                                     `dconf dump /org/gnome/shell/extensions/ > gnome-shell-extensions-backup.dconf` |
 | System-wide configuration   |                                                                `dconf dump / > complete_gnome_saved_settings.dconf` |
 | Extensions List             |                                                              `gnome-extensions list -d > gnome_extensions_list.txt` |
@@ -36,6 +36,7 @@ You can simply use the `backup.sh` script for backup or do it manually as shown 
 - Restart the system or session.
 
 # Install Spotify on Fedora
+
 ```bash
 sudo dnf config-manager addrepo --from-repofile=https://negativo17.org/repos/fedora-spotify.repo
 sudo dnf install spotify-client
@@ -43,16 +44,17 @@ sudo dnf install spotify-client
 
 ## Browser Flags
 
-| Browser        | copy *.desktop file                                                                   |                                                                                                                                                                                                                                                     `*://flags` |
-| :------------- | ------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| Browser        | copy *.desktop file                                                                     |                                                                                                                                                                                                                                                                       `*://flags` |
+| :------------- | --------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | Google Chrome  | `sudo cp /usr/share/applications/google-chrome.desktop ~/.local/share/applications/`  | `#fluent-overlay-scrollbars` `#fluent-scrollbars` `#smooth-scrolling` `#ozone-platform-hint` `#wayland-ui-scaling` `#root-scrollbar-follows-browser-theme` `#link-preview` `#wayland-linux-drm-syncobj` `#allow-legacy-mv2-extensions` `#tabstrip-combo-button` |
-| Brave          | `sudo cp /usr/share/applications/brave-browser.desktop ~/.local/share/applications/`  |                                                 `#fluent-overlay-scrollbars` `#fluent-scrollbars` `#ozone-platform-hint` `#wayland-ui-scaling` `#root-scrollbar-follows-browser-theme` `#link-preview` `#middle-button-autoscroll` `#wayland-linux-drm-syncobj` |
-| Microsoft Edge | `sudo cp /usr/share/applications/microsoft-edge.desktop ~/.local/share/applications/` |                                                                                                                                                                                                                        Only enable flags in the `.desktop` file |
-| Vivaldi        | `sudo cp /usr/share/applications/vivaldi-stable.desktop ~/.local/share/applications/` |                                                                                                                                                                       `#fluent-overlay-scrollbars` `#fluent-scrollbars` `#root-scrollbar-follows-browser-theme` |
+| Brave          | `sudo cp /usr/share/applications/brave-browser.desktop ~/.local/share/applications/`  |                                                     `#fluent-overlay-scrollbars` `#fluent-scrollbars` `#ozone-platform-hint` `#wayland-ui-scaling` `#root-scrollbar-follows-browser-theme` `#link-preview` `#middle-button-autoscroll` `#wayland-linux-drm-syncobj` |
+| Microsoft Edge | `sudo cp /usr/share/applications/microsoft-edge.desktop ~/.local/share/applications/` |                                                                                                                                                                                                                                           Only enable flags in the`.desktop` file |
+| Vivaldi        | `sudo cp /usr/share/applications/vivaldi-stable.desktop ~/.local/share/applications/` |                                                                                                                                                                                     `#fluent-overlay-scrollbars` `#fluent-scrollbars` `#root-scrollbar-follows-browser-theme` |
 
 ## Command-line Flags
-| Browser        |                                                                                                                                                                                                                                            Code to append |
-| :------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+
+| Browser        |                                                                                                                                                                                                                                              Code to append |
+| :------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | Google Chrome  |                                                                                                                                    `--enable-features=MiddleClickAutoscroll,TouchpadOverscrollHistoryNavigation --disable-features=GlobalShortcutsPortal` |
 | Brave Browser  |                                                                                                                                                          `--enable-features=TouchpadOverscrollHistoryNavigation --disable-features=GlobalShortcutsPortal` |
 | Microsoft Edge |                                                                 `--enable-features=MiddleClickAutoscroll,TouchpadOverscrollHistoryNavigation,UseOzonePlatform,WaylandWindowDecorations --ozone-platform=wayland --disable-features=GlobalShortcutsPortal` |
@@ -63,15 +65,19 @@ sudo dnf install spotify-client
 ## MacTahoe GTK theme config
 
 ### /usr/share/local/themes/
+
 `sudo ./install.sh -d /usr/local/share/themes/ -c light -a alt -t blue -s nord -l --shell -h smaller -ns -normal`
 
 ### /usr/share/themes/
+
 `sudo ./install.sh -d /usr/share/themes/ -c light -a alt -t blue -s nord -l --shell -h smaller -ns -normal`
 
 ### ~/.local/share/themes/
+
 `./install.sh -d ~/.local/share/themes/ -c light -a alt -t blue -s nord -l --shell -h smaller -ns -normal`
 
 ### GDM Tweaks
+
 `sudo ./tweaks.sh -g -b <wallpaper location> -h smaller -nb -c light -t blue -s nord && sudo ./tweaks.sh -F -c light -t blue -s nord`
 
 ## GRUB theme background fix
@@ -83,15 +89,15 @@ For GRUB configuration, install the GRUB theme but comment out the `GRUB_BACKGRO
 - Grant filesystem access to all Flatpak apps with `flatpak override --user --filesystem=xdg-config/gtk-3.0 --filesystem=xdg-config/gtk-4.0 --filesystem=xdg-data/themes --filesystem=xdg-data/icons --filesystem=xdg-data/fonts`.
 - This is usually enough - `sudo flatpak override --filesystem=/usr/local/share/themes`, `sudo flatpak override --filesystem=~/.local/share/themes` and `sudo flatpak override --filesystem=xdg-config/gtk-3.0 && sudo flatpak override --filesystem=xdg-config/gtk-4.0`.
 
-| UI Element                  |                                                                                                                                                                                                                       Command |
-| :-------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| UI Element                  |                                                                                                                                                                                                                           Command |
+| :-------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | Themes                      |                                                                                                        `flatpak override --user --env=GTK_THEME=your-theme-name` (Reset with `flatpak override --user --unset-env=GTK_THEME`) |
 | Icons                       |                                                                                                     ` flatpak override --user --env=ICON_THEME=your-icon-theme` (Reset with `flatpak override --user --unset-env=ICON_THEME`) |
 | Cursor                      |                                                                                                `flatpak override --user --env=CURSOR_THEME=your-cursor-theme` (Reset with `flatpak override --user --unset-env=CURSOR_THEME`) |
 | Fonts                       |            `flatpak override --user --filesystem=xdg-data/fonts:ro --filesystem=xdg-config/fontconfig:ro` (Reset with `flatpak override --user --reset --filesystem=xdg-data/fonts:ro --filesystem=xdg-config/fontconfig:ro`) |
 | Reset all flatpak overrides | `flatpak override --user --reset` and `flatpak override --user --reset --filesystem=xdg-config/gtk-3.0 --filesystem=xdg-config/gtk-4.0 --filesystem=xdg-data/themes --filesystem=xdg-data/icons --filesystem=xdg-data/fonts`. |
 
-> If the above reset don't work fully, run these to reset all relevant UI settings: 
+> If the above reset don't work fully, run these to reset all relevant UI settings:
 
 ```bash
 gsettings reset org.gnome.desktop.interface gtk-theme
@@ -106,15 +112,19 @@ gsettings set org.gnome.shell.extensions.user-theme name 'Default-pure'
 ```
 
 # Enable fingerprint authentication besides login
+
 `sudo pam-auth-update` and enable **Fingerprint Authentication**.
 
 # Important search terms for NVIDIA driver and Linux Kernel packages
+
 `linux-generic`, `linux-headers-generic`, `linux-image-generic`, `linux-objects or linux-objects-nvidia`, `linux-modules`, `linux-header`, `linux-signatures or linux-signatures-nvidia`
 
 ## Common dependencies after a fresh install
+
 `gcc g++ git tldr curl wget ca-certificates zip unzip tree locate gnupg2 gpg clang clangd llvm`
 
 # Python Dependencies
+
 `liblzma-dev liblz-dev zlib1g-dev libncurses-dev libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev libsqlite3-dev libbz2-dev`
 
 # Bash aliases (~/.bashrc.d/aliases.sh or ~/.bash_aliases)
