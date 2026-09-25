@@ -249,7 +249,7 @@ night-light-slider-updated@vilsbeg.codeberg.org
   Description: Kiyui's Night Light Slider updated for GNOME 45. Provides a slider in the quick settings menu to control the night light temperature. Some nice options can be set in the extension preferences menu. Original implementation: https://codeberg.org/kiyui/gnome-shell-night-light-slider-extension/
   Path: /home/raj/.local/share/gnome-shell/extensions/night-light-slider-updated@vilsbeg.codeberg.org
   URL: https://codeberg.org/vilsbeg/night-light-slider-updated
-  Version: 16
+  Version: 17
   Enabled: Yes
   State: ACTIVE
 
@@ -598,7 +598,7 @@ dash-to-dock@micxgx.gmail.com
   Path: /home/raj/.local/share/gnome-shell/extensions/dash-to-dock@micxgx.gmail.com
   URL: https://micheleg.github.io/dash-to-dock/
   Original author: micxgx@gmail.com
-  Version: 105
+  Version: 109
   Enabled: Yes
   State: ACTIVE
 
@@ -623,7 +623,7 @@ dynamic-music-pill@andbal
   Description: An elegant, pill-shaped music player for your desktop. Features a smooth audio visualizer, scrolling text, and seamless integration with Dash-to-Dock and the Top Panel. Comes with a Pop-Up menu as well.
   Path: /home/raj/.local/share/gnome-shell/extensions/dynamic-music-pill@andbal
   URL: https://github.com/Andbal23/dynamic-music-pill
-  Version: 1.3.0 (50)
+  Version: 1.4.0 (51)
   Enabled: Yes
   State: ACTIVE
 
@@ -641,22 +641,27 @@ appindicatorsupport@rgcjonas.gmail.com
   Description: Adds AppIndicator, KStatusNotifierItem and legacy Tray icons support to the Shell
   Path: /home/raj/.local/share/gnome-shell/extensions/appindicatorsupport@rgcjonas.gmail.com
   URL: https://github.com/ubuntu/gnome-shell-extension-appindicator
-  Version: 64
+  Version: 66
   Enabled: Yes
   State: ACTIVE
 
 chronos@time-tracker.com
   Name: Chronos Time Tracker
-  Description: Time tracker tool
-Mange and track your time. Features:
-- tracking time
-- display customisation
-- log to file start/pause
-- optional pause of tracking on screen lock (hibernate/shutdown)
-- reset to particular time value
+  Description: Track your working time from the top panel: one click to start or pause, a running counter, and alarms that keep the day on track.
+
+Features:
+- Tracking — start/pause from the panel menu, cumulative counter shown as H:MM or H:MM:SS, restart to a preset value at any time
+- Break alarm — a notification after a chosen span of uninterrupted tracking, with a Postpone dialog
+- Start tracking reminder — a notification when the tracker stays paused inside your working hours, with Start, Postpone and Not today actions
+- Tracked time goal — a notification when the counter reaches your target, postponed by further tracked time rather than by the clock
+- Appearance — separate colors for the running and paused states, optional seconds in the indicator
+- Lock/suspend handling — optionally pause while the screen is locked; when disabled, time spent locked or suspended is recovered on resume
+- Logging — append every state change to ~/timeTrack.log, optionally capped to a number of lines
+- The counter may go negative, so you can count time owed down against a daily target
+- Localisation — English and Russian
   Path: /home/raj/.local/share/gnome-shell/extensions/chronos@time-tracker.com
   URL: https://github.com/0vvland/chronos
-  Version: 15
+  Version: 18
   Enabled: No
   State: INITIALIZED
 
@@ -732,7 +737,7 @@ emoji-copy@felipeftn
 It is a fork of Emoji Selector.
   Path: /home/raj/.local/share/gnome-shell/extensions/emoji-copy@felipeftn
   URL: https://github.com/felipeftn/emoji-copy
-  Version: 38
+  Version: 39
   Enabled: Yes
   State: ACTIVE
 
@@ -773,22 +778,23 @@ Devices such as Logitech Lightspeed keyboards and mice that report battery level
 GATT Battery Service:
 Devices that expose one or more battery levels via the standard GATT Battery Service (BAS), such as ZMK-based split keyboards.
 
-Socket Mode:
-Provides multiple battery levels and advanced device controls—such as Active Noise Cancellation (ANC) and other supported features using a custom socket-based protocol. Supported devices:
- - AirPods
- - Beats earbuds / headphones
- - Sony earbuds / headphones
- - Nothing earbuds / headphones
- - CMF earbuds / headphones
+BudsLink Companion Mode:
+Provides multiple battery levels and advanced device controls—such as Active Noise Cancellation (ANC) using Flatpak BudsLink app as backend running in background. Supported devices:
+ - AirPods / Beats 
+ - Sony 
+ - Nothing / CMF
  - Samsung Galaxy Buds
- Google Pixel Buds
- Google Fast Pair Devices
+ - Google Pixel Buds
+ - Bose
+ - Redmi / Xiaomi
+ - Sennheiser
+ - Google Fast Pair Devices
 
-Disclaimer
-This project is an independent effort and is not affiliated with, endorsed by, or sponsored by Apple, Sony, Samsung, Google, or Nothing. All product and company names are trademarks™ or registered® trademarks of their respective holders and are used for identification purposes only.
+Disclaimer:
+This project is an independent effort and is not affiliated with, endorsed by, or sponsored by Apple, Sony, Samsung, Google, Nothing, Bose, Redmi / Xiaomi or Sennheiser. All product and company names are trademarks™ or registered® trademarks of their respective holders and are used for identification purposes only.
   Path: /home/raj/.local/share/gnome-shell/extensions/Bluetooth-Battery-Meter@maniacx.github.com
   URL: https://github.com/maniacx/Bluetooth-Battery-Meter
-  Version: 46
+  Version: 49
   Enabled: Yes
   State: ACTIVE
 
@@ -825,7 +831,7 @@ launch-new-instance@gnome-shell-extensions.gcampax.github.com
 This extension is part of Classic Mode and is officially supported by GNOME. Please do not report bugs using the form below, use GNOME's GitLab instance instead.
   Path: /usr/share/gnome-shell/extensions/launch-new-instance@gnome-shell-extensions.gcampax.github.com
   URL: https://gitlab.gnome.org/GNOME/gnome-shell-extensions
-  Version: 50.3
+  Version: 50.4
   Enabled: Yes
   State: ACTIVE
 
@@ -835,6 +841,6 @@ window-list@gnome-shell-extensions.gcampax.github.com
 This extension is part of Classic Mode and is officially supported by GNOME. Please do not report bugs using the form below, use GNOME's GitLab instance instead.
   Path: /usr/share/gnome-shell/extensions/window-list@gnome-shell-extensions.gcampax.github.com
   URL: https://gitlab.gnome.org/GNOME/gnome-shell-extensions
-  Version: 50.3
+  Version: 50.4
   Enabled: No
   State: INITIALIZED

@@ -5,6 +5,7 @@ com.mattjakeman.ExtensionManager
 com.notesnook.Notesnook
 de.wwwtech.gitte
 io.github.flattool.Warehouse
+io.github.quantum_mutnauq.pictures_converter_gtk
 io.github.realmazharhussain.GdmSettings
 io.github.tanaybhomia.Whisp
 io.github.vikdevelop.SaveDesktop

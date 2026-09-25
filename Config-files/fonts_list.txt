@@ -1,4 +1,5 @@
 /usr/local/share/fonts/opentype:
+acumin-pro
 CodeNewRoman
 
 /usr/local/share/fonts/truetype:
@@ -19,7 +20,6 @@ Mariupol
 NerdFontsSymbolsOnly
 Plus_Jakarta_Sans
 RobotoMono
-Sono
 SpaceMono
 
 /usr/share/fonts/:
