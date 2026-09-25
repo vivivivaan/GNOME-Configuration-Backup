@@ -376,7 +376,7 @@ enable-hot-corners=false
 font-antialiasing='rgba'
 font-name='Acumin Pro 10'
 gtk-enable-primary-paste=true
-gtk-theme='MacTahoe-Dark-alt-blue'
+gtk-theme='MacTahoe-Dark-alt-nord'
 icon-theme='Mignon-pastel-dark'
 locate-pointer=true
 monospace-font-name='JetBrainsMono Nerd Font Mono 10'
@@ -753,7 +753,7 @@ side-panel-size=200
 width=1011
 
 [org/gnome/gnome-system-monitor]
-current-tab='processes'
+current-tab='resources'
 maximized=false
 resources-cpu-expanded=true
 resources-disk-expanded=true
@@ -940,7 +940,7 @@ sizing-mode='free'
 window-height=937
 window-maximized=false
 window-width=1717
-zoom=0.86371527777777779
+zoom=0.74501522819546429
 
 [org/gnome/pomodoro/plugins/actions]
 actions-list=@as []
@@ -2043,7 +2043,7 @@ applications=['org.gnome.tweaks.desktop', 'com.mattjakeman.ExtensionManager.desk
 position=0
 
 [org/gnome/shell/extensions/user-theme]
-name='MacTahoe-Dark-alt-blue'
+name='MacTahoe-Dark-alt-nord'
 
 [org/gnome/shell/extensions/vertical-app-grid]
 app-sorting='usage'
