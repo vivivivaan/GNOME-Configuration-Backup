@@ -2,6 +2,7 @@
 CodeNewRoman
 
 /usr/local/share/fonts/truetype:
+acumin-pro
 Albert_Sans
 Almarai
 arial
@@ -19,7 +20,6 @@ Mariupol
 NerdFontsSymbolsOnly
 Plus_Jakarta_Sans
 RobotoMono
-Sono
 SpaceMono
 
 /usr/share/fonts/:
