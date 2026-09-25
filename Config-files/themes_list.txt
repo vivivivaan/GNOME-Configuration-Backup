@@ -25,6 +25,12 @@ WhiteSur-cursors
 Win11OSX
 
 /home/raj/.local/share/themes/:
+MacTahoe-Dark-alt-blue
+MacTahoe-Dark-alt-blue-hdpi
+MacTahoe-Dark-alt-blue-xhdpi
+MacTahoe-Dark-solid-alt-blue
+MacTahoe-Dark-solid-alt-blue-hdpi
+MacTahoe-Dark-solid-alt-blue-xhdpi
 MacTahoe-Light-alt-blue-nord
 MacTahoe-Light-alt-blue-nord-hdpi
 MacTahoe-Light-alt-blue-nord-xhdpi
@@ -42,6 +48,12 @@ MacTahoe-Light-solid-alt-nord-xhdpi
 
 /usr/local/share/themes/:
 default-pure
+MacTahoe-Dark-alt-blue
+MacTahoe-Dark-alt-blue-hdpi
+MacTahoe-Dark-alt-blue-xhdpi
+MacTahoe-Dark-solid-alt-blue
+MacTahoe-Dark-solid-alt-blue-hdpi
+MacTahoe-Dark-solid-alt-blue-xhdpi
 MacTahoe-Light-alt-blue-nord
 MacTahoe-Light-alt-blue-nord-hdpi
 MacTahoe-Light-alt-blue-nord-xhdpi
