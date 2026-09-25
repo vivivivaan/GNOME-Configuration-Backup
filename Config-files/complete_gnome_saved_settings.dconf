@@ -214,7 +214,7 @@ panel-id='world'
 size=(689, 549)
 
 [org/gnome/control-center]
-last-panel='background'
+last-panel='wifi'
 window-state=(1129, 793, false)
 
 [org/gnome/deja-dup]
