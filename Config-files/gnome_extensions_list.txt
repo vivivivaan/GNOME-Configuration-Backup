@@ -647,16 +647,21 @@ appindicatorsupport@rgcjonas.gmail.com
 
 chronos@time-tracker.com
   Name: Chronos Time Tracker
-  Description: Time tracker tool
-Mange and track your time. Features:
-- tracking time
-- display customisation
-- log to file start/pause
-- optional pause of tracking on screen lock (hibernate/shutdown)
-- reset to particular time value
+  Description: Track your working time from the top panel: one click to start or pause, a running counter, and alarms that keep the day on track.
+
+Features:
+- Tracking — start/pause from the panel menu, cumulative counter shown as H:MM or H:MM:SS, restart to a preset value at any time
+- Break alarm — a notification after a chosen span of uninterrupted tracking, with a Postpone dialog
+- Start tracking reminder — a notification when the tracker stays paused inside your working hours, with Start, Postpone and Not today actions
+- Tracked time goal — a notification when the counter reaches your target, postponed by further tracked time rather than by the clock
+- Appearance — separate colors for the running and paused states, optional seconds in the indicator
+- Lock/suspend handling — optionally pause while the screen is locked; when disabled, time spent locked or suspended is recovered on resume
+- Logging — append every state change to ~/timeTrack.log, optionally capped to a number of lines
+- The counter may go negative, so you can count time owed down against a daily target
+- Localisation — English and Russian
   Path: /home/raj/.local/share/gnome-shell/extensions/chronos@time-tracker.com
   URL: https://github.com/0vvland/chronos
-  Version: 15
+  Version: 18
   Enabled: No
   State: INITIALIZED
 
