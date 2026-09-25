@@ -1,8 +1,8 @@
 /usr/local/share/fonts/opentype:
+acumin-pro
 CodeNewRoman
 
 /usr/local/share/fonts/truetype:
-acumin-pro
 Albert_Sans
 Almarai
 arial
