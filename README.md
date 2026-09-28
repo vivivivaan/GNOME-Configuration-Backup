@@ -66,15 +66,24 @@ sudo dnf install spotify-client
 
 ### /usr/share/local/themes/
 
-`sudo ./install.sh -d /usr/local/share/themes/ -c light -a alt -t blue -s nord -l --shell -h smaller -ns -normal`
+- Quickmenu Shadow
+  - `sudo ./install.sh -d /usr/local/share/themes/ -c light -a alt -t blue -s nord -l --shell -h smaller -ns -normal`
+- Without Quickmenu Shadow
+  - `sudo ./install.sh -d /usr/local/share/themes/ -c light -a alt -t blue -s nord -l --shell -h smaller -normal`
 
 ### /usr/share/themes/
 
-`sudo ./install.sh -d /usr/share/themes/ -c light -a alt -t blue -s nord -l --shell -h smaller -ns -normal`
+- Quickmenu Shadow
+  - `sudo ./install.sh -d /usr/share/themes/ -c light -a alt -t blue -s nord -l --shell -h smaller -ns -normal`
+- Without Quickmenu Shadow
+  - `sudo ./install.sh -d /usr/share/themes/ -c light -a alt -t blue -s nord -l --shell -h smaller -normal`
 
 ### ~/.local/share/themes/
 
-`./install.sh -d ~/.local/share/themes/ -c light -a alt -t blue -s nord -l --shell -h smaller -ns -normal`
+- Quickmenu Shadow
+  - `sudo ./install.sh -d ~/.local/share/themes/ -c light -a alt -t blue -s nord -l --shell -h smaller -ns -normal`
+- Without Quickmenu Shadow
+  - `sudo ./install.sh -d ~/.local/share/themes/ -c light -a alt -t blue -s nord -l --shell -h smaller -normal`
 
 ### GDM Tweaks
 
