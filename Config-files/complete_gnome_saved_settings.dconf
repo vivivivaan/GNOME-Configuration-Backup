@@ -33,8 +33,8 @@ window-height=393
 window-width=525
 
 [ca/desrt/dconf-editor]
-saved-pathbar-path="/org/gnome/Ptyxis/Profiles/'f2934b33b5178457f29b4e8068d611e4'/opacity"
-saved-view='/'
+saved-pathbar-path='/org/gnome/shell/extensions/'
+saved-view='/org/gnome/shell/extensions/'
 show-warning=false
 window-height=685
 window-is-maximized=true
@@ -103,6 +103,9 @@ subtitle-font-desc='Mariupol 11'
 subtitles-enabled=true
 volume=1.0
 
+[desktop/ibus/panel/emoji]
+favorites=['з', '—']
+
 [org/fedorahosted/background-logo-extension]
 logo-always-visible=true
 logo-border=uint32 100
@@ -121,6 +124,9 @@ recent-characters=['👻', '🤷\u200d♂️', '🧑\u200d🎤', '🤗', '🫂',
 [org/gnome/Connections]
 first-run=false
 window-size=(1024, 768)
+
+[org/gnome/GWeather4]
+temperature-unit='centigrade'
 
 [org/gnome/Geary]
 migrated-config=true
@@ -332,8 +338,8 @@ color-shading-type='solid'
 picture-options='zoom'
 picture-uri='file:///home/raj/.config/background'
 picture-uri-dark='file:///home/raj/.config/background'
-primary-color='#26a269'
-secondary-color='#000000'
+primary-color='#000000000000'
+secondary-color='#000000000000'
 
 [org/gnome/desktop/break-reminders]
 selected-breaks=@as []
@@ -369,7 +375,7 @@ clock-show-weekday=true
 color-scheme='prefer-dark'
 cursor-blink=true
 cursor-blink-time=676
-cursor-theme='MacOS-Pixel-Light'
+cursor-theme='MacOS-Pixel-Dark'
 document-font-name='Arial 10'
 enable-animations=true
 enable-hot-corners=false
@@ -577,9 +583,9 @@ history-enabled=false
 [org/gnome/desktop/screensaver]
 color-shading-type='solid'
 picture-options='zoom'
-picture-uri='file:///usr/share/backgrounds/gnome/glass-chip-l.jxl'
-primary-color='#26a269'
-secondary-color='#000000'
+picture-uri='file:///home/raj/.local/share/backgrounds/2026-09-28-01-54-14-kellen-riggin-LlExFMpCYwY-unsplash.jpg'
+primary-color='#000000000000'
+secondary-color='#000000000000'
 
 [org/gnome/desktop/search-providers]
 sort-order=['org.gnome.Settings.desktop', 'org.gnome.Contacts.desktop', 'org.gnome.Nautilus.desktop']
@@ -893,14 +899,14 @@ use-tree-view=true
 [org/gnome/nautilus/preferences]
 click-policy='double'
 date-time-format='detailed'
-default-folder-viewer='icon-view'
+default-folder-viewer='list-view'
 migrated-gtk-settings=true
 search-filter-time-type='last_modified'
 show-create-link=true
 show-delete-permanently=false
 
 [org/gnome/nautilus/window-state]
-initial-size=(1075, 755)
+initial-size=(1206, 983)
 initial-size-file-chooser=(1232, 774)
 maximized=false
 
@@ -940,7 +946,7 @@ sizing-mode='free'
 window-height=937
 window-maximized=false
 window-width=1717
-zoom=0.74501522819546429
+zoom=0.54497544162541522
 
 [org/gnome/pomodoro/plugins/actions]
 actions-list=@as []
@@ -976,6 +982,9 @@ last-folder-path='/home/earth'
 [org/gnome/portal/filechooser/app.zen_browser.zen]
 last-folder-path='/home/earth/Downloads'
 
+[org/gnome/portal/filechooser/co.hyprlab.Hylki]
+last-folder-path='/home/raj/Documents'
+
 [org/gnome/portal/filechooser/code]
 last-folder-path='/home/raj/GNOME-Configuration-Backup'
 
@@ -1001,7 +1010,7 @@ last-folder-path='/home/raj/Downloads'
 last-folder-path='/home/raj/Documents/Logseq-Notes'
 
 [org/gnome/portal/filechooser/com.microsoft.VSCode]
-last-folder-path='/home/raj/Workspace'
+last-folder-path='/home/raj/GNOME-Configuration-Backup'
 
 [org/gnome/portal/filechooser/com.notesnook.Notesnook]
 last-folder-path='/home/raj'
@@ -1019,7 +1028,7 @@ last-folder-path='/home/raj/GNOME-Configuration-Backup'
 last-folder-path='/home/earth/UI/MacTahoe-gtk-theme'
 
 [org/gnome/portal/filechooser/de.wwwtech.gitte]
-last-folder-path='/home/raj/UI'
+last-folder-path='/home/raj/UI/MacTahoe-gtk-theme'
 
 [org/gnome/portal/filechooser/io.github.nate_xyz.Resonance]
 last-folder-path='/home/earth/Downloads/김민석 (멜로망스) & 웬디 (WENDY) - 이 사랑 통역 되나요_ (Soundtrack from the Netflix Series)/김민석 (멜로망스) & 웬디 (WENDY) - 이 사랑 통역 되나요? (Soundtrack from the Netflix Series)'
@@ -1066,17 +1075,20 @@ last-folder-path='/home/earth/Downloads'
 [org/gnome/portal/filechooser/org.fedoraproject.MediaWriter]
 last-folder-path='/home/earth/Downloads'
 
+[org/gnome/portal/filechooser/org.freedownloadmanager.Manager]
+last-folder-path='/home/raj/Downloads'
+
 [org/gnome/portal/filechooser/org.gnome.Loupe]
 last-folder-path='/home/raj'
 
 [org/gnome/portal/filechooser/org.gnome.Nautilus]
-last-folder-path='/home/raj/Downloads'
+last-folder-path='/home/raj/Wallpapers/Mobile'
 
 [org/gnome/portal/filechooser/org.gnome.Papers]
 last-folder-path='/home/earth/Downloads/Data_from_2022_to_2024 /2024'
 
 [org/gnome/portal/filechooser/org.gnome.Settings]
-last-folder-path='/home/raj/Pictures/mypics/GPT_LLM_Ghibli'
+last-folder-path='/home/raj/Wallpapers'
 
 [org/gnome/portal/filechooser/org.gnome.TextEditor]
 last-folder-path='/home/raj/Documents/Obsidian Vault'
@@ -1225,8 +1237,8 @@ enabled-connections=@as []
 app-picker-layout=[{'d16e2496-eedd-4088-ba5f-c39f0c9fd16d': <{'position': <0>}>, 'b7d40dce-70ec-45ba-a9ce-2ef536596320': <{'position': <1>}>, 'org.gnome.clocks.desktop': <{'position': <2>}>, 'f720d708-b404-45e1-8674-5f1222817691': <{'position': <3>}>, 'de.wwwtech.gitte.desktop': <{'position': <4>}>, 'com.logseq.Logseq.desktop': <{'position': <5>}>, 'io.gitlab.ilshat_apps.manuscript.desktop': <{'position': <6>}>, '54c8bdb9-745d-4b5c-a532-de342a780c2e': <{'position': <7>}>, 'com.notesnook.Notesnook.desktop': <{'position': <8>}>, '78c5c448-9755-4b1f-b921-1fa5935ead6b': <{'position': <9>}>, 'io.github.quantum_mutnauq.pictures_converter_gtk.desktop': <{'position': <10>}>, 'com.github.marhkb.Pods.desktop': <{'position': <11>}>, 'io.github.vikdevelop.SaveDesktop.desktop': <{'position': <12>}>, 'spotify.desktop': <{'position': <13>}>, '95876710-5963-4eb5-8152-6b9f5a9b7f6e': <{'position': <14>}>, 'System': <{'position': <15>}>, 'org.gnome.TextEditor.desktop': <{'position': <16>}>, 'io.github.flattool.Warehouse.desktop': <{'position': <17>}>, 'windscribe.desktop': <{'position': <18>}>}]
 command-history=['r', 'echo $XDG_SESSION_TYPE', 'lg']
 disable-user-extensions=false
-disabled-extensions=['notification-timeout@chlumskyvaclav.gmail.com', 'monitor@astraext.github.io', 'just_shows_memory_usage@troizet.github.com', 'snapd-prompting@canonical.com', 'applications-overview-tooltip@RaphaelRochet', 'hidetopbar@mathieu.bidon.ca', 'all-in-one-clipboard@NiffirgkcaJ.github.com', 'volume_scroller@francislavoie.github.io', 'aztaskbar@aztaskbar.gitlab.com', 'clipboard-indicator@tudmotu.com', 'mediacontrols@cliffniff.github.com', 'dropbeat@romanlefler.com', 'kiwi@kemma', 'pomodoro@zhuravkovigor.dev', 'focuslock@kavinda', 'clipmaster@gnome.extension', 'appgridbuttonintoppanel@raphaelian', 'timeFromStart@pic16f877ccs.github.com', 'mute-unmute@mcast.gnomext.com', '1440@ravener.github.com', 'vertical-app-grid@lublst.github.io', 'app-grid-tuner@m-lab', 'ding@rastersoft.com', 'dash2dock-lite@icedman.github.com', 'Rounded_Corners@lennart-k', 'day-progress@arcaege.github.io', 'screenshort-cut@pauloimon', 'reboottouefi@ubaygd.com', 'pomodoro@youcefzaid.github.io', 'chronos@time-tracker.com', 'quickshutdownbutton@feelfree2useit.outlook.com', 'dash-to-panel@jderose9.github.com', 'simple-taskbar@sultech', 'background-logo@fedorahosted.org', 'apps-menu@gnome-shell-extensions.gcampax.github.com', 'mirror@distro.com', 'brightness-step@sholehbaktiabadi.github.io', 'logout-in-power-menu@codegod100.github.io', 'one-thing@github.com', 'notedock@joquers.github.io', 'syncthing@gnome.2nv2u.com', 'notes-with-history@grizzlysmit.smit.id.au']
-enabled-extensions=['launch-new-instance@gnome-shell-extensions.gcampax.github.com', 'places-menu@gnome-shell-extensions.gcampax.github.com', 'custom-hot-corners-extended@G-dH.github.com', 'just-perfection-desktop@just-perfection', 'Vitals@CoreCoding.com', 'update-extension@purejava.org', 'tweaks-system-menu@extensions.gnome-shell.fifi.org', 'transparent-window-moving@noobsai.github.com', 'tilingshell@ferrarodomenico.com', 'osd-volume-number@deminder', 'drive-menu@gnome-shell-extensions.gcampax.github.com', 'sound-percentage@subashghimire.info.np', 'quick-settings-tweaks@qwreey', 'show-desktop-button@amivaleo', 'open-desktop-location@laura.media', 'apt-update-indicator@franglais125.gmail.com', 'updateindicator@aegirxx.googlemail.com', 'new-apt-update-indicator@hamburgerjungejr', 'systemd-offline-update@swsnr.de', 'disconnect-wifi@kgshank.net', 'media-progress@krypion17', 'gnome-shell-trash-extension', 'mprisLabel@moon-0xff.github.com', 'gspotify@sogi.is-a.dev', 'apps@github.com.howbea', 'egg-timer@gregorriegler.com', 'custom-osd@neuromorph', 'quicknotes@dsabolo.github.io', 'right-click-next@derVedro', 'fq@megh', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'bettervolume@tudmotu.com', 'floating-mini-panel@ghi59.github.com', 'adaptive-brightness@dmy3k.github.io', 'rounded-window-corners@yilozt', 'batteryIcon@slim8916.github.io', 'gnome-ui-tune@itstime.tech', 'cronomix@zagortenay333', 'battery-indicator-icon@Deminder', 'BringOutSubmenuOfPowerOffLogoutButton@pratap.fastmail.fm', 'night-light-scroll@fthx', 'notification-banner-reloaded@marcinjakubowski.github.com', 'night-light-slider-updated@vilsbeg.codeberg.org', 'clipflow-pro@nickotmazgin.github.io', 'AlphabeticalAppGrid@stuarthayhurst', 'no-titlebar-when-maximized@alec.ninja', 'status-icons@gnome-shell-extensions.gcampax.github.com', 'simple-timer@majortomvr.github.com', 'bottom-dash-panel@fthx', 'add-to-desktop@tommimon.github.com', 'panelcolor@itsfernn', 'wellbeingtoggle@m51.io', 'blur-my-shell@aunetx', 'rounded-window-corners@fxgn', 'dynamic-music-pill@andbal', 'pomodoro-timer@Oguzhankokulu.github.com', 'hide-keyboard-layout@sitnik.ru', 'restartto@tiagoporsch.github.io', 'mediaseekbar@carlosjdelgado', 'slider-percentages@imdarktom', 'trayIconsReloaded@selfmade.pl', 'dash-to-dock@micxgx.gmail.com', 'avatar-quick-settings@github.leginreklaw', 'emoji-copy@felipeftn', 'copyous@boerdereinar.dev', 'Bluetooth-Battery-Meter@maniacx.github.com', 'bluetooth-battery@michalw.github.com', 'sticky-notes-integration@joaocandre', 'active-app-indicator@morhenac', 'appindicatorsupport@rgcjonas.gmail.com', 'panelnote-extended@qomarhsn.com', 'docker@stickman_0x00.com', 'modernclock@gnome-port']
+disabled-extensions=['notification-timeout@chlumskyvaclav.gmail.com', 'monitor@astraext.github.io', 'just_shows_memory_usage@troizet.github.com', 'snapd-prompting@canonical.com', 'applications-overview-tooltip@RaphaelRochet', 'hidetopbar@mathieu.bidon.ca', 'volume_scroller@francislavoie.github.io', 'aztaskbar@aztaskbar.gitlab.com', 'clipboard-indicator@tudmotu.com', 'mediacontrols@cliffniff.github.com', 'dropbeat@romanlefler.com', 'kiwi@kemma', 'pomodoro@zhuravkovigor.dev', 'focuslock@kavinda', 'clipmaster@gnome.extension', 'appgridbuttonintoppanel@raphaelian', 'timeFromStart@pic16f877ccs.github.com', 'mute-unmute@mcast.gnomext.com', '1440@ravener.github.com', 'vertical-app-grid@lublst.github.io', 'app-grid-tuner@m-lab', 'ding@rastersoft.com', 'dash2dock-lite@icedman.github.com', 'Rounded_Corners@lennart-k', 'day-progress@arcaege.github.io', 'reboottouefi@ubaygd.com', 'pomodoro@youcefzaid.github.io', 'chronos@time-tracker.com', 'quickshutdownbutton@feelfree2useit.outlook.com', 'dash-to-panel@jderose9.github.com', 'simple-taskbar@sultech', 'background-logo@fedorahosted.org', 'mirror@distro.com', 'brightness-step@sholehbaktiabadi.github.io', 'logout-in-power-menu@codegod100.github.io', 'one-thing@github.com', 'notedock@joquers.github.io', 'syncthing@gnome.2nv2u.com', 'notes-with-history@grizzlysmit.smit.id.au', 'awesome-media-controller@devduo-org']
+enabled-extensions=['launch-new-instance@gnome-shell-extensions.gcampax.github.com', 'places-menu@gnome-shell-extensions.gcampax.github.com', 'just-perfection-desktop@just-perfection', 'Vitals@CoreCoding.com', 'update-extension@purejava.org', 'tweaks-system-menu@extensions.gnome-shell.fifi.org', 'transparent-window-moving@noobsai.github.com', 'tilingshell@ferrarodomenico.com', 'osd-volume-number@deminder', 'drive-menu@gnome-shell-extensions.gcampax.github.com', 'sound-percentage@subashghimire.info.np', 'quick-settings-tweaks@qwreey', 'show-desktop-button@amivaleo', 'open-desktop-location@laura.media', 'apt-update-indicator@franglais125.gmail.com', 'updateindicator@aegirxx.googlemail.com', 'new-apt-update-indicator@hamburgerjungejr', 'systemd-offline-update@swsnr.de', 'disconnect-wifi@kgshank.net', 'media-progress@krypion17', 'gnome-shell-trash-extension', 'mprisLabel@moon-0xff.github.com', 'gspotify@sogi.is-a.dev', 'apps@github.com.howbea', 'egg-timer@gregorriegler.com', 'custom-osd@neuromorph', 'quicknotes@dsabolo.github.io', 'right-click-next@derVedro', 'fq@megh', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'bettervolume@tudmotu.com', 'floating-mini-panel@ghi59.github.com', 'adaptive-brightness@dmy3k.github.io', 'rounded-window-corners@yilozt', 'batteryIcon@slim8916.github.io', 'gnome-ui-tune@itstime.tech', 'cronomix@zagortenay333', 'battery-indicator-icon@Deminder', 'BringOutSubmenuOfPowerOffLogoutButton@pratap.fastmail.fm', 'night-light-scroll@fthx', 'notification-banner-reloaded@marcinjakubowski.github.com', 'night-light-slider-updated@vilsbeg.codeberg.org', 'clipflow-pro@nickotmazgin.github.io', 'AlphabeticalAppGrid@stuarthayhurst', 'no-titlebar-when-maximized@alec.ninja', 'status-icons@gnome-shell-extensions.gcampax.github.com', 'simple-timer@majortomvr.github.com', 'bottom-dash-panel@fthx', 'add-to-desktop@tommimon.github.com', 'panelcolor@itsfernn', 'wellbeingtoggle@m51.io', 'blur-my-shell@aunetx', 'rounded-window-corners@fxgn', 'dynamic-music-pill@andbal', 'pomodoro-timer@Oguzhankokulu.github.com', 'hide-keyboard-layout@sitnik.ru', 'restartto@tiagoporsch.github.io', 'mediaseekbar@carlosjdelgado', 'slider-percentages@imdarktom', 'trayIconsReloaded@selfmade.pl', 'dash-to-dock@micxgx.gmail.com', 'avatar-quick-settings@github.leginreklaw', 'copyous@boerdereinar.dev', 'Bluetooth-Battery-Meter@maniacx.github.com', 'bluetooth-battery@michalw.github.com', 'sticky-notes-integration@joaocandre', 'active-app-indicator@morhenac', 'appindicatorsupport@rgcjonas.gmail.com', 'docker@stickman_0x00.com', 'modernclock@gnome-port', 'emoji-copy@felipeftn', 'custom-hot-corners-extended@G-dH.github.com', 'wetter@mlkonrad.github.com', 'all-in-one-clipboard@NiffirgkcaJ.github.com', 'screenshort-cut@pauloimon', 'panelnote-extended@qomarhsn.com', 'apps-menu@gnome-shell-extensions.gcampax.github.com']
 favorite-apps=['net.nokyan.Resources.desktop', 'org.telegram.desktop.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.Ptyxis.desktop', 'com.microsoft.VSCode.desktop', 'google-chrome.desktop', 'brave-origin.desktop', 'helium.desktop', 'chrome-hnpfjngllnobngcgfapefoaidbinmjnm-Default.desktop', 'com.bitwarden.desktop.desktop', 'io.github.tanaybhomia.Whisp.desktop', 'libreoffice-writer.desktop', 'ticktick.desktop']
 last-selected-power-profile='performance'
 looking-glass-history=['ps -o pid,rss,cmd -C gnome-shell']
@@ -1247,13 +1259,16 @@ popup-in-quick-settings=false
 swap-icon-text=false
 
 [org/gnome/shell/extensions/all-in-one-clipboard]
-clipboard-history-max-items=200
+clipboard-history-max-items=250
+emoji-grid-limit-columns=false
 enable-auto-paste=true
 enable-recents-tab=true
 gif-cache-limit-mb=250
 gif-provider='none'
 hide-panel-icon=false
+recently-used-advanced-section-overrides='{"version":1,"sections":{"clipboard-pinned":{"enabled":true,"policy":{"globalVisibleItems":5,"listVisibleItems":5,"gridVisibleItems":5,"globalWindowRows":5,"listWindowRows":5,"gridWindowRows":5,"gridWindowColumns":5,"defaultLimitMode":"unlimited","historyLimitMode":"unlimited","searchLimitMode":"unlimited","displayMode":"scroll-window","listDisplayMode":"scroll-window","gridDisplayMode":"scroll-window","customDisplayByView":false,"customLimitByContext":false,"customVisibleByView":false,"customWindowByView":false,"unlimitedSafetyCap":1000}}}}'
 shortcut-toggle-main=['<Super>c']
+unpin-on-paste=false
 
 [org/gnome/shell/extensions/alphabetical-app-grid]
 sort-folder-contents=true
@@ -1305,6 +1320,11 @@ sensors-indicators-order='["icon","value"]'
 storage-header-show=false
 storage-indicators-order='["icon","bar","percentage","value","free","IO bar","IO graph","IO speed"]'
 storage-main='eui.002538bc11b6e85b-part6'
+
+[org/gnome/shell/extensions/awesome-media-controller]
+accent-mode='adaptive'
+panel-position='right'
+theme-preset='crimson'
 
 [org/gnome/shell/extensions/aztaskbar]
 hide-dash=false
@@ -1702,7 +1722,7 @@ panel-pill-height=28
 panel-pill-width=250
 pill-dynamic-width=true
 pill-enable-word-level=true
-playback-history='[{"title":"Manchala","artist":"Vishal-Shekhar","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_e9b56eea27dc0d1f0a959cc7672fdc1c.jpg","time":1790542500376,"avgColor":{"r":162,"g":114,"b":150}},{"title":"Kaafi Hai Na (From \\"Musafir Cafe\\")","artist":"Garvit - Priyansh","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_399535a659a4814a2a0364ed01361050.jpg","time":1790542497580,"avgColor":{"r":77,"g":77,"b":73}},{"title":"Saajna (Unplugged)","artist":"Falak Shabbir","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_05d33cc5562f052cabc92f36a6138945.jpg","time":1790542471708,"avgColor":{"r":30,"g":45,"b":64}},{"title":"Darmiyaan","artist":"Shafqat Amanat Ali","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_1f9532daa40adf3e262bcfded7cde22f.jpg","time":1790542462866,"avgColor":{"r":149,"g":99,"b":63}},{"title":"Humnava (From \\"Hamari Adhuri Kahani\\")","artist":"Mithoon","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_c5354a9174a1d63092a68fe5d384912c.jpg","time":1790542414470,"avgColor":{"r":139,"g":117,"b":106}},{"title":"Saiyyan","artist":"Kailash Kher","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_aebcc2f0b9eeaeb050bf368fc959d2e3.jpg","time":1790542375687,"avgColor":{"r":75,"g":71,"b":75}},{"title":"Aas Paas Khuda (Unplugged)","artist":"Vishal-Shekhar","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_f576459991a636d286c527dee12ff113.jpg","time":1790542316502,"avgColor":{"r":172,"g":113,"b":79}},{"title":"Tera Woh Pyar (Nawazishein Karam)","artist":"Momina Mustehsan","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_741d5a31dee5e8dc83546b7db4148ab6.jpg","time":1790542290850,"avgColor":{"r":62,"g":20,"b":19}},{"title":"O Yaara","artist":"Abdul Hannan","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_35afee0fc5c990dd3c2bd942b8ec501c.jpg","time":1790542271136,"avgColor":{"r":77,"g":49,"b":44}},{"title":"O Sanam","artist":"Akhil Sachdeva","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_11a7302dc8ba8b82ac40e5dbe1a33171.jpg","time":1790542261898,"avgColor":{"r":207,"g":171,"b":139}},{"title":"Kahin To","artist":"Rashid Ali","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_84f592a6e1453e52dd5a8a79d605334a.jpg","time":1790542256836,"avgColor":{"r":169,"g":129,"b":58}},{"title":"Teri Fariyad (From \\"Tum Bin 2\\")","artist":"Rekha Bhardwaj","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_3346ea4918008e32b2e6a540d503fc1c.jpg","time":1790542222625,"avgColor":{"r":180,"g":167,"b":164}},{"title":"Zehnaseeb","artist":"Vishal-Shekhar","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_b67ed89cf6068dc2116d88f60a672fde.jpg","time":1790542221432,"avgColor":{"r":162,"g":114,"b":150}},{"title":"Pehli Dafa","artist":"Atif Aslam","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_a74a081af9dbb00252ff3e7341f78573.jpg","time":1790542215231,"avgColor":{"r":172,"g":135,"b":142}},{"title":"Maahiya","artist":"Akashdeep Sengupta","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_a5d1120e3bed1abdd541bc6420e1254b.jpg","time":1790542214284,"avgColor":{"r":106,"g":90,"b":89}},{"title":"Darmiyaan - Unplugged","artist":"Raghav Kaushik","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_4f54d6a7400754637af3328e417e698b.jpg","time":1790542206671,"avgColor":{"r":79,"g":37,"b":5}},{"title":"Naina (From \\"Khoobsurat\\")","artist":"Sona Mohapatra","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_ca99a39c51fc0ed48129c9baa4cffbfd.jpg","time":1790542205107,"avgColor":{"r":175,"g":176,"b":177}},{"title":"Arz Kiya Hai | Coke Studio Bharat","artist":"Anuv Jain","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_7a475b1ad760698ab381c2e59698a6e7.jpg","time":1790542188464,"avgColor":{"r":101,"g":97,"b":97}},{"title":"Ishq Bulaava","artist":"Vishal-Shekhar","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_dbb8eb51e4fe22e9a0b6789e279fcec1.jpg","time":1790542179310,"avgColor":{"r":162,"g":114,"b":150}},{"title":"Tera Chehra","artist":"Adnan Sami","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_d3fb58a65555a4ff0c5681bbfda38943.jpg","time":1790542177533,"avgColor":{"r":153,"g":93,"b":75}},{"title":"Tere Bin","artist":"Mithoon","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_2f359b8df8e47cffcbeae46577c68d09.jpg","time":1790542171252,"avgColor":{"r":141,"g":27,"b":27}},{"title":"Yeh Jo Halka Halka Suroor Hai - Extended Version","artist":"Farhan Saeed","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_2cd25712d33d93b7fbd86caab31657b3.jpg","time":1790542155257,"avgColor":{"r":147,"g":82,"b":64}},{"title":"Vaaroon","artist":"Anand Bhaskar","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_c69106ac7afa0960202132dc6ee2ffe7.jpg","time":1790542146858,"avgColor":{"r":88,"g":73,"b":63}},{"title":"Khat","artist":"Navjot Ahuja","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_9bf55fa0c8adc3f7e76e1ec95627756e.jpg","time":1790542134997,"avgColor":{"r":11,"g":29,"b":46}},{"title":"Bhare Naina","artist":"Vishal-Shekhar","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_c538ec9b510a5e114ee2c39319091824.jpg","time":1790542133239,"avgColor":{"r":83,"g":75,"b":88}},{"title":"Mileya Mileya","artist":"Sachin-Jigar","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_8d54200b62369ca1bb51491d8f5be347.jpg","time":1790542062878,"avgColor":{"r":151,"g":136,"b":88}},{"title":"Aise Kyun - Ghazal Version","artist":"Rekha Bhardwaj","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_588c4ba66ddf97ad58304258f25afb54.jpg","time":1790542057680,"avgColor":{"r":100,"g":146,"b":157}},{"title":"Phir Le Aya Dil","artist":"Pritam","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_57fd0b447910ca730a51c99ccaf4c0db.jpg","time":1790541940875,"avgColor":{"r":160,"g":164,"b":145}},{"title":"Tere Binaa","artist":"Mustafa Zahid","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_f21d42c900304523128760818e2d14a9.jpg","time":1790541625359,"avgColor":{"r":183,"g":185,"b":196}},{"title":"Aarzu (with Asim Azhar)","artist":"Asim Azhar","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_ceb9906fbcd71a73fcd4e1334c0e3eb9.jpg","time":1790541615294,"avgColor":{"r":181,"g":145,"b":112}}]'
+playback-history='[{"title":"Ajab Si (From \\"Om Shanti Om\\")","artist":"KK","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_f2119757e00998ba8f5044fb4a165d0d.jpg","time":1790680692390,"avgColor":{"r":183,"g":174,"b":161}},{"title":"Blank Space","artist":"Taylor Swift","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_2890ec0c14af1017a96e35e5bdf6ba50.jpg","time":1790680630759,"avgColor":{"r":183,"g":174,"b":161}},{"title":"Make You Mine","artist":"PUBLIC","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_46568bf14e03e107709876427fb26390.jpg","time":1790680228994,"avgColor":{"r":135,"g":158,"b":169}},{"title":"Dandelions","artist":"Ruth B.","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_3bf6f0ff2ea16ffa10957e3a5b1bf091.jpg","time":1790679888436,"avgColor":{"r":173,"g":173,"b":173}},{"title":"In Dino","artist":"Pritam","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_d7a5ae371c4813a01df75298b8284bde.jpg","time":1790679317679,"avgColor":{"r":142,"g":80,"b":70}},{"title":"Tere Paas Main - Female Version (From \\"Main Vaapas Aaunga\\")","artist":"A.R. Rahman","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_1aea2488c291631b43688e3315c14251.jpg","time":1790679295132,"avgColor":{"r":165,"g":143,"b":117}},{"title":"West Coast","artist":"Lana Del Rey","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_b935cd696348e7c65cc2e0397ef670eb.jpg","time":1790679294933,"avgColor":{"r":103,"g":103,"b":105}},{"title":"Dandelions","artist":"Ruth B.","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_3bf6f0ff2ea16ffa10957e3a5b1bf091.jpg","time":1790678977869,"avgColor":{"r":173,"g":173,"b":173}},{"title":"I Wanna Be Yours","artist":"Arctic Monkeys","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_0a405403e68a1a51a3c9e11b29a13826.jpg","time":1790678848410,"avgColor":{"r":28,"g":35,"b":37}},{"title":"Young And Beautiful","artist":"Lana Del Rey","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_30f35bb60739db2684e43872aa7ee73c.jpg","time":1790678794545,"avgColor":{"r":64,"g":88,"b":96}},{"title":"\u2060Tere Paas Main - Male Version (From \\"Main Vaapas Aaunga\\")","artist":"A.R. Rahman","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_ddc2adc6cc9a49abe22dba23b55376e0.jpg","time":1790678793414,"avgColor":{"r":165,"g":143,"b":117}},{"title":"Tere Paas Main - Female Version (From \\"Main Vaapas Aaunga\\")","artist":"A.R. Rahman","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_1aea2488c291631b43688e3315c14251.jpg","time":1790677331341,"avgColor":{"r":165,"g":143,"b":117}},{"title":"Dildaara (Stand By Me)","artist":"Vishal-Shekhar","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_1db17f2437411e3c50dfd25b221bba08.jpg","time":1790677105415,"avgColor":{"r":83,"g":75,"b":88}},{"title":"Tere Paas Main - Female Version (From \\"Main Vaapas Aaunga\\")","artist":"A.R. Rahman","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_1aea2488c291631b43688e3315c14251.jpg","time":1790676983768,"avgColor":{"r":165,"g":143,"b":117}},{"title":"Dildaara (Stand By Me)","artist":"Vishal-Shekhar","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_1db17f2437411e3c50dfd25b221bba08.jpg","time":1790676915465,"avgColor":{"r":83,"g":75,"b":88}},{"title":"With You","artist":"AP Dhillon","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_760c189e1b60df310cc6a1ac0501bec2.jpg","time":1790676761064,"avgColor":{"r":86,"g":110,"b":113}},{"title":"Tere Bin","artist":"Rabbi Shergill","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_06496b7fc9d8a53b155c460dc8de5dbd.jpg","time":1790676439374,"avgColor":{"r":151,"g":140,"b":129}},{"title":"AQOb4-n_VhDsopPGCGrg9_6XoMk83_p1ct1FmxMkRi3CslFJpCd8IsBSuNBApliNXD_bdttTQL8FDYpTz3AghIQaB8BI73Ze","artist":"","artUrl":"","time":1790666550776,"avgColor":{"r":180,"g":167,"b":164}},{"title":"Cine","artist":"No active media","artUrl":"","time":1790666534107,"avgColor":{"r":40,"g":40,"b":40}},{"title":"Cine","artist":"","artUrl":"","time":1790666531805,"avgColor":null},{"title":"Tera Mera Rishta Continues (Film Ballad) [From &quot;Awarapan 2&quot;] - Tera Mera Rishta Continues (Film Ballad) (From Awarapan 2) (320 kbps) - 26656.mp3","artist":"","artUrl":"","time":1790666519328,"avgColor":null},{"title":"Instructions to install AccurateGoldenGate Beta 2 Light/Dark - Google Drive","artist":"","artUrl":"","time":1790570895211,"avgColor":null},{"title":"Reddit - The heart of the internet","artist":"","artUrl":"","time":1790570164295,"avgColor":{"r":180,"g":167,"b":164}},{"title":"Teri Fariyad Extended Version (From \\"Tum Bin 2\\")","artist":"Rekha Bhardwaj","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_f864ed9d39daf5e30ff19867fc8ab624.jpg","time":1790569394173,"avgColor":{"r":180,"g":167,"b":164}},{"title":"r/popular","artist":"","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_4d2669077745aaa9e2ba92bf0d84fff4.jpg","time":1790569057782,"avgColor":{"r":120,"g":106,"b":72}},{"title":"A site is playing media","artist":"","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_60ee4f49031576e43ed0ea0ec07d29a4.jpg","time":1790566299257,"avgColor":{"r":86,"g":86,"b":86}},{"title":"Maana Ke Hum Yaar Nahin","artist":"Sachin-Jigar","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_81851f759675af46fbfebc3ca4bafbe8.jpg","time":1790563112509,"avgColor":{"r":127,"g":102,"b":87}},{"title":"Phir Mileinge Hum","artist":"Samar Jafri","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_35a03604c796e5d0425b8acf517b268a.jpg","time":1790563111105,"avgColor":{"r":114,"g":92,"b":65}},{"title":"Teri Fariyad Extended Version (From \\"Tum Bin 2\\")","artist":"Rekha Bhardwaj","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_f864ed9d39daf5e30ff19867fc8ab624.jpg","time":1790562756755,"avgColor":{"r":180,"g":167,"b":164}},{"title":"Tera Hua Sahiba (From \\"Musafir Cafe\\")","artist":"Garvit - Priyansh","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_c24cce101ecb1cfdea3cfaa15035677a.jpg","time":1790562713655,"avgColor":{"r":191,"g":184,"b":186}}]'
 popup-custom-width=360
 popup-show-album-title=false
 popup-show-player-selector=false
@@ -1730,7 +1750,7 @@ visualizer-bars=4
 visualizer-style=0
 
 [org/gnome/shell/extensions/emoji-copy]
-recently-used=['😻', '🥂', '😂', '🤔', '🙏', '💐', '🏆', '🖕', '❤️', '😍', '😭']
+recently-used=['🙌', '🗃️', '❕', '🖌️', '❌', '📁', '📂', '📋', '💻', '⛔', '🛠️']
 
 [org/gnome/shell/extensions/extension-1440]
 panel-position='center'
@@ -1763,6 +1783,7 @@ pressure-timeout=1000
 accent-color-icon=false
 alt-tab-icon-size=0
 animation=4
+clock-menu-position-offset=0
 dash=true
 dash-separator=true
 invert-calendar-column-items=true
@@ -1877,9 +1898,9 @@ intervals-per-set=5
 long-break-duration=600
 session-completed-intervals=0
 session-interval-type='work'
-session-remaining-time=752
+session-remaining-time=1200
 session-started=true
-session-state='paused'
+session-state='idle'
 short-break-duration=300
 show-timer-always=false
 suspend-inhibitor-enabled=false
@@ -2067,6 +2088,15 @@ show-voltage=false
 
 [org/gnome/shell/extensions/volume-scroller]
 invert-scroll=true
+
+[org/gnome/shell/extensions/wetter]
+actual-city=0
+city=[<(uint32 2, <('Hyderabad', 'VOHY', true, [(0.30455995447301049, 1.3695016922159813)], [(0.30325580954933529, 1.3696374264719091)])>)>, <(uint32 2, <('New York', 'KNYC', true, [(0.71180344078725644, -1.2909618758762367)], [(0.71059804659265924, -1.2916478949920254)])>)>, <(uint32 2, <('Leeds', 'EGNM', true, [(0.94015069622537639, -0.028797932657906436)], [(0.93898713757294927, -0.027634374005479377)])>)>, <(uint32 2, <('Manchester', 'EGCC', true, [(0.93113315593897483, -0.03985167876943968)], [(0.93375114981696627, -0.038688137570305148)])>)>, <(uint32 2, <('London', 'EGWU', false, [(0.89971722940307675, -0.007272211034407213)], [(0.89971722940307675, -0.007272211034407213)])>)>, <(uint32 2, <('Seoul', 'RKSS', false, [(0.65537113412387071, 2.2130774915288098)], [(0.65537113412387071, 2.2130774915288098)])>)>, <(uint32 2, <('San Francisco', 'KOAK', false, [(0.65832848982162007, -2.133408063190589)], [(0.65832848982162007, -2.133408063190589)])>)>, <(uint32 2, <('Chicago', 'KMDW', true, [(0.72927128935316143, -1.5316185371029443)], [(0.73042086791828009, -1.529781996944241)])>)>]
+show-comment-in-panel=false
+show-humidity-in-panel=false
+show-wind-in-panel=false
+time-format='24h'
+use-current-location=false
 
 [org/gnome/shell/keybindings]
 toggle-quick-settings=['<Super>q']
