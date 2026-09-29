@@ -1,3 +1,4 @@
+co.hyprlab.Hylki
 com.bitwarden.desktop
 com.github.marhkb.Pods
 com.logseq.Logseq
