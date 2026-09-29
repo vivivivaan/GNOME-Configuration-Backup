@@ -431,8 +431,8 @@ This extension is part of Classic Mode and is officially supported by GNOME. Ple
   Path: /usr/share/gnome-shell/extensions/apps-menu@gnome-shell-extensions.gcampax.github.com
   URL: https://gitlab.gnome.org/GNOME/gnome-shell-extensions
   Version: 50.4
-  Enabled: Yes
-  State: ACTIVE
+  Enabled: No
+  State: INACTIVE
 
 background-logo@fedorahosted.org
   Name: Background Logo
