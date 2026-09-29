@@ -8,7 +8,7 @@ if [ ! -d "$BACKUP_DIR" ]; then
     echo "🗃️ Directory $BACKUP_DIR not found. Creating it now..."
     mkdir -p "$BACKUP_DIR"
 else
-    echo "⛔ Directory $BACKUP_DIR already exists. Skipping creation..."
+    echo "🙌 Directory $BACKUP_DIR already exists. Skipping creation..."
     echo "🖌️ Removing existing files inside the folder..."
     rm -f "$BACKUP_DIR"/*
 fi
