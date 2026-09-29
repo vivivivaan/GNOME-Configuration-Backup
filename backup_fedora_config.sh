@@ -31,7 +31,7 @@ for ext in "${dconf_extensions[@]}"; do
         echo "  ✓ Keeping: $ext"
     else
         echo "  🗑️  Removing stale config: $ext"
-        sudo dconf reset -f "/org/gnome/shell/extensions/$ext/"
+        dconf reset -f "/org/gnome/shell/extensions/$ext/"
     fi
 done
 
