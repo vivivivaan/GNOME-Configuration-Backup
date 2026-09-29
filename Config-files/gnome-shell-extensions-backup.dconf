@@ -10,13 +10,16 @@ popup-in-quick-settings=false
 swap-icon-text=false
 
 [all-in-one-clipboard]
-clipboard-history-max-items=200
+clipboard-history-max-items=250
+emoji-grid-limit-columns=false
 enable-auto-paste=true
 enable-recents-tab=true
 gif-cache-limit-mb=250
 gif-provider='none'
 hide-panel-icon=false
+recently-used-advanced-section-overrides='{"version":1,"sections":{"clipboard-pinned":{"enabled":true,"policy":{"globalVisibleItems":5,"listVisibleItems":5,"gridVisibleItems":5,"globalWindowRows":5,"listWindowRows":5,"gridWindowRows":5,"gridWindowColumns":5,"defaultLimitMode":"unlimited","historyLimitMode":"unlimited","searchLimitMode":"unlimited","displayMode":"scroll-window","listDisplayMode":"scroll-window","gridDisplayMode":"scroll-window","customDisplayByView":false,"customLimitByContext":false,"customVisibleByView":false,"customWindowByView":false,"unlimitedSafetyCap":1000}}}}'
 shortcut-toggle-main=['<Super>c']
+unpin-on-paste=false
 
 [alphabetical-app-grid]
 sort-folder-contents=true
@@ -68,6 +71,11 @@ sensors-indicators-order='["icon","value"]'
 storage-header-show=false
 storage-indicators-order='["icon","bar","percentage","value","free","IO bar","IO graph","IO speed"]'
 storage-main='eui.002538bc11b6e85b-part6'
+
+[awesome-media-controller]
+accent-mode='adaptive'
+panel-position='right'
+theme-preset='crimson'
 
 [aztaskbar]
 hide-dash=false
@@ -465,7 +473,7 @@ panel-pill-height=28
 panel-pill-width=250
 pill-dynamic-width=true
 pill-enable-word-level=true
-playback-history="[{\"title\":\"AQN5nE0N5Ip1KvI9PNAqQVe__xxx-iVKdCCbM1YZnlC8VkylA5mYtWlWH1qbxYvt_iT1v3mVEbCYmILBqU9eliDz6TdyBMqU\",\"artist\":\"\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_fb53b6124a0015596f82759b5b4a4f81.jpg\",\"time\":1790354343371,\"avgColor\":{\"r\":77,\"g\":81,\"b\":72}},{\"title\":\"AQOb4-n_VhDsopPGCGrg9_6XoMk83_p1ct1FmxMkRi3CslFJpCd8IsBSuNBApliNXD_bdttTQL8FDYpTz3AghIQaB8BI73Ze\",\"artist\":\"\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_46fe6e9cecc1d81e265ed3565919949b.jpg\",\"time\":1790354339209,\"avgColor\":{\"r\":170,\"g\":184,\"b\":194}},{\"title\":\"AQMwqfdYuf5w_fQsol72HPNMrN76xjOpW9JwYPHUIPmGacmeYKSoD5T4xoWqz0RcU0t70QRs8i3WNlQRNU0JlyrV4XikM4L6\",\"artist\":\"\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_b2be79840d111ad9a25ed32b80553bf8.jpg\",\"time\":1790354335954,\"avgColor\":{\"r\":124,\"g\":112,\"b\":100}},{\"title\":\"AQOt_UBlDStIMywMJXGLF9qwDjZX2BB-M97pji737Pua7mve3paQEvnT6RhtA1YH0674leN7Kb_wOjAHMm3nrdHllkm5HZLd\",\"artist\":\"\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_b9008c51b95e6ce3bfe6a5dde43f41e4.jpg\",\"time\":1790321883707,\"avgColor\":{\"r\":122,\"g\":113,\"b\":113}},{\"title\":\"AQNIUWLrkVlkZ62GKmezBI43zykD1CWbLd8O0Ww9s7L7_y1F7BUlsIKZ411Yhm9EImfS5lG6iS1DLtNVI_v9EJ4xRkYU4t_h\",\"artist\":\"\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_efd904352de988a66e7abfe34c8332c0.jpg\",\"time\":1790316258009,\"avgColor\":{\"r\":123,\"g\":121,\"b\":104}},{\"title\":\"AQOt_UBlDStIMywMJXGLF9qwDjZX2BB-M97pji737Pua7mve3paQEvnT6RhtA1YH0674leN7Kb_wOjAHMm3nrdHllkm5HZLd\",\"artist\":\"\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_b9008c51b95e6ce3bfe6a5dde43f41e4.jpg\",\"time\":1790316254956,\"avgColor\":{\"r\":122,\"g\":113,\"b\":113}},{\"title\":\"AQOb4-n_VhDsopPGCGrg9_6XoMk83_p1ct1FmxMkRi3CslFJpCd8IsBSuNBApliNXD_bdttTQL8FDYpTz3AghIQaB8BI73Ze (1)\",\"artist\":\"\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_40c54f1f3d44835fb7ae802b0a20f61f.jpg\",\"time\":1790314452898,\"avgColor\":{\"r\":170,\"g\":184,\"b\":194}},{\"title\":\"AQNIUWLrkVlkZ62GKmezBI43zykD1CWbLd8O0Ww9s7L7_y1F7BUlsIKZ411Yhm9EImfS5lG6iS1DLtNVI_v9EJ4xRkYU4t_h\",\"artist\":\"\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_efd904352de988a66e7abfe34c8332c0.jpg\",\"time\":1790314447919,\"avgColor\":{\"r\":123,\"g\":121,\"b\":104}},{\"title\":\"AQOt_UBlDStIMywMJXGLF9qwDjZX2BB-M97pji737Pua7mve3paQEvnT6RhtA1YH0674leN7Kb_wOjAHMm3nrdHllkm5HZLd\",\"artist\":\"\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_b9008c51b95e6ce3bfe6a5dde43f41e4.jpg\",\"time\":1790314443359,\"avgColor\":{\"r\":122,\"g\":113,\"b\":113}},{\"title\":\"Feed | LinkedIn\",\"artist\":\"\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_ec2739d0d042a24b1dee0d5d806cda3a.jpg\",\"time\":1790311632787,\"avgColor\":{\"r\":120,\"g\":106,\"b\":72}},{\"title\":\"Virtual Career Center | Coursera\",\"artist\":\"\",\"artUrl\":\"\",\"time\":1790248153692,\"avgColor\":{\"r\":122,\"g\":113,\"b\":113}},{\"title\":\"AQOt_UBlDStIMywMJXGLF9qwDjZX2BB-M97pji737Pua7mve3paQEvnT6RhtA1YH0674leN7Kb_wOjAHMm3nrdHllkm5HZLd\",\"artist\":\"\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_b9008c51b95e6ce3bfe6a5dde43f41e4.jpg\",\"time\":1790247110107,\"avgColor\":{\"r\":122,\"g\":113,\"b\":113}},{\"title\":\"A site is playing media\",\"artist\":\"\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_ec6aa79568d0d226803619ba2d20419d.jpg\",\"time\":1790241064872,\"avgColor\":{\"r\":86,\"g\":86,\"b\":86}},{\"title\":\"GNOME Desktop Customisation | Best GNOME Extensions\",\"artist\":\"NH Soft\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_5e922ed44673ad10117d03018dca59d1.jpg\",\"time\":1790173791984,\"avgColor\":{\"r\":162,\"g\":204,\"b\":189}},{\"title\":\"A site is playing media\",\"artist\":\"\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_8eaa8f02f668b759d77fd58ddfd49483.jpg\",\"time\":1790173755458,\"avgColor\":{\"r\":86,\"g\":86,\"b\":86}},{\"title\":\"AQOb4-n_VhDsopPGCGrg9_6XoMk83_p1ct1FmxMkRi3CslFJpCd8IsBSuNBApliNXD_bdttTQL8FDYpTz3AghIQaB8BI73Ze (1)\",\"artist\":\"\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_40c54f1f3d44835fb7ae802b0a20f61f.jpg\",\"time\":1790155755578,\"avgColor\":{\"r\":170,\"g\":184,\"b\":194}},{\"title\":\"AQNIUWLrkVlkZ62GKmezBI43zykD1CWbLd8O0Ww9s7L7_y1F7BUlsIKZ411Yhm9EImfS5lG6iS1DLtNVI_v9EJ4xRkYU4t_h\",\"artist\":\"\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_efd904352de988a66e7abfe34c8332c0.jpg\",\"time\":1790155740069,\"avgColor\":{\"r\":123,\"g\":121,\"b\":104}},{\"title\":\"AQOt_UBlDStIMywMJXGLF9qwDjZX2BB-M97pji737Pua7mve3paQEvnT6RhtA1YH0674leN7Kb_wOjAHMm3nrdHllkm5HZLd\",\"artist\":\"\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_b9008c51b95e6ce3bfe6a5dde43f41e4.jpg\",\"time\":1790155725033,\"avgColor\":{\"r\":122,\"g\":113,\"b\":113}},{\"title\":\"Instagram\",\"artist\":\"\",\"artUrl\":\"\",\"time\":1790148593372,\"avgColor\":{\"r\":196,\"g\":197,\"b\":206}},{\"title\":\"🔥 Firefox Is Getting a Massive Redesign - First Look at “Nova” 🚀\",\"artist\":\"Om Narayan Singh\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_ae771c38e356fcdb7fbd1568312787e0.jpg\",\"time\":1790146249849,\"avgColor\":{\"r\":196,\"g\":197,\"b\":206}},{\"title\":\"The Self-Hosted Productivity Platform I've Been Building (Final Evolution)\",\"artist\":\"Om Narayan Singh\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_dc345a7bb53abe0ec1518415a1786fb2.jpg\",\"time\":1790146046646,\"avgColor\":{\"r\":15,\"g\":28,\"b\":75}},{\"title\":\"Recover Deleted WhatsApp Messages | Gbyte Data Recovery\",\"artist\":\"Om Narayan Singh\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_217d493e35d45c7bd4ab4596937bd0be.jpg\",\"time\":1790145979770,\"avgColor\":{\"r\":66,\"g\":125,\"b\":90}},{\"title\":\"Fedora 45 Beta : What’s New? 🔍\",\"artist\":\"Om Narayan Singh\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_a71922c93dbdb7b8f367329d7db0255d.jpg\",\"time\":1790145892820,\"avgColor\":{\"r\":85,\"g\":116,\"b\":160}},{\"title\":\"Fedora 45 & GNOME 51 | The Massive Changes That You Need To See Right Now\",\"artist\":\"Linux By Anirban\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_a424a3eaebe76d9e36ca2f27bbdb377f.jpg\",\"time\":1790145847653,\"avgColor\":{\"r\":151,\"g\":153,\"b\":159}},{\"title\":\"Feed | LinkedIn\",\"artist\":\"\",\"artUrl\":\"\",\"time\":1790143010158,\"avgColor\":{\"r\":120,\"g\":106,\"b\":72}},{\"title\":\"r/popular\",\"artist\":\"\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_5e81c314f98a20669b8fd5a0ff9437de.jpg\",\"time\":1790141295555,\"avgColor\":{\"r\":120,\"g\":106,\"b\":72}},{\"title\":\"web.whatsapp.com\",\"artist\":\"\",\"artUrl\":\"\",\"time\":1789998277747,\"avgColor\":{\"r\":40,\"g\":40,\"b\":40}},{\"title\":\"New in GNOME 51: New Circle Apps : r/gnome\",\"artist\":\"\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_602aeb772e50499cca57d9f18210d8af.jpg\",\"time\":1789993196818,\"avgColor\":{\"r\":120,\"g\":106,\"b\":72}},{\"title\":\"Scott Jenson: Are we really going to use the same Desktop UX forever?\",\"artist\":\"The KDE Community\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_93a25eaa559f9ac1a6b915b12ac51fe5.jpg\",\"time\":1789993192523,\"avgColor\":{\"r\":89,\"g\":92,\"b\":95}},{\"title\":\"Stay a little longer\",\"artist\":\"Kingsley Thomas\",\"artUrl\":\"file:///home/raj/.cache/dynamic-music-pill/art/hist_dc321e0d31bd9b159aa196d147144b52.jpg\",\"time\":1789992573900,\"avgColor\":{\"r\":10,\"g\":25,\"b\":37}}]"
+playback-history='[{"title":"Ajab Si (From \\"Om Shanti Om\\")","artist":"KK","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_f2119757e00998ba8f5044fb4a165d0d.jpg","time":1790680692390,"avgColor":{"r":183,"g":174,"b":161}},{"title":"Blank Space","artist":"Taylor Swift","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_2890ec0c14af1017a96e35e5bdf6ba50.jpg","time":1790680630759,"avgColor":{"r":183,"g":174,"b":161}},{"title":"Make You Mine","artist":"PUBLIC","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_46568bf14e03e107709876427fb26390.jpg","time":1790680228994,"avgColor":{"r":135,"g":158,"b":169}},{"title":"Dandelions","artist":"Ruth B.","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_3bf6f0ff2ea16ffa10957e3a5b1bf091.jpg","time":1790679888436,"avgColor":{"r":173,"g":173,"b":173}},{"title":"In Dino","artist":"Pritam","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_d7a5ae371c4813a01df75298b8284bde.jpg","time":1790679317679,"avgColor":{"r":142,"g":80,"b":70}},{"title":"Tere Paas Main - Female Version (From \\"Main Vaapas Aaunga\\")","artist":"A.R. Rahman","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_1aea2488c291631b43688e3315c14251.jpg","time":1790679295132,"avgColor":{"r":165,"g":143,"b":117}},{"title":"West Coast","artist":"Lana Del Rey","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_b935cd696348e7c65cc2e0397ef670eb.jpg","time":1790679294933,"avgColor":{"r":103,"g":103,"b":105}},{"title":"Dandelions","artist":"Ruth B.","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_3bf6f0ff2ea16ffa10957e3a5b1bf091.jpg","time":1790678977869,"avgColor":{"r":173,"g":173,"b":173}},{"title":"I Wanna Be Yours","artist":"Arctic Monkeys","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_0a405403e68a1a51a3c9e11b29a13826.jpg","time":1790678848410,"avgColor":{"r":28,"g":35,"b":37}},{"title":"Young And Beautiful","artist":"Lana Del Rey","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_30f35bb60739db2684e43872aa7ee73c.jpg","time":1790678794545,"avgColor":{"r":64,"g":88,"b":96}},{"title":"\u2060Tere Paas Main - Male Version (From \\"Main Vaapas Aaunga\\")","artist":"A.R. Rahman","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_ddc2adc6cc9a49abe22dba23b55376e0.jpg","time":1790678793414,"avgColor":{"r":165,"g":143,"b":117}},{"title":"Tere Paas Main - Female Version (From \\"Main Vaapas Aaunga\\")","artist":"A.R. Rahman","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_1aea2488c291631b43688e3315c14251.jpg","time":1790677331341,"avgColor":{"r":165,"g":143,"b":117}},{"title":"Dildaara (Stand By Me)","artist":"Vishal-Shekhar","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_1db17f2437411e3c50dfd25b221bba08.jpg","time":1790677105415,"avgColor":{"r":83,"g":75,"b":88}},{"title":"Tere Paas Main - Female Version (From \\"Main Vaapas Aaunga\\")","artist":"A.R. Rahman","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_1aea2488c291631b43688e3315c14251.jpg","time":1790676983768,"avgColor":{"r":165,"g":143,"b":117}},{"title":"Dildaara (Stand By Me)","artist":"Vishal-Shekhar","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_1db17f2437411e3c50dfd25b221bba08.jpg","time":1790676915465,"avgColor":{"r":83,"g":75,"b":88}},{"title":"With You","artist":"AP Dhillon","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_760c189e1b60df310cc6a1ac0501bec2.jpg","time":1790676761064,"avgColor":{"r":86,"g":110,"b":113}},{"title":"Tere Bin","artist":"Rabbi Shergill","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_06496b7fc9d8a53b155c460dc8de5dbd.jpg","time":1790676439374,"avgColor":{"r":151,"g":140,"b":129}},{"title":"AQOb4-n_VhDsopPGCGrg9_6XoMk83_p1ct1FmxMkRi3CslFJpCd8IsBSuNBApliNXD_bdttTQL8FDYpTz3AghIQaB8BI73Ze","artist":"","artUrl":"","time":1790666550776,"avgColor":{"r":180,"g":167,"b":164}},{"title":"Cine","artist":"No active media","artUrl":"","time":1790666534107,"avgColor":{"r":40,"g":40,"b":40}},{"title":"Cine","artist":"","artUrl":"","time":1790666531805,"avgColor":null},{"title":"Tera Mera Rishta Continues (Film Ballad) [From &quot;Awarapan 2&quot;] - Tera Mera Rishta Continues (Film Ballad) (From Awarapan 2) (320 kbps) - 26656.mp3","artist":"","artUrl":"","time":1790666519328,"avgColor":null},{"title":"Instructions to install AccurateGoldenGate Beta 2 Light/Dark - Google Drive","artist":"","artUrl":"","time":1790570895211,"avgColor":null},{"title":"Reddit - The heart of the internet","artist":"","artUrl":"","time":1790570164295,"avgColor":{"r":180,"g":167,"b":164}},{"title":"Teri Fariyad Extended Version (From \\"Tum Bin 2\\")","artist":"Rekha Bhardwaj","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_f864ed9d39daf5e30ff19867fc8ab624.jpg","time":1790569394173,"avgColor":{"r":180,"g":167,"b":164}},{"title":"r/popular","artist":"","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_4d2669077745aaa9e2ba92bf0d84fff4.jpg","time":1790569057782,"avgColor":{"r":120,"g":106,"b":72}},{"title":"A site is playing media","artist":"","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_60ee4f49031576e43ed0ea0ec07d29a4.jpg","time":1790566299257,"avgColor":{"r":86,"g":86,"b":86}},{"title":"Maana Ke Hum Yaar Nahin","artist":"Sachin-Jigar","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_81851f759675af46fbfebc3ca4bafbe8.jpg","time":1790563112509,"avgColor":{"r":127,"g":102,"b":87}},{"title":"Phir Mileinge Hum","artist":"Samar Jafri","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_35a03604c796e5d0425b8acf517b268a.jpg","time":1790563111105,"avgColor":{"r":114,"g":92,"b":65}},{"title":"Teri Fariyad Extended Version (From \\"Tum Bin 2\\")","artist":"Rekha Bhardwaj","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_f864ed9d39daf5e30ff19867fc8ab624.jpg","time":1790562756755,"avgColor":{"r":180,"g":167,"b":164}},{"title":"Tera Hua Sahiba (From \\"Musafir Cafe\\")","artist":"Garvit - Priyansh","artUrl":"file:///home/raj/.cache/dynamic-music-pill/art/hist_c24cce101ecb1cfdea3cfaa15035677a.jpg","time":1790562713655,"avgColor":{"r":191,"g":184,"b":186}}]'
 popup-custom-width=360
 popup-show-album-title=false
 popup-show-player-selector=false
@@ -493,7 +501,7 @@ visualizer-bars=4
 visualizer-style=0
 
 [emoji-copy]
-recently-used=['🥂', '😂', '🤔', '🙏', '💐', '🏆', '🖕', '❤️', '😍', '😭', '😊']
+recently-used=['🙌', '🗃️', '❕', '🖌️', '❌', '📁', '📂', '📋', '💻', '⛔', '🛠️']
 
 [extension-1440]
 panel-position='center'
@@ -526,6 +534,7 @@ pressure-timeout=1000
 accent-color-icon=false
 alt-tab-icon-size=0
 animation=4
+clock-menu-position-offset=0
 dash=true
 dash-separator=true
 invert-calendar-column-items=true
@@ -640,9 +649,9 @@ intervals-per-set=5
 long-break-duration=600
 session-completed-intervals=0
 session-interval-type='work'
-session-remaining-time=752
+session-remaining-time=1200
 session-started=true
-session-state='paused'
+session-state='idle'
 short-break-duration=300
 show-timer-always=false
 suspend-inhibitor-enabled=false
@@ -809,7 +818,7 @@ applications=['org.gnome.tweaks.desktop', 'com.mattjakeman.ExtensionManager.desk
 position=0
 
 [user-theme]
-name='MacTahoe-Light-alt-blue-nord'
+name='MacTahoe-Dark-alt-nord'
 
 [vertical-app-grid]
 app-sorting='usage'
@@ -830,3 +839,12 @@ show-voltage=false
 
 [volume-scroller]
 invert-scroll=true
+
+[wetter]
+actual-city=0
+city=[<(uint32 2, <('Hyderabad', 'VOHY', true, [(0.30455995447301049, 1.3695016922159813)], [(0.30325580954933529, 1.3696374264719091)])>)>, <(uint32 2, <('New York', 'KNYC', true, [(0.71180344078725644, -1.2909618758762367)], [(0.71059804659265924, -1.2916478949920254)])>)>, <(uint32 2, <('Leeds', 'EGNM', true, [(0.94015069622537639, -0.028797932657906436)], [(0.93898713757294927, -0.027634374005479377)])>)>, <(uint32 2, <('Manchester', 'EGCC', true, [(0.93113315593897483, -0.03985167876943968)], [(0.93375114981696627, -0.038688137570305148)])>)>, <(uint32 2, <('London', 'EGWU', false, [(0.89971722940307675, -0.007272211034407213)], [(0.89971722940307675, -0.007272211034407213)])>)>, <(uint32 2, <('Seoul', 'RKSS', false, [(0.65537113412387071, 2.2130774915288098)], [(0.65537113412387071, 2.2130774915288098)])>)>, <(uint32 2, <('San Francisco', 'KOAK', false, [(0.65832848982162007, -2.133408063190589)], [(0.65832848982162007, -2.133408063190589)])>)>, <(uint32 2, <('Chicago', 'KMDW', true, [(0.72927128935316143, -1.5316185371029443)], [(0.73042086791828009, -1.529781996944241)])>)>]
+show-comment-in-panel=false
+show-humidity-in-panel=false
+show-wind-in-panel=false
+time-format='24h'
+use-current-location=false
