@@ -14,26 +14,26 @@ else
 fi
 
 # Remove leftover configurations
-# echo "🧹 Checking for stale GNOME extension configurations..."
+echo "🧹 Checking for stale GNOME extension configurations..."
 
-# # Get installed extension UUIDs
-# mapfile -t installed_extensions < <(gnome-extensions list)
+# Get installed extension UUIDs
+mapfile -t installed_extensions < <(gnome-extensions list)
 
-# # Get dconf extension directories
-# mapfile -t dconf_extensions < <(dconf list /org/gnome/shell/extensions/)
+# Get dconf extension directories
+mapfile -t dconf_extensions < <(dconf list /org/gnome/shell/extensions/)
 
-# for ext in "${dconf_extensions[@]}"; do
-#     # Remove trailing slash
-#     ext="${ext%/}"
+for ext in "${dconf_extensions[@]}"; do
+    # Remove trailing slash
+    ext="${ext%/}"
 
-#     # Check whether this dconf directory belongs to an installed extension
-#     if printf '%s\n' "${installed_extensions[@]}" | grep -Fxq "$ext"; then
-#         echo "  ✓ Keeping: $ext"
-#     else
-#         echo "  🗑️  Removing stale config: $ext"
-#         dconf reset -f "/org/gnome/shell/extensions/$ext/"
-#     fi
-# done
+    # Check whether this dconf directory belongs to an installed extension
+    if printf '%s\n' "${installed_extensions[@]}" | grep -Fxq "$ext"; then
+        echo "  ✓ Keeping: $ext"
+    else
+        echo "  🗑️  Removing stale config: $ext"
+        sudo dconf reset -f "/org/gnome/shell/extensions/$ext/"
+    fi
+done
 
 # Extension Configurations Backup
 echo "🚀 Starting Fedora configuration backup..."
