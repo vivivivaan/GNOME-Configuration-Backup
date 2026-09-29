@@ -5,11 +5,11 @@ BACKUP_DIR="./Config-files"
 
 # Check if the directory does NOT exist
 if [ ! -d "$BACKUP_DIR" ]; then
-    echo "Directory $BACKUP_DIR not found. Creating it now..."
+    echo "🗃️ Directory $BACKUP_DIR not found. Creating it now..."
     mkdir -p "$BACKUP_DIR"
 else
-    echo "Directory $BACKUP_DIR already exists. Skipping creation."
-    echo "Removing existing files inside the folder..."
+    echo "⛔ Directory $BACKUP_DIR already exists. Skipping creation..."
+    echo "🖌️ Removing existing files inside the folder..."
     rm -f "$BACKUP_DIR"/*
 fi
 
@@ -43,14 +43,14 @@ ls ~/.local/share/themes/ \
 # Grub Config
 sudo cat /etc/default/grub > "$BACKUP_DIR/grub-defaults.backup"
 
-echo "Backup completed. Files saved in $BACKUP_DIR"
+echo "Backup completed. Files saved in $BACKUP_DIR.📁"
 
 git add .
 
 unset commit_message
 
 while [ -z "$commit_message" ]; do
-    read -p "Enter your commit message (cannot be empty): " commit_message
+    read -p "📋 Enter your commit message (cannot be empty): " commit_message
     
     # Optional: Trim whitespace so a message of just " " is rejected
     commit_message=$(echo "$commit_message" | xargs)
