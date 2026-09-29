@@ -432,7 +432,7 @@ This extension is part of Classic Mode and is officially supported by GNOME. Ple
   URL: https://gitlab.gnome.org/GNOME/gnome-shell-extensions
   Version: 50.4
   Enabled: No
-  State: INITIALIZED
+  State: INACTIVE
 
 background-logo@fedorahosted.org
   Name: Background Logo

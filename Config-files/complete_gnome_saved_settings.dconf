@@ -220,7 +220,7 @@ panel-id='world'
 size=(689, 549)
 
 [org/gnome/control-center]
-last-panel='keyboard'
+last-panel='wifi'
 window-state=(1129, 793, false)
 
 [org/gnome/deja-dup]
@@ -1010,7 +1010,7 @@ last-folder-path='/home/raj/Downloads'
 last-folder-path='/home/raj/Documents/Logseq-Notes'
 
 [org/gnome/portal/filechooser/com.microsoft.VSCode]
-last-folder-path='/home/raj/Music'
+last-folder-path='/home/raj/GNOME-Configuration-Backup'
 
 [org/gnome/portal/filechooser/com.notesnook.Notesnook]
 last-folder-path='/home/raj'
