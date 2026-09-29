@@ -35,15 +35,6 @@ osd-volume-number@deminder
   Enabled: Yes
   State: ACTIVE
 
-screenshort-cut@pauloimon
-  Name: Screenshort-cut
-  Description: A simple shortcut button to call the native screenshot tool directly on your GNOME panel.
-  Path: /home/raj/.local/share/gnome-shell/extensions/screenshort-cut@pauloimon
-  URL: https://github.com/pauloimon/gnome-screenshort-cut-extension
-  Version: 8
-  Enabled: Yes
-  State: ACTIVE
-
 AlphabeticalAppGrid@stuarthayhurst
   Name: Alphabetical App Grid
   Description: Alphabetically order the app grid and folders
@@ -432,6 +423,25 @@ A fork of Neroth's Weather extension (weather-extension@xeked.com), ported to cu
   Version: 1.0 (3)
   Enabled: Yes
   State: ACTIVE
+
+apps-menu@gnome-shell-extensions.gcampax.github.com
+  Name: Apps Menu
+  Description: Add a category-based menu for apps.
+This extension is part of Classic Mode and is officially supported by GNOME. Please do not report bugs using the form below, use GNOME's GitLab instance instead.
+  Path: /usr/share/gnome-shell/extensions/apps-menu@gnome-shell-extensions.gcampax.github.com
+  URL: https://gitlab.gnome.org/GNOME/gnome-shell-extensions
+  Version: 50.4
+  Enabled: No
+  State: INITIALIZED
+
+background-logo@fedorahosted.org
+  Name: Background Logo
+  Description: Overlay a tasteful logo on the background to enhance the user experience
+  Path: /usr/share/gnome-shell/extensions/background-logo@fedorahosted.org
+  URL: https://forge.fedoraproject.org/workstation/background-logo-extension
+  Version: 50.1
+  Enabled: No
+  State: INITIALIZED
 
 launch-new-instance@gnome-shell-extensions.gcampax.github.com
   Name: Launch New Instance
