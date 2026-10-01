@@ -1,5 +1,4 @@
 /usr/local/share/fonts/opentype:
-acumin-pro
 CodeNewRoman
 
 /usr/local/share/fonts/truetype:
