@@ -1,5 +1,4 @@
 /home/raj/.local/share/icons:
-Adwair-icon-theme
 BeautySolar
 Fluent
 Fluent-cursors
@@ -52,7 +51,6 @@ MacTahoe-Light-solid-alt-nord-hdpi
 MacTahoe-Light-solid-alt-nord-xhdpi
 
 /usr/local/share/icons/:
-Adwair-icon-theme
 BeautySolar
 Fluent
 Fluent-cursors
@@ -106,7 +104,6 @@ MacTahoe-Light-solid-alt-nord-hdpi
 MacTahoe-Light-solid-alt-nord-xhdpi
 
 /usr/share/icons/:
-Adwair-icon-theme
 Adwaita
 AdwaitaLegacy
 BeautySolar
