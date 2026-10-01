@@ -1,4 +1,5 @@
 /home/raj/.local/share/icons:
+Adwair-icon-theme
 BeautySolar
 Fluent
 Fluent-cursors
@@ -51,6 +52,31 @@ MacTahoe-Light-solid-alt-nord-hdpi
 MacTahoe-Light-solid-alt-nord-xhdpi
 
 /usr/local/share/icons/:
+Adwair-icon-theme
+BeautySolar
+Fluent
+Fluent-cursors
+Fluent-dark
+Fluent-dark-cursors
+Fluent-grey
+Fluent-grey-dark
+Fluent-grey-light
+Fluent-light
+hicolor
+MacOS-Pixel-Dark
+MacOS-Pixel-Light
+MacOS-Tahoe-Cursor
+Mignon-pastel
+Mignon-pastel-dark
+Mignon-pastel-light
+Tela-blue
+Tela-blue-dark
+Tela-blue-light
+Tela-nord
+Tela-nord-dark
+Tela-nord-light
+WhiteSur-cursors
+Win11OSX
 
 /usr/local/share/themes/:
 default-pure
@@ -80,6 +106,7 @@ MacTahoe-Light-solid-alt-nord-hdpi
 MacTahoe-Light-solid-alt-nord-xhdpi
 
 /usr/share/icons/:
+Adwair-icon-theme
 Adwaita
 AdwaitaLegacy
 BeautySolar
