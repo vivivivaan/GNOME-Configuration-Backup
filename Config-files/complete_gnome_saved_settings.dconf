@@ -904,7 +904,7 @@ use-tree-view=true
 [org/gnome/nautilus/preferences]
 click-policy='double'
 date-time-format='detailed'
-default-folder-viewer='list-view'
+default-folder-viewer='icon-view'
 migrated-gtk-settings=true
 search-filter-time-type='last_modified'
 show-create-link=true
@@ -951,7 +951,7 @@ sizing-mode='free'
 window-height=847
 window-maximized=false
 window-width=1292
-zoom=0.46917750978577466
+zoom=0.5084375762026071
 
 [org/gnome/pomodoro/plugins/actions]
 actions-list=@as []
