@@ -579,7 +579,7 @@ application-id='update-manager.desktop'
 application-id='windscribe.desktop'
 
 [org/gnome/desktop/peripherals/keyboard]
-numlock-state=false
+numlock-state=true
 
 [org/gnome/desktop/peripherals/mouse]
 double-click=253
