@@ -95,7 +95,7 @@ status-style='circle'
 devices=['{"name":"5B10W13958","mac":"2688"}', '{"name":"ALT Clip","mac":"DA:91:B5:F8:27:51"}']
 
 [blur-my-shell]
-rounded-blur-found=false
+rounded-blur-found=true
 settings-version=2
 
 [blur-my-shell/appfolder]
@@ -143,6 +143,16 @@ sigma=0
 static-blur=false
 style-panel=0
 unblur-in-overview=false
+
+[blur-my-shell/popup]
+blur=false
+brightness=1.0
+osk-corner-radius=7
+override-background=true
+pipeline='pipeline_default_rounded'
+preserve-shell-theme=true
+static-blur=false
+style-popup=0
 
 [blur-my-shell/screenshot]
 pipeline='pipeline_default'
@@ -546,7 +556,7 @@ panel=true
 panel-icon-size=0
 panel-in-overview=true
 panel-indicator-padding-size=0
-panel-size=32
+panel-size=31
 ripple-box=true
 startup-status=0
 support-notifier-type=0
@@ -819,7 +829,7 @@ applications=['org.gnome.tweaks.desktop', 'com.mattjakeman.ExtensionManager.desk
 position=0
 
 [user-theme]
-name='MacTahoe-Dark-alt-nord'
+name='MacTahoe-Dark-alt-blue-nord'
 
 [vertical-app-grid]
 app-sorting='usage'
@@ -849,3 +859,6 @@ show-humidity-in-panel=false
 show-wind-in-panel=false
 time-format='24h'
 use-current-location=false
+
+[wireless-hid]
+position-in-panel='Right'

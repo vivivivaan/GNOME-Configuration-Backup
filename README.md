@@ -170,9 +170,14 @@ alias srest="sudo systemctl restart"
 alias son="sudo systemctl enable"
 alias soff="sudo systemctl disable"
 
+# Application aliases.
 # Python aliases.
-alias python3=python
-alias pip3=pip
+alias python=python3
+alias pip=pip3
+# Docker aliases
+alias dock="sstat docker.socket containerd docker"
+alias dockr="srun docker.socket containerd docker"
+alias docks="sstop docker.socket containerd docker"
 
 # Bash Config Aliases.
 alias brc="nano ~/.bashrc"
@@ -189,13 +194,24 @@ alias shf="ls -ld .?*"
 alias size1="du -h -s"
 alias size2="du -h -s .*"
 
+# ls aliases
+alias l='ls -CF'
+alias la='ls -A'
+alias ll='ls -alF'
+
 # Basic Aliases
 alias cls="clear"
 alias wi="whereis"
 alias wh="which"
-alias shell="exec $SHELL -l"
-alias rem="sudo rm -rf"
+alias shell='exec "$SHELL" -l'
 alias sun="sudo nano"
+
+# Trash CLI Aliases
+alias tp="trash-put"
+alias tl="trash-list"
+alias trs="trash-restore"
+alias te="trash-empty"
+alias rem="sudo rm -f -i"
 
 # GRUB
 alias ngrub="sudo nano /etc/default/grub"
@@ -205,6 +221,7 @@ alias cgrub="cat /etc/default/grub"
 alias lgrub="sudo grubby --info=ALL" # List all kernel entries managed by BLS
 
 # Customizations
+alias fcache="sudo fc-cache -f -r -s"
 alias sysfont="cd /usr/share/fonts/"
 alias usrfont="cd ~/.local/share/fonts/"
 alias systhm="cd /usr/share/themes/"

@@ -1,4 +1,4 @@
-co.hyprlab.Hylki
+com.bilingify.readest
 com.bitwarden.desktop
 com.github.marhkb.Pods
 com.logseq.Logseq
