@@ -44,46 +44,37 @@ sudo dnf install spotify-client
 
 ## Browser Flags
 
-| Browser        | copy *.desktop file                                                                     |                                                                                                                                                                                                                                                                       `*://flags` |
-| :------------- | --------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| Google Chrome  | `sudo cp /usr/share/applications/google-chrome.desktop ~/.local/share/applications/`  | `#fluent-overlay-scrollbars` `#fluent-scrollbars` `#smooth-scrolling` `#ozone-platform-hint` `#wayland-ui-scaling` `#root-scrollbar-follows-browser-theme` `#link-preview` `#wayland-linux-drm-syncobj` `#allow-legacy-mv2-extensions` `#tabstrip-combo-button` |
-| Brave          | `sudo cp /usr/share/applications/brave-browser.desktop ~/.local/share/applications/`  |                                                     `#fluent-overlay-scrollbars` `#fluent-scrollbars` `#ozone-platform-hint` `#wayland-ui-scaling` `#root-scrollbar-follows-browser-theme` `#link-preview` `#middle-button-autoscroll` `#wayland-linux-drm-syncobj` |
-| Microsoft Edge | `sudo cp /usr/share/applications/microsoft-edge.desktop ~/.local/share/applications/` |                                                                                                                                                                                                                                           Only enable flags in the`.desktop` file |
-| Vivaldi        | `sudo cp /usr/share/applications/vivaldi-stable.desktop ~/.local/share/applications/` |                                                                                                                                                                                     `#fluent-overlay-scrollbars` `#fluent-scrollbars` `#root-scrollbar-follows-browser-theme` |
+| Browser        | copy *.desktop file                                                                     |                                                                                                                                                                                                                                                                       `*://flags` | Command-line flags to add in .desktop file                                                                                                                                                                                                                  |
+| :------------- | --------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Google Chrome  | `sudo cp /usr/share/applications/google-chrome.desktop ~/.local/share/applications/`  | `#fluent-overlay-scrollbars` `#fluent-scrollbars` `#smooth-scrolling` `#ozone-platform-hint` `#wayland-ui-scaling` `#root-scrollbar-follows-browser-theme` `#link-preview` `#wayland-linux-drm-syncobj` `#allow-legacy-mv2-extensions` `#tabstrip-combo-button` | `--enable-features=MiddleClickAutoscroll,TouchpadOverscrollHistoryNavigation --disable-features=GlobalShortcutsPortal`                                                                                                                                    |
+| Brave Browser  | `sudo cp /usr/share/applications/brave-browser.desktop ~/.local/share/applications/`  |                                                     `#fluent-overlay-scrollbars` `#fluent-scrollbars` `#ozone-platform-hint` `#wayland-ui-scaling` `#root-scrollbar-follows-browser-theme` `#link-preview` `#middle-button-autoscroll` `#wayland-linux-drm-syncobj` | `--enable-features=TouchpadOverscrollHistoryNavigation --disable-features=GlobalShortcutsPortal`                                                                                                                                                          |
+| Microsoft Edge | `sudo cp /usr/share/applications/microsoft-edge.desktop ~/.local/share/applications/` |                                                                                                                                                                                                                                           Only enable flags in the`.desktop` file | `--enable-features=MiddleClickAutoscroll,TouchpadOverscrollHistoryNavigation,UseOzonePlatform,WaylandWindowDecorations --ozone-platform=wayland --disable-features=GlobalShortcutsPortal`                                                                 |
+| Vivaldi        | `sudo cp /usr/share/applications/vivaldi-stable.desktop ~/.local/share/applications/` |                                                                                                                                                                                     `#fluent-overlay-scrollbars` `#fluent-scrollbars` `#root-scrollbar-follows-browser-theme` | `--enable-features=MiddleClickAutoscroll,TouchpadOverscrollHistoryNavigation,UseOzonePlatform,WaylandWindowDecorations --ozone-platform=wayland --enable-wayland-ime --enable-pinch --enable-gesture-navigation --disable-features=GlobalShortcutsPortal` |
 
-## Command-line Flags
-
-| Browser        |                                                                                                                                                                                                                                              Code to append |
-| :------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| Google Chrome  |                                                                                                                                    `--enable-features=MiddleClickAutoscroll,TouchpadOverscrollHistoryNavigation --disable-features=GlobalShortcutsPortal` |
-| Brave Browser  |                                                                                                                                                          `--enable-features=TouchpadOverscrollHistoryNavigation --disable-features=GlobalShortcutsPortal` |
-| Microsoft Edge |                                                                 `--enable-features=MiddleClickAutoscroll,TouchpadOverscrollHistoryNavigation,UseOzonePlatform,WaylandWindowDecorations --ozone-platform=wayland --disable-features=GlobalShortcutsPortal` |
-| Vivaldi        | `--enable-features=MiddleClickAutoscroll,TouchpadOverscrollHistoryNavigation,UseOzonePlatform,WaylandWindowDecorations --ozone-platform=wayland --enable-wayland-ime --enable-pinch --enable-gesture-navigation --disable-features=GlobalShortcutsPortal` |
-
-# Themes
+## Themes
 
 ## MacTahoe GTK theme config
 
 ### /usr/share/local/themes/
 
 - Quickmenu Shadow
-  - `sudo ./install.sh -d /usr/local/share/themes/ -c dark -a alt -t blue -s nord -l --shell -h smaller -ns -normal`
+  - `sudo ./install.sh -d /usr/local/share/themes/ -c dark -a alt -t blue -s nord -l --shell -h smaller -normal --darker`
 - Without Quickmenu Shadow
-  - `sudo ./install.sh -d /usr/local/share/themes/ -c dark -a alt -t blue -s nord -l --shell -h smaller -normal`
+  - `sudo ./install.sh -d /usr/local/share/themes/ -c dark -a alt -t blue -s nord -l --shell -h smaller -ns -normal --darker`
 
 ### /usr/share/themes/
 
 - Quickmenu Shadow
-  - `sudo ./install.sh -d /usr/share/themes/ -c dark -a alt -t blue -s nord -l --shell -h smaller -ns -normal`
+  - `sudo ./install.sh -d /usr/share/themes/ -c dark -a alt -t blue -s nord -l --shell -h smaller -normal --darker`
 - Without Quickmenu Shadow
-  - `sudo ./install.sh -d /usr/share/themes/ -c dark -a alt -t blue -s nord -l --shell -h smaller -normal`
+  - `sudo ./install.sh -d /usr/share/themes/ -c dark -a alt -t blue -s nord -l --shell -h smaller ns -normal -ns --darker`
 
 ### ~/.local/share/themes/
 
 - Quickmenu Shadow
-  - `sudo ./install.sh -d ~/.local/share/themes/ -c dark -a alt -t blue -s nord -l --shell -h smaller -ns -normal`
+  - `sudo ./install.sh -d ~/.local/share/themes/ -c dark -a alt -t blue -s nord -l --shell -h smaller -normal --darker`
 - Without Quickmenu Shadow
-  - `sudo ./install.sh -d ~/.local/share/themes/ -c dark -a alt -t blue -s nord -l --shell -h smaller -normal`
+  - `sudo ./install.sh -d ~/.local/share/themes/ -c dark -a alt -t blue -s nord -l --shell -h smaller -ns -normal --darker`
 
 ### GDM Tweaks
 
