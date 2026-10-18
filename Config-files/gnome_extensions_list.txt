@@ -132,7 +132,7 @@ Vitals@CoreCoding.com
   Description: A glimpse into your computer's temperature, voltage, fan speed, memory usage, processor load, system resources, network speed and storage stats. This is a one stop shop to monitor all of your vital sensors. Uses asynchronous polling to provide a smooth user experience. Feature requests or bugs? Please use GitHub.
   Path: /home/earth/.local/share/gnome-shell/extensions/Vitals@CoreCoding.com
   URL: https://github.com/corecoding/Vitals
-  Version: 85
+  Version: 86
   Enabled: Yes
   State: ACTIVE
 
@@ -208,15 +208,6 @@ right-click-next@derVedro
   Enabled: Yes
   State: ACTIVE
 
-restartto@tiagoporsch.github.io
-  Name: Restart To
-  Description: Adds a menu item to restart to any other EFI boot entry
-  Path: /home/earth/.local/share/gnome-shell/extensions/restartto@tiagoporsch.github.io
-  URL: https://github.com/tiagoporsch/restartto
-  Version: 17
-  Enabled: Yes
-  State: ACTIVE
-
 gnome-ui-tune@itstime.tech
   Name: Gnome 4x, 5x UI Improvements
   Description: Tunes gnome 4x, 5x Overview UI to make it more usable.
@@ -264,15 +255,6 @@ https://gitlab.com/NiffirgkcaJ/all-in-one-clipboard
   Path: /home/earth/.local/share/gnome-shell/extensions/all-in-one-clipboard@NiffirgkcaJ.github.com
   URL: https://github.com/NiffirgkcaJ/all-in-one-clipboard
   Version: 31
-  Enabled: Yes
-  State: ACTIVE
-
-wellbeingtoggle@m51.io
-  Name: Wellbeing Toggle
-  Description: Toggle wellbeing reminders from the quick settings menu.
-  Path: /home/earth/.local/share/gnome-shell/extensions/wellbeingtoggle@m51.io
-  URL: https://github.com/Fingel/gnome-ext-wellbeing-toggle
-  Version: 4
   Enabled: Yes
   State: ACTIVE
 
@@ -402,12 +384,12 @@ A fork of Neroth's Weather extension (weather-extension@xeked.com), ported to cu
   Enabled: Yes
   State: ACTIVE
 
-screenshort-cut@pauloimon
-  Name: Screenshort-cut
-  Description: A simple shortcut button to call the native screenshot tool directly on your GNOME panel.
-  Path: /home/earth/.local/share/gnome-shell/extensions/screenshort-cut@pauloimon
-  URL: https://github.com/pauloimon/gnome-screenshort-cut-extension
-  Version: 8
+reboottouefi@ubaygd.com
+  Name: RebootToUEFI
+  Description: Reboot system into UEFI
+  Path: /home/earth/.local/share/gnome-shell/extensions/reboottouefi@ubaygd.com
+  URL: https://github.com/UbayGD/reboottouefi
+  Version: 28
   Enabled: Yes
   State: ACTIVE
 

@@ -2,6 +2,8 @@
 hicolor
 MacOS-Pixel-Dark
 MacOS-Pixel-Light
+MacTahoe-cursors
+MacTahoe-dark-cursors
 Mignon-pastel
 Mignon-pastel-dark
 WhiteSur-cursors
@@ -38,6 +40,8 @@ hicolor
 locolor
 MacOS-Pixel-Dark
 MacOS-Pixel-Light
+MacTahoe-cursors
+MacTahoe-dark-cursors
 Mignon-pastel
 Mignon-pastel-dark
 oxygen
