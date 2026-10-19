@@ -16,16 +16,6 @@ user-theme@gnome-shell-extensions.gcampax.github.com
   Enabled: Yes
   State: ACTIVE
 
-wireless-hid@chlumskyvaclav.gmail.com
-  Name: Wireless HID
-  Description: This extension shows the battery of the wireless keyboards, mice, and game controllers in percentages and colors. Multiple devices are supported.
-  Path: /home/earth/.local/share/gnome-shell/extensions/wireless-hid@chlumskyvaclav.gmail.com
-  URL: https://github.com/vchlum/wireless-hid
-  Original author: chlumskyvaclav@gmail.com
-  Version: 24
-  Enabled: Yes
-  State: ACTIVE
-
 drive-menu@gnome-shell-extensions.gcampax.github.com
   Name: Removable Drive Menu
   Description: A status menu for accessing and unmounting removable devices.
