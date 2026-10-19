@@ -13,4 +13,5 @@ io.github.vikdevelop.SaveDesktop
 io.gitlab.ilshat_apps.manuscript
 net.nokyan.Resources
 org.gnome.Firmware
+org.telegram.desktop
 studio.planetpeanut.Bobby
