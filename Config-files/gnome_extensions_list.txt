@@ -307,7 +307,7 @@ avatar-quick-settings@github.leginreklaw
   Description: Add user avatar to quick settings menu
   Path: /home/earth/.local/share/gnome-shell/extensions/avatar-quick-settings@github.leginreklaw
   URL: https://github.com/leginreklaw/avatar-quick-settings
-  Version: 2
+  Version: 3
   Enabled: Yes
   State: ACTIVE
 
@@ -355,31 +355,38 @@ panelnote-extended@qomarhsn.com
   Enabled: Yes
   State: ERROR
 
-wetter@mlkonrad.github.com
-  Name: Wetter
-  Description: Current weather and forecasts in the top bar, for as many locations as you like.
-
-- Current conditions: temperature, feels like, humidity, pressure, visibility, wind, sunrise and sunset
-- Hour-by-hour forecast for up to 48 hours and a daily forecast for up to 10 days
-- Search and add cities by name, and switch between them from the menu
-- Optional current location, detected with GeoClue and updated as you move
-- Choose what the panel shows and where, units, 12/24-hour time, and symbolic or full-color icons
-
-Privacy: on first run with no locations added, Current Location is turned on (GeoClue, city-level accuracy); you can turn it off in the settings. The selected city is sent to the weather services libgweather uses (MET Norway, OpenWeatherMap and METAR airport reports) to fetch its forecast.
-
-A fork of Neroth's Weather extension (weather-extension@xeked.com), ported to current GNOME Shell and libgweather 4.
-  Path: /home/earth/.local/share/gnome-shell/extensions/wetter@mlkonrad.github.com
-  URL: https://github.com/mlkonrad/wetter
-  Version: 1.0 (3)
-  Enabled: Yes
-  State: ACTIVE
-
 reboottouefi@ubaygd.com
   Name: RebootToUEFI
   Description: Reboot system into UEFI
   Path: /home/earth/.local/share/gnome-shell/extensions/reboottouefi@ubaygd.com
   URL: https://github.com/UbayGD/reboottouefi
   Version: 28
+  Enabled: Yes
+  State: ACTIVE
+
+weatherglass@vijaybala.dev
+  Name: Weatherglass
+  Description: Weather that lives in your top bar.
+
+The panel icon animates with the sky outside - sun, drifting clouds, rain, snow, thunderstorms - beside a live temperature. Open the menu and the whole card is the sky: a live animated backdrop of drifting clouds, twinkling stars and falling precipitation, painted frame by frame.
+
+What's inside:
+* Animated menu backdrop with eleven scenes, from clear sun and moon to fog, sleet, hail and lightning
+* Hourly chart: switch between temperature, precipitation or wind
+* The moon carries the real lunar phase at night; sunrise and sunset bathe the card in golden-hour light
+* Eight days of forecast tiles, current conditions at a glance
+* 20 languages with full bidirectional support: the entire card mirrors in Arabic, Hebrew, Persian and Urdu
+* Metric or imperial units, 12- or 24-hour clock, live scene previews in preferences
+* Three backdrop styles: animated sky, solid, or theme background with accent charts
+
+Weather data from Open-Meteo (global), Met.no (ECMWF) and NOAA NWS - choose your favourite forecaster, no API keys needed. Location: detected automatically through GNOME's own location service (IP lookup where none is available), or a city you pick.
+
+No accounts, no tracking, no analytics: weather requests go straight from your machine to the provider you choose. Automatic detection prefers the system location service, with the standard GNOME prompt naming this extension; its IP-lookup and city-label fallbacks each contact one free keyless endpoint and are used only when needed. Nothing is cached on disk.
+
+Demo: https://github.com/vijaybala-lang/weatherglass/releases/download/v8/weatherglass-demo-card.mp4
+  Path: /home/earth/.local/share/gnome-shell/extensions/weatherglass@vijaybala.dev
+  URL: https://github.com/vijaybala-lang/weatherglass
+  Version: 14
   Enabled: Yes
   State: ACTIVE
 
