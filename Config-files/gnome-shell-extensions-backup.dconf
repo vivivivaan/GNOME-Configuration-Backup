@@ -712,6 +712,10 @@ skip-libadwaita-app=false
 tweak-kitty-terminal=true
 unfocused-shadow={'verticalOffset': 2, 'horizontalOffset': 0, 'blurOffset': 12, 'spreadRadius': -1, 'opacity': 65}
 
+[sanket]
+calendar-layout='stacked'
+clock-style='compact'
+
 [show-desktop-button]
 hover-delay=375
 indicator-position='CENTER_LEFT'
@@ -865,7 +869,7 @@ auto-location=true
 condition-strip='icons'
 hour-format='24h'
 live-night=true
-live-scene='moon'
+live-scene='partly'
 menu-style='animated'
 text-emboss=false
 
