@@ -111,7 +111,7 @@ show-desktop-button@amivaleo
   Description: Minimize/unminimize all open windows with a single click.
   Path: /home/earth/.local/share/gnome-shell/extensions/show-desktop-button@amivaleo
   URL: https://github.com/amivaleo/Show-Desktop-Button
-  Version: 61
+  Version: 62
   Enabled: Yes
   State: ACTIVE
 
@@ -384,7 +384,7 @@ No accounts, no tracking, no analytics: weather requests go straight from your m
 Demo: https://github.com/vijaybala-lang/weatherglass/releases/download/v8/weatherglass-demo-card.mp4
   Path: /home/earth/.local/share/gnome-shell/extensions/weatherglass@vijaybala.dev
   URL: https://github.com/vijaybala-lang/weatherglass
-  Version: 14
+  Version: 16
   Enabled: Yes
   State: ACTIVE
 
