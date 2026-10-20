@@ -388,6 +388,15 @@ Demo: https://github.com/vijaybala-lang/weatherglass/releases/download/v8/weathe
   Enabled: Yes
   State: ACTIVE
 
+sanket@narkagni
+  Name: Sanket
+  Description: A floating notification island below Quick Settings with pinned notifications, Quick Settings toggles that morph into circles, and a cleaner calendar with world clocks and animated weather.
+  Path: /home/earth/.local/share/gnome-shell/extensions/sanket@narkagni
+  URL: https://github.com/narkagni/sanket
+  Version: 1.0 (2)
+  Enabled: Yes
+  State: ACTIVE
+
 apps-menu@gnome-shell-extensions.gcampax.github.com
   Name: Apps Menu
   Description: Add a category-based menu for apps.

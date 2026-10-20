@@ -1,5 +1,7 @@
 /usr/local/share/fonts/opentype:
 CodeNewRoman
+EverydaySans Desktop_OTF
+EverydaySans WebFonts
 
 /usr/local/share/fonts/truetype:
 arial
