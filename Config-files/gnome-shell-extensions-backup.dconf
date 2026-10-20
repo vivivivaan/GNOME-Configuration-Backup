@@ -679,16 +679,18 @@ short-break-time=120
 work-time=1200
 
 [quick-settings-tweaks]
+datemenu-hide-right-box=false
 dnd-quick-toggle-enabled=false
 media-enabled=false
 media-remove-shadow=true
 media-smooth-scroll-speed=0
+menu-animation-enabled=false
 notifications-max-height=280
-overlay-menu-animate-style='dialog'
 overlay-menu-enabled=false
 system-indicator-layout-enabled=false
 system-indicator-screen-recording-indicator-use-accent=true
 system-indicator-screen-sharing-indicator-use-accent=true
+system-items-layout-enabled=false
 system-items-layout-hide=true
 weather-enabled=false
 weather-remove-shadow=false
