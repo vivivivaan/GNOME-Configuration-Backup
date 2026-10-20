@@ -95,25 +95,22 @@ status-style='circle'
 devices=['{"name":"5B10W13958","mac":"2688"}', '{"name":"ALT Clip","mac":"DA:91:B5:F8:27:51"}']
 
 [blur-my-shell]
-pipelines={'pipeline_default': {'name': <'Default'>, 'effects': <[<{'type': <'native_static_gaussian_blur'>, 'id': <'effect_000000000000'>, 'params': <{'radius': <30>, 'brightness': <0.59999999999999998>}>}>]>}, 'pipeline_default_rounded': {'name': <'Default rounded'>, 'effects': <[<{'type': <'native_static_gaussian_blur'>, 'id': <'effect_000000000001'>, 'params': <{'radius': <30>, 'brightness': <0.59999999999999998>, 'unscaled_radius': <30>}>}>, <{'type': <'corner'>, 'id': <'effect_000000000002'>, 'params': <{'radius': <24>}>}>]>}}
+pipelines={'pipeline_default': {'name': <'Default'>, 'effects': <[<{'type': <'dual_kawase_blur'>, 'id': <'effect_000000000000'>, 'params': <{'unscaled_radius': <30>, 'brightness': <0.59999999999999998>}>}>]>}, 'pipeline_default_rounded': {'name': <'Default rounded'>, 'effects': <[<{'type': <'dual_kawase_blur'>, 'id': <'effect_000000000001'>, 'params': <{'unscaled_radius': <0>, 'brightness': <1>}>}>]>}, 'pipeline_migrated_dynamic_blur': {'name': <'Migrated dynamic blur'>, 'effects': <[<{'type': <'dual_kawase_blur'>, 'id': <'effect_migrated_dynamic_blur'>, 'params': <{'unscaled_radius': <60>, 'brightness': <0.5>}>}>]>}, 'pipeline_migrated_dynamic_blur_2': {'name': <'Migrated dynamic blur 2'>, 'effects': <[<{'type': <'dual_kawase_blur'>, 'id': <'effect_migrated_dynamic_blur'>, 'params': <{'unscaled_radius': <0>, 'brightness': <0.75>}>}>]>}, 'pipeline_migrated_dynamic_blur_3': {'name': <'Migrated dynamic blur 3'>, 'effects': <[<{'type': <'dual_kawase_blur'>, 'id': <'effect_migrated_dynamic_blur'>, 'params': <{'unscaled_radius': <0>, 'brightness': <1>}>}>]>}, 'pipeline_migrated_dynamic_blur_4': {'name': <'Migrated dynamic blur 4'>, 'effects': <[<{'type': <'dual_kawase_blur'>, 'id': <'effect_migrated_dynamic_blur'>, 'params': <{'unscaled_radius': <60>, 'brightness': <0.59999999999999998>}>}>]>}}
 rounded-blur-found=true
-settings-version=2
+settings-version=7
 
 [blur-my-shell/appfolder]
 blur=true
-brightness=0.5
-sigma=30
+pipeline='pipeline_default_rounded'
 style-dialogs=1
 
 [blur-my-shell/applications]
 blur=false
-brightness=0.80000000000000004
 corner-when-maximized=false
 dynamic-opacity=false
 enable-all=true
 opacity=236
 pipeline='pipeline_default_rounded'
-sigma=25
 static-blur=false
 
 [blur-my-shell/coverflow-alt-tab]
@@ -121,11 +118,9 @@ pipeline='pipeline_default_rounded'
 
 [blur-my-shell/dash-to-dock]
 blur=true
-brightness=1.0
 corner-radius=150
 override-background=true
-pipeline='pipeline_default_rounded'
-sigma=0
+pipeline='pipeline_migrated_dynamic_blur_3'
 static-blur=false
 style-dash-to-dock=0
 
@@ -138,23 +133,23 @@ style-components=3
 
 [blur-my-shell/panel]
 blur=true
-brightness=0.75
 corner-radius=0
 force-light-text=true
+override-background=false
+override-background-dynamically=false
+override-background-dynamically-mode=1
 pipeline='pipeline_default_rounded'
-sigma=0
+rounded-corners=0
 static-blur=false
 style-panel=0
 unblur-in-overview=false
 
 [blur-my-shell/popup]
 blur=false
-brightness=1.0
 osk-corner-radius=7
 override-background=true
 pipeline='pipeline_default_rounded'
 preserve-shell-theme=true
-sigma=10
 static-blur=false
 style-popup=0
 
@@ -162,8 +157,7 @@ style-popup=0
 pipeline='pipeline_default'
 
 [blur-my-shell/window-list]
-brightness=0.59999999999999998
-sigma=30
+pipeline='pipeline_migrated_dynamic_blur_4'
 
 [bottom-dash-panel]
 accent-color=true
@@ -648,6 +642,7 @@ icon-position='right'
 number-position='left'
 
 [panelnote-extended]
+enable-positioning=false
 note='Play. Action & Info := Less'
 time-notes=@a(siiii) []
 
