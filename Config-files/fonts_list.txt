@@ -5,20 +5,11 @@ EverydaySans WebFonts
 
 /usr/local/share/fonts/truetype:
 arial
-Arimo
-Asap_Sharp
 DaddyTimeMono
-Google_Sans
-Inter
 JetBrainsMono
-Lato
-mariupol
 NerdFontsSymbolsOnly
-Recursive
 Roboto
 RobotoMono
-SourceCodePro
-SpaceMono
 
 /usr/share/fonts/:
 aajohan-comfortaa-fonts

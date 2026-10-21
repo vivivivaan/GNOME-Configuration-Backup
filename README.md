@@ -218,7 +218,7 @@ alias usrfont="cd ~/.local/share/fonts/"
 alias systhm="cd /usr/share/themes/"
 alias usrthm="cd ~/.local/share/themes/"
 alias sysico="cd /usr/share/icons/"
-alias usrico="cd ~/.local/share/icons/"
+alias usrico="cd ~/.local/share/icons/"****
 alias syscur="cd /usr/share/icons/"
 alias usrcur="cd ~/.local/share/icons/"
 ```
@@ -227,15 +227,17 @@ alias usrcur="cd ~/.local/share/icons/"
 
 ## Desktop
 
-![](./Screenshots/Desktop/Screenshot%20From%202026-10-18%2023-00-11.png)
-![](./Screenshots/Desktop/Screenshot%20From%202026-10-18%2023-01-59.png)
-![](./Screenshots/Desktop/Screenshot%20From%202026-10-18%2023-02-07.png)
-![](./Screenshots/Desktop/Screenshot%20From%202026-10-18%2023-02-17.png)
-![](./Screenshots/Desktop/Screenshot%20From%202026-10-18%2023-03-29.png)
-![](./Screenshots/Desktop/Screenshot%20From%202026-10-18%2023-03-41.png)
+![](./Screenshots/Desktop/01.png)
+![](./Screenshots/Desktop/02.png)
+![](./Screenshots/Desktop/03.png)
+![](./Screenshots/Desktop/04.png)
+![](./Screenshots/Desktop/05.png)
+![](./Screenshots/Desktop/06.png)
+![](./Screenshots/Desktop/07.png)
+
 
 ## Extensions
 
-![](./Screenshots/Extensions/Screenshot%20From%202026-10-18%2023-27-58.png)
-![](./Screenshots/Extensions/Screenshot%20From%202026-10-18%2023-28-19.png)
-![](./Screenshots/Extensions/Screenshot%20From%202026-10-18%2023-28-28.png)
+![](./Screenshots/Extensions/01_Ext_Mgr.png)
+![](./Screenshots/Extensions/02_Ext_Mgr.png)
+![](./Screenshots/Extensions/03_Ext_Mgr.png)
