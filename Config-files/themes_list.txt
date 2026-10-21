@@ -6,6 +6,15 @@ MacTahoe-cursors
 MacTahoe-dark-cursors
 Mignon-pastel
 Mignon-pastel-dark
+Tela-blue
+Tela-blue-dark
+Tela-blue-light
+Tela-circle
+Tela-circle-dark
+Tela-circle-light
+Tela-nord
+Tela-nord-dark
+Tela-nord-light
 WhiteSur-cursors
 
 /home/earth/.local/share/themes/:
@@ -15,10 +24,22 @@ MacTahoe-Dark-alt-blue-nord-xhdpi
 MacTahoe-Dark-solid-alt-blue-nord
 MacTahoe-Dark-solid-alt-blue-nord-hdpi
 MacTahoe-Dark-solid-alt-blue-nord-xhdpi
+Orchis-Dark-Compact-Nord
+Orchis-Dark-Compact-Nord-hdpi
+Orchis-Dark-Compact-Nord-xhdpi
 
 /usr/local/share/icons/:
 MacOS-Pixel-Dark
 MacOS-Pixel-Light
+Tela-blue
+Tela-blue-dark
+Tela-blue-light
+Tela-circle
+Tela-circle-dark
+Tela-circle-light
+Tela-nord
+Tela-nord-dark
+Tela-nord-light
 
 /usr/local/share/themes/:
 default-pure
@@ -28,6 +49,9 @@ MacTahoe-Dark-alt-blue-nord-xhdpi
 MacTahoe-Dark-solid-alt-blue-nord
 MacTahoe-Dark-solid-alt-blue-nord-hdpi
 MacTahoe-Dark-solid-alt-blue-nord-xhdpi
+Orchis-Dark-Compact-Nord
+Orchis-Dark-Compact-Nord-hdpi
+Orchis-Dark-Compact-Nord-xhdpi
 
 /usr/share/icons/:
 Adwaita
