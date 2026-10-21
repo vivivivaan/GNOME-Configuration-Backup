@@ -178,7 +178,7 @@ restore-session=true
 restore-window-size=false
 scrollbar-policy='system'
 use-system-font=false
-window-size=(uint32 150, uint32 40)
+window-size=(uint32 212, uint32 49)
 
 [org/gnome/Ptyxis/Profiles/'f2934b33b5178457f29b4e8068d611e4']
 opacity=0.94999999999999996
@@ -1399,7 +1399,7 @@ status-style='circle'
 devices=['{"name":"5B10W13958","mac":"2688"}', '{"name":"ALT Clip","mac":"DA:91:B5:F8:27:51"}']
 
 [org/gnome/shell/extensions/blur-my-shell]
-pipelines={'pipeline_default': {'name': <'Default'>, 'effects': <[<{'type': <'dual_kawase_blur'>, 'id': <'effect_000000000000'>, 'params': <{'unscaled_radius': <30>, 'brightness': <0.59999999999999998>}>}>]>}, 'pipeline_default_rounded': {'name': <'Default rounded'>, 'effects': <[<{'type': <'dual_kawase_blur'>, 'id': <'effect_000000000001'>, 'params': <{'unscaled_radius': <0>, 'brightness': <1>}>}>]>}, 'pipeline_migrated_dynamic_blur': {'name': <'Migrated dynamic blur'>, 'effects': <[<{'type': <'dual_kawase_blur'>, 'id': <'effect_migrated_dynamic_blur'>, 'params': <{'unscaled_radius': <60>, 'brightness': <0.5>}>}>]>}, 'pipeline_migrated_dynamic_blur_2': {'name': <'Migrated dynamic blur 2'>, 'effects': <[<{'type': <'dual_kawase_blur'>, 'id': <'effect_migrated_dynamic_blur'>, 'params': <{'unscaled_radius': <0>, 'brightness': <0.75>}>}>]>}, 'pipeline_migrated_dynamic_blur_3': {'name': <'Migrated dynamic blur 3'>, 'effects': <[<{'type': <'dual_kawase_blur'>, 'id': <'effect_migrated_dynamic_blur'>, 'params': <{'unscaled_radius': <0>, 'brightness': <1>}>}>]>}, 'pipeline_migrated_dynamic_blur_4': {'name': <'Migrated dynamic blur 4'>, 'effects': <[<{'type': <'dual_kawase_blur'>, 'id': <'effect_migrated_dynamic_blur'>, 'params': <{'unscaled_radius': <60>, 'brightness': <0.59999999999999998>}>}>]>}}
+pipelines={'pipeline_default': {'name': <'Default'>, 'effects': <[<{'type': <'dual_kawase_blur'>, 'id': <'effect_000000000000'>, 'params': <{'unscaled_radius': <30>, 'brightness': <0.59999999999999998>}>}>]>}, 'pipeline_default_rounded': {'name': <'Default rounded'>, 'effects': <[<{'type': <'dual_kawase_blur'>, 'id': <'effect_000000000001'>, 'params': <{'unscaled_radius': <0>, 'brightness': <1>}>}>]>}, 'pipeline_migrated_dynamic_blur': {'name': <'Migrated dynamic blur'>, 'effects': <[<{'type': <'dual_kawase_blur'>, 'id': <'effect_migrated_dynamic_blur'>, 'params': <{'unscaled_radius': <60>, 'brightness': <0.84999999999999998>}>}>]>}, 'pipeline_migrated_dynamic_blur_2': {'name': <'Migrated dynamic blur 2'>, 'effects': <[<{'type': <'dual_kawase_blur'>, 'id': <'effect_migrated_dynamic_blur'>, 'params': <{'unscaled_radius': <0>, 'brightness': <0.75>}>}>]>}, 'pipeline_migrated_dynamic_blur_3': {'name': <'Migrated dynamic blur 3'>, 'effects': <[<{'type': <'dual_kawase_blur'>, 'id': <'effect_migrated_dynamic_blur'>, 'params': <{'unscaled_radius': <0>, 'brightness': <1>}>}>]>}, 'pipeline_migrated_dynamic_blur_4': {'name': <'Migrated dynamic blur 4'>, 'effects': <[<{'type': <'dual_kawase_blur'>, 'id': <'effect_migrated_dynamic_blur'>, 'params': <{'unscaled_radius': <60>, 'brightness': <0.59999999999999998>}>}>]>}}
 rounded-blur-found=true
 settings-version=7
 
@@ -1439,7 +1439,7 @@ style-components=3
 blur=true
 corner-radius=0
 force-light-text=true
-override-background=false
+override-background=true
 override-background-dynamically=false
 override-background-dynamically-mode=1
 pipeline='pipeline_default_rounded'
@@ -2172,8 +2172,8 @@ invert-scroll=true
 auto-location=true
 condition-strip='icons'
 hour-format='24h'
-live-night=true
-live-scene='partly'
+live-night=false
+live-scene='sun'
 menu-style='animated'
 text-emboss=false
 
