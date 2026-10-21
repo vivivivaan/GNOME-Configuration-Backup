@@ -716,7 +716,7 @@ tweak-kitty-terminal=true
 unfocused-shadow={'verticalOffset': 2, 'horizontalOffset': 0, 'blurOffset': 12, 'spreadRadius': -1, 'opacity': 65}
 
 [sanket]
-calendar-layout='stacked'
+calendar-layout='wide'
 clock-style='compact'
 
 [show-desktop-button]
@@ -829,6 +829,9 @@ time-format='multiline'
 timer-enabled=false
 without-downtime=true
 
+[todoit]
+todos=['{\n  "name": "Setup CI/CD / Cron jobs for Gnome-config-backup",\n  "isDone": false,\n  "isFocused": true\n}', '{"name":"Coursera catalogue filtering","isDone":false}', '{"name":"DSA-Practice repo brush-up","isDone":false}']
+
 [transparent-window-moving]
 transition-time=0.75
 window-opacity=185
@@ -871,7 +874,7 @@ invert-scroll=true
 auto-location=true
 condition-strip='icons'
 hour-format='24h'
-live-night=false
+live-night=true
 live-scene='partly'
 menu-style='animated'
 text-emboss=false
