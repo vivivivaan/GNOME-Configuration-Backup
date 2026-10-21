@@ -526,6 +526,9 @@ check-interval=90
 enable-positioning=false
 notify=true
 
+[gnome-muzei-wallpaper]
+blur-wallpaper=true
+
 [gnome-ui-tune]
 hide-search=false
 increase-thumbnails-size='200%'
@@ -869,7 +872,7 @@ auto-location=true
 condition-strip='icons'
 hour-format='24h'
 live-night=false
-live-scene='sun'
+live-scene='partly'
 menu-style='animated'
 text-emboss=false
 
@@ -881,6 +884,12 @@ show-humidity-in-panel=false
 show-wind-in-panel=false
 time-format='24h'
 use-current-location=false
+
+[window-padding]
+padding-bottom=1
+padding-left=1
+padding-right=1
+padding-top=1
 
 [wireless-hid]
 position-in-panel='Right'
