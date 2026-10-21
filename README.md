@@ -53,6 +53,10 @@ sudo dnf install spotify-client
 
 ## Themes
 
+- [MacTahoe GTK Theme](https://github.com/vinceliuice/MacTahoe-gtk-theme.git)
+- [MacOS Pixel Cursor](https://www.gnome-look.org/p/2042592)
+- [Mignon Pastel Icon](https://github.com/igorfmoraes/Mignon-icon-theme.git)
+
 ## MacTahoe GTK theme config
 
 ### /usr/share/local/themes/
