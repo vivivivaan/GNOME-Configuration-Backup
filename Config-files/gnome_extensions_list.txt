@@ -373,7 +373,7 @@ What's inside:
 * Hourly chart: switch between temperature, precipitation or wind
 * The moon carries the real lunar phase at night; sunrise and sunset bathe the card in golden-hour light
 * Eight days of forecast tiles, current conditions at a glance
-* 20 languages with full bidirectional support: the entire card mirrors in Arabic, Hebrew, Persian and Urdu
+* 21 languages with full bidirectional support: the entire card mirrors in Arabic, Hebrew, Persian and Urdu
 * Metric or imperial units, 12- or 24-hour clock, live scene previews in preferences
 * Three backdrop styles: animated sky, solid, or theme background with accent charts
 
@@ -384,7 +384,7 @@ No accounts, no tracking, no analytics: weather requests go straight from your m
 Demo: https://github.com/vijaybala-lang/weatherglass/releases/download/v8/weatherglass-demo-card.mp4
   Path: /home/earth/.local/share/gnome-shell/extensions/weatherglass@vijaybala.dev
   URL: https://github.com/vijaybala-lang/weatherglass
-  Version: 16
+  Version: 17
   Enabled: Yes
   State: ACTIVE
 
@@ -422,6 +422,24 @@ window-padding@pvlamkhtn.github.io
   Path: /home/earth/.local/share/gnome-shell/extensions/window-padding@pvlamkhtn.github.io
   URL: https://github.com/pvlamkhtn/gnome-window-padding
   Version: 2
+  Enabled: Yes
+  State: ACTIVE
+
+todoit@wassimbj.github.io
+  Name: Todoit
+  Description: Simple todo list, to keep you focused on your daily tasks
+  Path: /home/earth/.local/share/gnome-shell/extensions/todoit@wassimbj.github.io
+  URL: https://github.com/wassimbj/todoit-gnome
+  Version: 8
+  Enabled: Yes
+  State: ACTIVE
+
+password-generator@loginone
+  Name: Password Generator
+  Description: Generate strong, customizable passwords directly from the GNOME panel. Left-click copies a password to clipboard; right-click opens settings (length, charsets, exclude ambiguous chars). This extension accesses the clipboard.
+  Path: /home/earth/.local/share/gnome-shell/extensions/password-generator@loginone
+  URL: https://github.com/loginone33/Gnome-Password-Generator-Extension
+  Version: 3
   Enabled: Yes
   State: ACTIVE
 
@@ -473,12 +491,3 @@ This extension is part of Classic Mode and is officially supported by GNOME. Ple
   Version: 50.4
   Enabled: No
   State: INITIALIZED
-
-todoit@wassimbj.github.io
-  Name: Todoit
-  Description: Simple todo list, to keep you focused on your daily tasks
-  Path: /home/earth/.local/share/gnome-shell/extensions/todoit@wassimbj.github.io
-  URL: https://github.com/wassimbj/todoit-gnome
-  Version: 8
-  Enabled: Yes
-  State: ACTIVE
