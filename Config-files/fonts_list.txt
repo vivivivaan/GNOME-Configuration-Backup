@@ -6,6 +6,7 @@ EverydaySans WebFonts
 /usr/local/share/fonts/truetype:
 arial
 DaddyTimeMono
+Google_Sans
 JetBrainsMono
 NerdFontsSymbolsOnly
 Roboto
