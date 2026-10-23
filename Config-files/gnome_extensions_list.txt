@@ -388,15 +388,6 @@ Demo: https://github.com/vijaybala-lang/weatherglass/releases/download/v8/weathe
   Enabled: Yes
   State: ACTIVE
 
-sanket@narkagni
-  Name: Sanket
-  Description: A floating notification island below Quick Settings with pinned notifications, Quick Settings toggles that morph into circles, and a cleaner calendar with world clocks and animated weather.
-  Path: /home/earth/.local/share/gnome-shell/extensions/sanket@narkagni
-  URL: https://github.com/narkagni/sanket
-  Version: 1.0 (2)
-  Enabled: Yes
-  State: ACTIVE
-
 window-control@carlo9890.github.io
   Name: Window Control
   Description: Control windows from a script, a rules file or the keyboard, on Wayland and X11.
@@ -440,6 +431,33 @@ password-generator@loginone
   Path: /home/earth/.local/share/gnome-shell/extensions/password-generator@loginone
   URL: https://github.com/loginone33/Gnome-Password-Generator-Extension
   Version: 3
+  Enabled: Yes
+  State: ACTIVE
+
+show-desktop-from-overview@linuxitos.local
+  Name: Show Desktop from Overview
+  Description: Show the desktop from the Activities Overview, with configurable per-monitor or all-monitor window minimization.
+  Path: /home/earth/.local/share/gnome-shell/extensions/show-desktop-from-overview@linuxitos.local
+  URL: https://gitlab.com/linuxitos/show-desktop-from-overview
+  Version: 2.0.0 (3)
+  Enabled: Yes
+  State: ACTIVE
+
+restart-button@local
+  Name: Restart Button
+  Description: Adds a restart button to the top bar. Clicking it shows the standard system confirmation dialog before restarting the computer.
+  Path: /home/earth/.local/share/gnome-shell/extensions/restart-button@local
+  URL: https://github.com/davichus1303/GNOME_Reboot_button
+  Version: 2
+  Enabled: Yes
+  State: ACTIVE
+
+sanket@narkagni
+  Name: Sanket
+  Description: A floating notification island below Quick Settings with pinned notifications, Quick Settings toggles that morph into circles, and a cleaner calendar with world clocks and animated weather.
+  Path: /home/earth/.local/share/gnome-shell/extensions/sanket@narkagni
+  URL: https://github.com/narkagni/sanket
+  Version: 2.0 (3)
   Enabled: Yes
   State: ACTIVE
 
