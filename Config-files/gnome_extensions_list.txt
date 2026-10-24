@@ -14,7 +14,7 @@ user-theme@gnome-shell-extensions.gcampax.github.com
   URL: https://gitlab.gnome.org/GNOME/gnome-shell-extensions
   Version: 50.4 (79)
   Enabled: Yes
-  State: ACTIVE
+  State: ERROR
 
 drive-menu@gnome-shell-extensions.gcampax.github.com
   Name: Removable Drive Menu
@@ -288,8 +288,8 @@ dynamic-music-pill@andbal
   Path: /home/earth/.local/share/gnome-shell/extensions/dynamic-music-pill@andbal
   URL: https://github.com/Andbal23/dynamic-music-pill
   Version: 1.5.0 (52)
-  Enabled: Yes
-  State: ACTIVE
+  Enabled: No
+  State: INACTIVE
 
 slider-percentages@imdarktom
   Name: Slider Percentages
@@ -384,7 +384,7 @@ No accounts, no tracking, no analytics: weather requests go straight from your m
 Demo: https://github.com/vijaybala-lang/weatherglass/releases/download/v8/weatherglass-demo-card.mp4
   Path: /home/earth/.local/share/gnome-shell/extensions/weatherglass@vijaybala.dev
   URL: https://github.com/vijaybala-lang/weatherglass
-  Version: 17
+  Version: 18
   Enabled: Yes
   State: ACTIVE
 
@@ -448,7 +448,7 @@ sanket@narkagni
   Description: A floating notification island below Quick Settings with pinned notifications, Quick Settings toggles that morph into circles, and a cleaner calendar with world clocks and animated weather.
   Path: /home/earth/.local/share/gnome-shell/extensions/sanket@narkagni
   URL: https://github.com/narkagni/sanket
-  Version: 2.0 (3)
+  Version: 2.0 (4)
   Enabled: Yes
   State: ACTIVE
 
@@ -500,3 +500,19 @@ This extension is part of Classic Mode and is officially supported by GNOME. Ple
   Version: 50.4
   Enabled: No
   State: INITIALIZED
+
+advanced-media-controller@sanjai.com
+  Name: Advanced Media Controller
+  Description: Media controls for the GNOME Shell panel. Works with any MPRIS player (Spotify, VLC, Rhythmbox, browsers) and lets you switch between several players from tabs in the popup.
+
+* Play, pause, skip, shuffle and repeat
+* Track and artist in the panel with a scrolling label
+* Optional vinyl record effect on the album art, set per app (double-click the art)
+* Time-synced lyrics fetched from lrclib.net (single-click the art)
+* Seekable progress slider with selectable themes
+* Panel label font, colour and element order settings
+  Path: /home/earth/.local/share/gnome-shell/extensions/advanced-media-controller@sanjai.com
+  URL: https://codeberg.org/sanjai-shaarugesh/Advanced-media-controller
+  Version: 6.6 (44)
+  Enabled: Yes
+  State: ACTIVE

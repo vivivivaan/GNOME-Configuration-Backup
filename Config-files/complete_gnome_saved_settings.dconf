@@ -162,7 +162,7 @@ temperature-unit='centigrade'
 migrated-config=true
 
 [org/gnome/Loupe]
-show-properties=false
+show-properties=true
 
 [org/gnome/Ptyxis]
 cursor-blink-mode='on'
@@ -255,8 +255,8 @@ panel-id='world'
 size=(708, 477)
 
 [org/gnome/control-center]
-last-panel='wifi'
-window-state=(1129, 777, false)
+last-panel='background'
+window-state=(1130, 777, false)
 
 [org/gnome/deja-dup]
 backend='drive'
@@ -398,7 +398,7 @@ show-all-sources=true
 sources=[('xkb', 'us+alt-intl'), ('xkb', 'gb+intl')]
 
 [org/gnome/desktop/interface]
-accent-color='slate'
+accent-color='blue'
 clock-format='24h'
 clock-show-seconds=true
 clock-show-weekday=true
@@ -427,7 +427,7 @@ autorun-x-content-open-folder=@as []
 autorun-x-content-start-app=['x-content/ostree-repository', 'x-content/image-dcf']
 
 [org/gnome/desktop/notifications]
-application-children=['org-gnome-tweaks', 'org-gnome-shell-extensions', 'snapd-desktop-integration-snapd-desktop-integration', 'org-gnome-ptyxis', 'org-gnome-nautilus', 'spotify', 'uget-gtk', 'update-manager', 'org-gnome-clocks', 'org-gnome-software', 'google-chrome', 'chrome-hnpfjngllnobngcgfapefoaidbinmjnm-default', 'app-zen-browser-zen', 'io-github-giantpinkrobots-varia', 'com-github-gabutakut-gabutdm', 'windscribe', 'com-mattjakeman-extensionmanager', 'org-qbittorrent-qbittorrent', 'firefox', 'calibre-gui', 'gnome-wellbeing-panel', 'com-github-fontmanager-fontmanager', 'gnome-power-panel', 'org-gnome-baobab', 'org-chromium-chromium', 'ca-desrt-dconf-editor', 'discord', 'org-telegram-desktop-3e485da34fc040f9218e3891ecde1e6c', 'org-gnome-dejadup', 'gnome-printers-panel', 'hplip', 'thunderbird', 'com-github-fontmanager-fontviewer', 'org-gnome-characters', 'org-gnome-pomodoro', 'io-gitlab-news-flash-newsflash', 'io-github-vikdevelop-savedesktop', 'io-github-redddfoxxyy-samaya', 'org-gnome-rhythmbox3', 'org-kde-ktorrent', 'linked', 'org-b3log-siyuan', 'helium', 'brave-origin', 'com-google-chrome', 'superproductivity', 'org-telegram-desktop', 'org-mozilla-firefox', 'co-hyprlab-hylki', 'ticktick', 'org-gnome-extensions', 'prism']
+application-children=['org-gnome-tweaks', 'org-gnome-shell-extensions', 'snapd-desktop-integration-snapd-desktop-integration', 'org-gnome-ptyxis', 'org-gnome-nautilus', 'spotify', 'uget-gtk', 'update-manager', 'org-gnome-clocks', 'org-gnome-software', 'google-chrome', 'chrome-hnpfjngllnobngcgfapefoaidbinmjnm-default', 'app-zen-browser-zen', 'io-github-giantpinkrobots-varia', 'com-github-gabutakut-gabutdm', 'windscribe', 'com-mattjakeman-extensionmanager', 'org-qbittorrent-qbittorrent', 'firefox', 'calibre-gui', 'gnome-wellbeing-panel', 'com-github-fontmanager-fontmanager', 'gnome-power-panel', 'org-gnome-baobab', 'org-chromium-chromium', 'ca-desrt-dconf-editor', 'discord', 'org-telegram-desktop-3e485da34fc040f9218e3891ecde1e6c', 'org-gnome-dejadup', 'gnome-printers-panel', 'hplip', 'thunderbird', 'com-github-fontmanager-fontviewer', 'org-gnome-characters', 'org-gnome-pomodoro', 'io-gitlab-news-flash-newsflash', 'io-github-vikdevelop-savedesktop', 'io-github-redddfoxxyy-samaya', 'org-gnome-rhythmbox3', 'org-kde-ktorrent', 'linked', 'org-b3log-siyuan', 'helium', 'brave-origin', 'com-google-chrome', 'superproductivity', 'org-telegram-desktop', 'org-mozilla-firefox', 'co-hyprlab-hylki', 'ticktick', 'org-gnome-extensions', 'prism', 'com-desktop-ding']
 show-banners=true
 
 [org/gnome/desktop/notifications/application/app-zen-browser-zen]
@@ -450,6 +450,9 @@ application-id='co.hyprlab.Hylki.desktop'
 
 [org/gnome/desktop/notifications/application/code]
 application-id='code.desktop'
+
+[org/gnome/desktop/notifications/application/com-desktop-ding]
+application-id='com.desktop.ding.desktop'
 
 [org/gnome/desktop/notifications/application/com-github-fontmanager-fontmanager]
 application-id='com.github.FontManager.FontManager.desktop'
@@ -1056,13 +1059,13 @@ last-folder-path='/home/earth/Pictures/mypics'
 last-folder-path='/home/earth/Music'
 
 [org/gnome/portal/filechooser/com.google.Chrome]
-last-folder-path='/home/earth/Workspace/dsa-practice/From Scratch/LinkedList'
+last-folder-path='/home/earth/Workspace/dsa-practice/From Scratch/LinkedList/2026'
 
 [org/gnome/portal/filechooser/com.logseq.Logseq]
 last-folder-path='/home/earth/Documents/Logseq-Notes'
 
 [org/gnome/portal/filechooser/com.microsoft.VSCode]
-last-folder-path='/home/earth/.local/share/gnome-shell/extensions/sanket@narkagni'
+last-folder-path='/home/earth/Workspace/bopytest2-code'
 
 [org/gnome/portal/filechooser/com.notesnook.Notesnook]
 last-folder-path='/home/raj'
@@ -1104,7 +1107,7 @@ last-folder-path='/home/earth'
 last-folder-path='/home/earth/Downloads'
 
 [org/gnome/portal/filechooser/io.github.vikdevelop.SaveDesktop]
-last-folder-path='/home/raj/Documents/SaveDesktop Backups'
+last-folder-path='/home/earth/Documents/SaveDesktop'
 
 [org/gnome/portal/filechooser/io.gitlab.ilshat_apps.gitpulsar]
 last-folder-path='/home/raj/GNOME-Configuration-Backup'
@@ -1298,8 +1301,8 @@ enabled-connections=@as []
 app-picker-layout=[{'d16e2496-eedd-4088-ba5f-c39f0c9fd16d': <{'position': <0>}>, 'org.gnome.clocks.desktop': <{'position': <1>}>, 'f720d708-b404-45e1-8674-5f1222817691': <{'position': <2>}>, 'com.logseq.Logseq.desktop': <{'position': <3>}>, 'io.gitlab.ilshat_apps.manuscript.desktop': <{'position': <4>}>, '54c8bdb9-745d-4b5c-a532-de342a780c2e': <{'position': <5>}>, 'com.notesnook.Notesnook.desktop': <{'position': <6>}>, '78c5c448-9755-4b1f-b921-1fa5935ead6b': <{'position': <7>}>, 'io.github.quantum_mutnauq.pictures_converter_gtk.desktop': <{'position': <8>}>, 'com.github.marhkb.Pods.desktop': <{'position': <9>}>, 'com.bilingify.readest.desktop': <{'position': <10>}>, 'io.github.vikdevelop.SaveDesktop.desktop': <{'position': <11>}>, 'spotify.desktop': <{'position': <12>}>, '95876710-5963-4eb5-8152-6b9f5a9b7f6e': <{'position': <13>}>, 'System': <{'position': <14>}>, 'org.telegram.desktop.desktop': <{'position': <15>}>, 'org.torproject.torbrowser-launcher.desktop': <{'position': <16>}>, 'io.github.flattool.Warehouse.desktop': <{'position': <17>}>, 'windscribe.desktop': <{'position': <18>}>}]
 command-history=['r', 'echo $XDG_SESSION_TYPE', 'lg']
 disable-user-extensions=false
-disabled-extensions=['notification-timeout@chlumskyvaclav.gmail.com', 'monitor@astraext.github.io', 'just_shows_memory_usage@troizet.github.com', 'snapd-prompting@canonical.com', 'applications-overview-tooltip@RaphaelRochet', 'hidetopbar@mathieu.bidon.ca', 'volume_scroller@francislavoie.github.io', 'aztaskbar@aztaskbar.gitlab.com', 'clipboard-indicator@tudmotu.com', 'mediacontrols@cliffniff.github.com', 'dropbeat@romanlefler.com', 'kiwi@kemma', 'pomodoro@zhuravkovigor.dev', 'focuslock@kavinda', 'clipmaster@gnome.extension', 'appgridbuttonintoppanel@raphaelian', 'timeFromStart@pic16f877ccs.github.com', 'mute-unmute@mcast.gnomext.com', '1440@ravener.github.com', 'vertical-app-grid@lublst.github.io', 'app-grid-tuner@m-lab', 'ding@rastersoft.com', 'dash2dock-lite@icedman.github.com', 'Rounded_Corners@lennart-k', 'day-progress@arcaege.github.io', 'pomodoro@youcefzaid.github.io', 'chronos@time-tracker.com', 'quickshutdownbutton@feelfree2useit.outlook.com', 'simple-taskbar@sultech', 'background-logo@fedorahosted.org', 'mirror@distro.com', 'brightness-step@sholehbaktiabadi.github.io', 'logout-in-power-menu@codegod100.github.io', 'one-thing@github.com', 'notedock@joquers.github.io', 'syncthing@gnome.2nv2u.com', 'notes-with-history@grizzlysmit.smit.id.au', 'awesome-media-controller@devduo-org', 'rounded-windows@marcosgt.github.io', 'wellbeingtoggle@m51.io', 'wetter@mlkonrad.github.com', 'apps-menu@gnome-shell-extensions.gcampax.github.com']
-enabled-extensions=['launch-new-instance@gnome-shell-extensions.gcampax.github.com', 'just-perfection-desktop@just-perfection', 'Vitals@CoreCoding.com', 'update-extension@purejava.org', 'tweaks-system-menu@extensions.gnome-shell.fifi.org', 'transparent-window-moving@noobsai.github.com', 'tilingshell@ferrarodomenico.com', 'osd-volume-number@deminder', 'drive-menu@gnome-shell-extensions.gcampax.github.com', 'sound-percentage@subashghimire.info.np', 'quick-settings-tweaks@qwreey', 'open-desktop-location@laura.media', 'apt-update-indicator@franglais125.gmail.com', 'updateindicator@aegirxx.googlemail.com', 'new-apt-update-indicator@hamburgerjungejr', 'systemd-offline-update@swsnr.de', 'disconnect-wifi@kgshank.net', 'media-progress@krypion17', 'gnome-shell-trash-extension', 'mprisLabel@moon-0xff.github.com', 'gspotify@sogi.is-a.dev', 'apps@github.com.howbea', 'egg-timer@gregorriegler.com', 'custom-osd@neuromorph', 'quicknotes@dsabolo.github.io', 'right-click-next@derVedro', 'fq@megh', 'bettervolume@tudmotu.com', 'floating-mini-panel@ghi59.github.com', 'adaptive-brightness@dmy3k.github.io', 'rounded-window-corners@yilozt', 'batteryIcon@slim8916.github.io', 'gnome-ui-tune@itstime.tech', 'cronomix@zagortenay333', 'battery-indicator-icon@Deminder', 'BringOutSubmenuOfPowerOffLogoutButton@pratap.fastmail.fm', 'night-light-scroll@fthx', 'notification-banner-reloaded@marcinjakubowski.github.com', 'night-light-slider-updated@vilsbeg.codeberg.org', 'clipflow-pro@nickotmazgin.github.io', 'AlphabeticalAppGrid@stuarthayhurst', 'no-titlebar-when-maximized@alec.ninja', 'status-icons@gnome-shell-extensions.gcampax.github.com', 'simple-timer@majortomvr.github.com', 'bottom-dash-panel@fthx', 'add-to-desktop@tommimon.github.com', 'panelcolor@itsfernn', 'blur-my-shell@aunetx', 'dynamic-music-pill@andbal', 'pomodoro-timer@Oguzhankokulu.github.com', 'hide-keyboard-layout@sitnik.ru', 'restartto@tiagoporsch.github.io', 'mediaseekbar@carlosjdelgado', 'slider-percentages@imdarktom', 'trayIconsReloaded@selfmade.pl', 'avatar-quick-settings@github.leginreklaw', 'copyous@boerdereinar.dev', 'Bluetooth-Battery-Meter@maniacx.github.com', 'bluetooth-battery@michalw.github.com', 'sticky-notes-integration@joaocandre', 'active-app-indicator@morhenac', 'appindicatorsupport@rgcjonas.gmail.com', 'docker@stickman_0x00.com', 'modernclock@gnome-port', 'emoji-copy@felipeftn', 'custom-hot-corners-extended@G-dH.github.com', 'all-in-one-clipboard@NiffirgkcaJ.github.com', 'panelnote-extended@qomarhsn.com', 'globalmenu@ShiroOSL.github.io', 'wireless-hid@chlumskyvaclav.gmail.com', 'screenshort-cut@pauloimon', 'reboottouefi@ubaygd.com', 'fnlock-switch-tp-comp-usb-kb@goloshubov.github.io', 'rounded-window-corners@fxgn', 'weatherglass@vijaybala.dev', 'compact-quick-settings@gnome-shell-extensions.mariospr.org', 'gnome-transparent-windows@sonersg.com', 'show-desktop-button@amivaleo', 'places-menu@gnome-shell-extensions.gcampax.github.com', 'sanket@narkagni', 'dash-to-panel@jderose9.github.com', 'dash-to-dock@micxgx.gmail.com', 'window-control@carlo9890.github.io', 'nvidia-smi@nyndow.github.io', 'gnome-muzei-wallpaper@komfushee', 'window-padding@pvlamkhtn.github.io', 'todoit@wassimbj.github.io', 'password-generator@loginone', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'show-desktop-from-overview@linuxitos.local', 'restart-button@local']
+disabled-extensions=['notification-timeout@chlumskyvaclav.gmail.com', 'monitor@astraext.github.io', 'just_shows_memory_usage@troizet.github.com', 'snapd-prompting@canonical.com', 'applications-overview-tooltip@RaphaelRochet', 'hidetopbar@mathieu.bidon.ca', 'volume_scroller@francislavoie.github.io', 'aztaskbar@aztaskbar.gitlab.com', 'clipboard-indicator@tudmotu.com', 'mediacontrols@cliffniff.github.com', 'dropbeat@romanlefler.com', 'kiwi@kemma', 'pomodoro@zhuravkovigor.dev', 'focuslock@kavinda', 'clipmaster@gnome.extension', 'appgridbuttonintoppanel@raphaelian', 'timeFromStart@pic16f877ccs.github.com', 'mute-unmute@mcast.gnomext.com', '1440@ravener.github.com', 'vertical-app-grid@lublst.github.io', 'app-grid-tuner@m-lab', 'ding@rastersoft.com', 'dash2dock-lite@icedman.github.com', 'Rounded_Corners@lennart-k', 'day-progress@arcaege.github.io', 'pomodoro@youcefzaid.github.io', 'chronos@time-tracker.com', 'quickshutdownbutton@feelfree2useit.outlook.com', 'simple-taskbar@sultech', 'background-logo@fedorahosted.org', 'mirror@distro.com', 'brightness-step@sholehbaktiabadi.github.io', 'logout-in-power-menu@codegod100.github.io', 'one-thing@github.com', 'notedock@joquers.github.io', 'syncthing@gnome.2nv2u.com', 'notes-with-history@grizzlysmit.smit.id.au', 'rounded-windows@marcosgt.github.io', 'wellbeingtoggle@m51.io', 'wetter@mlkonrad.github.com', 'apps-menu@gnome-shell-extensions.gcampax.github.com', 'dynamic-music-pill@andbal', 'media-controller@naimur', 'awesome-media-controller@devduo-org']
+enabled-extensions=['launch-new-instance@gnome-shell-extensions.gcampax.github.com', 'just-perfection-desktop@just-perfection', 'Vitals@CoreCoding.com', 'update-extension@purejava.org', 'tweaks-system-menu@extensions.gnome-shell.fifi.org', 'transparent-window-moving@noobsai.github.com', 'tilingshell@ferrarodomenico.com', 'osd-volume-number@deminder', 'drive-menu@gnome-shell-extensions.gcampax.github.com', 'sound-percentage@subashghimire.info.np', 'quick-settings-tweaks@qwreey', 'open-desktop-location@laura.media', 'apt-update-indicator@franglais125.gmail.com', 'updateindicator@aegirxx.googlemail.com', 'new-apt-update-indicator@hamburgerjungejr', 'systemd-offline-update@swsnr.de', 'disconnect-wifi@kgshank.net', 'media-progress@krypion17', 'gnome-shell-trash-extension', 'mprisLabel@moon-0xff.github.com', 'gspotify@sogi.is-a.dev', 'apps@github.com.howbea', 'egg-timer@gregorriegler.com', 'custom-osd@neuromorph', 'quicknotes@dsabolo.github.io', 'right-click-next@derVedro', 'fq@megh', 'bettervolume@tudmotu.com', 'floating-mini-panel@ghi59.github.com', 'adaptive-brightness@dmy3k.github.io', 'rounded-window-corners@yilozt', 'batteryIcon@slim8916.github.io', 'gnome-ui-tune@itstime.tech', 'cronomix@zagortenay333', 'battery-indicator-icon@Deminder', 'BringOutSubmenuOfPowerOffLogoutButton@pratap.fastmail.fm', 'night-light-scroll@fthx', 'notification-banner-reloaded@marcinjakubowski.github.com', 'night-light-slider-updated@vilsbeg.codeberg.org', 'clipflow-pro@nickotmazgin.github.io', 'AlphabeticalAppGrid@stuarthayhurst', 'no-titlebar-when-maximized@alec.ninja', 'status-icons@gnome-shell-extensions.gcampax.github.com', 'simple-timer@majortomvr.github.com', 'bottom-dash-panel@fthx', 'add-to-desktop@tommimon.github.com', 'panelcolor@itsfernn', 'blur-my-shell@aunetx', 'pomodoro-timer@Oguzhankokulu.github.com', 'hide-keyboard-layout@sitnik.ru', 'restartto@tiagoporsch.github.io', 'mediaseekbar@carlosjdelgado', 'slider-percentages@imdarktom', 'trayIconsReloaded@selfmade.pl', 'avatar-quick-settings@github.leginreklaw', 'copyous@boerdereinar.dev', 'Bluetooth-Battery-Meter@maniacx.github.com', 'bluetooth-battery@michalw.github.com', 'sticky-notes-integration@joaocandre', 'active-app-indicator@morhenac', 'appindicatorsupport@rgcjonas.gmail.com', 'docker@stickman_0x00.com', 'modernclock@gnome-port', 'emoji-copy@felipeftn', 'custom-hot-corners-extended@G-dH.github.com', 'all-in-one-clipboard@NiffirgkcaJ.github.com', 'panelnote-extended@qomarhsn.com', 'globalmenu@ShiroOSL.github.io', 'wireless-hid@chlumskyvaclav.gmail.com', 'screenshort-cut@pauloimon', 'reboottouefi@ubaygd.com', 'fnlock-switch-tp-comp-usb-kb@goloshubov.github.io', 'rounded-window-corners@fxgn', 'weatherglass@vijaybala.dev', 'compact-quick-settings@gnome-shell-extensions.mariospr.org', 'gnome-transparent-windows@sonersg.com', 'show-desktop-button@amivaleo', 'places-menu@gnome-shell-extensions.gcampax.github.com', 'sanket@narkagni', 'dash-to-panel@jderose9.github.com', 'dash-to-dock@micxgx.gmail.com', 'window-control@carlo9890.github.io', 'nvidia-smi@nyndow.github.io', 'gnome-muzei-wallpaper@komfushee', 'window-padding@pvlamkhtn.github.io', 'todoit@wassimbj.github.io', 'password-generator@loginone', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'show-desktop-from-overview@linuxitos.local', 'restart-button@local', 'gtk4-ding@smedius.gitlab.com', 'advanced-media-controller@sanjai.com']
 favorite-apps=['net.nokyan.Resources.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.Ptyxis.desktop', 'com.microsoft.VSCode.desktop', 'google-chrome.desktop', 'brave-origin.desktop', 'helium.desktop', 'com.bitwarden.desktop.desktop', 'io.github.tanaybhomia.Whisp.desktop', 'org.gnome.TextEditor.desktop', 'libreoffice-writer.desktop', 'ticktick.desktop', 'co.hyprlab.Hylki.desktop', 'chrome-hnpfjngllnobngcgfapefoaidbinmjnm-Default.desktop', 'de.wwwtech.gitte.desktop', 'brave-hnpfjngllnobngcgfapefoaidbinmjnm-Default.desktop']
 last-selected-power-profile='power-saver'
 looking-glass-history=['ps -o pid,rss,cmd -C gnome-shell']
@@ -1318,6 +1321,23 @@ indicator-type=0
 level-indicator-custom-colors=['#ff7800', '#ff7800', '#15c931', '#15c931', '#15c931', '#15c931', '#15c931', '#15c931', '#15c931', '#15c931']
 popup-in-quick-settings=false
 swap-icon-text=false
+
+[org/gnome/shell/extensions/advanced-media-controller]
+immersive-cover=true
+panel-font-bold=true
+panel-icon-size=16
+panel-index=3
+panel-position='left'
+popup-width=330
+progress-bar-use-system-color=false
+progress-gif-enabled=false
+progress-gif-path=''
+progress-theme-id='default'
+progress-use-native-slider=false
+show-artist=false
+vinyl-app-disabled-ids=['spotify']
+vinyl-app-ids=@as []
+vinyl-app-instances=['{"id":"spotify","name":"Spotify","desktopId":"spotify","busName":"","enabled":false}']
 
 [org/gnome/shell/extensions/all-in-one-clipboard]
 clipboard-history-max-items=250
@@ -1385,7 +1405,9 @@ storage-main='eui.002538bc11b6e85b-part6'
 
 [org/gnome/shell/extensions/awesome-media-controller]
 accent-mode='adaptive'
-panel-position='right'
+enable-marquee=true
+panel-position='left'
+show-pill-controls=false
 theme-preset='crimson'
 
 [org/gnome/shell/extensions/aztaskbar]
@@ -1781,6 +1803,8 @@ logo='default'
 
 [org/gnome/shell/extensions/dynamic-music-pill]
 border-radius=25
+enable-blur-pill=false
+enable-blur-popup=false
 enable-lyrics=true
 enable-shadow=true
 enable-transparency=true
@@ -1795,8 +1819,9 @@ panel-pill-height=28
 panel-pill-width=250
 pill-dynamic-width=true
 pill-enable-word-level=true
-playback-history="[{\"title\":\"Deep learning Lecture 7: Logistic regression, a Torch approach\",\"artist\":\"Nando de Freitas\",\"artUrl\":\"file:///home/earth/.cache/dynamic-music-pill/art/hist_bc3d0d97e226637e83a7f5c7445ee9df.jpg\",\"time\":1792787877435,\"avgColor\":{\"r\":210,\"g\":209,\"b\":209}},{\"title\":\"Big update for Desktop Widgets! 🚀 New UI, smooth animations & liquid glass effect (Glassmorphism) : r/gnome\",\"artist\":\"\",\"artUrl\":\"file:///home/earth/.cache/dynamic-music-pill/art/hist_21695b75841b2d5b15b126e061bf6ffb.jpg\",\"time\":1792786557702,\"avgColor\":{\"r\":56,\"g\":56,\"b\":56}},{\"title\":\"Reddit - The heart of the internet\",\"artist\":\"\",\"artUrl\":\"\",\"time\":1792733752602,\"avgColor\":{\"r\":56,\"g\":56,\"b\":56}},{\"title\":\"r/popular\",\"artist\":\"\",\"artUrl\":\"file:///home/earth/.cache/dynamic-music-pill/art/hist_57eb8c49186cbb83263428209289b525.jpg\",\"time\":1792733595712,\"avgColor\":{\"r\":56,\"g\":56,\"b\":56}},{\"title\":\"A site is playing media\",\"artist\":\"\",\"artUrl\":\"file:///home/earth/.cache/dynamic-music-pill/art/hist_7a0f2012f1064a7ce6ee1f9437665240.jpg\",\"time\":1792702870607,\"avgColor\":{\"r\":86,\"g\":86,\"b\":86}},{\"title\":\"Linus Torvalds explains why he uses Fedora Linux. : r/Fedora\",\"artist\":\"\",\"artUrl\":\"file:///home/earth/.cache/dynamic-music-pill/art/hist_0d19ea23f5a4ff7ee18a7dc0fbffd076.jpg\",\"time\":1792672441403,\"avgColor\":{\"r\":120,\"g\":106,\"b\":72}},{\"title\":\"How to Create and Set Up a Cron Job in Linux | Automate Tasks with Crontab\",\"artist\":\"ProgrammingKnowledge\",\"artUrl\":\"file:///home/earth/.cache/dynamic-music-pill/art/hist_177490e045b0a06027a4cde57e407250.jpg\",\"time\":1792671978530,\"avgColor\":{\"r\":144,\"g\":61,\"b\":103}},{\"title\":\"Hosanna\",\"artist\":\"A.R. Rahman, Leon D'souza and Suzanne D'Mello\",\"artUrl\":\"file:///home/earth/.cache/dynamic-music-pill/art/hist_44c6c6e03bb449fa1d548a831131007a.jpg\",\"time\":1792668658672,\"avgColor\":{\"r\":191,\"g\":196,\"b\":181}},{\"title\":\"Linus Torvalds Had Strong Opinions About Fedora #shorts #linux #fedora #debian #distro\",\"artist\":\"WebKnower\",\"artUrl\":\"file:///home/earth/.cache/dynamic-music-pill/art/hist_c6963f538efda7996c6628f24a6e496a.jpg\",\"time\":1792667244850,\"avgColor\":{\"r\":83,\"g\":82,\"b\":82}},{\"title\":\"System Design One Shot Full Course\",\"artist\":\"Telusko\",\"artUrl\":\"file:///home/earth/.cache/dynamic-music-pill/art/hist_3325fe9d804d163f5bab08c558a1548e.jpg\",\"time\":1792662594449,\"avgColor\":{\"r\":24,\"g\":42,\"b\":60}},{\"title\":\"System Design Masterclass: 8 Patterns Behind High-Scale Distributed Systems\",\"artist\":\"Ops and Odds\",\"artUrl\":\"file:///home/earth/.cache/dynamic-music-pill/art/hist_f713917e9c2c4af33c47d2136598c76a.jpg\",\"time\":1792662332089,\"avgColor\":{\"r\":11,\"g\":26,\"b\":32}},{\"title\":\"Auto-Explore/GitComet: GitComet is fastest open source user interface for GIT workflows\",\"artist\":\"\",\"artUrl\":\"file:///home/earth/.cache/dynamic-music-pill/art/hist_07afc4613749984662f5d5ddc5b0156d.jpg\",\"time\":1792661400456,\"avgColor\":{\"r\":120,\"g\":106,\"b\":72}},{\"title\":\"A site is playing media\",\"artist\":\"\",\"artUrl\":\"file:///home/earth/.cache/dynamic-music-pill/art/hist_ca4dabf9a1ad1426cf4bd2a35a18997e.jpg\",\"time\":1792660579582,\"avgColor\":{\"r\":86,\"g\":86,\"b\":86}},{\"title\":\"System Design Masterclass: 8 Patterns Behind High-Scale Distributed Systems\",\"artist\":\"Ops and Odds\",\"artUrl\":\"file:///home/earth/.cache/dynamic-music-pill/art/hist_645c49d70445ab36c839687cd55c1e60.jpg\",\"time\":1792658694934,\"avgColor\":{\"r\":11,\"g\":26,\"b\":32}},{\"title\":\"Mi Amor\",\"artist\":\"40k\",\"artUrl\":\"file:///home/earth/.cache/dynamic-music-pill/art/hist_47b199763558dbff481e69fc9c2bc8df.jpg\",\"time\":1792658297282,\"avgColor\":{\"r\":181,\"g\":142,\"b\":139}},{\"title\":\"Kangana\",\"artist\":\"Abeer Arora\",\"artUrl\":\"file:///home/earth/.cache/dynamic-music-pill/art/hist_59b8587660344eeb074a0819355f7fac.jpg\",\"time\":1792658251802,\"avgColor\":{\"r\":85,\"g\":89,\"b\":96}},{\"title\":\"System Design Masterclass: 8 Patterns Behind High-Scale Distributed Systems\",\"artist\":\"Ops and Odds\",\"artUrl\":\"file:///home/earth/.cache/dynamic-music-pill/art/hist_2558ffe093b9361efe294bef74854852.jpg\",\"time\":1792658014178,\"avgColor\":{\"r\":10,\"g\":26,\"b\":34}},{\"title\":\"A studio for your mind | Capacities\",\"artist\":\"\",\"artUrl\":\"file:///home/earth/.cache/dynamic-music-pill/art/hist_4d330b8e83fc36e998bd6cf1bca5050e.jpg\",\"time\":1792657668452,\"avgColor\":{\"r\":120,\"g\":106,\"b\":72}},{\"title\":\"Kangana\",\"artist\":\"Abeer Arora\",\"artUrl\":\"file:///home/earth/.cache/dynamic-music-pill/art/hist_59b8587660344eeb074a0819355f7fac.jpg\",\"time\":1792500929702,\"avgColor\":{\"r\":85,\"g\":89,\"b\":96}},{\"title\":\"LAAVAN\",\"artist\":\"Jasmine Sandlas\",\"artUrl\":\"file:///home/earth/.cache/dynamic-music-pill/art/hist_36ea432be12179b5026006df891fda96.jpg\",\"time\":1792500928203,\"avgColor\":{\"r\":61,\"g\":28,\"b\":24}},{\"title\":\"Cheques\",\"artist\":\"Shubh\",\"artUrl\":\"file:///home/earth/.cache/dynamic-music-pill/art/hist_adc476349896736a576840dcb1794fd4.jpg\",\"time\":1792500926992,\"avgColor\":{\"r\":148,\"g\":146,\"b\":132}},{\"title\":\"Summer High\",\"artist\":\"AP Dhillon\",\"artUrl\":\"file:///home/earth/.cache/dynamic-music-pill/art/hist_7b89180f3db419b855d651498a0ac8df.jpg\",\"time\":1792500925610,\"avgColor\":{\"r\":164,\"g\":104,\"b\":39}},{\"title\":\"Kafka\",\"artist\":\"Amrinder Gill\",\"artUrl\":\"file:///home/earth/.cache/dynamic-music-pill/art/hist_28dc0694b357318e1587cac232e0d118.jpg\",\"time\":1792500924495,\"avgColor\":{\"r\":186,\"g\":184,\"b\":184}},{\"title\":\"Admirin' You (feat. Preston Pablo)\",\"artist\":\"Karan Aujla\",\"artUrl\":\"file:///home/earth/.cache/dynamic-music-pill/art/hist_30638dd6bdab72022ee7655647afc7d6.jpg\",\"time\":1792500916129,\"avgColor\":{\"r\":93,\"g\":76,\"b\":77}},{\"title\":\"SPAIN - Extended Version\",\"artist\":\"Jassa Dhillon\",\"artUrl\":\"file:///home/earth/.cache/dynamic-music-pill/art/hist_e4eace716e728713075bd298bc5e01d2.jpg\",\"time\":1792500859817,\"avgColor\":{\"r\":46,\"g\":43,\"b\":37}},{\"title\":\"Jaguar\",\"artist\":\"Sukh-E Muzical Doctorz\",\"artUrl\":\"file:///home/earth/.cache/dynamic-music-pill/art/hist_3cb36526ae812fe4c3a3d2272fbb96fb.jpg\",\"time\":1792500854879,\"avgColor\":{\"r\":48,\"g\":38,\"b\":33}},{\"title\":\"Mera Mann\",\"artist\":\"Juss\",\"artUrl\":\"file:///home/earth/.cache/dynamic-music-pill/art/hist_21862d808b61efa44996911d9f7559c8.jpg\",\"time\":1792500853166,\"avgColor\":{\"r\":167,\"g\":113,\"b\":56}},{\"title\":\"Ik Tera\",\"artist\":\"Maninder Buttar\",\"artUrl\":\"file:///home/earth/.cache/dynamic-music-pill/art/hist_095634e96635dc80ff2135e82d171246.jpg\",\"time\":1792500848123,\"avgColor\":{\"r\":74,\"g\":71,\"b\":41}},{\"title\":\"Brown Rang\",\"artist\":\"Yo Yo Honey Singh\",\"artUrl\":\"file:///home/earth/.cache/dynamic-music-pill/art/hist_00291d2d3833c930ef3be0fa3c426ab8.jpg\",\"time\":1792500843286,\"avgColor\":{\"r\":47,\"g\":36,\"b\":35}},{\"title\":\"Majboor\",\"artist\":\"Sheheryar Rehan\",\"artUrl\":\"file:///home/earth/.cache/dynamic-music-pill/art/hist_24050578680961a1b1f0e5fbe6122d4d.jpg\",\"time\":1792500841802,\"avgColor\":{\"r\":98,\"g\":74,\"b\":71}}]"
+playback-history="[{\"title\":\"One Love\",\"artist\":\"Shubh\",\"artUrl\":\"file:///home/earth/.cache/dynamic-music-pill/art/hist_f763c400355f776cb195a0f3c8719fe5.jpg\",\"time\":1792879542598,\"avgColor\":{\"r\":130,\"g\":110,\"b\":90}},{\"title\":\"With You\",\"artist\":\"AP Dhillon\",\"artUrl\":\"file:///home/earth/.cache/dynamic-music-pill/art/hist_f952a649b0a3e2c425db40d91f321f16.jpg\",\"time\":1792879541719,\"avgColor\":{\"r\":86,\"g\":110,\"b\":113}},{\"title\":\"Mi Amor\",\"artist\":\"40k\",\"artUrl\":\"file:///home/earth/.cache/dynamic-music-pill/art/hist_47b199763558dbff481e69fc9c2bc8df.jpg\",\"time\":1792879388144,\"avgColor\":{\"r\":181,\"g\":142,\"b\":139}},{\"title\":\"How do you keep your system architecture up to date as the team and codebase grow? : r/softwarearchitecture\",\"artist\":\"\",\"artUrl\":\"file:///home/earth/.cache/dynamic-music-pill/art/hist_548e47bb4fb77468e7543abc06821baa.jpg\",\"time\":1792879000816,\"avgColor\":{\"r\":56,\"g\":56,\"b\":56}},{\"title\":\"When you date a sugar mommy👀💀 #comedyshorts #youtubeshorts\",\"artist\":\"udit rajput shorts\",\"artUrl\":\"file:///home/earth/.cache/dynamic-music-pill/art/hist_fe8d079e790968331ae6c3876792618c.jpg\",\"time\":1792878749121,\"avgColor\":{\"r\":106,\"g\":87,\"b\":75}},{\"title\":\"Tuto : r/NoteTaking\",\"artist\":\"\",\"artUrl\":\"file:///home/earth/.cache/dynamic-music-pill/art/hist_0a4f8106c95c0d3aa254b2bcf3934188.jpg\",\"time\":1792878347821,\"avgColor\":{\"r\":56,\"g\":56,\"b\":56}},{\"title\":\"GPU Rendering Test on Breadstick Linux on Intel Lenovo Googlebook\",\"artist\":\"Keith I Myers\",\"artUrl\":\"file:///home/earth/.cache/dynamic-music-pill/art/hist_9bd109ace6bc97a7f170f059bb836b92.jpg\",\"time\":1792876883559,\"avgColor\":{\"r\":211,\"g\":202,\"b\":198}},{\"title\":\"Deep learning Lecture 7: Logistic regression, a Torch approach\",\"artist\":\"Nando de Freitas\",\"artUrl\":\"file:///home/earth/.cache/dynamic-music-pill/art/hist_bc3d0d97e226637e83a7f5c7445ee9df.jpg\",\"time\":1792787877435,\"avgColor\":{\"r\":210,\"g\":209,\"b\":209}},{\"title\":\"Big update for Desktop Widgets! 🚀 New UI, smooth animations & liquid glass effect (Glassmorphism) : r/gnome\",\"artist\":\"\",\"artUrl\":\"file:///home/earth/.cache/dynamic-music-pill/art/hist_21695b75841b2d5b15b126e061bf6ffb.jpg\",\"time\":1792786557702,\"avgColor\":{\"r\":56,\"g\":56,\"b\":56}},{\"title\":\"Reddit - The heart of the internet\",\"artist\":\"\",\"artUrl\":\"\",\"time\":1792733752602,\"avgColor\":{\"r\":56,\"g\":56,\"b\":56}},{\"title\":\"r/popular\",\"artist\":\"\",\"artUrl\":\"file:///home/earth/.cache/dynamic-music-pill/art/hist_57eb8c49186cbb83263428209289b525.jpg\",\"time\":1792733595712,\"avgColor\":{\"r\":56,\"g\":56,\"b\":56}},{\"title\":\"A site is playing media\",\"artist\":\"\",\"artUrl\":\"file:///home/earth/.cache/dynamic-music-pill/art/hist_7a0f2012f1064a7ce6ee1f9437665240.jpg\",\"time\":1792702870607,\"avgColor\":{\"r\":86,\"g\":86,\"b\":86}},{\"title\":\"Linus Torvalds explains why he uses Fedora Linux. : r/Fedora\",\"artist\":\"\",\"artUrl\":\"file:///home/earth/.cache/dynamic-music-pill/art/hist_0d19ea23f5a4ff7ee18a7dc0fbffd076.jpg\",\"time\":1792672441403,\"avgColor\":{\"r\":120,\"g\":106,\"b\":72}},{\"title\":\"How to Create and Set Up a Cron Job in Linux | Automate Tasks with Crontab\",\"artist\":\"ProgrammingKnowledge\",\"artUrl\":\"file:///home/earth/.cache/dynamic-music-pill/art/hist_177490e045b0a06027a4cde57e407250.jpg\",\"time\":1792671978530,\"avgColor\":{\"r\":144,\"g\":61,\"b\":103}},{\"title\":\"Hosanna\",\"artist\":\"A.R. Rahman, Leon D'souza and Suzanne D'Mello\",\"artUrl\":\"file:///home/earth/.cache/dynamic-music-pill/art/hist_44c6c6e03bb449fa1d548a831131007a.jpg\",\"time\":1792668658672,\"avgColor\":{\"r\":191,\"g\":196,\"b\":181}},{\"title\":\"Linus Torvalds Had Strong Opinions About Fedora #shorts #linux #fedora #debian #distro\",\"artist\":\"WebKnower\",\"artUrl\":\"file:///home/earth/.cache/dynamic-music-pill/art/hist_c6963f538efda7996c6628f24a6e496a.jpg\",\"time\":1792667244850,\"avgColor\":{\"r\":83,\"g\":82,\"b\":82}},{\"title\":\"System Design One Shot Full Course\",\"artist\":\"Telusko\",\"artUrl\":\"file:///home/earth/.cache/dynamic-music-pill/art/hist_3325fe9d804d163f5bab08c558a1548e.jpg\",\"time\":1792662594449,\"avgColor\":{\"r\":24,\"g\":42,\"b\":60}},{\"title\":\"System Design Masterclass: 8 Patterns Behind High-Scale Distributed Systems\",\"artist\":\"Ops and Odds\",\"artUrl\":\"file:///home/earth/.cache/dynamic-music-pill/art/hist_f713917e9c2c4af33c47d2136598c76a.jpg\",\"time\":1792662332089,\"avgColor\":{\"r\":11,\"g\":26,\"b\":32}},{\"title\":\"Auto-Explore/GitComet: GitComet is fastest open source user interface for GIT workflows\",\"artist\":\"\",\"artUrl\":\"file:///home/earth/.cache/dynamic-music-pill/art/hist_07afc4613749984662f5d5ddc5b0156d.jpg\",\"time\":1792661400456,\"avgColor\":{\"r\":120,\"g\":106,\"b\":72}},{\"title\":\"A site is playing media\",\"artist\":\"\",\"artUrl\":\"file:///home/earth/.cache/dynamic-music-pill/art/hist_ca4dabf9a1ad1426cf4bd2a35a18997e.jpg\",\"time\":1792660579582,\"avgColor\":{\"r\":86,\"g\":86,\"b\":86}},{\"title\":\"System Design Masterclass: 8 Patterns Behind High-Scale Distributed Systems\",\"artist\":\"Ops and Odds\",\"artUrl\":\"file:///home/earth/.cache/dynamic-music-pill/art/hist_645c49d70445ab36c839687cd55c1e60.jpg\",\"time\":1792658694934,\"avgColor\":{\"r\":11,\"g\":26,\"b\":32}},{\"title\":\"Mi Amor\",\"artist\":\"40k\",\"artUrl\":\"file:///home/earth/.cache/dynamic-music-pill/art/hist_47b199763558dbff481e69fc9c2bc8df.jpg\",\"time\":1792658297282,\"avgColor\":{\"r\":181,\"g\":142,\"b\":139}},{\"title\":\"Kangana\",\"artist\":\"Abeer Arora\",\"artUrl\":\"file:///home/earth/.cache/dynamic-music-pill/art/hist_59b8587660344eeb074a0819355f7fac.jpg\",\"time\":1792658251802,\"avgColor\":{\"r\":85,\"g\":89,\"b\":96}},{\"title\":\"System Design Masterclass: 8 Patterns Behind High-Scale Distributed Systems\",\"artist\":\"Ops and Odds\",\"artUrl\":\"file:///home/earth/.cache/dynamic-music-pill/art/hist_2558ffe093b9361efe294bef74854852.jpg\",\"time\":1792658014178,\"avgColor\":{\"r\":10,\"g\":26,\"b\":34}},{\"title\":\"A studio for your mind | Capacities\",\"artist\":\"\",\"artUrl\":\"file:///home/earth/.cache/dynamic-music-pill/art/hist_4d330b8e83fc36e998bd6cf1bca5050e.jpg\",\"time\":1792657668452,\"avgColor\":{\"r\":120,\"g\":106,\"b\":72}},{\"title\":\"Kangana\",\"artist\":\"Abeer Arora\",\"artUrl\":\"file:///home/earth/.cache/dynamic-music-pill/art/hist_59b8587660344eeb074a0819355f7fac.jpg\",\"time\":1792500929702,\"avgColor\":{\"r\":85,\"g\":89,\"b\":96}},{\"title\":\"LAAVAN\",\"artist\":\"Jasmine Sandlas\",\"artUrl\":\"file:///home/earth/.cache/dynamic-music-pill/art/hist_36ea432be12179b5026006df891fda96.jpg\",\"time\":1792500928203,\"avgColor\":{\"r\":61,\"g\":28,\"b\":24}},{\"title\":\"Cheques\",\"artist\":\"Shubh\",\"artUrl\":\"file:///home/earth/.cache/dynamic-music-pill/art/hist_adc476349896736a576840dcb1794fd4.jpg\",\"time\":1792500926992,\"avgColor\":{\"r\":148,\"g\":146,\"b\":132}},{\"title\":\"Summer High\",\"artist\":\"AP Dhillon\",\"artUrl\":\"file:///home/earth/.cache/dynamic-music-pill/art/hist_7b89180f3db419b855d651498a0ac8df.jpg\",\"time\":1792500925610,\"avgColor\":{\"r\":164,\"g\":104,\"b\":39}},{\"title\":\"Kafka\",\"artist\":\"Amrinder Gill\",\"artUrl\":\"file:///home/earth/.cache/dynamic-music-pill/art/hist_28dc0694b357318e1587cac232e0d118.jpg\",\"time\":1792500924495,\"avgColor\":{\"r\":186,\"g\":184,\"b\":184}}]"
 popup-custom-width=360
+popup-follow-transparency=false
 popup-show-album-title=false
 popup-show-player-selector=false
 popup-show-visualizer=false
@@ -1814,7 +1839,7 @@ show-pill-border=false
 sync-accent-color=false
 tablet-mode=0
 target-container=1
-transparency-art=false
+transparency-art=true
 transparency-strength=75
 transparency-text=false
 transparency-vis=false
@@ -1847,6 +1872,11 @@ increase-thumbnails-size='200%'
 artwork-themed-ui=true
 panel-position=2
 show-info-tip=true
+
+[org/gnome/shell/extensions/gtk4-ding]
+free-position-icons=false
+icon-size='tiny'
+show-desktop-widgets=true
 
 [org/gnome/shell/extensions/hidetopbar]
 hot-corner=true
@@ -1889,6 +1919,15 @@ show-window-controls=false
 
 [org/gnome/shell/extensions/lennart-k/rounded_corners]
 corner-radius=11
+
+[org/gnome/shell/extensions/media-controller]
+card-art-backdrop=true
+card-art-size='medium'
+controls-on-left=true
+last-announced-version='3.2'
+lyrics-height=200
+lyrics-online-lookup=true
+panel-text-width=100
 
 [org/gnome/shell/extensions/mediacontrols]
 colored-player-icon=true
@@ -2134,7 +2173,7 @@ last-version-name-installed='17.0'
 layouts-json='[{"id":"Layout 1","tiles":[{"x":0,"y":0,"width":0.22,"height":0.5,"groups":[1,2]},{"x":0,"y":0.5,"width":0.22,"height":0.5,"groups":[1,2]},{"x":0.22,"y":0,"width":0.56,"height":1,"groups":[2,3]},{"x":0.78,"y":0,"width":0.22,"height":0.5,"groups":[3,4]},{"x":0.78,"y":0.5,"width":0.22,"height":0.5,"groups":[3,4]}]},{"id":"Layout 2","tiles":[{"x":0,"y":0,"width":0.22,"height":1,"groups":[1]},{"x":0.22,"y":0,"width":0.56,"height":1,"groups":[1,2]},{"x":0.78,"y":0,"width":0.22,"height":1,"groups":[2]}]},{"id":"Layout 3","tiles":[{"x":0,"y":0,"width":0.33,"height":1,"groups":[1]},{"x":0.33,"y":0,"width":0.67,"height":1,"groups":[1]}]},{"id":"Layout 4","tiles":[{"x":0,"y":0,"width":0.67,"height":1,"groups":[1]},{"x":0.67,"y":0,"width":0.33,"height":1,"groups":[1]}]},{"id":"1130647","tiles":[{"x":0,"y":0,"width":0.3333333333333333,"height":1,"groups":[1]},{"x":0.3333333333333333,"y":0,"width":0.3333333333333333,"height":1,"groups":[2,1]},{"x":0.6666666666666666,"y":0,"width":0.3333333333333344,"height":1,"groups":[2]}]},{"id":"1188443","tiles":[{"x":0,"y":0,"width":0.5,"height":1,"groups":[1]},{"x":0.5,"y":0,"width":0.49999999999999994,"height":1,"groups":[1]}]}]'
 outer-gaps=uint32 0
 overridden-settings='{"org.gnome.mutter.keybindings":{"toggle-tiled-right":"@as []","toggle-tiled-left":"@as []"},"org.gnome.desktop.wm.keybindings":{"maximize":"@as []","unmaximize":"@as []"},"org.gnome.mutter":{"edge-tiling":"false"}}'
-selected-layouts=[['Layout 1'], ['Layout 1']]
+selected-layouts=[['Layout 1'], ['Layout 1'], ['Layout 1']]
 show-indicator=false
 snap-assistant-threshold=25
 window-border-color='rgb(192,191,188)'
@@ -2148,7 +2187,7 @@ timer-enabled=false
 without-downtime=true
 
 [org/gnome/shell/extensions/todoit]
-todos=['{\n  "name": "Setup CI/CD / Cron jobs for Gnome-config-backup",\n  "isDone": false,\n  "isFocused": true\n}', '{"name":"Coursera catalogue filtering","isDone":false}', '{"name":"DSA-Practice repo brush-up","isDone":false}', '{"name":"Pytest Udemy course","isDone":false}', '{"name":"C++ STL course","isDone":false}']
+todos=['{"name":"Coursera catalogue filtering","isDone":false}', '{"name":"DSA-Practice repo brush-up","isDone":false}', '{"name":"Pytest Udemy course","isDone":false}', '{"name":"C++ STL course","isDone":false}', '{"name":"Setup cron jobs","isDone":false}']
 
 [org/gnome/shell/extensions/transparent-window-moving]
 transition-time=0.75
@@ -2192,8 +2231,8 @@ invert-scroll=true
 auto-location=true
 condition-strip='icons'
 hour-format='24h'
-live-night=false
-live-scene='partly'
+live-night=true
+live-scene='moon'
 menu-style='animated'
 text-emboss=false
 
@@ -2304,8 +2343,8 @@ show-extensions-notice=false
 font-adjustment=2
 
 [org/gtk/gtk4/settings/color-chooser]
-custom-colors=[(0.92549020051956177, 0.36862745881080627, 0.36862745881080627, 1.0), (0.5, 0.5, 0.5, 1.0)]
-selected-color=(true, 1.0, 1.0, 1.0, 1.0)
+custom-colors=[(0.19215686619281769, 0.90196079015731812, 1.0, 1.0), (0.92549020051956177, 0.36862745881080627, 0.36862745881080627, 1.0), (0.5, 0.5, 0.5, 1.0)]
+selected-color=(true, 0.75294119119644165, 0.74901962280273438, 0.73725491762161255, 1.0)
 
 [org/gtk/gtk4/settings/file-chooser]
 date-format='regular'
