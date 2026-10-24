@@ -443,15 +443,6 @@ show-desktop-from-overview@linuxitos.local
   Enabled: Yes
   State: ACTIVE
 
-restart-button@local
-  Name: Restart Button
-  Description: Adds a restart button to the top bar. Clicking it shows the standard system confirmation dialog before restarting the computer.
-  Path: /home/earth/.local/share/gnome-shell/extensions/restart-button@local
-  URL: https://github.com/davichus1303/GNOME_Reboot_button
-  Version: 2
-  Enabled: Yes
-  State: ACTIVE
-
 sanket@narkagni
   Name: Sanket
   Description: A floating notification island below Quick Settings with pinned notifications, Quick Settings toggles that morph into circles, and a cleaner calendar with world clocks and animated weather.

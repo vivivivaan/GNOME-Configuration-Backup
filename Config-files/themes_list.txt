@@ -9,9 +9,6 @@ Mignon-pastel-dark
 MacTahoe-Dark-alt-blue-nord
 MacTahoe-Dark-alt-blue-nord-hdpi
 MacTahoe-Dark-alt-blue-nord-xhdpi
-MacTahoe-Dark-solid-alt-blue-nord
-MacTahoe-Dark-solid-alt-blue-nord-hdpi
-MacTahoe-Dark-solid-alt-blue-nord-xhdpi
 
 /usr/local/share/icons/:
 MacOS-Pixel-Dark
@@ -22,9 +19,6 @@ default-pure
 MacTahoe-Dark-alt-blue-nord
 MacTahoe-Dark-alt-blue-nord-hdpi
 MacTahoe-Dark-alt-blue-nord-xhdpi
-MacTahoe-Dark-solid-alt-blue-nord
-MacTahoe-Dark-solid-alt-blue-nord-hdpi
-MacTahoe-Dark-solid-alt-blue-nord-xhdpi
 
 /usr/share/icons/:
 Adwaita
