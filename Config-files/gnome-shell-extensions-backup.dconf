@@ -882,8 +882,8 @@ invert-scroll=true
 auto-location=true
 condition-strip='icons'
 hour-format='24h'
-live-night=true
-live-scene='cloud'
+live-night=false
+live-scene='partly'
 menu-style='animated'
 text-emboss=false
 
