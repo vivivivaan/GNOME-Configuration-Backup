@@ -14,7 +14,7 @@ user-theme@gnome-shell-extensions.gcampax.github.com
   URL: https://gitlab.gnome.org/GNOME/gnome-shell-extensions
   Version: 50.4 (79)
   Enabled: Yes
-  State: ERROR
+  State: ACTIVE
 
 drive-menu@gnome-shell-extensions.gcampax.github.com
   Name: Removable Drive Menu
@@ -282,15 +282,6 @@ Requires Ambient Light Sensor (ALS) hardware support. Check the extension's home
   Enabled: Yes
   State: ACTIVE
 
-dynamic-music-pill@andbal
-  Name: Dynamic Music Pill
-  Description: An elegant, pill-shaped music player for your desktop. Features a smooth audio visualizer, scrolling text, and seamless integration with Dash-to-Dock and the Top Panel. Comes with a Pop-Up menu as well.
-  Path: /home/earth/.local/share/gnome-shell/extensions/dynamic-music-pill@andbal
-  URL: https://github.com/Andbal23/dynamic-music-pill
-  Version: 1.5.0 (52)
-  Enabled: No
-  State: INACTIVE
-
 slider-percentages@imdarktom
   Name: Slider Percentages
   Description: Adds percentage labels next to the various sliders/bars throughout the GNOME interface.
@@ -384,7 +375,7 @@ No accounts, no tracking, no analytics: weather requests go straight from your m
 Demo: https://github.com/vijaybala-lang/weatherglass/releases/download/v8/weatherglass-demo-card.mp4
   Path: /home/earth/.local/share/gnome-shell/extensions/weatherglass@vijaybala.dev
   URL: https://github.com/vijaybala-lang/weatherglass
-  Version: 18
+  Version: 19
   Enabled: Yes
   State: ACTIVE
 
@@ -452,6 +443,22 @@ sanket@narkagni
   Enabled: Yes
   State: ACTIVE
 
+advanced-media-controller@sanjai.com
+  Name: Advanced Media Controller
+  Description: Media controls for the GNOME Shell panel. Works with any MPRIS player (Spotify, VLC, Rhythmbox, browsers) and lets you switch between several players from tabs in the popup.
+
+* Play, pause, skip, shuffle and repeat
+* Track and artist in the panel with a scrolling label
+* Optional vinyl record effect on the album art, set per app (double-click the art)
+* Time-synced lyrics fetched from lrclib.net (single-click the art)
+* Seekable progress slider with selectable themes
+* Panel label font, colour and element order settings
+  Path: /home/earth/.local/share/gnome-shell/extensions/advanced-media-controller@sanjai.com
+  URL: https://codeberg.org/sanjai-shaarugesh/Advanced-media-controller
+  Version: 6.6 (44)
+  Enabled: Yes
+  State: ACTIVE
+
 apps-menu@gnome-shell-extensions.gcampax.github.com
   Name: Apps Menu
   Description: Add a category-based menu for apps.
@@ -500,19 +507,3 @@ This extension is part of Classic Mode and is officially supported by GNOME. Ple
   Version: 50.4
   Enabled: No
   State: INITIALIZED
-
-advanced-media-controller@sanjai.com
-  Name: Advanced Media Controller
-  Description: Media controls for the GNOME Shell panel. Works with any MPRIS player (Spotify, VLC, Rhythmbox, browsers) and lets you switch between several players from tabs in the popup.
-
-* Play, pause, skip, shuffle and repeat
-* Track and artist in the panel with a scrolling label
-* Optional vinyl record effect on the album art, set per app (double-click the art)
-* Time-synced lyrics fetched from lrclib.net (single-click the art)
-* Seekable progress slider with selectable themes
-* Panel label font, colour and element order settings
-  Path: /home/earth/.local/share/gnome-shell/extensions/advanced-media-controller@sanjai.com
-  URL: https://codeberg.org/sanjai-shaarugesh/Advanced-media-controller
-  Version: 6.6 (44)
-  Enabled: Yes
-  State: ACTIVE
