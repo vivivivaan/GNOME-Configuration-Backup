@@ -42,7 +42,7 @@ ls ~/.local/share/themes/ \
    /usr/share/icons/ > "$BACKUP_DIR/themes_list.txt" 2>/dev/null
 
 # Grub Config
-sudo cat /etc/default/grub > "$BACKUP_DIR/grub-defaults.backup"
+cat /etc/default/grub > "$BACKUP_DIR/grub-defaults.backup"
 
 echo "Backup completed. Files saved in $BACKUP_DIR.📁"
 
