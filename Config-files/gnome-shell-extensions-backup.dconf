@@ -420,6 +420,7 @@ window-preview-use-custom-icon-size=false
 
 [dash2dock-lite]
 animation-bounce=0.65000000000000002
+animation-bounce-height=0.75
 animation-fps=0
 animation-magnify=0.0
 animation-rise=0.40000000000000002
@@ -427,6 +428,7 @@ animation-spread=0.25
 apps-icon-front=false
 autohide-dash=true
 autohide-speed=1.0
+background-color=(0.0, 0.0, 0.0, 1.0)
 blur-background=true
 blur-resolution=3
 border-radius=8.0
@@ -440,6 +442,7 @@ dock-padding=1.0
 downloads-icon=false
 downloads-icon-rotate-labels=false
 edge-distance=1.0
+favorites-only=false
 hide-labels=true
 icon-border-radius=3.0
 icon-effect=0
@@ -449,9 +452,12 @@ icon-size=0.0
 icon-spacing=0.0
 items-pullout-angle=0.5
 label-border-radius=6.0
+lamp-app-animation=false
 max-recent-items=1
 msg-to-ext=''
+multi-monitor-preference=1
 notification-badge-style=1
+open-app-animation=false
 overview-transparent-background=true
 overview-transparent-topbar-background=false
 panel-mode=false
@@ -484,6 +490,15 @@ start-corner='top-left'
 
 [disconnect-wifi]
 show-reconnect-always=true
+
+[dock-window-preview]
+hover-delay-ms=90
+preview-height=120
+preview-width=220
+show-close-button=true
+
+[docka]
+dock-autohide=true
 
 [docker]
 logo='default'
@@ -769,40 +784,35 @@ compact-mode='demand'
 notification-layout='merged'
 toggle-order=['NMWiredToggle:0', 'NMWirelessToggle:0', 'NMModemToggle:0', 'NMBluetoothToggle:0', 'NMVpnToggle:0', 'BluetoothToggle:0', 'DarkModeToggle:0', 'PowerProfilesToggle:0', 'DoNotDisturbToggle:0', 'NightLightToggle:0', 'KeyboardBrightnessToggle:0', 'RfkillToggle:0', 'RotationToggle:0', 'BackgroundAppsToggle:0']
 
+[shell-recent-opened]
+dash-pinned=true
+recent-apps=['com.mattjakeman.ExtensionManager.desktop', 'brave-origin.desktop', 'google-chrome.desktop', 'co.hyprlab.Hylki.desktop', 'org.gnome.Nautilus.desktop']
+
 [show-desktop-button]
 hover-delay=375
 indicator-position='CENTER_LEFT'
 
 [simple-taskbar]
-activities-button-visible=true
+active-panel-axis='horizontal'
+active-panel-mode='taskbar'
 advanced-settings-enabled=false
-app-alignment='center'
-clock-position='right'
 default-gnome-panel=false
-gnome-start-button-visible=true
-grid-alt-tab-max-card-size=200
-hot-edge-overview-enabled=false
-icon-size=35
-icon-spacing=4
-multi-monitor-panels=true
-panel-autohide-enabled=true
-panel-border-enabled=false
-panel-button-padding=-1
-panel-height=52
+panel-axis-profiles-initialized=true
+panel-mode-profiles-initialized=true
 panel-position='bottom'
-panel-theme='dark'
-panel-theme-follow-system=true
-start-button-padding=4
-start-button-position='center'
+panel-profile-transition=false
 start-menu-displaced-overlay-key=@as []
 start-menu-displaced-switch-applications=@as []
-system-menu-position='right'
-task-manager-app='net.nokyan.Resources.desktop'
-taskbar-locked=false
-transparency-enabled=true
-transparency-level=25
-windows-start-menu-enabled=true
-workspace-scroll-delay=5
+taskbar-horizontal-settings=@a{sv} {}
+taskbar-horizontal-settings-saved=true
+taskbar-mode-settings=@a{sv} {}
+taskbar-mode-settings-saved=true
+windows-10-theme-enabled=false
+windows-xp-theme-enabled=false
+
+[simple-taskbar/dock]
+blur-my-shell-dock-mode='dock'
+dock-mode=false
 
 [simple_timer]
 last-timer-input='0:10'
@@ -880,7 +890,7 @@ timer-enabled=false
 without-downtime=true
 
 [todoit]
-todos=['{"name":"Coursera catalogue filtering","isDone":false}', '{"name":"DSA-Practice repo brush-up","isDone":false}', '{"name":"Pytest Udemy course","isDone":false}', '{"name":"C++ STL course","isDone":false}', '{"name":"Setup cron jobs","isDone":false}']
+todos=['{"name":"Coursera catalogue filtering","isDone":false}', '{"name":"Pytest Udemy course","isDone":false}', '{"name":"devops project","isDone":false}', '{"name":"scikit learn and keras projects","isDone":false}']
 
 [transparent-window-moving]
 transition-time=0.75
@@ -924,8 +934,8 @@ invert-scroll=true
 auto-location=true
 condition-strip='icons'
 hour-format='24h'
-live-night=true
-live-scene='moon'
+live-night=false
+live-scene='cloud'
 menu-style='animated'
 text-emboss=false
 

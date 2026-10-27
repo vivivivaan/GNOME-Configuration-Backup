@@ -14,7 +14,7 @@ user-theme@gnome-shell-extensions.gcampax.github.com
   URL: https://gitlab.gnome.org/GNOME/gnome-shell-extensions
   Version: 50.4 (79)
   Enabled: Yes
-  State: ACTIVE
+  State: ERROR
 
 drive-menu@gnome-shell-extensions.gcampax.github.com
   Name: Removable Drive Menu
@@ -456,6 +456,15 @@ advanced-media-controller@sanjai.com
   Path: /home/earth/.local/share/gnome-shell/extensions/advanced-media-controller@sanjai.com
   URL: https://codeberg.org/sanjai-shaarugesh/Advanced-media-controller
   Version: 6.6 (44)
+  Enabled: Yes
+  State: ACTIVE
+
+dock-window-preview@quivio
+  Name: Dock Window Preview
+  Description: Preview open windows by hovering a dock icon and activate a window by selecting the preview.
+  Path: /home/earth/.local/share/gnome-shell/extensions/dock-window-preview@quivio
+  URL: https://github.com/teerprah/dock-window-preview
+  Version: 6
   Enabled: Yes
   State: ACTIVE
 
