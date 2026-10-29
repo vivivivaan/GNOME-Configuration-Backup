@@ -19,10 +19,11 @@ abattis-cantarell-vf-fonts
 adobe-source-code-pro-fonts
 adwaita-mono-fonts
 adwaita-sans-fonts
+dejavu-sans-fonts
+dejavu-sans-mono-fonts
+dejavu-serif-fonts
 gdouros-symbola
 gnu-free
-google-carlito-fonts
-google-crosextra-caladea-fonts
 google-droid-sans-fonts
 google-noto
 google-noto-color-emoji-fonts
@@ -34,6 +35,7 @@ google-noto-vf
 jomolhari-fonts
 julietaula-montserrat-fonts
 liberation-mono-fonts
+liberation-narrow
 liberation-sans-fonts
 liberation-serif-fonts
 madan-fonts
