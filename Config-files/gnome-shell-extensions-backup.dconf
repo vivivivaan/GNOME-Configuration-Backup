@@ -491,6 +491,12 @@ show-elapsed=true
 style=2
 width=16
 
+[desktop-world-clocks]
+font-family='Everyday Sans'
+font-size=14
+position='bottom-right'
+text-opacity=50
+
 [ding]
 arrangeorder='KIND'
 check-x11wayland=true
@@ -639,6 +645,9 @@ show-window-controls=false
 
 [lennart-k/rounded_corners]
 corner-radius=11
+
+[mantel]
+autohide=false
 
 [media-controller]
 card-art-backdrop=true
@@ -791,7 +800,7 @@ unfocused-shadow={'verticalOffset': 2, 'horizontalOffset': 0, 'blurOffset': 12, 
 [sanket]
 calendar-layout='wide'
 clock-style='compact'
-compact-expanded=false
+compact-expanded=true
 compact-layout='double'
 compact-mode='demand'
 notification-layout='merged'
@@ -903,7 +912,7 @@ timer-enabled=false
 without-downtime=true
 
 [todoit]
-todos=['{"name":"Coursera catalogue filtering","isDone":false}', '{"name":"Pytest Udemy course","isDone":false}', '{"name":"devops project","isDone":false}', '{"name":"scikit learn and keras projects","isDone":false}', '{"name":"sort through raindrop.io bookmarks","isDone":false}', '{"name":"Gemini Conversation saved in Google Docs on NHS Machine Learning Projects","isDone":false}']
+todos=['{"name":"Coursera catalogue filtering","isDone":false}', '{"name":"sort through raindrop.io bookmarks","isDone":false}', '{"name":"Gemini Conversation saved in Google Docs on NHS Machine Learning Projects","isDone":false}', '{"name":"NHS Saved Jobs","isDone":false}']
 
 [transparent-window-moving]
 transition-time=0.75
