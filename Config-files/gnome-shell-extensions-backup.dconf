@@ -1,6 +1,6 @@
 [Bluetooth-Battery-Meter]
 circle-widget-custom-colors=['#ff7800', '#ff7800', '#15c931', '#15c931', '#15c931', '#15c931', '#15c931', '#15c931', '#15c931', '#15c931']
-device-list=['{"path":"/org/bluez/hci0/dev_DA_91_B5_F8_27_51","icon":"audio-headset","alias":"ALT Clip","paired":true,"battery-reported":true,"qs-level":true,"indicator-mode":2,"enhanced-device":null,"connected-time":1792360779,"disconnected-time":1792364559}', '{"path":"/org/bluez/hci0/dev_D5_31_73_16_C7_39","icon":"audio-headset","alias":"A90 Pro","paired":true,"battery-reported":true,"qs-level":true,"indicator-mode":2,"enhanced-device":null,"connected-time":1789196936,"disconnected-time":1789197477}']
+device-list=['{"path":"/org/bluez/hci0/dev_DA_91_B5_F8_27_51","icon":"audio-headset","alias":"ALT Clip","paired":false,"battery-reported":true,"qs-level":true,"indicator-mode":2,"enhanced-device":null,"connected-time":1792360779,"disconnected-time":1792364559}', '{"path":"/org/bluez/hci0/dev_D5_31_73_16_C7_39","icon":"audio-headset","alias":"A90 Pro","paired":true,"battery-reported":true,"qs-level":true,"indicator-mode":2,"enhanced-device":null,"connected-time":1789196936,"disconnected-time":1789197477}']
 enable-battery-level-icon=true
 enable-battery-level-text=true
 hide-bluetooth-indicator=0
@@ -126,9 +126,9 @@ status-style='circle'
 devices=['{"name":"5B10W13958","mac":"2688"}', '{"name":"ALT Clip","mac":"DA:91:B5:F8:27:51"}']
 
 [blur-my-shell]
-pipelines={'pipeline_default': {'name': <'Default'>, 'effects': <[<{'type': <'dual_kawase_blur'>, 'id': <'effect_000000000000'>, 'params': <{'unscaled_radius': <30>, 'brightness': <0.59999999999999998>}>}>]>}, 'pipeline_default_rounded': {'name': <'Default rounded'>, 'effects': <[<{'type': <'dual_kawase_blur'>, 'id': <'effect_000000000001'>, 'params': <{'unscaled_radius': <0>, 'brightness': <1>}>}>]>}, 'pipeline_migrated_dynamic_blur': {'name': <'Migrated dynamic blur'>, 'effects': <[<{'type': <'dual_kawase_blur'>, 'id': <'effect_migrated_dynamic_blur'>, 'params': <{'unscaled_radius': <60>, 'brightness': <0.84999999999999998>}>}>]>}, 'pipeline_migrated_dynamic_blur_2': {'name': <'Migrated dynamic blur 2'>, 'effects': <[<{'type': <'dual_kawase_blur'>, 'id': <'effect_migrated_dynamic_blur'>, 'params': <{'unscaled_radius': <0>, 'brightness': <0.75>}>}>]>}, 'pipeline_migrated_dynamic_blur_3': {'name': <'Migrated dynamic blur 3'>, 'effects': <[<{'type': <'dual_kawase_blur'>, 'id': <'effect_migrated_dynamic_blur'>, 'params': <{'unscaled_radius': <100>, 'brightness': <1>}>}>]>}, 'pipeline_migrated_dynamic_blur_4': {'name': <'Migrated dynamic blur 4'>, 'effects': <[<{'type': <'dual_kawase_blur'>, 'id': <'effect_migrated_dynamic_blur'>, 'params': <{'unscaled_radius': <60>, 'brightness': <0.59999999999999998>}>}>]>}}
+pipelines={'pipeline_default': {'name': <'Default'>, 'effects': <[<{'type': <'dual_kawase_blur'>, 'id': <'effect_000000000000'>, 'params': <{'unscaled_radius': <30>, 'brightness': <0.59999999999999998>}>}>]>}, 'pipeline_default_rounded': {'name': <'Default rounded'>, 'effects': <[<{'type': <'dual_kawase_blur'>, 'id': <'effect_000000000001'>, 'params': <{'unscaled_radius': <0>, 'brightness': <1>}>}>]>}, 'pipeline_migrated_dynamic_blur': {'name': <'Migrated dynamic blur'>, 'effects': <[<{'type': <'dual_kawase_blur'>, 'id': <'effect_migrated_dynamic_blur'>, 'params': <{'unscaled_radius': <60>, 'brightness': <0.84999999999999998>}>}>]>}, 'pipeline_migrated_dynamic_blur_2': {'name': <'Migrated dynamic blur 2'>, 'effects': <[<{'type': <'dual_kawase_blur'>, 'id': <'effect_migrated_dynamic_blur'>, 'params': <{'unscaled_radius': <0>, 'brightness': <0.75>}>}>]>}, 'pipeline_migrated_dynamic_blur_3': {'name': <'Migrated dynamic blur 3'>, 'effects': <[<{'type': <'dual_kawase_blur'>, 'id': <'effect_migrated_dynamic_blur'>, 'params': <{'unscaled_radius': <100>, 'brightness': <1>}>}>]>}, 'pipeline_migrated_dynamic_blur_4': {'name': <'Migrated dynamic blur 4'>, 'effects': <[<{'type': <'dual_kawase_blur'>, 'id': <'effect_migrated_dynamic_blur'>, 'params': <{'unscaled_radius': <60>, 'brightness': <0.59999999999999998>}>}>]>}, 'pipeline_liquid_glass': {'name': <'Liquid Glass'>, 'effects': <[<{'type': <'luminosity'>, 'id': <'effect_liquid_glass_luminosity'>, 'params': <{'saturation_multiplicator': <1.1000000000000001>}>}>, <{'type': <'refraction'>, 'id': <'effect_liquid_glass_refraction'>, 'params': <{'tint': <0>}>}>, <{'type': <'noise'>, 'id': <'effect_liquid_glass_noise'>, 'params': <{'noise': <0.10000000000000001>}>}>]>}, 'pipeline_vapor_glass': {'name': <'Vapor Glass'>, 'effects': <[<{'type': <'luminosity'>, 'id': <'effect_vapor_glass_luminosity'>, 'params': <{'saturation_multiplicator': <1.1000000000000001>}>}>, <{'type': <'wave'>, 'id': <'effect_vapor_glass_wave'>, 'params': <@a{sv} {}>}>, <{'type': <'refraction'>, 'id': <'effect_vapor_glass_refraction'>, 'params': <{'tint': <0>}>}>, <{'type': <'noise'>, 'id': <'effect_vapor_glass_noise'>, 'params': <{'noise': <0.10000000000000001>}>}>]>}, 'pipeline_classic_light_background': {'name': <'Classic Light Background'>, 'effects': <[<{'type': <'dual_kawase_blur'>, 'id': <'effect_classic_light_blur'>, 'params': <{'unscaled_radius': <30>, 'brightness': <0.59999999999999998>}>}>, <{'type': <'color'>, 'id': <'effect_classic_light_color'>, 'params': <{'color': <(1.0, 1.0, 1.0, 0.25)>, 'blend_mode': <17>}>}>]>}, 'pipeline_classic_dark_background': {'name': <'Classic Dark Background'>, 'effects': <[<{'type': <'dual_kawase_blur'>, 'id': <'effect_classic_dark_blur'>, 'params': <{'unscaled_radius': <30>, 'brightness': <0.59999999999999998>}>}>, <{'type': <'color'>, 'id': <'effect_classic_dark_color'>, 'params': <{'color': <(0.40000000000000002, 0.40000000000000002, 0.40000000000000002, 0.34999999999999998)>, 'blend_mode': <17>}>}>]>}}
 rounded-blur-found=true
-settings-version=7
+settings-version=8
 
 [blur-my-shell/appfolder]
 blur=true
@@ -315,7 +315,7 @@ custom-theme-running-dots-border-color='rgb(255,255,255)'
 custom-theme-running-dots-color='rgb(255,255,255)'
 custom-theme-shrink=false
 customize-alphas=true
-dash-max-icon-size=40
+dash-max-icon-size=42
 disable-overview-on-startup=true
 dock-fixed=false
 dock-position='BOTTOM'
@@ -326,6 +326,7 @@ icon-size-fixed=true
 intellihide=true
 intellihide-mode='FOCUS_APPLICATION_WINDOWS'
 max-alpha=0.0
+middle-click-action='launch'
 min-alpha=0.0
 multi-monitor=true
 preferred-monitor=-2
@@ -336,6 +337,8 @@ running-indicator-dominant-color=false
 running-indicator-style='DOT'
 scroll-action='cycle-windows'
 scroll-to-focused-application=true
+shift-click-action='minimize'
+shift-middle-click-action='launch'
 show-apps-at-top=false
 show-mounts=false
 show-mounts-network=false
@@ -449,6 +452,7 @@ clock-icon=false
 clock-style=0
 customize-label=true
 customize-topbar=false
+debug-visual=false
 disable-blur-at-overview=false
 dock-padding=1.0
 downloads-icon=false
@@ -469,7 +473,7 @@ max-recent-items=1
 msg-to-ext=''
 multi-monitor-preference=1
 notification-badge-style=1
-open-app-animation=false
+open-app-animation=true
 overview-transparent-background=true
 overview-transparent-topbar-background=false
 panel-mode=false
@@ -521,6 +525,11 @@ dock-autohide=true
 [docker]
 logo='default'
 menu-type='text'
+
+[drop-to-shell]
+host-tray-icons=true
+pane=false
+pane-width=524
 
 [dynamic-music-pill]
 border-radius=25
@@ -586,6 +595,38 @@ notify=true
 applications=['{"id":"Jn3RuSMD7R30","appId":"com.microsoft.VSCode.desktop","name":"Visual Studio Code","icon":"vscode","pinned":false,"multipleFiles":true,"multipleFolders":true,"packageType":"Native","mimeTypes":["application/x-code-workspace"],"enable":true}']
 settings-version=uint32 2
 submenu=true
+
+[glean]
+entries-shown=10
+expire-days=0
+history-size=250
+image-hours=72
+insert-shortcut=['<Super>c']
+
+[glidedock]
+blur-brightness=1.0
+blur-sigma=30
+corner-radius=40
+dock-opacity=0.0
+dock-padding=9
+enable-blur=false
+hide-delay=250
+icon-size=40
+icon-spacing=8
+intellihide=true
+show-delay=80
+
+[glyphous]
+database-backend='sqlite'
+disable-hljs-dialog=false
+history-length=250
+incognito=false
+send-notification=true
+show-at-cursor=true
+show-scrollbar=true
+sound='none'
+sync-primary=true
+volume=0.0
 
 [gnome-muzei-wallpaper]
 blur-wallpaper=true
@@ -780,6 +821,10 @@ system-items-layout-hide=true
 weather-enabled=false
 weather-remove-shadow=false
 
+[quicknotes]
+enable-tabs=true
+tab-definitions='[{"id":"1","title":"Notes","color":"#808080","type":"text"},{"id":"2","title":"Tasks","color":"#3584e4","type":"tasks"}]'
+
 [quickshutdown]
 use-red-style=false
 
@@ -800,7 +845,7 @@ unfocused-shadow={'verticalOffset': 2, 'horizontalOffset': 0, 'blurOffset': 12, 
 [sanket]
 calendar-layout='wide'
 clock-style='compact'
-compact-expanded=true
+compact-expanded=false
 compact-layout='double'
 compact-mode='demand'
 notification-layout='merged'
@@ -952,14 +997,28 @@ show-voltage=false
 [volume-scroller]
 invert-scroll=true
 
+[weather-prime]
+location-auto=false
+location-latitude=17.384049999999998
+location-longitude=78.456360000000004
+location-name='Hyderabad, Telangana, India'
+panel-position='center'
+temperature-unit='celsius'
+
 [weatherglass]
 auto-location=true
 condition-strip='icons'
 hour-format='24h'
-live-night=true
-live-scene='moon'
+live-night=false
+live-scene='cloud'
 menu-style='animated'
 text-emboss=false
+
+[weatherpanel]
+actual-city=0
+city='[]'
+disable-forecast=true
+position-in-panel='center'
 
 [wetter]
 actual-city=0

@@ -14,7 +14,7 @@ user-theme@gnome-shell-extensions.gcampax.github.com
   URL: https://gitlab.gnome.org/GNOME/gnome-shell-extensions
   Version: 50.4 (79)
   Enabled: Yes
-  State: ERROR
+  State: ACTIVE
 
 drive-menu@gnome-shell-extensions.gcampax.github.com
   Name: Removable Drive Menu
@@ -66,14 +66,10 @@ blur-my-shell@aunetx
   Name: Blur my Shell
   Description: Adds a blur look to different parts of GNOME Shell, including the top panel, dash and overview.
 
-You can support my work by sponsoring me on:
-- GitHub: https://github.com/sponsors/aunetx
-- Ko-fi: https://ko-fi.com/aunetx
-
 Note: if the extension shows an error after updating, restart your session to see whether it persists. This is due to a GNOME Shell bug that the extension cannot work around.
   Path: /home/earth/.local/share/gnome-shell/extensions/blur-my-shell@aunetx
   URL: https://github.com/aunetx/blur-my-shell
-  Version: 76
+  Version: 77
   Enabled: Yes
   State: ACTIVE
 
@@ -228,24 +224,6 @@ hide-keyboard-layout@sitnik.ru
   Enabled: Yes
   State: ACTIVE
 
-all-in-one-clipboard@NiffirgkcaJ.github.com
-  Name: All-in-One Clipboard
-  Description: A powerful clipboard manager that combines your clipboard history, emojis, GIFs, kaomojis, and symbols into a single, searchable interface.
-
-External Services:
-• Klipy & Tenor - GIF search and browsing
-• Google S2 Favicons - Favicon fallback for URLs
-• Cloudflare Workers - API key storage
-
-Extension Homepage:
-https://github.com/NiffirgkcaJ/all-in-one-clipboard
-https://gitlab.com/NiffirgkcaJ/all-in-one-clipboard
-  Path: /home/earth/.local/share/gnome-shell/extensions/all-in-one-clipboard@NiffirgkcaJ.github.com
-  URL: https://github.com/NiffirgkcaJ/all-in-one-clipboard
-  Version: 31
-  Enabled: Yes
-  State: ACTIVE
-
 disconnect-wifi@kgshank.net
   Name: Disconnect Wifi
   Description: Adds a Disconnect option for Wifi in status menu, when a network is connected. Shows a Reconnect option, after network is disconnected.
@@ -287,7 +265,7 @@ slider-percentages@imdarktom
   Description: Adds percentage labels next to the various sliders/bars throughout the GNOME interface.
   Path: /home/earth/.local/share/gnome-shell/extensions/slider-percentages@imdarktom
   URL: https://github.com/ImDarkTom/slider-percentages-gnome
-  Version: 2
+  Version: 3
   Enabled: Yes
   State: ACTIVE
 
@@ -399,7 +377,7 @@ IMPORTANT: the D-Bus interface has no access control. Any application in your se
 wctl is a separate download and is not installed with this extension. Get it and the full documentation from the project page.
   Path: /home/earth/.local/share/gnome-shell/extensions/window-control@carlo9890.github.io
   URL: https://github.com/carlo9890/gnome-window-control
-  Version: 19 (7)
+  Version: 20 (8)
   Enabled: Yes
   State: ACTIVE
 
@@ -473,12 +451,57 @@ dock-window-preview@quivio
   Enabled: Yes
   State: ACTIVE
 
-Move_Clock@rmy.pobox.com
-  Name: Frippery Move Clock
-  Description: Move clock to left of status menu button
-  Path: /home/earth/.local/share/gnome-shell/extensions/Move_Clock@rmy.pobox.com
-  URL: http://frippery.org/extensions
-  Version: 36
+mantel@jith.github.io
+  Name: Mantel
+  Description: Numbered workspaces in the top bar, a top bar that gets out of the way, and windows tiled as they open. Use any of them, or all three.
+
+WORKSPACE NUMBERS
+See which workspace you are on at a glance, instead of counting dots.
+• Click a number to switch to that workspace
+• Super+1 to Super+0 jumps straight there, and creates the workspace if it does not exist yet. Workspaces added that way close again once they are empty and you have left them
+• The workspace switcher popup no longer appears, since the top bar already shows where you are
+
+AUTO-HIDE THE TOP BAR
+The bar stays visible while nothing is in its way, and slides away when a window needs the room. Push the pointer against the top edge of the screen to bring it back. It stays put in the overview and while a menu is open.
+
+While auto-hide is on, windows use the full height of the screen and the bar floats above them, so nothing resizes when you peek at the clock.
+
+AUTO-TILING (off by default)
+Windows are laid out as they open, in the style of Hyprland's dwindle layout: each new window splits the focused one, and closing a window gives its space back. Focus follows the mouse, and keys move focus, swap, resize, float and maximize windows; both can be changed. Small utility apps open floating, and the list can be edited. The layout comes back as it was when the screen is unlocked.
+
+While auto-tiling is on, the minimize and maximize buttons and edge tiling are switched off, since they would take a window out of the layout, and given back when it is turned off.
+
+Each feature can be turned off individually in Preferences.
+  Path: /home/earth/.local/share/gnome-shell/extensions/mantel@jith.github.io
+  URL: https://github.com/jith/mantel
+  Version: 2.3 (8)
+  Enabled: Yes
+  State: ACTIVE
+
+glyphous@supsugam.github.com
+  Name: Glyphous
+  Description: All-in-one clipboard manager, emoji picker, and character map for GNOME
+  Path: /home/earth/.local/share/gnome-shell/extensions/glyphous@supsugam.github.com
+  URL: https://github.com/supSugam/glyphous
+  Version: 1.0.5.HEAD
+  Enabled: No
+  State: INACTIVE
+
+drop-to-shell@gunwald.gitlab.com
+  Name: Drop to Shell
+  Description: Replace GNOME's top-bar dropdowns with larger views: Quick Settings as a persistent, resizable side pane, and the clock as a Today page in the overview.
+  Path: /home/earth/.local/share/gnome-shell/extensions/drop-to-shell@gunwald.gitlab.com
+  URL: https://gitlab.com/gunwald/drop-to-shell
+  Version: 1
+  Enabled: Yes
+  State: ACTIVE
+
+glean@gunwald.gitlab.com
+  Name: Glean
+  Description: Keep a history of what you copy and select, and quick notes, a click away. Records both the clipboard and the selection pasted with the middle button, and keeps them across locking and restarts. With Drop to Shell it has a drawer in the pane.
+  Path: /home/earth/.local/share/gnome-shell/extensions/glean@gunwald.gitlab.com
+  URL: https://gitlab.com/gunwald/glean
+  Version: 1.2
   Enabled: Yes
   State: ACTIVE
 
@@ -489,8 +512,8 @@ This extension is part of Classic Mode and is officially supported by GNOME. Ple
   Path: /usr/share/gnome-shell/extensions/apps-menu@gnome-shell-extensions.gcampax.github.com
   URL: https://gitlab.gnome.org/GNOME/gnome-shell-extensions
   Version: 50.4
-  Enabled: No
-  State: INITIALIZED
+  Enabled: Yes
+  State: ACTIVE
 
 background-logo@fedorahosted.org
   Name: Background Logo
@@ -530,30 +553,3 @@ This extension is part of Classic Mode and is officially supported by GNOME. Ple
   Version: 50.4
   Enabled: No
   State: INITIALIZED
-
-mantel@jith.github.io
-  Name: Mantel
-  Description: Numbered workspaces in the top bar, a top bar that gets out of the way, and windows tiled as they open. Use any of them, or all three.
-
-WORKSPACE NUMBERS
-See which workspace you are on at a glance, instead of counting dots.
-• Click a number to switch to that workspace
-• Super+1 to Super+0 jumps straight there, and creates the workspace if it does not exist yet. Workspaces added that way close again once they are empty and you have left them
-• The workspace switcher popup no longer appears, since the top bar already shows where you are
-
-AUTO-HIDE THE TOP BAR
-The bar stays visible while nothing is in its way, and slides away when a window needs the room. Push the pointer against the top edge of the screen to bring it back. It stays put in the overview and while a menu is open.
-
-While auto-hide is on, windows use the full height of the screen and the bar floats above them, so nothing resizes when you peek at the clock.
-
-AUTO-TILING (off by default)
-Windows are laid out as they open, in the style of Hyprland's dwindle layout: each new window splits the focused one, and closing a window gives its space back. Focus follows the mouse, and keys move focus, swap, resize, float and maximize windows; both can be changed. Small utility apps open floating, and the list can be edited. The layout comes back as it was when the screen is unlocked.
-
-While auto-tiling is on, the minimize and maximize buttons and edge tiling are switched off, since they would take a window out of the layout, and given back when it is turned off.
-
-Each feature can be turned off individually in Preferences.
-  Path: /home/earth/.local/share/gnome-shell/extensions/mantel@jith.github.io
-  URL: https://github.com/jith/mantel
-  Version: 2.3 (8)
-  Enabled: Yes
-  State: ACTIVE
