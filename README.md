@@ -231,9 +231,7 @@ alias usrcur="cd ~/.local/share/icons/"
 
 ## Desktop
 
-<video controls width="100%"> 
-  <source src="./Screenshots/Desktop/Screencast From 2026-11-03 01-31-42.mp4" type="video/mp4">
-</video>
+![](./Screenshots/Desktop/ScreencastFrom2026-11-0301-31-42.gif)
 
 ## Extensions
 
