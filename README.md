@@ -227,21 +227,21 @@ alias syscur="cd /usr/share/icons/"
 alias usrcur="cd ~/.local/share/icons/"
 ```
 
-# Screenshots
+# Visuals
 
 ## Desktop
 
-![](./Screenshots/Desktop/01.png)
-![](./Screenshots/Desktop/02.png)
-![](./Screenshots/Desktop/03.png)
-![](./Screenshots/Desktop/04.png)
-![](./Screenshots/Desktop/05.png)
-![](./Screenshots/Desktop/06.png)
-![](./Screenshots/Desktop/07.png)
-
+<video controls width="100%"> 
+  <source src="./Screenshots/Desktop/Screencast From 2026-11-03 01-31-42.mp4" type="video/mp4">
+</video>
 
 ## Extensions
 
-![](./Screenshots/Extensions/01_Ext_Mgr.png)
-![](./Screenshots/Extensions/02_Ext_Mgr.png)
-![](./Screenshots/Extensions/03_Ext_Mgr.png)
+![](./Screenshots/Extensions/01.png)
+![](./Screenshots/Extensions/02.png)
+![](./Screenshots/Extensions/03.png)
+
+### Extensions unavailable in [Gnome Extensions](extensions.gnome.org)
+- [Glyphous Clipboard](https://github.com/supSugam/glyphous.git)
+- [Drop To Shell](https://gitlab.com/gunwald/drop-to-shell.git)
+- [Glean Clipboard](https://gitlab.com/gunwald/glean.git)
