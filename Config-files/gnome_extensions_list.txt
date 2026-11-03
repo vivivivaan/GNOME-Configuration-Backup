@@ -404,7 +404,7 @@ password-generator@loginone
   Description: Generate strong, customizable passwords directly from the GNOME panel. Left-click copies a password to clipboard; right-click opens settings (length, charsets, exclude ambiguous chars). This extension accesses the clipboard.
   Path: /home/earth/.local/share/gnome-shell/extensions/password-generator@loginone
   URL: https://github.com/loginone33/Gnome-Password-Generator-Extension
-  Version: 3
+  Version: 4
   Enabled: Yes
   State: ACTIVE
 
@@ -485,7 +485,7 @@ glyphous@supsugam.github.com
   URL: https://github.com/supSugam/glyphous
   Version: 1.0.5.HEAD
   Enabled: No
-  State: INACTIVE
+  State: INITIALIZED
 
 drop-to-shell@gunwald.gitlab.com
   Name: Drop to Shell
@@ -512,8 +512,8 @@ This extension is part of Classic Mode and is officially supported by GNOME. Ple
   Path: /usr/share/gnome-shell/extensions/apps-menu@gnome-shell-extensions.gcampax.github.com
   URL: https://gitlab.gnome.org/GNOME/gnome-shell-extensions
   Version: 50.4
-  Enabled: Yes
-  State: ACTIVE
+  Enabled: No
+  State: INACTIVE
 
 background-logo@fedorahosted.org
   Name: Background Logo
@@ -553,3 +553,16 @@ This extension is part of Classic Mode and is officially supported by GNOME. Ple
   Version: 50.4
   Enabled: No
   State: INITIALIZED
+
+global-menu@unmade.space
+  Name: Global Menu
+  Description: A menu bar for GNOME. The focused application's menus appear in the top panel.
+
+It tries three sources in order: the menu the application exports over D-Bus, then a curated menu that fires the application's own keyboard shortcuts, then a generic window and system menu.
+
+Reading a menu an application exports needs the companion global-menu daemon, installed separately.
+  Path: /home/earth/.local/share/gnome-shell/extensions/global-menu@unmade.space
+  URL: https://github.com/Unmade760/orbit-global-menu
+  Version: 1.1.4 (5)
+  Enabled: Yes
+  State: ACTIVE
