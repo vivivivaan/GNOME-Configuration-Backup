@@ -206,7 +206,7 @@ cursor-shape='underline'
 default-columns=uint32 150
 default-profile-uuid='f2934b33b5178457f29b4e8068d611e4'
 default-rows=uint32 40
-font-name='RobotoMono Nerd Font Mono 11'
+font-name='RobotoMono Nerd Font 11'
 interface-style='system'
 new-tab-position='next'
 profile-uuids=['f2934b33b5178457f29b4e8068d611e4']
@@ -1016,7 +1016,7 @@ show-delete-permanently=true
 [org/gnome/nautilus/window-state]
 initial-size=(1307, 845)
 initial-size-file-chooser=(1232, 774)
-maximized=true
+maximized=false
 
 [org/gnome/nm-applet/eap/16bf7481-6b91-4cea-abc0-242279568b55]
 ignore-ca-cert=false
