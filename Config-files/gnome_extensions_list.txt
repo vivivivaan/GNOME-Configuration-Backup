@@ -493,8 +493,8 @@ drop-to-shell@gunwald.gitlab.com
   Path: /home/earth/.local/share/gnome-shell/extensions/drop-to-shell@gunwald.gitlab.com
   URL: https://gitlab.com/gunwald/drop-to-shell
   Version: 1
-  Enabled: Yes
-  State: ACTIVE
+  Enabled: No
+  State: INITIALIZED
 
 glean@gunwald.gitlab.com
   Name: Glean
@@ -505,6 +505,19 @@ glean@gunwald.gitlab.com
   Enabled: Yes
   State: ACTIVE
 
+global-menu@unmade.space
+  Name: Global Menu
+  Description: A menu bar for GNOME. The focused application's menus appear in the top panel.
+
+It tries three sources in order: the menu the application exports over D-Bus, then a curated menu that fires the application's own keyboard shortcuts, then a generic window and system menu.
+
+Reading a menu an application exports needs the companion global-menu daemon, installed separately.
+  Path: /home/earth/.local/share/gnome-shell/extensions/global-menu@unmade.space
+  URL: https://github.com/Unmade760/orbit-global-menu
+  Version: 1.1.4 (5)
+  Enabled: No
+  State: INITIALIZED
+
 apps-menu@gnome-shell-extensions.gcampax.github.com
   Name: Apps Menu
   Description: Add a category-based menu for apps.
@@ -513,7 +526,7 @@ This extension is part of Classic Mode and is officially supported by GNOME. Ple
   URL: https://gitlab.gnome.org/GNOME/gnome-shell-extensions
   Version: 50.4
   Enabled: No
-  State: INACTIVE
+  State: INITIALIZED
 
 background-logo@fedorahosted.org
   Name: Background Logo
@@ -553,16 +566,3 @@ This extension is part of Classic Mode and is officially supported by GNOME. Ple
   Version: 50.4
   Enabled: No
   State: INITIALIZED
-
-global-menu@unmade.space
-  Name: Global Menu
-  Description: A menu bar for GNOME. The focused application's menus appear in the top panel.
-
-It tries three sources in order: the menu the application exports over D-Bus, then a curated menu that fires the application's own keyboard shortcuts, then a generic window and system menu.
-
-Reading a menu an application exports needs the companion global-menu daemon, installed separately.
-  Path: /home/earth/.local/share/gnome-shell/extensions/global-menu@unmade.space
-  URL: https://github.com/Unmade760/orbit-global-menu
-  Version: 1.1.4 (5)
-  Enabled: Yes
-  State: ACTIVE

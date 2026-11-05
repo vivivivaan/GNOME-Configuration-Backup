@@ -2,9 +2,11 @@
 CodeNewRoman
 EverydaySans Desktop_OTF
 EverydaySans WebFonts
+Monaspace
 
 /usr/local/share/fonts/truetype:
 arial
+Be_Vietnam_Pro
 DaddyTimeMono
 Google_Sans
 JetBrainsMono
