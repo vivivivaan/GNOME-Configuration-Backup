@@ -515,8 +515,8 @@ Reading a menu an application exports needs the companion global-menu daemon, in
   Path: /home/earth/.local/share/gnome-shell/extensions/global-menu@unmade.space
   URL: https://github.com/Unmade760/orbit-global-menu
   Version: 1.1.4 (5)
-  Enabled: No
-  State: INITIALIZED
+  Enabled: Yes
+  State: ACTIVE
 
 apps-menu@gnome-shell-extensions.gcampax.github.com
   Name: Apps Menu

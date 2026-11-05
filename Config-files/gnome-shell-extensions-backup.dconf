@@ -621,6 +621,8 @@ blur-popups=false
 button-spacing=8
 enable-fallback-menu=false
 menu-font-size=9
+popup-corner-radius=15
+popup-opacity=85
 
 [glyphous]
 database-backend='sqlite'
