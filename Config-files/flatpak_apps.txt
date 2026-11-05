@@ -5,6 +5,7 @@ com.logseq.Logseq
 com.mattjakeman.ExtensionManager
 com.notesnook.Notesnook
 de.wwwtech.gitte
+io.github.anil_e.Codd
 io.github.flattool.Warehouse
 io.github.quantum_mutnauq.pictures_converter_gtk
 io.github.realmazharhussain.GdmSettings
