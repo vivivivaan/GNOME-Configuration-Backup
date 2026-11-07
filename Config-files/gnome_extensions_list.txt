@@ -14,7 +14,7 @@ user-theme@gnome-shell-extensions.gcampax.github.com
   URL: https://gitlab.gnome.org/GNOME/gnome-shell-extensions
   Version: 50.4 (79)
   Enabled: Yes
-  State: ACTIVE
+  State: ERROR
 
 drive-menu@gnome-shell-extensions.gcampax.github.com
   Name: Removable Drive Menu
@@ -31,8 +31,8 @@ osd-volume-number@deminder
   Path: /home/earth/.local/share/gnome-shell/extensions/osd-volume-number@deminder
   URL: https://github.com/Deminder/osd-volume-number
   Version: 14
-  Enabled: Yes
-  State: ACTIVE
+  Enabled: No
+  State: INITIALIZED
 
 AlphabeticalAppGrid@stuarthayhurst
   Name: Alphabetical App Grid
@@ -80,7 +80,7 @@ Click the toolbar button, then choose the window you want to force quit.
 On accidental click, right click anywhere or press [Esc] to abort the kill.
   Path: /home/earth/.local/share/gnome-shell/extensions/fq@megh
   URL: https://github.com/meghprkh/force-quit/
-  Version: 47
+  Version: 48
   Enabled: Yes
   State: ACTIVE
 
@@ -358,7 +358,7 @@ No accounts, no tracking, no analytics: weather requests go straight from your m
 Demo: https://github.com/vijaybala-lang/weatherglass/releases/download/v8/weatherglass-demo-card.mp4
   Path: /home/earth/.local/share/gnome-shell/extensions/weatherglass@vijaybala.dev
   URL: https://github.com/vijaybala-lang/weatherglass
-  Version: 22
+  Version: 23
   Enabled: Yes
   State: ACTIVE
 
@@ -515,8 +515,28 @@ Reading a menu an application exports needs the companion global-menu daemon, in
   Path: /home/earth/.local/share/gnome-shell/extensions/global-menu@unmade.space
   URL: https://github.com/Unmade760/orbit-global-menu
   Version: 1.1.4 (5)
+  Enabled: No
+  State: INITIALIZED
+
+wifi-gen-badge@ponez.github.io
+  Name: Wi-Fi Generation Badge
+  Description: Shows the Wi-Fi generation (4, 5, 6, 6E, 7) as a small badge on the top bar Wi-Fi icon, the one in the system menu, not a separate indicator.
+
+The generation comes from the link modulation reported by `iw` (HT, VHT, HE, EHT), so `iw` has to be installed.
+  Path: /home/earth/.local/share/gnome-shell/extensions/wifi-gen-badge@ponez.github.io
+  URL: https://github.com/ponez/wifi-gen-badge
+  Version: 1.1 (2)
   Enabled: Yes
   State: ACTIVE
+
+zclock@lorens
+  Name: zclock
+  Description: Gnome clock extension with smooth UI/UX
+  Path: /home/earth/.local/share/gnome-shell/extensions/zclock@lorens
+  URL: https://github.com/lorens-osman-dev/zclock
+  Version: 3
+  Enabled: No
+  State: INITIALIZED
 
 apps-menu@gnome-shell-extensions.gcampax.github.com
   Name: Apps Menu

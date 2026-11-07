@@ -853,7 +853,7 @@ unfocused-shadow={'verticalOffset': 2, 'horizontalOffset': 0, 'blurOffset': 12, 
 [sanket]
 calendar-layout='wide'
 clock-style='compact'
-compact-expanded=false
+compact-expanded=true
 compact-layout='double'
 compact-mode='demand'
 notification-layout='merged'
@@ -1018,7 +1018,7 @@ auto-location=true
 condition-strip='icons'
 hour-format='24h'
 live-night=false
-live-scene='partly'
+live-scene='sun'
 menu-style='animated'
 text-emboss=false
 
@@ -1045,3 +1045,10 @@ padding-top=0
 
 [wireless-hid]
 position-in-panel='Right'
+
+[zclock]
+font-name='Be Vietnam Pro 10'
+font-size=90
+hide-in-overview=true
+opacity=100
+use-24-hour=true
