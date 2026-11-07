@@ -46,6 +46,8 @@ paktype-naskh-basic-fonts
 redhat
 rit-meera-new-fonts
 rit-rachana-fonts
+rsms-inter-fonts
+rsms-inter-vf-fonts
 sil-padauk-fonts
 stix-fonts
 urw-base35
