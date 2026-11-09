@@ -12,27 +12,18 @@ user-theme@gnome-shell-extensions.gcampax.github.com
   Description: Load shell themes from user directory.
   Path: /home/earth/.local/share/gnome-shell/extensions/user-theme@gnome-shell-extensions.gcampax.github.com
   URL: https://gitlab.gnome.org/GNOME/gnome-shell-extensions
-  Version: 50.4 (79)
+  Version: 51.0 (78)
   Enabled: Yes
-  State: ERROR
+  State: ACTIVE
 
 drive-menu@gnome-shell-extensions.gcampax.github.com
   Name: Removable Drive Menu
   Description: A status menu for accessing and unmounting removable devices.
   Path: /home/earth/.local/share/gnome-shell/extensions/drive-menu@gnome-shell-extensions.gcampax.github.com
   URL: https://gitlab.gnome.org/GNOME/gnome-shell-extensions
-  Version: 50.4 (82)
+  Version: 51.0 (81)
   Enabled: Yes
   State: ACTIVE
-
-osd-volume-number@deminder
-  Name: OSD Volume Number
-  Description: Replace the on-screen-display volume level icon with a number.
-  Path: /home/earth/.local/share/gnome-shell/extensions/osd-volume-number@deminder
-  URL: https://github.com/Deminder/osd-volume-number
-  Version: 14
-  Enabled: No
-  State: INITIALIZED
 
 AlphabeticalAppGrid@stuarthayhurst
   Name: Alphabetical App Grid
@@ -49,7 +40,7 @@ custom-hot-corners-extended@G-dH.github.com
 Mouse pointer pressure, clicks and scrolls over the monitor corners/edges or custom keyboard shortcuts can trigger any of dozens built-in actions that helps you navigate and control your desktop environment, or your own shell commands.
   Path: /home/earth/.local/share/gnome-shell/extensions/custom-hot-corners-extended@G-dH.github.com
   URL: https://github.com/G-dH/custom-hot-corners
-  Version: 50.0 (50)
+  Version: 51.0 (52)
   Enabled: Yes
   State: ACTIVE
 
@@ -120,24 +111,6 @@ Vitals@CoreCoding.com
   Enabled: Yes
   State: ACTIVE
 
-sound-percentage@subashghimire.info.np
-  Name: Sound percentage
-  Description: Display the current sound percentage in the system tray
-  Path: /home/earth/.local/share/gnome-shell/extensions/sound-percentage@subashghimire.info.np
-  URL: https://github.com/PublisherName/sound-percentage-gs-extension
-  Version: 5
-  Enabled: Yes
-  State: ACTIVE
-
-transparent-window-moving@noobsai.github.com
-  Name: Transparent Window Moving
-  Description: Makes the window semi-transparent when moving or resizing
-  Path: /home/earth/.local/share/gnome-shell/extensions/transparent-window-moving@noobsai.github.com
-  URL: https://github.com/Noobsai/transparent-window-moving
-  Version: 21
-  Enabled: Yes
-  State: ACTIVE
-
 tilingshell@ferrarodomenico.com
   Name: Tiling Shell
   Description: Extend Gnome Shell with advanced tiling window management. Supports multiple monitors, Windows 11 Snap Assistant, Fancy Zones, automatic tiling, keyboard shortcuts, customised tiling layouts and more!
@@ -162,15 +135,6 @@ night-light-slider-updated@vilsbeg.codeberg.org
   Path: /home/earth/.local/share/gnome-shell/extensions/night-light-slider-updated@vilsbeg.codeberg.org
   URL: https://codeberg.org/vilsbeg/night-light-slider-updated
   Version: 17
-  Enabled: Yes
-  State: ACTIVE
-
-rounded-window-corners@fxgn
-  Name: Rounded Window Corners Reborn
-  Description: Add rounded corners to all windows. Fork of the now unmaintained Rounded Window Corners extension.
-  Path: /home/earth/.local/share/gnome-shell/extensions/rounded-window-corners@fxgn
-  URL: https://github.com/flexagoon/rounded-window-corners
-  Version: 25
   Enabled: Yes
   State: ACTIVE
 
@@ -390,15 +354,6 @@ window-padding@pvlamkhtn.github.io
   Enabled: Yes
   State: ACTIVE
 
-todoit@wassimbj.github.io
-  Name: Todoit
-  Description: Simple todo list, to keep you focused on your daily tasks
-  Path: /home/earth/.local/share/gnome-shell/extensions/todoit@wassimbj.github.io
-  URL: https://github.com/wassimbj/todoit-gnome
-  Version: 8
-  Enabled: Yes
-  State: ACTIVE
-
 password-generator@loginone
   Name: Password Generator
   Description: Generate strong, customizable passwords directly from the GNOME panel. Left-click copies a password to clipboard; right-click opens settings (length, charsets, exclude ambiguous chars). This extension accesses the clipboard.
@@ -444,10 +399,10 @@ advanced-media-controller@sanjai.com
 
 dock-window-preview@quivio
   Name: Dock Window Preview
-  Description: Preview open windows by hovering a dock icon and activate a window by selecting the preview.
+  Description: Preview open windows by hovering over a dock icon, then select a preview to activate its window.
   Path: /home/earth/.local/share/gnome-shell/extensions/dock-window-preview@quivio
   URL: https://github.com/teerprah/dock-window-preview
-  Version: 6
+  Version: 9
   Enabled: Yes
   State: ACTIVE
 
@@ -478,24 +433,6 @@ Each feature can be turned off individually in Preferences.
   Enabled: Yes
   State: ACTIVE
 
-glyphous@supsugam.github.com
-  Name: Glyphous
-  Description: All-in-one clipboard manager, emoji picker, and character map for GNOME
-  Path: /home/earth/.local/share/gnome-shell/extensions/glyphous@supsugam.github.com
-  URL: https://github.com/supSugam/glyphous
-  Version: 1.0.5.HEAD
-  Enabled: No
-  State: INITIALIZED
-
-drop-to-shell@gunwald.gitlab.com
-  Name: Drop to Shell
-  Description: Replace GNOME's top-bar dropdowns with larger views: Quick Settings as a persistent, resizable side pane, and the clock as a Today page in the overview.
-  Path: /home/earth/.local/share/gnome-shell/extensions/drop-to-shell@gunwald.gitlab.com
-  URL: https://gitlab.com/gunwald/drop-to-shell
-  Version: 1
-  Enabled: No
-  State: INITIALIZED
-
 glean@gunwald.gitlab.com
   Name: Glean
   Description: Keep a history of what you copy and select, and quick notes, a click away. Records both the clipboard and the selection pasted with the middle button, and keeps them across locking and restarts. With Drop to Shell it has a drawer in the pane.
@@ -504,19 +441,6 @@ glean@gunwald.gitlab.com
   Version: 1.2
   Enabled: Yes
   State: ACTIVE
-
-global-menu@unmade.space
-  Name: Global Menu
-  Description: A menu bar for GNOME. The focused application's menus appear in the top panel.
-
-It tries three sources in order: the menu the application exports over D-Bus, then a curated menu that fires the application's own keyboard shortcuts, then a generic window and system menu.
-
-Reading a menu an application exports needs the companion global-menu daemon, installed separately.
-  Path: /home/earth/.local/share/gnome-shell/extensions/global-menu@unmade.space
-  URL: https://github.com/Unmade760/orbit-global-menu
-  Version: 1.1.4 (5)
-  Enabled: No
-  State: INITIALIZED
 
 wifi-gen-badge@ponez.github.io
   Name: Wi-Fi Generation Badge
@@ -529,14 +453,40 @@ The generation comes from the link modulation reported by `iw` (HT, VHT, HE, EHT
   Enabled: Yes
   State: ACTIVE
 
-zclock@lorens
-  Name: zclock
-  Description: Gnome clock extension with smooth UI/UX
-  Path: /home/earth/.local/share/gnome-shell/extensions/zclock@lorens
-  URL: https://github.com/lorens-osman-dev/zclock
-  Version: 3
-  Enabled: No
-  State: INITIALIZED
+transparent-move@edjenn1998
+  Name: Transparent Move
+  Description: Make normal application windows partially transparent while moving them, then smoothly restore their original opacity.
+  Path: /home/earth/.local/share/gnome-shell/extensions/transparent-move@edjenn1998
+  URL: https://github.com/edjenn1998/transparent-move
+  Version: 1.0.1 (2)
+  Enabled: Yes
+  State: ACTIVE
+
+sound-percentage@subashghimire.info.np
+  Name: Sound percentage
+  Description: Display the current sound percentage in the system tray
+  Path: /home/earth/.local/share/gnome-shell/extensions/sound-percentage@subashghimire.info.np
+  URL: https://github.com/PublisherName/sound-percentage-gs-extension
+  Version: 5
+  Enabled: Yes
+  State: ACTIVE
+
+gnome-center@smsanagustin.github.io
+  Name: Gnome Center
+  Description: Gnome search overview on a small centered window instead of the full overview.
+  Path: /home/earth/.local/share/gnome-shell/extensions/gnome-center@smsanagustin.github.io
+  URL: https://github.com/smsanagustin/gnome-center
+  Version: 5
+  Enabled: Yes
+  State: ACTIVE
+
+rounded-window-corners@fxgn
+  Name: Rounded Window Corners Reborn
+  Description: Add rounded corners to all windows. Fork of the now unmaintained Rounded Window Corners extension.
+  Path: /home/earth/.local/share/gnome-shell/extensions/rounded-window-corners@fxgn
+  URL: https://github.com/flexagoon/rounded-window-corners
+  Enabled: Yes
+  State: ACTIVE
 
 apps-menu@gnome-shell-extensions.gcampax.github.com
   Name: Apps Menu
@@ -544,7 +494,7 @@ apps-menu@gnome-shell-extensions.gcampax.github.com
 This extension is part of Classic Mode and is officially supported by GNOME. Please do not report bugs using the form below, use GNOME's GitLab instance instead.
   Path: /usr/share/gnome-shell/extensions/apps-menu@gnome-shell-extensions.gcampax.github.com
   URL: https://gitlab.gnome.org/GNOME/gnome-shell-extensions
-  Version: 50.4
+  Version: 51.0
   Enabled: No
   State: INITIALIZED
 
@@ -553,7 +503,7 @@ background-logo@fedorahosted.org
   Description: Overlay a tasteful logo on the background to enhance the user experience
   Path: /usr/share/gnome-shell/extensions/background-logo@fedorahosted.org
   URL: https://forge.fedoraproject.org/workstation/background-logo-extension
-  Version: 50.1
+  Version: 51.alpha
   Enabled: No
   State: INITIALIZED
 
@@ -563,7 +513,7 @@ launch-new-instance@gnome-shell-extensions.gcampax.github.com
 This extension is part of Classic Mode and is officially supported by GNOME. Please do not report bugs using the form below, use GNOME's GitLab instance instead.
   Path: /usr/share/gnome-shell/extensions/launch-new-instance@gnome-shell-extensions.gcampax.github.com
   URL: https://gitlab.gnome.org/GNOME/gnome-shell-extensions
-  Version: 50.4
+  Version: 51.0
   Enabled: Yes
   State: ACTIVE
 
@@ -573,7 +523,7 @@ places-menu@gnome-shell-extensions.gcampax.github.com
 This extension is part of Classic Mode and is officially supported by GNOME. Please do not report bugs using the form below, use GNOME's GitLab instance instead.
   Path: /usr/share/gnome-shell/extensions/places-menu@gnome-shell-extensions.gcampax.github.com
   URL: https://gitlab.gnome.org/GNOME/gnome-shell-extensions
-  Version: 50.4
+  Version: 51.0
   Enabled: Yes
   State: ACTIVE
 
@@ -583,6 +533,6 @@ window-list@gnome-shell-extensions.gcampax.github.com
 This extension is part of Classic Mode and is officially supported by GNOME. Please do not report bugs using the form below, use GNOME's GitLab instance instead.
   Path: /usr/share/gnome-shell/extensions/window-list@gnome-shell-extensions.gcampax.github.com
   URL: https://gitlab.gnome.org/GNOME/gnome-shell-extensions
-  Version: 50.4
+  Version: 51.0
   Enabled: No
   State: INITIALIZED

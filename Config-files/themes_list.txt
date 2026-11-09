@@ -33,4 +33,3 @@ MacOS-Pixel-Dark
 MacOS-Pixel-Light
 Mignon-pastel
 Mignon-pastel-dark
-oxygen

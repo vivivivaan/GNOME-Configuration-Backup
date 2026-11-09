@@ -9,6 +9,33 @@ level-indicator-custom-colors=['#ff7800', '#ff7800', '#15c931', '#15c931', '#15c
 popup-in-quick-settings=false
 swap-icon-text=false
 
+[TodoTxt]
+confirm-delete=true
+debug-level=250
+display-format-string='{unarchived}'
+done-task-strikethrough=true
+enable-comments-extension=false
+enable-due-date-extension=true
+hide-pattern='{unarchived}'
+keep-open-after-new=true
+long-tasks-ellipsize-mode=2
+long-tasks-max-width=300
+order-by-priority=true
+show-contexts-label=true
+show-delete-button=true
+show-done=true
+show-done-or-archive-button=true
+show-edit-button=true
+show-new-task-entry=true
+show-number-of-group-elements=true
+show-open-in-text-editor=true
+show-open-preferences=true
+show-priority-buttons=true
+show-projects-label=true
+show-status-icon=true
+style-priorities=false
+url-color=1
+
 [advanced-media-controller]
 immersive-cover=true
 panel-font-bold=true
@@ -636,6 +663,11 @@ sound='none'
 sync-primary=true
 volume=0.0
 
+[gnome-center]
+height=650
+toggle-gnome-center=['<Super>z']
+width=850
+
 [gnome-muzei-wallpaper]
 blur-wallpaper=true
 
@@ -774,6 +806,12 @@ adapt-panel-menu=true
 icon-position='right'
 number-position='left'
 
+[panel-corners]
+panel-corner-opacity=1.3877787807814457e-16
+panel-corner-radius=11
+panel-corners=true
+screen-corners=false
+
 [panelnote-extended]
 enable-positioning=false
 note='Play. Action & Info := Less'
@@ -818,7 +856,7 @@ dnd-quick-toggle-enabled=false
 media-enabled=false
 media-remove-shadow=true
 media-smooth-scroll-speed=0
-menu-animation-enabled=false
+menu-animation-open-duration=275
 notifications-max-height=280
 overlay-menu-enabled=false
 system-indicator-layout-enabled=false
@@ -850,10 +888,29 @@ skip-libadwaita-app=false
 tweak-kitty-terminal=true
 unfocused-shadow={'verticalOffset': 2, 'horizontalOffset': 0, 'blurOffset': 12, 'spreadRadius': -1, 'opacity': 65}
 
+[rounded-windows]
+corner-radius=11
+custom-shadow=false
+keep-rounded-fullscreen=false
+keep-rounded-maximized=true
+padding-bottom=0
+padding-left=0
+padding-right=0
+padding-top=0
+skip-libadwaita-app=false
+smoothing=0.65000000000000002
+whitelist-mode=false
+
+[rss-feed]
+display-mode='notifications-and-widget'
+layout-mode='classic'
+rss-feeds-list=@as []
+rss-feeds-settings='{}'
+
 [sanket]
 calendar-layout='wide'
 clock-style='compact'
-compact-expanded=true
+compact-expanded=false
 compact-layout='double'
 compact-mode='demand'
 notification-layout='merged'
@@ -1037,11 +1094,25 @@ show-wind-in-panel=false
 time-format='24h'
 use-current-location=false
 
+[window-nativizer]
+window-rules=@a{sa{ss}} {}
+
 [window-padding]
 padding-bottom=1
 padding-left=1
 padding-right=1
 padding-top=0
+
+[window-title-pro]
+colored-icon=true
+icon-size=15
+show-app=false
+show-title=false
+show-window-count=false
+show-workspace=false
+
+[winzones]
+active-layouts='{"eDP-1":"priority"}'
 
 [wireless-hid]
 position-in-panel='Right'
