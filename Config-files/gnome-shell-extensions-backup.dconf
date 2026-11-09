@@ -183,7 +183,7 @@ static-blur=false
 style-dash-to-dock=0
 
 [blur-my-shell/lockscreen]
-pipeline='pipeline_default'
+pipeline='pipeline_default_rounded'
 
 [blur-my-shell/overview]
 pipeline='pipeline_default'
@@ -215,7 +215,7 @@ style-popup=0
 pipeline='pipeline_default'
 
 [blur-my-shell/window-list]
-pipeline='pipeline_migrated_dynamic_blur_4'
+pipeline='pipeline_default_rounded'
 
 [bottom-dash-panel]
 accent-color=true
@@ -624,7 +624,7 @@ settings-version=uint32 2
 submenu=true
 
 [glean]
-entries-shown=10
+entries-shown=7
 expire-days=0
 history-size=250
 image-hours=72
@@ -882,7 +882,7 @@ border-width=0
 custom-rounded-corner-settings=@a{sv} {}
 enable-preferences-entry=false
 focused-shadow={'verticalOffset': 4, 'horizontalOffset': 0, 'blurOffset': 28, 'spreadRadius': 4, 'opacity': 60}
-global-rounded-corner-settings={'padding': <{'left': uint32 0, 'right': 0, 'top': 0, 'bottom': 0}>, 'keepRoundedCorners': <{'maximized': true, 'fullscreen': false}>, 'borderRadius': <uint32 10>, 'smoothing': <1.0>, 'borderColor': <(1.0, 1.0, 1.0, 1.0)>, 'enabled': <true>}
+global-rounded-corner-settings={'padding': <{'left': uint32 0, 'right': 0, 'top': 0, 'bottom': 0}>, 'keepRoundedCorners': <{'maximized': true, 'fullscreen': false}>, 'borderRadius': <uint32 9>, 'smoothing': <1.0>, 'borderColor': <(1.0, 1.0, 1.0, 1.0)>, 'enabled': <true>}
 settings-version=uint32 9
 skip-libadwaita-app=false
 tweak-kitty-terminal=true
@@ -1040,7 +1040,7 @@ applications=['org.gnome.tweaks.desktop', 'com.mattjakeman.ExtensionManager.desk
 position=0
 
 [user-theme]
-name='MacTahoe-Dark-alt-blue-nord'
+name='MacTahoe-Dark-alt-grey-nord'
 
 [vertical-app-grid]
 app-sorting='usage'
@@ -1098,7 +1098,7 @@ use-current-location=false
 window-rules=@a{sa{ss}} {}
 
 [window-padding]
-padding-bottom=1
+padding-bottom=0
 padding-left=1
 padding-right=1
 padding-top=0

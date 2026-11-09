@@ -465,7 +465,7 @@ enable-hot-corners=false
 font-antialiasing='rgba'
 font-name='Be Vietnam Pro 9.5'
 gtk-enable-primary-paste=true
-gtk-theme='MacTahoe-Dark-alt-blue-nord'
+gtk-theme='MacTahoe-Dark-alt-grey-nord'
 icon-theme='Mignon-pastel-dark'
 locate-pointer=true
 monospace-font-name='RobotoMono Nerd Font 10'
@@ -1019,7 +1019,7 @@ show-delete-permanently=true
 [org/gnome/nautilus/window-state]
 initial-size=(1433, 888)
 initial-size-file-chooser=(1232, 774)
-maximized=true
+maximized=false
 
 [org/gnome/nm-applet/eap/16bf7481-6b91-4cea-abc0-242279568b55]
 ignore-ca-cert=false
@@ -1127,7 +1127,7 @@ last-folder-path='/home/earth/.config/gtk-4.0'
 last-folder-path='/home/earth/Documents/Logseq-Notes'
 
 [org/gnome/portal/filechooser/com.microsoft.VSCode]
-last-folder-path='/home/earth/.local/share/gnome-shell/extensions/rounded-windows@marcosgt.github.io'
+last-folder-path='/home/earth/workspace/dsa-practice'
 
 [org/gnome/portal/filechooser/com.notesnook.Notesnook]
 last-folder-path='/home/raj'
@@ -1558,7 +1558,7 @@ static-blur=false
 style-dash-to-dock=0
 
 [org/gnome/shell/extensions/blur-my-shell/lockscreen]
-pipeline='pipeline_default'
+pipeline='pipeline_default_rounded'
 
 [org/gnome/shell/extensions/blur-my-shell/overview]
 pipeline='pipeline_default'
@@ -1590,7 +1590,7 @@ style-popup=0
 pipeline='pipeline_default'
 
 [org/gnome/shell/extensions/blur-my-shell/window-list]
-pipeline='pipeline_migrated_dynamic_blur_4'
+pipeline='pipeline_default_rounded'
 
 [org/gnome/shell/extensions/bottom-dash-panel]
 accent-color=true
@@ -1999,7 +1999,7 @@ settings-version=uint32 2
 submenu=true
 
 [org/gnome/shell/extensions/glean]
-entries-shown=10
+entries-shown=7
 expire-days=0
 history-size=250
 image-hours=72
@@ -2257,7 +2257,7 @@ border-width=0
 custom-rounded-corner-settings=@a{sv} {}
 enable-preferences-entry=false
 focused-shadow={'verticalOffset': 4, 'horizontalOffset': 0, 'blurOffset': 28, 'spreadRadius': 4, 'opacity': 60}
-global-rounded-corner-settings={'padding': <{'left': uint32 0, 'right': 0, 'top': 0, 'bottom': 0}>, 'keepRoundedCorners': <{'maximized': true, 'fullscreen': false}>, 'borderRadius': <uint32 10>, 'smoothing': <1.0>, 'borderColor': <(1.0, 1.0, 1.0, 1.0)>, 'enabled': <true>}
+global-rounded-corner-settings={'padding': <{'left': uint32 0, 'right': 0, 'top': 0, 'bottom': 0}>, 'keepRoundedCorners': <{'maximized': true, 'fullscreen': false}>, 'borderRadius': <uint32 9>, 'smoothing': <1.0>, 'borderColor': <(1.0, 1.0, 1.0, 1.0)>, 'enabled': <true>}
 settings-version=uint32 9
 skip-libadwaita-app=false
 tweak-kitty-terminal=true
@@ -2415,7 +2415,7 @@ applications=['org.gnome.tweaks.desktop', 'com.mattjakeman.ExtensionManager.desk
 position=0
 
 [org/gnome/shell/extensions/user-theme]
-name='MacTahoe-Dark-alt-blue-nord'
+name='MacTahoe-Dark-alt-grey-nord'
 
 [org/gnome/shell/extensions/vertical-app-grid]
 app-sorting='usage'
@@ -2473,7 +2473,7 @@ use-current-location=false
 window-rules=@a{sa{ss}} {}
 
 [org/gnome/shell/extensions/window-padding]
-padding-bottom=1
+padding-bottom=0
 padding-left=1
 padding-right=1
 padding-top=0
