@@ -322,7 +322,7 @@ No accounts, no tracking, no analytics: weather requests go straight from your m
 Demo: https://github.com/vijaybala-lang/weatherglass/releases/download/v8/weatherglass-demo-card.mp4
   Path: /home/earth/.local/share/gnome-shell/extensions/weatherglass@vijaybala.dev
   URL: https://github.com/vijaybala-lang/weatherglass
-  Version: 23
+  Version: 24
   Enabled: Yes
   State: ACTIVE
 
@@ -480,11 +480,21 @@ gnome-center@smsanagustin.github.io
   Enabled: Yes
   State: ACTIVE
 
+unified-panel@aleixenandros.me
+  Name: Unified Panel
+  Description: A unified control center for GNOME: quick settings, media controls, notifications and calendar in a single popup. Arrange its blocks in one or two columns, in the order you like. Also includes an optional custom clock format for the top bar.
+  Path: /home/earth/.local/share/gnome-shell/extensions/unified-panel@aleixenandros.me
+  URL: https://github.com/Aleixenandros/unified-panel
+  Version: 2.3 (2)
+  Enabled: No
+  State: INITIALIZED
+
 rounded-window-corners@fxgn
   Name: Rounded Window Corners Reborn
   Description: Add rounded corners to all windows. Fork of the now unmaintained Rounded Window Corners extension.
   Path: /home/earth/.local/share/gnome-shell/extensions/rounded-window-corners@fxgn
   URL: https://github.com/flexagoon/rounded-window-corners
+  Version: 26
   Enabled: Yes
   State: ACTIVE
 
