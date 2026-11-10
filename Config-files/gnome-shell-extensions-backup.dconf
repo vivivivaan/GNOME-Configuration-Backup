@@ -910,7 +910,7 @@ rss-feeds-settings='{}'
 [sanket]
 calendar-layout='wide'
 clock-style='compact'
-compact-expanded=true
+compact-expanded=false
 compact-layout='double'
 compact-mode='demand'
 notification-layout='merged'
@@ -1051,11 +1051,13 @@ applications=['org.gnome.tweaks.desktop', 'com.mattjakeman.ExtensionManager.desk
 position=0
 
 [unified-panel]
+calendar-show-world-clocks=true
 columns=2
+custom-clock=false
 layout=['notifications:left', 'calendar:left', 'header:right', 'media:right', 'quick-settings:right']
 
 [user-theme]
-name='MacTahoe-Dark-alt-grey-nord'
+name=''
 
 [vertical-app-grid]
 app-sorting='usage'
@@ -1093,8 +1095,8 @@ auto-location=true
 condition-strip='icons'
 hour-format='24h'
 live-night=false
-live-scene='partly'
-live-temp=29.399999999999999
+live-scene='sun'
+live-temp=29.699999999999999
 menu-style='animated'
 text-emboss=false
 

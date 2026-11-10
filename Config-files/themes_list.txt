@@ -6,12 +6,6 @@ Mignon-pastel
 Mignon-pastel-dark
 
 /home/earth/.local/share/themes/:
-MacTahoe-Dark-alt-blue-nord
-MacTahoe-Dark-alt-blue-nord-hdpi
-MacTahoe-Dark-alt-blue-nord-xhdpi
-MacTahoe-Dark-alt-grey-nord
-MacTahoe-Dark-alt-grey-nord-hdpi
-MacTahoe-Dark-alt-grey-nord-xhdpi
 
 /usr/local/share/icons/:
 MacOS-Pixel-Dark
@@ -19,12 +13,6 @@ MacOS-Pixel-Light
 
 /usr/local/share/themes/:
 default-pure
-MacTahoe-Dark-alt-blue-nord
-MacTahoe-Dark-alt-blue-nord-hdpi
-MacTahoe-Dark-alt-blue-nord-xhdpi
-MacTahoe-Dark-alt-grey-nord
-MacTahoe-Dark-alt-grey-nord-hdpi
-MacTahoe-Dark-alt-grey-nord-xhdpi
 
 /usr/share/icons/:
 Adwaita

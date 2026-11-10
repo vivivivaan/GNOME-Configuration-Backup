@@ -1,22 +1,3 @@
-/usr/local/share/fonts/opentype:
-CodeNewRoman
-EverydaySans Desktop_OTF
-EverydaySans WebFonts
-
-/usr/local/share/fonts/truetype:
-Alan_Sans
-arial
-Be_Vietnam_Pro
-DaddyTimeMono
-Google_Sans
-JetBrainsMono
-Miranda_Sans
-monaco
-NerdFontsSymbolsOnly
-Pliant
-Roboto
-RobotoMono
-
 /usr/share/fonts/:
 aajohan-comfortaa-fonts
 abattis-cantarell-fonts
