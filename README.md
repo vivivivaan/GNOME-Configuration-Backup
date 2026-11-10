@@ -51,38 +51,6 @@ sudo dnf install spotify-client
 | Microsoft Edge | `sudo cp /usr/share/applications/microsoft-edge.desktop ~/.local/share/applications/` |                                                                                                                                                                                                                                           Only enable flags in the`.desktop` file | `--enable-features=MiddleClickAutoscroll,TouchpadOverscrollHistoryNavigation,UseOzonePlatform,WaylandWindowDecorations --ozone-platform=wayland --disable-features=GlobalShortcutsPortal`                                                                 |
 | Vivaldi        | `sudo cp /usr/share/applications/vivaldi-stable.desktop ~/.local/share/applications/` |                                                                                                                                                                                     `#fluent-overlay-scrollbars` `#fluent-scrollbars` `#root-scrollbar-follows-browser-theme` | `--enable-features=MiddleClickAutoscroll,TouchpadOverscrollHistoryNavigation,UseOzonePlatform,WaylandWindowDecorations --ozone-platform=wayland --enable-wayland-ime --enable-pinch --enable-gesture-navigation --disable-features=GlobalShortcutsPortal` |
 
-## Themes
-
-- [MacTahoe GTK Theme](https://github.com/vinceliuice/MacTahoe-gtk-theme.git)
-- [MacOS Pixel Cursor](https://www.gnome-look.org/p/2042592)
-- [Mignon Pastel Icon](https://github.com/igorfmoraes/Mignon-icon-theme.git)
-
-## MacTahoe GTK theme config
-
-### /usr/share/local/themes/
-
-- Quickmenu Shadow
-  - `sudo ./install.sh -d /usr/local/share/themes/ -c dark -a alt -t blue -s nord -l --shell -h smaller -normal --darker`
-- Without Quickmenu Shadow
-  - `sudo ./install.sh -d /usr/local/share/themes/ -c dark -a alt -t blue -s nord -l --shell -h smaller -ns -normal --darker`
-
-### /usr/share/themes/
-
-- Quickmenu Shadow
-  - `sudo ./install.sh -d /usr/share/themes/ -c dark -a alt -t blue -s nord -l --shell -h smaller -normal --darker`
-- Without Quickmenu Shadow
-  - `sudo ./install.sh -d /usr/share/themes/ -c dark -a alt -t blue -s nord -l --shell -h smaller ns -normal -ns --darker`
-
-### ~/.local/share/themes/
-
-- Quickmenu Shadow
-  - `sudo ./install.sh -d ~/.local/share/themes/ -c dark -a alt -t blue -s nord -l --shell -h smaller -normal --darker`
-- Without Quickmenu Shadow
-  - `sudo ./install.sh -d ~/.local/share/themes/ -c dark -a alt -t blue -s nord -l --shell -h smaller -ns -normal --darker`
-
-### GDM Tweaks
-
-`sudo ./tweaks.sh -g -b <wallpaper location> -h smaller -nb -c dark -t blue -s nord && sudo ./tweaks.sh -F -c dark -t blue -s nord`
 
 ## GRUB theme background fix
 
@@ -227,17 +195,11 @@ alias syscur="cd /usr/share/icons/"
 alias usrcur="cd ~/.local/share/icons/"
 ```
 
-# Visuals
+# Extensions
 
-## Desktop
-
-![](./Screenshots/Desktop/ScreencastFrom2026-11-0301-31-42.gif)
-
-## Extensions
-
-![](./Screenshots/Extensions/01.png)
-![](./Screenshots/Extensions/02.png)
-![](./Screenshots/Extensions/03.png)
+![](./Screenshots/01.png)
+![](./Screenshots/02.png)
+![](./Screenshots/03.png)
 
 ### Extensions unavailable in [Gnome Extensions](extensions.gnome.org)
 - [Glyphous Clipboard](https://github.com/supSugam/glyphous.git)
