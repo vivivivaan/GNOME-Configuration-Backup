@@ -707,7 +707,7 @@ panel=true
 panel-icon-size=0
 panel-in-overview=true
 panel-indicator-padding-size=0
-panel-size=31
+panel-size=27
 ripple-box=true
 startup-status=0
 support-notifier-type=0
@@ -883,6 +883,7 @@ custom-rounded-corner-settings=@a{sv} {}
 enable-preferences-entry=false
 focused-shadow={'verticalOffset': 4, 'horizontalOffset': 0, 'blurOffset': 28, 'spreadRadius': 4, 'opacity': 60}
 global-rounded-corner-settings={'padding': <{'left': uint32 0, 'right': 0, 'top': 0, 'bottom': 0}>, 'keepRoundedCorners': <{'maximized': true, 'fullscreen': false}>, 'borderRadius': <uint32 9>, 'smoothing': <1.0>, 'borderColor': <(1.0, 1.0, 1.0, 1.0)>, 'enabled': <true>}
+keep-shadow-for-maximized-fullscreen=false
 settings-version=uint32 9
 skip-libadwaita-app=false
 tweak-kitty-terminal=true
@@ -1057,7 +1058,7 @@ custom-clock=false
 layout=['notifications:left', 'calendar:left', 'header:right', 'media:right', 'quick-settings:right']
 
 [user-theme]
-name=''
+name='Orchis-Grey-Dark-Nord'
 
 [vertical-app-grid]
 app-sorting='usage'
@@ -1095,8 +1096,8 @@ auto-location=true
 condition-strip='icons'
 hour-format='24h'
 live-night=false
-live-scene='sun'
-live-temp=29.699999999999999
+live-scene='partly'
+live-temp=27.600000000000001
 menu-style='animated'
 text-emboss=false
 

@@ -1011,7 +1011,7 @@ use-tree-view=true
 [org/gnome/nautilus/preferences]
 click-policy='double'
 date-time-format='detailed'
-default-folder-viewer='list-view'
+default-folder-viewer='icon-view'
 migrated-gtk-settings=true
 search-filter-time-type='last_modified'
 show-create-link=true
@@ -1062,7 +1062,7 @@ sidebar-page='links'
 sizing-mode='free'
 text-color='blue'
 window-height=1049
-window-maximized=false
+window-maximized=true
 window-width=1918
 zoom=0.46296384410237312
 
@@ -1122,7 +1122,7 @@ last-folder-path='/home/earth/Pictures/mypics'
 last-folder-path='/home/earth/Music'
 
 [org/gnome/portal/filechooser/com.google.Chrome]
-last-folder-path='/home/earth/GNOME-Configuration-Backup'
+last-folder-path='/home/earth/Downloads'
 
 [org/gnome/portal/filechooser/com.logseq.Logseq]
 last-folder-path='/home/earth/Documents/Logseq-Notes'
@@ -2083,7 +2083,7 @@ panel=true
 panel-icon-size=0
 panel-in-overview=true
 panel-indicator-padding-size=0
-panel-size=31
+panel-size=27
 ripple-box=true
 startup-status=0
 support-notifier-type=0
@@ -2259,6 +2259,7 @@ custom-rounded-corner-settings=@a{sv} {}
 enable-preferences-entry=false
 focused-shadow={'verticalOffset': 4, 'horizontalOffset': 0, 'blurOffset': 28, 'spreadRadius': 4, 'opacity': 60}
 global-rounded-corner-settings={'padding': <{'left': uint32 0, 'right': 0, 'top': 0, 'bottom': 0}>, 'keepRoundedCorners': <{'maximized': true, 'fullscreen': false}>, 'borderRadius': <uint32 9>, 'smoothing': <1.0>, 'borderColor': <(1.0, 1.0, 1.0, 1.0)>, 'enabled': <true>}
+keep-shadow-for-maximized-fullscreen=false
 settings-version=uint32 9
 skip-libadwaita-app=false
 tweak-kitty-terminal=true
@@ -2433,7 +2434,7 @@ custom-clock=false
 layout=['notifications:left', 'calendar:left', 'header:right', 'media:right', 'quick-settings:right']
 
 [org/gnome/shell/extensions/user-theme]
-name=''
+name='Orchis-Grey-Dark-Nord'
 
 [org/gnome/shell/extensions/vertical-app-grid]
 app-sorting='usage'
@@ -2471,8 +2472,8 @@ auto-location=true
 condition-strip='icons'
 hour-format='24h'
 live-night=false
-live-scene='sun'
-live-temp=29.699999999999999
+live-scene='partly'
+live-temp=27.600000000000001
 menu-style='animated'
 text-emboss=false
 
