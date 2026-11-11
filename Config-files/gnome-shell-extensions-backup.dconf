@@ -925,6 +925,12 @@ recent-apps=['com.mattjakeman.ExtensionManager.desktop', 'brave-origin.desktop',
 hover-delay=375
 indicator-position='CENTER_LEFT'
 
+[silver-dock]
+all-monitors=true
+autohide=true
+islands=true
+margin=7
+
 [simple-taskbar]
 active-panel-axis='horizontal'
 active-panel-mode='taskbar'
@@ -1096,8 +1102,8 @@ auto-location=true
 condition-strip='icons'
 hour-format='24h'
 live-night=false
-live-scene='partly'
-live-temp=27.600000000000001
+live-scene='sun'
+live-temp=21.300000000000001
 menu-style='animated'
 text-emboss=false
 
