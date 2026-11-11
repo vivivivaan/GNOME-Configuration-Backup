@@ -14,7 +14,7 @@ user-theme@gnome-shell-extensions.gcampax.github.com
   URL: https://gitlab.gnome.org/GNOME/gnome-shell-extensions
   Version: 51.0 (78)
   Enabled: Yes
-  State: ACTIVE
+  State: ERROR
 
 drive-menu@gnome-shell-extensions.gcampax.github.com
   Name: Removable Drive Menu

@@ -1103,7 +1103,7 @@ condition-strip='icons'
 hour-format='24h'
 live-night=false
 live-scene='sun'
-live-temp=21.300000000000001
+live-temp=24.5
 menu-style='animated'
 text-emboss=false
 

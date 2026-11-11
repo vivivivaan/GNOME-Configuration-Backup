@@ -1128,7 +1128,7 @@ last-folder-path='/home/earth/Downloads'
 last-folder-path='/home/earth/Documents/Logseq-Notes'
 
 [org/gnome/portal/filechooser/com.microsoft.VSCode]
-last-folder-path='/home/earth/.local/share/gnome-shell/extensions/silver-dock@simonlinuxcraft.github.io'
+last-folder-path='/home/earth/workspace/DSAPCode'
 
 [org/gnome/portal/filechooser/com.notesnook.Notesnook]
 last-folder-path='/home/raj'
@@ -2479,7 +2479,7 @@ condition-strip='icons'
 hour-format='24h'
 live-night=false
 live-scene='sun'
-live-temp=21.300000000000001
+live-temp=24.5
 menu-style='animated'
 text-emboss=false
 
