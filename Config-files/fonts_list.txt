@@ -1,3 +1,8 @@
+/usr/local/share/fonts/truetype:
+JetBrainsMono
+NerdFontsSymbolsOnly
+RobotoMono
+
 /usr/share/fonts/:
 aajohan-comfortaa-fonts
 abattis-cantarell-fonts

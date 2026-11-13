@@ -14,7 +14,7 @@ user-theme@gnome-shell-extensions.gcampax.github.com
   URL: https://gitlab.gnome.org/GNOME/gnome-shell-extensions
   Version: 51.0 (78)
   Enabled: Yes
-  State: ERROR
+  State: ACTIVE
 
 drive-menu@gnome-shell-extensions.gcampax.github.com
   Name: Removable Drive Menu
@@ -55,12 +55,12 @@ just-perfection-desktop@just-perfection
 
 blur-my-shell@aunetx
   Name: Blur my Shell
-  Description: Adds a blur look to different parts of GNOME Shell, including the top panel, dash and overview.
+  Description: Adds blur to GNOME Shell: the top panel, the dash and overview, menus and notifications, the lock screen, and the windows of your applications. Every blur is made of effects you can tune, from a simple blur to Liquid Glass.
 
-Note: if the extension shows an error after updating, restart your session to see whether it persists. This is due to a GNOME Shell bug that the extension cannot work around.
+Please report bugs on GitHub instead of in the reviews, as reviews aren't checked for bug reports.
   Path: /home/earth/.local/share/gnome-shell/extensions/blur-my-shell@aunetx
   URL: https://github.com/aunetx/blur-my-shell
-  Version: 77
+  Version: 78
   Enabled: Yes
   State: ACTIVE
 
