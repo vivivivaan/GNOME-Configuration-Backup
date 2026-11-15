@@ -354,7 +354,7 @@ custom-theme-running-dots-border-color='rgb(255,255,255)'
 custom-theme-running-dots-color='rgb(255,255,255)'
 custom-theme-shrink=false
 customize-alphas=true
-dash-max-icon-size=44
+dash-max-icon-size=42
 disable-overview-on-startup=true
 dock-fixed=false
 dock-position='BOTTOM'
@@ -976,6 +976,10 @@ panel-position='right'
 [sticky-notes-integration]
 auto-start=false
 
+[sticky-notes]
+note-height=450
+note-width=300
+
 [syncthing]
 menu=0
 
@@ -1113,9 +1117,9 @@ temperature-unit='celsius'
 auto-location=true
 condition-strip='icons'
 hour-format='24h'
-live-night=true
-live-scene='cloud'
-live-temp=27.600000000000001
+live-night=false
+live-scene='sun'
+live-temp=23.899999999999999
 menu-style='animated'
 text-emboss=false
 
@@ -1138,7 +1142,7 @@ use-current-location=false
 window-rules=@a{sa{ss}} {}
 
 [window-padding]
-padding-bottom=0
+padding-bottom=1
 padding-left=1
 padding-right=1
 padding-top=0

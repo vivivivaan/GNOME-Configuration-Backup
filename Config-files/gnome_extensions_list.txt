@@ -498,6 +498,15 @@ rounded-window-corners@fxgn
   Enabled: Yes
   State: ACTIVE
 
+sticky-notes@johanan.in
+  Name: Sticky Notes
+  Description: Sticky notes on the desktop, in soft pastel colors. Notes stay off the dock, the app switcher, and the overview.
+  Path: /home/earth/.local/share/gnome-shell/extensions/sticky-notes@johanan.in
+  URL: https://github.com/johanan-23/gnome-sticky-notes
+  Version: 4
+  Enabled: Yes
+  State: ACTIVE
+
 apps-menu@gnome-shell-extensions.gcampax.github.com
   Name: Apps Menu
   Description: Add a category-based menu for apps.
