@@ -1,7 +1,13 @@
+/usr/local/share/fonts/opentype:
+CodeNewRoman
+
 /usr/local/share/fonts/truetype:
+GoogleSansCode
 JetBrainsMono
 NerdFontsSymbolsOnly
+Pliant
 RobotoMono
+SN_Pro
 
 /usr/share/fonts/:
 aajohan-comfortaa-fonts

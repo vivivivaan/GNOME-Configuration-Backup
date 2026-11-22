@@ -177,11 +177,15 @@ logo-opacity=uint32 27
 logo-position='bottom-right'
 logo-size=8.7552742616033754
 
+[org/freedesktop/ibus/engine/typing-booster]
+dictionary='en_GB'
+inputmethod='NoIME'
+
 [org/freedesktop/tracker/miner/files]
 index-recursive-directories=['&DESKTOP', '&DOCUMENTS', '&MUSIC', '&PICTURES', '&VIDEOS', '&DOWNLOAD']
 
 [org/gnome/Characters]
-recent-characters=['👻', '🤷\u200d♂️', '🧑\u200d🎤', '🤗', '🫂', '💔', '💖', '🫣', '🪄', '🤓', '🫠', '😊', '🥰', '😍', '😁', '😉', '👀', '🤩', '🤔', '🔥', '🐱', '🤞', '🗝️', '😭', '💁\u200d♂️', '🌚', '🙇', '🤞🏼', '😆', '😂', '🥂', '🌃', '✴️', '💫']
+recent-characters=['🙏', '🙊', '👻', '🤷\u200d♂️', '🧑\u200d🎤', '🤗', '🫂', '💔', '💖', '🫣', '🪄', '🤓', '🫠', '😊', '🥰', '😍', '😁', '😉', '👀', '🤩', '🤔', '🔥', '🐱', '🤞', '🗝️', '😭', '💁\u200d♂️', '🌚', '🙇', '🤞🏼', '😆', '😂', '🥂', '🌃', '✴️', '💫']
 
 [org/gnome/Connections]
 first-run=false
@@ -214,7 +218,7 @@ restore-session=true
 restore-window-size=false
 scrollbar-policy='system'
 use-system-font=false
-window-size=(uint32 150, uint32 42)
+window-size=(uint32 150, uint32 40)
 
 [org/gnome/Ptyxis/Profiles/'f2934b33b5178457f29b4e8068d611e4']
 opacity=0.94999999999999996
@@ -223,7 +227,7 @@ opacity=0.94999999999999996
 bold-is-bright=true
 label='earth'
 opacity=0.94999999999999996
-palette='Aci'
+palette='Selenized'
 preserve-directory='safe'
 scroll-on-output=true
 scrollback-lines=50000
@@ -271,6 +275,7 @@ base=10
 button-mode='basic'
 currency-display='name'
 favorite-currencies=['CNY', 'EUR', 'GBP', 'USD', 'INR', 'KRW']
+history-tape=[('2,724÷4', '681'), ('27,260×3', '81,780'), ('81,780÷100', '817.8'), ('681×4', '2,724'), ('817.8×4', '3,271.2'), ('817.8×3', '2,453.4')]
 number-format='automatic'
 refresh-interval=86400
 show-thousands=true
@@ -298,8 +303,8 @@ panel-id='world'
 size=(806, 539)
 
 [org/gnome/control-center]
-last-panel='wifi'
-window-state=(1335, 910, false)
+last-panel='background'
+window-state=(1286, 782, false)
 
 [org/gnome/deja-dup]
 backend='drive'
@@ -480,8 +485,11 @@ autorun-x-content-open-folder=@as []
 autorun-x-content-start-app=['x-content/ostree-repository', 'x-content/image-dcf']
 
 [org/gnome/desktop/notifications]
-application-children=['org-gnome-tweaks', 'org-gnome-shell-extensions', 'snapd-desktop-integration-snapd-desktop-integration', 'org-gnome-ptyxis', 'org-gnome-nautilus', 'spotify', 'uget-gtk', 'update-manager', 'org-gnome-clocks', 'org-gnome-software', 'google-chrome', 'chrome-hnpfjngllnobngcgfapefoaidbinmjnm-default', 'app-zen-browser-zen', 'io-github-giantpinkrobots-varia', 'com-github-gabutakut-gabutdm', 'windscribe', 'com-mattjakeman-extensionmanager', 'org-qbittorrent-qbittorrent', 'firefox', 'calibre-gui', 'gnome-wellbeing-panel', 'com-github-fontmanager-fontmanager', 'gnome-power-panel', 'org-gnome-baobab', 'org-chromium-chromium', 'ca-desrt-dconf-editor', 'discord', 'org-telegram-desktop-3e485da34fc040f9218e3891ecde1e6c', 'org-gnome-dejadup', 'gnome-printers-panel', 'hplip', 'thunderbird', 'com-github-fontmanager-fontviewer', 'org-gnome-characters', 'org-gnome-pomodoro', 'io-gitlab-news-flash-newsflash', 'io-github-vikdevelop-savedesktop', 'io-github-redddfoxxyy-samaya', 'org-gnome-rhythmbox3', 'org-kde-ktorrent', 'linked', 'org-b3log-siyuan', 'helium', 'brave-origin', 'com-google-chrome', 'superproductivity', 'org-telegram-desktop', 'org-mozilla-firefox', 'co-hyprlab-hylki', 'ticktick', 'org-gnome-extensions', 'prism', 'com-desktop-ding', 'io-github-tuner-labs-tuner', 'brave-hnpfjngllnobngcgfapefoaidbinmjnm-default', 'google-chrome-beta']
+application-children=['org-gnome-tweaks', 'org-gnome-shell-extensions', 'snapd-desktop-integration-snapd-desktop-integration', 'org-gnome-ptyxis', 'org-gnome-nautilus', 'spotify', 'uget-gtk', 'update-manager', 'org-gnome-clocks', 'org-gnome-software', 'google-chrome', 'chrome-hnpfjngllnobngcgfapefoaidbinmjnm-default', 'app-zen-browser-zen', 'io-github-giantpinkrobots-varia', 'com-github-gabutakut-gabutdm', 'windscribe', 'com-mattjakeman-extensionmanager', 'org-qbittorrent-qbittorrent', 'firefox', 'calibre-gui', 'gnome-wellbeing-panel', 'com-github-fontmanager-fontmanager', 'gnome-power-panel', 'org-gnome-baobab', 'org-chromium-chromium', 'ca-desrt-dconf-editor', 'discord', 'org-telegram-desktop-3e485da34fc040f9218e3891ecde1e6c', 'org-gnome-dejadup', 'gnome-printers-panel', 'hplip', 'thunderbird', 'com-github-fontmanager-fontviewer', 'org-gnome-characters', 'org-gnome-pomodoro', 'io-gitlab-news-flash-newsflash', 'io-github-vikdevelop-savedesktop', 'io-github-redddfoxxyy-samaya', 'org-gnome-rhythmbox3', 'org-kde-ktorrent', 'linked', 'org-b3log-siyuan', 'helium', 'brave-origin', 'com-google-chrome', 'superproductivity', 'org-telegram-desktop', 'org-mozilla-firefox', 'co-hyprlab-hylki', 'ticktick', 'org-gnome-extensions', 'prism', 'com-desktop-ding', 'io-github-tuner-labs-tuner', 'brave-hnpfjngllnobngcgfapefoaidbinmjnm-default', 'google-chrome-beta', 'ai-opencode-desktop', 'gnome-about-panel', 'chrome-hnpfjngllnobngcgfapefoaidbinmjnm-profile-1']
 show-banners=true
+
+[org/gnome/desktop/notifications/application/ai-opencode-desktop]
+application-id='ai.opencode.desktop.desktop'
 
 [org/gnome/desktop/notifications/application/app-zen-browser-zen]
 application-id='app.zen_browser.zen.desktop'
@@ -500,6 +508,9 @@ application-id='calibre-gui.desktop'
 
 [org/gnome/desktop/notifications/application/chrome-hnpfjngllnobngcgfapefoaidbinmjnm-default]
 application-id='chrome-hnpfjngllnobngcgfapefoaidbinmjnm-Default.desktop'
+
+[org/gnome/desktop/notifications/application/chrome-hnpfjngllnobngcgfapefoaidbinmjnm-profile-1]
+application-id='chrome-hnpfjngllnobngcgfapefoaidbinmjnm-Profile_1.desktop'
 
 [org/gnome/desktop/notifications/application/co-hyprlab-hylki]
 application-id='co.hyprlab.Hylki.desktop'
@@ -710,7 +721,7 @@ unmaximize=@as []
 
 [org/gnome/desktop/wm/preferences]
 action-middle-click-titlebar='toggle-maximize'
-button-layout='appmenu:minimize,maximize,close'
+button-layout='close,minimize,maximize:appmenu'
 focus-mode='click'
 resize-with-right-button=true
 
@@ -879,8 +890,8 @@ resources-mem-expanded=true
 resources-net-expanded=true
 show-dependencies=true
 show-whose-processes='all'
-window-height=825
-window-width=1388
+window-height=860
+window-width=1147
 
 [org/gnome/gnome-system-monitor/disksview]
 sort-col='device'
@@ -1020,7 +1031,7 @@ use-tree-view=true
 [org/gnome/nautilus/preferences]
 click-policy='double'
 date-time-format='detailed'
-default-folder-viewer='icon-view'
+default-folder-viewer='list-view'
 migrated-gtk-settings=true
 search-filter-time-type='last_modified'
 show-create-link=true
@@ -1058,7 +1069,7 @@ night-mode=false
 [org/gnome/papers/default]
 annot-color='yellow'
 continuous=true
-dual-page=false
+dual-page=true
 dual-page-odd-left=true
 enable-spellchecking=true
 eraser-mode-objects='true'
@@ -1131,7 +1142,7 @@ last-folder-path='/home/earth/Pictures/mypics'
 last-folder-path='/home/earth/Music'
 
 [org/gnome/portal/filechooser/com.google.Chrome.beta]
-last-folder-path='/home/earth/Downloads/Compressed/groupbuytools/groupbuytools.in  Ex 2/groupbuytools.in  Ex 2'
+last-folder-path='/home/earth/workspace/dsa-practice/From Scratch/LinkedList/2026( recap)/DSA'
 
 [org/gnome/portal/filechooser/com.google.Chrome]
 last-folder-path='/home/earth/Downloads'
@@ -1140,7 +1151,7 @@ last-folder-path='/home/earth/Downloads'
 last-folder-path='/home/earth/Documents/Logseq-Notes'
 
 [org/gnome/portal/filechooser/com.microsoft.VSCode]
-last-folder-path='/home/earth/workspace/dsa-practice'
+last-folder-path='/home/earth/GNOME-Configuration-Backup'
 
 [org/gnome/portal/filechooser/com.microsoft.VSCodeInsiders]
 last-folder-path='/home/earth/workspace/dsa-practice'
@@ -1339,7 +1350,7 @@ night-light-schedule-to=0.0
 night-light-temperature=uint32 3370
 
 [org/gnome/settings-daemon/plugins/housekeeping]
-donation-reminder-last-shown=int64 1778426931193660
+donation-reminder-last-shown=int64 1795003373709925
 
 [org/gnome/settings-daemon/plugins/media-keys]
 control-center=['<Super>i']
@@ -1369,8 +1380,8 @@ command='win11-clipboard-history'
 name='Clipboard History'
 
 [org/gnome/settings-daemon/plugins/power]
-sleep-inactive-ac-timeout=3600
-sleep-inactive-ac-type='nothing'
+sleep-inactive-ac-timeout=2700
+sleep-inactive-ac-type='suspend'
 
 [org/gnome/settings-daemon/plugins/sharing/rygel]
 enabled-connections=@as []
@@ -1380,8 +1391,8 @@ app-picker-layout=[{'d16e2496-eedd-4088-ba5f-c39f0c9fd16d': <{'position': <0>}>,
 command-history=['r', 'echo $XDG_SESSION_TYPE', 'lg']
 disable-user-extensions=false
 disabled-extensions=['notification-timeout@chlumskyvaclav.gmail.com', 'monitor@astraext.github.io', 'just_shows_memory_usage@troizet.github.com', 'snapd-prompting@canonical.com', 'applications-overview-tooltip@RaphaelRochet', 'hidetopbar@mathieu.bidon.ca', 'volume_scroller@francislavoie.github.io', 'aztaskbar@aztaskbar.gitlab.com', 'clipboard-indicator@tudmotu.com', 'mediacontrols@cliffniff.github.com', 'dropbeat@romanlefler.com', 'kiwi@kemma', 'pomodoro@zhuravkovigor.dev', 'focuslock@kavinda', 'clipmaster@gnome.extension', 'appgridbuttonintoppanel@raphaelian', 'timeFromStart@pic16f877ccs.github.com', 'mute-unmute@mcast.gnomext.com', '1440@ravener.github.com', 'vertical-app-grid@lublst.github.io', 'app-grid-tuner@m-lab', 'ding@rastersoft.com', 'day-progress@arcaege.github.io', 'pomodoro@youcefzaid.github.io', 'chronos@time-tracker.com', 'quickshutdownbutton@feelfree2useit.outlook.com', 'background-logo@fedorahosted.org', 'mirror@distro.com', 'brightness-step@sholehbaktiabadi.github.io', 'logout-in-power-menu@codegod100.github.io', 'one-thing@github.com', 'notedock@joquers.github.io', 'syncthing@gnome.2nv2u.com', 'notes-with-history@grizzlysmit.smit.id.au', 'wellbeingtoggle@m51.io', 'wetter@mlkonrad.github.com', 'dynamic-music-pill@andbal', 'media-controller@naimur', 'awesome-media-controller@devduo-org', 'flickernaut@imoize.github.io', 'glidedock@bquangthien25.github.io', 'all-in-one-clipboard@NiffirgkcaJ.github.com', 'Move_Clock@rmy.pobox.com', 'global-menu@unmade.space', 'zclock@lorens', 'transparent-window-moving@noobsai.github.com', 'todoit@wassimbj.github.io', 'window-list@gnome-shell-extensions.gcampax.github.com', 'rounded-window-corners@ztrahmet.github.io', 'apps-menu@gnome-shell-extensions.gcampax.github.com', 'unified-panel@aleixenandros.me']
-enabled-extensions=['launch-new-instance@gnome-shell-extensions.gcampax.github.com', 'just-perfection-desktop@just-perfection', 'update-extension@purejava.org', 'tweaks-system-menu@extensions.gnome-shell.fifi.org', 'drive-menu@gnome-shell-extensions.gcampax.github.com', 'open-desktop-location@laura.media', 'apt-update-indicator@franglais125.gmail.com', 'updateindicator@aegirxx.googlemail.com', 'new-apt-update-indicator@hamburgerjungejr', 'systemd-offline-update@swsnr.de', 'disconnect-wifi@kgshank.net', 'media-progress@krypion17', 'gnome-shell-trash-extension', 'mprisLabel@moon-0xff.github.com', 'gspotify@sogi.is-a.dev', 'apps@github.com.howbea', 'egg-timer@gregorriegler.com', 'custom-osd@neuromorph', 'quicknotes@dsabolo.github.io', 'right-click-next@derVedro', 'fq@megh', 'bettervolume@tudmotu.com', 'floating-mini-panel@ghi59.github.com', 'adaptive-brightness@dmy3k.github.io', 'rounded-window-corners@yilozt', 'batteryIcon@slim8916.github.io', 'gnome-ui-tune@itstime.tech', 'cronomix@zagortenay333', 'battery-indicator-icon@Deminder', 'BringOutSubmenuOfPowerOffLogoutButton@pratap.fastmail.fm', 'night-light-scroll@fthx', 'notification-banner-reloaded@marcinjakubowski.github.com', 'night-light-slider-updated@vilsbeg.codeberg.org', 'clipflow-pro@nickotmazgin.github.io', 'AlphabeticalAppGrid@stuarthayhurst', 'no-titlebar-when-maximized@alec.ninja', 'status-icons@gnome-shell-extensions.gcampax.github.com', 'simple-timer@majortomvr.github.com', 'bottom-dash-panel@fthx', 'add-to-desktop@tommimon.github.com', 'panelcolor@itsfernn', 'blur-my-shell@aunetx', 'pomodoro-timer@Oguzhankokulu.github.com', 'hide-keyboard-layout@sitnik.ru', 'restartto@tiagoporsch.github.io', 'mediaseekbar@carlosjdelgado', 'slider-percentages@imdarktom', 'trayIconsReloaded@selfmade.pl', 'avatar-quick-settings@github.leginreklaw', 'copyous@boerdereinar.dev', 'Bluetooth-Battery-Meter@maniacx.github.com', 'bluetooth-battery@michalw.github.com', 'sticky-notes-integration@joaocandre', 'active-app-indicator@morhenac', 'docker@stickman_0x00.com', 'modernclock@gnome-port', 'emoji-copy@felipeftn', 'custom-hot-corners-extended@G-dH.github.com', 'panelnote-extended@qomarhsn.com', 'globalmenu@ShiroOSL.github.io', 'wireless-hid@chlumskyvaclav.gmail.com', 'screenshort-cut@pauloimon', 'reboottouefi@ubaygd.com', 'fnlock-switch-tp-comp-usb-kb@goloshubov.github.io', 'weatherglass@vijaybala.dev', 'compact-quick-settings@gnome-shell-extensions.mariospr.org', 'gnome-transparent-windows@sonersg.com', 'show-desktop-button@amivaleo', 'sanket@narkagni', 'dash-to-panel@jderose9.github.com', 'window-control@carlo9890.github.io', 'nvidia-smi@nyndow.github.io', 'gnome-muzei-wallpaper@komfushee', 'window-padding@pvlamkhtn.github.io', 'password-generator@loginone', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'show-desktop-from-overview@linuxitos.local', 'restart-button@local', 'gtk4-ding@smedius.gitlab.com', 'advanced-media-controller@sanjai.com', 'shell-recent-opened@lsantiagoba', 'simple-taskbar@sultech', 'dash2dock-lite@icedman.github.com', 'macos-dock@vinnytherobot.github.io', 'native-dock@mawi.ink', 'docka@devster3000', 'gnomelets@mcast.gnomext.com', 'openbar@neuromorph', 'aurora-shell@luminusos.github.io', 'ankh-do@thesant0x.github.io', 'desktop-world-clocks@infamous-pattern.github.io', 'mantel@jith.github.io', 'quicknotes@cloudchitect.com', 'dock-window-preview@quivio', 'weatherpanel@attentivecoder', 'weather-prime@weather-prime', 'ddterm@amezin.github.com', 'taskdock@joquers.github.io', 'glean@gunwald.gitlab.com', '4ever@4ever-extension.stradios', 'dash-to-dock@micxgx.gmail.com', 'activityOrganizer@sainathmurali.github.io', 'wifi-gen-badge@ponez.github.io', 'tray-drawer@igorcardosoy', 'quick-settings-tray@soltros', 'appindicatorsupport@rgcjonas.gmail.com', 'transparent-move@edjenn1998', 'rounded-windows@marcosgt.github.io', 'Rounded_Corners@lennart-k', 'sound-percentage@subashghimire.info.np', 'todav@aperte.dev', 'rss-feed@gnome-shell-extension.todevelopers.github.com', 'osd-volume-number@deminder', 'window-nativizer@everyx.github.io', 'todo.txt@bart.libert.gmail.com', 'sound-percentage@maestroschan.fr', 'glyphous@supsugam.github.com', 'drop-to-shell@gunwald.gitlab.com', 'gnome-center@smsanagustin.github.io', 'winzones@euschi.github.io', 'window-title-pro@eprahemi.github.io', 'panel-corners@aunetx', 'rounded-window-corners@fxgn', 'sysmonitor@talhasiddique7', 'system-monitor-panel@naimur', 'Vitals@CoreCoding.com', 'places-menu@gnome-shell-extensions.gcampax.github.com', 'status-tray@keithvassallo.com', 'lid-switch@dhyandevp', 'calculator-extension@edjenn1998.github.io', 'ClipboardManger@hossamasr.com', 'quick-settings-tweaks@qwreey', 'silver-dock@simonlinuxcraft.github.io', 'sticky-notes@johanan.in', 'tilingshell@ferrarodomenico.com', 'keyboard_modifiers_status@sneetsher', 'laccy@mlkonrad.github.com']
-favorite-apps=['net.nokyan.Resources.desktop', 'btop.desktop', 'org.gnome.Ptyxis.desktop', 'org.gnome.Nautilus.desktop', 'com.microsoft.VSCodeInsiders.desktop', 'google-chrome-beta.desktop', 'brave-origin.desktop', 'helium.desktop', 'com.bitwarden.desktop.desktop', 'io.github.tanaybhomia.Whisp.desktop', 'org.gnome.TextEditor.desktop', 'co.hyprlab.Hylki.desktop', 'de.wwwtech.gitte.desktop', 'chrome-hnpfjngllnobngcgfapefoaidbinmjnm-Profile_1.desktop', 'onlyoffice-desktopeditors.desktop', 'brave-hnpfjngllnobngcgfapefoaidbinmjnm-Default.desktop']
+enabled-extensions=['launch-new-instance@gnome-shell-extensions.gcampax.github.com', 'just-perfection-desktop@just-perfection', 'update-extension@purejava.org', 'tweaks-system-menu@extensions.gnome-shell.fifi.org', 'drive-menu@gnome-shell-extensions.gcampax.github.com', 'open-desktop-location@laura.media', 'apt-update-indicator@franglais125.gmail.com', 'updateindicator@aegirxx.googlemail.com', 'new-apt-update-indicator@hamburgerjungejr', 'systemd-offline-update@swsnr.de', 'disconnect-wifi@kgshank.net', 'media-progress@krypion17', 'gnome-shell-trash-extension', 'mprisLabel@moon-0xff.github.com', 'gspotify@sogi.is-a.dev', 'apps@github.com.howbea', 'egg-timer@gregorriegler.com', 'custom-osd@neuromorph', 'quicknotes@dsabolo.github.io', 'right-click-next@derVedro', 'fq@megh', 'bettervolume@tudmotu.com', 'floating-mini-panel@ghi59.github.com', 'adaptive-brightness@dmy3k.github.io', 'rounded-window-corners@yilozt', 'batteryIcon@slim8916.github.io', 'gnome-ui-tune@itstime.tech', 'cronomix@zagortenay333', 'battery-indicator-icon@Deminder', 'BringOutSubmenuOfPowerOffLogoutButton@pratap.fastmail.fm', 'night-light-scroll@fthx', 'notification-banner-reloaded@marcinjakubowski.github.com', 'night-light-slider-updated@vilsbeg.codeberg.org', 'clipflow-pro@nickotmazgin.github.io', 'AlphabeticalAppGrid@stuarthayhurst', 'no-titlebar-when-maximized@alec.ninja', 'status-icons@gnome-shell-extensions.gcampax.github.com', 'simple-timer@majortomvr.github.com', 'bottom-dash-panel@fthx', 'add-to-desktop@tommimon.github.com', 'panelcolor@itsfernn', 'blur-my-shell@aunetx', 'pomodoro-timer@Oguzhankokulu.github.com', 'hide-keyboard-layout@sitnik.ru', 'restartto@tiagoporsch.github.io', 'mediaseekbar@carlosjdelgado', 'slider-percentages@imdarktom', 'trayIconsReloaded@selfmade.pl', 'avatar-quick-settings@github.leginreklaw', 'copyous@boerdereinar.dev', 'Bluetooth-Battery-Meter@maniacx.github.com', 'bluetooth-battery@michalw.github.com', 'sticky-notes-integration@joaocandre', 'active-app-indicator@morhenac', 'docker@stickman_0x00.com', 'modernclock@gnome-port', 'emoji-copy@felipeftn', 'custom-hot-corners-extended@G-dH.github.com', 'panelnote-extended@qomarhsn.com', 'globalmenu@ShiroOSL.github.io', 'wireless-hid@chlumskyvaclav.gmail.com', 'screenshort-cut@pauloimon', 'reboottouefi@ubaygd.com', 'fnlock-switch-tp-comp-usb-kb@goloshubov.github.io', 'weatherglass@vijaybala.dev', 'compact-quick-settings@gnome-shell-extensions.mariospr.org', 'gnome-transparent-windows@sonersg.com', 'show-desktop-button@amivaleo', 'sanket@narkagni', 'dash-to-panel@jderose9.github.com', 'window-control@carlo9890.github.io', 'nvidia-smi@nyndow.github.io', 'gnome-muzei-wallpaper@komfushee', 'window-padding@pvlamkhtn.github.io', 'password-generator@loginone', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'show-desktop-from-overview@linuxitos.local', 'restart-button@local', 'gtk4-ding@smedius.gitlab.com', 'advanced-media-controller@sanjai.com', 'shell-recent-opened@lsantiagoba', 'simple-taskbar@sultech', 'dash2dock-lite@icedman.github.com', 'macos-dock@vinnytherobot.github.io', 'native-dock@mawi.ink', 'docka@devster3000', 'gnomelets@mcast.gnomext.com', 'openbar@neuromorph', 'aurora-shell@luminusos.github.io', 'ankh-do@thesant0x.github.io', 'desktop-world-clocks@infamous-pattern.github.io', 'mantel@jith.github.io', 'quicknotes@cloudchitect.com', 'dock-window-preview@quivio', 'weatherpanel@attentivecoder', 'weather-prime@weather-prime', 'ddterm@amezin.github.com', 'taskdock@joquers.github.io', 'glean@gunwald.gitlab.com', '4ever@4ever-extension.stradios', 'dash-to-dock@micxgx.gmail.com', 'activityOrganizer@sainathmurali.github.io', 'wifi-gen-badge@ponez.github.io', 'tray-drawer@igorcardosoy', 'quick-settings-tray@soltros', 'appindicatorsupport@rgcjonas.gmail.com', 'transparent-move@edjenn1998', 'rounded-windows@marcosgt.github.io', 'Rounded_Corners@lennart-k', 'sound-percentage@subashghimire.info.np', 'todav@aperte.dev', 'rss-feed@gnome-shell-extension.todevelopers.github.com', 'osd-volume-number@deminder', 'window-nativizer@everyx.github.io', 'todo.txt@bart.libert.gmail.com', 'sound-percentage@maestroschan.fr', 'glyphous@supsugam.github.com', 'drop-to-shell@gunwald.gitlab.com', 'gnome-center@smsanagustin.github.io', 'winzones@euschi.github.io', 'window-title-pro@eprahemi.github.io', 'panel-corners@aunetx', 'rounded-window-corners@fxgn', 'sysmonitor@talhasiddique7', 'system-monitor-panel@naimur', 'Vitals@CoreCoding.com', 'places-menu@gnome-shell-extensions.gcampax.github.com', 'status-tray@keithvassallo.com', 'lid-switch@dhyandevp', 'calculator-extension@edjenn1998.github.io', 'ClipboardManger@hossamasr.com', 'quick-settings-tweaks@qwreey', 'silver-dock@simonlinuxcraft.github.io', 'sticky-notes@johanan.in', 'tilingshell@ferrarodomenico.com', 'keyboard_modifiers_status@sneetsher', 'laccy@mlkonrad.github.com', 'litsycal@mlkonrad.github.com', 'focus-timer@focustimerhq.github.io', 'ampere@crian', 'altf4-power-menu@alphabeast97.github.io']
+favorite-apps=['net.nokyan.Resources.desktop', 'btop.desktop', 'org.gnome.Ptyxis.desktop', 'org.gnome.Nautilus.desktop', 'com.microsoft.VSCode.desktop', 'google-chrome-beta.desktop', 'brave-origin.desktop', 'helium.desktop', 'com.bitwarden.desktop.desktop', 'io.github.tanaybhomia.Whisp.desktop', 'org.gnome.TextEditor.desktop', 'co.hyprlab.Hylki.desktop', 'de.wwwtech.gitte.desktop', 'chrome-hnpfjngllnobngcgfapefoaidbinmjnm-Profile_1.desktop', 'onlyoffice-desktopeditors.desktop', 'brave-hnpfjngllnobngcgfapefoaidbinmjnm-Default.desktop']
 last-selected-power-profile='power-saver'
 looking-glass-history=['ps -o pid,rss,cmd -C gnome-shell']
 welcome-dialog-last-shown-version='48.4'
@@ -1460,6 +1471,13 @@ unpin-on-paste=false
 
 [org/gnome/shell/extensions/alphabetical-app-grid]
 sort-folder-contents=true
+
+[org/gnome/shell/extensions/altf4-power-menu]
+last-action='power-off'
+shortcut-binding=['<Shift>0x8']
+
+[org/gnome/shell/extensions/ampere]
+placement='quick-settings'
 
 [org/gnome/shell/extensions/app-grid-tuner]
 app-icon-font-size=12.0
@@ -2471,7 +2489,7 @@ custom-clock=false
 layout=['notifications:left', 'calendar:left', 'header:right', 'media:right', 'quick-settings:right']
 
 [org/gnome/shell/extensions/user-theme]
-name='Orchis-Grey-Dark-Nord'
+name='Layan-Dark'
 
 [org/gnome/shell/extensions/vertical-app-grid]
 app-sorting='usage'
@@ -2508,9 +2526,9 @@ temperature-unit='celsius'
 auto-location=true
 condition-strip='icons'
 hour-format='24h'
-live-night=false
-live-scene='sun'
-live-temp=23.899999999999999
+live-night=true
+live-scene='moon'
+live-temp=26.5
 menu-style='animated'
 text-emboss=false
 
@@ -2596,16 +2614,18 @@ library-maximize=false
 library-width=1920
 
 [org/gnome/simple-scan]
+brightness=0
+contrast=0
 document-type='photo'
-jpeg-quality=78
+jpeg-quality=100
 paper-height=2970
 paper-width=2100
-photo-dpi=300
+photo-dpi=1200
 postproc-enabled=true
 save-directory='file:///home/raj/'
 save-format='image/png'
 selected-device='airscan:e2:HP DeskJet 4720 series [B22A21]'
-text-dpi=300
+text-dpi=600
 
 [org/gnome/software]
 check-timestamp=int64 1766953896

@@ -70,6 +70,13 @@ unpin-on-paste=false
 [alphabetical-app-grid]
 sort-folder-contents=true
 
+[altf4-power-menu]
+last-action='power-off'
+shortcut-binding=['<Shift>0x8']
+
+[ampere]
+placement='quick-settings'
+
 [app-grid-tuner]
 app-icon-font-size=12.0
 appgrid-icon-size=80
@@ -1080,7 +1087,7 @@ custom-clock=false
 layout=['notifications:left', 'calendar:left', 'header:right', 'media:right', 'quick-settings:right']
 
 [user-theme]
-name='Orchis-Grey-Dark-Nord'
+name='Layan-Dark'
 
 [vertical-app-grid]
 app-sorting='usage'
@@ -1117,9 +1124,9 @@ temperature-unit='celsius'
 auto-location=true
 condition-strip='icons'
 hour-format='24h'
-live-night=false
-live-scene='sun'
-live-temp=23.899999999999999
+live-night=true
+live-scene='moon'
+live-temp=26.5
 menu-style='animated'
 text-emboss=false
 
