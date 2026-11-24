@@ -2,12 +2,12 @@
 CodeNewRoman
 
 /usr/local/share/fonts/truetype:
+FantasqueSansMono
 GoogleSansCode
 JetBrainsMono
 NerdFontsSymbolsOnly
-Pliant
 RobotoMono
-SN_Pro
+SourceCodePro
 
 /usr/share/fonts/:
 aajohan-comfortaa-fonts

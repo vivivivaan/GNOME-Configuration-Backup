@@ -75,7 +75,7 @@ last-action='power-off'
 shortcut-binding=['<Shift>0x8']
 
 [ampere]
-placement='quick-settings'
+placement='separate'
 
 [app-grid-tuner]
 app-icon-font-size=12.0
@@ -733,6 +733,7 @@ support-notifier-type=0
 window-demands-attention-focus=true
 window-picker-icon=true
 workspace-switcher-should-show=false
+workspace-switcher-size=0
 workspace-wrap-around=true
 
 [just-shows-memory-usage]
@@ -1124,9 +1125,9 @@ temperature-unit='celsius'
 auto-location=true
 condition-strip='icons'
 hour-format='24h'
-live-night=true
-live-scene='moon'
-live-temp=26.5
+live-night=false
+live-scene='cloud'
+live-temp=30.0
 menu-style='animated'
 text-emboss=false
 
