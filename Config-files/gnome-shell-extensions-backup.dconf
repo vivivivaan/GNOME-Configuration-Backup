@@ -749,6 +749,9 @@ corner-radius=11
 
 [mantel]
 autohide=false
+borrowed-action-double-click-titlebar='toggle-maximize'
+borrowed-button-layout='appmenu:minimize,maximize,close'
+borrowed-focus-mode='click'
 
 [media-controller]
 card-art-backdrop=true
@@ -1128,7 +1131,7 @@ condition-strip='icons'
 hour-format='24h'
 live-night=false
 live-scene='sun'
-live-temp=27.399999999999999
+live-temp=28.300000000000001
 menu-style='animated'
 text-emboss=false
 
@@ -1151,6 +1154,7 @@ use-current-location=false
 window-rules=@a{sa{ss}} {}
 
 [window-padding]
+enabled=true
 padding-bottom=1
 padding-left=1
 padding-right=1

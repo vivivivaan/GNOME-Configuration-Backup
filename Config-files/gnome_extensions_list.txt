@@ -14,7 +14,7 @@ user-theme@gnome-shell-extensions.gcampax.github.com
   URL: https://gitlab.gnome.org/GNOME/gnome-shell-extensions
   Version: 51.0 (78)
   Enabled: Yes
-  State: ERROR
+  State: ACTIVE
 
 drive-menu@gnome-shell-extensions.gcampax.github.com
   Name: Removable Drive Menu
@@ -408,7 +408,12 @@ dock-window-preview@quivio
 
 mantel@jith.github.io
   Name: Mantel
-  Description: Numbered workspaces in the top bar, a top bar that gets out of the way, and windows tiled as they open. Use any of them, or all three.
+  Description: Hyprland-style auto-tiling for GNOME, plus numbered workspaces in the top bar, a top bar that gets out of the way, and a logout that waits for apps with unsaved work. Use any of them, or all of them.
+
+AUTO-TILING
+Windows are laid out as they open, in the style of Hyprland's dwindle layout: each new window splits the focused one, and closing a window gives its space back. It works with every kind of app: GTK, Qt, Electron and Chromium apps such as VS Code and Codex, and X11 apps under XWayland. Focus follows the mouse, and keys move focus, swap, resize, float and maximize windows; both can be changed. Small utility apps open floating, and the list can be edited. The layout comes back as it was when the screen is unlocked.
+
+While auto-tiling is on, the minimize and maximize buttons and edge tiling are switched off, since they would take a window out of the layout, and given back when it is turned off. Apps that draw their own buttons, such as Electron apps, keep them, but minimizing or maximizing no longer takes a window out of its tile. Super+Alt+F still maximizes.
 
 WORKSPACE NUMBERS
 See which workspace you are on at a glance, instead of counting dots.
@@ -421,15 +426,13 @@ The bar stays visible while nothing is in its way, and slides away when a window
 
 While auto-hide is on, windows use the full height of the screen and the bar floats above them, so nothing resizes when you peek at the clock.
 
-AUTO-TILING (off by default)
-Windows are laid out as they open, in the style of Hyprland's dwindle layout: each new window splits the focused one, and closing a window gives its space back. Focus follows the mouse, and keys move focus, swap, resize, float and maximize windows; both can be changed. Small utility apps open floating, and the list can be edited. The layout comes back as it was when the screen is unlocked.
-
-While auto-tiling is on, the minimize and maximize buttons and edge tiling are switched off, since they would take a window out of the layout, and given back when it is turned off.
+ASK APPS BEFORE LOGGING OUT
+Logging out, powering off or restarting first closes every app the way you would by hand. If an app asks about unsaved work, such as Save changes? or Close all tabs?, the logout is cancelled, the app is brought forward and a warning says which apps are waiting.
 
 Each feature can be turned off individually in Preferences.
   Path: /home/earth/.local/share/gnome-shell/extensions/mantel@jith.github.io
   URL: https://github.com/jith/mantel
-  Version: 2.3 (8)
+  Version: 2.3.1 (9)
   Enabled: Yes
   State: ACTIVE
 
