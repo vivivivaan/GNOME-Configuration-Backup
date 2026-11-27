@@ -14,7 +14,7 @@ user-theme@gnome-shell-extensions.gcampax.github.com
   URL: https://gitlab.gnome.org/GNOME/gnome-shell-extensions
   Version: 51.0 (78)
   Enabled: Yes
-  State: ACTIVE
+  State: ERROR
 
 drive-menu@gnome-shell-extensions.gcampax.github.com
   Name: Removable Drive Menu
@@ -295,7 +295,7 @@ reboottouefi@ubaygd.com
   Description: Reboot system into UEFI
   Path: /home/earth/.local/share/gnome-shell/extensions/reboottouefi@ubaygd.com
   URL: https://github.com/UbayGD/reboottouefi
-  Version: 28
+  Version: 29
   Enabled: Yes
   State: ACTIVE
 
@@ -501,9 +501,11 @@ rounded-window-corners@fxgn
 sticky-notes@johanan.in
   Name: Sticky Notes
   Description: Sticky notes on the desktop, in soft pastel colors. Notes stay off the dock, the app switcher, and the overview.
+
+Clipboard: cut, copy, and paste in a note read and write the system clipboard, only when you use them.
   Path: /home/earth/.local/share/gnome-shell/extensions/sticky-notes@johanan.in
   URL: https://github.com/johanan-23/gnome-sticky-notes
-  Version: 4
+  Version: 7
   Enabled: Yes
   State: ACTIVE
 
