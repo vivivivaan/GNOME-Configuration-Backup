@@ -748,13 +748,11 @@ show-window-controls=false
 corner-radius=11
 
 [mantel]
-auto-tile=true
+auto-tile=false
 autohide=false
 border=1
-borrowed-action-double-click-titlebar='toggle-maximize'
-borrowed-button-layout='appmenu:minimize,maximize,close'
-borrowed-focus-mode='click'
 gap=1
+saved-layout='{"trees":[["0:0",{"horizontal":true,"ratio":0.8112617309697602,"children":[1335062960,1335062975]}],["1:0",1335062977]],"floating":[1335062981],"popped":[],"scratch":[],"pseudo":[],"maximized":[],"untiled":[[1335062960,1,27,1918,1052],[1335062975,482,28,957,1050],[1335062977,482,28,957,1050]]}'
 
 [media-controller]
 card-art-backdrop=true
