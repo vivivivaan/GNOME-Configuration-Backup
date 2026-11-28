@@ -748,9 +748,13 @@ show-window-controls=false
 corner-radius=11
 
 [mantel]
-auto-tile=false
+auto-tile=true
 autohide=false
-saved-layout='{"trees":[["0:0",{"horizontal":true,"ratio":0.1903023983315954,"children":[381393231,381393232]}],["1:0",381393234]],"floating":[381393236],"popped":[],"scratch":[],"pseudo":[],"maximized":[],"untiled":[[381393231,483,29,955,1049],[381393232,1,27,961,1071],[381393234,1,27,1918,1052]]}'
+border=1
+borrowed-action-double-click-titlebar='toggle-maximize'
+borrowed-button-layout='appmenu:minimize,maximize,close'
+borrowed-focus-mode='click'
+gap=1
 
 [media-controller]
 card-art-backdrop=true
@@ -1130,7 +1134,7 @@ condition-strip='icons'
 hour-format='24h'
 live-night=false
 live-scene='sun'
-live-temp=28.300000000000001
+live-temp=27.800000000000001
 menu-style='animated'
 text-emboss=false
 

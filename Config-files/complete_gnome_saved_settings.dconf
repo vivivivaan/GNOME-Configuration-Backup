@@ -218,7 +218,7 @@ restore-session=true
 restore-window-size=false
 scrollbar-policy='system'
 use-system-font=false
-window-size=(uint32 212, uint32 49)
+window-size=(uint32 105, uint32 49)
 
 [org/gnome/Ptyxis/Profiles/'f2934b33b5178457f29b4e8068d611e4']
 opacity=0.94999999999999996
@@ -248,7 +248,8 @@ last-save-directory='file:///home/earth'
 right-margin-position=uint32 140
 show-line-numbers=true
 show-map=true
-style-scheme='Adwaita-dark'
+show-right-margin=false
+style-scheme='oblivion'
 use-system-font=false
 
 [org/gnome/Totem]
@@ -304,7 +305,7 @@ size=(806, 539)
 
 [org/gnome/control-center]
 last-panel='wifi'
-window-state=(954, 1048, true)
+window-state=(1290, 928, false)
 
 [org/gnome/deja-dup]
 backend='drive'
@@ -729,8 +730,10 @@ switch-applications=['<Alt>Tab', '<Super>Tab']
 unmaximize=@as []
 
 [org/gnome/desktop/wm/preferences]
+action-double-click-titlebar='none'
 action-middle-click-titlebar='toggle-maximize'
-button-layout='appmenu:minimize,maximize,close'
+button-layout='appmenu:close'
+focus-mode='sloppy'
 resize-with-right-button=true
 
 [org/gnome/epiphany]
@@ -1046,9 +1049,9 @@ show-create-link=true
 show-delete-permanently=true
 
 [org/gnome/nautilus/window-state]
-initial-size=(1447, 985)
+initial-size=(1307, 878)
 initial-size-file-chooser=(1232, 774)
-maximized=true
+maximized=false
 
 [org/gnome/nm-applet/eap/16bf7481-6b91-4cea-abc0-242279568b55]
 ignore-ca-cert=false
@@ -1087,12 +1090,12 @@ pen-color='blue'
 pen-stroke=1.0
 show-sidebar=true
 sidebar-page='links'
-sizing-mode='free'
+sizing-mode='automatic'
 text-color='blue'
 window-height=1049
 window-maximized=true
 window-width=1918
-zoom=0.83161032229427578
+zoom=0.44127822875121975
 
 [org/gnome/papers/previewer]
 window-height=1000
@@ -1154,7 +1157,7 @@ last-folder-path='/home/earth/Pictures/mypics'
 last-folder-path='/home/earth/Music'
 
 [org/gnome/portal/filechooser/com.google.Chrome.beta]
-last-folder-path='/home/earth/GNOME-Configuration-Backup/Config-files'
+last-folder-path='/home/earth/Downloads'
 
 [org/gnome/portal/filechooser/com.google.Chrome]
 last-folder-path='/home/earth/Downloads'
@@ -1163,7 +1166,7 @@ last-folder-path='/home/earth/Downloads'
 last-folder-path='/home/earth/Documents/Logseq-Notes'
 
 [org/gnome/portal/filechooser/com.microsoft.VSCode]
-last-folder-path='/home/earth/GNOME-Configuration-Backup'
+last-folder-path='/home/earth/workspace/algodrill'
 
 [org/gnome/portal/filechooser/com.microsoft.VSCodeInsiders]
 last-folder-path='/home/earth/workspace/dsa-practice'
@@ -2162,9 +2165,13 @@ show-window-controls=false
 corner-radius=11
 
 [org/gnome/shell/extensions/mantel]
-auto-tile=false
+auto-tile=true
 autohide=false
-saved-layout='{"trees":[["0:0",{"horizontal":true,"ratio":0.1903023983315954,"children":[381393231,381393232]}],["1:0",381393234]],"floating":[381393236],"popped":[],"scratch":[],"pseudo":[],"maximized":[],"untiled":[[381393231,483,29,955,1049],[381393232,1,27,961,1071],[381393234,1,27,1918,1052]]}'
+border=1
+borrowed-action-double-click-titlebar='toggle-maximize'
+borrowed-button-layout='appmenu:minimize,maximize,close'
+borrowed-focus-mode='click'
+gap=1
 
 [org/gnome/shell/extensions/media-controller]
 card-art-backdrop=true
@@ -2544,7 +2551,7 @@ condition-strip='icons'
 hour-format='24h'
 live-night=false
 live-scene='sun'
-live-temp=28.300000000000001
+live-temp=27.800000000000001
 menu-style='animated'
 text-emboss=false
 
